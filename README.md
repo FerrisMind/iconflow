@@ -9,6 +9,10 @@ Enable at least one pack feature so the fonts and icon data are included.
 iconflow = { version = "0.1", features = ["all-packs"] }
 ```
 
+## Quickstart guide
+
+See `docs/quickstart.md` for a fast end-to-end setup guide and API overview.
+
 ## Core API
 
 - `fonts()` returns the enabled font assets for registered packs.
@@ -98,6 +102,8 @@ fn icon_text() -> iced::widget::Text<'static> {
 ```
 
 Runnable example: `cargo run --example iced_demo --features all-packs`
+
+Example READMEs: `examples/egui_demo/README.md`, `examples/iced_demo/README.md`.
 
 ## FAQ
 

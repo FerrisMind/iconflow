@@ -59,10 +59,10 @@ resolver = "3"
 
 [[example]]
 name = "egui_demo"
-path = "examples/egui_demo.rs"
+path = "examples/egui_demo/main.rs"
 required-features = ["all-packs"]
 
 [[example]]
 name = "iced_demo"
-path = "examples/iced_demo.rs"
+path = "examples/iced_demo/main.rs"
 required-features = ["all-packs"]
