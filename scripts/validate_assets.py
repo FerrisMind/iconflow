@@ -52,9 +52,15 @@ def load_features() -> set[str]:
         raise FileNotFoundError(f"Cargo.toml not found: {CARGO_TOML}")
     try:
         import tomllib
-    except ImportError as exc:  # pragma: no cover
-        raise SystemExit("Missing tomllib (Python 3.11+ required).") from exc
-    data = tomllib.loads(CARGO_TOML.read_text(encoding="utf-8"))
+        data = tomllib.loads(CARGO_TOML.read_text(encoding="utf-8"))
+    except ImportError:
+        try:
+            import tomli
+        except ImportError as exc:  # pragma: no cover
+            raise SystemExit(
+                "Missing tomllib/tomli. Install tomli or use Python 3.11+."
+            ) from exc
+        data = tomli.loads(CARGO_TOML.read_text(encoding="utf-8"))
     features = data.get("features", {})
     if not isinstance(features, dict):
         raise ValueError("Invalid Cargo.toml: [features] must be a table")
