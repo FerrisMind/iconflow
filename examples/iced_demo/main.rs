@@ -41,7 +41,9 @@ impl IconDemo {
         match message {
             Message::FontLoaded(result) => {
                 self.fonts_loaded += 1;
-                if let Err(err) = result && self.font_error.is_none() {
+                if let Err(err) = result
+                    && self.font_error.is_none()
+                {
                     self.font_error = Some(format!("{err:?}"));
                 }
                 Task::none()
