@@ -1,5 +1,7 @@
 # iconflow
 
+![iconflow](https://raw.githubusercontent.com/FerrisMind/iconflow/main/assets/icons/iconflow-color.png)
+
 ## Install
 
 Enable at least one pack feature so the fonts and icon data are included.
