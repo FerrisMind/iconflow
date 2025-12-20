@@ -1,6 +1,13 @@
 # iconflow
 
+<table>
+<tr>
+<td width="200" valign="top">
+
 ![iconflow](https://raw.githubusercontent.com/FerrisMind/iconflow/main/assets/icons/iconflow-color.png)
+
+</td>
+<td valign="top">
 
 ## Install
 
@@ -115,3 +122,7 @@ See `docs/faq.md`.
 
 - `cargo xtask gen` regenerates `src/generated/**` from `assets/maps/*.json`.
 - `cargo xtask gen --check` verifies generated output without writing files.
+
+</td>
+</tr>
+</table>
