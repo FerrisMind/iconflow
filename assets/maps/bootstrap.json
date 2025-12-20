@@ -1,0 +1,9874 @@
+{
+  "pack_id": "bootstrap",
+  "variants": [
+    {
+      "id": "filled",
+      "style": "Filled",
+      "size": "Regular",
+      "family": "Bootstrap Filled",
+      "ttf_asset_path": "assets/fonts/bootstrap/bootstrap-filled.ttf"
+    },
+    {
+      "id": "regular",
+      "style": "Regular",
+      "size": "Regular",
+      "family": "Bootstrap Regular",
+      "ttf_asset_path": "assets/fonts/bootstrap/bootstrap-regular.ttf"
+    }
+  ],
+  "icons": [
+    {
+      "name": "0-circle",
+      "codepoint": 57344
+    },
+    {
+      "name": "0-square",
+      "codepoint": 57345
+    },
+    {
+      "name": "1-circle",
+      "codepoint": 57346
+    },
+    {
+      "name": "1-square",
+      "codepoint": 57347
+    },
+    {
+      "name": "123",
+      "codepoint": 57348,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "2-circle",
+      "codepoint": 57349,
+      "overrides": {
+        "filled": 57348
+      }
+    },
+    {
+      "name": "2-square",
+      "codepoint": 57350,
+      "overrides": {
+        "filled": 57349
+      }
+    },
+    {
+      "name": "3-circle",
+      "codepoint": 57351,
+      "overrides": {
+        "filled": 57350
+      }
+    },
+    {
+      "name": "3-square",
+      "codepoint": 57352,
+      "overrides": {
+        "filled": 57351
+      }
+    },
+    {
+      "name": "4-circle",
+      "codepoint": 57353,
+      "overrides": {
+        "filled": 57352
+      }
+    },
+    {
+      "name": "4-square",
+      "codepoint": 57354,
+      "overrides": {
+        "filled": 57353
+      }
+    },
+    {
+      "name": "5-circle",
+      "codepoint": 57355,
+      "overrides": {
+        "filled": 57354
+      }
+    },
+    {
+      "name": "5-square",
+      "codepoint": 57356,
+      "overrides": {
+        "filled": 57355
+      }
+    },
+    {
+      "name": "6-circle",
+      "codepoint": 57357,
+      "overrides": {
+        "filled": 57356
+      }
+    },
+    {
+      "name": "6-square",
+      "codepoint": 57358,
+      "overrides": {
+        "filled": 57357
+      }
+    },
+    {
+      "name": "7-circle",
+      "codepoint": 57359,
+      "overrides": {
+        "filled": 57358
+      }
+    },
+    {
+      "name": "7-square",
+      "codepoint": 57360,
+      "overrides": {
+        "filled": 57359
+      }
+    },
+    {
+      "name": "8-circle",
+      "codepoint": 57361,
+      "overrides": {
+        "filled": 57360
+      }
+    },
+    {
+      "name": "8-square",
+      "codepoint": 57362,
+      "overrides": {
+        "filled": 57361
+      }
+    },
+    {
+      "name": "9-circle",
+      "codepoint": 57363,
+      "overrides": {
+        "filled": 57362
+      }
+    },
+    {
+      "name": "9-square",
+      "codepoint": 57364,
+      "overrides": {
+        "filled": 57363
+      }
+    },
+    {
+      "name": "activity",
+      "codepoint": 57365,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "airplane",
+      "codepoint": 57367,
+      "overrides": {
+        "filled": 57365
+      }
+    },
+    {
+      "name": "airplane-engines",
+      "codepoint": 57366,
+      "overrides": {
+        "filled": 57364
+      }
+    },
+    {
+      "name": "alarm",
+      "codepoint": 57368,
+      "overrides": {
+        "filled": 57366
+      }
+    },
+    {
+      "name": "alexa",
+      "codepoint": 57369,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "align-bottom",
+      "codepoint": 57370,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "align-center",
+      "codepoint": 57371,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "align-end",
+      "codepoint": 57372,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "align-middle",
+      "codepoint": 57373,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "align-start",
+      "codepoint": 57374,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "align-top",
+      "codepoint": 57375,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "alipay",
+      "codepoint": 57376,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "alphabet",
+      "codepoint": 57378,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "alphabet-uppercase",
+      "codepoint": 57377,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "alt",
+      "codepoint": 57379,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "amazon",
+      "codepoint": 57380,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "amd",
+      "codepoint": 57381,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "android",
+      "codepoint": 57382,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "android2",
+      "codepoint": 57383,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "anthropic",
+      "codepoint": 57384,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "app",
+      "codepoint": 57386,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "app-indicator",
+      "codepoint": 57385,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "apple",
+      "codepoint": 57388,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "apple-music",
+      "codepoint": 57387,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "archive",
+      "codepoint": 57389,
+      "overrides": {
+        "filled": 57367
+      }
+    },
+    {
+      "name": "arrow-90deg-down",
+      "codepoint": 57390,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-90deg-left",
+      "codepoint": 57391,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-90deg-right",
+      "codepoint": 57392,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-90deg-up",
+      "codepoint": 57393,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-bar-down",
+      "codepoint": 57394,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-bar-left",
+      "codepoint": 57395,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-bar-right",
+      "codepoint": 57396,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-bar-up",
+      "codepoint": 57397,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-clockwise",
+      "codepoint": 57398,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-counterclockwise",
+      "codepoint": 57399,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "codepoint": 57410,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down-circle",
+      "codepoint": 57400,
+      "overrides": {
+        "filled": 57368
+      }
+    },
+    {
+      "name": "arrow-down-left",
+      "codepoint": 57403,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down-left-circle",
+      "codepoint": 57401,
+      "overrides": {
+        "filled": 57369
+      }
+    },
+    {
+      "name": "arrow-down-left-square",
+      "codepoint": 57402,
+      "overrides": {
+        "filled": 57370
+      }
+    },
+    {
+      "name": "arrow-down-right",
+      "codepoint": 57406,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down-right-circle",
+      "codepoint": 57404,
+      "overrides": {
+        "filled": 57371
+      }
+    },
+    {
+      "name": "arrow-down-right-square",
+      "codepoint": 57405,
+      "overrides": {
+        "filled": 57372
+      }
+    },
+    {
+      "name": "arrow-down-short",
+      "codepoint": 57407,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down-square",
+      "codepoint": 57408,
+      "overrides": {
+        "filled": 57373
+      }
+    },
+    {
+      "name": "arrow-down-up",
+      "codepoint": 57409,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "codepoint": 57415,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-left-circle",
+      "codepoint": 57411,
+      "overrides": {
+        "filled": 57374
+      }
+    },
+    {
+      "name": "arrow-left-right",
+      "codepoint": 57412,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-left-short",
+      "codepoint": 57413,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-left-square",
+      "codepoint": 57414,
+      "overrides": {
+        "filled": 57375
+      }
+    },
+    {
+      "name": "arrow-repeat",
+      "codepoint": 57416,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-return-left",
+      "codepoint": 57417,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-return-right",
+      "codepoint": 57418,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "codepoint": 57422,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-right-circle",
+      "codepoint": 57419,
+      "overrides": {
+        "filled": 57376
+      }
+    },
+    {
+      "name": "arrow-right-short",
+      "codepoint": 57420,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-right-square",
+      "codepoint": 57421,
+      "overrides": {
+        "filled": 57377
+      }
+    },
+    {
+      "name": "arrow-through-heart",
+      "codepoint": 57423,
+      "overrides": {
+        "filled": 57378
+      }
+    },
+    {
+      "name": "arrow-up",
+      "codepoint": 57433,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up-circle",
+      "codepoint": 57424,
+      "overrides": {
+        "filled": 57379
+      }
+    },
+    {
+      "name": "arrow-up-left",
+      "codepoint": 57427,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up-left-circle",
+      "codepoint": 57425,
+      "overrides": {
+        "filled": 57380
+      }
+    },
+    {
+      "name": "arrow-up-left-square",
+      "codepoint": 57426,
+      "overrides": {
+        "filled": 57381
+      }
+    },
+    {
+      "name": "arrow-up-right",
+      "codepoint": 57430,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up-right-circle",
+      "codepoint": 57428,
+      "overrides": {
+        "filled": 57382
+      }
+    },
+    {
+      "name": "arrow-up-right-square",
+      "codepoint": 57429,
+      "overrides": {
+        "filled": 57383
+      }
+    },
+    {
+      "name": "arrow-up-short",
+      "codepoint": 57431,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up-square",
+      "codepoint": 57432,
+      "overrides": {
+        "filled": 57384
+      }
+    },
+    {
+      "name": "arrows",
+      "codepoint": 57443,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-angle-contract",
+      "codepoint": 57434,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-angle-expand",
+      "codepoint": 57435,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-collapse",
+      "codepoint": 57437,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-collapse-vertical",
+      "codepoint": 57436,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-expand",
+      "codepoint": 57439,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-expand-vertical",
+      "codepoint": 57438,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-fullscreen",
+      "codepoint": 57440,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-move",
+      "codepoint": 57441,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows-vertical",
+      "codepoint": 57442,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "aspect-ratio",
+      "codepoint": 57444,
+      "overrides": {
+        "filled": 57385
+      }
+    },
+    {
+      "name": "asterisk",
+      "codepoint": 57445,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "at",
+      "codepoint": 57446,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "award",
+      "codepoint": 57447,
+      "overrides": {
+        "filled": 57386
+      }
+    },
+    {
+      "name": "back",
+      "codepoint": 57448,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "backpack",
+      "codepoint": 57449,
+      "overrides": {
+        "filled": 57387
+      }
+    },
+    {
+      "name": "backpack2",
+      "codepoint": 57450,
+      "overrides": {
+        "filled": 57388
+      }
+    },
+    {
+      "name": "backpack3",
+      "codepoint": 57451,
+      "overrides": {
+        "filled": 57389
+      }
+    },
+    {
+      "name": "backpack4",
+      "codepoint": 57452,
+      "overrides": {
+        "filled": 57390
+      }
+    },
+    {
+      "name": "backspace",
+      "codepoint": 57454,
+      "overrides": {
+        "filled": 57391
+      }
+    },
+    {
+      "name": "backspace-reverse",
+      "codepoint": 57453,
+      "overrides": {
+        "filled": 57392
+      }
+    },
+    {
+      "name": "badge-3d",
+      "codepoint": 57455,
+      "overrides": {
+        "filled": 57393
+      }
+    },
+    {
+      "name": "badge-4k",
+      "codepoint": 57456,
+      "overrides": {
+        "filled": 57394
+      }
+    },
+    {
+      "name": "badge-8k",
+      "codepoint": 57457,
+      "overrides": {
+        "filled": 57395
+      }
+    },
+    {
+      "name": "badge-ad",
+      "codepoint": 57458,
+      "overrides": {
+        "filled": 57396
+      }
+    },
+    {
+      "name": "badge-ar",
+      "codepoint": 57459,
+      "overrides": {
+        "filled": 57397
+      }
+    },
+    {
+      "name": "badge-cc",
+      "codepoint": 57460,
+      "overrides": {
+        "filled": 57398
+      }
+    },
+    {
+      "name": "badge-hd",
+      "codepoint": 57461,
+      "overrides": {
+        "filled": 57399
+      }
+    },
+    {
+      "name": "badge-sd",
+      "codepoint": 57462,
+      "overrides": {
+        "filled": 57400
+      }
+    },
+    {
+      "name": "badge-tm",
+      "codepoint": 57463,
+      "overrides": {
+        "filled": 57401
+      }
+    },
+    {
+      "name": "badge-vo",
+      "codepoint": 57464,
+      "overrides": {
+        "filled": 57402
+      }
+    },
+    {
+      "name": "badge-vr",
+      "codepoint": 57465,
+      "overrides": {
+        "filled": 57403
+      }
+    },
+    {
+      "name": "badge-wc",
+      "codepoint": 57466,
+      "overrides": {
+        "filled": 57404
+      }
+    },
+    {
+      "name": "bag",
+      "codepoint": 57472,
+      "overrides": {
+        "filled": 57407
+      }
+    },
+    {
+      "name": "bag-check",
+      "codepoint": 57467,
+      "overrides": {
+        "filled": 57405
+      }
+    },
+    {
+      "name": "bag-dash",
+      "codepoint": 57468,
+      "overrides": {
+        "filled": 57406
+      }
+    },
+    {
+      "name": "bag-heart",
+      "codepoint": 57469,
+      "overrides": {
+        "filled": 57408
+      }
+    },
+    {
+      "name": "bag-plus",
+      "codepoint": 57470,
+      "overrides": {
+        "filled": 57409
+      }
+    },
+    {
+      "name": "bag-x",
+      "codepoint": 57471,
+      "overrides": {
+        "filled": 57410
+      }
+    },
+    {
+      "name": "balloon",
+      "codepoint": 57474,
+      "overrides": {
+        "filled": 57411
+      }
+    },
+    {
+      "name": "balloon-heart",
+      "codepoint": 57473,
+      "overrides": {
+        "filled": 57412
+      }
+    },
+    {
+      "name": "ban",
+      "codepoint": 57475,
+      "overrides": {
+        "filled": 57413
+      }
+    },
+    {
+      "name": "bandaid",
+      "codepoint": 57476,
+      "overrides": {
+        "filled": 57414
+      }
+    },
+    {
+      "name": "bank",
+      "codepoint": 57477,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bank2",
+      "codepoint": 57478,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bar-chart",
+      "codepoint": 57481,
+      "overrides": {
+        "filled": 57415
+      }
+    },
+    {
+      "name": "bar-chart-line",
+      "codepoint": 57479,
+      "overrides": {
+        "filled": 57416
+      }
+    },
+    {
+      "name": "bar-chart-steps",
+      "codepoint": 57480,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "basket",
+      "codepoint": 57482,
+      "overrides": {
+        "filled": 57417
+      }
+    },
+    {
+      "name": "basket2",
+      "codepoint": 57483,
+      "overrides": {
+        "filled": 57418
+      }
+    },
+    {
+      "name": "basket3",
+      "codepoint": 57484,
+      "overrides": {
+        "filled": 57419
+      }
+    },
+    {
+      "name": "battery",
+      "codepoint": 57489,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "battery-charging",
+      "codepoint": 57485,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "battery-full",
+      "codepoint": 57486,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "battery-half",
+      "codepoint": 57487,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "battery-low",
+      "codepoint": 57488,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "beaker",
+      "codepoint": 57490,
+      "overrides": {
+        "filled": 57420
+      }
+    },
+    {
+      "name": "behance",
+      "codepoint": 57491,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bell",
+      "codepoint": 57493,
+      "overrides": {
+        "filled": 57421
+      }
+    },
+    {
+      "name": "bell-slash",
+      "codepoint": 57492,
+      "overrides": {
+        "filled": 57422
+      }
+    },
+    {
+      "name": "bezier",
+      "codepoint": 57494,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bezier2",
+      "codepoint": 57495,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bicycle",
+      "codepoint": 57496,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bing",
+      "codepoint": 57497,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "binoculars",
+      "codepoint": 57498,
+      "overrides": {
+        "filled": 57423
+      }
+    },
+    {
+      "name": "blockquote-left",
+      "codepoint": 57499,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "blockquote-right",
+      "codepoint": 57500,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bluesky",
+      "codepoint": 57501,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bluetooth",
+      "codepoint": 57502,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "body-text",
+      "codepoint": 57503,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "book",
+      "codepoint": 57505,
+      "overrides": {
+        "filled": 57424
+      }
+    },
+    {
+      "name": "book-half",
+      "codepoint": 57504,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bookmark",
+      "codepoint": 57512,
+      "overrides": {
+        "filled": 57427
+      }
+    },
+    {
+      "name": "bookmark-check",
+      "codepoint": 57506,
+      "overrides": {
+        "filled": 57425
+      }
+    },
+    {
+      "name": "bookmark-dash",
+      "codepoint": 57507,
+      "overrides": {
+        "filled": 57426
+      }
+    },
+    {
+      "name": "bookmark-heart",
+      "codepoint": 57508,
+      "overrides": {
+        "filled": 57428
+      }
+    },
+    {
+      "name": "bookmark-plus",
+      "codepoint": 57509,
+      "overrides": {
+        "filled": 57429
+      }
+    },
+    {
+      "name": "bookmark-star",
+      "codepoint": 57510,
+      "overrides": {
+        "filled": 57430
+      }
+    },
+    {
+      "name": "bookmark-x",
+      "codepoint": 57511,
+      "overrides": {
+        "filled": 57431
+      }
+    },
+    {
+      "name": "bookmarks",
+      "codepoint": 57513,
+      "overrides": {
+        "filled": 57432
+      }
+    },
+    {
+      "name": "bookshelf",
+      "codepoint": 57514,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "boombox",
+      "codepoint": 57515,
+      "overrides": {
+        "filled": 57433
+      }
+    },
+    {
+      "name": "bootstrap",
+      "codepoint": 57517,
+      "overrides": {
+        "filled": 57434
+      }
+    },
+    {
+      "name": "bootstrap-reboot",
+      "codepoint": 57516,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border",
+      "codepoint": 57529,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-all",
+      "codepoint": 57518,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-bottom",
+      "codepoint": 57519,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-center",
+      "codepoint": 57520,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-inner",
+      "codepoint": 57521,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-left",
+      "codepoint": 57522,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-middle",
+      "codepoint": 57523,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-outer",
+      "codepoint": 57524,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-right",
+      "codepoint": 57525,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-style",
+      "codepoint": 57526,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-top",
+      "codepoint": 57527,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "border-width",
+      "codepoint": 57528,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bounding-box",
+      "codepoint": 57531,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bounding-box-circles",
+      "codepoint": 57530,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box",
+      "codepoint": 57549,
+      "overrides": {
+        "filled": 57435
+      }
+    },
+    {
+      "name": "box-arrow-down",
+      "codepoint": 57534,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-down-left",
+      "codepoint": 57532,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-down-right",
+      "codepoint": 57533,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-in-down",
+      "codepoint": 57537,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-in-down-left",
+      "codepoint": 57535,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-in-down-right",
+      "codepoint": 57536,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-in-left",
+      "codepoint": 57538,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-in-right",
+      "codepoint": 57539,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-in-up",
+      "codepoint": 57542,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-in-up-left",
+      "codepoint": 57540,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-in-up-right",
+      "codepoint": 57541,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-left",
+      "codepoint": 57543,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-right",
+      "codepoint": 57544,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-up",
+      "codepoint": 57547,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-up-left",
+      "codepoint": 57545,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-arrow-up-right",
+      "codepoint": 57546,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "box-seam",
+      "codepoint": 57548,
+      "overrides": {
+        "filled": 57436
+      }
+    },
+    {
+      "name": "box2",
+      "codepoint": 57551,
+      "overrides": {
+        "filled": 57437
+      }
+    },
+    {
+      "name": "box2-heart",
+      "codepoint": 57550,
+      "overrides": {
+        "filled": 57438
+      }
+    },
+    {
+      "name": "boxes",
+      "codepoint": 57552,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "braces",
+      "codepoint": 57554,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "braces-asterisk",
+      "codepoint": 57553,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bricks",
+      "codepoint": 57555,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "briefcase",
+      "codepoint": 57556,
+      "overrides": {
+        "filled": 57439
+      }
+    },
+    {
+      "name": "brightness-alt-high",
+      "codepoint": 57557,
+      "overrides": {
+        "filled": 57440
+      }
+    },
+    {
+      "name": "brightness-alt-low",
+      "codepoint": 57558,
+      "overrides": {
+        "filled": 57441
+      }
+    },
+    {
+      "name": "brightness-high",
+      "codepoint": 57559,
+      "overrides": {
+        "filled": 57442
+      }
+    },
+    {
+      "name": "brightness-low",
+      "codepoint": 57560,
+      "overrides": {
+        "filled": 57443
+      }
+    },
+    {
+      "name": "brilliance",
+      "codepoint": 57561,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "broadcast",
+      "codepoint": 57563,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "broadcast-pin",
+      "codepoint": 57562,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "browser-chrome",
+      "codepoint": 57564,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "browser-edge",
+      "codepoint": 57565,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "browser-firefox",
+      "codepoint": 57566,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "browser-safari",
+      "codepoint": 57567,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "brush",
+      "codepoint": 57568,
+      "overrides": {
+        "filled": 57444
+      }
+    },
+    {
+      "name": "bucket",
+      "codepoint": 57569,
+      "overrides": {
+        "filled": 57445
+      }
+    },
+    {
+      "name": "bug",
+      "codepoint": 57570,
+      "overrides": {
+        "filled": 57446
+      }
+    },
+    {
+      "name": "building",
+      "codepoint": 57591,
+      "overrides": {
+        "filled": 57447
+      }
+    },
+    {
+      "name": "building-add",
+      "codepoint": 57571,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-check",
+      "codepoint": 57572,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-dash",
+      "codepoint": 57573,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-down",
+      "codepoint": 57574,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-exclamation",
+      "codepoint": 57575,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-add",
+      "codepoint": 57576,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-check",
+      "codepoint": 57577,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-dash",
+      "codepoint": 57578,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-down",
+      "codepoint": 57579,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-exclamation",
+      "codepoint": 57580,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-gear",
+      "codepoint": 57581,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-lock",
+      "codepoint": 57582,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-slash",
+      "codepoint": 57583,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-up",
+      "codepoint": 57584,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-fill-x",
+      "codepoint": 57585,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-gear",
+      "codepoint": 57586,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-lock",
+      "codepoint": 57587,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-slash",
+      "codepoint": 57588,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-up",
+      "codepoint": 57589,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "building-x",
+      "codepoint": 57590,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "buildings",
+      "codepoint": 57592,
+      "overrides": {
+        "filled": 57448
+      }
+    },
+    {
+      "name": "bullseye",
+      "codepoint": 57593,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bus-front",
+      "codepoint": 57594,
+      "overrides": {
+        "filled": 57449
+      }
+    },
+    {
+      "name": "c-circle",
+      "codepoint": 57595,
+      "overrides": {
+        "filled": 57450
+      }
+    },
+    {
+      "name": "c-square",
+      "codepoint": 57596,
+      "overrides": {
+        "filled": 57451
+      }
+    },
+    {
+      "name": "cake",
+      "codepoint": 57597,
+      "overrides": {
+        "filled": 57452
+      }
+    },
+    {
+      "name": "cake2",
+      "codepoint": 57598,
+      "overrides": {
+        "filled": 57453
+      }
+    },
+    {
+      "name": "calculator",
+      "codepoint": 57599,
+      "overrides": {
+        "filled": 57454
+      }
+    },
+    {
+      "name": "calendar",
+      "codepoint": 57611,
+      "overrides": {
+        "filled": 57459
+      }
+    },
+    {
+      "name": "calendar-check",
+      "codepoint": 57600,
+      "overrides": {
+        "filled": 57455
+      }
+    },
+    {
+      "name": "calendar-date",
+      "codepoint": 57601,
+      "overrides": {
+        "filled": 57456
+      }
+    },
+    {
+      "name": "calendar-day",
+      "codepoint": 57602,
+      "overrides": {
+        "filled": 57457
+      }
+    },
+    {
+      "name": "calendar-event",
+      "codepoint": 57603,
+      "overrides": {
+        "filled": 57458
+      }
+    },
+    {
+      "name": "calendar-heart",
+      "codepoint": 57604,
+      "overrides": {
+        "filled": 57460
+      }
+    },
+    {
+      "name": "calendar-minus",
+      "codepoint": 57605,
+      "overrides": {
+        "filled": 57461
+      }
+    },
+    {
+      "name": "calendar-month",
+      "codepoint": 57606,
+      "overrides": {
+        "filled": 57462
+      }
+    },
+    {
+      "name": "calendar-plus",
+      "codepoint": 57607,
+      "overrides": {
+        "filled": 57463
+      }
+    },
+    {
+      "name": "calendar-range",
+      "codepoint": 57608,
+      "overrides": {
+        "filled": 57464
+      }
+    },
+    {
+      "name": "calendar-week",
+      "codepoint": 57609,
+      "overrides": {
+        "filled": 57465
+      }
+    },
+    {
+      "name": "calendar-x",
+      "codepoint": 57610,
+      "overrides": {
+        "filled": 57466
+      }
+    },
+    {
+      "name": "calendar2",
+      "codepoint": 57623,
+      "overrides": {
+        "filled": 57471
+      }
+    },
+    {
+      "name": "calendar2-check",
+      "codepoint": 57612,
+      "overrides": {
+        "filled": 57467
+      }
+    },
+    {
+      "name": "calendar2-date",
+      "codepoint": 57613,
+      "overrides": {
+        "filled": 57468
+      }
+    },
+    {
+      "name": "calendar2-day",
+      "codepoint": 57614,
+      "overrides": {
+        "filled": 57469
+      }
+    },
+    {
+      "name": "calendar2-event",
+      "codepoint": 57615,
+      "overrides": {
+        "filled": 57470
+      }
+    },
+    {
+      "name": "calendar2-heart",
+      "codepoint": 57616,
+      "overrides": {
+        "filled": 57472
+      }
+    },
+    {
+      "name": "calendar2-minus",
+      "codepoint": 57617,
+      "overrides": {
+        "filled": 57473
+      }
+    },
+    {
+      "name": "calendar2-month",
+      "codepoint": 57618,
+      "overrides": {
+        "filled": 57474
+      }
+    },
+    {
+      "name": "calendar2-plus",
+      "codepoint": 57619,
+      "overrides": {
+        "filled": 57475
+      }
+    },
+    {
+      "name": "calendar2-range",
+      "codepoint": 57620,
+      "overrides": {
+        "filled": 57476
+      }
+    },
+    {
+      "name": "calendar2-week",
+      "codepoint": 57621,
+      "overrides": {
+        "filled": 57477
+      }
+    },
+    {
+      "name": "calendar2-x",
+      "codepoint": 57622,
+      "overrides": {
+        "filled": 57478
+      }
+    },
+    {
+      "name": "calendar3",
+      "codepoint": 57627,
+      "overrides": {
+        "filled": 57480
+      }
+    },
+    {
+      "name": "calendar3-event",
+      "codepoint": 57624,
+      "overrides": {
+        "filled": 57479
+      }
+    },
+    {
+      "name": "calendar3-range",
+      "codepoint": 57625,
+      "overrides": {
+        "filled": 57481
+      }
+    },
+    {
+      "name": "calendar3-week",
+      "codepoint": 57626,
+      "overrides": {
+        "filled": 57482
+      }
+    },
+    {
+      "name": "calendar4",
+      "codepoint": 57631,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "calendar4-event",
+      "codepoint": 57628,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "calendar4-range",
+      "codepoint": 57629,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "calendar4-week",
+      "codepoint": 57630,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "camera",
+      "codepoint": 57635,
+      "overrides": {
+        "filled": 57483
+      }
+    },
+    {
+      "name": "camera-reels",
+      "codepoint": 57632,
+      "overrides": {
+        "filled": 57484
+      }
+    },
+    {
+      "name": "camera-video",
+      "codepoint": 57634,
+      "overrides": {
+        "filled": 57485
+      }
+    },
+    {
+      "name": "camera-video-off",
+      "codepoint": 57633,
+      "overrides": {
+        "filled": 57486
+      }
+    },
+    {
+      "name": "camera2",
+      "codepoint": 57636,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "capslock",
+      "codepoint": 57637,
+      "overrides": {
+        "filled": 57487
+      }
+    },
+    {
+      "name": "capsule",
+      "codepoint": 57639,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "capsule-pill",
+      "codepoint": 57638,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "car-front",
+      "codepoint": 57640,
+      "overrides": {
+        "filled": 57488
+      }
+    },
+    {
+      "name": "card-checklist",
+      "codepoint": 57641,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "card-heading",
+      "codepoint": 57642,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "card-image",
+      "codepoint": 57643,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "card-list",
+      "codepoint": 57644,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "card-text",
+      "codepoint": 57645,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-down",
+      "codepoint": 57647,
+      "overrides": {
+        "filled": 57489
+      }
+    },
+    {
+      "name": "caret-down-square",
+      "codepoint": 57646,
+      "overrides": {
+        "filled": 57490
+      }
+    },
+    {
+      "name": "caret-left",
+      "codepoint": 57649,
+      "overrides": {
+        "filled": 57491
+      }
+    },
+    {
+      "name": "caret-left-square",
+      "codepoint": 57648,
+      "overrides": {
+        "filled": 57492
+      }
+    },
+    {
+      "name": "caret-right",
+      "codepoint": 57651,
+      "overrides": {
+        "filled": 57493
+      }
+    },
+    {
+      "name": "caret-right-square",
+      "codepoint": 57650,
+      "overrides": {
+        "filled": 57494
+      }
+    },
+    {
+      "name": "caret-up",
+      "codepoint": 57653,
+      "overrides": {
+        "filled": 57495
+      }
+    },
+    {
+      "name": "caret-up-square",
+      "codepoint": 57652,
+      "overrides": {
+        "filled": 57496
+      }
+    },
+    {
+      "name": "cart",
+      "codepoint": 57658,
+      "overrides": {
+        "filled": 57499
+      }
+    },
+    {
+      "name": "cart-check",
+      "codepoint": 57654,
+      "overrides": {
+        "filled": 57497
+      }
+    },
+    {
+      "name": "cart-dash",
+      "codepoint": 57655,
+      "overrides": {
+        "filled": 57498
+      }
+    },
+    {
+      "name": "cart-plus",
+      "codepoint": 57656,
+      "overrides": {
+        "filled": 57500
+      }
+    },
+    {
+      "name": "cart-x",
+      "codepoint": 57657,
+      "overrides": {
+        "filled": 57501
+      }
+    },
+    {
+      "name": "cart2",
+      "codepoint": 57659,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cart3",
+      "codepoint": 57660,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cart4",
+      "codepoint": 57661,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cash",
+      "codepoint": 57664,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cash-coin",
+      "codepoint": 57662,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cash-stack",
+      "codepoint": 57663,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cassette",
+      "codepoint": 57665,
+      "overrides": {
+        "filled": 57502
+      }
+    },
+    {
+      "name": "cast",
+      "codepoint": 57666,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cc-circle",
+      "codepoint": 57667,
+      "overrides": {
+        "filled": 57503
+      }
+    },
+    {
+      "name": "cc-square",
+      "codepoint": 57668,
+      "overrides": {
+        "filled": 57504
+      }
+    },
+    {
+      "name": "chat",
+      "codepoint": 57688,
+      "overrides": {
+        "filled": 57506
+      }
+    },
+    {
+      "name": "chat-dots",
+      "codepoint": 57669,
+      "overrides": {
+        "filled": 57505
+      }
+    },
+    {
+      "name": "chat-heart",
+      "codepoint": 57670,
+      "overrides": {
+        "filled": 57507
+      }
+    },
+    {
+      "name": "chat-left",
+      "codepoint": 57675,
+      "overrides": {
+        "filled": 57509
+      }
+    },
+    {
+      "name": "chat-left-dots",
+      "codepoint": 57671,
+      "overrides": {
+        "filled": 57508
+      }
+    },
+    {
+      "name": "chat-left-heart",
+      "codepoint": 57672,
+      "overrides": {
+        "filled": 57510
+      }
+    },
+    {
+      "name": "chat-left-quote",
+      "codepoint": 57673,
+      "overrides": {
+        "filled": 57511
+      }
+    },
+    {
+      "name": "chat-left-text",
+      "codepoint": 57674,
+      "overrides": {
+        "filled": 57512
+      }
+    },
+    {
+      "name": "chat-quote",
+      "codepoint": 57676,
+      "overrides": {
+        "filled": 57513
+      }
+    },
+    {
+      "name": "chat-right",
+      "codepoint": 57681,
+      "overrides": {
+        "filled": 57515
+      }
+    },
+    {
+      "name": "chat-right-dots",
+      "codepoint": 57677,
+      "overrides": {
+        "filled": 57514
+      }
+    },
+    {
+      "name": "chat-right-heart",
+      "codepoint": 57678,
+      "overrides": {
+        "filled": 57516
+      }
+    },
+    {
+      "name": "chat-right-quote",
+      "codepoint": 57679,
+      "overrides": {
+        "filled": 57517
+      }
+    },
+    {
+      "name": "chat-right-text",
+      "codepoint": 57680,
+      "overrides": {
+        "filled": 57518
+      }
+    },
+    {
+      "name": "chat-square",
+      "codepoint": 57686,
+      "overrides": {
+        "filled": 57520
+      }
+    },
+    {
+      "name": "chat-square-dots",
+      "codepoint": 57682,
+      "overrides": {
+        "filled": 57519
+      }
+    },
+    {
+      "name": "chat-square-heart",
+      "codepoint": 57683,
+      "overrides": {
+        "filled": 57521
+      }
+    },
+    {
+      "name": "chat-square-quote",
+      "codepoint": 57684,
+      "overrides": {
+        "filled": 57522
+      }
+    },
+    {
+      "name": "chat-square-text",
+      "codepoint": 57685,
+      "overrides": {
+        "filled": 57523
+      }
+    },
+    {
+      "name": "chat-text",
+      "codepoint": 57687,
+      "overrides": {
+        "filled": 57524
+      }
+    },
+    {
+      "name": "check",
+      "codepoint": 57693,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "check-all",
+      "codepoint": 57689,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "check-circle",
+      "codepoint": 57690,
+      "overrides": {
+        "filled": 57525
+      }
+    },
+    {
+      "name": "check-lg",
+      "codepoint": 57691,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "check-square",
+      "codepoint": 57692,
+      "overrides": {
+        "filled": 57526
+      }
+    },
+    {
+      "name": "check2",
+      "codepoint": 57697,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "check2-all",
+      "codepoint": 57694,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "check2-circle",
+      "codepoint": 57695,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "check2-square",
+      "codepoint": 57696,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-bar-contract",
+      "codepoint": 57698,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-bar-down",
+      "codepoint": 57699,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-bar-expand",
+      "codepoint": 57700,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-bar-left",
+      "codepoint": 57701,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-bar-right",
+      "codepoint": 57702,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-bar-up",
+      "codepoint": 57703,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-compact-down",
+      "codepoint": 57704,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-compact-left",
+      "codepoint": 57705,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-compact-right",
+      "codepoint": 57706,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-compact-up",
+      "codepoint": 57707,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-contract",
+      "codepoint": 57708,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-double-down",
+      "codepoint": 57709,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-double-left",
+      "codepoint": 57710,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-double-right",
+      "codepoint": 57711,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-double-up",
+      "codepoint": 57712,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "codepoint": 57713,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-expand",
+      "codepoint": 57714,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "codepoint": 57715,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "codepoint": 57716,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-up",
+      "codepoint": 57717,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "circle",
+      "codepoint": 57720,
+      "overrides": {
+        "filled": 57527
+      }
+    },
+    {
+      "name": "circle-half",
+      "codepoint": 57718,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "circle-square",
+      "codepoint": 57719,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "claude",
+      "codepoint": 57721,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "clipboard",
+      "codepoint": 57729,
+      "overrides": {
+        "filled": 57530
+      }
+    },
+    {
+      "name": "clipboard-check",
+      "codepoint": 57722,
+      "overrides": {
+        "filled": 57528
+      }
+    },
+    {
+      "name": "clipboard-data",
+      "codepoint": 57723,
+      "overrides": {
+        "filled": 57529
+      }
+    },
+    {
+      "name": "clipboard-heart",
+      "codepoint": 57724,
+      "overrides": {
+        "filled": 57531
+      }
+    },
+    {
+      "name": "clipboard-minus",
+      "codepoint": 57725,
+      "overrides": {
+        "filled": 57532
+      }
+    },
+    {
+      "name": "clipboard-plus",
+      "codepoint": 57726,
+      "overrides": {
+        "filled": 57533
+      }
+    },
+    {
+      "name": "clipboard-pulse",
+      "codepoint": 57727,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "clipboard-x",
+      "codepoint": 57728,
+      "overrides": {
+        "filled": 57534
+      }
+    },
+    {
+      "name": "clipboard2",
+      "codepoint": 57737,
+      "overrides": {
+        "filled": 57537
+      }
+    },
+    {
+      "name": "clipboard2-check",
+      "codepoint": 57730,
+      "overrides": {
+        "filled": 57535
+      }
+    },
+    {
+      "name": "clipboard2-data",
+      "codepoint": 57731,
+      "overrides": {
+        "filled": 57536
+      }
+    },
+    {
+      "name": "clipboard2-heart",
+      "codepoint": 57732,
+      "overrides": {
+        "filled": 57538
+      }
+    },
+    {
+      "name": "clipboard2-minus",
+      "codepoint": 57733,
+      "overrides": {
+        "filled": 57539
+      }
+    },
+    {
+      "name": "clipboard2-plus",
+      "codepoint": 57734,
+      "overrides": {
+        "filled": 57540
+      }
+    },
+    {
+      "name": "clipboard2-pulse",
+      "codepoint": 57735,
+      "overrides": {
+        "filled": 57541
+      }
+    },
+    {
+      "name": "clipboard2-x",
+      "codepoint": 57736,
+      "overrides": {
+        "filled": 57542
+      }
+    },
+    {
+      "name": "clock",
+      "codepoint": 57739,
+      "overrides": {
+        "filled": 57543
+      }
+    },
+    {
+      "name": "clock-history",
+      "codepoint": 57738,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloud",
+      "codepoint": 57762,
+      "overrides": {
+        "filled": 57549
+      }
+    },
+    {
+      "name": "cloud-arrow-down",
+      "codepoint": 57740,
+      "overrides": {
+        "filled": 57544
+      }
+    },
+    {
+      "name": "cloud-arrow-up",
+      "codepoint": 57741,
+      "overrides": {
+        "filled": 57545
+      }
+    },
+    {
+      "name": "cloud-check",
+      "codepoint": 57742,
+      "overrides": {
+        "filled": 57546
+      }
+    },
+    {
+      "name": "cloud-download",
+      "codepoint": 57743,
+      "overrides": {
+        "filled": 57547
+      }
+    },
+    {
+      "name": "cloud-drizzle",
+      "codepoint": 57744,
+      "overrides": {
+        "filled": 57548
+      }
+    },
+    {
+      "name": "cloud-fog",
+      "codepoint": 57745,
+      "overrides": {
+        "filled": 57550
+      }
+    },
+    {
+      "name": "cloud-fog2",
+      "codepoint": 57746,
+      "overrides": {
+        "filled": 57551
+      }
+    },
+    {
+      "name": "cloud-hail",
+      "codepoint": 57747,
+      "overrides": {
+        "filled": 57552
+      }
+    },
+    {
+      "name": "cloud-haze",
+      "codepoint": 57748,
+      "overrides": {
+        "filled": 57553
+      }
+    },
+    {
+      "name": "cloud-haze2",
+      "codepoint": 57749,
+      "overrides": {
+        "filled": 57554
+      }
+    },
+    {
+      "name": "cloud-lightning",
+      "codepoint": 57751,
+      "overrides": {
+        "filled": 57555
+      }
+    },
+    {
+      "name": "cloud-lightning-rain",
+      "codepoint": 57750,
+      "overrides": {
+        "filled": 57556
+      }
+    },
+    {
+      "name": "cloud-minus",
+      "codepoint": 57752,
+      "overrides": {
+        "filled": 57557
+      }
+    },
+    {
+      "name": "cloud-moon",
+      "codepoint": 57753,
+      "overrides": {
+        "filled": 57558
+      }
+    },
+    {
+      "name": "cloud-plus",
+      "codepoint": 57754,
+      "overrides": {
+        "filled": 57559
+      }
+    },
+    {
+      "name": "cloud-rain",
+      "codepoint": 57756,
+      "overrides": {
+        "filled": 57560
+      }
+    },
+    {
+      "name": "cloud-rain-heavy",
+      "codepoint": 57755,
+      "overrides": {
+        "filled": 57561
+      }
+    },
+    {
+      "name": "cloud-slash",
+      "codepoint": 57757,
+      "overrides": {
+        "filled": 57562
+      }
+    },
+    {
+      "name": "cloud-sleet",
+      "codepoint": 57758,
+      "overrides": {
+        "filled": 57563
+      }
+    },
+    {
+      "name": "cloud-snow",
+      "codepoint": 57759,
+      "overrides": {
+        "filled": 57564
+      }
+    },
+    {
+      "name": "cloud-sun",
+      "codepoint": 57760,
+      "overrides": {
+        "filled": 57565
+      }
+    },
+    {
+      "name": "cloud-upload",
+      "codepoint": 57761,
+      "overrides": {
+        "filled": 57566
+      }
+    },
+    {
+      "name": "clouds",
+      "codepoint": 57763,
+      "overrides": {
+        "filled": 57567
+      }
+    },
+    {
+      "name": "cloudy",
+      "codepoint": 57764,
+      "overrides": {
+        "filled": 57568
+      }
+    },
+    {
+      "name": "code",
+      "codepoint": 57767,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "code-slash",
+      "codepoint": 57765,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "code-square",
+      "codepoint": 57766,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "coin",
+      "codepoint": 57768,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "collection",
+      "codepoint": 57770,
+      "overrides": {
+        "filled": 57569
+      }
+    },
+    {
+      "name": "collection-play",
+      "codepoint": 57769,
+      "overrides": {
+        "filled": 57570
+      }
+    },
+    {
+      "name": "columns",
+      "codepoint": 57772,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "columns-gap",
+      "codepoint": 57771,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "command",
+      "codepoint": 57773,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "compass",
+      "codepoint": 57774,
+      "overrides": {
+        "filled": 57571
+      }
+    },
+    {
+      "name": "cone",
+      "codepoint": 57776,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cone-striped",
+      "codepoint": 57775,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "controller",
+      "codepoint": 57777,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cookie",
+      "codepoint": 57778,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "copy",
+      "codepoint": 57779,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cpu",
+      "codepoint": 57780,
+      "overrides": {
+        "filled": 57572
+      }
+    },
+    {
+      "name": "credit-card",
+      "codepoint": 57783,
+      "overrides": {
+        "filled": 57575
+      }
+    },
+    {
+      "name": "credit-card-2-back",
+      "codepoint": 57781,
+      "overrides": {
+        "filled": 57573
+      }
+    },
+    {
+      "name": "credit-card-2-front",
+      "codepoint": 57782,
+      "overrides": {
+        "filled": 57574
+      }
+    },
+    {
+      "name": "crop",
+      "codepoint": 57784,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "crosshair",
+      "codepoint": 57785,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "crosshair2",
+      "codepoint": 57786,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "css",
+      "codepoint": 57787,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cup",
+      "codepoint": 57790,
+      "overrides": {
+        "filled": 57576
+      }
+    },
+    {
+      "name": "cup-hot",
+      "codepoint": 57788,
+      "overrides": {
+        "filled": 57577
+      }
+    },
+    {
+      "name": "cup-straw",
+      "codepoint": 57789,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "currency-bitcoin",
+      "codepoint": 57791,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "currency-dollar",
+      "codepoint": 57792,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "currency-euro",
+      "codepoint": 57793,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "currency-exchange",
+      "codepoint": 57794,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "currency-pound",
+      "codepoint": 57795,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "currency-rupee",
+      "codepoint": 57796,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "currency-yen",
+      "codepoint": 57797,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cursor",
+      "codepoint": 57799,
+      "overrides": {
+        "filled": 57578
+      }
+    },
+    {
+      "name": "cursor-text",
+      "codepoint": 57798,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dash",
+      "codepoint": 57805,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dash-circle",
+      "codepoint": 57801,
+      "overrides": {
+        "filled": 57579
+      }
+    },
+    {
+      "name": "dash-circle-dotted",
+      "codepoint": 57800,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dash-lg",
+      "codepoint": 57802,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dash-square",
+      "codepoint": 57804,
+      "overrides": {
+        "filled": 57580
+      }
+    },
+    {
+      "name": "dash-square-dotted",
+      "codepoint": 57803,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database",
+      "codepoint": 57826,
+      "overrides": {
+        "filled": 57581
+      }
+    },
+    {
+      "name": "database-add",
+      "codepoint": 57806,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-check",
+      "codepoint": 57807,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-dash",
+      "codepoint": 57808,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-down",
+      "codepoint": 57809,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-exclamation",
+      "codepoint": 57810,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-add",
+      "codepoint": 57811,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-check",
+      "codepoint": 57812,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-dash",
+      "codepoint": 57813,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-down",
+      "codepoint": 57814,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-exclamation",
+      "codepoint": 57815,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-gear",
+      "codepoint": 57816,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-lock",
+      "codepoint": 57817,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-slash",
+      "codepoint": 57818,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-up",
+      "codepoint": 57819,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-fill-x",
+      "codepoint": 57820,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-gear",
+      "codepoint": 57821,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-lock",
+      "codepoint": 57822,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-slash",
+      "codepoint": 57823,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-up",
+      "codepoint": 57824,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "database-x",
+      "codepoint": 57825,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "device-hdd",
+      "codepoint": 57827,
+      "overrides": {
+        "filled": 57582
+      }
+    },
+    {
+      "name": "device-ssd",
+      "codepoint": 57828,
+      "overrides": {
+        "filled": 57583
+      }
+    },
+    {
+      "name": "diagram-2",
+      "codepoint": 57829,
+      "overrides": {
+        "filled": 57584
+      }
+    },
+    {
+      "name": "diagram-3",
+      "codepoint": 57830,
+      "overrides": {
+        "filled": 57585
+      }
+    },
+    {
+      "name": "diamond",
+      "codepoint": 57832,
+      "overrides": {
+        "filled": 57586
+      }
+    },
+    {
+      "name": "diamond-half",
+      "codepoint": 57831,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dice-1",
+      "codepoint": 57833,
+      "overrides": {
+        "filled": 57587
+      }
+    },
+    {
+      "name": "dice-2",
+      "codepoint": 57834,
+      "overrides": {
+        "filled": 57588
+      }
+    },
+    {
+      "name": "dice-3",
+      "codepoint": 57835,
+      "overrides": {
+        "filled": 57589
+      }
+    },
+    {
+      "name": "dice-4",
+      "codepoint": 57836,
+      "overrides": {
+        "filled": 57590
+      }
+    },
+    {
+      "name": "dice-5",
+      "codepoint": 57837,
+      "overrides": {
+        "filled": 57591
+      }
+    },
+    {
+      "name": "dice-6",
+      "codepoint": 57838,
+      "overrides": {
+        "filled": 57592
+      }
+    },
+    {
+      "name": "disc",
+      "codepoint": 57839,
+      "overrides": {
+        "filled": 57593
+      }
+    },
+    {
+      "name": "discord",
+      "codepoint": 57840,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "display",
+      "codepoint": 57841,
+      "overrides": {
+        "filled": 57594
+      }
+    },
+    {
+      "name": "displayport",
+      "codepoint": 57842,
+      "overrides": {
+        "filled": 57595
+      }
+    },
+    {
+      "name": "distribute-horizontal",
+      "codepoint": 57843,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "distribute-vertical",
+      "codepoint": 57844,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "door-closed",
+      "codepoint": 57845,
+      "overrides": {
+        "filled": 57596
+      }
+    },
+    {
+      "name": "door-open",
+      "codepoint": 57846,
+      "overrides": {
+        "filled": 57597
+      }
+    },
+    {
+      "name": "dot",
+      "codepoint": 57847,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "download",
+      "codepoint": 57848,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dpad",
+      "codepoint": 57849,
+      "overrides": {
+        "filled": 57598
+      }
+    },
+    {
+      "name": "dribbble",
+      "codepoint": 57850,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dropbox",
+      "codepoint": 57851,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "droplet",
+      "codepoint": 57853,
+      "overrides": {
+        "filled": 57599
+      }
+    },
+    {
+      "name": "droplet-half",
+      "codepoint": 57852,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "duffle",
+      "codepoint": 57854,
+      "overrides": {
+        "filled": 57600
+      }
+    },
+    {
+      "name": "ear",
+      "codepoint": 57855,
+      "overrides": {
+        "filled": 57601
+      }
+    },
+    {
+      "name": "earbuds",
+      "codepoint": 57856,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "easel",
+      "codepoint": 57857,
+      "overrides": {
+        "filled": 57602
+      }
+    },
+    {
+      "name": "easel2",
+      "codepoint": 57858,
+      "overrides": {
+        "filled": 57603
+      }
+    },
+    {
+      "name": "easel3",
+      "codepoint": 57859,
+      "overrides": {
+        "filled": 57604
+      }
+    },
+    {
+      "name": "egg",
+      "codepoint": 57861,
+      "overrides": {
+        "filled": 57605
+      }
+    },
+    {
+      "name": "egg-fried",
+      "codepoint": 57860,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "eject",
+      "codepoint": 57862,
+      "overrides": {
+        "filled": 57606
+      }
+    },
+    {
+      "name": "emoji-angry",
+      "codepoint": 57863,
+      "overrides": {
+        "filled": 57607
+      }
+    },
+    {
+      "name": "emoji-astonished",
+      "codepoint": 57864,
+      "overrides": {
+        "filled": 57608
+      }
+    },
+    {
+      "name": "emoji-dizzy",
+      "codepoint": 57865,
+      "overrides": {
+        "filled": 57609
+      }
+    },
+    {
+      "name": "emoji-expressionless",
+      "codepoint": 57866,
+      "overrides": {
+        "filled": 57610
+      }
+    },
+    {
+      "name": "emoji-frown",
+      "codepoint": 57867,
+      "overrides": {
+        "filled": 57611
+      }
+    },
+    {
+      "name": "emoji-grimace",
+      "codepoint": 57868,
+      "overrides": {
+        "filled": 57612
+      }
+    },
+    {
+      "name": "emoji-grin",
+      "codepoint": 57869,
+      "overrides": {
+        "filled": 57613
+      }
+    },
+    {
+      "name": "emoji-heart-eyes",
+      "codepoint": 57870,
+      "overrides": {
+        "filled": 57614
+      }
+    },
+    {
+      "name": "emoji-kiss",
+      "codepoint": 57871,
+      "overrides": {
+        "filled": 57615
+      }
+    },
+    {
+      "name": "emoji-laughing",
+      "codepoint": 57872,
+      "overrides": {
+        "filled": 57616
+      }
+    },
+    {
+      "name": "emoji-neutral",
+      "codepoint": 57873,
+      "overrides": {
+        "filled": 57617
+      }
+    },
+    {
+      "name": "emoji-smile",
+      "codepoint": 57875,
+      "overrides": {
+        "filled": 57618
+      }
+    },
+    {
+      "name": "emoji-smile-upside-down",
+      "codepoint": 57874,
+      "overrides": {
+        "filled": 57619
+      }
+    },
+    {
+      "name": "emoji-sunglasses",
+      "codepoint": 57876,
+      "overrides": {
+        "filled": 57620
+      }
+    },
+    {
+      "name": "emoji-surprise",
+      "codepoint": 57877,
+      "overrides": {
+        "filled": 57621
+      }
+    },
+    {
+      "name": "emoji-tear",
+      "codepoint": 57878,
+      "overrides": {
+        "filled": 57622
+      }
+    },
+    {
+      "name": "emoji-wink",
+      "codepoint": 57879,
+      "overrides": {
+        "filled": 57623
+      }
+    },
+    {
+      "name": "envelope",
+      "codepoint": 57894,
+      "overrides": {
+        "filled": 57630
+      }
+    },
+    {
+      "name": "envelope-arrow-down",
+      "codepoint": 57880,
+      "overrides": {
+        "filled": 57624
+      }
+    },
+    {
+      "name": "envelope-arrow-up",
+      "codepoint": 57881,
+      "overrides": {
+        "filled": 57625
+      }
+    },
+    {
+      "name": "envelope-at",
+      "codepoint": 57882,
+      "overrides": {
+        "filled": 57626
+      }
+    },
+    {
+      "name": "envelope-check",
+      "codepoint": 57883,
+      "overrides": {
+        "filled": 57627
+      }
+    },
+    {
+      "name": "envelope-dash",
+      "codepoint": 57884,
+      "overrides": {
+        "filled": 57628
+      }
+    },
+    {
+      "name": "envelope-exclamation",
+      "codepoint": 57885,
+      "overrides": {
+        "filled": 57629
+      }
+    },
+    {
+      "name": "envelope-heart",
+      "codepoint": 57886,
+      "overrides": {
+        "filled": 57631
+      }
+    },
+    {
+      "name": "envelope-open",
+      "codepoint": 57888,
+      "overrides": {
+        "filled": 57632
+      }
+    },
+    {
+      "name": "envelope-open-heart",
+      "codepoint": 57887,
+      "overrides": {
+        "filled": 57633
+      }
+    },
+    {
+      "name": "envelope-paper",
+      "codepoint": 57890,
+      "overrides": {
+        "filled": 57634
+      }
+    },
+    {
+      "name": "envelope-paper-heart",
+      "codepoint": 57889,
+      "overrides": {
+        "filled": 57635
+      }
+    },
+    {
+      "name": "envelope-plus",
+      "codepoint": 57891,
+      "overrides": {
+        "filled": 57636
+      }
+    },
+    {
+      "name": "envelope-slash",
+      "codepoint": 57892,
+      "overrides": {
+        "filled": 57637
+      }
+    },
+    {
+      "name": "envelope-x",
+      "codepoint": 57893,
+      "overrides": {
+        "filled": 57638
+      }
+    },
+    {
+      "name": "eraser",
+      "codepoint": 57895,
+      "overrides": {
+        "filled": 57639
+      }
+    },
+    {
+      "name": "escape",
+      "codepoint": 57896,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ethernet",
+      "codepoint": 57897,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ev-front",
+      "codepoint": 57898,
+      "overrides": {
+        "filled": 57640
+      }
+    },
+    {
+      "name": "ev-station",
+      "codepoint": 57899,
+      "overrides": {
+        "filled": 57641
+      }
+    },
+    {
+      "name": "exclamation",
+      "codepoint": 57906,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "exclamation-circle",
+      "codepoint": 57900,
+      "overrides": {
+        "filled": 57642
+      }
+    },
+    {
+      "name": "exclamation-diamond",
+      "codepoint": 57901,
+      "overrides": {
+        "filled": 57643
+      }
+    },
+    {
+      "name": "exclamation-lg",
+      "codepoint": 57902,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "exclamation-octagon",
+      "codepoint": 57903,
+      "overrides": {
+        "filled": 57644
+      }
+    },
+    {
+      "name": "exclamation-square",
+      "codepoint": 57904,
+      "overrides": {
+        "filled": 57645
+      }
+    },
+    {
+      "name": "exclamation-triangle",
+      "codepoint": 57905,
+      "overrides": {
+        "filled": 57646
+      }
+    },
+    {
+      "name": "exclude",
+      "codepoint": 57907,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "explicit",
+      "codepoint": 57908,
+      "overrides": {
+        "filled": 57647
+      }
+    },
+    {
+      "name": "exposure",
+      "codepoint": 57909,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "eye",
+      "codepoint": 57911,
+      "overrides": {
+        "filled": 57648
+      }
+    },
+    {
+      "name": "eye-slash",
+      "codepoint": 57910,
+      "overrides": {
+        "filled": 57649
+      }
+    },
+    {
+      "name": "eyedropper",
+      "codepoint": 57912,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "eyeglasses",
+      "codepoint": 57913,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "facebook",
+      "codepoint": 57914,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fan",
+      "codepoint": 57915,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fast-forward",
+      "codepoint": 57918,
+      "overrides": {
+        "filled": 57652
+      }
+    },
+    {
+      "name": "fast-forward-btn",
+      "codepoint": 57916,
+      "overrides": {
+        "filled": 57650
+      }
+    },
+    {
+      "name": "fast-forward-circle",
+      "codepoint": 57917,
+      "overrides": {
+        "filled": 57651
+      }
+    },
+    {
+      "name": "feather",
+      "codepoint": 57919,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "feather2",
+      "codepoint": 57920,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "file",
+      "codepoint": 57984,
+      "overrides": {
+        "filled": 57695
+      }
+    },
+    {
+      "name": "file-arrow-down",
+      "codepoint": 57921,
+      "overrides": {
+        "filled": 57653
+      }
+    },
+    {
+      "name": "file-arrow-up",
+      "codepoint": 57922,
+      "overrides": {
+        "filled": 57654
+      }
+    },
+    {
+      "name": "file-bar-graph",
+      "codepoint": 57923,
+      "overrides": {
+        "filled": 57655
+      }
+    },
+    {
+      "name": "file-binary",
+      "codepoint": 57924,
+      "overrides": {
+        "filled": 57656
+      }
+    },
+    {
+      "name": "file-break",
+      "codepoint": 57925,
+      "overrides": {
+        "filled": 57657
+      }
+    },
+    {
+      "name": "file-check",
+      "codepoint": 57926,
+      "overrides": {
+        "filled": 57658
+      }
+    },
+    {
+      "name": "file-code",
+      "codepoint": 57927,
+      "overrides": {
+        "filled": 57659
+      }
+    },
+    {
+      "name": "file-diff",
+      "codepoint": 57928,
+      "overrides": {
+        "filled": 57660
+      }
+    },
+    {
+      "name": "file-earmark",
+      "codepoint": 57960,
+      "overrides": {
+        "filled": 57671
+      }
+    },
+    {
+      "name": "file-earmark-arrow-down",
+      "codepoint": 57929,
+      "overrides": {
+        "filled": 57661
+      }
+    },
+    {
+      "name": "file-earmark-arrow-up",
+      "codepoint": 57930,
+      "overrides": {
+        "filled": 57662
+      }
+    },
+    {
+      "name": "file-earmark-bar-graph",
+      "codepoint": 57931,
+      "overrides": {
+        "filled": 57663
+      }
+    },
+    {
+      "name": "file-earmark-binary",
+      "codepoint": 57932,
+      "overrides": {
+        "filled": 57664
+      }
+    },
+    {
+      "name": "file-earmark-break",
+      "codepoint": 57933,
+      "overrides": {
+        "filled": 57665
+      }
+    },
+    {
+      "name": "file-earmark-check",
+      "codepoint": 57934,
+      "overrides": {
+        "filled": 57666
+      }
+    },
+    {
+      "name": "file-earmark-code",
+      "codepoint": 57935,
+      "overrides": {
+        "filled": 57667
+      }
+    },
+    {
+      "name": "file-earmark-diff",
+      "codepoint": 57936,
+      "overrides": {
+        "filled": 57668
+      }
+    },
+    {
+      "name": "file-earmark-easel",
+      "codepoint": 57937,
+      "overrides": {
+        "filled": 57669
+      }
+    },
+    {
+      "name": "file-earmark-excel",
+      "codepoint": 57938,
+      "overrides": {
+        "filled": 57670
+      }
+    },
+    {
+      "name": "file-earmark-font",
+      "codepoint": 57939,
+      "overrides": {
+        "filled": 57672
+      }
+    },
+    {
+      "name": "file-earmark-image",
+      "codepoint": 57940,
+      "overrides": {
+        "filled": 57673
+      }
+    },
+    {
+      "name": "file-earmark-lock",
+      "codepoint": 57941,
+      "overrides": {
+        "filled": 57674
+      }
+    },
+    {
+      "name": "file-earmark-lock2",
+      "codepoint": 57942,
+      "overrides": {
+        "filled": 57675
+      }
+    },
+    {
+      "name": "file-earmark-medical",
+      "codepoint": 57943,
+      "overrides": {
+        "filled": 57676
+      }
+    },
+    {
+      "name": "file-earmark-minus",
+      "codepoint": 57944,
+      "overrides": {
+        "filled": 57677
+      }
+    },
+    {
+      "name": "file-earmark-music",
+      "codepoint": 57945,
+      "overrides": {
+        "filled": 57678
+      }
+    },
+    {
+      "name": "file-earmark-pdf",
+      "codepoint": 57946,
+      "overrides": {
+        "filled": 57679
+      }
+    },
+    {
+      "name": "file-earmark-person",
+      "codepoint": 57947,
+      "overrides": {
+        "filled": 57680
+      }
+    },
+    {
+      "name": "file-earmark-play",
+      "codepoint": 57948,
+      "overrides": {
+        "filled": 57681
+      }
+    },
+    {
+      "name": "file-earmark-plus",
+      "codepoint": 57949,
+      "overrides": {
+        "filled": 57682
+      }
+    },
+    {
+      "name": "file-earmark-post",
+      "codepoint": 57950,
+      "overrides": {
+        "filled": 57683
+      }
+    },
+    {
+      "name": "file-earmark-ppt",
+      "codepoint": 57951,
+      "overrides": {
+        "filled": 57684
+      }
+    },
+    {
+      "name": "file-earmark-richtext",
+      "codepoint": 57952,
+      "overrides": {
+        "filled": 57685
+      }
+    },
+    {
+      "name": "file-earmark-ruled",
+      "codepoint": 57953,
+      "overrides": {
+        "filled": 57686
+      }
+    },
+    {
+      "name": "file-earmark-slides",
+      "codepoint": 57954,
+      "overrides": {
+        "filled": 57687
+      }
+    },
+    {
+      "name": "file-earmark-spreadsheet",
+      "codepoint": 57955,
+      "overrides": {
+        "filled": 57688
+      }
+    },
+    {
+      "name": "file-earmark-text",
+      "codepoint": 57956,
+      "overrides": {
+        "filled": 57689
+      }
+    },
+    {
+      "name": "file-earmark-word",
+      "codepoint": 57957,
+      "overrides": {
+        "filled": 57690
+      }
+    },
+    {
+      "name": "file-earmark-x",
+      "codepoint": 57958,
+      "overrides": {
+        "filled": 57691
+      }
+    },
+    {
+      "name": "file-earmark-zip",
+      "codepoint": 57959,
+      "overrides": {
+        "filled": 57692
+      }
+    },
+    {
+      "name": "file-easel",
+      "codepoint": 57961,
+      "overrides": {
+        "filled": 57693
+      }
+    },
+    {
+      "name": "file-excel",
+      "codepoint": 57962,
+      "overrides": {
+        "filled": 57694
+      }
+    },
+    {
+      "name": "file-font",
+      "codepoint": 57963,
+      "overrides": {
+        "filled": 57696
+      }
+    },
+    {
+      "name": "file-image",
+      "codepoint": 57964,
+      "overrides": {
+        "filled": 57697
+      }
+    },
+    {
+      "name": "file-lock",
+      "codepoint": 57965,
+      "overrides": {
+        "filled": 57698
+      }
+    },
+    {
+      "name": "file-lock2",
+      "codepoint": 57966,
+      "overrides": {
+        "filled": 57699
+      }
+    },
+    {
+      "name": "file-medical",
+      "codepoint": 57967,
+      "overrides": {
+        "filled": 57700
+      }
+    },
+    {
+      "name": "file-minus",
+      "codepoint": 57968,
+      "overrides": {
+        "filled": 57701
+      }
+    },
+    {
+      "name": "file-music",
+      "codepoint": 57969,
+      "overrides": {
+        "filled": 57702
+      }
+    },
+    {
+      "name": "file-pdf",
+      "codepoint": 57970,
+      "overrides": {
+        "filled": 57703
+      }
+    },
+    {
+      "name": "file-person",
+      "codepoint": 57971,
+      "overrides": {
+        "filled": 57704
+      }
+    },
+    {
+      "name": "file-play",
+      "codepoint": 57972,
+      "overrides": {
+        "filled": 57705
+      }
+    },
+    {
+      "name": "file-plus",
+      "codepoint": 57973,
+      "overrides": {
+        "filled": 57706
+      }
+    },
+    {
+      "name": "file-post",
+      "codepoint": 57974,
+      "overrides": {
+        "filled": 57707
+      }
+    },
+    {
+      "name": "file-ppt",
+      "codepoint": 57975,
+      "overrides": {
+        "filled": 57708
+      }
+    },
+    {
+      "name": "file-richtext",
+      "codepoint": 57976,
+      "overrides": {
+        "filled": 57709
+      }
+    },
+    {
+      "name": "file-ruled",
+      "codepoint": 57977,
+      "overrides": {
+        "filled": 57710
+      }
+    },
+    {
+      "name": "file-slides",
+      "codepoint": 57978,
+      "overrides": {
+        "filled": 57711
+      }
+    },
+    {
+      "name": "file-spreadsheet",
+      "codepoint": 57979,
+      "overrides": {
+        "filled": 57712
+      }
+    },
+    {
+      "name": "file-text",
+      "codepoint": 57980,
+      "overrides": {
+        "filled": 57713
+      }
+    },
+    {
+      "name": "file-word",
+      "codepoint": 57981,
+      "overrides": {
+        "filled": 57714
+      }
+    },
+    {
+      "name": "file-x",
+      "codepoint": 57982,
+      "overrides": {
+        "filled": 57715
+      }
+    },
+    {
+      "name": "file-zip",
+      "codepoint": 57983,
+      "overrides": {
+        "filled": 57716
+      }
+    },
+    {
+      "name": "files",
+      "codepoint": 57986,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "files-alt",
+      "codepoint": 57985,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-aac",
+      "codepoint": 57987,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-ai",
+      "codepoint": 57988,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-bmp",
+      "codepoint": 57989,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-cs",
+      "codepoint": 57990,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-css",
+      "codepoint": 57991,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-csv",
+      "codepoint": 57992,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-doc",
+      "codepoint": 57993,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-docx",
+      "codepoint": 57994,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-exe",
+      "codepoint": 57995,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-gif",
+      "codepoint": 57996,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-heic",
+      "codepoint": 57997,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-html",
+      "codepoint": 57998,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-java",
+      "codepoint": 57999,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-jpg",
+      "codepoint": 58000,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-js",
+      "codepoint": 58001,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-json",
+      "codepoint": 58002,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-jsx",
+      "codepoint": 58003,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-key",
+      "codepoint": 58004,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-m4p",
+      "codepoint": 58005,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-md",
+      "codepoint": 58006,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-mdx",
+      "codepoint": 58007,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-mov",
+      "codepoint": 58008,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-mp3",
+      "codepoint": 58009,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-mp4",
+      "codepoint": 58010,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-otf",
+      "codepoint": 58011,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-pdf",
+      "codepoint": 58012,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-php",
+      "codepoint": 58013,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-png",
+      "codepoint": 58014,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-ppt",
+      "codepoint": 58015,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-pptx",
+      "codepoint": 58016,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-psd",
+      "codepoint": 58017,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-py",
+      "codepoint": 58018,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-raw",
+      "codepoint": 58019,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-rb",
+      "codepoint": 58020,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-sass",
+      "codepoint": 58021,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-scss",
+      "codepoint": 58022,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-sh",
+      "codepoint": 58023,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-sql",
+      "codepoint": 58024,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-svg",
+      "codepoint": 58025,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-tiff",
+      "codepoint": 58026,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-tsx",
+      "codepoint": 58027,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-ttf",
+      "codepoint": 58028,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-txt",
+      "codepoint": 58029,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-wav",
+      "codepoint": 58030,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-woff",
+      "codepoint": 58031,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-xls",
+      "codepoint": 58032,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-xlsx",
+      "codepoint": 58033,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-xml",
+      "codepoint": 58034,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filetype-yml",
+      "codepoint": 58035,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "film",
+      "codepoint": 58036,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filter",
+      "codepoint": 58041,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filter-circle",
+      "codepoint": 58037,
+      "overrides": {
+        "filled": 57717
+      }
+    },
+    {
+      "name": "filter-left",
+      "codepoint": 58038,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filter-right",
+      "codepoint": 58039,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filter-square",
+      "codepoint": 58040,
+      "overrides": {
+        "filled": 57718
+      }
+    },
+    {
+      "name": "fingerprint",
+      "codepoint": 58042,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fire",
+      "codepoint": 58043,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flag",
+      "codepoint": 58044,
+      "overrides": {
+        "filled": 57719
+      }
+    },
+    {
+      "name": "flask",
+      "codepoint": 58046,
+      "overrides": {
+        "filled": 57720
+      }
+    },
+    {
+      "name": "flask-florence",
+      "codepoint": 58045,
+      "overrides": {
+        "filled": 57721
+      }
+    },
+    {
+      "name": "floppy",
+      "codepoint": 58047,
+      "overrides": {
+        "filled": 57722
+      }
+    },
+    {
+      "name": "floppy2",
+      "codepoint": 58048,
+      "overrides": {
+        "filled": 57723
+      }
+    },
+    {
+      "name": "flower1",
+      "codepoint": 58049,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flower2",
+      "codepoint": 58050,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flower3",
+      "codepoint": 58051,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder",
+      "codepoint": 58057,
+      "overrides": {
+        "filled": 57724
+      }
+    },
+    {
+      "name": "folder-check",
+      "codepoint": 58052,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder-minus",
+      "codepoint": 58053,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder-plus",
+      "codepoint": 58054,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder-symlink",
+      "codepoint": 58055,
+      "overrides": {
+        "filled": 57725
+      }
+    },
+    {
+      "name": "folder-x",
+      "codepoint": 58056,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder2",
+      "codepoint": 58059,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder2-open",
+      "codepoint": 58058,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fonts",
+      "codepoint": 58060,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fork-knife",
+      "codepoint": 58061,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "forward",
+      "codepoint": 58062,
+      "overrides": {
+        "filled": 57726
+      }
+    },
+    {
+      "name": "front",
+      "codepoint": 58063,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fuel-pump",
+      "codepoint": 58065,
+      "overrides": {
+        "filled": 57728
+      }
+    },
+    {
+      "name": "fuel-pump-diesel",
+      "codepoint": 58064,
+      "overrides": {
+        "filled": 57727
+      }
+    },
+    {
+      "name": "fullscreen",
+      "codepoint": 58067,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fullscreen-exit",
+      "codepoint": 58066,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "funnel",
+      "codepoint": 58068,
+      "overrides": {
+        "filled": 57729
+      }
+    },
+    {
+      "name": "gear",
+      "codepoint": 58071,
+      "overrides": {
+        "filled": 57730
+      }
+    },
+    {
+      "name": "gear-wide",
+      "codepoint": 58070,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gear-wide-connected",
+      "codepoint": 58069,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gem",
+      "codepoint": 58072,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gender-ambiguous",
+      "codepoint": 58073,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gender-female",
+      "codepoint": 58074,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gender-male",
+      "codepoint": 58075,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gender-neuter",
+      "codepoint": 58076,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gender-trans",
+      "codepoint": 58077,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "geo",
+      "codepoint": 58079,
+      "overrides": {
+        "filled": 57732
+      }
+    },
+    {
+      "name": "geo-alt",
+      "codepoint": 58078,
+      "overrides": {
+        "filled": 57731
+      }
+    },
+    {
+      "name": "gift",
+      "codepoint": 58080,
+      "overrides": {
+        "filled": 57733
+      }
+    },
+    {
+      "name": "git",
+      "codepoint": 58081,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "github",
+      "codepoint": 58082,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gitlab",
+      "codepoint": 58083,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "globe",
+      "codepoint": 58088,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "globe-americas",
+      "codepoint": 58084,
+      "overrides": {
+        "filled": 57734
+      }
+    },
+    {
+      "name": "globe-asia-australia",
+      "codepoint": 58085,
+      "overrides": {
+        "filled": 57735
+      }
+    },
+    {
+      "name": "globe-central-south-asia",
+      "codepoint": 58086,
+      "overrides": {
+        "filled": 57736
+      }
+    },
+    {
+      "name": "globe-europe-africa",
+      "codepoint": 58087,
+      "overrides": {
+        "filled": 57737
+      }
+    },
+    {
+      "name": "globe2",
+      "codepoint": 58089,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "google",
+      "codepoint": 58091,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "google-play",
+      "codepoint": 58090,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gpu-card",
+      "codepoint": 58092,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "graph-down",
+      "codepoint": 58094,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "graph-down-arrow",
+      "codepoint": 58093,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "graph-up",
+      "codepoint": 58096,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "graph-up-arrow",
+      "codepoint": 58095,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "grid",
+      "codepoint": 58102,
+      "overrides": {
+        "filled": 57741
+      }
+    },
+    {
+      "name": "grid-1x2",
+      "codepoint": 58097,
+      "overrides": {
+        "filled": 57738
+      }
+    },
+    {
+      "name": "grid-3x2",
+      "codepoint": 58099,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "grid-3x2-gap",
+      "codepoint": 58098,
+      "overrides": {
+        "filled": 57739
+      }
+    },
+    {
+      "name": "grid-3x3",
+      "codepoint": 58101,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "grid-3x3-gap",
+      "codepoint": 58100,
+      "overrides": {
+        "filled": 57740
+      }
+    },
+    {
+      "name": "grip-horizontal",
+      "codepoint": 58103,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "grip-vertical",
+      "codepoint": 58104,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "h-circle",
+      "codepoint": 58105,
+      "overrides": {
+        "filled": 57742
+      }
+    },
+    {
+      "name": "h-square",
+      "codepoint": 58106,
+      "overrides": {
+        "filled": 57743
+      }
+    },
+    {
+      "name": "hammer",
+      "codepoint": 58107,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hand-index",
+      "codepoint": 58109,
+      "overrides": {
+        "filled": 57744
+      }
+    },
+    {
+      "name": "hand-index-thumb",
+      "codepoint": 58108,
+      "overrides": {
+        "filled": 57745
+      }
+    },
+    {
+      "name": "hand-thumbs-down",
+      "codepoint": 58110,
+      "overrides": {
+        "filled": 57746
+      }
+    },
+    {
+      "name": "hand-thumbs-up",
+      "codepoint": 58111,
+      "overrides": {
+        "filled": 57747
+      }
+    },
+    {
+      "name": "handbag",
+      "codepoint": 58112,
+      "overrides": {
+        "filled": 57748
+      }
+    },
+    {
+      "name": "hash",
+      "codepoint": 58113,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hdd",
+      "codepoint": 58117,
+      "overrides": {
+        "filled": 57749
+      }
+    },
+    {
+      "name": "hdd-network",
+      "codepoint": 58114,
+      "overrides": {
+        "filled": 57750
+      }
+    },
+    {
+      "name": "hdd-rack",
+      "codepoint": 58115,
+      "overrides": {
+        "filled": 57751
+      }
+    },
+    {
+      "name": "hdd-stack",
+      "codepoint": 58116,
+      "overrides": {
+        "filled": 57752
+      }
+    },
+    {
+      "name": "hdmi",
+      "codepoint": 58118,
+      "overrides": {
+        "filled": 57753
+      }
+    },
+    {
+      "name": "headphones",
+      "codepoint": 58119,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "headset",
+      "codepoint": 58121,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "headset-vr",
+      "codepoint": 58120,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heart",
+      "codepoint": 58125,
+      "overrides": {
+        "filled": 57754
+      }
+    },
+    {
+      "name": "heart-arrow",
+      "codepoint": 58122,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heart-half",
+      "codepoint": 58123,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heart-pulse",
+      "codepoint": 58124,
+      "overrides": {
+        "filled": 57755
+      }
+    },
+    {
+      "name": "heartbreak",
+      "codepoint": 58126,
+      "overrides": {
+        "filled": 57756
+      }
+    },
+    {
+      "name": "hearts",
+      "codepoint": 58127,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heptagon",
+      "codepoint": 58129,
+      "overrides": {
+        "filled": 57757
+      }
+    },
+    {
+      "name": "heptagon-half",
+      "codepoint": 58128,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hexagon",
+      "codepoint": 58131,
+      "overrides": {
+        "filled": 57758
+      }
+    },
+    {
+      "name": "hexagon-half",
+      "codepoint": 58130,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "highlighter",
+      "codepoint": 58132,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "highlights",
+      "codepoint": 58133,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hospital",
+      "codepoint": 58134,
+      "overrides": {
+        "filled": 57759
+      }
+    },
+    {
+      "name": "hourglass",
+      "codepoint": 58138,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hourglass-bottom",
+      "codepoint": 58135,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hourglass-split",
+      "codepoint": 58136,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hourglass-top",
+      "codepoint": 58137,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "house",
+      "codepoint": 58151,
+      "overrides": {
+        "filled": 57766
+      }
+    },
+    {
+      "name": "house-add",
+      "codepoint": 58139,
+      "overrides": {
+        "filled": 57760
+      }
+    },
+    {
+      "name": "house-check",
+      "codepoint": 58140,
+      "overrides": {
+        "filled": 57761
+      }
+    },
+    {
+      "name": "house-dash",
+      "codepoint": 58141,
+      "overrides": {
+        "filled": 57762
+      }
+    },
+    {
+      "name": "house-door",
+      "codepoint": 58142,
+      "overrides": {
+        "filled": 57763
+      }
+    },
+    {
+      "name": "house-down",
+      "codepoint": 58143,
+      "overrides": {
+        "filled": 57764
+      }
+    },
+    {
+      "name": "house-exclamation",
+      "codepoint": 58144,
+      "overrides": {
+        "filled": 57765
+      }
+    },
+    {
+      "name": "house-gear",
+      "codepoint": 58145,
+      "overrides": {
+        "filled": 57767
+      }
+    },
+    {
+      "name": "house-heart",
+      "codepoint": 58146,
+      "overrides": {
+        "filled": 57768
+      }
+    },
+    {
+      "name": "house-lock",
+      "codepoint": 58147,
+      "overrides": {
+        "filled": 57769
+      }
+    },
+    {
+      "name": "house-slash",
+      "codepoint": 58148,
+      "overrides": {
+        "filled": 57770
+      }
+    },
+    {
+      "name": "house-up",
+      "codepoint": 58149,
+      "overrides": {
+        "filled": 57771
+      }
+    },
+    {
+      "name": "house-x",
+      "codepoint": 58150,
+      "overrides": {
+        "filled": 57772
+      }
+    },
+    {
+      "name": "houses",
+      "codepoint": 58152,
+      "overrides": {
+        "filled": 57773
+      }
+    },
+    {
+      "name": "hr",
+      "codepoint": 58153,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hurricane",
+      "codepoint": 58154,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hypnotize",
+      "codepoint": 58155,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "image",
+      "codepoint": 58157,
+      "overrides": {
+        "filled": 57774
+      }
+    },
+    {
+      "name": "image-alt",
+      "codepoint": 58156,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "images",
+      "codepoint": 58158,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "inbox",
+      "codepoint": 58159,
+      "overrides": {
+        "filled": 57775
+      }
+    },
+    {
+      "name": "inboxes",
+      "codepoint": 58160,
+      "overrides": {
+        "filled": 57776
+      }
+    },
+    {
+      "name": "incognito",
+      "codepoint": 58161,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "indent",
+      "codepoint": 58162,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "infinity",
+      "codepoint": 58163,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "info",
+      "codepoint": 58167,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "info-circle",
+      "codepoint": 58164,
+      "overrides": {
+        "filled": 57777
+      }
+    },
+    {
+      "name": "info-lg",
+      "codepoint": 58165,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "info-square",
+      "codepoint": 58166,
+      "overrides": {
+        "filled": 57778
+      }
+    },
+    {
+      "name": "input-cursor",
+      "codepoint": 58169,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "input-cursor-text",
+      "codepoint": 58168,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "instagram",
+      "codepoint": 58170,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "intersect",
+      "codepoint": 58171,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "javascript",
+      "codepoint": 58172,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal",
+      "codepoint": 58185,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-album",
+      "codepoint": 58173,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-arrow-down",
+      "codepoint": 58174,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-arrow-up",
+      "codepoint": 58175,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-bookmark",
+      "codepoint": 58176,
+      "overrides": {
+        "filled": 57779
+      }
+    },
+    {
+      "name": "journal-check",
+      "codepoint": 58177,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-code",
+      "codepoint": 58178,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-medical",
+      "codepoint": 58179,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-minus",
+      "codepoint": 58180,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-plus",
+      "codepoint": 58181,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-richtext",
+      "codepoint": 58182,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-text",
+      "codepoint": 58183,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-x",
+      "codepoint": 58184,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journals",
+      "codepoint": 58186,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "joystick",
+      "codepoint": 58187,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "justify",
+      "codepoint": 58190,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "justify-left",
+      "codepoint": 58188,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "justify-right",
+      "codepoint": 58189,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "kanban",
+      "codepoint": 58191,
+      "overrides": {
+        "filled": 57780
+      }
+    },
+    {
+      "name": "key",
+      "codepoint": 58192,
+      "overrides": {
+        "filled": 57781
+      }
+    },
+    {
+      "name": "keyboard",
+      "codepoint": 58193,
+      "overrides": {
+        "filled": 57782
+      }
+    },
+    {
+      "name": "ladder",
+      "codepoint": 58194,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "lamp",
+      "codepoint": 58195,
+      "overrides": {
+        "filled": 57783
+      }
+    },
+    {
+      "name": "laptop",
+      "codepoint": 58196,
+      "overrides": {
+        "filled": 57784
+      }
+    },
+    {
+      "name": "layer-backward",
+      "codepoint": 58197,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layer-forward",
+      "codepoint": 58198,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layers",
+      "codepoint": 58200,
+      "overrides": {
+        "filled": 57785
+      }
+    },
+    {
+      "name": "layers-half",
+      "codepoint": 58199,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-sidebar",
+      "codepoint": 58204,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-sidebar-inset",
+      "codepoint": 58202,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-sidebar-inset-reverse",
+      "codepoint": 58201,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-sidebar-reverse",
+      "codepoint": 58203,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-split",
+      "codepoint": 58205,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-text-sidebar",
+      "codepoint": 58207,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-text-sidebar-reverse",
+      "codepoint": 58206,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-text-window",
+      "codepoint": 58209,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-text-window-reverse",
+      "codepoint": 58208,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-three-columns",
+      "codepoint": 58210,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layout-wtf",
+      "codepoint": 58211,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "leaf",
+      "codepoint": 58212,
+      "overrides": {
+        "filled": 57786
+      }
+    },
+    {
+      "name": "life-preserver",
+      "codepoint": 58213,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "lightbulb",
+      "codepoint": 58215,
+      "overrides": {
+        "filled": 57787
+      }
+    },
+    {
+      "name": "lightbulb-off",
+      "codepoint": 58214,
+      "overrides": {
+        "filled": 57788
+      }
+    },
+    {
+      "name": "lightning",
+      "codepoint": 58217,
+      "overrides": {
+        "filled": 57790
+      }
+    },
+    {
+      "name": "lightning-charge",
+      "codepoint": 58216,
+      "overrides": {
+        "filled": 57789
+      }
+    },
+    {
+      "name": "line",
+      "codepoint": 58218,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "link",
+      "codepoint": 58220,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "link-45deg",
+      "codepoint": 58219,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "linkedin",
+      "codepoint": 58221,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list",
+      "codepoint": 58230,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-check",
+      "codepoint": 58222,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-columns",
+      "codepoint": 58224,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-columns-reverse",
+      "codepoint": 58223,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-nested",
+      "codepoint": 58225,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-ol",
+      "codepoint": 58226,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-stars",
+      "codepoint": 58227,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-task",
+      "codepoint": 58228,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-ul",
+      "codepoint": 58229,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "lock",
+      "codepoint": 58231,
+      "overrides": {
+        "filled": 57791
+      }
+    },
+    {
+      "name": "luggage",
+      "codepoint": 58232,
+      "overrides": {
+        "filled": 57792
+      }
+    },
+    {
+      "name": "lungs",
+      "codepoint": 58233,
+      "overrides": {
+        "filled": 57793
+      }
+    },
+    {
+      "name": "magic",
+      "codepoint": 58234,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "magnet",
+      "codepoint": 58235,
+      "overrides": {
+        "filled": 57794
+      }
+    },
+    {
+      "name": "mailbox",
+      "codepoint": 58237,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mailbox-flag",
+      "codepoint": 58236,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mailbox2",
+      "codepoint": 58239,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mailbox2-flag",
+      "codepoint": 58238,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "map",
+      "codepoint": 58240,
+      "overrides": {
+        "filled": 57795
+      }
+    },
+    {
+      "name": "markdown",
+      "codepoint": 58241,
+      "overrides": {
+        "filled": 57796
+      }
+    },
+    {
+      "name": "marker-tip",
+      "codepoint": 58242,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mask",
+      "codepoint": 58243,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mastodon",
+      "codepoint": 58244,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "measuring-cup",
+      "codepoint": 58245,
+      "overrides": {
+        "filled": 57797
+      }
+    },
+    {
+      "name": "medium",
+      "codepoint": 58246,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "megaphone",
+      "codepoint": 58247,
+      "overrides": {
+        "filled": 57798
+      }
+    },
+    {
+      "name": "memory",
+      "codepoint": 58248,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "menu-app",
+      "codepoint": 58249,
+      "overrides": {
+        "filled": 57799
+      }
+    },
+    {
+      "name": "menu-button",
+      "codepoint": 58251,
+      "overrides": {
+        "filled": 57800
+      }
+    },
+    {
+      "name": "menu-button-wide",
+      "codepoint": 58250,
+      "overrides": {
+        "filled": 57801
+      }
+    },
+    {
+      "name": "menu-down",
+      "codepoint": 58252,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "menu-up",
+      "codepoint": 58253,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "messenger",
+      "codepoint": 58254,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "meta",
+      "codepoint": 58255,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mic",
+      "codepoint": 58257,
+      "overrides": {
+        "filled": 57802
+      }
+    },
+    {
+      "name": "mic-mute",
+      "codepoint": 58256,
+      "overrides": {
+        "filled": 57803
+      }
+    },
+    {
+      "name": "microsoft",
+      "codepoint": 58259,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "microsoft-teams",
+      "codepoint": 58258,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "minecart",
+      "codepoint": 58261,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "minecart-loaded",
+      "codepoint": 58260,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "modem",
+      "codepoint": 58262,
+      "overrides": {
+        "filled": 57804
+      }
+    },
+    {
+      "name": "moisture",
+      "codepoint": 58263,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "moon",
+      "codepoint": 58265,
+      "overrides": {
+        "filled": 57805
+      }
+    },
+    {
+      "name": "moon-stars",
+      "codepoint": 58264,
+      "overrides": {
+        "filled": 57806
+      }
+    },
+    {
+      "name": "mortarboard",
+      "codepoint": 58266,
+      "overrides": {
+        "filled": 57807
+      }
+    },
+    {
+      "name": "motherboard",
+      "codepoint": 58267,
+      "overrides": {
+        "filled": 57808
+      }
+    },
+    {
+      "name": "mouse",
+      "codepoint": 58268,
+      "overrides": {
+        "filled": 57809
+      }
+    },
+    {
+      "name": "mouse2",
+      "codepoint": 58269,
+      "overrides": {
+        "filled": 57810
+      }
+    },
+    {
+      "name": "mouse3",
+      "codepoint": 58270,
+      "overrides": {
+        "filled": 57811
+      }
+    },
+    {
+      "name": "music-note",
+      "codepoint": 58273,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "music-note-beamed",
+      "codepoint": 58271,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "music-note-list",
+      "codepoint": 58272,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "music-player",
+      "codepoint": 58274,
+      "overrides": {
+        "filled": 57812
+      }
+    },
+    {
+      "name": "newspaper",
+      "codepoint": 58275,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "nintendo-switch",
+      "codepoint": 58276,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "node-minus",
+      "codepoint": 58277,
+      "overrides": {
+        "filled": 57813
+      }
+    },
+    {
+      "name": "node-plus",
+      "codepoint": 58278,
+      "overrides": {
+        "filled": 57814
+      }
+    },
+    {
+      "name": "noise-reduction",
+      "codepoint": 58279,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "nut",
+      "codepoint": 58280,
+      "overrides": {
+        "filled": 57815
+      }
+    },
+    {
+      "name": "nvidia",
+      "codepoint": 58281,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "nvme",
+      "codepoint": 58282,
+      "overrides": {
+        "filled": 57816
+      }
+    },
+    {
+      "name": "octagon",
+      "codepoint": 58284,
+      "overrides": {
+        "filled": 57817
+      }
+    },
+    {
+      "name": "octagon-half",
+      "codepoint": 58283,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "openai",
+      "codepoint": 58285,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "opencollective",
+      "codepoint": 58286,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "optical-audio",
+      "codepoint": 58287,
+      "overrides": {
+        "filled": 57818
+      }
+    },
+    {
+      "name": "option",
+      "codepoint": 58288,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "outlet",
+      "codepoint": 58289,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "p-circle",
+      "codepoint": 58290,
+      "overrides": {
+        "filled": 57819
+      }
+    },
+    {
+      "name": "p-square",
+      "codepoint": 58291,
+      "overrides": {
+        "filled": 57820
+      }
+    },
+    {
+      "name": "paint-bucket",
+      "codepoint": 58292,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "palette",
+      "codepoint": 58293,
+      "overrides": {
+        "filled": 57821
+      }
+    },
+    {
+      "name": "palette2",
+      "codepoint": 58294,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "paperclip",
+      "codepoint": 58295,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "paragraph",
+      "codepoint": 58296,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pass",
+      "codepoint": 58297,
+      "overrides": {
+        "filled": 57822
+      }
+    },
+    {
+      "name": "passport",
+      "codepoint": 58298,
+      "overrides": {
+        "filled": 57823
+      }
+    },
+    {
+      "name": "patch-check",
+      "codepoint": 58299,
+      "overrides": {
+        "filled": 57824
+      }
+    },
+    {
+      "name": "patch-exclamation",
+      "codepoint": 58300,
+      "overrides": {
+        "filled": 57825
+      }
+    },
+    {
+      "name": "patch-minus",
+      "codepoint": 58301,
+      "overrides": {
+        "filled": 57826
+      }
+    },
+    {
+      "name": "patch-plus",
+      "codepoint": 58302,
+      "overrides": {
+        "filled": 57827
+      }
+    },
+    {
+      "name": "patch-question",
+      "codepoint": 58303,
+      "overrides": {
+        "filled": 57828
+      }
+    },
+    {
+      "name": "pause",
+      "codepoint": 58306,
+      "overrides": {
+        "filled": 57831
+      }
+    },
+    {
+      "name": "pause-btn",
+      "codepoint": 58304,
+      "overrides": {
+        "filled": 57829
+      }
+    },
+    {
+      "name": "pause-circle",
+      "codepoint": 58305,
+      "overrides": {
+        "filled": 57830
+      }
+    },
+    {
+      "name": "paypal",
+      "codepoint": 58307,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pc",
+      "codepoint": 58311,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pc-display",
+      "codepoint": 58309,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pc-display-horizontal",
+      "codepoint": 58308,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pc-horizontal",
+      "codepoint": 58310,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pci-card",
+      "codepoint": 58314,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pci-card-network",
+      "codepoint": 58312,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pci-card-sound",
+      "codepoint": 58313,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "peace",
+      "codepoint": 58315,
+      "overrides": {
+        "filled": 57832
+      }
+    },
+    {
+      "name": "pen",
+      "codepoint": 58316,
+      "overrides": {
+        "filled": 57833
+      }
+    },
+    {
+      "name": "pencil",
+      "codepoint": 58318,
+      "overrides": {
+        "filled": 57834
+      }
+    },
+    {
+      "name": "pencil-square",
+      "codepoint": 58317,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pentagon",
+      "codepoint": 58320,
+      "overrides": {
+        "filled": 57835
+      }
+    },
+    {
+      "name": "pentagon-half",
+      "codepoint": 58319,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "people",
+      "codepoint": 58321,
+      "overrides": {
+        "filled": 57836
+      }
+    },
+    {
+      "name": "percent",
+      "codepoint": 58322,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "perplexity",
+      "codepoint": 58323,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person",
+      "codepoint": 58363,
+      "overrides": {
+        "filled": 57840
+      }
+    },
+    {
+      "name": "person-add",
+      "codepoint": 58324,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-arms-up",
+      "codepoint": 58325,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-badge",
+      "codepoint": 58326,
+      "overrides": {
+        "filled": 57837
+      }
+    },
+    {
+      "name": "person-bounding-box",
+      "codepoint": 58327,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-check",
+      "codepoint": 58328,
+      "overrides": {
+        "filled": 57838
+      }
+    },
+    {
+      "name": "person-circle",
+      "codepoint": 58329,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-dash",
+      "codepoint": 58330,
+      "overrides": {
+        "filled": 57839
+      }
+    },
+    {
+      "name": "person-down",
+      "codepoint": 58331,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-exclamation",
+      "codepoint": 58332,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-add",
+      "codepoint": 58333,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-check",
+      "codepoint": 58334,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-dash",
+      "codepoint": 58335,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-down",
+      "codepoint": 58336,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-exclamation",
+      "codepoint": 58337,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-gear",
+      "codepoint": 58338,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-lock",
+      "codepoint": 58339,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-slash",
+      "codepoint": 58340,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-up",
+      "codepoint": 58341,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-fill-x",
+      "codepoint": 58342,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-gear",
+      "codepoint": 58343,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-heart",
+      "codepoint": 58344,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-hearts",
+      "codepoint": 58345,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-lines",
+      "overrides": {
+        "filled": 57841
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "person-lock",
+      "codepoint": 58346,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-plus",
+      "codepoint": 58347,
+      "overrides": {
+        "filled": 57842
+      }
+    },
+    {
+      "name": "person-raised-hand",
+      "codepoint": 58348,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-rolodex",
+      "codepoint": 58349,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-slash",
+      "codepoint": 58350,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-square",
+      "codepoint": 58351,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-standing",
+      "codepoint": 58353,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-standing-dress",
+      "codepoint": 58352,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-up",
+      "codepoint": 58354,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-vcard",
+      "codepoint": 58355,
+      "overrides": {
+        "filled": 57843
+      }
+    },
+    {
+      "name": "person-video",
+      "codepoint": 58356,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-video2",
+      "codepoint": 58357,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-video3",
+      "codepoint": 58358,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-walking",
+      "codepoint": 58359,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-wheelchair",
+      "codepoint": 58360,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-workspace",
+      "codepoint": 58361,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-x",
+      "codepoint": 58362,
+      "overrides": {
+        "filled": 57844
+      }
+    },
+    {
+      "name": "phone",
+      "codepoint": 58367,
+      "overrides": {
+        "filled": 57845
+      }
+    },
+    {
+      "name": "phone-flip",
+      "codepoint": 58364,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "phone-landscape",
+      "codepoint": 58365,
+      "overrides": {
+        "filled": 57846
+      }
+    },
+    {
+      "name": "phone-vibrate",
+      "codepoint": 58366,
+      "overrides": {
+        "filled": 57847
+      }
+    },
+    {
+      "name": "pie-chart",
+      "codepoint": 58368,
+      "overrides": {
+        "filled": 57848
+      }
+    },
+    {
+      "name": "piggy-bank",
+      "codepoint": 58369,
+      "overrides": {
+        "filled": 57849
+      }
+    },
+    {
+      "name": "pin",
+      "codepoint": 58372,
+      "overrides": {
+        "filled": 57851
+      }
+    },
+    {
+      "name": "pin-angle",
+      "codepoint": 58370,
+      "overrides": {
+        "filled": 57850
+      }
+    },
+    {
+      "name": "pin-map",
+      "codepoint": 58371,
+      "overrides": {
+        "filled": 57852
+      }
+    },
+    {
+      "name": "pinterest",
+      "codepoint": 58373,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pip",
+      "codepoint": 58374,
+      "overrides": {
+        "filled": 57853
+      }
+    },
+    {
+      "name": "play",
+      "codepoint": 58377,
+      "overrides": {
+        "filled": 57856
+      }
+    },
+    {
+      "name": "play-btn",
+      "codepoint": 58375,
+      "overrides": {
+        "filled": 57854
+      }
+    },
+    {
+      "name": "play-circle",
+      "codepoint": 58376,
+      "overrides": {
+        "filled": 57855
+      }
+    },
+    {
+      "name": "playstation",
+      "codepoint": 58378,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "plug",
+      "codepoint": 58379,
+      "overrides": {
+        "filled": 57857
+      }
+    },
+    {
+      "name": "plugin",
+      "codepoint": 58380,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "plus",
+      "codepoint": 58387,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "plus-circle",
+      "codepoint": 58382,
+      "overrides": {
+        "filled": 57858
+      }
+    },
+    {
+      "name": "plus-circle-dotted",
+      "codepoint": 58381,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "plus-lg",
+      "codepoint": 58383,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "plus-slash-minus",
+      "codepoint": 58384,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "plus-square",
+      "codepoint": 58386,
+      "overrides": {
+        "filled": 57859
+      }
+    },
+    {
+      "name": "plus-square-dotted",
+      "codepoint": 58385,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "postage",
+      "codepoint": 58389,
+      "overrides": {
+        "filled": 57860
+      }
+    },
+    {
+      "name": "postage-heart",
+      "codepoint": 58388,
+      "overrides": {
+        "filled": 57861
+      }
+    },
+    {
+      "name": "postcard",
+      "codepoint": 58391,
+      "overrides": {
+        "filled": 57862
+      }
+    },
+    {
+      "name": "postcard-heart",
+      "codepoint": 58390,
+      "overrides": {
+        "filled": 57863
+      }
+    },
+    {
+      "name": "power",
+      "codepoint": 58392,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "prescription",
+      "codepoint": 58393,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "prescription2",
+      "codepoint": 58394,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "printer",
+      "codepoint": 58395,
+      "overrides": {
+        "filled": 57864
+      }
+    },
+    {
+      "name": "projector",
+      "codepoint": 58396,
+      "overrides": {
+        "filled": 57865
+      }
+    },
+    {
+      "name": "puzzle",
+      "codepoint": 58397,
+      "overrides": {
+        "filled": 57866
+      }
+    },
+    {
+      "name": "qr-code",
+      "codepoint": 58399,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "qr-code-scan",
+      "codepoint": 58398,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "question",
+      "codepoint": 58405,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "question-circle",
+      "codepoint": 58400,
+      "overrides": {
+        "filled": 57867
+      }
+    },
+    {
+      "name": "question-diamond",
+      "codepoint": 58401,
+      "overrides": {
+        "filled": 57868
+      }
+    },
+    {
+      "name": "question-lg",
+      "codepoint": 58402,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "question-octagon",
+      "codepoint": 58403,
+      "overrides": {
+        "filled": 57869
+      }
+    },
+    {
+      "name": "question-square",
+      "codepoint": 58404,
+      "overrides": {
+        "filled": 57870
+      }
+    },
+    {
+      "name": "quora",
+      "codepoint": 58406,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "quote",
+      "codepoint": 58407,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "r-circle",
+      "codepoint": 58408,
+      "overrides": {
+        "filled": 57871
+      }
+    },
+    {
+      "name": "r-square",
+      "codepoint": 58409,
+      "overrides": {
+        "filled": 57872
+      }
+    },
+    {
+      "name": "radar",
+      "codepoint": 58410,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "radioactive",
+      "codepoint": 58411,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "rainbow",
+      "codepoint": 58412,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "receipt",
+      "codepoint": 58414,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "receipt-cutoff",
+      "codepoint": 58413,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reception-0",
+      "codepoint": 58415,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reception-1",
+      "codepoint": 58416,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reception-2",
+      "codepoint": 58417,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reception-3",
+      "codepoint": 58418,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reception-4",
+      "codepoint": 58419,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "record",
+      "codepoint": 58422,
+      "overrides": {
+        "filled": 57875
+      }
+    },
+    {
+      "name": "record-btn",
+      "codepoint": 58420,
+      "overrides": {
+        "filled": 57873
+      }
+    },
+    {
+      "name": "record-circle",
+      "codepoint": 58421,
+      "overrides": {
+        "filled": 57874
+      }
+    },
+    {
+      "name": "record2",
+      "codepoint": 58423,
+      "overrides": {
+        "filled": 57876
+      }
+    },
+    {
+      "name": "recycle",
+      "codepoint": 58424,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reddit",
+      "codepoint": 58425,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "regex",
+      "codepoint": 58426,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "repeat",
+      "codepoint": 58428,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "repeat-1",
+      "codepoint": 58427,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reply",
+      "codepoint": 58430,
+      "overrides": {
+        "filled": 57878
+      }
+    },
+    {
+      "name": "reply-all",
+      "codepoint": 58429,
+      "overrides": {
+        "filled": 57877
+      }
+    },
+    {
+      "name": "rewind",
+      "codepoint": 58433,
+      "overrides": {
+        "filled": 57881
+      }
+    },
+    {
+      "name": "rewind-btn",
+      "codepoint": 58431,
+      "overrides": {
+        "filled": 57879
+      }
+    },
+    {
+      "name": "rewind-circle",
+      "codepoint": 58432,
+      "overrides": {
+        "filled": 57880
+      }
+    },
+    {
+      "name": "robot",
+      "codepoint": 58434,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "rocket",
+      "codepoint": 58436,
+      "overrides": {
+        "filled": 57882
+      }
+    },
+    {
+      "name": "rocket-takeoff",
+      "codepoint": 58435,
+      "overrides": {
+        "filled": 57883
+      }
+    },
+    {
+      "name": "router",
+      "codepoint": 58437,
+      "overrides": {
+        "filled": 57884
+      }
+    },
+    {
+      "name": "rss",
+      "codepoint": 58438,
+      "overrides": {
+        "filled": 57885
+      }
+    },
+    {
+      "name": "rulers",
+      "codepoint": 58439,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "safe",
+      "codepoint": 58440,
+      "overrides": {
+        "filled": 57886
+      }
+    },
+    {
+      "name": "safe2",
+      "codepoint": 58441,
+      "overrides": {
+        "filled": 57887
+      }
+    },
+    {
+      "name": "save",
+      "codepoint": 58442,
+      "overrides": {
+        "filled": 57888
+      }
+    },
+    {
+      "name": "save2",
+      "codepoint": 58443,
+      "overrides": {
+        "filled": 57889
+      }
+    },
+    {
+      "name": "scissors",
+      "codepoint": 58444,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "scooter",
+      "codepoint": 58445,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "screwdriver",
+      "codepoint": 58446,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sd-card",
+      "codepoint": 58447,
+      "overrides": {
+        "filled": 57890
+      }
+    },
+    {
+      "name": "search",
+      "codepoint": 58449,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "search-heart",
+      "codepoint": 58448,
+      "overrides": {
+        "filled": 57891
+      }
+    },
+    {
+      "name": "segmented-nav",
+      "codepoint": 58450,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "send",
+      "codepoint": 58459,
+      "overrides": {
+        "filled": 57897
+      }
+    },
+    {
+      "name": "send-arrow-down",
+      "codepoint": 58451,
+      "overrides": {
+        "filled": 57892
+      }
+    },
+    {
+      "name": "send-arrow-up",
+      "codepoint": 58452,
+      "overrides": {
+        "filled": 57893
+      }
+    },
+    {
+      "name": "send-check",
+      "codepoint": 58453,
+      "overrides": {
+        "filled": 57894
+      }
+    },
+    {
+      "name": "send-dash",
+      "codepoint": 58454,
+      "overrides": {
+        "filled": 57895
+      }
+    },
+    {
+      "name": "send-exclamation",
+      "codepoint": 58455,
+      "overrides": {
+        "filled": 57896
+      }
+    },
+    {
+      "name": "send-plus",
+      "codepoint": 58456,
+      "overrides": {
+        "filled": 57898
+      }
+    },
+    {
+      "name": "send-slash",
+      "codepoint": 58457,
+      "overrides": {
+        "filled": 57899
+      }
+    },
+    {
+      "name": "send-x",
+      "codepoint": 58458,
+      "overrides": {
+        "filled": 57900
+      }
+    },
+    {
+      "name": "server",
+      "codepoint": 58460,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shadows",
+      "codepoint": 58461,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "share",
+      "codepoint": 58462,
+      "overrides": {
+        "filled": 57901
+      }
+    },
+    {
+      "name": "shield",
+      "codepoint": 58476,
+      "overrides": {
+        "filled": 57902
+      }
+    },
+    {
+      "name": "shield-check",
+      "codepoint": 58463,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-exclamation",
+      "codepoint": 58464,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-fill-check",
+      "codepoint": 58465,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-fill-exclamation",
+      "codepoint": 58466,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-fill-minus",
+      "codepoint": 58467,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-fill-plus",
+      "codepoint": 58468,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-fill-x",
+      "codepoint": 58469,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-lock",
+      "codepoint": 58470,
+      "overrides": {
+        "filled": 57903
+      }
+    },
+    {
+      "name": "shield-minus",
+      "codepoint": 58471,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-plus",
+      "codepoint": 58472,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-shaded",
+      "codepoint": 58473,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-slash",
+      "codepoint": 58474,
+      "overrides": {
+        "filled": 57904
+      }
+    },
+    {
+      "name": "shield-x",
+      "codepoint": 58475,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shift",
+      "codepoint": 58477,
+      "overrides": {
+        "filled": 57905
+      }
+    },
+    {
+      "name": "shop",
+      "codepoint": 58479,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shop-window",
+      "codepoint": 58478,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shuffle",
+      "codepoint": 58480,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sign-dead-end",
+      "codepoint": 58481,
+      "overrides": {
+        "filled": 57906
+      }
+    },
+    {
+      "name": "sign-do-not-enter",
+      "codepoint": 58482,
+      "overrides": {
+        "filled": 57907
+      }
+    },
+    {
+      "name": "sign-intersection",
+      "codepoint": 58486,
+      "overrides": {
+        "filled": 57908
+      }
+    },
+    {
+      "name": "sign-intersection-side",
+      "codepoint": 58483,
+      "overrides": {
+        "filled": 57909
+      }
+    },
+    {
+      "name": "sign-intersection-t",
+      "codepoint": 58484,
+      "overrides": {
+        "filled": 57910
+      }
+    },
+    {
+      "name": "sign-intersection-y",
+      "codepoint": 58485,
+      "overrides": {
+        "filled": 57911
+      }
+    },
+    {
+      "name": "sign-merge-left",
+      "codepoint": 58487,
+      "overrides": {
+        "filled": 57912
+      }
+    },
+    {
+      "name": "sign-merge-right",
+      "codepoint": 58488,
+      "overrides": {
+        "filled": 57913
+      }
+    },
+    {
+      "name": "sign-no-left-turn",
+      "codepoint": 58489,
+      "overrides": {
+        "filled": 57914
+      }
+    },
+    {
+      "name": "sign-no-parking",
+      "codepoint": 58490,
+      "overrides": {
+        "filled": 57915
+      }
+    },
+    {
+      "name": "sign-no-right-turn",
+      "codepoint": 58491,
+      "overrides": {
+        "filled": 57916
+      }
+    },
+    {
+      "name": "sign-railroad",
+      "codepoint": 58492,
+      "overrides": {
+        "filled": 57917
+      }
+    },
+    {
+      "name": "sign-stop",
+      "codepoint": 58494,
+      "overrides": {
+        "filled": 57918
+      }
+    },
+    {
+      "name": "sign-stop-lights",
+      "codepoint": 58493,
+      "overrides": {
+        "filled": 57919
+      }
+    },
+    {
+      "name": "sign-turn-left",
+      "codepoint": 58495,
+      "overrides": {
+        "filled": 57920
+      }
+    },
+    {
+      "name": "sign-turn-right",
+      "codepoint": 58496,
+      "overrides": {
+        "filled": 57921
+      }
+    },
+    {
+      "name": "sign-turn-slight-left",
+      "codepoint": 58497,
+      "overrides": {
+        "filled": 57922
+      }
+    },
+    {
+      "name": "sign-turn-slight-right",
+      "codepoint": 58498,
+      "overrides": {
+        "filled": 57923
+      }
+    },
+    {
+      "name": "sign-yield",
+      "codepoint": 58499,
+      "overrides": {
+        "filled": 57924
+      }
+    },
+    {
+      "name": "signal",
+      "codepoint": 58500,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "signpost",
+      "codepoint": 58503,
+      "overrides": {
+        "filled": 57926
+      }
+    },
+    {
+      "name": "signpost-2",
+      "codepoint": 58501,
+      "overrides": {
+        "filled": 57925
+      }
+    },
+    {
+      "name": "signpost-split",
+      "codepoint": 58502,
+      "overrides": {
+        "filled": 57927
+      }
+    },
+    {
+      "name": "sim",
+      "codepoint": 58505,
+      "overrides": {
+        "filled": 57928
+      }
+    },
+    {
+      "name": "sim-slash",
+      "codepoint": 58504,
+      "overrides": {
+        "filled": 57929
+      }
+    },
+    {
+      "name": "sina-weibo",
+      "codepoint": 58506,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "skip-backward",
+      "codepoint": 58509,
+      "overrides": {
+        "filled": 57932
+      }
+    },
+    {
+      "name": "skip-backward-btn",
+      "codepoint": 58507,
+      "overrides": {
+        "filled": 57930
+      }
+    },
+    {
+      "name": "skip-backward-circle",
+      "codepoint": 58508,
+      "overrides": {
+        "filled": 57931
+      }
+    },
+    {
+      "name": "skip-end",
+      "codepoint": 58512,
+      "overrides": {
+        "filled": 57935
+      }
+    },
+    {
+      "name": "skip-end-btn",
+      "codepoint": 58510,
+      "overrides": {
+        "filled": 57933
+      }
+    },
+    {
+      "name": "skip-end-circle",
+      "codepoint": 58511,
+      "overrides": {
+        "filled": 57934
+      }
+    },
+    {
+      "name": "skip-forward",
+      "codepoint": 58515,
+      "overrides": {
+        "filled": 57938
+      }
+    },
+    {
+      "name": "skip-forward-btn",
+      "codepoint": 58513,
+      "overrides": {
+        "filled": 57936
+      }
+    },
+    {
+      "name": "skip-forward-circle",
+      "codepoint": 58514,
+      "overrides": {
+        "filled": 57937
+      }
+    },
+    {
+      "name": "skip-start",
+      "codepoint": 58518,
+      "overrides": {
+        "filled": 57941
+      }
+    },
+    {
+      "name": "skip-start-btn",
+      "codepoint": 58516,
+      "overrides": {
+        "filled": 57939
+      }
+    },
+    {
+      "name": "skip-start-circle",
+      "codepoint": 58517,
+      "overrides": {
+        "filled": 57940
+      }
+    },
+    {
+      "name": "skype",
+      "codepoint": 58519,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "slack",
+      "codepoint": 58520,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "slash",
+      "codepoint": 58524,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "slash-circle",
+      "codepoint": 58521,
+      "overrides": {
+        "filled": 57942
+      }
+    },
+    {
+      "name": "slash-lg",
+      "codepoint": 58522,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "slash-square",
+      "codepoint": 58523,
+      "overrides": {
+        "filled": 57943
+      }
+    },
+    {
+      "name": "sliders",
+      "codepoint": 58525,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sliders2",
+      "codepoint": 58527,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sliders2-vertical",
+      "codepoint": 58526,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "smartwatch",
+      "codepoint": 58528,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "snapchat",
+      "codepoint": 58529,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "snow",
+      "codepoint": 58530,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "snow2",
+      "codepoint": 58531,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "snow3",
+      "codepoint": 58532,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-alpha-down",
+      "codepoint": 58534,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-alpha-down-alt",
+      "codepoint": 58533,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-alpha-up",
+      "codepoint": 58536,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-alpha-up-alt",
+      "codepoint": 58535,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-down",
+      "codepoint": 58538,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-down-alt",
+      "codepoint": 58537,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-numeric-down",
+      "codepoint": 58540,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-numeric-down-alt",
+      "codepoint": 58539,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-numeric-up",
+      "codepoint": 58542,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-numeric-up-alt",
+      "codepoint": 58541,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-up",
+      "codepoint": 58544,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sort-up-alt",
+      "codepoint": 58543,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "soundwave",
+      "codepoint": 58545,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sourceforge",
+      "codepoint": 58546,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "speaker",
+      "codepoint": 58547,
+      "overrides": {
+        "filled": 57944
+      }
+    },
+    {
+      "name": "speedometer",
+      "codepoint": 58548,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "speedometer2",
+      "codepoint": 58549,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "spellcheck",
+      "codepoint": 58550,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "spotify",
+      "codepoint": 58551,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "square",
+      "codepoint": 58553,
+      "overrides": {
+        "filled": 57945
+      }
+    },
+    {
+      "name": "square-half",
+      "codepoint": 58552,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stack",
+      "codepoint": 58555,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stack-overflow",
+      "codepoint": 58554,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "star",
+      "codepoint": 58557,
+      "overrides": {
+        "filled": 57946
+      }
+    },
+    {
+      "name": "star-half",
+      "codepoint": 58556,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stars",
+      "codepoint": 58558,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "steam",
+      "codepoint": 58559,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stickies",
+      "codepoint": 58560,
+      "overrides": {
+        "filled": 57947
+      }
+    },
+    {
+      "name": "sticky",
+      "codepoint": 58561,
+      "overrides": {
+        "filled": 57948
+      }
+    },
+    {
+      "name": "stop",
+      "codepoint": 58564,
+      "overrides": {
+        "filled": 57951
+      }
+    },
+    {
+      "name": "stop-btn",
+      "codepoint": 58562,
+      "overrides": {
+        "filled": 57949
+      }
+    },
+    {
+      "name": "stop-circle",
+      "codepoint": 58563,
+      "overrides": {
+        "filled": 57950
+      }
+    },
+    {
+      "name": "stoplights",
+      "codepoint": 58565,
+      "overrides": {
+        "filled": 57952
+      }
+    },
+    {
+      "name": "stopwatch",
+      "codepoint": 58566,
+      "overrides": {
+        "filled": 57953
+      }
+    },
+    {
+      "name": "strava",
+      "codepoint": 58567,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stripe",
+      "codepoint": 58568,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "subscript",
+      "codepoint": 58569,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "substack",
+      "codepoint": 58570,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "subtract",
+      "codepoint": 58571,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "suit-club",
+      "codepoint": 58572,
+      "overrides": {
+        "filled": 57954
+      }
+    },
+    {
+      "name": "suit-diamond",
+      "codepoint": 58573,
+      "overrides": {
+        "filled": 57955
+      }
+    },
+    {
+      "name": "suit-heart",
+      "codepoint": 58574,
+      "overrides": {
+        "filled": 57956
+      }
+    },
+    {
+      "name": "suit-spade",
+      "codepoint": 58575,
+      "overrides": {
+        "filled": 57957
+      }
+    },
+    {
+      "name": "suitcase",
+      "codepoint": 58577,
+      "overrides": {
+        "filled": 57958
+      }
+    },
+    {
+      "name": "suitcase-lg",
+      "codepoint": 58576,
+      "overrides": {
+        "filled": 57959
+      }
+    },
+    {
+      "name": "suitcase2",
+      "codepoint": 58578,
+      "overrides": {
+        "filled": 57960
+      }
+    },
+    {
+      "name": "sun",
+      "codepoint": 58579,
+      "overrides": {
+        "filled": 57961
+      }
+    },
+    {
+      "name": "sunglasses",
+      "codepoint": 58580,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sunrise",
+      "codepoint": 58581,
+      "overrides": {
+        "filled": 57962
+      }
+    },
+    {
+      "name": "sunset",
+      "codepoint": 58582,
+      "overrides": {
+        "filled": 57963
+      }
+    },
+    {
+      "name": "superscript",
+      "codepoint": 58583,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "symmetry-horizontal",
+      "codepoint": 58584,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "symmetry-vertical",
+      "codepoint": 58585,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "table",
+      "codepoint": 58586,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tablet",
+      "codepoint": 58588,
+      "overrides": {
+        "filled": 57964
+      }
+    },
+    {
+      "name": "tablet-landscape",
+      "codepoint": 58587,
+      "overrides": {
+        "filled": 57965
+      }
+    },
+    {
+      "name": "tag",
+      "codepoint": 58589,
+      "overrides": {
+        "filled": 57966
+      }
+    },
+    {
+      "name": "tags",
+      "codepoint": 58590,
+      "overrides": {
+        "filled": 57967
+      }
+    },
+    {
+      "name": "taxi-front",
+      "codepoint": 58591,
+      "overrides": {
+        "filled": 57968
+      }
+    },
+    {
+      "name": "telegram",
+      "codepoint": 58592,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "telephone",
+      "codepoint": 58599,
+      "overrides": {
+        "filled": 57969
+      }
+    },
+    {
+      "name": "telephone-forward",
+      "codepoint": 58593,
+      "overrides": {
+        "filled": 57970
+      }
+    },
+    {
+      "name": "telephone-inbound",
+      "codepoint": 58594,
+      "overrides": {
+        "filled": 57971
+      }
+    },
+    {
+      "name": "telephone-minus",
+      "codepoint": 58595,
+      "overrides": {
+        "filled": 57972
+      }
+    },
+    {
+      "name": "telephone-outbound",
+      "codepoint": 58596,
+      "overrides": {
+        "filled": 57973
+      }
+    },
+    {
+      "name": "telephone-plus",
+      "codepoint": 58597,
+      "overrides": {
+        "filled": 57974
+      }
+    },
+    {
+      "name": "telephone-x",
+      "codepoint": 58598,
+      "overrides": {
+        "filled": 57975
+      }
+    },
+    {
+      "name": "tencent-qq",
+      "codepoint": 58600,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "terminal",
+      "codepoint": 58605,
+      "overrides": {
+        "filled": 57976
+      }
+    },
+    {
+      "name": "terminal-dash",
+      "codepoint": 58601,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "terminal-plus",
+      "codepoint": 58602,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "terminal-split",
+      "codepoint": 58603,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "terminal-x",
+      "codepoint": 58604,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "text-center",
+      "codepoint": 58606,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "text-indent-left",
+      "codepoint": 58607,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "text-indent-right",
+      "codepoint": 58608,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "text-left",
+      "codepoint": 58609,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "text-paragraph",
+      "codepoint": 58610,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "text-right",
+      "codepoint": 58611,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "text-wrap",
+      "codepoint": 58612,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "textarea",
+      "codepoint": 58615,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "textarea-resize",
+      "codepoint": 58613,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "textarea-t",
+      "codepoint": 58614,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thermometer",
+      "codepoint": 58621,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thermometer-half",
+      "codepoint": 58616,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thermometer-high",
+      "codepoint": 58617,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thermometer-low",
+      "codepoint": 58618,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thermometer-snow",
+      "codepoint": 58619,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thermometer-sun",
+      "codepoint": 58620,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "threads",
+      "codepoint": 58622,
+      "overrides": {
+        "filled": 57977
+      }
+    },
+    {
+      "name": "three-dots",
+      "codepoint": 58624,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "three-dots-vertical",
+      "codepoint": 58623,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thunderbolt",
+      "codepoint": 58625,
+      "overrides": {
+        "filled": 57978
+      }
+    },
+    {
+      "name": "ticket",
+      "codepoint": 58628,
+      "overrides": {
+        "filled": 57980
+      }
+    },
+    {
+      "name": "ticket-detailed",
+      "codepoint": 58626,
+      "overrides": {
+        "filled": 57979
+      }
+    },
+    {
+      "name": "ticket-perforated",
+      "codepoint": 58627,
+      "overrides": {
+        "filled": 57981
+      }
+    },
+    {
+      "name": "tiktok",
+      "codepoint": 58629,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "toggle-off",
+      "codepoint": 58630,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "toggle-on",
+      "codepoint": 58631,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "toggle2-off",
+      "codepoint": 58632,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "toggle2-on",
+      "codepoint": 58633,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "toggles",
+      "codepoint": 58634,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "toggles2",
+      "codepoint": 58635,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tools",
+      "codepoint": 58636,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tornado",
+      "codepoint": 58637,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "train-freight-front",
+      "codepoint": 58638,
+      "overrides": {
+        "filled": 57982
+      }
+    },
+    {
+      "name": "train-front",
+      "codepoint": 58639,
+      "overrides": {
+        "filled": 57983
+      }
+    },
+    {
+      "name": "train-lightrail-front",
+      "codepoint": 58640,
+      "overrides": {
+        "filled": 57984
+      }
+    },
+    {
+      "name": "translate",
+      "codepoint": 58641,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "transparency",
+      "codepoint": 58642,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "trash",
+      "codepoint": 58643,
+      "overrides": {
+        "filled": 57985
+      }
+    },
+    {
+      "name": "trash2",
+      "codepoint": 58644,
+      "overrides": {
+        "filled": 57986
+      }
+    },
+    {
+      "name": "trash3",
+      "codepoint": 58645,
+      "overrides": {
+        "filled": 57987
+      }
+    },
+    {
+      "name": "tree",
+      "codepoint": 58646,
+      "overrides": {
+        "filled": 57988
+      }
+    },
+    {
+      "name": "trello",
+      "codepoint": 58647,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "triangle",
+      "codepoint": 58649,
+      "overrides": {
+        "filled": 57989
+      }
+    },
+    {
+      "name": "triangle-half",
+      "codepoint": 58648,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "trophy",
+      "codepoint": 58650,
+      "overrides": {
+        "filled": 57990
+      }
+    },
+    {
+      "name": "tropical-storm",
+      "codepoint": 58651,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "truck",
+      "codepoint": 58654,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "truck-flatbed",
+      "codepoint": 58652,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "truck-front",
+      "codepoint": 58653,
+      "overrides": {
+        "filled": 57991
+      }
+    },
+    {
+      "name": "tsunami",
+      "codepoint": 58655,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tux",
+      "codepoint": 58656,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tv",
+      "codepoint": 58657,
+      "overrides": {
+        "filled": 57992
+      }
+    },
+    {
+      "name": "twitch",
+      "codepoint": 58658,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "twitter",
+      "codepoint": 58660,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "twitter-x",
+      "codepoint": 58659,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type",
+      "codepoint": 58671,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-bold",
+      "codepoint": 58661,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-h1",
+      "codepoint": 58662,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-h2",
+      "codepoint": 58663,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-h3",
+      "codepoint": 58664,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-h4",
+      "codepoint": 58665,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-h5",
+      "codepoint": 58666,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-h6",
+      "codepoint": 58667,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-italic",
+      "codepoint": 58668,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-strikethrough",
+      "codepoint": 58669,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "type-underline",
+      "codepoint": 58670,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "typescript",
+      "codepoint": 58672,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ubuntu",
+      "codepoint": 58673,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ui-checks",
+      "codepoint": 58675,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ui-checks-grid",
+      "codepoint": 58674,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ui-radios",
+      "codepoint": 58677,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ui-radios-grid",
+      "codepoint": 58676,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "umbrella",
+      "codepoint": 58678,
+      "overrides": {
+        "filled": 57993
+      }
+    },
+    {
+      "name": "unindent",
+      "codepoint": 58679,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "union",
+      "codepoint": 58680,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "unity",
+      "codepoint": 58681,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "universal-access",
+      "codepoint": 58683,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "universal-access-circle",
+      "codepoint": 58682,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "unlock",
+      "codepoint": 58684,
+      "overrides": {
+        "filled": 57994
+      }
+    },
+    {
+      "name": "unlock2",
+      "codepoint": 58685,
+      "overrides": {
+        "filled": 57995
+      }
+    },
+    {
+      "name": "upc",
+      "codepoint": 58687,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "upc-scan",
+      "codepoint": 58686,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "upload",
+      "codepoint": 58688,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "usb",
+      "codepoint": 58695,
+      "overrides": {
+        "filled": 57998
+      }
+    },
+    {
+      "name": "usb-c",
+      "codepoint": 58689,
+      "overrides": {
+        "filled": 57996
+      }
+    },
+    {
+      "name": "usb-drive",
+      "codepoint": 58690,
+      "overrides": {
+        "filled": 57997
+      }
+    },
+    {
+      "name": "usb-micro",
+      "codepoint": 58691,
+      "overrides": {
+        "filled": 57999
+      }
+    },
+    {
+      "name": "usb-mini",
+      "codepoint": 58692,
+      "overrides": {
+        "filled": 58000
+      }
+    },
+    {
+      "name": "usb-plug",
+      "codepoint": 58693,
+      "overrides": {
+        "filled": 58001
+      }
+    },
+    {
+      "name": "usb-symbol",
+      "codepoint": 58694,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "valentine",
+      "codepoint": 58696,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "valentine2",
+      "codepoint": 58697,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "vector-pen",
+      "codepoint": 58698,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "view-list",
+      "codepoint": 58699,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "view-stacked",
+      "codepoint": 58700,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "vignette",
+      "codepoint": 58701,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "vimeo",
+      "codepoint": 58702,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "vinyl",
+      "codepoint": 58703,
+      "overrides": {
+        "filled": 58002
+      }
+    },
+    {
+      "name": "virus",
+      "codepoint": 58704,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "virus2",
+      "codepoint": 58705,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "voicemail",
+      "codepoint": 58706,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "volume-down",
+      "codepoint": 58707,
+      "overrides": {
+        "filled": 58003
+      }
+    },
+    {
+      "name": "volume-mute",
+      "codepoint": 58708,
+      "overrides": {
+        "filled": 58004
+      }
+    },
+    {
+      "name": "volume-off",
+      "codepoint": 58709,
+      "overrides": {
+        "filled": 58005
+      }
+    },
+    {
+      "name": "volume-up",
+      "codepoint": 58710,
+      "overrides": {
+        "filled": 58006
+      }
+    },
+    {
+      "name": "vr",
+      "codepoint": 58711,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wallet",
+      "codepoint": 58712,
+      "overrides": {
+        "filled": 58007
+      }
+    },
+    {
+      "name": "wallet2",
+      "codepoint": 58713,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "watch",
+      "codepoint": 58714,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "water",
+      "codepoint": 58715,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "webcam",
+      "codepoint": 58716,
+      "overrides": {
+        "filled": 58008
+      }
+    },
+    {
+      "name": "wechat",
+      "codepoint": 58717,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "whatsapp",
+      "codepoint": 58718,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wifi",
+      "codepoint": 58722,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wifi-1",
+      "codepoint": 58719,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wifi-2",
+      "codepoint": 58720,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wifi-off",
+      "codepoint": 58721,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wikipedia",
+      "codepoint": 58723,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wind",
+      "codepoint": 58724,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window",
+      "codepoint": 58734,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-dash",
+      "codepoint": 58725,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-desktop",
+      "codepoint": 58726,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-dock",
+      "codepoint": 58727,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-fullscreen",
+      "codepoint": 58728,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-plus",
+      "codepoint": 58729,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-sidebar",
+      "codepoint": 58730,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-split",
+      "codepoint": 58731,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-stack",
+      "codepoint": 58732,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "window-x",
+      "codepoint": 58733,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "windows",
+      "codepoint": 58735,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wordpress",
+      "codepoint": 58736,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wrench",
+      "codepoint": 58739,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wrench-adjustable",
+      "codepoint": 58738,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wrench-adjustable-circle",
+      "codepoint": 58737,
+      "overrides": {
+        "filled": 58009
+      }
+    },
+    {
+      "name": "x",
+      "codepoint": 58745,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "x-circle",
+      "codepoint": 58740,
+      "overrides": {
+        "filled": 58010
+      }
+    },
+    {
+      "name": "x-diamond",
+      "codepoint": 58741,
+      "overrides": {
+        "filled": 58011
+      }
+    },
+    {
+      "name": "x-lg",
+      "codepoint": 58742,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "x-octagon",
+      "codepoint": 58743,
+      "overrides": {
+        "filled": 58012
+      }
+    },
+    {
+      "name": "x-square",
+      "codepoint": 58744,
+      "overrides": {
+        "filled": 58013
+      }
+    },
+    {
+      "name": "xbox",
+      "codepoint": 58746,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "yelp",
+      "codepoint": 58747,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "yin-yang",
+      "codepoint": 58748,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "youtube",
+      "codepoint": 58749,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "zoom-in",
+      "codepoint": 58750,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "zoom-out",
+      "codepoint": 58751,
+      "availability": [
+        "regular"
+      ]
+    }
+  ]
+}

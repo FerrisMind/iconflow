@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Iconflow Pack Definition",
+  "description": "Icon pack definition: variants (TTF files) and icon mappings.",
+  "type": "object",
+  "required": ["pack_id", "variants", "icons"],
+  "properties": {
+    "pack_id": {
+      "type": "string",
+      "description": "Canonical pack ID (matches feature-flag suffix)."
+    },
+    "variants": {
+      "type": "array",
+      "description": "List of TTF variants (style/size combinations).",
+      "items": {
+        "type": "object",
+        "required": ["id", "style", "size", "family", "ttf_asset_path"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique variant ID inside pack, used for overrides."
+          },
+          "style": {
+            "$ref": "#/$defs/style"
+          },
+          "size": {
+            "oneOf": [
+              { "$ref": "#/$defs/size" },
+              {
+                "type": "integer",
+                "minimum": 1
+              }
+            ]
+          },
+          "feature": {
+            "type": "string",
+            "description": "Optional Cargo feature required to enable this variant."
+          },
+          "family": {
+            "type": "string",
+            "description": "Font family name as stored inside the TTF."
+          },
+          "ttf_asset_path": {
+            "type": "string",
+            "description": "Repo-root relative path to the TTF file."
+          }
+        }
+      }
+    },
+    "icons": {
+      "type": "array",
+      "description": "Icon list with codepoints and per-variant overrides.",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "Canonical kebab-case name without style suffixes."
+          },
+          "codepoint": {
+            "$ref": "#/$defs/codepoint",
+            "description": "Default Unicode scalar value."
+          },
+          "overrides": {
+            "type": "object",
+            "description": "Per-variant codepoint overrides (variant_id -> codepoint).",
+            "additionalProperties": {
+              "$ref": "#/$defs/codepoint"
+            }
+          },
+          "availability": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Whitelist of variants where the icon exists."
+          }
+        },
+        "anyOf": [
+          { "required": ["codepoint"] },
+          { "required": ["overrides"] }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "style": {
+      "type": "string",
+      "enum": [
+        "Regular",
+        "Filled",
+        "Outline",
+        "Light",
+        "Thin",
+        "Bold",
+        "Duotone",
+        "Glyph",
+        "Sharp",
+        "Rounded"
+      ]
+    },
+    "size": {
+      "type": "string",
+      "enum": ["Tiny", "Mini", "Regular", "Large"]
+    },
+    "codepoint": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1114111,
+      "not": {
+        "minimum": 55296,
+        "maximum": 57343
+      }
+    }
+  }
+}

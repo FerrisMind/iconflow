@@ -1,0 +1,6674 @@
+{
+  "pack_id": "lucide",
+  "variants": [
+    {
+      "id": "regular",
+      "style": "Regular",
+      "size": "Regular",
+      "family": "Lucide Regular",
+      "ttf_asset_path": "assets/fonts/lucide/lucide-regular.ttf"
+    }
+  ],
+  "icons": [
+    {
+      "name": "a-arrow-down",
+      "codepoint": 57344
+    },
+    {
+      "name": "a-arrow-up",
+      "codepoint": 57345
+    },
+    {
+      "name": "a-large-small",
+      "codepoint": 57346
+    },
+    {
+      "name": "accessibility",
+      "codepoint": 57347
+    },
+    {
+      "name": "activity",
+      "codepoint": 57348
+    },
+    {
+      "name": "air-vent",
+      "codepoint": 57349
+    },
+    {
+      "name": "airplay",
+      "codepoint": 57350
+    },
+    {
+      "name": "alarm-clock",
+      "codepoint": 57355
+    },
+    {
+      "name": "alarm-clock-check",
+      "codepoint": 57351
+    },
+    {
+      "name": "alarm-clock-minus",
+      "codepoint": 57352
+    },
+    {
+      "name": "alarm-clock-off",
+      "codepoint": 57353
+    },
+    {
+      "name": "alarm-clock-plus",
+      "codepoint": 57354
+    },
+    {
+      "name": "alarm-smoke",
+      "codepoint": 57356
+    },
+    {
+      "name": "album",
+      "codepoint": 57357
+    },
+    {
+      "name": "align-center-horizontal",
+      "codepoint": 57358
+    },
+    {
+      "name": "align-center-vertical",
+      "codepoint": 57359
+    },
+    {
+      "name": "align-end-horizontal",
+      "codepoint": 57360
+    },
+    {
+      "name": "align-end-vertical",
+      "codepoint": 57361
+    },
+    {
+      "name": "align-horizontal-distribute-center",
+      "codepoint": 57362
+    },
+    {
+      "name": "align-horizontal-distribute-end",
+      "codepoint": 57363
+    },
+    {
+      "name": "align-horizontal-distribute-start",
+      "codepoint": 57364
+    },
+    {
+      "name": "align-horizontal-justify-center",
+      "codepoint": 57365
+    },
+    {
+      "name": "align-horizontal-justify-end",
+      "codepoint": 57366
+    },
+    {
+      "name": "align-horizontal-justify-start",
+      "codepoint": 57367
+    },
+    {
+      "name": "align-horizontal-space-around",
+      "codepoint": 57368
+    },
+    {
+      "name": "align-horizontal-space-between",
+      "codepoint": 57369
+    },
+    {
+      "name": "align-start-horizontal",
+      "codepoint": 57370
+    },
+    {
+      "name": "align-start-vertical",
+      "codepoint": 57371
+    },
+    {
+      "name": "align-vertical-distribute-center",
+      "codepoint": 57372
+    },
+    {
+      "name": "align-vertical-distribute-end",
+      "codepoint": 57373
+    },
+    {
+      "name": "align-vertical-distribute-start",
+      "codepoint": 57374
+    },
+    {
+      "name": "align-vertical-justify-center",
+      "codepoint": 57375
+    },
+    {
+      "name": "align-vertical-justify-end",
+      "codepoint": 57376
+    },
+    {
+      "name": "align-vertical-justify-start",
+      "codepoint": 57377
+    },
+    {
+      "name": "align-vertical-space-around",
+      "codepoint": 57378
+    },
+    {
+      "name": "align-vertical-space-between",
+      "codepoint": 57379
+    },
+    {
+      "name": "ambulance",
+      "codepoint": 57380
+    },
+    {
+      "name": "ampersand",
+      "codepoint": 57381
+    },
+    {
+      "name": "ampersands",
+      "codepoint": 57382
+    },
+    {
+      "name": "amphora",
+      "codepoint": 57383
+    },
+    {
+      "name": "anchor",
+      "codepoint": 57384
+    },
+    {
+      "name": "angry",
+      "codepoint": 57385
+    },
+    {
+      "name": "annoyed",
+      "codepoint": 57386
+    },
+    {
+      "name": "antenna",
+      "codepoint": 57387
+    },
+    {
+      "name": "anvil",
+      "codepoint": 57388
+    },
+    {
+      "name": "aperture",
+      "codepoint": 57389
+    },
+    {
+      "name": "app-window",
+      "codepoint": 57391
+    },
+    {
+      "name": "app-window-mac",
+      "codepoint": 57390
+    },
+    {
+      "name": "apple",
+      "codepoint": 57392
+    },
+    {
+      "name": "archive",
+      "codepoint": 57395
+    },
+    {
+      "name": "archive-restore",
+      "codepoint": 57393
+    },
+    {
+      "name": "archive-x",
+      "codepoint": 57394
+    },
+    {
+      "name": "armchair",
+      "codepoint": 57396
+    },
+    {
+      "name": "arrow-big-down",
+      "codepoint": 57398
+    },
+    {
+      "name": "arrow-big-down-dash",
+      "codepoint": 57397
+    },
+    {
+      "name": "arrow-big-left",
+      "codepoint": 57400
+    },
+    {
+      "name": "arrow-big-left-dash",
+      "codepoint": 57399
+    },
+    {
+      "name": "arrow-big-right",
+      "codepoint": 57402
+    },
+    {
+      "name": "arrow-big-right-dash",
+      "codepoint": 57401
+    },
+    {
+      "name": "arrow-big-up",
+      "codepoint": 57404
+    },
+    {
+      "name": "arrow-big-up-dash",
+      "codepoint": 57403
+    },
+    {
+      "name": "arrow-down",
+      "codepoint": 57417
+    },
+    {
+      "name": "arrow-down-0-1",
+      "codepoint": 57405
+    },
+    {
+      "name": "arrow-down-1-0",
+      "codepoint": 57406
+    },
+    {
+      "name": "arrow-down-a-z",
+      "codepoint": 57407
+    },
+    {
+      "name": "arrow-down-from-line",
+      "codepoint": 57408
+    },
+    {
+      "name": "arrow-down-left",
+      "codepoint": 57409
+    },
+    {
+      "name": "arrow-down-narrow-wide",
+      "codepoint": 57410
+    },
+    {
+      "name": "arrow-down-right",
+      "codepoint": 57411
+    },
+    {
+      "name": "arrow-down-to-dot",
+      "codepoint": 57412
+    },
+    {
+      "name": "arrow-down-to-line",
+      "codepoint": 57413
+    },
+    {
+      "name": "arrow-down-up",
+      "codepoint": 57414
+    },
+    {
+      "name": "arrow-down-wide-narrow",
+      "codepoint": 57415
+    },
+    {
+      "name": "arrow-down-z-a",
+      "codepoint": 57416
+    },
+    {
+      "name": "arrow-left",
+      "codepoint": 57421
+    },
+    {
+      "name": "arrow-left-from-line",
+      "codepoint": 57418
+    },
+    {
+      "name": "arrow-left-right",
+      "codepoint": 57419
+    },
+    {
+      "name": "arrow-left-to-line",
+      "codepoint": 57420
+    },
+    {
+      "name": "arrow-right",
+      "codepoint": 57425
+    },
+    {
+      "name": "arrow-right-from-line",
+      "codepoint": 57422
+    },
+    {
+      "name": "arrow-right-left",
+      "codepoint": 57423
+    },
+    {
+      "name": "arrow-right-to-line",
+      "codepoint": 57424
+    },
+    {
+      "name": "arrow-up",
+      "codepoint": 57438
+    },
+    {
+      "name": "arrow-up-0-1",
+      "codepoint": 57426
+    },
+    {
+      "name": "arrow-up-1-0",
+      "codepoint": 57427
+    },
+    {
+      "name": "arrow-up-a-z",
+      "codepoint": 57428
+    },
+    {
+      "name": "arrow-up-down",
+      "codepoint": 57429
+    },
+    {
+      "name": "arrow-up-from-dot",
+      "codepoint": 57430
+    },
+    {
+      "name": "arrow-up-from-line",
+      "codepoint": 57431
+    },
+    {
+      "name": "arrow-up-left",
+      "codepoint": 57432
+    },
+    {
+      "name": "arrow-up-narrow-wide",
+      "codepoint": 57433
+    },
+    {
+      "name": "arrow-up-right",
+      "codepoint": 57434
+    },
+    {
+      "name": "arrow-up-to-line",
+      "codepoint": 57435
+    },
+    {
+      "name": "arrow-up-wide-narrow",
+      "codepoint": 57436
+    },
+    {
+      "name": "arrow-up-z-a",
+      "codepoint": 57437
+    },
+    {
+      "name": "arrows-up-from-line",
+      "codepoint": 57439
+    },
+    {
+      "name": "asterisk",
+      "codepoint": 57440
+    },
+    {
+      "name": "at-sign",
+      "codepoint": 57441
+    },
+    {
+      "name": "atom",
+      "codepoint": 57442
+    },
+    {
+      "name": "audio-lines",
+      "codepoint": 57443
+    },
+    {
+      "name": "audio-waveform",
+      "codepoint": 57444
+    },
+    {
+      "name": "award",
+      "codepoint": 57445
+    },
+    {
+      "name": "axe",
+      "codepoint": 57446
+    },
+    {
+      "name": "axis-3d",
+      "codepoint": 57447
+    },
+    {
+      "name": "baby",
+      "codepoint": 57448
+    },
+    {
+      "name": "backpack",
+      "codepoint": 57449
+    },
+    {
+      "name": "badge",
+      "codepoint": 57467
+    },
+    {
+      "name": "badge-alert",
+      "codepoint": 57450
+    },
+    {
+      "name": "badge-cent",
+      "codepoint": 57451
+    },
+    {
+      "name": "badge-check",
+      "codepoint": 57452
+    },
+    {
+      "name": "badge-dollar-sign",
+      "codepoint": 57453
+    },
+    {
+      "name": "badge-euro",
+      "codepoint": 57454
+    },
+    {
+      "name": "badge-indian-rupee",
+      "codepoint": 57455
+    },
+    {
+      "name": "badge-info",
+      "codepoint": 57456
+    },
+    {
+      "name": "badge-japanese-yen",
+      "codepoint": 57457
+    },
+    {
+      "name": "badge-minus",
+      "codepoint": 57458
+    },
+    {
+      "name": "badge-percent",
+      "codepoint": 57459
+    },
+    {
+      "name": "badge-plus",
+      "codepoint": 57460
+    },
+    {
+      "name": "badge-pound-sterling",
+      "codepoint": 57461
+    },
+    {
+      "name": "badge-question-mark",
+      "codepoint": 57462
+    },
+    {
+      "name": "badge-russian-ruble",
+      "codepoint": 57463
+    },
+    {
+      "name": "badge-swiss-franc",
+      "codepoint": 57464
+    },
+    {
+      "name": "badge-turkish-lira",
+      "codepoint": 57465
+    },
+    {
+      "name": "badge-x",
+      "codepoint": 57466
+    },
+    {
+      "name": "baggage-claim",
+      "codepoint": 57468
+    },
+    {
+      "name": "balloon",
+      "codepoint": 57469
+    },
+    {
+      "name": "ban",
+      "codepoint": 57470
+    },
+    {
+      "name": "banana",
+      "codepoint": 57471
+    },
+    {
+      "name": "bandage",
+      "codepoint": 57472
+    },
+    {
+      "name": "banknote",
+      "codepoint": 57476
+    },
+    {
+      "name": "banknote-arrow-down",
+      "codepoint": 57473
+    },
+    {
+      "name": "banknote-arrow-up",
+      "codepoint": 57474
+    },
+    {
+      "name": "banknote-x",
+      "codepoint": 57475
+    },
+    {
+      "name": "barcode",
+      "codepoint": 57477
+    },
+    {
+      "name": "barrel",
+      "codepoint": 57478
+    },
+    {
+      "name": "baseline",
+      "codepoint": 57479
+    },
+    {
+      "name": "bath",
+      "codepoint": 57480
+    },
+    {
+      "name": "battery",
+      "codepoint": 57487
+    },
+    {
+      "name": "battery-charging",
+      "codepoint": 57481
+    },
+    {
+      "name": "battery-full",
+      "codepoint": 57482
+    },
+    {
+      "name": "battery-low",
+      "codepoint": 57483
+    },
+    {
+      "name": "battery-medium",
+      "codepoint": 57484
+    },
+    {
+      "name": "battery-plus",
+      "codepoint": 57485
+    },
+    {
+      "name": "battery-warning",
+      "codepoint": 57486
+    },
+    {
+      "name": "beaker",
+      "codepoint": 57488
+    },
+    {
+      "name": "bean",
+      "codepoint": 57490
+    },
+    {
+      "name": "bean-off",
+      "codepoint": 57489
+    },
+    {
+      "name": "bed",
+      "codepoint": 57493
+    },
+    {
+      "name": "bed-double",
+      "codepoint": 57491
+    },
+    {
+      "name": "bed-single",
+      "codepoint": 57492
+    },
+    {
+      "name": "beef",
+      "codepoint": 57494
+    },
+    {
+      "name": "beer",
+      "codepoint": 57496
+    },
+    {
+      "name": "beer-off",
+      "codepoint": 57495
+    },
+    {
+      "name": "bell",
+      "codepoint": 57503
+    },
+    {
+      "name": "bell-dot",
+      "codepoint": 57497
+    },
+    {
+      "name": "bell-electric",
+      "codepoint": 57498
+    },
+    {
+      "name": "bell-minus",
+      "codepoint": 57499
+    },
+    {
+      "name": "bell-off",
+      "codepoint": 57500
+    },
+    {
+      "name": "bell-plus",
+      "codepoint": 57501
+    },
+    {
+      "name": "bell-ring",
+      "codepoint": 57502
+    },
+    {
+      "name": "between-horizontal-end",
+      "codepoint": 57504
+    },
+    {
+      "name": "between-horizontal-start",
+      "codepoint": 57505
+    },
+    {
+      "name": "between-vertical-end",
+      "codepoint": 57506
+    },
+    {
+      "name": "between-vertical-start",
+      "codepoint": 57507
+    },
+    {
+      "name": "biceps-flexed",
+      "codepoint": 57508
+    },
+    {
+      "name": "bike",
+      "codepoint": 57509
+    },
+    {
+      "name": "binary",
+      "codepoint": 57510
+    },
+    {
+      "name": "binoculars",
+      "codepoint": 57511
+    },
+    {
+      "name": "biohazard",
+      "codepoint": 57512
+    },
+    {
+      "name": "bird",
+      "codepoint": 57513
+    },
+    {
+      "name": "birdhouse",
+      "codepoint": 57514
+    },
+    {
+      "name": "bitcoin",
+      "codepoint": 57515
+    },
+    {
+      "name": "blend",
+      "codepoint": 57516
+    },
+    {
+      "name": "blinds",
+      "codepoint": 57517
+    },
+    {
+      "name": "blocks",
+      "codepoint": 57518
+    },
+    {
+      "name": "bluetooth",
+      "codepoint": 57522
+    },
+    {
+      "name": "bluetooth-connected",
+      "codepoint": 57519
+    },
+    {
+      "name": "bluetooth-off",
+      "codepoint": 57520
+    },
+    {
+      "name": "bluetooth-searching",
+      "codepoint": 57521
+    },
+    {
+      "name": "bold",
+      "codepoint": 57523
+    },
+    {
+      "name": "bolt",
+      "codepoint": 57524
+    },
+    {
+      "name": "bomb",
+      "codepoint": 57525
+    },
+    {
+      "name": "bone",
+      "codepoint": 57526
+    },
+    {
+      "name": "book",
+      "codepoint": 57552
+    },
+    {
+      "name": "book-a",
+      "codepoint": 57527
+    },
+    {
+      "name": "book-alert",
+      "codepoint": 57528
+    },
+    {
+      "name": "book-audio",
+      "codepoint": 57529
+    },
+    {
+      "name": "book-check",
+      "codepoint": 57530
+    },
+    {
+      "name": "book-copy",
+      "codepoint": 57531
+    },
+    {
+      "name": "book-dashed",
+      "codepoint": 57532
+    },
+    {
+      "name": "book-down",
+      "codepoint": 57533
+    },
+    {
+      "name": "book-headphones",
+      "codepoint": 57534
+    },
+    {
+      "name": "book-heart",
+      "codepoint": 57535
+    },
+    {
+      "name": "book-image",
+      "codepoint": 57536
+    },
+    {
+      "name": "book-key",
+      "codepoint": 57537
+    },
+    {
+      "name": "book-lock",
+      "codepoint": 57538
+    },
+    {
+      "name": "book-marked",
+      "codepoint": 57539
+    },
+    {
+      "name": "book-minus",
+      "codepoint": 57540
+    },
+    {
+      "name": "book-open",
+      "codepoint": 57543
+    },
+    {
+      "name": "book-open-check",
+      "codepoint": 57541
+    },
+    {
+      "name": "book-open-text",
+      "codepoint": 57542
+    },
+    {
+      "name": "book-plus",
+      "codepoint": 57544
+    },
+    {
+      "name": "book-search",
+      "codepoint": 57545
+    },
+    {
+      "name": "book-text",
+      "codepoint": 57546
+    },
+    {
+      "name": "book-type",
+      "codepoint": 57547
+    },
+    {
+      "name": "book-up",
+      "codepoint": 57549
+    },
+    {
+      "name": "book-up-2",
+      "codepoint": 57548
+    },
+    {
+      "name": "book-user",
+      "codepoint": 57550
+    },
+    {
+      "name": "book-x",
+      "codepoint": 57551
+    },
+    {
+      "name": "bookmark",
+      "codepoint": 57557
+    },
+    {
+      "name": "bookmark-check",
+      "codepoint": 57553
+    },
+    {
+      "name": "bookmark-minus",
+      "codepoint": 57554
+    },
+    {
+      "name": "bookmark-plus",
+      "codepoint": 57555
+    },
+    {
+      "name": "bookmark-x",
+      "codepoint": 57556
+    },
+    {
+      "name": "boom-box",
+      "codepoint": 57558
+    },
+    {
+      "name": "bot",
+      "codepoint": 57561
+    },
+    {
+      "name": "bot-message-square",
+      "codepoint": 57559
+    },
+    {
+      "name": "bot-off",
+      "codepoint": 57560
+    },
+    {
+      "name": "bottle-wine",
+      "codepoint": 57562
+    },
+    {
+      "name": "bow-arrow",
+      "codepoint": 57563
+    },
+    {
+      "name": "box",
+      "codepoint": 57564
+    },
+    {
+      "name": "boxes",
+      "codepoint": 57565
+    },
+    {
+      "name": "braces",
+      "codepoint": 57566
+    },
+    {
+      "name": "brackets",
+      "codepoint": 57567
+    },
+    {
+      "name": "brain",
+      "codepoint": 57570
+    },
+    {
+      "name": "brain-circuit",
+      "codepoint": 57568
+    },
+    {
+      "name": "brain-cog",
+      "codepoint": 57569
+    },
+    {
+      "name": "brick-wall",
+      "codepoint": 57573
+    },
+    {
+      "name": "brick-wall-fire",
+      "codepoint": 57571
+    },
+    {
+      "name": "brick-wall-shield",
+      "codepoint": 57572
+    },
+    {
+      "name": "briefcase",
+      "codepoint": 57577
+    },
+    {
+      "name": "briefcase-business",
+      "codepoint": 57574
+    },
+    {
+      "name": "briefcase-conveyor-belt",
+      "codepoint": 57575
+    },
+    {
+      "name": "briefcase-medical",
+      "codepoint": 57576
+    },
+    {
+      "name": "bring-to-front",
+      "codepoint": 57578
+    },
+    {
+      "name": "brush",
+      "codepoint": 57580
+    },
+    {
+      "name": "brush-cleaning",
+      "codepoint": 57579
+    },
+    {
+      "name": "bubbles",
+      "codepoint": 57581
+    },
+    {
+      "name": "bug",
+      "codepoint": 57584
+    },
+    {
+      "name": "bug-off",
+      "codepoint": 57582
+    },
+    {
+      "name": "bug-play",
+      "codepoint": 57583
+    },
+    {
+      "name": "building",
+      "codepoint": 57586
+    },
+    {
+      "name": "building-2",
+      "codepoint": 57585
+    },
+    {
+      "name": "bus",
+      "codepoint": 57588
+    },
+    {
+      "name": "bus-front",
+      "codepoint": 57587
+    },
+    {
+      "name": "cable",
+      "codepoint": 57590
+    },
+    {
+      "name": "cable-car",
+      "codepoint": 57589
+    },
+    {
+      "name": "cake",
+      "codepoint": 57592
+    },
+    {
+      "name": "cake-slice",
+      "codepoint": 57591
+    },
+    {
+      "name": "calculator",
+      "codepoint": 57593
+    },
+    {
+      "name": "calendar",
+      "codepoint": 57614
+    },
+    {
+      "name": "calendar-1",
+      "codepoint": 57594
+    },
+    {
+      "name": "calendar-arrow-down",
+      "codepoint": 57595
+    },
+    {
+      "name": "calendar-arrow-up",
+      "codepoint": 57596
+    },
+    {
+      "name": "calendar-check",
+      "codepoint": 57598
+    },
+    {
+      "name": "calendar-check-2",
+      "codepoint": 57597
+    },
+    {
+      "name": "calendar-clock",
+      "codepoint": 57599
+    },
+    {
+      "name": "calendar-cog",
+      "codepoint": 57600
+    },
+    {
+      "name": "calendar-days",
+      "codepoint": 57601
+    },
+    {
+      "name": "calendar-fold",
+      "codepoint": 57602
+    },
+    {
+      "name": "calendar-heart",
+      "codepoint": 57603
+    },
+    {
+      "name": "calendar-minus",
+      "codepoint": 57605
+    },
+    {
+      "name": "calendar-minus-2",
+      "codepoint": 57604
+    },
+    {
+      "name": "calendar-off",
+      "codepoint": 57606
+    },
+    {
+      "name": "calendar-plus",
+      "codepoint": 57608
+    },
+    {
+      "name": "calendar-plus-2",
+      "codepoint": 57607
+    },
+    {
+      "name": "calendar-range",
+      "codepoint": 57609
+    },
+    {
+      "name": "calendar-search",
+      "codepoint": 57610
+    },
+    {
+      "name": "calendar-sync",
+      "codepoint": 57611
+    },
+    {
+      "name": "calendar-x",
+      "codepoint": 57613
+    },
+    {
+      "name": "calendar-x-2",
+      "codepoint": 57612
+    },
+    {
+      "name": "calendars",
+      "codepoint": 57615
+    },
+    {
+      "name": "camera",
+      "codepoint": 57617
+    },
+    {
+      "name": "camera-off",
+      "codepoint": 57616
+    },
+    {
+      "name": "candy",
+      "codepoint": 57620
+    },
+    {
+      "name": "candy-cane",
+      "codepoint": 57618
+    },
+    {
+      "name": "candy-off",
+      "codepoint": 57619
+    },
+    {
+      "name": "cannabis",
+      "codepoint": 57622
+    },
+    {
+      "name": "cannabis-off",
+      "codepoint": 57621
+    },
+    {
+      "name": "captions",
+      "codepoint": 57624
+    },
+    {
+      "name": "captions-off",
+      "codepoint": 57623
+    },
+    {
+      "name": "car",
+      "codepoint": 57627
+    },
+    {
+      "name": "car-front",
+      "codepoint": 57625
+    },
+    {
+      "name": "car-taxi-front",
+      "codepoint": 57626
+    },
+    {
+      "name": "caravan",
+      "codepoint": 57628
+    },
+    {
+      "name": "card-sim",
+      "codepoint": 57629
+    },
+    {
+      "name": "carrot",
+      "codepoint": 57630
+    },
+    {
+      "name": "case-lower",
+      "codepoint": 57631
+    },
+    {
+      "name": "case-sensitive",
+      "codepoint": 57632
+    },
+    {
+      "name": "case-upper",
+      "codepoint": 57633
+    },
+    {
+      "name": "cassette-tape",
+      "codepoint": 57634
+    },
+    {
+      "name": "cast",
+      "codepoint": 57635
+    },
+    {
+      "name": "castle",
+      "codepoint": 57636
+    },
+    {
+      "name": "cat",
+      "codepoint": 57637
+    },
+    {
+      "name": "cctv",
+      "codepoint": 57638
+    },
+    {
+      "name": "chart-area",
+      "codepoint": 57639
+    },
+    {
+      "name": "chart-bar",
+      "codepoint": 57644
+    },
+    {
+      "name": "chart-bar-big",
+      "codepoint": 57640
+    },
+    {
+      "name": "chart-bar-decreasing",
+      "codepoint": 57641
+    },
+    {
+      "name": "chart-bar-increasing",
+      "codepoint": 57642
+    },
+    {
+      "name": "chart-bar-stacked",
+      "codepoint": 57643
+    },
+    {
+      "name": "chart-candlestick",
+      "codepoint": 57645
+    },
+    {
+      "name": "chart-column",
+      "codepoint": 57650
+    },
+    {
+      "name": "chart-column-big",
+      "codepoint": 57646
+    },
+    {
+      "name": "chart-column-decreasing",
+      "codepoint": 57647
+    },
+    {
+      "name": "chart-column-increasing",
+      "codepoint": 57648
+    },
+    {
+      "name": "chart-column-stacked",
+      "codepoint": 57649
+    },
+    {
+      "name": "chart-gantt",
+      "codepoint": 57651
+    },
+    {
+      "name": "chart-line",
+      "codepoint": 57652
+    },
+    {
+      "name": "chart-network",
+      "codepoint": 57653
+    },
+    {
+      "name": "chart-no-axes-column",
+      "codepoint": 57656
+    },
+    {
+      "name": "chart-no-axes-column-decreasing",
+      "codepoint": 57654
+    },
+    {
+      "name": "chart-no-axes-column-increasing",
+      "codepoint": 57655
+    },
+    {
+      "name": "chart-no-axes-combined",
+      "codepoint": 57657
+    },
+    {
+      "name": "chart-no-axes-gantt",
+      "codepoint": 57658
+    },
+    {
+      "name": "chart-pie",
+      "codepoint": 57659
+    },
+    {
+      "name": "chart-scatter",
+      "codepoint": 57660
+    },
+    {
+      "name": "chart-spline",
+      "codepoint": 57661
+    },
+    {
+      "name": "check",
+      "codepoint": 57664
+    },
+    {
+      "name": "check-check",
+      "codepoint": 57662
+    },
+    {
+      "name": "check-line",
+      "codepoint": 57663
+    },
+    {
+      "name": "chef-hat",
+      "codepoint": 57665
+    },
+    {
+      "name": "cherry",
+      "codepoint": 57666
+    },
+    {
+      "name": "chess-bishop",
+      "codepoint": 57667
+    },
+    {
+      "name": "chess-king",
+      "codepoint": 57668
+    },
+    {
+      "name": "chess-knight",
+      "codepoint": 57669
+    },
+    {
+      "name": "chess-pawn",
+      "codepoint": 57670
+    },
+    {
+      "name": "chess-queen",
+      "codepoint": 57671
+    },
+    {
+      "name": "chess-rook",
+      "codepoint": 57672
+    },
+    {
+      "name": "chevron-down",
+      "codepoint": 57673
+    },
+    {
+      "name": "chevron-first",
+      "codepoint": 57674
+    },
+    {
+      "name": "chevron-last",
+      "codepoint": 57675
+    },
+    {
+      "name": "chevron-left",
+      "codepoint": 57676
+    },
+    {
+      "name": "chevron-right",
+      "codepoint": 57677
+    },
+    {
+      "name": "chevron-up",
+      "codepoint": 57678
+    },
+    {
+      "name": "chevrons-down",
+      "codepoint": 57680
+    },
+    {
+      "name": "chevrons-down-up",
+      "codepoint": 57679
+    },
+    {
+      "name": "chevrons-left",
+      "codepoint": 57683
+    },
+    {
+      "name": "chevrons-left-right",
+      "codepoint": 57682
+    },
+    {
+      "name": "chevrons-left-right-ellipsis",
+      "codepoint": 57681
+    },
+    {
+      "name": "chevrons-right",
+      "codepoint": 57685
+    },
+    {
+      "name": "chevrons-right-left",
+      "codepoint": 57684
+    },
+    {
+      "name": "chevrons-up",
+      "codepoint": 57687
+    },
+    {
+      "name": "chevrons-up-down",
+      "codepoint": 57686
+    },
+    {
+      "name": "chromium",
+      "codepoint": 57688
+    },
+    {
+      "name": "church",
+      "codepoint": 57689
+    },
+    {
+      "name": "cigarette",
+      "codepoint": 57691
+    },
+    {
+      "name": "cigarette-off",
+      "codepoint": 57690
+    },
+    {
+      "name": "circle",
+      "codepoint": 57737
+    },
+    {
+      "name": "circle-alert",
+      "codepoint": 57692
+    },
+    {
+      "name": "circle-arrow-down",
+      "codepoint": 57693
+    },
+    {
+      "name": "circle-arrow-left",
+      "codepoint": 57694
+    },
+    {
+      "name": "circle-arrow-out-down-left",
+      "codepoint": 57695
+    },
+    {
+      "name": "circle-arrow-out-down-right",
+      "codepoint": 57696
+    },
+    {
+      "name": "circle-arrow-out-up-left",
+      "codepoint": 57697
+    },
+    {
+      "name": "circle-arrow-out-up-right",
+      "codepoint": 57698
+    },
+    {
+      "name": "circle-arrow-right",
+      "codepoint": 57699
+    },
+    {
+      "name": "circle-arrow-up",
+      "codepoint": 57700
+    },
+    {
+      "name": "circle-check",
+      "codepoint": 57702
+    },
+    {
+      "name": "circle-check-big",
+      "codepoint": 57701
+    },
+    {
+      "name": "circle-chevron-down",
+      "codepoint": 57703
+    },
+    {
+      "name": "circle-chevron-left",
+      "codepoint": 57704
+    },
+    {
+      "name": "circle-chevron-right",
+      "codepoint": 57705
+    },
+    {
+      "name": "circle-chevron-up",
+      "codepoint": 57706
+    },
+    {
+      "name": "circle-dashed",
+      "codepoint": 57707
+    },
+    {
+      "name": "circle-divide",
+      "codepoint": 57708
+    },
+    {
+      "name": "circle-dollar-sign",
+      "codepoint": 57709
+    },
+    {
+      "name": "circle-dot",
+      "codepoint": 57711
+    },
+    {
+      "name": "circle-dot-dashed",
+      "codepoint": 57710
+    },
+    {
+      "name": "circle-ellipsis",
+      "codepoint": 57712
+    },
+    {
+      "name": "circle-equal",
+      "codepoint": 57713
+    },
+    {
+      "name": "circle-fading-arrow-up",
+      "codepoint": 57714
+    },
+    {
+      "name": "circle-fading-plus",
+      "codepoint": 57715
+    },
+    {
+      "name": "circle-gauge",
+      "codepoint": 57716
+    },
+    {
+      "name": "circle-minus",
+      "codepoint": 57717
+    },
+    {
+      "name": "circle-off",
+      "codepoint": 57718
+    },
+    {
+      "name": "circle-parking",
+      "codepoint": 57720
+    },
+    {
+      "name": "circle-parking-off",
+      "codepoint": 57719
+    },
+    {
+      "name": "circle-pause",
+      "codepoint": 57721
+    },
+    {
+      "name": "circle-percent",
+      "codepoint": 57722
+    },
+    {
+      "name": "circle-pile",
+      "codepoint": 57723
+    },
+    {
+      "name": "circle-play",
+      "codepoint": 57724
+    },
+    {
+      "name": "circle-plus",
+      "codepoint": 57725
+    },
+    {
+      "name": "circle-pound-sterling",
+      "codepoint": 57726
+    },
+    {
+      "name": "circle-power",
+      "codepoint": 57727
+    },
+    {
+      "name": "circle-question-mark",
+      "codepoint": 57728
+    },
+    {
+      "name": "circle-slash",
+      "codepoint": 57730
+    },
+    {
+      "name": "circle-slash-2",
+      "codepoint": 57729
+    },
+    {
+      "name": "circle-small",
+      "codepoint": 57731
+    },
+    {
+      "name": "circle-star",
+      "codepoint": 57732
+    },
+    {
+      "name": "circle-stop",
+      "codepoint": 57733
+    },
+    {
+      "name": "circle-user",
+      "codepoint": 57735
+    },
+    {
+      "name": "circle-user-round",
+      "codepoint": 57734
+    },
+    {
+      "name": "circle-x",
+      "codepoint": 57736
+    },
+    {
+      "name": "circuit-board",
+      "codepoint": 57738
+    },
+    {
+      "name": "citrus",
+      "codepoint": 57739
+    },
+    {
+      "name": "clapperboard",
+      "codepoint": 57740
+    },
+    {
+      "name": "clipboard",
+      "codepoint": 57752
+    },
+    {
+      "name": "clipboard-check",
+      "codepoint": 57741
+    },
+    {
+      "name": "clipboard-clock",
+      "codepoint": 57742
+    },
+    {
+      "name": "clipboard-copy",
+      "codepoint": 57743
+    },
+    {
+      "name": "clipboard-list",
+      "codepoint": 57744
+    },
+    {
+      "name": "clipboard-minus",
+      "codepoint": 57745
+    },
+    {
+      "name": "clipboard-paste",
+      "codepoint": 57746
+    },
+    {
+      "name": "clipboard-pen",
+      "codepoint": 57748
+    },
+    {
+      "name": "clipboard-pen-line",
+      "codepoint": 57747
+    },
+    {
+      "name": "clipboard-plus",
+      "codepoint": 57749
+    },
+    {
+      "name": "clipboard-type",
+      "codepoint": 57750
+    },
+    {
+      "name": "clipboard-x",
+      "codepoint": 57751
+    },
+    {
+      "name": "clock",
+      "codepoint": 57771
+    },
+    {
+      "name": "clock-1",
+      "codepoint": 57753
+    },
+    {
+      "name": "clock-10",
+      "codepoint": 57754
+    },
+    {
+      "name": "clock-11",
+      "codepoint": 57755
+    },
+    {
+      "name": "clock-12",
+      "codepoint": 57756
+    },
+    {
+      "name": "clock-2",
+      "codepoint": 57757
+    },
+    {
+      "name": "clock-3",
+      "codepoint": 57758
+    },
+    {
+      "name": "clock-4",
+      "codepoint": 57759
+    },
+    {
+      "name": "clock-5",
+      "codepoint": 57760
+    },
+    {
+      "name": "clock-6",
+      "codepoint": 57761
+    },
+    {
+      "name": "clock-7",
+      "codepoint": 57762
+    },
+    {
+      "name": "clock-8",
+      "codepoint": 57763
+    },
+    {
+      "name": "clock-9",
+      "codepoint": 57764
+    },
+    {
+      "name": "clock-alert",
+      "codepoint": 57765
+    },
+    {
+      "name": "clock-arrow-down",
+      "codepoint": 57766
+    },
+    {
+      "name": "clock-arrow-up",
+      "codepoint": 57767
+    },
+    {
+      "name": "clock-check",
+      "codepoint": 57768
+    },
+    {
+      "name": "clock-fading",
+      "codepoint": 57769
+    },
+    {
+      "name": "clock-plus",
+      "codepoint": 57770
+    },
+    {
+      "name": "closed-caption",
+      "codepoint": 57772
+    },
+    {
+      "name": "cloud",
+      "codepoint": 57792
+    },
+    {
+      "name": "cloud-alert",
+      "codepoint": 57773
+    },
+    {
+      "name": "cloud-backup",
+      "codepoint": 57774
+    },
+    {
+      "name": "cloud-check",
+      "codepoint": 57775
+    },
+    {
+      "name": "cloud-cog",
+      "codepoint": 57776
+    },
+    {
+      "name": "cloud-download",
+      "codepoint": 57777
+    },
+    {
+      "name": "cloud-drizzle",
+      "codepoint": 57778
+    },
+    {
+      "name": "cloud-fog",
+      "codepoint": 57779
+    },
+    {
+      "name": "cloud-hail",
+      "codepoint": 57780
+    },
+    {
+      "name": "cloud-lightning",
+      "codepoint": 57781
+    },
+    {
+      "name": "cloud-moon",
+      "codepoint": 57783
+    },
+    {
+      "name": "cloud-moon-rain",
+      "codepoint": 57782
+    },
+    {
+      "name": "cloud-off",
+      "codepoint": 57784
+    },
+    {
+      "name": "cloud-rain",
+      "codepoint": 57786
+    },
+    {
+      "name": "cloud-rain-wind",
+      "codepoint": 57785
+    },
+    {
+      "name": "cloud-snow",
+      "codepoint": 57787
+    },
+    {
+      "name": "cloud-sun",
+      "codepoint": 57789
+    },
+    {
+      "name": "cloud-sun-rain",
+      "codepoint": 57788
+    },
+    {
+      "name": "cloud-sync",
+      "codepoint": 57790
+    },
+    {
+      "name": "cloud-upload",
+      "codepoint": 57791
+    },
+    {
+      "name": "cloudy",
+      "codepoint": 57793
+    },
+    {
+      "name": "clover",
+      "codepoint": 57794
+    },
+    {
+      "name": "club",
+      "codepoint": 57795
+    },
+    {
+      "name": "code",
+      "codepoint": 57797
+    },
+    {
+      "name": "code-xml",
+      "codepoint": 57796
+    },
+    {
+      "name": "codepen",
+      "codepoint": 57798
+    },
+    {
+      "name": "codesandbox",
+      "codepoint": 57799
+    },
+    {
+      "name": "coffee",
+      "codepoint": 57800
+    },
+    {
+      "name": "cog",
+      "codepoint": 57801
+    },
+    {
+      "name": "coins",
+      "codepoint": 57802
+    },
+    {
+      "name": "columns-2",
+      "codepoint": 57803
+    },
+    {
+      "name": "columns-3",
+      "codepoint": 57805
+    },
+    {
+      "name": "columns-3-cog",
+      "codepoint": 57804
+    },
+    {
+      "name": "columns-4",
+      "codepoint": 57806
+    },
+    {
+      "name": "combine",
+      "codepoint": 57807
+    },
+    {
+      "name": "command",
+      "codepoint": 57808
+    },
+    {
+      "name": "compass",
+      "codepoint": 57809
+    },
+    {
+      "name": "component",
+      "codepoint": 57810
+    },
+    {
+      "name": "computer",
+      "codepoint": 57811
+    },
+    {
+      "name": "concierge-bell",
+      "codepoint": 57812
+    },
+    {
+      "name": "cone",
+      "codepoint": 57813
+    },
+    {
+      "name": "construction",
+      "codepoint": 57814
+    },
+    {
+      "name": "contact",
+      "codepoint": 57816
+    },
+    {
+      "name": "contact-round",
+      "codepoint": 57815
+    },
+    {
+      "name": "container",
+      "codepoint": 57817
+    },
+    {
+      "name": "contrast",
+      "codepoint": 57818
+    },
+    {
+      "name": "cookie",
+      "codepoint": 57819
+    },
+    {
+      "name": "cooking-pot",
+      "codepoint": 57820
+    },
+    {
+      "name": "copy",
+      "codepoint": 57826
+    },
+    {
+      "name": "copy-check",
+      "codepoint": 57821
+    },
+    {
+      "name": "copy-minus",
+      "codepoint": 57822
+    },
+    {
+      "name": "copy-plus",
+      "codepoint": 57823
+    },
+    {
+      "name": "copy-slash",
+      "codepoint": 57824
+    },
+    {
+      "name": "copy-x",
+      "codepoint": 57825
+    },
+    {
+      "name": "copyleft",
+      "codepoint": 57827
+    },
+    {
+      "name": "copyright",
+      "codepoint": 57828
+    },
+    {
+      "name": "corner-down-left",
+      "codepoint": 57829
+    },
+    {
+      "name": "corner-down-right",
+      "codepoint": 57830
+    },
+    {
+      "name": "corner-left-down",
+      "codepoint": 57831
+    },
+    {
+      "name": "corner-left-up",
+      "codepoint": 57832
+    },
+    {
+      "name": "corner-right-down",
+      "codepoint": 57833
+    },
+    {
+      "name": "corner-right-up",
+      "codepoint": 57834
+    },
+    {
+      "name": "corner-up-left",
+      "codepoint": 57835
+    },
+    {
+      "name": "corner-up-right",
+      "codepoint": 57836
+    },
+    {
+      "name": "cpu",
+      "codepoint": 57837
+    },
+    {
+      "name": "creative-commons",
+      "codepoint": 57838
+    },
+    {
+      "name": "credit-card",
+      "codepoint": 57839
+    },
+    {
+      "name": "croissant",
+      "codepoint": 57840
+    },
+    {
+      "name": "crop",
+      "codepoint": 57841
+    },
+    {
+      "name": "cross",
+      "codepoint": 57842
+    },
+    {
+      "name": "crosshair",
+      "codepoint": 57843
+    },
+    {
+      "name": "crown",
+      "codepoint": 57844
+    },
+    {
+      "name": "cuboid",
+      "codepoint": 57845
+    },
+    {
+      "name": "cup-soda",
+      "codepoint": 57846
+    },
+    {
+      "name": "currency",
+      "codepoint": 57847
+    },
+    {
+      "name": "cylinder",
+      "codepoint": 57848
+    },
+    {
+      "name": "dam",
+      "codepoint": 57849
+    },
+    {
+      "name": "database",
+      "codepoint": 57852
+    },
+    {
+      "name": "database-backup",
+      "codepoint": 57850
+    },
+    {
+      "name": "database-zap",
+      "codepoint": 57851
+    },
+    {
+      "name": "decimals-arrow-left",
+      "codepoint": 57853
+    },
+    {
+      "name": "decimals-arrow-right",
+      "codepoint": 57854
+    },
+    {
+      "name": "delete",
+      "codepoint": 57855
+    },
+    {
+      "name": "dessert",
+      "codepoint": 57856
+    },
+    {
+      "name": "diameter",
+      "codepoint": 57857
+    },
+    {
+      "name": "diamond",
+      "codepoint": 57861
+    },
+    {
+      "name": "diamond-minus",
+      "codepoint": 57858
+    },
+    {
+      "name": "diamond-percent",
+      "codepoint": 57859
+    },
+    {
+      "name": "diamond-plus",
+      "codepoint": 57860
+    },
+    {
+      "name": "dice-1",
+      "codepoint": 57862
+    },
+    {
+      "name": "dice-2",
+      "codepoint": 57863
+    },
+    {
+      "name": "dice-3",
+      "codepoint": 57864
+    },
+    {
+      "name": "dice-4",
+      "codepoint": 57865
+    },
+    {
+      "name": "dice-5",
+      "codepoint": 57866
+    },
+    {
+      "name": "dice-6",
+      "codepoint": 57867
+    },
+    {
+      "name": "dices",
+      "codepoint": 57868
+    },
+    {
+      "name": "diff",
+      "codepoint": 57869
+    },
+    {
+      "name": "disc",
+      "codepoint": 57873
+    },
+    {
+      "name": "disc-2",
+      "codepoint": 57870
+    },
+    {
+      "name": "disc-3",
+      "codepoint": 57871
+    },
+    {
+      "name": "disc-album",
+      "codepoint": 57872
+    },
+    {
+      "name": "divide",
+      "codepoint": 57874
+    },
+    {
+      "name": "dna",
+      "codepoint": 57876
+    },
+    {
+      "name": "dna-off",
+      "codepoint": 57875
+    },
+    {
+      "name": "dock",
+      "codepoint": 57877
+    },
+    {
+      "name": "dog",
+      "codepoint": 57878
+    },
+    {
+      "name": "dollar-sign",
+      "codepoint": 57879
+    },
+    {
+      "name": "donut",
+      "codepoint": 57880
+    },
+    {
+      "name": "door-closed",
+      "codepoint": 57882
+    },
+    {
+      "name": "door-closed-locked",
+      "codepoint": 57881
+    },
+    {
+      "name": "door-open",
+      "codepoint": 57883
+    },
+    {
+      "name": "dot",
+      "codepoint": 57884
+    },
+    {
+      "name": "download",
+      "codepoint": 57885
+    },
+    {
+      "name": "drafting-compass",
+      "codepoint": 57886
+    },
+    {
+      "name": "drama",
+      "codepoint": 57887
+    },
+    {
+      "name": "dribbble",
+      "codepoint": 57888
+    },
+    {
+      "name": "drill",
+      "codepoint": 57889
+    },
+    {
+      "name": "drone",
+      "codepoint": 57890
+    },
+    {
+      "name": "droplet",
+      "codepoint": 57892
+    },
+    {
+      "name": "droplet-off",
+      "codepoint": 57891
+    },
+    {
+      "name": "droplets",
+      "codepoint": 57893
+    },
+    {
+      "name": "drum",
+      "codepoint": 57894
+    },
+    {
+      "name": "drumstick",
+      "codepoint": 57895
+    },
+    {
+      "name": "dumbbell",
+      "codepoint": 57896
+    },
+    {
+      "name": "ear",
+      "codepoint": 57898
+    },
+    {
+      "name": "ear-off",
+      "codepoint": 57897
+    },
+    {
+      "name": "earth",
+      "codepoint": 57900
+    },
+    {
+      "name": "earth-lock",
+      "codepoint": 57899
+    },
+    {
+      "name": "eclipse",
+      "codepoint": 57901
+    },
+    {
+      "name": "egg",
+      "codepoint": 57904
+    },
+    {
+      "name": "egg-fried",
+      "codepoint": 57902
+    },
+    {
+      "name": "egg-off",
+      "codepoint": 57903
+    },
+    {
+      "name": "ellipsis",
+      "codepoint": 57906
+    },
+    {
+      "name": "ellipsis-vertical",
+      "codepoint": 57905
+    },
+    {
+      "name": "equal",
+      "codepoint": 57909
+    },
+    {
+      "name": "equal-approximately",
+      "codepoint": 57907
+    },
+    {
+      "name": "equal-not",
+      "codepoint": 57908
+    },
+    {
+      "name": "eraser",
+      "codepoint": 57910
+    },
+    {
+      "name": "ethernet-port",
+      "codepoint": 57911
+    },
+    {
+      "name": "euro",
+      "codepoint": 57912
+    },
+    {
+      "name": "ev-charger",
+      "codepoint": 57913
+    },
+    {
+      "name": "expand",
+      "codepoint": 57914
+    },
+    {
+      "name": "external-link",
+      "codepoint": 57915
+    },
+    {
+      "name": "eye",
+      "codepoint": 57918
+    },
+    {
+      "name": "eye-closed",
+      "codepoint": 57916
+    },
+    {
+      "name": "eye-off",
+      "codepoint": 57917
+    },
+    {
+      "name": "facebook",
+      "codepoint": 57919
+    },
+    {
+      "name": "factory",
+      "codepoint": 57920
+    },
+    {
+      "name": "fan",
+      "codepoint": 57921
+    },
+    {
+      "name": "fast-forward",
+      "codepoint": 57922
+    },
+    {
+      "name": "feather",
+      "codepoint": 57923
+    },
+    {
+      "name": "fence",
+      "codepoint": 57924
+    },
+    {
+      "name": "ferris-wheel",
+      "codepoint": 57925
+    },
+    {
+      "name": "figma",
+      "codepoint": 57926
+    },
+    {
+      "name": "file",
+      "codepoint": 57981
+    },
+    {
+      "name": "file-archive",
+      "codepoint": 57927
+    },
+    {
+      "name": "file-axis-3d",
+      "codepoint": 57928
+    },
+    {
+      "name": "file-badge",
+      "codepoint": 57929
+    },
+    {
+      "name": "file-box",
+      "codepoint": 57930
+    },
+    {
+      "name": "file-braces",
+      "codepoint": 57932
+    },
+    {
+      "name": "file-braces-corner",
+      "codepoint": 57931
+    },
+    {
+      "name": "file-chart-column",
+      "codepoint": 57934
+    },
+    {
+      "name": "file-chart-column-increasing",
+      "codepoint": 57933
+    },
+    {
+      "name": "file-chart-line",
+      "codepoint": 57935
+    },
+    {
+      "name": "file-chart-pie",
+      "codepoint": 57936
+    },
+    {
+      "name": "file-check",
+      "codepoint": 57938
+    },
+    {
+      "name": "file-check-corner",
+      "codepoint": 57937
+    },
+    {
+      "name": "file-clock",
+      "codepoint": 57939
+    },
+    {
+      "name": "file-code",
+      "codepoint": 57941
+    },
+    {
+      "name": "file-code-corner",
+      "codepoint": 57940
+    },
+    {
+      "name": "file-cog",
+      "codepoint": 57942
+    },
+    {
+      "name": "file-diff",
+      "codepoint": 57943
+    },
+    {
+      "name": "file-digit",
+      "codepoint": 57944
+    },
+    {
+      "name": "file-down",
+      "codepoint": 57945
+    },
+    {
+      "name": "file-exclamation-point",
+      "codepoint": 57946
+    },
+    {
+      "name": "file-headphone",
+      "codepoint": 57947
+    },
+    {
+      "name": "file-heart",
+      "codepoint": 57948
+    },
+    {
+      "name": "file-image",
+      "codepoint": 57949
+    },
+    {
+      "name": "file-input",
+      "codepoint": 57950
+    },
+    {
+      "name": "file-key",
+      "codepoint": 57951
+    },
+    {
+      "name": "file-lock",
+      "codepoint": 57952
+    },
+    {
+      "name": "file-minus",
+      "codepoint": 57954
+    },
+    {
+      "name": "file-minus-corner",
+      "codepoint": 57953
+    },
+    {
+      "name": "file-music",
+      "codepoint": 57955
+    },
+    {
+      "name": "file-output",
+      "codepoint": 57956
+    },
+    {
+      "name": "file-pen",
+      "codepoint": 57958
+    },
+    {
+      "name": "file-pen-line",
+      "codepoint": 57957
+    },
+    {
+      "name": "file-play",
+      "codepoint": 57959
+    },
+    {
+      "name": "file-plus",
+      "codepoint": 57961
+    },
+    {
+      "name": "file-plus-corner",
+      "codepoint": 57960
+    },
+    {
+      "name": "file-question-mark",
+      "codepoint": 57962
+    },
+    {
+      "name": "file-scan",
+      "codepoint": 57963
+    },
+    {
+      "name": "file-search",
+      "codepoint": 57965
+    },
+    {
+      "name": "file-search-corner",
+      "codepoint": 57964
+    },
+    {
+      "name": "file-signal",
+      "codepoint": 57966
+    },
+    {
+      "name": "file-sliders",
+      "codepoint": 57967
+    },
+    {
+      "name": "file-spreadsheet",
+      "codepoint": 57968
+    },
+    {
+      "name": "file-stack",
+      "codepoint": 57969
+    },
+    {
+      "name": "file-symlink",
+      "codepoint": 57970
+    },
+    {
+      "name": "file-terminal",
+      "codepoint": 57971
+    },
+    {
+      "name": "file-text",
+      "codepoint": 57972
+    },
+    {
+      "name": "file-type",
+      "codepoint": 57974
+    },
+    {
+      "name": "file-type-corner",
+      "codepoint": 57973
+    },
+    {
+      "name": "file-up",
+      "codepoint": 57975
+    },
+    {
+      "name": "file-user",
+      "codepoint": 57976
+    },
+    {
+      "name": "file-video-camera",
+      "codepoint": 57977
+    },
+    {
+      "name": "file-volume",
+      "codepoint": 57978
+    },
+    {
+      "name": "file-x",
+      "codepoint": 57980
+    },
+    {
+      "name": "file-x-corner",
+      "codepoint": 57979
+    },
+    {
+      "name": "files",
+      "codepoint": 57982
+    },
+    {
+      "name": "film",
+      "codepoint": 57983
+    },
+    {
+      "name": "fingerprint-pattern",
+      "codepoint": 57984
+    },
+    {
+      "name": "fire-extinguisher",
+      "codepoint": 57985
+    },
+    {
+      "name": "fish",
+      "codepoint": 57988
+    },
+    {
+      "name": "fish-off",
+      "codepoint": 57986
+    },
+    {
+      "name": "fish-symbol",
+      "codepoint": 57987
+    },
+    {
+      "name": "fishing-hook",
+      "codepoint": 57989
+    },
+    {
+      "name": "flag",
+      "codepoint": 57993
+    },
+    {
+      "name": "flag-off",
+      "codepoint": 57990
+    },
+    {
+      "name": "flag-triangle-left",
+      "codepoint": 57991
+    },
+    {
+      "name": "flag-triangle-right",
+      "codepoint": 57992
+    },
+    {
+      "name": "flame",
+      "codepoint": 57995
+    },
+    {
+      "name": "flame-kindling",
+      "codepoint": 57994
+    },
+    {
+      "name": "flashlight",
+      "codepoint": 57997
+    },
+    {
+      "name": "flashlight-off",
+      "codepoint": 57996
+    },
+    {
+      "name": "flask-conical",
+      "codepoint": 57999
+    },
+    {
+      "name": "flask-conical-off",
+      "codepoint": 57998
+    },
+    {
+      "name": "flask-round",
+      "codepoint": 58000
+    },
+    {
+      "name": "flip-horizontal",
+      "codepoint": 58002
+    },
+    {
+      "name": "flip-horizontal-2",
+      "codepoint": 58001
+    },
+    {
+      "name": "flip-vertical",
+      "codepoint": 58004
+    },
+    {
+      "name": "flip-vertical-2",
+      "codepoint": 58003
+    },
+    {
+      "name": "flower",
+      "codepoint": 58006
+    },
+    {
+      "name": "flower-2",
+      "codepoint": 58005
+    },
+    {
+      "name": "focus",
+      "codepoint": 58007
+    },
+    {
+      "name": "fold-horizontal",
+      "codepoint": 58008
+    },
+    {
+      "name": "fold-vertical",
+      "codepoint": 58009
+    },
+    {
+      "name": "folder",
+      "codepoint": 58039
+    },
+    {
+      "name": "folder-archive",
+      "codepoint": 58010
+    },
+    {
+      "name": "folder-check",
+      "codepoint": 58011
+    },
+    {
+      "name": "folder-clock",
+      "codepoint": 58012
+    },
+    {
+      "name": "folder-closed",
+      "codepoint": 58013
+    },
+    {
+      "name": "folder-code",
+      "codepoint": 58014
+    },
+    {
+      "name": "folder-cog",
+      "codepoint": 58015
+    },
+    {
+      "name": "folder-dot",
+      "codepoint": 58016
+    },
+    {
+      "name": "folder-down",
+      "codepoint": 58017
+    },
+    {
+      "name": "folder-git",
+      "codepoint": 58019
+    },
+    {
+      "name": "folder-git-2",
+      "codepoint": 58018
+    },
+    {
+      "name": "folder-heart",
+      "codepoint": 58020
+    },
+    {
+      "name": "folder-input",
+      "codepoint": 58021
+    },
+    {
+      "name": "folder-kanban",
+      "codepoint": 58022
+    },
+    {
+      "name": "folder-key",
+      "codepoint": 58023
+    },
+    {
+      "name": "folder-lock",
+      "codepoint": 58024
+    },
+    {
+      "name": "folder-minus",
+      "codepoint": 58025
+    },
+    {
+      "name": "folder-open",
+      "codepoint": 58027
+    },
+    {
+      "name": "folder-open-dot",
+      "codepoint": 58026
+    },
+    {
+      "name": "folder-output",
+      "codepoint": 58028
+    },
+    {
+      "name": "folder-pen",
+      "codepoint": 58029
+    },
+    {
+      "name": "folder-plus",
+      "codepoint": 58030
+    },
+    {
+      "name": "folder-root",
+      "codepoint": 58031
+    },
+    {
+      "name": "folder-search",
+      "codepoint": 58033
+    },
+    {
+      "name": "folder-search-2",
+      "codepoint": 58032
+    },
+    {
+      "name": "folder-symlink",
+      "codepoint": 58034
+    },
+    {
+      "name": "folder-sync",
+      "codepoint": 58035
+    },
+    {
+      "name": "folder-tree",
+      "codepoint": 58036
+    },
+    {
+      "name": "folder-up",
+      "codepoint": 58037
+    },
+    {
+      "name": "folder-x",
+      "codepoint": 58038
+    },
+    {
+      "name": "folders",
+      "codepoint": 58040
+    },
+    {
+      "name": "footprints",
+      "codepoint": 58041
+    },
+    {
+      "name": "forklift",
+      "codepoint": 58042
+    },
+    {
+      "name": "form",
+      "codepoint": 58043
+    },
+    {
+      "name": "forward",
+      "codepoint": 58044
+    },
+    {
+      "name": "frame",
+      "codepoint": 58045
+    },
+    {
+      "name": "framer",
+      "codepoint": 58046
+    },
+    {
+      "name": "frown",
+      "codepoint": 58047
+    },
+    {
+      "name": "fuel",
+      "codepoint": 58048
+    },
+    {
+      "name": "fullscreen",
+      "codepoint": 58049
+    },
+    {
+      "name": "funnel",
+      "codepoint": 58052
+    },
+    {
+      "name": "funnel-plus",
+      "codepoint": 58050
+    },
+    {
+      "name": "funnel-x",
+      "codepoint": 58051
+    },
+    {
+      "name": "gallery-horizontal",
+      "codepoint": 58054
+    },
+    {
+      "name": "gallery-horizontal-end",
+      "codepoint": 58053
+    },
+    {
+      "name": "gallery-thumbnails",
+      "codepoint": 58055
+    },
+    {
+      "name": "gallery-vertical",
+      "codepoint": 58057
+    },
+    {
+      "name": "gallery-vertical-end",
+      "codepoint": 58056
+    },
+    {
+      "name": "gamepad",
+      "codepoint": 58060
+    },
+    {
+      "name": "gamepad-2",
+      "codepoint": 58058
+    },
+    {
+      "name": "gamepad-directional",
+      "codepoint": 58059
+    },
+    {
+      "name": "gauge",
+      "codepoint": 58061
+    },
+    {
+      "name": "gavel",
+      "codepoint": 58062
+    },
+    {
+      "name": "gem",
+      "codepoint": 58063
+    },
+    {
+      "name": "georgian-lari",
+      "codepoint": 58064
+    },
+    {
+      "name": "ghost",
+      "codepoint": 58065
+    },
+    {
+      "name": "gift",
+      "codepoint": 58066
+    },
+    {
+      "name": "git-branch",
+      "codepoint": 58069
+    },
+    {
+      "name": "git-branch-minus",
+      "codepoint": 58067
+    },
+    {
+      "name": "git-branch-plus",
+      "codepoint": 58068
+    },
+    {
+      "name": "git-commit-horizontal",
+      "codepoint": 58070
+    },
+    {
+      "name": "git-commit-vertical",
+      "codepoint": 58071
+    },
+    {
+      "name": "git-compare",
+      "codepoint": 58073
+    },
+    {
+      "name": "git-compare-arrows",
+      "codepoint": 58072
+    },
+    {
+      "name": "git-fork",
+      "codepoint": 58074
+    },
+    {
+      "name": "git-graph",
+      "codepoint": 58075
+    },
+    {
+      "name": "git-merge",
+      "codepoint": 58076
+    },
+    {
+      "name": "git-pull-request",
+      "codepoint": 58082
+    },
+    {
+      "name": "git-pull-request-arrow",
+      "codepoint": 58077
+    },
+    {
+      "name": "git-pull-request-closed",
+      "codepoint": 58078
+    },
+    {
+      "name": "git-pull-request-create",
+      "codepoint": 58080
+    },
+    {
+      "name": "git-pull-request-create-arrow",
+      "codepoint": 58079
+    },
+    {
+      "name": "git-pull-request-draft",
+      "codepoint": 58081
+    },
+    {
+      "name": "github",
+      "codepoint": 58083
+    },
+    {
+      "name": "gitlab",
+      "codepoint": 58084
+    },
+    {
+      "name": "glass-water",
+      "codepoint": 58085
+    },
+    {
+      "name": "glasses",
+      "codepoint": 58086
+    },
+    {
+      "name": "globe",
+      "codepoint": 58088
+    },
+    {
+      "name": "globe-lock",
+      "codepoint": 58087
+    },
+    {
+      "name": "goal",
+      "codepoint": 58089
+    },
+    {
+      "name": "gpu",
+      "codepoint": 58090
+    },
+    {
+      "name": "graduation-cap",
+      "codepoint": 58091
+    },
+    {
+      "name": "grape",
+      "codepoint": 58092
+    },
+    {
+      "name": "grid-2x2",
+      "codepoint": 58096
+    },
+    {
+      "name": "grid-2x2-check",
+      "codepoint": 58093
+    },
+    {
+      "name": "grid-2x2-plus",
+      "codepoint": 58094
+    },
+    {
+      "name": "grid-2x2-x",
+      "codepoint": 58095
+    },
+    {
+      "name": "grid-3x2",
+      "codepoint": 58097
+    },
+    {
+      "name": "grid-3x3",
+      "codepoint": 58098
+    },
+    {
+      "name": "grip",
+      "codepoint": 58101
+    },
+    {
+      "name": "grip-horizontal",
+      "codepoint": 58099
+    },
+    {
+      "name": "grip-vertical",
+      "codepoint": 58100
+    },
+    {
+      "name": "group",
+      "codepoint": 58102
+    },
+    {
+      "name": "guitar",
+      "codepoint": 58103
+    },
+    {
+      "name": "ham",
+      "codepoint": 58104
+    },
+    {
+      "name": "hamburger",
+      "codepoint": 58105
+    },
+    {
+      "name": "hammer",
+      "codepoint": 58106
+    },
+    {
+      "name": "hand",
+      "codepoint": 58114
+    },
+    {
+      "name": "hand-coins",
+      "codepoint": 58107
+    },
+    {
+      "name": "hand-fist",
+      "codepoint": 58108
+    },
+    {
+      "name": "hand-grab",
+      "codepoint": 58109
+    },
+    {
+      "name": "hand-heart",
+      "codepoint": 58110
+    },
+    {
+      "name": "hand-helping",
+      "codepoint": 58111
+    },
+    {
+      "name": "hand-metal",
+      "codepoint": 58112
+    },
+    {
+      "name": "hand-platter",
+      "codepoint": 58113
+    },
+    {
+      "name": "handbag",
+      "codepoint": 58115
+    },
+    {
+      "name": "handshake",
+      "codepoint": 58116
+    },
+    {
+      "name": "hard-drive",
+      "codepoint": 58119
+    },
+    {
+      "name": "hard-drive-download",
+      "codepoint": 58117
+    },
+    {
+      "name": "hard-drive-upload",
+      "codepoint": 58118
+    },
+    {
+      "name": "hard-hat",
+      "codepoint": 58120
+    },
+    {
+      "name": "hash",
+      "codepoint": 58121
+    },
+    {
+      "name": "hat-glasses",
+      "codepoint": 58122
+    },
+    {
+      "name": "haze",
+      "codepoint": 58123
+    },
+    {
+      "name": "hd",
+      "codepoint": 58124
+    },
+    {
+      "name": "hdmi-port",
+      "codepoint": 58125
+    },
+    {
+      "name": "heading",
+      "codepoint": 58132
+    },
+    {
+      "name": "heading-1",
+      "codepoint": 58126
+    },
+    {
+      "name": "heading-2",
+      "codepoint": 58127
+    },
+    {
+      "name": "heading-3",
+      "codepoint": 58128
+    },
+    {
+      "name": "heading-4",
+      "codepoint": 58129
+    },
+    {
+      "name": "heading-5",
+      "codepoint": 58130
+    },
+    {
+      "name": "heading-6",
+      "codepoint": 58131
+    },
+    {
+      "name": "headphone-off",
+      "codepoint": 58133
+    },
+    {
+      "name": "headphones",
+      "codepoint": 58134
+    },
+    {
+      "name": "headset",
+      "codepoint": 58135
+    },
+    {
+      "name": "heart",
+      "codepoint": 58142
+    },
+    {
+      "name": "heart-crack",
+      "codepoint": 58136
+    },
+    {
+      "name": "heart-handshake",
+      "codepoint": 58137
+    },
+    {
+      "name": "heart-minus",
+      "codepoint": 58138
+    },
+    {
+      "name": "heart-off",
+      "codepoint": 58139
+    },
+    {
+      "name": "heart-plus",
+      "codepoint": 58140
+    },
+    {
+      "name": "heart-pulse",
+      "codepoint": 58141
+    },
+    {
+      "name": "heater",
+      "codepoint": 58143
+    },
+    {
+      "name": "helicopter",
+      "codepoint": 58144
+    },
+    {
+      "name": "hexagon",
+      "codepoint": 58145
+    },
+    {
+      "name": "highlighter",
+      "codepoint": 58146
+    },
+    {
+      "name": "history",
+      "codepoint": 58147
+    },
+    {
+      "name": "hop",
+      "codepoint": 58149
+    },
+    {
+      "name": "hop-off",
+      "codepoint": 58148
+    },
+    {
+      "name": "hospital",
+      "codepoint": 58150
+    },
+    {
+      "name": "hotel",
+      "codepoint": 58151
+    },
+    {
+      "name": "hourglass",
+      "codepoint": 58152
+    },
+    {
+      "name": "house",
+      "codepoint": 58157
+    },
+    {
+      "name": "house-heart",
+      "codepoint": 58153
+    },
+    {
+      "name": "house-plug",
+      "codepoint": 58154
+    },
+    {
+      "name": "house-plus",
+      "codepoint": 58155
+    },
+    {
+      "name": "house-wifi",
+      "codepoint": 58156
+    },
+    {
+      "name": "ice-cream-bowl",
+      "codepoint": 58158
+    },
+    {
+      "name": "ice-cream-cone",
+      "codepoint": 58159
+    },
+    {
+      "name": "id-card",
+      "codepoint": 58161
+    },
+    {
+      "name": "id-card-lanyard",
+      "codepoint": 58160
+    },
+    {
+      "name": "image",
+      "codepoint": 58169
+    },
+    {
+      "name": "image-down",
+      "codepoint": 58162
+    },
+    {
+      "name": "image-minus",
+      "codepoint": 58163
+    },
+    {
+      "name": "image-off",
+      "codepoint": 58164
+    },
+    {
+      "name": "image-play",
+      "codepoint": 58165
+    },
+    {
+      "name": "image-plus",
+      "codepoint": 58166
+    },
+    {
+      "name": "image-up",
+      "codepoint": 58167
+    },
+    {
+      "name": "image-upscale",
+      "codepoint": 58168
+    },
+    {
+      "name": "images",
+      "codepoint": 58170
+    },
+    {
+      "name": "import",
+      "codepoint": 58171
+    },
+    {
+      "name": "inbox",
+      "codepoint": 58172
+    },
+    {
+      "name": "indian-rupee",
+      "codepoint": 58173
+    },
+    {
+      "name": "infinity",
+      "codepoint": 58174
+    },
+    {
+      "name": "info",
+      "codepoint": 58175
+    },
+    {
+      "name": "inspection-panel",
+      "codepoint": 58176
+    },
+    {
+      "name": "instagram",
+      "codepoint": 58177
+    },
+    {
+      "name": "italic",
+      "codepoint": 58178
+    },
+    {
+      "name": "iteration-ccw",
+      "codepoint": 58179
+    },
+    {
+      "name": "iteration-cw",
+      "codepoint": 58180
+    },
+    {
+      "name": "japanese-yen",
+      "codepoint": 58181
+    },
+    {
+      "name": "joystick",
+      "codepoint": 58182
+    },
+    {
+      "name": "kanban",
+      "codepoint": 58183
+    },
+    {
+      "name": "kayak",
+      "codepoint": 58184
+    },
+    {
+      "name": "key",
+      "codepoint": 58187
+    },
+    {
+      "name": "key-round",
+      "codepoint": 58185
+    },
+    {
+      "name": "key-square",
+      "codepoint": 58186
+    },
+    {
+      "name": "keyboard",
+      "codepoint": 58190
+    },
+    {
+      "name": "keyboard-music",
+      "codepoint": 58188
+    },
+    {
+      "name": "keyboard-off",
+      "codepoint": 58189
+    },
+    {
+      "name": "lamp",
+      "codepoint": 58196
+    },
+    {
+      "name": "lamp-ceiling",
+      "codepoint": 58191
+    },
+    {
+      "name": "lamp-desk",
+      "codepoint": 58192
+    },
+    {
+      "name": "lamp-floor",
+      "codepoint": 58193
+    },
+    {
+      "name": "lamp-wall-down",
+      "codepoint": 58194
+    },
+    {
+      "name": "lamp-wall-up",
+      "codepoint": 58195
+    },
+    {
+      "name": "land-plot",
+      "codepoint": 58197
+    },
+    {
+      "name": "landmark",
+      "codepoint": 58198
+    },
+    {
+      "name": "languages",
+      "codepoint": 58199
+    },
+    {
+      "name": "laptop",
+      "codepoint": 58202
+    },
+    {
+      "name": "laptop-minimal",
+      "codepoint": 58201
+    },
+    {
+      "name": "laptop-minimal-check",
+      "codepoint": 58200
+    },
+    {
+      "name": "lasso",
+      "codepoint": 58204
+    },
+    {
+      "name": "lasso-select",
+      "codepoint": 58203
+    },
+    {
+      "name": "laugh",
+      "codepoint": 58205
+    },
+    {
+      "name": "layers",
+      "codepoint": 58208
+    },
+    {
+      "name": "layers-2",
+      "codepoint": 58206
+    },
+    {
+      "name": "layers-plus",
+      "codepoint": 58207
+    },
+    {
+      "name": "layout-dashboard",
+      "codepoint": 58209
+    },
+    {
+      "name": "layout-grid",
+      "codepoint": 58210
+    },
+    {
+      "name": "layout-list",
+      "codepoint": 58211
+    },
+    {
+      "name": "layout-panel-left",
+      "codepoint": 58212
+    },
+    {
+      "name": "layout-panel-top",
+      "codepoint": 58213
+    },
+    {
+      "name": "layout-template",
+      "codepoint": 58214
+    },
+    {
+      "name": "leaf",
+      "codepoint": 58215
+    },
+    {
+      "name": "leafy-green",
+      "codepoint": 58216
+    },
+    {
+      "name": "lectern",
+      "codepoint": 58217
+    },
+    {
+      "name": "library",
+      "codepoint": 58219
+    },
+    {
+      "name": "library-big",
+      "codepoint": 58218
+    },
+    {
+      "name": "life-buoy",
+      "codepoint": 58220
+    },
+    {
+      "name": "ligature",
+      "codepoint": 58221
+    },
+    {
+      "name": "lightbulb",
+      "codepoint": 58223
+    },
+    {
+      "name": "lightbulb-off",
+      "codepoint": 58222
+    },
+    {
+      "name": "line-squiggle",
+      "codepoint": 58224
+    },
+    {
+      "name": "link",
+      "codepoint": 58227
+    },
+    {
+      "name": "link-2",
+      "codepoint": 58226
+    },
+    {
+      "name": "link-2-off",
+      "codepoint": 58225
+    },
+    {
+      "name": "linkedin",
+      "codepoint": 58228
+    },
+    {
+      "name": "list",
+      "codepoint": 58249
+    },
+    {
+      "name": "list-check",
+      "codepoint": 58229
+    },
+    {
+      "name": "list-checks",
+      "codepoint": 58230
+    },
+    {
+      "name": "list-chevrons-down-up",
+      "codepoint": 58231
+    },
+    {
+      "name": "list-chevrons-up-down",
+      "codepoint": 58232
+    },
+    {
+      "name": "list-collapse",
+      "codepoint": 58233
+    },
+    {
+      "name": "list-end",
+      "codepoint": 58234
+    },
+    {
+      "name": "list-filter",
+      "codepoint": 58236
+    },
+    {
+      "name": "list-filter-plus",
+      "codepoint": 58235
+    },
+    {
+      "name": "list-indent-decrease",
+      "codepoint": 58237
+    },
+    {
+      "name": "list-indent-increase",
+      "codepoint": 58238
+    },
+    {
+      "name": "list-minus",
+      "codepoint": 58239
+    },
+    {
+      "name": "list-music",
+      "codepoint": 58240
+    },
+    {
+      "name": "list-ordered",
+      "codepoint": 58241
+    },
+    {
+      "name": "list-plus",
+      "codepoint": 58242
+    },
+    {
+      "name": "list-restart",
+      "codepoint": 58243
+    },
+    {
+      "name": "list-start",
+      "codepoint": 58244
+    },
+    {
+      "name": "list-todo",
+      "codepoint": 58245
+    },
+    {
+      "name": "list-tree",
+      "codepoint": 58246
+    },
+    {
+      "name": "list-video",
+      "codepoint": 58247
+    },
+    {
+      "name": "list-x",
+      "codepoint": 58248
+    },
+    {
+      "name": "loader",
+      "codepoint": 58252
+    },
+    {
+      "name": "loader-circle",
+      "codepoint": 58250
+    },
+    {
+      "name": "loader-pinwheel",
+      "codepoint": 58251
+    },
+    {
+      "name": "locate",
+      "codepoint": 58255
+    },
+    {
+      "name": "locate-fixed",
+      "codepoint": 58253
+    },
+    {
+      "name": "locate-off",
+      "codepoint": 58254
+    },
+    {
+      "name": "lock",
+      "codepoint": 58259
+    },
+    {
+      "name": "lock-keyhole",
+      "codepoint": 58257
+    },
+    {
+      "name": "lock-keyhole-open",
+      "codepoint": 58256
+    },
+    {
+      "name": "lock-open",
+      "codepoint": 58258
+    },
+    {
+      "name": "log-in",
+      "codepoint": 58260
+    },
+    {
+      "name": "log-out",
+      "codepoint": 58261
+    },
+    {
+      "name": "logs",
+      "codepoint": 58262
+    },
+    {
+      "name": "lollipop",
+      "codepoint": 58263
+    },
+    {
+      "name": "luggage",
+      "codepoint": 58264
+    },
+    {
+      "name": "magnet",
+      "codepoint": 58265
+    },
+    {
+      "name": "mail",
+      "codepoint": 58274
+    },
+    {
+      "name": "mail-check",
+      "codepoint": 58266
+    },
+    {
+      "name": "mail-minus",
+      "codepoint": 58267
+    },
+    {
+      "name": "mail-open",
+      "codepoint": 58268
+    },
+    {
+      "name": "mail-plus",
+      "codepoint": 58269
+    },
+    {
+      "name": "mail-question-mark",
+      "codepoint": 58270
+    },
+    {
+      "name": "mail-search",
+      "codepoint": 58271
+    },
+    {
+      "name": "mail-warning",
+      "codepoint": 58272
+    },
+    {
+      "name": "mail-x",
+      "codepoint": 58273
+    },
+    {
+      "name": "mailbox",
+      "codepoint": 58275
+    },
+    {
+      "name": "mails",
+      "codepoint": 58276
+    },
+    {
+      "name": "map",
+      "codepoint": 58292
+    },
+    {
+      "name": "map-minus",
+      "codepoint": 58277
+    },
+    {
+      "name": "map-pin",
+      "codepoint": 58289
+    },
+    {
+      "name": "map-pin-check",
+      "codepoint": 58279
+    },
+    {
+      "name": "map-pin-check-inside",
+      "codepoint": 58278
+    },
+    {
+      "name": "map-pin-house",
+      "codepoint": 58280
+    },
+    {
+      "name": "map-pin-minus",
+      "codepoint": 58282
+    },
+    {
+      "name": "map-pin-minus-inside",
+      "codepoint": 58281
+    },
+    {
+      "name": "map-pin-off",
+      "codepoint": 58283
+    },
+    {
+      "name": "map-pin-pen",
+      "codepoint": 58284
+    },
+    {
+      "name": "map-pin-plus",
+      "codepoint": 58286
+    },
+    {
+      "name": "map-pin-plus-inside",
+      "codepoint": 58285
+    },
+    {
+      "name": "map-pin-x",
+      "codepoint": 58288
+    },
+    {
+      "name": "map-pin-x-inside",
+      "codepoint": 58287
+    },
+    {
+      "name": "map-pinned",
+      "codepoint": 58290
+    },
+    {
+      "name": "map-plus",
+      "codepoint": 58291
+    },
+    {
+      "name": "mars",
+      "codepoint": 58294
+    },
+    {
+      "name": "mars-stroke",
+      "codepoint": 58293
+    },
+    {
+      "name": "martini",
+      "codepoint": 58295
+    },
+    {
+      "name": "maximize",
+      "codepoint": 58297
+    },
+    {
+      "name": "maximize-2",
+      "codepoint": 58296
+    },
+    {
+      "name": "medal",
+      "codepoint": 58298
+    },
+    {
+      "name": "megaphone",
+      "codepoint": 58300
+    },
+    {
+      "name": "megaphone-off",
+      "codepoint": 58299
+    },
+    {
+      "name": "meh",
+      "codepoint": 58301
+    },
+    {
+      "name": "memory-stick",
+      "codepoint": 58302
+    },
+    {
+      "name": "menu",
+      "codepoint": 58303
+    },
+    {
+      "name": "merge",
+      "codepoint": 58304
+    },
+    {
+      "name": "message-circle",
+      "codepoint": 58315
+    },
+    {
+      "name": "message-circle-code",
+      "codepoint": 58305
+    },
+    {
+      "name": "message-circle-dashed",
+      "codepoint": 58306
+    },
+    {
+      "name": "message-circle-heart",
+      "codepoint": 58307
+    },
+    {
+      "name": "message-circle-more",
+      "codepoint": 58308
+    },
+    {
+      "name": "message-circle-off",
+      "codepoint": 58309
+    },
+    {
+      "name": "message-circle-plus",
+      "codepoint": 58310
+    },
+    {
+      "name": "message-circle-question-mark",
+      "codepoint": 58311
+    },
+    {
+      "name": "message-circle-reply",
+      "codepoint": 58312
+    },
+    {
+      "name": "message-circle-warning",
+      "codepoint": 58313
+    },
+    {
+      "name": "message-circle-x",
+      "codepoint": 58314
+    },
+    {
+      "name": "message-square",
+      "codepoint": 58331
+    },
+    {
+      "name": "message-square-code",
+      "codepoint": 58316
+    },
+    {
+      "name": "message-square-dashed",
+      "codepoint": 58317
+    },
+    {
+      "name": "message-square-diff",
+      "codepoint": 58318
+    },
+    {
+      "name": "message-square-dot",
+      "codepoint": 58319
+    },
+    {
+      "name": "message-square-heart",
+      "codepoint": 58320
+    },
+    {
+      "name": "message-square-lock",
+      "codepoint": 58321
+    },
+    {
+      "name": "message-square-more",
+      "codepoint": 58322
+    },
+    {
+      "name": "message-square-off",
+      "codepoint": 58323
+    },
+    {
+      "name": "message-square-plus",
+      "codepoint": 58324
+    },
+    {
+      "name": "message-square-quote",
+      "codepoint": 58325
+    },
+    {
+      "name": "message-square-reply",
+      "codepoint": 58326
+    },
+    {
+      "name": "message-square-share",
+      "codepoint": 58327
+    },
+    {
+      "name": "message-square-text",
+      "codepoint": 58328
+    },
+    {
+      "name": "message-square-warning",
+      "codepoint": 58329
+    },
+    {
+      "name": "message-square-x",
+      "codepoint": 58330
+    },
+    {
+      "name": "messages-square",
+      "codepoint": 58332
+    },
+    {
+      "name": "mic",
+      "codepoint": 58335
+    },
+    {
+      "name": "mic-off",
+      "codepoint": 58333
+    },
+    {
+      "name": "mic-vocal",
+      "codepoint": 58334
+    },
+    {
+      "name": "microchip",
+      "codepoint": 58336
+    },
+    {
+      "name": "microscope",
+      "codepoint": 58337
+    },
+    {
+      "name": "microwave",
+      "codepoint": 58338
+    },
+    {
+      "name": "milestone",
+      "codepoint": 58339
+    },
+    {
+      "name": "milk",
+      "codepoint": 58341
+    },
+    {
+      "name": "milk-off",
+      "codepoint": 58340
+    },
+    {
+      "name": "minimize",
+      "codepoint": 58343
+    },
+    {
+      "name": "minimize-2",
+      "codepoint": 58342
+    },
+    {
+      "name": "minus",
+      "codepoint": 58344
+    },
+    {
+      "name": "monitor",
+      "codepoint": 58358
+    },
+    {
+      "name": "monitor-check",
+      "codepoint": 58345
+    },
+    {
+      "name": "monitor-cloud",
+      "codepoint": 58346
+    },
+    {
+      "name": "monitor-cog",
+      "codepoint": 58347
+    },
+    {
+      "name": "monitor-dot",
+      "codepoint": 58348
+    },
+    {
+      "name": "monitor-down",
+      "codepoint": 58349
+    },
+    {
+      "name": "monitor-off",
+      "codepoint": 58350
+    },
+    {
+      "name": "monitor-pause",
+      "codepoint": 58351
+    },
+    {
+      "name": "monitor-play",
+      "codepoint": 58352
+    },
+    {
+      "name": "monitor-smartphone",
+      "codepoint": 58353
+    },
+    {
+      "name": "monitor-speaker",
+      "codepoint": 58354
+    },
+    {
+      "name": "monitor-stop",
+      "codepoint": 58355
+    },
+    {
+      "name": "monitor-up",
+      "codepoint": 58356
+    },
+    {
+      "name": "monitor-x",
+      "codepoint": 58357
+    },
+    {
+      "name": "moon",
+      "codepoint": 58360
+    },
+    {
+      "name": "moon-star",
+      "codepoint": 58359
+    },
+    {
+      "name": "motorbike",
+      "codepoint": 58361
+    },
+    {
+      "name": "mountain",
+      "codepoint": 58363
+    },
+    {
+      "name": "mountain-snow",
+      "codepoint": 58362
+    },
+    {
+      "name": "mouse",
+      "codepoint": 58370
+    },
+    {
+      "name": "mouse-off",
+      "codepoint": 58364
+    },
+    {
+      "name": "mouse-pointer",
+      "codepoint": 58369
+    },
+    {
+      "name": "mouse-pointer-2",
+      "codepoint": 58366
+    },
+    {
+      "name": "mouse-pointer-2-off",
+      "codepoint": 58365
+    },
+    {
+      "name": "mouse-pointer-ban",
+      "codepoint": 58367
+    },
+    {
+      "name": "mouse-pointer-click",
+      "codepoint": 58368
+    },
+    {
+      "name": "move",
+      "codepoint": 58384
+    },
+    {
+      "name": "move-3d",
+      "codepoint": 58371
+    },
+    {
+      "name": "move-diagonal",
+      "codepoint": 58373
+    },
+    {
+      "name": "move-diagonal-2",
+      "codepoint": 58372
+    },
+    {
+      "name": "move-down",
+      "codepoint": 58376
+    },
+    {
+      "name": "move-down-left",
+      "codepoint": 58374
+    },
+    {
+      "name": "move-down-right",
+      "codepoint": 58375
+    },
+    {
+      "name": "move-horizontal",
+      "codepoint": 58377
+    },
+    {
+      "name": "move-left",
+      "codepoint": 58378
+    },
+    {
+      "name": "move-right",
+      "codepoint": 58379
+    },
+    {
+      "name": "move-up",
+      "codepoint": 58382
+    },
+    {
+      "name": "move-up-left",
+      "codepoint": 58380
+    },
+    {
+      "name": "move-up-right",
+      "codepoint": 58381
+    },
+    {
+      "name": "move-vertical",
+      "codepoint": 58383
+    },
+    {
+      "name": "music",
+      "codepoint": 58388
+    },
+    {
+      "name": "music-2",
+      "codepoint": 58385
+    },
+    {
+      "name": "music-3",
+      "codepoint": 58386
+    },
+    {
+      "name": "music-4",
+      "codepoint": 58387
+    },
+    {
+      "name": "navigation",
+      "codepoint": 58392
+    },
+    {
+      "name": "navigation-2",
+      "codepoint": 58390
+    },
+    {
+      "name": "navigation-2-off",
+      "codepoint": 58389
+    },
+    {
+      "name": "navigation-off",
+      "codepoint": 58391
+    },
+    {
+      "name": "network",
+      "codepoint": 58393
+    },
+    {
+      "name": "newspaper",
+      "codepoint": 58394
+    },
+    {
+      "name": "nfc",
+      "codepoint": 58395
+    },
+    {
+      "name": "non-binary",
+      "codepoint": 58396
+    },
+    {
+      "name": "notebook",
+      "codepoint": 58400
+    },
+    {
+      "name": "notebook-pen",
+      "codepoint": 58397
+    },
+    {
+      "name": "notebook-tabs",
+      "codepoint": 58398
+    },
+    {
+      "name": "notebook-text",
+      "codepoint": 58399
+    },
+    {
+      "name": "notepad-text",
+      "codepoint": 58402
+    },
+    {
+      "name": "notepad-text-dashed",
+      "codepoint": 58401
+    },
+    {
+      "name": "nut",
+      "codepoint": 58404
+    },
+    {
+      "name": "nut-off",
+      "codepoint": 58403
+    },
+    {
+      "name": "octagon",
+      "codepoint": 58409
+    },
+    {
+      "name": "octagon-alert",
+      "codepoint": 58405
+    },
+    {
+      "name": "octagon-minus",
+      "codepoint": 58406
+    },
+    {
+      "name": "octagon-pause",
+      "codepoint": 58407
+    },
+    {
+      "name": "octagon-x",
+      "codepoint": 58408
+    },
+    {
+      "name": "omega",
+      "codepoint": 58410
+    },
+    {
+      "name": "option",
+      "codepoint": 58411
+    },
+    {
+      "name": "orbit",
+      "codepoint": 58412
+    },
+    {
+      "name": "origami",
+      "codepoint": 58413
+    },
+    {
+      "name": "package",
+      "codepoint": 58421
+    },
+    {
+      "name": "package-2",
+      "codepoint": 58414
+    },
+    {
+      "name": "package-check",
+      "codepoint": 58415
+    },
+    {
+      "name": "package-minus",
+      "codepoint": 58416
+    },
+    {
+      "name": "package-open",
+      "codepoint": 58417
+    },
+    {
+      "name": "package-plus",
+      "codepoint": 58418
+    },
+    {
+      "name": "package-search",
+      "codepoint": 58419
+    },
+    {
+      "name": "package-x",
+      "codepoint": 58420
+    },
+    {
+      "name": "paint-bucket",
+      "codepoint": 58422
+    },
+    {
+      "name": "paint-roller",
+      "codepoint": 58423
+    },
+    {
+      "name": "paintbrush",
+      "codepoint": 58425
+    },
+    {
+      "name": "paintbrush-vertical",
+      "codepoint": 58424
+    },
+    {
+      "name": "palette",
+      "codepoint": 58426
+    },
+    {
+      "name": "panda",
+      "codepoint": 58427
+    },
+    {
+      "name": "panel-bottom",
+      "codepoint": 58431
+    },
+    {
+      "name": "panel-bottom-close",
+      "codepoint": 58428
+    },
+    {
+      "name": "panel-bottom-dashed",
+      "codepoint": 58429
+    },
+    {
+      "name": "panel-bottom-open",
+      "codepoint": 58430
+    },
+    {
+      "name": "panel-left",
+      "codepoint": 58436
+    },
+    {
+      "name": "panel-left-close",
+      "codepoint": 58432
+    },
+    {
+      "name": "panel-left-dashed",
+      "codepoint": 58433
+    },
+    {
+      "name": "panel-left-open",
+      "codepoint": 58434
+    },
+    {
+      "name": "panel-left-right-dashed",
+      "codepoint": 58435
+    },
+    {
+      "name": "panel-right",
+      "codepoint": 58440
+    },
+    {
+      "name": "panel-right-close",
+      "codepoint": 58437
+    },
+    {
+      "name": "panel-right-dashed",
+      "codepoint": 58438
+    },
+    {
+      "name": "panel-right-open",
+      "codepoint": 58439
+    },
+    {
+      "name": "panel-top",
+      "codepoint": 58445
+    },
+    {
+      "name": "panel-top-bottom-dashed",
+      "codepoint": 58441
+    },
+    {
+      "name": "panel-top-close",
+      "codepoint": 58442
+    },
+    {
+      "name": "panel-top-dashed",
+      "codepoint": 58443
+    },
+    {
+      "name": "panel-top-open",
+      "codepoint": 58444
+    },
+    {
+      "name": "panels-left-bottom",
+      "codepoint": 58446
+    },
+    {
+      "name": "panels-right-bottom",
+      "codepoint": 58447
+    },
+    {
+      "name": "panels-top-left",
+      "codepoint": 58448
+    },
+    {
+      "name": "paperclip",
+      "codepoint": 58449
+    },
+    {
+      "name": "parentheses",
+      "codepoint": 58450
+    },
+    {
+      "name": "parking-meter",
+      "codepoint": 58451
+    },
+    {
+      "name": "party-popper",
+      "codepoint": 58452
+    },
+    {
+      "name": "pause",
+      "codepoint": 58453
+    },
+    {
+      "name": "paw-print",
+      "codepoint": 58454
+    },
+    {
+      "name": "pc-case",
+      "codepoint": 58455
+    },
+    {
+      "name": "pen",
+      "codepoint": 58459
+    },
+    {
+      "name": "pen-line",
+      "codepoint": 58456
+    },
+    {
+      "name": "pen-off",
+      "codepoint": 58457
+    },
+    {
+      "name": "pen-tool",
+      "codepoint": 58458
+    },
+    {
+      "name": "pencil",
+      "codepoint": 58463
+    },
+    {
+      "name": "pencil-line",
+      "codepoint": 58460
+    },
+    {
+      "name": "pencil-off",
+      "codepoint": 58461
+    },
+    {
+      "name": "pencil-ruler",
+      "codepoint": 58462
+    },
+    {
+      "name": "pentagon",
+      "codepoint": 58464
+    },
+    {
+      "name": "percent",
+      "codepoint": 58465
+    },
+    {
+      "name": "person-standing",
+      "codepoint": 58466
+    },
+    {
+      "name": "philippine-peso",
+      "codepoint": 58467
+    },
+    {
+      "name": "phone",
+      "codepoint": 58474
+    },
+    {
+      "name": "phone-call",
+      "codepoint": 58468
+    },
+    {
+      "name": "phone-forwarded",
+      "codepoint": 58469
+    },
+    {
+      "name": "phone-incoming",
+      "codepoint": 58470
+    },
+    {
+      "name": "phone-missed",
+      "codepoint": 58471
+    },
+    {
+      "name": "phone-off",
+      "codepoint": 58472
+    },
+    {
+      "name": "phone-outgoing",
+      "codepoint": 58473
+    },
+    {
+      "name": "pi",
+      "codepoint": 58475
+    },
+    {
+      "name": "piano",
+      "codepoint": 58476
+    },
+    {
+      "name": "pickaxe",
+      "codepoint": 58477
+    },
+    {
+      "name": "picture-in-picture",
+      "codepoint": 58479
+    },
+    {
+      "name": "picture-in-picture-2",
+      "codepoint": 58478
+    },
+    {
+      "name": "piggy-bank",
+      "codepoint": 58480
+    },
+    {
+      "name": "pilcrow",
+      "codepoint": 58483
+    },
+    {
+      "name": "pilcrow-left",
+      "codepoint": 58481
+    },
+    {
+      "name": "pilcrow-right",
+      "codepoint": 58482
+    },
+    {
+      "name": "pill",
+      "codepoint": 58485
+    },
+    {
+      "name": "pill-bottle",
+      "codepoint": 58484
+    },
+    {
+      "name": "pin",
+      "codepoint": 58487
+    },
+    {
+      "name": "pin-off",
+      "codepoint": 58486
+    },
+    {
+      "name": "pipette",
+      "codepoint": 58488
+    },
+    {
+      "name": "pizza",
+      "codepoint": 58489
+    },
+    {
+      "name": "plane",
+      "codepoint": 58492
+    },
+    {
+      "name": "plane-landing",
+      "codepoint": 58490
+    },
+    {
+      "name": "plane-takeoff",
+      "codepoint": 58491
+    },
+    {
+      "name": "play",
+      "codepoint": 58493
+    },
+    {
+      "name": "plug",
+      "codepoint": 58496
+    },
+    {
+      "name": "plug-2",
+      "codepoint": 58494
+    },
+    {
+      "name": "plug-zap",
+      "codepoint": 58495
+    },
+    {
+      "name": "plus",
+      "codepoint": 58497
+    },
+    {
+      "name": "pocket",
+      "codepoint": 58499
+    },
+    {
+      "name": "pocket-knife",
+      "codepoint": 58498
+    },
+    {
+      "name": "podcast",
+      "codepoint": 58500
+    },
+    {
+      "name": "pointer",
+      "codepoint": 58502
+    },
+    {
+      "name": "pointer-off",
+      "codepoint": 58501
+    },
+    {
+      "name": "popcorn",
+      "codepoint": 58503
+    },
+    {
+      "name": "popsicle",
+      "codepoint": 58504
+    },
+    {
+      "name": "pound-sterling",
+      "codepoint": 58505
+    },
+    {
+      "name": "power",
+      "codepoint": 58507
+    },
+    {
+      "name": "power-off",
+      "codepoint": 58506
+    },
+    {
+      "name": "presentation",
+      "codepoint": 58508
+    },
+    {
+      "name": "printer",
+      "codepoint": 58510
+    },
+    {
+      "name": "printer-check",
+      "codepoint": 58509
+    },
+    {
+      "name": "projector",
+      "codepoint": 58511
+    },
+    {
+      "name": "proportions",
+      "codepoint": 58512
+    },
+    {
+      "name": "puzzle",
+      "codepoint": 58513
+    },
+    {
+      "name": "pyramid",
+      "codepoint": 58514
+    },
+    {
+      "name": "qr-code",
+      "codepoint": 58515
+    },
+    {
+      "name": "quote",
+      "codepoint": 58516
+    },
+    {
+      "name": "rabbit",
+      "codepoint": 58517
+    },
+    {
+      "name": "radar",
+      "codepoint": 58518
+    },
+    {
+      "name": "radiation",
+      "codepoint": 58519
+    },
+    {
+      "name": "radical",
+      "codepoint": 58520
+    },
+    {
+      "name": "radio",
+      "codepoint": 58523
+    },
+    {
+      "name": "radio-receiver",
+      "codepoint": 58521
+    },
+    {
+      "name": "radio-tower",
+      "codepoint": 58522
+    },
+    {
+      "name": "radius",
+      "codepoint": 58524
+    },
+    {
+      "name": "rail-symbol",
+      "codepoint": 58525
+    },
+    {
+      "name": "rainbow",
+      "codepoint": 58526
+    },
+    {
+      "name": "rat",
+      "codepoint": 58527
+    },
+    {
+      "name": "ratio",
+      "codepoint": 58528
+    },
+    {
+      "name": "receipt",
+      "codepoint": 58538
+    },
+    {
+      "name": "receipt-cent",
+      "codepoint": 58529
+    },
+    {
+      "name": "receipt-euro",
+      "codepoint": 58530
+    },
+    {
+      "name": "receipt-indian-rupee",
+      "codepoint": 58531
+    },
+    {
+      "name": "receipt-japanese-yen",
+      "codepoint": 58532
+    },
+    {
+      "name": "receipt-pound-sterling",
+      "codepoint": 58533
+    },
+    {
+      "name": "receipt-russian-ruble",
+      "codepoint": 58534
+    },
+    {
+      "name": "receipt-swiss-franc",
+      "codepoint": 58535
+    },
+    {
+      "name": "receipt-text",
+      "codepoint": 58536
+    },
+    {
+      "name": "receipt-turkish-lira",
+      "codepoint": 58537
+    },
+    {
+      "name": "rectangle-circle",
+      "codepoint": 58539
+    },
+    {
+      "name": "rectangle-ellipsis",
+      "codepoint": 58540
+    },
+    {
+      "name": "rectangle-goggles",
+      "codepoint": 58541
+    },
+    {
+      "name": "rectangle-horizontal",
+      "codepoint": 58542
+    },
+    {
+      "name": "rectangle-vertical",
+      "codepoint": 58543
+    },
+    {
+      "name": "recycle",
+      "codepoint": 58544
+    },
+    {
+      "name": "redo",
+      "codepoint": 58547
+    },
+    {
+      "name": "redo-2",
+      "codepoint": 58545
+    },
+    {
+      "name": "redo-dot",
+      "codepoint": 58546
+    },
+    {
+      "name": "refresh-ccw",
+      "codepoint": 58549
+    },
+    {
+      "name": "refresh-ccw-dot",
+      "codepoint": 58548
+    },
+    {
+      "name": "refresh-cw",
+      "codepoint": 58551
+    },
+    {
+      "name": "refresh-cw-off",
+      "codepoint": 58550
+    },
+    {
+      "name": "refrigerator",
+      "codepoint": 58552
+    },
+    {
+      "name": "regex",
+      "codepoint": 58553
+    },
+    {
+      "name": "remove-formatting",
+      "codepoint": 58554
+    },
+    {
+      "name": "repeat",
+      "codepoint": 58557
+    },
+    {
+      "name": "repeat-1",
+      "codepoint": 58555
+    },
+    {
+      "name": "repeat-2",
+      "codepoint": 58556
+    },
+    {
+      "name": "replace",
+      "codepoint": 58559
+    },
+    {
+      "name": "replace-all",
+      "codepoint": 58558
+    },
+    {
+      "name": "reply",
+      "codepoint": 58561
+    },
+    {
+      "name": "reply-all",
+      "codepoint": 58560
+    },
+    {
+      "name": "rewind",
+      "codepoint": 58562
+    },
+    {
+      "name": "ribbon",
+      "codepoint": 58563
+    },
+    {
+      "name": "rocket",
+      "codepoint": 58564
+    },
+    {
+      "name": "rocking-chair",
+      "codepoint": 58565
+    },
+    {
+      "name": "roller-coaster",
+      "codepoint": 58566
+    },
+    {
+      "name": "rose",
+      "codepoint": 58567
+    },
+    {
+      "name": "rotate-3d",
+      "codepoint": 58568
+    },
+    {
+      "name": "rotate-ccw",
+      "codepoint": 58571
+    },
+    {
+      "name": "rotate-ccw-key",
+      "codepoint": 58569
+    },
+    {
+      "name": "rotate-ccw-square",
+      "codepoint": 58570
+    },
+    {
+      "name": "rotate-cw",
+      "codepoint": 58573
+    },
+    {
+      "name": "rotate-cw-square",
+      "codepoint": 58572
+    },
+    {
+      "name": "route",
+      "codepoint": 58575
+    },
+    {
+      "name": "route-off",
+      "codepoint": 58574
+    },
+    {
+      "name": "router",
+      "codepoint": 58576
+    },
+    {
+      "name": "rows-2",
+      "codepoint": 58577
+    },
+    {
+      "name": "rows-3",
+      "codepoint": 58578
+    },
+    {
+      "name": "rows-4",
+      "codepoint": 58579
+    },
+    {
+      "name": "rss",
+      "codepoint": 58580
+    },
+    {
+      "name": "ruler",
+      "codepoint": 58582
+    },
+    {
+      "name": "ruler-dimension-line",
+      "codepoint": 58581
+    },
+    {
+      "name": "russian-ruble",
+      "codepoint": 58583
+    },
+    {
+      "name": "sailboat",
+      "codepoint": 58584
+    },
+    {
+      "name": "salad",
+      "codepoint": 58585
+    },
+    {
+      "name": "sandwich",
+      "codepoint": 58586
+    },
+    {
+      "name": "satellite",
+      "codepoint": 58588
+    },
+    {
+      "name": "satellite-dish",
+      "codepoint": 58587
+    },
+    {
+      "name": "saudi-riyal",
+      "codepoint": 58589
+    },
+    {
+      "name": "save",
+      "codepoint": 58592
+    },
+    {
+      "name": "save-all",
+      "codepoint": 58590
+    },
+    {
+      "name": "save-off",
+      "codepoint": 58591
+    },
+    {
+      "name": "scale",
+      "codepoint": 58594
+    },
+    {
+      "name": "scale-3d",
+      "codepoint": 58593
+    },
+    {
+      "name": "scaling",
+      "codepoint": 58595
+    },
+    {
+      "name": "scan",
+      "codepoint": 58604
+    },
+    {
+      "name": "scan-barcode",
+      "codepoint": 58596
+    },
+    {
+      "name": "scan-eye",
+      "codepoint": 58597
+    },
+    {
+      "name": "scan-face",
+      "codepoint": 58598
+    },
+    {
+      "name": "scan-heart",
+      "codepoint": 58599
+    },
+    {
+      "name": "scan-line",
+      "codepoint": 58600
+    },
+    {
+      "name": "scan-qr-code",
+      "codepoint": 58601
+    },
+    {
+      "name": "scan-search",
+      "codepoint": 58602
+    },
+    {
+      "name": "scan-text",
+      "codepoint": 58603
+    },
+    {
+      "name": "school",
+      "codepoint": 58605
+    },
+    {
+      "name": "scissors",
+      "codepoint": 58607
+    },
+    {
+      "name": "scissors-line-dashed",
+      "codepoint": 58606
+    },
+    {
+      "name": "scooter",
+      "codepoint": 58608
+    },
+    {
+      "name": "screen-share",
+      "codepoint": 58610
+    },
+    {
+      "name": "screen-share-off",
+      "codepoint": 58609
+    },
+    {
+      "name": "scroll",
+      "codepoint": 58612
+    },
+    {
+      "name": "scroll-text",
+      "codepoint": 58611
+    },
+    {
+      "name": "search",
+      "codepoint": 58618
+    },
+    {
+      "name": "search-alert",
+      "codepoint": 58613
+    },
+    {
+      "name": "search-check",
+      "codepoint": 58614
+    },
+    {
+      "name": "search-code",
+      "codepoint": 58615
+    },
+    {
+      "name": "search-slash",
+      "codepoint": 58616
+    },
+    {
+      "name": "search-x",
+      "codepoint": 58617
+    },
+    {
+      "name": "section",
+      "codepoint": 58619
+    },
+    {
+      "name": "send",
+      "codepoint": 58622
+    },
+    {
+      "name": "send-horizontal",
+      "codepoint": 58620
+    },
+    {
+      "name": "send-to-back",
+      "codepoint": 58621
+    },
+    {
+      "name": "separator-horizontal",
+      "codepoint": 58623
+    },
+    {
+      "name": "separator-vertical",
+      "codepoint": 58624
+    },
+    {
+      "name": "server",
+      "codepoint": 58628
+    },
+    {
+      "name": "server-cog",
+      "codepoint": 58625
+    },
+    {
+      "name": "server-crash",
+      "codepoint": 58626
+    },
+    {
+      "name": "server-off",
+      "codepoint": 58627
+    },
+    {
+      "name": "settings",
+      "codepoint": 58630
+    },
+    {
+      "name": "settings-2",
+      "codepoint": 58629
+    },
+    {
+      "name": "shapes",
+      "codepoint": 58631
+    },
+    {
+      "name": "share",
+      "codepoint": 58633
+    },
+    {
+      "name": "share-2",
+      "codepoint": 58632
+    },
+    {
+      "name": "sheet",
+      "codepoint": 58634
+    },
+    {
+      "name": "shell",
+      "codepoint": 58635
+    },
+    {
+      "name": "shield",
+      "codepoint": 58647
+    },
+    {
+      "name": "shield-alert",
+      "codepoint": 58636
+    },
+    {
+      "name": "shield-ban",
+      "codepoint": 58637
+    },
+    {
+      "name": "shield-check",
+      "codepoint": 58638
+    },
+    {
+      "name": "shield-ellipsis",
+      "codepoint": 58639
+    },
+    {
+      "name": "shield-half",
+      "codepoint": 58640
+    },
+    {
+      "name": "shield-minus",
+      "codepoint": 58641
+    },
+    {
+      "name": "shield-off",
+      "codepoint": 58642
+    },
+    {
+      "name": "shield-plus",
+      "codepoint": 58643
+    },
+    {
+      "name": "shield-question-mark",
+      "codepoint": 58644
+    },
+    {
+      "name": "shield-user",
+      "codepoint": 58645
+    },
+    {
+      "name": "shield-x",
+      "codepoint": 58646
+    },
+    {
+      "name": "ship",
+      "codepoint": 58649
+    },
+    {
+      "name": "ship-wheel",
+      "codepoint": 58648
+    },
+    {
+      "name": "shirt",
+      "codepoint": 58650
+    },
+    {
+      "name": "shopping-bag",
+      "codepoint": 58651
+    },
+    {
+      "name": "shopping-basket",
+      "codepoint": 58652
+    },
+    {
+      "name": "shopping-cart",
+      "codepoint": 58653
+    },
+    {
+      "name": "shovel",
+      "codepoint": 58654
+    },
+    {
+      "name": "shower-head",
+      "codepoint": 58655
+    },
+    {
+      "name": "shredder",
+      "codepoint": 58656
+    },
+    {
+      "name": "shrimp",
+      "codepoint": 58657
+    },
+    {
+      "name": "shrink",
+      "codepoint": 58658
+    },
+    {
+      "name": "shrub",
+      "codepoint": 58659
+    },
+    {
+      "name": "shuffle",
+      "codepoint": 58660
+    },
+    {
+      "name": "sigma",
+      "codepoint": 58661
+    },
+    {
+      "name": "signal",
+      "codepoint": 58666
+    },
+    {
+      "name": "signal-high",
+      "codepoint": 58662
+    },
+    {
+      "name": "signal-low",
+      "codepoint": 58663
+    },
+    {
+      "name": "signal-medium",
+      "codepoint": 58664
+    },
+    {
+      "name": "signal-zero",
+      "codepoint": 58665
+    },
+    {
+      "name": "signature",
+      "codepoint": 58667
+    },
+    {
+      "name": "signpost",
+      "codepoint": 58669
+    },
+    {
+      "name": "signpost-big",
+      "codepoint": 58668
+    },
+    {
+      "name": "siren",
+      "codepoint": 58670
+    },
+    {
+      "name": "skip-back",
+      "codepoint": 58671
+    },
+    {
+      "name": "skip-forward",
+      "codepoint": 58672
+    },
+    {
+      "name": "skull",
+      "codepoint": 58673
+    },
+    {
+      "name": "slack",
+      "codepoint": 58674
+    },
+    {
+      "name": "slash",
+      "codepoint": 58675
+    },
+    {
+      "name": "slice",
+      "codepoint": 58676
+    },
+    {
+      "name": "sliders-horizontal",
+      "codepoint": 58677
+    },
+    {
+      "name": "sliders-vertical",
+      "codepoint": 58678
+    },
+    {
+      "name": "smartphone",
+      "codepoint": 58681
+    },
+    {
+      "name": "smartphone-charging",
+      "codepoint": 58679
+    },
+    {
+      "name": "smartphone-nfc",
+      "codepoint": 58680
+    },
+    {
+      "name": "smile",
+      "codepoint": 58683
+    },
+    {
+      "name": "smile-plus",
+      "codepoint": 58682
+    },
+    {
+      "name": "snail",
+      "codepoint": 58684
+    },
+    {
+      "name": "snowflake",
+      "codepoint": 58685
+    },
+    {
+      "name": "soap-dispenser-droplet",
+      "codepoint": 58686
+    },
+    {
+      "name": "sofa",
+      "codepoint": 58687
+    },
+    {
+      "name": "solar-panel",
+      "codepoint": 58688
+    },
+    {
+      "name": "soup",
+      "codepoint": 58689
+    },
+    {
+      "name": "space",
+      "codepoint": 58690
+    },
+    {
+      "name": "spade",
+      "codepoint": 58691
+    },
+    {
+      "name": "sparkle",
+      "codepoint": 58692
+    },
+    {
+      "name": "sparkles",
+      "codepoint": 58693
+    },
+    {
+      "name": "speaker",
+      "codepoint": 58694
+    },
+    {
+      "name": "speech",
+      "codepoint": 58695
+    },
+    {
+      "name": "spell-check",
+      "codepoint": 58697
+    },
+    {
+      "name": "spell-check-2",
+      "codepoint": 58696
+    },
+    {
+      "name": "spline",
+      "codepoint": 58699
+    },
+    {
+      "name": "spline-pointer",
+      "codepoint": 58698
+    },
+    {
+      "name": "split",
+      "codepoint": 58700
+    },
+    {
+      "name": "spool",
+      "codepoint": 58701
+    },
+    {
+      "name": "spotlight",
+      "codepoint": 58702
+    },
+    {
+      "name": "spray-can",
+      "codepoint": 58703
+    },
+    {
+      "name": "sprout",
+      "codepoint": 58704
+    },
+    {
+      "name": "square",
+      "codepoint": 58769
+    },
+    {
+      "name": "square-activity",
+      "codepoint": 58705
+    },
+    {
+      "name": "square-arrow-down",
+      "codepoint": 58708
+    },
+    {
+      "name": "square-arrow-down-left",
+      "codepoint": 58706
+    },
+    {
+      "name": "square-arrow-down-right",
+      "codepoint": 58707
+    },
+    {
+      "name": "square-arrow-left",
+      "codepoint": 58709
+    },
+    {
+      "name": "square-arrow-out-down-left",
+      "codepoint": 58710
+    },
+    {
+      "name": "square-arrow-out-down-right",
+      "codepoint": 58711
+    },
+    {
+      "name": "square-arrow-out-up-left",
+      "codepoint": 58712
+    },
+    {
+      "name": "square-arrow-out-up-right",
+      "codepoint": 58713
+    },
+    {
+      "name": "square-arrow-right",
+      "codepoint": 58714
+    },
+    {
+      "name": "square-arrow-up",
+      "codepoint": 58717
+    },
+    {
+      "name": "square-arrow-up-left",
+      "codepoint": 58715
+    },
+    {
+      "name": "square-arrow-up-right",
+      "codepoint": 58716
+    },
+    {
+      "name": "square-asterisk",
+      "codepoint": 58718
+    },
+    {
+      "name": "square-bottom-dashed-scissors",
+      "codepoint": 58719
+    },
+    {
+      "name": "square-chart-gantt",
+      "codepoint": 58720
+    },
+    {
+      "name": "square-check",
+      "codepoint": 58722
+    },
+    {
+      "name": "square-check-big",
+      "codepoint": 58721
+    },
+    {
+      "name": "square-chevron-down",
+      "codepoint": 58723
+    },
+    {
+      "name": "square-chevron-left",
+      "codepoint": 58724
+    },
+    {
+      "name": "square-chevron-right",
+      "codepoint": 58725
+    },
+    {
+      "name": "square-chevron-up",
+      "codepoint": 58726
+    },
+    {
+      "name": "square-code",
+      "codepoint": 58727
+    },
+    {
+      "name": "square-dashed",
+      "codepoint": 58733
+    },
+    {
+      "name": "square-dashed-bottom",
+      "codepoint": 58729
+    },
+    {
+      "name": "square-dashed-bottom-code",
+      "codepoint": 58728
+    },
+    {
+      "name": "square-dashed-kanban",
+      "codepoint": 58730
+    },
+    {
+      "name": "square-dashed-mouse-pointer",
+      "codepoint": 58731
+    },
+    {
+      "name": "square-dashed-top-solid",
+      "codepoint": 58732
+    },
+    {
+      "name": "square-divide",
+      "codepoint": 58734
+    },
+    {
+      "name": "square-dot",
+      "codepoint": 58735
+    },
+    {
+      "name": "square-equal",
+      "codepoint": 58736
+    },
+    {
+      "name": "square-function",
+      "codepoint": 58737
+    },
+    {
+      "name": "square-kanban",
+      "codepoint": 58738
+    },
+    {
+      "name": "square-library",
+      "codepoint": 58739
+    },
+    {
+      "name": "square-m",
+      "codepoint": 58740
+    },
+    {
+      "name": "square-menu",
+      "codepoint": 58741
+    },
+    {
+      "name": "square-minus",
+      "codepoint": 58742
+    },
+    {
+      "name": "square-mouse-pointer",
+      "codepoint": 58743
+    },
+    {
+      "name": "square-parking",
+      "codepoint": 58745
+    },
+    {
+      "name": "square-parking-off",
+      "codepoint": 58744
+    },
+    {
+      "name": "square-pause",
+      "codepoint": 58746
+    },
+    {
+      "name": "square-pen",
+      "codepoint": 58747
+    },
+    {
+      "name": "square-percent",
+      "codepoint": 58748
+    },
+    {
+      "name": "square-pi",
+      "codepoint": 58749
+    },
+    {
+      "name": "square-pilcrow",
+      "codepoint": 58750
+    },
+    {
+      "name": "square-play",
+      "codepoint": 58751
+    },
+    {
+      "name": "square-plus",
+      "codepoint": 58752
+    },
+    {
+      "name": "square-power",
+      "codepoint": 58753
+    },
+    {
+      "name": "square-radical",
+      "codepoint": 58754
+    },
+    {
+      "name": "square-round-corner",
+      "codepoint": 58755
+    },
+    {
+      "name": "square-scissors",
+      "codepoint": 58756
+    },
+    {
+      "name": "square-sigma",
+      "codepoint": 58757
+    },
+    {
+      "name": "square-slash",
+      "codepoint": 58758
+    },
+    {
+      "name": "square-split-horizontal",
+      "codepoint": 58759
+    },
+    {
+      "name": "square-split-vertical",
+      "codepoint": 58760
+    },
+    {
+      "name": "square-square",
+      "codepoint": 58761
+    },
+    {
+      "name": "square-stack",
+      "codepoint": 58762
+    },
+    {
+      "name": "square-star",
+      "codepoint": 58763
+    },
+    {
+      "name": "square-stop",
+      "codepoint": 58764
+    },
+    {
+      "name": "square-terminal",
+      "codepoint": 58765
+    },
+    {
+      "name": "square-user",
+      "codepoint": 58767
+    },
+    {
+      "name": "square-user-round",
+      "codepoint": 58766
+    },
+    {
+      "name": "square-x",
+      "codepoint": 58768
+    },
+    {
+      "name": "squares-exclude",
+      "codepoint": 58770
+    },
+    {
+      "name": "squares-intersect",
+      "codepoint": 58771
+    },
+    {
+      "name": "squares-subtract",
+      "codepoint": 58772
+    },
+    {
+      "name": "squares-unite",
+      "codepoint": 58773
+    },
+    {
+      "name": "squircle",
+      "codepoint": 58775
+    },
+    {
+      "name": "squircle-dashed",
+      "codepoint": 58774
+    },
+    {
+      "name": "squirrel",
+      "codepoint": 58776
+    },
+    {
+      "name": "stamp",
+      "codepoint": 58777
+    },
+    {
+      "name": "star",
+      "codepoint": 58780
+    },
+    {
+      "name": "star-half",
+      "codepoint": 58778
+    },
+    {
+      "name": "star-off",
+      "codepoint": 58779
+    },
+    {
+      "name": "step-back",
+      "codepoint": 58781
+    },
+    {
+      "name": "step-forward",
+      "codepoint": 58782
+    },
+    {
+      "name": "stethoscope",
+      "codepoint": 58783
+    },
+    {
+      "name": "sticker",
+      "codepoint": 58784
+    },
+    {
+      "name": "sticky-note",
+      "codepoint": 58785
+    },
+    {
+      "name": "stone",
+      "codepoint": 58786
+    },
+    {
+      "name": "store",
+      "codepoint": 58787
+    },
+    {
+      "name": "stretch-horizontal",
+      "codepoint": 58788
+    },
+    {
+      "name": "stretch-vertical",
+      "codepoint": 58789
+    },
+    {
+      "name": "strikethrough",
+      "codepoint": 58790
+    },
+    {
+      "name": "subscript",
+      "codepoint": 58791
+    },
+    {
+      "name": "sun",
+      "codepoint": 58796
+    },
+    {
+      "name": "sun-dim",
+      "codepoint": 58792
+    },
+    {
+      "name": "sun-medium",
+      "codepoint": 58793
+    },
+    {
+      "name": "sun-moon",
+      "codepoint": 58794
+    },
+    {
+      "name": "sun-snow",
+      "codepoint": 58795
+    },
+    {
+      "name": "sunrise",
+      "codepoint": 58797
+    },
+    {
+      "name": "sunset",
+      "codepoint": 58798
+    },
+    {
+      "name": "superscript",
+      "codepoint": 58799
+    },
+    {
+      "name": "swatch-book",
+      "codepoint": 58800
+    },
+    {
+      "name": "swiss-franc",
+      "codepoint": 58801
+    },
+    {
+      "name": "switch-camera",
+      "codepoint": 58802
+    },
+    {
+      "name": "sword",
+      "codepoint": 58803
+    },
+    {
+      "name": "swords",
+      "codepoint": 58804
+    },
+    {
+      "name": "syringe",
+      "codepoint": 58805
+    },
+    {
+      "name": "table",
+      "codepoint": 58813
+    },
+    {
+      "name": "table-2",
+      "codepoint": 58806
+    },
+    {
+      "name": "table-cells-merge",
+      "codepoint": 58807
+    },
+    {
+      "name": "table-cells-split",
+      "codepoint": 58808
+    },
+    {
+      "name": "table-columns-split",
+      "codepoint": 58809
+    },
+    {
+      "name": "table-of-contents",
+      "codepoint": 58810
+    },
+    {
+      "name": "table-properties",
+      "codepoint": 58811
+    },
+    {
+      "name": "table-rows-split",
+      "codepoint": 58812
+    },
+    {
+      "name": "tablet",
+      "codepoint": 58815
+    },
+    {
+      "name": "tablet-smartphone",
+      "codepoint": 58814
+    },
+    {
+      "name": "tablets",
+      "codepoint": 58816
+    },
+    {
+      "name": "tag",
+      "codepoint": 58817
+    },
+    {
+      "name": "tags",
+      "codepoint": 58818
+    },
+    {
+      "name": "tally-1",
+      "codepoint": 58819
+    },
+    {
+      "name": "tally-2",
+      "codepoint": 58820
+    },
+    {
+      "name": "tally-3",
+      "codepoint": 58821
+    },
+    {
+      "name": "tally-4",
+      "codepoint": 58822
+    },
+    {
+      "name": "tally-5",
+      "codepoint": 58823
+    },
+    {
+      "name": "tangent",
+      "codepoint": 58824
+    },
+    {
+      "name": "target",
+      "codepoint": 58825
+    },
+    {
+      "name": "telescope",
+      "codepoint": 58826
+    },
+    {
+      "name": "tent",
+      "codepoint": 58828
+    },
+    {
+      "name": "tent-tree",
+      "codepoint": 58827
+    },
+    {
+      "name": "terminal",
+      "codepoint": 58829
+    },
+    {
+      "name": "test-tube",
+      "codepoint": 58831
+    },
+    {
+      "name": "test-tube-diagonal",
+      "codepoint": 58830
+    },
+    {
+      "name": "test-tubes",
+      "codepoint": 58832
+    },
+    {
+      "name": "text-align-center",
+      "codepoint": 58833
+    },
+    {
+      "name": "text-align-end",
+      "codepoint": 58834
+    },
+    {
+      "name": "text-align-justify",
+      "codepoint": 58835
+    },
+    {
+      "name": "text-align-start",
+      "codepoint": 58836
+    },
+    {
+      "name": "text-cursor",
+      "codepoint": 58838
+    },
+    {
+      "name": "text-cursor-input",
+      "codepoint": 58837
+    },
+    {
+      "name": "text-initial",
+      "codepoint": 58839
+    },
+    {
+      "name": "text-quote",
+      "codepoint": 58840
+    },
+    {
+      "name": "text-search",
+      "codepoint": 58841
+    },
+    {
+      "name": "text-select",
+      "codepoint": 58842
+    },
+    {
+      "name": "text-wrap",
+      "codepoint": 58843
+    },
+    {
+      "name": "theater",
+      "codepoint": 58844
+    },
+    {
+      "name": "thermometer",
+      "codepoint": 58847
+    },
+    {
+      "name": "thermometer-snowflake",
+      "codepoint": 58845
+    },
+    {
+      "name": "thermometer-sun",
+      "codepoint": 58846
+    },
+    {
+      "name": "thumbs-down",
+      "codepoint": 58848
+    },
+    {
+      "name": "thumbs-up",
+      "codepoint": 58849
+    },
+    {
+      "name": "ticket",
+      "codepoint": 58856
+    },
+    {
+      "name": "ticket-check",
+      "codepoint": 58850
+    },
+    {
+      "name": "ticket-minus",
+      "codepoint": 58851
+    },
+    {
+      "name": "ticket-percent",
+      "codepoint": 58852
+    },
+    {
+      "name": "ticket-plus",
+      "codepoint": 58853
+    },
+    {
+      "name": "ticket-slash",
+      "codepoint": 58854
+    },
+    {
+      "name": "ticket-x",
+      "codepoint": 58855
+    },
+    {
+      "name": "tickets",
+      "codepoint": 58858
+    },
+    {
+      "name": "tickets-plane",
+      "codepoint": 58857
+    },
+    {
+      "name": "timer",
+      "codepoint": 58861
+    },
+    {
+      "name": "timer-off",
+      "codepoint": 58859
+    },
+    {
+      "name": "timer-reset",
+      "codepoint": 58860
+    },
+    {
+      "name": "toggle-left",
+      "codepoint": 58862
+    },
+    {
+      "name": "toggle-right",
+      "codepoint": 58863
+    },
+    {
+      "name": "toilet",
+      "codepoint": 58864
+    },
+    {
+      "name": "tool-case",
+      "codepoint": 58865
+    },
+    {
+      "name": "tornado",
+      "codepoint": 58866
+    },
+    {
+      "name": "torus",
+      "codepoint": 58867
+    },
+    {
+      "name": "touchpad",
+      "codepoint": 58869
+    },
+    {
+      "name": "touchpad-off",
+      "codepoint": 58868
+    },
+    {
+      "name": "tower-control",
+      "codepoint": 58870
+    },
+    {
+      "name": "toy-brick",
+      "codepoint": 58871
+    },
+    {
+      "name": "tractor",
+      "codepoint": 58872
+    },
+    {
+      "name": "traffic-cone",
+      "codepoint": 58873
+    },
+    {
+      "name": "train-front",
+      "codepoint": 58875
+    },
+    {
+      "name": "train-front-tunnel",
+      "codepoint": 58874
+    },
+    {
+      "name": "train-track",
+      "codepoint": 58876
+    },
+    {
+      "name": "tram-front",
+      "codepoint": 58877
+    },
+    {
+      "name": "transgender",
+      "codepoint": 58878
+    },
+    {
+      "name": "trash",
+      "codepoint": 58880
+    },
+    {
+      "name": "trash-2",
+      "codepoint": 58879
+    },
+    {
+      "name": "tree-deciduous",
+      "codepoint": 58881
+    },
+    {
+      "name": "tree-palm",
+      "codepoint": 58882
+    },
+    {
+      "name": "tree-pine",
+      "codepoint": 58883
+    },
+    {
+      "name": "trees",
+      "codepoint": 58884
+    },
+    {
+      "name": "trello",
+      "codepoint": 58885
+    },
+    {
+      "name": "trending-down",
+      "codepoint": 58886
+    },
+    {
+      "name": "trending-up",
+      "codepoint": 58888
+    },
+    {
+      "name": "trending-up-down",
+      "codepoint": 58887
+    },
+    {
+      "name": "triangle",
+      "codepoint": 58892
+    },
+    {
+      "name": "triangle-alert",
+      "codepoint": 58889
+    },
+    {
+      "name": "triangle-dashed",
+      "codepoint": 58890
+    },
+    {
+      "name": "triangle-right",
+      "codepoint": 58891
+    },
+    {
+      "name": "trophy",
+      "codepoint": 58893
+    },
+    {
+      "name": "truck",
+      "codepoint": 58895
+    },
+    {
+      "name": "truck-electric",
+      "codepoint": 58894
+    },
+    {
+      "name": "turkish-lira",
+      "codepoint": 58896
+    },
+    {
+      "name": "turntable",
+      "codepoint": 58897
+    },
+    {
+      "name": "turtle",
+      "codepoint": 58898
+    },
+    {
+      "name": "tv",
+      "codepoint": 58901
+    },
+    {
+      "name": "tv-minimal",
+      "codepoint": 58900
+    },
+    {
+      "name": "tv-minimal-play",
+      "codepoint": 58899
+    },
+    {
+      "name": "twitch",
+      "codepoint": 58902
+    },
+    {
+      "name": "twitter",
+      "codepoint": 58903
+    },
+    {
+      "name": "type",
+      "codepoint": 58905
+    },
+    {
+      "name": "type-outline",
+      "codepoint": 58904
+    },
+    {
+      "name": "umbrella",
+      "codepoint": 58907
+    },
+    {
+      "name": "umbrella-off",
+      "codepoint": 58906
+    },
+    {
+      "name": "underline",
+      "codepoint": 58908
+    },
+    {
+      "name": "undo",
+      "codepoint": 58911
+    },
+    {
+      "name": "undo-2",
+      "codepoint": 58909
+    },
+    {
+      "name": "undo-dot",
+      "codepoint": 58910
+    },
+    {
+      "name": "unfold-horizontal",
+      "codepoint": 58912
+    },
+    {
+      "name": "unfold-vertical",
+      "codepoint": 58913
+    },
+    {
+      "name": "ungroup",
+      "codepoint": 58914
+    },
+    {
+      "name": "university",
+      "codepoint": 58915
+    },
+    {
+      "name": "unlink",
+      "codepoint": 58917
+    },
+    {
+      "name": "unlink-2",
+      "codepoint": 58916
+    },
+    {
+      "name": "unplug",
+      "codepoint": 58918
+    },
+    {
+      "name": "upload",
+      "codepoint": 58919
+    },
+    {
+      "name": "usb",
+      "codepoint": 58920
+    },
+    {
+      "name": "user",
+      "codepoint": 58938
+    },
+    {
+      "name": "user-check",
+      "codepoint": 58921
+    },
+    {
+      "name": "user-cog",
+      "codepoint": 58922
+    },
+    {
+      "name": "user-lock",
+      "codepoint": 58923
+    },
+    {
+      "name": "user-minus",
+      "codepoint": 58924
+    },
+    {
+      "name": "user-pen",
+      "codepoint": 58925
+    },
+    {
+      "name": "user-plus",
+      "codepoint": 58926
+    },
+    {
+      "name": "user-round",
+      "codepoint": 58934
+    },
+    {
+      "name": "user-round-check",
+      "codepoint": 58927
+    },
+    {
+      "name": "user-round-cog",
+      "codepoint": 58928
+    },
+    {
+      "name": "user-round-minus",
+      "codepoint": 58929
+    },
+    {
+      "name": "user-round-pen",
+      "codepoint": 58930
+    },
+    {
+      "name": "user-round-plus",
+      "codepoint": 58931
+    },
+    {
+      "name": "user-round-search",
+      "codepoint": 58932
+    },
+    {
+      "name": "user-round-x",
+      "codepoint": 58933
+    },
+    {
+      "name": "user-search",
+      "codepoint": 58935
+    },
+    {
+      "name": "user-star",
+      "codepoint": 58936
+    },
+    {
+      "name": "user-x",
+      "codepoint": 58937
+    },
+    {
+      "name": "users",
+      "codepoint": 58940
+    },
+    {
+      "name": "users-round",
+      "codepoint": 58939
+    },
+    {
+      "name": "utensils",
+      "codepoint": 58942
+    },
+    {
+      "name": "utensils-crossed",
+      "codepoint": 58941
+    },
+    {
+      "name": "utility-pole",
+      "codepoint": 58943
+    },
+    {
+      "name": "van",
+      "codepoint": 58944
+    },
+    {
+      "name": "variable",
+      "codepoint": 58945
+    },
+    {
+      "name": "vault",
+      "codepoint": 58946
+    },
+    {
+      "name": "vector-square",
+      "codepoint": 58947
+    },
+    {
+      "name": "vegan",
+      "codepoint": 58948
+    },
+    {
+      "name": "venetian-mask",
+      "codepoint": 58949
+    },
+    {
+      "name": "venus",
+      "codepoint": 58951
+    },
+    {
+      "name": "venus-and-mars",
+      "codepoint": 58950
+    },
+    {
+      "name": "vibrate",
+      "codepoint": 58953
+    },
+    {
+      "name": "vibrate-off",
+      "codepoint": 58952
+    },
+    {
+      "name": "video",
+      "codepoint": 58955
+    },
+    {
+      "name": "video-off",
+      "codepoint": 58954
+    },
+    {
+      "name": "videotape",
+      "codepoint": 58956
+    },
+    {
+      "name": "view",
+      "codepoint": 58957
+    },
+    {
+      "name": "voicemail",
+      "codepoint": 58958
+    },
+    {
+      "name": "volleyball",
+      "codepoint": 58959
+    },
+    {
+      "name": "volume",
+      "codepoint": 58964
+    },
+    {
+      "name": "volume-1",
+      "codepoint": 58960
+    },
+    {
+      "name": "volume-2",
+      "codepoint": 58961
+    },
+    {
+      "name": "volume-off",
+      "codepoint": 58962
+    },
+    {
+      "name": "volume-x",
+      "codepoint": 58963
+    },
+    {
+      "name": "vote",
+      "codepoint": 58965
+    },
+    {
+      "name": "wallet",
+      "codepoint": 58968
+    },
+    {
+      "name": "wallet-cards",
+      "codepoint": 58966
+    },
+    {
+      "name": "wallet-minimal",
+      "codepoint": 58967
+    },
+    {
+      "name": "wallpaper",
+      "codepoint": 58969
+    },
+    {
+      "name": "wand",
+      "codepoint": 58971
+    },
+    {
+      "name": "wand-sparkles",
+      "codepoint": 58970
+    },
+    {
+      "name": "warehouse",
+      "codepoint": 58972
+    },
+    {
+      "name": "washing-machine",
+      "codepoint": 58973
+    },
+    {
+      "name": "watch",
+      "codepoint": 58974
+    },
+    {
+      "name": "waves",
+      "codepoint": 58978
+    },
+    {
+      "name": "waves-arrow-down",
+      "codepoint": 58975
+    },
+    {
+      "name": "waves-arrow-up",
+      "codepoint": 58976
+    },
+    {
+      "name": "waves-ladder",
+      "codepoint": 58977
+    },
+    {
+      "name": "waypoints",
+      "codepoint": 58979
+    },
+    {
+      "name": "webcam",
+      "codepoint": 58980
+    },
+    {
+      "name": "webhook",
+      "codepoint": 58982
+    },
+    {
+      "name": "webhook-off",
+      "codepoint": 58981
+    },
+    {
+      "name": "weight",
+      "codepoint": 58984
+    },
+    {
+      "name": "weight-tilde",
+      "codepoint": 58983
+    },
+    {
+      "name": "wheat",
+      "codepoint": 58986
+    },
+    {
+      "name": "wheat-off",
+      "codepoint": 58985
+    },
+    {
+      "name": "whole-word",
+      "codepoint": 58987
+    },
+    {
+      "name": "wifi",
+      "codepoint": 58995
+    },
+    {
+      "name": "wifi-cog",
+      "codepoint": 58988
+    },
+    {
+      "name": "wifi-high",
+      "codepoint": 58989
+    },
+    {
+      "name": "wifi-low",
+      "codepoint": 58990
+    },
+    {
+      "name": "wifi-off",
+      "codepoint": 58991
+    },
+    {
+      "name": "wifi-pen",
+      "codepoint": 58992
+    },
+    {
+      "name": "wifi-sync",
+      "codepoint": 58993
+    },
+    {
+      "name": "wifi-zero",
+      "codepoint": 58994
+    },
+    {
+      "name": "wind",
+      "codepoint": 58997
+    },
+    {
+      "name": "wind-arrow-down",
+      "codepoint": 58996
+    },
+    {
+      "name": "wine",
+      "codepoint": 58999
+    },
+    {
+      "name": "wine-off",
+      "codepoint": 58998
+    },
+    {
+      "name": "workflow",
+      "codepoint": 59000
+    },
+    {
+      "name": "worm",
+      "codepoint": 59001
+    },
+    {
+      "name": "wrench",
+      "codepoint": 59002
+    },
+    {
+      "name": "x",
+      "codepoint": 59003
+    },
+    {
+      "name": "youtube",
+      "codepoint": 59004
+    },
+    {
+      "name": "zap",
+      "codepoint": 59006
+    },
+    {
+      "name": "zap-off",
+      "codepoint": 59005
+    },
+    {
+      "name": "zoom-in",
+      "codepoint": 59007
+    },
+    {
+      "name": "zoom-out",
+      "codepoint": 59008
+    }
+  ]
+}

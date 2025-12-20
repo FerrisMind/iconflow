@@ -1,0 +1,3761 @@
+{
+  "pack_id": "octicons",
+  "variants": [
+    {
+      "id": "filled",
+      "style": "Filled",
+      "size": "Regular",
+      "family": "Octicons Regular",
+      "ttf_asset_path": "assets/fonts/octicons/octicons-regular.ttf"
+    },
+    {
+      "id": "regular",
+      "style": "Regular",
+      "size": "Regular",
+      "family": "Octicons Regular",
+      "ttf_asset_path": "assets/fonts/octicons/octicons-regular.ttf"
+    },
+    {
+      "id": "tiny",
+      "style": "Regular",
+      "size": "Tiny",
+      "family": "Octicons Regular Tiny",
+      "ttf_asset_path": "assets/fonts/octicons/octicons-tiny.ttf",
+      "feature": "octicons-tiny"
+    },
+    {
+      "id": "tiny-filled",
+      "style": "Filled",
+      "size": "Tiny",
+      "family": "Octicons Regular Tiny",
+      "ttf_asset_path": "assets/fonts/octicons/octicons-tiny.ttf",
+      "feature": "octicons-tiny"
+    }
+  ],
+  "icons": [
+    {
+      "name": "accessibility",
+      "codepoint": 57344,
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "accessibility-inset",
+      "codepoint": 57345,
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "agent",
+      "codepoint": 57346,
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "ai-model",
+      "codepoint": 57347,
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "alert",
+      "codepoint": 57348,
+      "overrides": {
+        "filled": 57350,
+        "tiny-filled": 57349
+      }
+    },
+    {
+      "name": "apps",
+      "codepoint": 57351,
+      "overrides": {
+        "tiny": 57350
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "archive",
+      "codepoint": 57352,
+      "overrides": {
+        "tiny": 57351
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-both",
+      "codepoint": 57353,
+      "overrides": {
+        "tiny": 57352
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "codepoint": 57354,
+      "overrides": {
+        "tiny": 57353
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-down-left",
+      "codepoint": 57355,
+      "overrides": {
+        "tiny": 57354
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-down-right",
+      "codepoint": 57356,
+      "overrides": {
+        "tiny": 57355
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "codepoint": 57357,
+      "overrides": {
+        "tiny": 57356
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "codepoint": 57358,
+      "overrides": {
+        "tiny": 57357
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-switch",
+      "codepoint": 57359,
+      "overrides": {
+        "tiny": 57358
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "codepoint": 57360,
+      "overrides": {
+        "tiny": 57359
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-up-left",
+      "codepoint": 57361,
+      "overrides": {
+        "tiny": 57360
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "arrow-up-right",
+      "codepoint": 57362,
+      "overrides": {
+        "tiny": 57361
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "beaker",
+      "codepoint": 57363,
+      "overrides": {
+        "tiny": 57362
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "bell",
+      "codepoint": 57364,
+      "overrides": {
+        "filled": 57365,
+        "tiny": 57363
+      }
+    },
+    {
+      "name": "bell-slash",
+      "codepoint": 57366,
+      "overrides": {
+        "tiny": 57365
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "blocked",
+      "codepoint": 57367,
+      "overrides": {
+        "tiny": 57366
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "bold",
+      "codepoint": 57368,
+      "overrides": {
+        "tiny": 57367
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "book",
+      "codepoint": 57369,
+      "overrides": {
+        "tiny": 57368
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "bookmark",
+      "codepoint": 57370,
+      "overrides": {
+        "filled": 57371,
+        "tiny": 57369
+      },
+      "availability": [
+        "regular",
+        "filled",
+        "tiny"
+      ]
+    },
+    {
+      "name": "bookmark-filled",
+      "overrides": {
+        "tiny": 57370
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "bookmark-slash",
+      "codepoint": 57372,
+      "overrides": {
+        "filled": 57373,
+        "tiny": 57371
+      }
+    },
+    {
+      "name": "boolean-off",
+      "codepoint": 57374,
+      "overrides": {
+        "tiny": 57373
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "boolean-on",
+      "codepoint": 57375,
+      "overrides": {
+        "tiny": 57374
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "briefcase",
+      "codepoint": 57376,
+      "overrides": {
+        "tiny": 57375
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "broadcast",
+      "codepoint": 57377,
+      "overrides": {
+        "tiny": 57376
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "browser",
+      "codepoint": 57378,
+      "overrides": {
+        "tiny": 57377
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "bug",
+      "codepoint": 57379,
+      "overrides": {
+        "tiny": 57378
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "cache",
+      "codepoint": 57380,
+      "overrides": {
+        "tiny": 57379
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "calendar",
+      "codepoint": 57381,
+      "overrides": {
+        "tiny": 57380
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "check",
+      "codepoint": 57382,
+      "overrides": {
+        "tiny": 57381
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "check-circle",
+      "codepoint": 57383,
+      "overrides": {
+        "filled": 57385,
+        "tiny": 57382
+      }
+    },
+    {
+      "name": "checkbox",
+      "codepoint": 57386,
+      "overrides": {
+        "filled": 57387,
+        "tiny": 57384,
+        "tiny-filled": 57385
+      }
+    },
+    {
+      "name": "checklist",
+      "codepoint": 57388,
+      "overrides": {
+        "tiny": 57386
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "codepoint": 57390,
+      "overrides": {
+        "tiny": 57387
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "codepoint": 57392,
+      "overrides": {
+        "tiny": 57388
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "codepoint": 57394,
+      "overrides": {
+        "tiny": 57389
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "chevron-up",
+      "codepoint": 57396,
+      "overrides": {
+        "tiny": 57390
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "circle",
+      "codepoint": 57397,
+      "overrides": {
+        "tiny": 57391
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "circle-slash",
+      "codepoint": 57398,
+      "overrides": {
+        "tiny": 57392
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "clock",
+      "codepoint": 57399,
+      "overrides": {
+        "filled": 57400,
+        "tiny": 57393,
+        "tiny-filled": 57394
+      }
+    },
+    {
+      "name": "cloud",
+      "codepoint": 57401,
+      "overrides": {
+        "tiny": 57395
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "cloud-offline",
+      "codepoint": 57402,
+      "overrides": {
+        "tiny": 57396
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "code",
+      "codepoint": 57403,
+      "overrides": {
+        "tiny": 57397
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "code-of-conduct",
+      "codepoint": 57404,
+      "overrides": {
+        "tiny": 57398
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "code-review",
+      "codepoint": 57405,
+      "overrides": {
+        "tiny": 57399
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "code-square",
+      "codepoint": 57406,
+      "overrides": {
+        "tiny": 57400
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "codescan",
+      "codepoint": 57407,
+      "overrides": {
+        "tiny": 57401
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "codescan-checkmark",
+      "codepoint": 57408,
+      "overrides": {
+        "tiny": 57402
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "codespaces",
+      "codepoint": 57409,
+      "overrides": {
+        "tiny": 57403
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "columns",
+      "codepoint": 57410,
+      "overrides": {
+        "tiny": 57404
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "command-palette",
+      "codepoint": 57411,
+      "overrides": {
+        "tiny": 57405
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "comment",
+      "codepoint": 57412,
+      "overrides": {
+        "tiny": 57406
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "comment-ai",
+      "codepoint": 57413,
+      "overrides": {
+        "tiny": 57407
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "comment-discussion",
+      "codepoint": 57414,
+      "overrides": {
+        "tiny": 57408
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "compose",
+      "codepoint": 57415,
+      "overrides": {
+        "tiny": 57409
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "container",
+      "codepoint": 57416,
+      "overrides": {
+        "tiny": 57410
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "copilot",
+      "codepoint": 57417,
+      "overrides": {
+        "tiny": 57411
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "copilot-error",
+      "overrides": {
+        "tiny": 57412
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "copilot-warning",
+      "overrides": {
+        "tiny": 57413
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "copy",
+      "codepoint": 57420,
+      "overrides": {
+        "tiny": 57414
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "cpu",
+      "codepoint": 57421,
+      "overrides": {
+        "tiny": 57415
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "credit-card",
+      "codepoint": 57422,
+      "overrides": {
+        "tiny": 57416
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "cross-reference",
+      "codepoint": 57423,
+      "overrides": {
+        "tiny": 57417
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "crosshairs",
+      "codepoint": 57424,
+      "overrides": {
+        "tiny": 57418
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "dash",
+      "codepoint": 57425,
+      "overrides": {
+        "tiny": 57419
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "database",
+      "codepoint": 57426,
+      "overrides": {
+        "tiny": 57420
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "dependabot",
+      "codepoint": 57427,
+      "overrides": {
+        "tiny": 57421
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "desktop-download",
+      "codepoint": 57428,
+      "overrides": {
+        "tiny": 57422
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "device-camera",
+      "codepoint": 57429,
+      "overrides": {
+        "tiny": 57423
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "device-camera-video",
+      "codepoint": 57430,
+      "overrides": {
+        "tiny": 57424
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "device-desktop",
+      "codepoint": 57431,
+      "overrides": {
+        "tiny": 57425
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "device-mobile",
+      "codepoint": 57432,
+      "overrides": {
+        "tiny": 57426
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "devices",
+      "codepoint": 57433,
+      "overrides": {
+        "tiny": 57427
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "diamond",
+      "codepoint": 57434,
+      "overrides": {
+        "tiny": 57428
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "dice",
+      "codepoint": 57435,
+      "overrides": {
+        "tiny": 57429
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "diff",
+      "codepoint": 57436,
+      "overrides": {
+        "tiny": 57430
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "diff-added",
+      "codepoint": 57437,
+      "overrides": {
+        "tiny": 57431
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "diff-ignored",
+      "codepoint": 57438,
+      "overrides": {
+        "tiny": 57432
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "diff-modified",
+      "codepoint": 57439,
+      "overrides": {
+        "tiny": 57433
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "diff-removed",
+      "codepoint": 57440,
+      "overrides": {
+        "tiny": 57434
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "diff-renamed",
+      "codepoint": 57441,
+      "overrides": {
+        "tiny": 57435
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "discussion-closed",
+      "codepoint": 57442,
+      "overrides": {
+        "tiny": 57436
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "discussion-duplicate",
+      "codepoint": 57443,
+      "overrides": {
+        "tiny": 57437
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "discussion-outdated",
+      "codepoint": 57444,
+      "overrides": {
+        "tiny": 57438
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "dot",
+      "codepoint": 57445,
+      "overrides": {
+        "filled": 57446,
+        "tiny": 57439,
+        "tiny-filled": 57440
+      }
+    },
+    {
+      "name": "download",
+      "codepoint": 57447,
+      "overrides": {
+        "tiny": 57441
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "duplicate",
+      "codepoint": 57448,
+      "overrides": {
+        "tiny": 57442
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "ellipsis",
+      "codepoint": 57449,
+      "overrides": {
+        "tiny": 57443
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "exclamation",
+      "codepoint": 57450,
+      "overrides": {
+        "tiny": 57444
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "eye",
+      "codepoint": 57451,
+      "overrides": {
+        "tiny": 57445
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "eye-closed",
+      "codepoint": 57452,
+      "overrides": {
+        "tiny": 57446
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-discussion",
+      "overrides": {
+        "tiny": 57447
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-forked",
+      "overrides": {
+        "tiny": 57448
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-heart",
+      "overrides": {
+        "tiny": 57449
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-issue-closed",
+      "overrides": {
+        "tiny": 57450
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-issue-draft",
+      "overrides": {
+        "tiny": 57451
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-issue-open",
+      "overrides": {
+        "tiny": 57452
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-issue-reopen",
+      "overrides": {
+        "tiny": 57453
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-merged",
+      "overrides": {
+        "tiny": 57454
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-person",
+      "overrides": {
+        "tiny": 57455
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-plus",
+      "overrides": {
+        "tiny": 57456
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-public",
+      "overrides": {
+        "tiny": 57457
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-pull-request-closed",
+      "overrides": {
+        "tiny": 57458
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-pull-request-draft",
+      "overrides": {
+        "tiny": 57459
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-pull-request-open",
+      "overrides": {
+        "tiny": 57460
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-repo",
+      "overrides": {
+        "tiny": 57461
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-rocket",
+      "overrides": {
+        "tiny": 57462
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-star",
+      "overrides": {
+        "tiny": 57463
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-tag",
+      "overrides": {
+        "tiny": 57464
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "feed-trophy",
+      "overrides": {
+        "tiny": 57465
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "file",
+      "codepoint": 57453,
+      "overrides": {
+        "tiny": 57466
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-added",
+      "codepoint": 57454,
+      "overrides": {
+        "tiny": 57467
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-badge",
+      "codepoint": 57455,
+      "overrides": {
+        "tiny": 57468
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-binary",
+      "codepoint": 57456,
+      "overrides": {
+        "tiny": 57469
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-check",
+      "codepoint": 57457,
+      "overrides": {
+        "tiny": 57470
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-code",
+      "codepoint": 57458,
+      "overrides": {
+        "tiny": 57471
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-diff",
+      "codepoint": 57459,
+      "overrides": {
+        "tiny": 57472
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-directory",
+      "codepoint": 57460,
+      "overrides": {
+        "filled": 57461,
+        "tiny": 57473,
+        "tiny-filled": 57474
+      }
+    },
+    {
+      "name": "file-directory-open",
+      "overrides": {
+        "filled": 57462,
+        "tiny-filled": 57475
+      },
+      "availability": [
+        "filled",
+        "tiny-filled"
+      ]
+    },
+    {
+      "name": "file-directory-symlink",
+      "codepoint": 57463,
+      "overrides": {
+        "tiny": 57476
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-media",
+      "codepoint": 57464,
+      "overrides": {
+        "tiny": 57477
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-moved",
+      "codepoint": 57465,
+      "overrides": {
+        "tiny": 57478
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-removed",
+      "codepoint": 57466,
+      "overrides": {
+        "tiny": 57479
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-submodule",
+      "codepoint": 57467,
+      "overrides": {
+        "tiny": 57480
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-symlink-file",
+      "codepoint": 57468,
+      "overrides": {
+        "tiny": 57481
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "file-zip",
+      "codepoint": 57469,
+      "overrides": {
+        "tiny": 57482
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "filter",
+      "codepoint": 57470,
+      "overrides": {
+        "tiny": 57483
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "filter-remove",
+      "codepoint": 57471,
+      "overrides": {
+        "tiny": 57484
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "fiscal-host",
+      "codepoint": 57472,
+      "overrides": {
+        "tiny": 57485
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "flame",
+      "codepoint": 57473,
+      "overrides": {
+        "tiny": 57486
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "flowchart",
+      "codepoint": 57474,
+      "overrides": {
+        "tiny": 57487
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "focus-center",
+      "codepoint": 57475,
+      "overrides": {
+        "tiny": 57488
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "fold",
+      "codepoint": 57476,
+      "overrides": {
+        "tiny": 57489
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "fold-down",
+      "codepoint": 57477,
+      "overrides": {
+        "tiny": 57490
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "fold-up",
+      "codepoint": 57478,
+      "overrides": {
+        "tiny": 57491
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "gear",
+      "codepoint": 57479,
+      "overrides": {
+        "tiny": 57492
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "gift",
+      "codepoint": 57480,
+      "overrides": {
+        "tiny": 57493
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-branch",
+      "codepoint": 57481,
+      "overrides": {
+        "tiny": 57494
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-branch-check",
+      "codepoint": 57482,
+      "overrides": {
+        "tiny": 57495
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-commit",
+      "codepoint": 57483,
+      "overrides": {
+        "tiny": 57496
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-compare",
+      "codepoint": 57484,
+      "overrides": {
+        "tiny": 57497
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-merge",
+      "codepoint": 57485,
+      "overrides": {
+        "tiny": 57498
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-merge-queue",
+      "codepoint": 57486,
+      "overrides": {
+        "tiny": 57499
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-pull-request",
+      "codepoint": 57487,
+      "overrides": {
+        "tiny": 57500
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-pull-request-closed",
+      "codepoint": 57488,
+      "overrides": {
+        "tiny": 57501
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "git-pull-request-draft",
+      "codepoint": 57489,
+      "overrides": {
+        "tiny": 57502
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "globe",
+      "codepoint": 57490,
+      "overrides": {
+        "tiny": 57503
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "goal",
+      "codepoint": 57491,
+      "overrides": {
+        "tiny": 57504
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "grabber",
+      "codepoint": 57492,
+      "overrides": {
+        "tiny": 57505
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "graph",
+      "codepoint": 57493,
+      "overrides": {
+        "tiny": 57506
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "graph-bar-horizontal",
+      "codepoint": 57494,
+      "overrides": {
+        "tiny": 57507
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "graph-bar-vertical",
+      "codepoint": 57495,
+      "overrides": {
+        "tiny": 57508
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "hash",
+      "codepoint": 57496,
+      "overrides": {
+        "tiny": 57509
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "heading",
+      "codepoint": 57497,
+      "overrides": {
+        "tiny": 57510
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "heart",
+      "codepoint": 57498,
+      "overrides": {
+        "filled": 57499,
+        "tiny": 57511,
+        "tiny-filled": 57512
+      }
+    },
+    {
+      "name": "history",
+      "codepoint": 57500,
+      "overrides": {
+        "tiny": 57513
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "home",
+      "codepoint": 57501,
+      "overrides": {
+        "filled": 57502,
+        "tiny": 57514,
+        "tiny-filled": 57515
+      }
+    },
+    {
+      "name": "horizontal-rule",
+      "codepoint": 57503,
+      "overrides": {
+        "tiny": 57516
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "hourglass",
+      "codepoint": 57504,
+      "overrides": {
+        "tiny": 57517
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "hubot",
+      "codepoint": 57505,
+      "overrides": {
+        "tiny": 57518
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "id-badge",
+      "codepoint": 57506,
+      "overrides": {
+        "tiny": 57519
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "image",
+      "codepoint": 57507,
+      "overrides": {
+        "tiny": 57520
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "inbox",
+      "codepoint": 57508,
+      "overrides": {
+        "filled": 57509,
+        "tiny": 57521,
+        "tiny-filled": 57522
+      }
+    },
+    {
+      "name": "infinity",
+      "codepoint": 57510,
+      "overrides": {
+        "tiny": 57523
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "info",
+      "codepoint": 57511,
+      "overrides": {
+        "tiny": 57524
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "issue-closed",
+      "codepoint": 57512,
+      "overrides": {
+        "tiny": 57525
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "issue-draft",
+      "codepoint": 57513,
+      "overrides": {
+        "tiny": 57526
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "issue-opened",
+      "codepoint": 57514,
+      "overrides": {
+        "tiny": 57527
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "issue-reopened",
+      "codepoint": 57515,
+      "overrides": {
+        "tiny": 57528
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "issue-tracked-by",
+      "codepoint": 57516,
+      "overrides": {
+        "tiny": 57529
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "issue-tracks",
+      "codepoint": 57517,
+      "overrides": {
+        "tiny": 57530
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "italic",
+      "codepoint": 57518,
+      "overrides": {
+        "tiny": 57531
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "iterations",
+      "codepoint": 57519,
+      "overrides": {
+        "tiny": 57532
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "kebab-horizontal",
+      "codepoint": 57520,
+      "overrides": {
+        "tiny": 57533
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "key",
+      "codepoint": 57521,
+      "overrides": {
+        "tiny": 57534
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "key-asterisk",
+      "codepoint": 57522,
+      "overrides": {
+        "tiny": 57535
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "law",
+      "codepoint": 57523,
+      "overrides": {
+        "tiny": 57536
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "light-bulb",
+      "codepoint": 57524,
+      "overrides": {
+        "tiny": 57537
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "link",
+      "codepoint": 57525,
+      "overrides": {
+        "tiny": 57538
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "link-external",
+      "codepoint": 57526,
+      "overrides": {
+        "tiny": 57539
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "list-ordered",
+      "codepoint": 57527,
+      "overrides": {
+        "tiny": 57540
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "list-unordered",
+      "codepoint": 57528,
+      "overrides": {
+        "tiny": 57541
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "location",
+      "codepoint": 57529,
+      "overrides": {
+        "tiny": 57542
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "lock",
+      "codepoint": 57530,
+      "overrides": {
+        "tiny": 57543
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "log",
+      "codepoint": 57531,
+      "overrides": {
+        "tiny": 57544
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "logo-gist",
+      "codepoint": 57532,
+      "overrides": {
+        "tiny": 57545
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "logo-github",
+      "codepoint": 57533,
+      "overrides": {
+        "tiny": 57546
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "loop",
+      "codepoint": 57534,
+      "overrides": {
+        "tiny": 57547
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "mail",
+      "codepoint": 57535,
+      "overrides": {
+        "tiny": 57548
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "mark-github",
+      "codepoint": 57536,
+      "overrides": {
+        "tiny": 57549
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "markdown",
+      "codepoint": 57537,
+      "overrides": {
+        "tiny": 57550
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "maximize",
+      "codepoint": 57538,
+      "overrides": {
+        "tiny": 57551
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "mcp",
+      "codepoint": 57539,
+      "overrides": {
+        "tiny": 57552
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "megaphone",
+      "codepoint": 57540,
+      "overrides": {
+        "tiny": 57553
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "mention",
+      "codepoint": 57541,
+      "overrides": {
+        "tiny": 57554
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "meter",
+      "codepoint": 57542,
+      "overrides": {
+        "tiny": 57555
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "milestone",
+      "codepoint": 57543,
+      "overrides": {
+        "tiny": 57556
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "minimize",
+      "codepoint": 57544,
+      "overrides": {
+        "tiny": 57557
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "mirror",
+      "codepoint": 57545,
+      "overrides": {
+        "tiny": 57558
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "moon",
+      "codepoint": 57546,
+      "overrides": {
+        "tiny": 57559
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "mortar-board",
+      "codepoint": 57547,
+      "overrides": {
+        "tiny": 57560
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "move-to-bottom",
+      "codepoint": 57548,
+      "overrides": {
+        "tiny": 57561
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "move-to-end",
+      "codepoint": 57549,
+      "overrides": {
+        "tiny": 57562
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "move-to-start",
+      "codepoint": 57550,
+      "overrides": {
+        "tiny": 57563
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "move-to-top",
+      "codepoint": 57551,
+      "overrides": {
+        "tiny": 57564
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "multi-select",
+      "codepoint": 57552,
+      "overrides": {
+        "tiny": 57565
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "mute",
+      "codepoint": 57553,
+      "overrides": {
+        "tiny": 57566
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "no-entry",
+      "codepoint": 57554,
+      "overrides": {
+        "tiny": 57567
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "node",
+      "codepoint": 57556,
+      "overrides": {
+        "tiny": 57568
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "north-star",
+      "codepoint": 57557,
+      "overrides": {
+        "tiny": 57569
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "note",
+      "codepoint": 57558,
+      "overrides": {
+        "tiny": 57570
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "number",
+      "codepoint": 57559,
+      "overrides": {
+        "tiny": 57571
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "organization",
+      "codepoint": 57560,
+      "overrides": {
+        "tiny": 57572
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "package",
+      "codepoint": 57561,
+      "overrides": {
+        "tiny": 57573
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "package-dependencies",
+      "codepoint": 57562,
+      "overrides": {
+        "tiny": 57574
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "package-dependents",
+      "codepoint": 57563,
+      "overrides": {
+        "tiny": 57575
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "paintbrush",
+      "codepoint": 57564,
+      "overrides": {
+        "tiny": 57576
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "paper-airplane",
+      "codepoint": 57565,
+      "overrides": {
+        "tiny": 57577
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "paperclip",
+      "codepoint": 57566,
+      "overrides": {
+        "tiny": 57578
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "passkey",
+      "overrides": {
+        "filled": 57567,
+        "tiny-filled": 57579
+      },
+      "availability": [
+        "filled",
+        "tiny-filled"
+      ]
+    },
+    {
+      "name": "paste",
+      "codepoint": 57568,
+      "overrides": {
+        "tiny": 57580
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "pause",
+      "codepoint": 57569,
+      "overrides": {
+        "tiny": 57581
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "pencil",
+      "codepoint": 57570,
+      "overrides": {
+        "tiny": 57582
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "pencil-ai",
+      "codepoint": 57571,
+      "overrides": {
+        "tiny": 57583
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "people",
+      "codepoint": 57572,
+      "overrides": {
+        "tiny": 57584
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "person",
+      "codepoint": 57573,
+      "overrides": {
+        "filled": 57575,
+        "tiny": 57585,
+        "tiny-filled": 57587
+      }
+    },
+    {
+      "name": "person-add",
+      "codepoint": 57574,
+      "overrides": {
+        "tiny": 57586
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "pin",
+      "codepoint": 57576,
+      "overrides": {
+        "tiny": 57588
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "pin-slash",
+      "codepoint": 57577,
+      "overrides": {
+        "tiny": 57589
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "pivot-column",
+      "codepoint": 57578,
+      "overrides": {
+        "tiny": 57590
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "play",
+      "codepoint": 57579,
+      "overrides": {
+        "tiny": 57591
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "plug",
+      "codepoint": 57580,
+      "overrides": {
+        "tiny": 57592
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "plus",
+      "codepoint": 57581,
+      "overrides": {
+        "tiny": 57593
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "plus-circle",
+      "codepoint": 57582,
+      "overrides": {
+        "tiny": 57594
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "project",
+      "codepoint": 57583,
+      "overrides": {
+        "tiny": 57595
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "project-roadmap",
+      "codepoint": 57584,
+      "overrides": {
+        "tiny": 57596
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "project-symlink",
+      "codepoint": 57585,
+      "overrides": {
+        "tiny": 57597
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "project-template",
+      "codepoint": 57586,
+      "overrides": {
+        "tiny": 57598
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "pulse",
+      "codepoint": 57587,
+      "overrides": {
+        "tiny": 57599
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "question",
+      "codepoint": 57588,
+      "overrides": {
+        "tiny": 57600
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "quote",
+      "codepoint": 57589,
+      "overrides": {
+        "tiny": 57601
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "read",
+      "codepoint": 57590,
+      "overrides": {
+        "tiny": 57602
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "redo",
+      "codepoint": 57591,
+      "overrides": {
+        "tiny": 57603
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "rel-file-path",
+      "codepoint": 57592,
+      "overrides": {
+        "tiny": 57604
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "reply",
+      "codepoint": 57593,
+      "overrides": {
+        "tiny": 57605
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "repo",
+      "codepoint": 57594,
+      "overrides": {
+        "tiny": 57606
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "repo-clone",
+      "codepoint": 57595,
+      "overrides": {
+        "tiny": 57607
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "repo-delete",
+      "codepoint": 57596,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "repo-deleted",
+      "overrides": {
+        "tiny": 57608
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "repo-forked",
+      "codepoint": 57597,
+      "overrides": {
+        "tiny": 57609
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "repo-locked",
+      "codepoint": 57598,
+      "overrides": {
+        "tiny": 57610
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "repo-pull",
+      "codepoint": 57599,
+      "overrides": {
+        "tiny": 57611
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "repo-push",
+      "codepoint": 57600,
+      "overrides": {
+        "tiny": 57612
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "repo-template",
+      "codepoint": 57601,
+      "overrides": {
+        "tiny": 57613
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "report",
+      "codepoint": 57602,
+      "overrides": {
+        "tiny": 57614
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "rocket",
+      "codepoint": 57603,
+      "overrides": {
+        "tiny": 57615
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "rows",
+      "codepoint": 57604,
+      "overrides": {
+        "tiny": 57616
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "rss",
+      "codepoint": 57605,
+      "overrides": {
+        "tiny": 57617
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "ruby",
+      "codepoint": 57606,
+      "overrides": {
+        "tiny": 57618
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "screen-full",
+      "codepoint": 57607,
+      "overrides": {
+        "tiny": 57619
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "screen-normal",
+      "codepoint": 57608,
+      "overrides": {
+        "tiny": 57620
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "search",
+      "codepoint": 57609,
+      "overrides": {
+        "tiny": 57621
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "server",
+      "codepoint": 57610,
+      "overrides": {
+        "tiny": 57622
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "share",
+      "codepoint": 57611,
+      "overrides": {
+        "tiny": 57623
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "share-android",
+      "codepoint": 57612,
+      "overrides": {
+        "tiny": 57624
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "shield",
+      "codepoint": 57613,
+      "overrides": {
+        "tiny": 57625
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "shield-check",
+      "codepoint": 57614,
+      "overrides": {
+        "tiny": 57626
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "shield-lock",
+      "codepoint": 57615,
+      "overrides": {
+        "tiny": 57627
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "shield-slash",
+      "codepoint": 57616,
+      "overrides": {
+        "tiny": 57628
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "shield-x",
+      "codepoint": 57617,
+      "overrides": {
+        "tiny": 57629
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sidebar-collapse",
+      "codepoint": 57618,
+      "overrides": {
+        "tiny": 57630
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sidebar-expand",
+      "codepoint": 57619,
+      "overrides": {
+        "tiny": 57631
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sign-in",
+      "codepoint": 57620,
+      "overrides": {
+        "tiny": 57632
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sign-out",
+      "codepoint": 57621,
+      "overrides": {
+        "tiny": 57633
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "single-select",
+      "codepoint": 57622,
+      "overrides": {
+        "tiny": 57634
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "skip",
+      "codepoint": 57623,
+      "overrides": {
+        "filled": 57624,
+        "tiny": 57635,
+        "tiny-filled": 57636
+      }
+    },
+    {
+      "name": "sliders",
+      "codepoint": 57625,
+      "overrides": {
+        "tiny": 57637
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "smiley",
+      "codepoint": 57626,
+      "overrides": {
+        "tiny": 57638
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "smiley-frown",
+      "codepoint": 57627,
+      "overrides": {
+        "tiny": 57639
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "smiley-frustrated",
+      "codepoint": 57628,
+      "overrides": {
+        "tiny": 57640
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "smiley-grin",
+      "codepoint": 57629,
+      "overrides": {
+        "tiny": 57641
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "smiley-neutral",
+      "codepoint": 57630,
+      "overrides": {
+        "tiny": 57642
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sort-asc",
+      "codepoint": 57631,
+      "overrides": {
+        "tiny": 57643
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sort-desc",
+      "codepoint": 57632,
+      "overrides": {
+        "tiny": 57644
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "space",
+      "codepoint": 57633,
+      "overrides": {
+        "tiny": 57645
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "spacing-large",
+      "codepoint": 57634,
+      "overrides": {
+        "tiny": 57646
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "spacing-medium",
+      "codepoint": 57635,
+      "overrides": {
+        "tiny": 57647
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "spacing-small",
+      "codepoint": 57636,
+      "overrides": {
+        "tiny": 57648
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sparkle",
+      "codepoint": 57637,
+      "overrides": {
+        "filled": 57638,
+        "tiny": 57649,
+        "tiny-filled": 57650
+      }
+    },
+    {
+      "name": "sparkles",
+      "overrides": {
+        "filled": 57639,
+        "tiny-filled": 57651
+      },
+      "availability": [
+        "filled",
+        "tiny-filled"
+      ]
+    },
+    {
+      "name": "split-view",
+      "codepoint": 57640,
+      "overrides": {
+        "tiny": 57652
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sponsor-tiers",
+      "codepoint": 57641,
+      "overrides": {
+        "tiny": 57653
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "square",
+      "codepoint": 57642,
+      "overrides": {
+        "filled": 57644,
+        "tiny": 57654,
+        "tiny-filled": 57656
+      }
+    },
+    {
+      "name": "square-circle",
+      "codepoint": 57643,
+      "overrides": {
+        "tiny": 57655
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "squirrel",
+      "codepoint": 57645,
+      "overrides": {
+        "tiny": 57657
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "stack",
+      "codepoint": 57646,
+      "overrides": {
+        "tiny": 57658
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "star",
+      "codepoint": 57647,
+      "overrides": {
+        "filled": 57648,
+        "tiny": 57659,
+        "tiny-filled": 57660
+      }
+    },
+    {
+      "name": "stop",
+      "codepoint": 57649,
+      "overrides": {
+        "tiny": 57661
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "stopwatch",
+      "codepoint": 57650,
+      "overrides": {
+        "tiny": 57662
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "strikethrough",
+      "codepoint": 57651,
+      "overrides": {
+        "tiny": 57663
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sun",
+      "codepoint": 57652,
+      "overrides": {
+        "tiny": 57664
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "sync",
+      "codepoint": 57653,
+      "overrides": {
+        "tiny": 57665
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "tab",
+      "codepoint": 57654,
+      "overrides": {
+        "tiny": 57666
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "tab-external",
+      "codepoint": 57655,
+      "overrides": {
+        "tiny": 57667
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "table",
+      "codepoint": 57656,
+      "overrides": {
+        "tiny": 57668
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "tag",
+      "codepoint": 57657,
+      "overrides": {
+        "tiny": 57669
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "tasklist",
+      "codepoint": 57658,
+      "overrides": {
+        "tiny": 57670
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "telescope",
+      "codepoint": 57659,
+      "overrides": {
+        "filled": 57660,
+        "tiny": 57671,
+        "tiny-filled": 57672
+      }
+    },
+    {
+      "name": "terminal",
+      "codepoint": 57661,
+      "overrides": {
+        "tiny": 57673
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "three-bars",
+      "codepoint": 57662,
+      "overrides": {
+        "tiny": 57674
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "thumbsdown",
+      "codepoint": 57663,
+      "overrides": {
+        "tiny": 57675
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "thumbsup",
+      "codepoint": 57664,
+      "overrides": {
+        "tiny": 57676
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "tools",
+      "codepoint": 57665,
+      "overrides": {
+        "tiny": 57677
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "tracked-by-closed-completed",
+      "codepoint": 57666,
+      "overrides": {
+        "tiny": 57678
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "tracked-by-closed-not-planned",
+      "codepoint": 57667,
+      "overrides": {
+        "tiny": 57679
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "trash",
+      "codepoint": 57668,
+      "overrides": {
+        "tiny": 57680
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "triangle-down",
+      "codepoint": 57669,
+      "overrides": {
+        "tiny": 57681
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "triangle-left",
+      "codepoint": 57670,
+      "overrides": {
+        "tiny": 57682
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "triangle-right",
+      "codepoint": 57671,
+      "overrides": {
+        "tiny": 57683
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "triangle-up",
+      "codepoint": 57672,
+      "overrides": {
+        "tiny": 57684
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "trophy",
+      "codepoint": 57673,
+      "overrides": {
+        "tiny": 57685
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "typography",
+      "codepoint": 57674,
+      "overrides": {
+        "tiny": 57686
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "undo",
+      "codepoint": 57675,
+      "overrides": {
+        "tiny": 57687
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "unfold",
+      "codepoint": 57676,
+      "overrides": {
+        "tiny": 57688
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "unlink",
+      "codepoint": 57677,
+      "overrides": {
+        "tiny": 57689
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "unlock",
+      "codepoint": 57678,
+      "overrides": {
+        "tiny": 57690
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "unmute",
+      "codepoint": 57679,
+      "overrides": {
+        "tiny": 57691
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "unread",
+      "codepoint": 57680,
+      "overrides": {
+        "tiny": 57692
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "unverified",
+      "codepoint": 57681,
+      "overrides": {
+        "tiny": 57693
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "unwrap",
+      "codepoint": 57682,
+      "overrides": {
+        "tiny": 57694
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "upload",
+      "codepoint": 57683,
+      "overrides": {
+        "tiny": 57695
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "verified",
+      "codepoint": 57684,
+      "overrides": {
+        "tiny": 57696
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "versions",
+      "codepoint": 57685,
+      "overrides": {
+        "tiny": 57697
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "video",
+      "codepoint": 57686,
+      "overrides": {
+        "tiny": 57698
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "vscode",
+      "overrides": {
+        "tiny": 57699
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "webhook",
+      "overrides": {
+        "tiny": 57700
+      },
+      "availability": [
+        "tiny"
+      ]
+    },
+    {
+      "name": "workflow",
+      "codepoint": 57689,
+      "overrides": {
+        "tiny": 57701
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "wrap",
+      "codepoint": 57690,
+      "overrides": {
+        "tiny": 57702
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "x",
+      "codepoint": 57692,
+      "overrides": {
+        "tiny": 57703
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "x-circle",
+      "codepoint": 57693,
+      "overrides": {
+        "filled": 57695,
+        "tiny": 57704,
+        "tiny-filled": 57705
+      }
+    },
+    {
+      "name": "zap",
+      "codepoint": 57696,
+      "overrides": {
+        "tiny": 57706
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "zoom-in",
+      "codepoint": 57697,
+      "overrides": {
+        "tiny": 57707
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    },
+    {
+      "name": "zoom-out",
+      "codepoint": 57698,
+      "overrides": {
+        "tiny": 57708
+      },
+      "availability": [
+        "regular",
+        "tiny"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1162 @@
+{
+  "pack_id": "feather",
+  "variants": [
+    {
+      "id": "regular",
+      "style": "Regular",
+      "size": "Regular",
+      "family": "Feather Regular",
+      "ttf_asset_path": "assets/fonts/feather/feather-regular.ttf"
+    }
+  ],
+  "icons": [
+    {
+      "name": "activity",
+      "codepoint": 57344
+    },
+    {
+      "name": "airplay",
+      "codepoint": 57345
+    },
+    {
+      "name": "alert-circle",
+      "codepoint": 57346
+    },
+    {
+      "name": "alert-octagon",
+      "codepoint": 57347
+    },
+    {
+      "name": "alert-triangle",
+      "codepoint": 57348
+    },
+    {
+      "name": "align-center",
+      "codepoint": 57349
+    },
+    {
+      "name": "align-justify",
+      "codepoint": 57350
+    },
+    {
+      "name": "align-left",
+      "codepoint": 57351
+    },
+    {
+      "name": "align-right",
+      "codepoint": 57352
+    },
+    {
+      "name": "anchor",
+      "codepoint": 57353
+    },
+    {
+      "name": "aperture",
+      "codepoint": 57354
+    },
+    {
+      "name": "archive",
+      "codepoint": 57355
+    },
+    {
+      "name": "arrow-down",
+      "codepoint": 57359
+    },
+    {
+      "name": "arrow-down-circle",
+      "codepoint": 57356
+    },
+    {
+      "name": "arrow-down-left",
+      "codepoint": 57357
+    },
+    {
+      "name": "arrow-down-right",
+      "codepoint": 57358
+    },
+    {
+      "name": "arrow-left",
+      "codepoint": 57361
+    },
+    {
+      "name": "arrow-left-circle",
+      "codepoint": 57360
+    },
+    {
+      "name": "arrow-right",
+      "codepoint": 57363
+    },
+    {
+      "name": "arrow-right-circle",
+      "codepoint": 57362
+    },
+    {
+      "name": "arrow-up",
+      "codepoint": 57367
+    },
+    {
+      "name": "arrow-up-circle",
+      "codepoint": 57364
+    },
+    {
+      "name": "arrow-up-left",
+      "codepoint": 57365
+    },
+    {
+      "name": "arrow-up-right",
+      "codepoint": 57366
+    },
+    {
+      "name": "at-sign",
+      "codepoint": 57368
+    },
+    {
+      "name": "award",
+      "codepoint": 57369
+    },
+    {
+      "name": "bar-chart",
+      "codepoint": 57371
+    },
+    {
+      "name": "bar-chart-2",
+      "codepoint": 57370
+    },
+    {
+      "name": "battery",
+      "codepoint": 57373
+    },
+    {
+      "name": "battery-charging",
+      "codepoint": 57372
+    },
+    {
+      "name": "bell",
+      "codepoint": 57375
+    },
+    {
+      "name": "bell-off",
+      "codepoint": 57374
+    },
+    {
+      "name": "bluetooth",
+      "codepoint": 57376
+    },
+    {
+      "name": "bold",
+      "codepoint": 57377
+    },
+    {
+      "name": "book",
+      "codepoint": 57379
+    },
+    {
+      "name": "book-open",
+      "codepoint": 57378
+    },
+    {
+      "name": "bookmark",
+      "codepoint": 57380
+    },
+    {
+      "name": "box",
+      "codepoint": 57381
+    },
+    {
+      "name": "briefcase",
+      "codepoint": 57382
+    },
+    {
+      "name": "calendar",
+      "codepoint": 57383
+    },
+    {
+      "name": "camera",
+      "codepoint": 57385
+    },
+    {
+      "name": "camera-off",
+      "codepoint": 57384
+    },
+    {
+      "name": "cast",
+      "codepoint": 57386
+    },
+    {
+      "name": "check",
+      "codepoint": 57389
+    },
+    {
+      "name": "check-circle",
+      "codepoint": 57387
+    },
+    {
+      "name": "check-square",
+      "codepoint": 57388
+    },
+    {
+      "name": "chevron-down",
+      "codepoint": 57390
+    },
+    {
+      "name": "chevron-left",
+      "codepoint": 57391
+    },
+    {
+      "name": "chevron-right",
+      "codepoint": 57392
+    },
+    {
+      "name": "chevron-up",
+      "codepoint": 57393
+    },
+    {
+      "name": "chevrons-down",
+      "codepoint": 57394
+    },
+    {
+      "name": "chevrons-left",
+      "codepoint": 57395
+    },
+    {
+      "name": "chevrons-right",
+      "codepoint": 57396
+    },
+    {
+      "name": "chevrons-up",
+      "codepoint": 57397
+    },
+    {
+      "name": "chrome",
+      "codepoint": 57398
+    },
+    {
+      "name": "circle",
+      "codepoint": 57399
+    },
+    {
+      "name": "clipboard",
+      "codepoint": 57400
+    },
+    {
+      "name": "clock",
+      "codepoint": 57401
+    },
+    {
+      "name": "cloud",
+      "codepoint": 57407
+    },
+    {
+      "name": "cloud-drizzle",
+      "codepoint": 57402
+    },
+    {
+      "name": "cloud-lightning",
+      "codepoint": 57403
+    },
+    {
+      "name": "cloud-off",
+      "codepoint": 57404
+    },
+    {
+      "name": "cloud-rain",
+      "codepoint": 57405
+    },
+    {
+      "name": "cloud-snow",
+      "codepoint": 57406
+    },
+    {
+      "name": "code",
+      "codepoint": 57408
+    },
+    {
+      "name": "codepen",
+      "codepoint": 57409
+    },
+    {
+      "name": "codesandbox",
+      "codepoint": 57410
+    },
+    {
+      "name": "coffee",
+      "codepoint": 57411
+    },
+    {
+      "name": "columns",
+      "codepoint": 57412
+    },
+    {
+      "name": "command",
+      "codepoint": 57413
+    },
+    {
+      "name": "compass",
+      "codepoint": 57414
+    },
+    {
+      "name": "copy",
+      "codepoint": 57415
+    },
+    {
+      "name": "corner-down-left",
+      "codepoint": 57416
+    },
+    {
+      "name": "corner-down-right",
+      "codepoint": 57417
+    },
+    {
+      "name": "corner-left-down",
+      "codepoint": 57418
+    },
+    {
+      "name": "corner-left-up",
+      "codepoint": 57419
+    },
+    {
+      "name": "corner-right-down",
+      "codepoint": 57420
+    },
+    {
+      "name": "corner-right-up",
+      "codepoint": 57421
+    },
+    {
+      "name": "corner-up-left",
+      "codepoint": 57422
+    },
+    {
+      "name": "corner-up-right",
+      "codepoint": 57423
+    },
+    {
+      "name": "cpu",
+      "codepoint": 57424
+    },
+    {
+      "name": "credit-card",
+      "codepoint": 57425
+    },
+    {
+      "name": "crop",
+      "codepoint": 57426
+    },
+    {
+      "name": "crosshair",
+      "codepoint": 57427
+    },
+    {
+      "name": "database",
+      "codepoint": 57428
+    },
+    {
+      "name": "delete",
+      "codepoint": 57429
+    },
+    {
+      "name": "disc",
+      "codepoint": 57430
+    },
+    {
+      "name": "divide",
+      "codepoint": 57433
+    },
+    {
+      "name": "divide-circle",
+      "codepoint": 57431
+    },
+    {
+      "name": "divide-square",
+      "codepoint": 57432
+    },
+    {
+      "name": "dollar-sign",
+      "codepoint": 57434
+    },
+    {
+      "name": "download",
+      "codepoint": 57436
+    },
+    {
+      "name": "download-cloud",
+      "codepoint": 57435
+    },
+    {
+      "name": "dribbble",
+      "codepoint": 57437
+    },
+    {
+      "name": "droplet",
+      "codepoint": 57438
+    },
+    {
+      "name": "edit",
+      "codepoint": 57441
+    },
+    {
+      "name": "edit-2",
+      "codepoint": 57439
+    },
+    {
+      "name": "edit-3",
+      "codepoint": 57440
+    },
+    {
+      "name": "external-link",
+      "codepoint": 57442
+    },
+    {
+      "name": "eye",
+      "codepoint": 57444
+    },
+    {
+      "name": "eye-off",
+      "codepoint": 57443
+    },
+    {
+      "name": "facebook",
+      "codepoint": 57445
+    },
+    {
+      "name": "fast-forward",
+      "codepoint": 57446
+    },
+    {
+      "name": "feather",
+      "codepoint": 57447
+    },
+    {
+      "name": "figma",
+      "codepoint": 57448
+    },
+    {
+      "name": "file",
+      "codepoint": 57452
+    },
+    {
+      "name": "file-minus",
+      "codepoint": 57449
+    },
+    {
+      "name": "file-plus",
+      "codepoint": 57450
+    },
+    {
+      "name": "file-text",
+      "codepoint": 57451
+    },
+    {
+      "name": "film",
+      "codepoint": 57453
+    },
+    {
+      "name": "filter",
+      "codepoint": 57454
+    },
+    {
+      "name": "flag",
+      "codepoint": 57455
+    },
+    {
+      "name": "folder",
+      "codepoint": 57458
+    },
+    {
+      "name": "folder-minus",
+      "codepoint": 57456
+    },
+    {
+      "name": "folder-plus",
+      "codepoint": 57457
+    },
+    {
+      "name": "framer",
+      "codepoint": 57459
+    },
+    {
+      "name": "frown",
+      "codepoint": 57460
+    },
+    {
+      "name": "gift",
+      "codepoint": 57461
+    },
+    {
+      "name": "git-branch",
+      "codepoint": 57462
+    },
+    {
+      "name": "git-commit",
+      "codepoint": 57463
+    },
+    {
+      "name": "git-merge",
+      "codepoint": 57464
+    },
+    {
+      "name": "git-pull-request",
+      "codepoint": 57465
+    },
+    {
+      "name": "github",
+      "codepoint": 57466
+    },
+    {
+      "name": "gitlab",
+      "codepoint": 57467
+    },
+    {
+      "name": "globe",
+      "codepoint": 57468
+    },
+    {
+      "name": "grid",
+      "codepoint": 57469
+    },
+    {
+      "name": "hard-drive",
+      "codepoint": 57470
+    },
+    {
+      "name": "hash",
+      "codepoint": 57471
+    },
+    {
+      "name": "headphones",
+      "codepoint": 57472
+    },
+    {
+      "name": "heart",
+      "codepoint": 57473
+    },
+    {
+      "name": "help-circle",
+      "codepoint": 57474
+    },
+    {
+      "name": "hexagon",
+      "codepoint": 57475
+    },
+    {
+      "name": "home",
+      "codepoint": 57476
+    },
+    {
+      "name": "image",
+      "codepoint": 57477
+    },
+    {
+      "name": "inbox",
+      "codepoint": 57478
+    },
+    {
+      "name": "info",
+      "codepoint": 57479
+    },
+    {
+      "name": "instagram",
+      "codepoint": 57480
+    },
+    {
+      "name": "italic",
+      "codepoint": 57481
+    },
+    {
+      "name": "key",
+      "codepoint": 57482
+    },
+    {
+      "name": "layers",
+      "codepoint": 57483
+    },
+    {
+      "name": "layout",
+      "codepoint": 57484
+    },
+    {
+      "name": "life-buoy",
+      "codepoint": 57485
+    },
+    {
+      "name": "link",
+      "codepoint": 57487
+    },
+    {
+      "name": "link-2",
+      "codepoint": 57486
+    },
+    {
+      "name": "linkedin",
+      "codepoint": 57488
+    },
+    {
+      "name": "list",
+      "codepoint": 57489
+    },
+    {
+      "name": "loader",
+      "codepoint": 57490
+    },
+    {
+      "name": "lock",
+      "codepoint": 57491
+    },
+    {
+      "name": "log-in",
+      "codepoint": 57492
+    },
+    {
+      "name": "log-out",
+      "codepoint": 57493
+    },
+    {
+      "name": "mail",
+      "codepoint": 57494
+    },
+    {
+      "name": "map",
+      "codepoint": 57496
+    },
+    {
+      "name": "map-pin",
+      "codepoint": 57495
+    },
+    {
+      "name": "maximize",
+      "codepoint": 57498
+    },
+    {
+      "name": "maximize-2",
+      "codepoint": 57497
+    },
+    {
+      "name": "meh",
+      "codepoint": 57499
+    },
+    {
+      "name": "menu",
+      "codepoint": 57500
+    },
+    {
+      "name": "message-circle",
+      "codepoint": 57501
+    },
+    {
+      "name": "message-square",
+      "codepoint": 57502
+    },
+    {
+      "name": "mic",
+      "codepoint": 57504
+    },
+    {
+      "name": "mic-off",
+      "codepoint": 57503
+    },
+    {
+      "name": "minimize",
+      "codepoint": 57506
+    },
+    {
+      "name": "minimize-2",
+      "codepoint": 57505
+    },
+    {
+      "name": "minus",
+      "codepoint": 57509
+    },
+    {
+      "name": "minus-circle",
+      "codepoint": 57507
+    },
+    {
+      "name": "minus-square",
+      "codepoint": 57508
+    },
+    {
+      "name": "monitor",
+      "codepoint": 57510
+    },
+    {
+      "name": "moon",
+      "codepoint": 57511
+    },
+    {
+      "name": "more-horizontal",
+      "codepoint": 57512
+    },
+    {
+      "name": "more-vertical",
+      "codepoint": 57513
+    },
+    {
+      "name": "mouse-pointer",
+      "codepoint": 57514
+    },
+    {
+      "name": "move",
+      "codepoint": 57515
+    },
+    {
+      "name": "music",
+      "codepoint": 57516
+    },
+    {
+      "name": "navigation",
+      "codepoint": 57518
+    },
+    {
+      "name": "navigation-2",
+      "codepoint": 57517
+    },
+    {
+      "name": "octagon",
+      "codepoint": 57519
+    },
+    {
+      "name": "package",
+      "codepoint": 57520
+    },
+    {
+      "name": "paperclip",
+      "codepoint": 57521
+    },
+    {
+      "name": "pause",
+      "codepoint": 57523
+    },
+    {
+      "name": "pause-circle",
+      "codepoint": 57522
+    },
+    {
+      "name": "pen-tool",
+      "codepoint": 57524
+    },
+    {
+      "name": "percent",
+      "codepoint": 57525
+    },
+    {
+      "name": "phone",
+      "codepoint": 57532
+    },
+    {
+      "name": "phone-call",
+      "codepoint": 57526
+    },
+    {
+      "name": "phone-forwarded",
+      "codepoint": 57527
+    },
+    {
+      "name": "phone-incoming",
+      "codepoint": 57528
+    },
+    {
+      "name": "phone-missed",
+      "codepoint": 57529
+    },
+    {
+      "name": "phone-off",
+      "codepoint": 57530
+    },
+    {
+      "name": "phone-outgoing",
+      "codepoint": 57531
+    },
+    {
+      "name": "pie-chart",
+      "codepoint": 57533
+    },
+    {
+      "name": "play",
+      "codepoint": 57535
+    },
+    {
+      "name": "play-circle",
+      "codepoint": 57534
+    },
+    {
+      "name": "plus",
+      "codepoint": 57538
+    },
+    {
+      "name": "plus-circle",
+      "codepoint": 57536
+    },
+    {
+      "name": "plus-square",
+      "codepoint": 57537
+    },
+    {
+      "name": "pocket",
+      "codepoint": 57539
+    },
+    {
+      "name": "power",
+      "codepoint": 57540
+    },
+    {
+      "name": "printer",
+      "codepoint": 57541
+    },
+    {
+      "name": "radio",
+      "codepoint": 57542
+    },
+    {
+      "name": "refresh-ccw",
+      "codepoint": 57543
+    },
+    {
+      "name": "refresh-cw",
+      "codepoint": 57544
+    },
+    {
+      "name": "repeat",
+      "codepoint": 57545
+    },
+    {
+      "name": "rewind",
+      "codepoint": 57546
+    },
+    {
+      "name": "rotate-ccw",
+      "codepoint": 57547
+    },
+    {
+      "name": "rotate-cw",
+      "codepoint": 57548
+    },
+    {
+      "name": "rss",
+      "codepoint": 57549
+    },
+    {
+      "name": "save",
+      "codepoint": 57550
+    },
+    {
+      "name": "scissors",
+      "codepoint": 57551
+    },
+    {
+      "name": "search",
+      "codepoint": 57552
+    },
+    {
+      "name": "send",
+      "codepoint": 57553
+    },
+    {
+      "name": "server",
+      "codepoint": 57554
+    },
+    {
+      "name": "settings",
+      "codepoint": 57555
+    },
+    {
+      "name": "share",
+      "codepoint": 57557
+    },
+    {
+      "name": "share-2",
+      "codepoint": 57556
+    },
+    {
+      "name": "shield",
+      "codepoint": 57559
+    },
+    {
+      "name": "shield-off",
+      "codepoint": 57558
+    },
+    {
+      "name": "shopping-bag",
+      "codepoint": 57560
+    },
+    {
+      "name": "shopping-cart",
+      "codepoint": 57561
+    },
+    {
+      "name": "shuffle",
+      "codepoint": 57562
+    },
+    {
+      "name": "sidebar",
+      "codepoint": 57563
+    },
+    {
+      "name": "skip-back",
+      "codepoint": 57564
+    },
+    {
+      "name": "skip-forward",
+      "codepoint": 57565
+    },
+    {
+      "name": "slack",
+      "codepoint": 57566
+    },
+    {
+      "name": "slash",
+      "codepoint": 57567
+    },
+    {
+      "name": "sliders",
+      "codepoint": 57568
+    },
+    {
+      "name": "smartphone",
+      "codepoint": 57569
+    },
+    {
+      "name": "smile",
+      "codepoint": 57570
+    },
+    {
+      "name": "speaker",
+      "codepoint": 57571
+    },
+    {
+      "name": "square",
+      "codepoint": 57572
+    },
+    {
+      "name": "star",
+      "codepoint": 57573
+    },
+    {
+      "name": "stop-circle",
+      "codepoint": 57574
+    },
+    {
+      "name": "sun",
+      "codepoint": 57575
+    },
+    {
+      "name": "sunrise",
+      "codepoint": 57576
+    },
+    {
+      "name": "sunset",
+      "codepoint": 57577
+    },
+    {
+      "name": "table",
+      "codepoint": 57578
+    },
+    {
+      "name": "tablet",
+      "codepoint": 57579
+    },
+    {
+      "name": "tag",
+      "codepoint": 57580
+    },
+    {
+      "name": "target",
+      "codepoint": 57581
+    },
+    {
+      "name": "terminal",
+      "codepoint": 57582
+    },
+    {
+      "name": "thermometer",
+      "codepoint": 57583
+    },
+    {
+      "name": "thumbs-down",
+      "codepoint": 57584
+    },
+    {
+      "name": "thumbs-up",
+      "codepoint": 57585
+    },
+    {
+      "name": "toggle-left",
+      "codepoint": 57586
+    },
+    {
+      "name": "toggle-right",
+      "codepoint": 57587
+    },
+    {
+      "name": "tool",
+      "codepoint": 57588
+    },
+    {
+      "name": "trash",
+      "codepoint": 57590
+    },
+    {
+      "name": "trash-2",
+      "codepoint": 57589
+    },
+    {
+      "name": "trello",
+      "codepoint": 57591
+    },
+    {
+      "name": "trending-down",
+      "codepoint": 57592
+    },
+    {
+      "name": "trending-up",
+      "codepoint": 57593
+    },
+    {
+      "name": "triangle",
+      "codepoint": 57594
+    },
+    {
+      "name": "truck",
+      "codepoint": 57595
+    },
+    {
+      "name": "tv",
+      "codepoint": 57596
+    },
+    {
+      "name": "twitch",
+      "codepoint": 57597
+    },
+    {
+      "name": "twitter",
+      "codepoint": 57598
+    },
+    {
+      "name": "type",
+      "codepoint": 57599
+    },
+    {
+      "name": "umbrella",
+      "codepoint": 57600
+    },
+    {
+      "name": "underline",
+      "codepoint": 57601
+    },
+    {
+      "name": "unlock",
+      "codepoint": 57602
+    },
+    {
+      "name": "upload",
+      "codepoint": 57604
+    },
+    {
+      "name": "upload-cloud",
+      "codepoint": 57603
+    },
+    {
+      "name": "user",
+      "codepoint": 57609
+    },
+    {
+      "name": "user-check",
+      "codepoint": 57605
+    },
+    {
+      "name": "user-minus",
+      "codepoint": 57606
+    },
+    {
+      "name": "user-plus",
+      "codepoint": 57607
+    },
+    {
+      "name": "user-x",
+      "codepoint": 57608
+    },
+    {
+      "name": "users",
+      "codepoint": 57610
+    },
+    {
+      "name": "video",
+      "codepoint": 57612
+    },
+    {
+      "name": "video-off",
+      "codepoint": 57611
+    },
+    {
+      "name": "voicemail",
+      "codepoint": 57613
+    },
+    {
+      "name": "volume",
+      "codepoint": 57617
+    },
+    {
+      "name": "volume-1",
+      "codepoint": 57614
+    },
+    {
+      "name": "volume-2",
+      "codepoint": 57615
+    },
+    {
+      "name": "volume-x",
+      "codepoint": 57616
+    },
+    {
+      "name": "watch",
+      "codepoint": 57618
+    },
+    {
+      "name": "wifi",
+      "codepoint": 57620
+    },
+    {
+      "name": "wifi-off",
+      "codepoint": 57619
+    },
+    {
+      "name": "wind",
+      "codepoint": 57621
+    },
+    {
+      "name": "x",
+      "codepoint": 57625
+    },
+    {
+      "name": "x-circle",
+      "codepoint": 57622
+    },
+    {
+      "name": "x-octagon",
+      "codepoint": 57623
+    },
+    {
+      "name": "x-square",
+      "codepoint": 57624
+    },
+    {
+      "name": "youtube",
+      "codepoint": 57626
+    },
+    {
+      "name": "zap",
+      "codepoint": 57628
+    },
+    {
+      "name": "zap-off",
+      "codepoint": 57627
+    },
+    {
+      "name": "zoom-in",
+      "codepoint": 57629
+    },
+    {
+      "name": "zoom-out",
+      "codepoint": 57630
+    }
+  ]
+}

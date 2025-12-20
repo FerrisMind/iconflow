@@ -1,0 +1,44 @@
+name: ci
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  rust:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@v1
+        with:
+          toolchain: 1.92.0
+          components: rustfmt, clippy
+      - name: cargo fmt
+        run: cargo fmt --check
+      - name: cargo clippy
+        run: cargo clippy --all-targets --all-features -- -D warnings
+      - name: install asset validation deps
+        run: python -m pip install --upgrade pip jsonschema fonttools
+      - name: validate assets
+        run: python scripts/validate_assets.py
+      - name: verify asset integrity
+        run: python scripts/verify_integrity.py
+      - name: xtask gen (check)
+        run: cargo xtask gen --check
+      - name: cargo build (examples)
+        run: cargo build --examples --all-features
+      - name: cargo test (no default features)
+        if: matrix.os == 'ubuntu-latest'
+        run: cargo test --no-default-features
+      - name: cargo test (all features)
+        run: cargo test --all-features
+      - name: install cargo-hack
+        if: matrix.os == 'ubuntu-latest'
+        uses: taiki-e/install-action@cargo-hack
+      - name: cargo hack (feature powerset)
+        if: matrix.os == 'ubuntu-latest'
+        run: cargo hack test --feature-powerset

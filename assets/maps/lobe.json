@@ -1,0 +1,2166 @@
+{
+  "pack_id": "lobe",
+  "variants": [
+    {
+      "id": "regular",
+      "style": "Regular",
+      "size": "Regular",
+      "family": "Lobe Regular",
+      "ttf_asset_path": "assets/fonts/lobe/lobe-regular.ttf"
+    }
+  ],
+  "icons": [
+    {
+      "name": "adobe",
+      "codepoint": 57345
+    },
+    {
+      "name": "adobe-text",
+      "codepoint": 57344
+    },
+    {
+      "name": "adobefirefly",
+      "codepoint": 57347
+    },
+    {
+      "name": "adobefirefly-text",
+      "codepoint": 57346
+    },
+    {
+      "name": "agui",
+      "codepoint": 57349
+    },
+    {
+      "name": "agui-text",
+      "codepoint": 57348
+    },
+    {
+      "name": "ai21",
+      "codepoint": 57352
+    },
+    {
+      "name": "ai21-brand",
+      "codepoint": 57350
+    },
+    {
+      "name": "ai21-text",
+      "codepoint": 57351
+    },
+    {
+      "name": "ai302",
+      "codepoint": 57354
+    },
+    {
+      "name": "ai302-text",
+      "codepoint": 57353
+    },
+    {
+      "name": "ai360",
+      "codepoint": 57356
+    },
+    {
+      "name": "ai360-text",
+      "codepoint": 57355
+    },
+    {
+      "name": "aihubmix",
+      "codepoint": 57358
+    },
+    {
+      "name": "aihubmix-text",
+      "codepoint": 57357
+    },
+    {
+      "name": "aimass",
+      "codepoint": 57360
+    },
+    {
+      "name": "aimass-text",
+      "codepoint": 57359
+    },
+    {
+      "name": "aionlabs",
+      "codepoint": 57362
+    },
+    {
+      "name": "aionlabs-text",
+      "codepoint": 57361
+    },
+    {
+      "name": "aistudio",
+      "codepoint": 57364
+    },
+    {
+      "name": "aistudio-text",
+      "codepoint": 57363
+    },
+    {
+      "name": "akashchat",
+      "codepoint": 57366
+    },
+    {
+      "name": "akashchat-text",
+      "codepoint": 57365
+    },
+    {
+      "name": "alephalpha",
+      "codepoint": 57368
+    },
+    {
+      "name": "alephalpha-text",
+      "codepoint": 57367
+    },
+    {
+      "name": "alibaba",
+      "codepoint": 57372
+    },
+    {
+      "name": "alibaba-brand",
+      "codepoint": 57369
+    },
+    {
+      "name": "alibaba-text",
+      "codepoint": 57371
+    },
+    {
+      "name": "alibaba-text-cn",
+      "codepoint": 57370
+    },
+    {
+      "name": "alibabacloud",
+      "codepoint": 57375
+    },
+    {
+      "name": "alibabacloud-text",
+      "codepoint": 57374
+    },
+    {
+      "name": "alibabacloud-text-cn",
+      "codepoint": 57373
+    },
+    {
+      "name": "antgroup",
+      "codepoint": 57379
+    },
+    {
+      "name": "antgroup-brand",
+      "codepoint": 57376
+    },
+    {
+      "name": "antgroup-text",
+      "codepoint": 57378
+    },
+    {
+      "name": "antgroup-text-cn",
+      "codepoint": 57377
+    },
+    {
+      "name": "anthropic",
+      "codepoint": 57381
+    },
+    {
+      "name": "anthropic-text",
+      "codepoint": 57380
+    },
+    {
+      "name": "anyscale",
+      "codepoint": 57383
+    },
+    {
+      "name": "anyscale-text",
+      "codepoint": 57382
+    },
+    {
+      "name": "apple",
+      "codepoint": 57385
+    },
+    {
+      "name": "apple-text",
+      "codepoint": 57384
+    },
+    {
+      "name": "assemblyai",
+      "codepoint": 57387
+    },
+    {
+      "name": "assemblyai-text",
+      "codepoint": 57386
+    },
+    {
+      "name": "automatic",
+      "codepoint": 57389
+    },
+    {
+      "name": "automatic-text",
+      "codepoint": 57388
+    },
+    {
+      "name": "aws",
+      "codepoint": 57392
+    },
+    {
+      "name": "aws-brand",
+      "codepoint": 57390
+    },
+    {
+      "name": "aws-text",
+      "codepoint": 57391
+    },
+    {
+      "name": "aya",
+      "codepoint": 57394
+    },
+    {
+      "name": "aya-text",
+      "codepoint": 57393
+    },
+    {
+      "name": "azure",
+      "codepoint": 57396
+    },
+    {
+      "name": "azure-text",
+      "codepoint": 57395
+    },
+    {
+      "name": "azureai",
+      "codepoint": 57398
+    },
+    {
+      "name": "azureai-text",
+      "codepoint": 57397
+    },
+    {
+      "name": "baai",
+      "codepoint": 57400
+    },
+    {
+      "name": "baai-text",
+      "codepoint": 57399
+    },
+    {
+      "name": "baichuan",
+      "codepoint": 57402
+    },
+    {
+      "name": "baichuan-text",
+      "codepoint": 57401
+    },
+    {
+      "name": "baidu",
+      "codepoint": 57406
+    },
+    {
+      "name": "baidu-brand",
+      "codepoint": 57403
+    },
+    {
+      "name": "baidu-text",
+      "codepoint": 57405
+    },
+    {
+      "name": "baidu-text-cn",
+      "codepoint": 57404
+    },
+    {
+      "name": "baiducloud",
+      "codepoint": 57408
+    },
+    {
+      "name": "baiducloud-text",
+      "codepoint": 57407
+    },
+    {
+      "name": "bailian",
+      "codepoint": 57410
+    },
+    {
+      "name": "bailian-text",
+      "codepoint": 57409
+    },
+    {
+      "name": "baseten",
+      "codepoint": 57412
+    },
+    {
+      "name": "baseten-text",
+      "codepoint": 57411
+    },
+    {
+      "name": "bedrock",
+      "codepoint": 57414
+    },
+    {
+      "name": "bedrock-text",
+      "codepoint": 57413
+    },
+    {
+      "name": "bfl",
+      "codepoint": 57416
+    },
+    {
+      "name": "bfl-text",
+      "codepoint": 57415
+    },
+    {
+      "name": "bilibili",
+      "codepoint": 57418
+    },
+    {
+      "name": "bilibili-text",
+      "codepoint": 57417
+    },
+    {
+      "name": "bilibiliindex",
+      "codepoint": 57420
+    },
+    {
+      "name": "bilibiliindex-text",
+      "codepoint": 57419
+    },
+    {
+      "name": "bing",
+      "codepoint": 57422
+    },
+    {
+      "name": "bing-text",
+      "codepoint": 57421
+    },
+    {
+      "name": "burncloud",
+      "codepoint": 57424
+    },
+    {
+      "name": "burncloud-text",
+      "codepoint": 57423
+    },
+    {
+      "name": "bytedance",
+      "codepoint": 57428
+    },
+    {
+      "name": "bytedance-brand",
+      "codepoint": 57425
+    },
+    {
+      "name": "bytedance-text",
+      "codepoint": 57427
+    },
+    {
+      "name": "bytedance-text-cn",
+      "codepoint": 57426
+    },
+    {
+      "name": "capcut",
+      "codepoint": 57430
+    },
+    {
+      "name": "capcut-text",
+      "codepoint": 57429
+    },
+    {
+      "name": "centml",
+      "codepoint": 57433
+    },
+    {
+      "name": "centml-brand",
+      "codepoint": 57431
+    },
+    {
+      "name": "centml-text",
+      "codepoint": 57432
+    },
+    {
+      "name": "cerebras",
+      "codepoint": 57436
+    },
+    {
+      "name": "cerebras-brand",
+      "codepoint": 57434
+    },
+    {
+      "name": "cerebras-text",
+      "codepoint": 57435
+    },
+    {
+      "name": "chatglm",
+      "codepoint": 57438
+    },
+    {
+      "name": "chatglm-text",
+      "codepoint": 57437
+    },
+    {
+      "name": "civitai",
+      "codepoint": 57440
+    },
+    {
+      "name": "civitai-text",
+      "codepoint": 57439
+    },
+    {
+      "name": "claude",
+      "codepoint": 57442
+    },
+    {
+      "name": "claude-text",
+      "codepoint": 57441
+    },
+    {
+      "name": "cline",
+      "codepoint": 57444
+    },
+    {
+      "name": "cline-text",
+      "codepoint": 57443
+    },
+    {
+      "name": "clipdrop",
+      "codepoint": 57446
+    },
+    {
+      "name": "clipdrop-text",
+      "codepoint": 57445
+    },
+    {
+      "name": "cloudflare",
+      "codepoint": 57448
+    },
+    {
+      "name": "cloudflare-text",
+      "codepoint": 57447
+    },
+    {
+      "name": "codegeex",
+      "codepoint": 57450
+    },
+    {
+      "name": "codegeex-text",
+      "codepoint": 57449
+    },
+    {
+      "name": "cogvideo",
+      "codepoint": 57452
+    },
+    {
+      "name": "cogvideo-text",
+      "codepoint": 57451
+    },
+    {
+      "name": "cogview",
+      "codepoint": 57454
+    },
+    {
+      "name": "cogview-text",
+      "codepoint": 57453
+    },
+    {
+      "name": "cohere",
+      "codepoint": 57456
+    },
+    {
+      "name": "cohere-text",
+      "codepoint": 57455
+    },
+    {
+      "name": "colab",
+      "codepoint": 57458
+    },
+    {
+      "name": "colab-text",
+      "codepoint": 57457
+    },
+    {
+      "name": "cometapi",
+      "codepoint": 57460
+    },
+    {
+      "name": "cometapi-text",
+      "codepoint": 57459
+    },
+    {
+      "name": "comfyui",
+      "codepoint": 57462
+    },
+    {
+      "name": "comfyui-text",
+      "codepoint": 57461
+    },
+    {
+      "name": "commanda",
+      "codepoint": 57464
+    },
+    {
+      "name": "commanda-text",
+      "codepoint": 57463
+    },
+    {
+      "name": "copilot",
+      "codepoint": 57466
+    },
+    {
+      "name": "copilot-text",
+      "codepoint": 57465
+    },
+    {
+      "name": "copilotkit",
+      "codepoint": 57468
+    },
+    {
+      "name": "copilotkit-text",
+      "codepoint": 57467
+    },
+    {
+      "name": "coqui",
+      "codepoint": 57470
+    },
+    {
+      "name": "coqui-text",
+      "codepoint": 57469
+    },
+    {
+      "name": "coze",
+      "codepoint": 57472
+    },
+    {
+      "name": "coze-text",
+      "codepoint": 57471
+    },
+    {
+      "name": "crewai",
+      "codepoint": 57475
+    },
+    {
+      "name": "crewai-brand",
+      "codepoint": 57473
+    },
+    {
+      "name": "crewai-text",
+      "codepoint": 57474
+    },
+    {
+      "name": "crusoe",
+      "codepoint": 57477
+    },
+    {
+      "name": "crusoe-text",
+      "codepoint": 57476
+    },
+    {
+      "name": "cursor",
+      "codepoint": 57479
+    },
+    {
+      "name": "cursor-text",
+      "codepoint": 57478
+    },
+    {
+      "name": "dalle",
+      "codepoint": 57481
+    },
+    {
+      "name": "dalle-text",
+      "codepoint": 57480
+    },
+    {
+      "name": "dbrx",
+      "codepoint": 57484
+    },
+    {
+      "name": "dbrx-brand",
+      "codepoint": 57482
+    },
+    {
+      "name": "dbrx-text",
+      "codepoint": 57483
+    },
+    {
+      "name": "deepai",
+      "codepoint": 57486
+    },
+    {
+      "name": "deepai-text",
+      "codepoint": 57485
+    },
+    {
+      "name": "deepinfra",
+      "codepoint": 57488
+    },
+    {
+      "name": "deepinfra-text",
+      "codepoint": 57487
+    },
+    {
+      "name": "deepl",
+      "codepoint": 57490
+    },
+    {
+      "name": "deepl-text",
+      "codepoint": 57489
+    },
+    {
+      "name": "deepmind",
+      "codepoint": 57492
+    },
+    {
+      "name": "deepmind-text",
+      "codepoint": 57491
+    },
+    {
+      "name": "deepseek",
+      "codepoint": 57494
+    },
+    {
+      "name": "deepseek-text",
+      "codepoint": 57493
+    },
+    {
+      "name": "dify",
+      "codepoint": 57496
+    },
+    {
+      "name": "dify-text",
+      "codepoint": 57495
+    },
+    {
+      "name": "doc2x",
+      "codepoint": 57498
+    },
+    {
+      "name": "doc2x-text",
+      "codepoint": 57497
+    },
+    {
+      "name": "docsearch",
+      "codepoint": 57500
+    },
+    {
+      "name": "docsearch-text",
+      "codepoint": 57499
+    },
+    {
+      "name": "dolphin",
+      "codepoint": 57502
+    },
+    {
+      "name": "dolphin-text",
+      "codepoint": 57501
+    },
+    {
+      "name": "doubao",
+      "codepoint": 57504
+    },
+    {
+      "name": "doubao-text",
+      "codepoint": 57503
+    },
+    {
+      "name": "dreammachine",
+      "codepoint": 57506
+    },
+    {
+      "name": "dreammachine-text",
+      "codepoint": 57505
+    },
+    {
+      "name": "elevenlabs",
+      "codepoint": 57508
+    },
+    {
+      "name": "elevenlabs-text",
+      "codepoint": 57507
+    },
+    {
+      "name": "elevenx",
+      "codepoint": 57510
+    },
+    {
+      "name": "elevenx-text",
+      "codepoint": 57509
+    },
+    {
+      "name": "exa",
+      "codepoint": 57512
+    },
+    {
+      "name": "exa-text",
+      "codepoint": 57511
+    },
+    {
+      "name": "fal",
+      "codepoint": 57514
+    },
+    {
+      "name": "fal-text",
+      "codepoint": 57513
+    },
+    {
+      "name": "fastgpt",
+      "codepoint": 57516
+    },
+    {
+      "name": "fastgpt-text",
+      "codepoint": 57515
+    },
+    {
+      "name": "featherless",
+      "codepoint": 57518
+    },
+    {
+      "name": "featherless-text",
+      "codepoint": 57517
+    },
+    {
+      "name": "figma",
+      "codepoint": 57520
+    },
+    {
+      "name": "figma-text",
+      "codepoint": 57519
+    },
+    {
+      "name": "fireworks",
+      "codepoint": 57522
+    },
+    {
+      "name": "fireworks-text",
+      "codepoint": 57521
+    },
+    {
+      "name": "fishaudio",
+      "codepoint": 57524
+    },
+    {
+      "name": "fishaudio-text",
+      "codepoint": 57523
+    },
+    {
+      "name": "flora",
+      "codepoint": 57526
+    },
+    {
+      "name": "flora-text",
+      "codepoint": 57525
+    },
+    {
+      "name": "flowith",
+      "codepoint": 57528
+    },
+    {
+      "name": "flowith-text",
+      "codepoint": 57527
+    },
+    {
+      "name": "flux",
+      "codepoint": 57530
+    },
+    {
+      "name": "flux-text",
+      "codepoint": 57529
+    },
+    {
+      "name": "friendli",
+      "codepoint": 57532
+    },
+    {
+      "name": "friendli-text",
+      "codepoint": 57531
+    },
+    {
+      "name": "gemini",
+      "codepoint": 57534
+    },
+    {
+      "name": "gemini-text",
+      "codepoint": 57533
+    },
+    {
+      "name": "gemma",
+      "codepoint": 57536
+    },
+    {
+      "name": "gemma-text",
+      "codepoint": 57535
+    },
+    {
+      "name": "giteeai",
+      "codepoint": 57538
+    },
+    {
+      "name": "giteeai-text",
+      "codepoint": 57537
+    },
+    {
+      "name": "github",
+      "codepoint": 57540
+    },
+    {
+      "name": "github-text",
+      "codepoint": 57539
+    },
+    {
+      "name": "githubcopilot",
+      "codepoint": 57542
+    },
+    {
+      "name": "githubcopilot-text",
+      "codepoint": 57541
+    },
+    {
+      "name": "glama",
+      "codepoint": 57544
+    },
+    {
+      "name": "glama-text",
+      "codepoint": 57543
+    },
+    {
+      "name": "glif",
+      "codepoint": 57546
+    },
+    {
+      "name": "glif-text",
+      "codepoint": 57545
+    },
+    {
+      "name": "glmv",
+      "codepoint": 57548
+    },
+    {
+      "name": "glmv-text",
+      "codepoint": 57547
+    },
+    {
+      "name": "google",
+      "codepoint": 57550
+    },
+    {
+      "name": "google-brand",
+      "codepoint": 57549
+    },
+    {
+      "name": "googlecloud",
+      "codepoint": 57552
+    },
+    {
+      "name": "googlecloud-brand",
+      "codepoint": 57551
+    },
+    {
+      "name": "goose",
+      "codepoint": 57554
+    },
+    {
+      "name": "goose-text",
+      "codepoint": 57553
+    },
+    {
+      "name": "gradio",
+      "codepoint": 57556
+    },
+    {
+      "name": "gradio-text",
+      "codepoint": 57555
+    },
+    {
+      "name": "greptile",
+      "codepoint": 57558
+    },
+    {
+      "name": "greptile-text",
+      "codepoint": 57557
+    },
+    {
+      "name": "grok",
+      "codepoint": 57560
+    },
+    {
+      "name": "grok-text",
+      "codepoint": 57559
+    },
+    {
+      "name": "groq",
+      "codepoint": 57562
+    },
+    {
+      "name": "groq-text",
+      "codepoint": 57561
+    },
+    {
+      "name": "hailuo",
+      "codepoint": 57564
+    },
+    {
+      "name": "hailuo-text",
+      "codepoint": 57563
+    },
+    {
+      "name": "haiper",
+      "codepoint": 57566
+    },
+    {
+      "name": "haiper-text",
+      "codepoint": 57565
+    },
+    {
+      "name": "hedra",
+      "codepoint": 57568
+    },
+    {
+      "name": "hedra-text",
+      "codepoint": 57567
+    },
+    {
+      "name": "higress",
+      "codepoint": 57570
+    },
+    {
+      "name": "higress-text",
+      "codepoint": 57569
+    },
+    {
+      "name": "huawei",
+      "codepoint": 57573
+    },
+    {
+      "name": "huawei-text",
+      "codepoint": 57572
+    },
+    {
+      "name": "huawei-text-cn",
+      "codepoint": 57571
+    },
+    {
+      "name": "huaweicloud",
+      "codepoint": 57576
+    },
+    {
+      "name": "huaweicloud-text",
+      "codepoint": 57575
+    },
+    {
+      "name": "huaweicloud-text-cn",
+      "codepoint": 57574
+    },
+    {
+      "name": "huggingface",
+      "codepoint": 57578
+    },
+    {
+      "name": "huggingface-text",
+      "codepoint": 57577
+    },
+    {
+      "name": "hunyuan",
+      "codepoint": 57580
+    },
+    {
+      "name": "hunyuan-text",
+      "codepoint": 57579
+    },
+    {
+      "name": "hyperbolic",
+      "codepoint": 57582
+    },
+    {
+      "name": "hyperbolic-text",
+      "codepoint": 57581
+    },
+    {
+      "name": "ibm",
+      "codepoint": 57584
+    },
+    {
+      "name": "ibm-text",
+      "codepoint": 57583
+    },
+    {
+      "name": "ideogram",
+      "codepoint": 57586
+    },
+    {
+      "name": "ideogram-text",
+      "codepoint": 57585
+    },
+    {
+      "name": "iflytekcloud",
+      "codepoint": 57588
+    },
+    {
+      "name": "iflytekcloud-text",
+      "codepoint": 57587
+    },
+    {
+      "name": "inference",
+      "codepoint": 57590
+    },
+    {
+      "name": "inference-text",
+      "codepoint": 57589
+    },
+    {
+      "name": "infermatic",
+      "codepoint": 57592
+    },
+    {
+      "name": "infermatic-text",
+      "codepoint": 57591
+    },
+    {
+      "name": "infinigence",
+      "codepoint": 57595
+    },
+    {
+      "name": "infinigence-text",
+      "codepoint": 57594
+    },
+    {
+      "name": "infinigence-text-cn",
+      "codepoint": 57593
+    },
+    {
+      "name": "inflection",
+      "codepoint": 57597
+    },
+    {
+      "name": "inflection-text",
+      "codepoint": 57596
+    },
+    {
+      "name": "internlm",
+      "codepoint": 57599
+    },
+    {
+      "name": "internlm-text",
+      "codepoint": 57598
+    },
+    {
+      "name": "jimeng",
+      "codepoint": 57601
+    },
+    {
+      "name": "jimeng-text",
+      "codepoint": 57600
+    },
+    {
+      "name": "jina",
+      "codepoint": 57603
+    },
+    {
+      "name": "jina-text",
+      "codepoint": 57602
+    },
+    {
+      "name": "kimi",
+      "codepoint": 57605
+    },
+    {
+      "name": "kimi-text",
+      "codepoint": 57604
+    },
+    {
+      "name": "kling",
+      "codepoint": 57607
+    },
+    {
+      "name": "kling-text",
+      "codepoint": 57606
+    },
+    {
+      "name": "kluster",
+      "codepoint": 57609
+    },
+    {
+      "name": "kluster-text",
+      "codepoint": 57608
+    },
+    {
+      "name": "kolors",
+      "codepoint": 57611
+    },
+    {
+      "name": "kolors-text",
+      "codepoint": 57610
+    },
+    {
+      "name": "krea",
+      "codepoint": 57613
+    },
+    {
+      "name": "krea-text",
+      "codepoint": 57612
+    },
+    {
+      "name": "kwaipilot",
+      "codepoint": 57615
+    },
+    {
+      "name": "kwaipilot-text",
+      "codepoint": 57614
+    },
+    {
+      "name": "lambda",
+      "codepoint": 57617
+    },
+    {
+      "name": "lambda-text",
+      "codepoint": 57616
+    },
+    {
+      "name": "langchain",
+      "codepoint": 57619
+    },
+    {
+      "name": "langchain-text",
+      "codepoint": 57618
+    },
+    {
+      "name": "langfuse",
+      "codepoint": 57621
+    },
+    {
+      "name": "langfuse-text",
+      "codepoint": 57620
+    },
+    {
+      "name": "langgraph",
+      "codepoint": 57623
+    },
+    {
+      "name": "langgraph-text",
+      "codepoint": 57622
+    },
+    {
+      "name": "langsmith",
+      "codepoint": 57625
+    },
+    {
+      "name": "langsmith-text",
+      "codepoint": 57624
+    },
+    {
+      "name": "leptonai",
+      "codepoint": 57627
+    },
+    {
+      "name": "leptonai-text",
+      "codepoint": 57626
+    },
+    {
+      "name": "lg",
+      "codepoint": 57629
+    },
+    {
+      "name": "lg-text",
+      "codepoint": 57628
+    },
+    {
+      "name": "lightricks",
+      "codepoint": 57631
+    },
+    {
+      "name": "lightricks-text",
+      "codepoint": 57630
+    },
+    {
+      "name": "liquid",
+      "codepoint": 57633
+    },
+    {
+      "name": "liquid-text",
+      "codepoint": 57632
+    },
+    {
+      "name": "livekit",
+      "codepoint": 57635
+    },
+    {
+      "name": "livekit-text",
+      "codepoint": 57634
+    },
+    {
+      "name": "llamaindex",
+      "codepoint": 57637
+    },
+    {
+      "name": "llamaindex-text",
+      "codepoint": 57636
+    },
+    {
+      "name": "llava",
+      "codepoint": 57639
+    },
+    {
+      "name": "llava-text",
+      "codepoint": 57638
+    },
+    {
+      "name": "lmstudio",
+      "codepoint": 57641
+    },
+    {
+      "name": "lmstudio-text",
+      "codepoint": 57640
+    },
+    {
+      "name": "lobehub",
+      "codepoint": 57643
+    },
+    {
+      "name": "lobehub-text",
+      "codepoint": 57642
+    },
+    {
+      "name": "longcat",
+      "codepoint": 57645
+    },
+    {
+      "name": "longcat-text",
+      "codepoint": 57644
+    },
+    {
+      "name": "lovable",
+      "codepoint": 57647
+    },
+    {
+      "name": "lovable-text",
+      "codepoint": 57646
+    },
+    {
+      "name": "luma",
+      "codepoint": 57649
+    },
+    {
+      "name": "luma-text",
+      "codepoint": 57648
+    },
+    {
+      "name": "magic",
+      "codepoint": 57651
+    },
+    {
+      "name": "magic-text",
+      "codepoint": 57650
+    },
+    {
+      "name": "make",
+      "codepoint": 57653
+    },
+    {
+      "name": "make-text",
+      "codepoint": 57652
+    },
+    {
+      "name": "manus",
+      "codepoint": 57655
+    },
+    {
+      "name": "manus-text",
+      "codepoint": 57654
+    },
+    {
+      "name": "mastra",
+      "codepoint": 57657
+    },
+    {
+      "name": "mastra-text",
+      "codepoint": 57656
+    },
+    {
+      "name": "mcp",
+      "codepoint": 57659
+    },
+    {
+      "name": "mcp-text",
+      "codepoint": 57658
+    },
+    {
+      "name": "mcpso",
+      "codepoint": 57661
+    },
+    {
+      "name": "mcpso-text",
+      "codepoint": 57660
+    },
+    {
+      "name": "menlo",
+      "codepoint": 57663
+    },
+    {
+      "name": "menlo-text",
+      "codepoint": 57662
+    },
+    {
+      "name": "meta",
+      "codepoint": 57666
+    },
+    {
+      "name": "meta-brand",
+      "codepoint": 57664
+    },
+    {
+      "name": "meta-text",
+      "codepoint": 57665
+    },
+    {
+      "name": "metaai",
+      "codepoint": 57668
+    },
+    {
+      "name": "metaai-text",
+      "codepoint": 57667
+    },
+    {
+      "name": "metagpt",
+      "codepoint": 57670
+    },
+    {
+      "name": "metagpt-text",
+      "codepoint": 57669
+    },
+    {
+      "name": "microsoft",
+      "codepoint": 57672
+    },
+    {
+      "name": "microsoft-text",
+      "codepoint": 57671
+    },
+    {
+      "name": "midjourney",
+      "codepoint": 57674
+    },
+    {
+      "name": "midjourney-text",
+      "codepoint": 57673
+    },
+    {
+      "name": "minimax",
+      "codepoint": 57676
+    },
+    {
+      "name": "minimax-text",
+      "codepoint": 57675
+    },
+    {
+      "name": "mistral",
+      "codepoint": 57678
+    },
+    {
+      "name": "mistral-text",
+      "codepoint": 57677
+    },
+    {
+      "name": "modelscope",
+      "codepoint": 57680
+    },
+    {
+      "name": "modelscope-text",
+      "codepoint": 57679
+    },
+    {
+      "name": "monica",
+      "codepoint": 57682
+    },
+    {
+      "name": "monica-text",
+      "codepoint": 57681
+    },
+    {
+      "name": "moonshot",
+      "codepoint": 57684
+    },
+    {
+      "name": "moonshot-text",
+      "codepoint": 57683
+    },
+    {
+      "name": "myshell",
+      "codepoint": 57686
+    },
+    {
+      "name": "myshell-text",
+      "codepoint": 57685
+    },
+    {
+      "name": "n8n",
+      "codepoint": 57688
+    },
+    {
+      "name": "n8n-text",
+      "codepoint": 57687
+    },
+    {
+      "name": "nebius",
+      "codepoint": 57690
+    },
+    {
+      "name": "nebius-text",
+      "codepoint": 57689
+    },
+    {
+      "name": "newapi",
+      "codepoint": 57692
+    },
+    {
+      "name": "newapi-text",
+      "codepoint": 57691
+    },
+    {
+      "name": "notebooklm",
+      "codepoint": 57694
+    },
+    {
+      "name": "notebooklm-text",
+      "codepoint": 57693
+    },
+    {
+      "name": "notion",
+      "codepoint": 57696
+    },
+    {
+      "name": "notion-text",
+      "codepoint": 57695
+    },
+    {
+      "name": "nousresearch",
+      "codepoint": 57698
+    },
+    {
+      "name": "nousresearch-text",
+      "codepoint": 57697
+    },
+    {
+      "name": "nova",
+      "codepoint": 57700
+    },
+    {
+      "name": "nova-text",
+      "codepoint": 57699
+    },
+    {
+      "name": "novelai",
+      "codepoint": 57702
+    },
+    {
+      "name": "novelai-text",
+      "codepoint": 57701
+    },
+    {
+      "name": "novita",
+      "codepoint": 57704
+    },
+    {
+      "name": "novita-text",
+      "codepoint": 57703
+    },
+    {
+      "name": "nplcloud",
+      "codepoint": 57706
+    },
+    {
+      "name": "nplcloud-text",
+      "codepoint": 57705
+    },
+    {
+      "name": "nvidia",
+      "codepoint": 57708
+    },
+    {
+      "name": "nvidia-text",
+      "codepoint": 57707
+    },
+    {
+      "name": "ollama",
+      "codepoint": 57710
+    },
+    {
+      "name": "ollama-text",
+      "codepoint": 57709
+    },
+    {
+      "name": "openai",
+      "codepoint": 57712
+    },
+    {
+      "name": "openai-text",
+      "codepoint": 57711
+    },
+    {
+      "name": "openchat",
+      "codepoint": 57714
+    },
+    {
+      "name": "openchat-text",
+      "codepoint": 57713
+    },
+    {
+      "name": "openrouter",
+      "codepoint": 57716
+    },
+    {
+      "name": "openrouter-text",
+      "codepoint": 57715
+    },
+    {
+      "name": "openwebui",
+      "codepoint": 57718
+    },
+    {
+      "name": "openwebui-text",
+      "codepoint": 57717
+    },
+    {
+      "name": "palm",
+      "codepoint": 57720
+    },
+    {
+      "name": "palm-text",
+      "codepoint": 57719
+    },
+    {
+      "name": "parasail",
+      "codepoint": 57722
+    },
+    {
+      "name": "parasail-text",
+      "codepoint": 57721
+    },
+    {
+      "name": "perplexity",
+      "codepoint": 57724
+    },
+    {
+      "name": "perplexity-text",
+      "codepoint": 57723
+    },
+    {
+      "name": "phidata",
+      "codepoint": 57726
+    },
+    {
+      "name": "phidata-text",
+      "codepoint": 57725
+    },
+    {
+      "name": "phind",
+      "codepoint": 57728
+    },
+    {
+      "name": "phind-text",
+      "codepoint": 57727
+    },
+    {
+      "name": "pika",
+      "codepoint": 57730
+    },
+    {
+      "name": "pika-text",
+      "codepoint": 57729
+    },
+    {
+      "name": "pixverse",
+      "codepoint": 57732
+    },
+    {
+      "name": "pixverse-text",
+      "codepoint": 57731
+    },
+    {
+      "name": "player2",
+      "codepoint": 57734
+    },
+    {
+      "name": "player2-text",
+      "codepoint": 57733
+    },
+    {
+      "name": "poe",
+      "codepoint": 57736
+    },
+    {
+      "name": "poe-text",
+      "codepoint": 57735
+    },
+    {
+      "name": "pollinations",
+      "codepoint": 57738
+    },
+    {
+      "name": "pollinations-text",
+      "codepoint": 57737
+    },
+    {
+      "name": "ppio",
+      "codepoint": 57741
+    },
+    {
+      "name": "ppio-text",
+      "codepoint": 57740
+    },
+    {
+      "name": "ppio-text-cn",
+      "codepoint": 57739
+    },
+    {
+      "name": "pydanticai",
+      "codepoint": 57743
+    },
+    {
+      "name": "pydanticai-text",
+      "codepoint": 57742
+    },
+    {
+      "name": "qingyan",
+      "codepoint": 57745
+    },
+    {
+      "name": "qingyan-text",
+      "codepoint": 57744
+    },
+    {
+      "name": "qiniu",
+      "codepoint": 57747
+    },
+    {
+      "name": "qiniu-text",
+      "codepoint": 57746
+    },
+    {
+      "name": "qwen",
+      "codepoint": 57749
+    },
+    {
+      "name": "qwen-text",
+      "codepoint": 57748
+    },
+    {
+      "name": "railway",
+      "codepoint": 57751
+    },
+    {
+      "name": "railway-text",
+      "codepoint": 57750
+    },
+    {
+      "name": "recraft",
+      "codepoint": 57753
+    },
+    {
+      "name": "recraft-text",
+      "codepoint": 57752
+    },
+    {
+      "name": "replicate",
+      "codepoint": 57755
+    },
+    {
+      "name": "replicate-brand",
+      "codepoint": 57754
+    },
+    {
+      "name": "replit",
+      "codepoint": 57757
+    },
+    {
+      "name": "replit-text",
+      "codepoint": 57756
+    },
+    {
+      "name": "rsshub",
+      "codepoint": 57759
+    },
+    {
+      "name": "rsshub-text",
+      "codepoint": 57758
+    },
+    {
+      "name": "runway",
+      "codepoint": 57761
+    },
+    {
+      "name": "runway-text",
+      "codepoint": 57760
+    },
+    {
+      "name": "rwkv",
+      "codepoint": 57763
+    },
+    {
+      "name": "rwkv-text",
+      "codepoint": 57762
+    },
+    {
+      "name": "sambanova",
+      "codepoint": 57765
+    },
+    {
+      "name": "sambanova-text",
+      "codepoint": 57764
+    },
+    {
+      "name": "search1api",
+      "codepoint": 57767
+    },
+    {
+      "name": "search1api-text",
+      "codepoint": 57766
+    },
+    {
+      "name": "searchapi",
+      "codepoint": 57769
+    },
+    {
+      "name": "searchapi-text",
+      "codepoint": 57768
+    },
+    {
+      "name": "sensenova",
+      "codepoint": 57772
+    },
+    {
+      "name": "sensenova-brand",
+      "codepoint": 57770
+    },
+    {
+      "name": "sensenova-text",
+      "codepoint": 57771
+    },
+    {
+      "name": "siliconcloud",
+      "codepoint": 57774
+    },
+    {
+      "name": "siliconcloud-text",
+      "codepoint": 57773
+    },
+    {
+      "name": "skywork",
+      "codepoint": 57776
+    },
+    {
+      "name": "skywork-text",
+      "codepoint": 57775
+    },
+    {
+      "name": "smithery",
+      "codepoint": 57778
+    },
+    {
+      "name": "smithery-text",
+      "codepoint": 57777
+    },
+    {
+      "name": "snowflake",
+      "codepoint": 57780
+    },
+    {
+      "name": "snowflake-text",
+      "codepoint": 57779
+    },
+    {
+      "name": "sophnet",
+      "codepoint": 57782
+    },
+    {
+      "name": "sophnet-text",
+      "codepoint": 57781
+    },
+    {
+      "name": "sora",
+      "codepoint": 57784
+    },
+    {
+      "name": "sora-text",
+      "codepoint": 57783
+    },
+    {
+      "name": "spark",
+      "codepoint": 57786
+    },
+    {
+      "name": "spark-text",
+      "codepoint": 57785
+    },
+    {
+      "name": "stability",
+      "codepoint": 57789
+    },
+    {
+      "name": "stability-brand",
+      "codepoint": 57787
+    },
+    {
+      "name": "stability-text",
+      "codepoint": 57788
+    },
+    {
+      "name": "statecloud",
+      "codepoint": 57791
+    },
+    {
+      "name": "statecloud-text",
+      "codepoint": 57790
+    },
+    {
+      "name": "stepfun",
+      "codepoint": 57793
+    },
+    {
+      "name": "stepfun-text",
+      "codepoint": 57792
+    },
+    {
+      "name": "straico",
+      "codepoint": 57795
+    },
+    {
+      "name": "straico-text",
+      "codepoint": 57794
+    },
+    {
+      "name": "submodel",
+      "codepoint": 57797
+    },
+    {
+      "name": "submodel-text",
+      "codepoint": 57796
+    },
+    {
+      "name": "suno",
+      "codepoint": 57799
+    },
+    {
+      "name": "suno-text",
+      "codepoint": 57798
+    },
+    {
+      "name": "sync",
+      "codepoint": 57801
+    },
+    {
+      "name": "sync-text",
+      "codepoint": 57800
+    },
+    {
+      "name": "targon",
+      "codepoint": 57803
+    },
+    {
+      "name": "targon-text",
+      "codepoint": 57802
+    },
+    {
+      "name": "tavily",
+      "codepoint": 57805
+    },
+    {
+      "name": "tavily-text",
+      "codepoint": 57804
+    },
+    {
+      "name": "tencent",
+      "codepoint": 57809
+    },
+    {
+      "name": "tencent-brand",
+      "codepoint": 57806
+    },
+    {
+      "name": "tencent-text",
+      "codepoint": 57808
+    },
+    {
+      "name": "tencent-text-cn",
+      "codepoint": 57807
+    },
+    {
+      "name": "tencentcloud",
+      "codepoint": 57811
+    },
+    {
+      "name": "tencentcloud-text",
+      "codepoint": 57810
+    },
+    {
+      "name": "tiangong",
+      "codepoint": 57813
+    },
+    {
+      "name": "tiangong-text",
+      "codepoint": 57812
+    },
+    {
+      "name": "tii",
+      "codepoint": 57815
+    },
+    {
+      "name": "tii-text",
+      "codepoint": 57814
+    },
+    {
+      "name": "together",
+      "codepoint": 57818
+    },
+    {
+      "name": "together-brand",
+      "codepoint": 57816
+    },
+    {
+      "name": "together-text",
+      "codepoint": 57817
+    },
+    {
+      "name": "topazlabs",
+      "codepoint": 57820
+    },
+    {
+      "name": "topazlabs-text",
+      "codepoint": 57819
+    },
+    {
+      "name": "trae",
+      "codepoint": 57822
+    },
+    {
+      "name": "trae-text",
+      "codepoint": 57821
+    },
+    {
+      "name": "tripo",
+      "codepoint": 57824
+    },
+    {
+      "name": "tripo-text",
+      "codepoint": 57823
+    },
+    {
+      "name": "turix",
+      "codepoint": 57826
+    },
+    {
+      "name": "turix-text",
+      "codepoint": 57825
+    },
+    {
+      "name": "udio",
+      "codepoint": 57828
+    },
+    {
+      "name": "udio-text",
+      "codepoint": 57827
+    },
+    {
+      "name": "unstructured",
+      "codepoint": 57830
+    },
+    {
+      "name": "unstructured-text",
+      "codepoint": 57829
+    },
+    {
+      "name": "upstage",
+      "codepoint": 57832
+    },
+    {
+      "name": "upstage-text",
+      "codepoint": 57831
+    },
+    {
+      "name": "v0",
+      "codepoint": 57833
+    },
+    {
+      "name": "vectorizerai",
+      "codepoint": 57835
+    },
+    {
+      "name": "vectorizerai-text",
+      "codepoint": 57834
+    },
+    {
+      "name": "vercel",
+      "codepoint": 57837
+    },
+    {
+      "name": "vercel-text",
+      "codepoint": 57836
+    },
+    {
+      "name": "vertexai",
+      "codepoint": 57839
+    },
+    {
+      "name": "vertexai-text",
+      "codepoint": 57838
+    },
+    {
+      "name": "vidu",
+      "codepoint": 57841
+    },
+    {
+      "name": "vidu-text",
+      "codepoint": 57840
+    },
+    {
+      "name": "viggle",
+      "codepoint": 57843
+    },
+    {
+      "name": "viggle-text",
+      "codepoint": 57842
+    },
+    {
+      "name": "vllm",
+      "codepoint": 57845
+    },
+    {
+      "name": "vllm-text",
+      "codepoint": 57844
+    },
+    {
+      "name": "volcengine",
+      "codepoint": 57847
+    },
+    {
+      "name": "volcengine-text",
+      "codepoint": 57846
+    },
+    {
+      "name": "voyage",
+      "codepoint": 57849
+    },
+    {
+      "name": "voyage-text",
+      "codepoint": 57848
+    },
+    {
+      "name": "wenxin",
+      "codepoint": 57851
+    },
+    {
+      "name": "wenxin-text",
+      "codepoint": 57850
+    },
+    {
+      "name": "windsurf",
+      "codepoint": 57853
+    },
+    {
+      "name": "windsurf-text",
+      "codepoint": 57852
+    },
+    {
+      "name": "workersai",
+      "codepoint": 57855
+    },
+    {
+      "name": "workersai-text",
+      "codepoint": 57854
+    },
+    {
+      "name": "xai",
+      "codepoint": 57857
+    },
+    {
+      "name": "xai-text",
+      "codepoint": 57856
+    },
+    {
+      "name": "xinference",
+      "codepoint": 57859
+    },
+    {
+      "name": "xinference-text",
+      "codepoint": 57858
+    },
+    {
+      "name": "xuanyuan",
+      "codepoint": 57861
+    },
+    {
+      "name": "xuanyuan-text",
+      "codepoint": 57860
+    },
+    {
+      "name": "yandex",
+      "codepoint": 57863
+    },
+    {
+      "name": "yandex-text",
+      "codepoint": 57862
+    },
+    {
+      "name": "yi",
+      "codepoint": 57865
+    },
+    {
+      "name": "yi-text",
+      "codepoint": 57864
+    },
+    {
+      "name": "youmind",
+      "codepoint": 57867
+    },
+    {
+      "name": "youmind-text",
+      "codepoint": 57866
+    },
+    {
+      "name": "yuanbao",
+      "codepoint": 57869
+    },
+    {
+      "name": "yuanbao-text",
+      "codepoint": 57868
+    },
+    {
+      "name": "zai",
+      "codepoint": 57871
+    },
+    {
+      "name": "zai-text",
+      "codepoint": 57870
+    },
+    {
+      "name": "zapier",
+      "codepoint": 57873
+    },
+    {
+      "name": "zapier-text",
+      "codepoint": 57872
+    },
+    {
+      "name": "zeabur",
+      "codepoint": 57875
+    },
+    {
+      "name": "zeabur-text",
+      "codepoint": 57874
+    },
+    {
+      "name": "zenmux",
+      "codepoint": 57877
+    },
+    {
+      "name": "zenmux-text",
+      "codepoint": 57876
+    },
+    {
+      "name": "zeroone",
+      "codepoint": 57879
+    },
+    {
+      "name": "zeroone-text",
+      "codepoint": 57878
+    },
+    {
+      "name": "zhipu",
+      "codepoint": 57881
+    },
+    {
+      "name": "zhipu-text",
+      "codepoint": 57880
+    }
+  ]
+}

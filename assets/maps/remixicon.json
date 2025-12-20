@@ -1,0 +1,10472 @@
+{
+  "pack_id": "remixicon",
+  "variants": [
+    {
+      "id": "filled",
+      "style": "Filled",
+      "size": "Regular",
+      "family": "Remix Icon Regular",
+      "ttf_asset_path": "assets/fonts/remixicon/remixicon-regular.ttf"
+    },
+    {
+      "id": "outline",
+      "style": "Outline",
+      "size": "Regular",
+      "family": "Remix Icon Regular",
+      "ttf_asset_path": "assets/fonts/remixicon/remixicon-regular.ttf"
+    }
+  ],
+  "icons": [
+    {
+      "name": "24-hours",
+      "codepoint": 59906,
+      "overrides": {
+        "filled": 59905
+      }
+    },
+    {
+      "name": "4k",
+      "codepoint": 59908,
+      "overrides": {
+        "filled": 59907
+      }
+    },
+    {
+      "name": "accessibility",
+      "codepoint": 62926,
+      "overrides": {
+        "filled": 62925
+      }
+    },
+    {
+      "name": "account-box",
+      "codepoint": 59911,
+      "overrides": {
+        "filled": 59910
+      }
+    },
+    {
+      "name": "account-box-2",
+      "codepoint": 62798,
+      "overrides": {
+        "filled": 62797
+      }
+    },
+    {
+      "name": "account-circle",
+      "codepoint": 59913,
+      "overrides": {
+        "filled": 59912
+      }
+    },
+    {
+      "name": "account-circle-2",
+      "codepoint": 62800,
+      "overrides": {
+        "filled": 62799
+      }
+    },
+    {
+      "name": "account-pin-box",
+      "codepoint": 59915,
+      "overrides": {
+        "filled": 59914
+      }
+    },
+    {
+      "name": "account-pin-circle",
+      "codepoint": 59917,
+      "overrides": {
+        "filled": 59916
+      }
+    },
+    {
+      "name": "add",
+      "codepoint": 59923,
+      "overrides": {
+        "filled": 59922
+      }
+    },
+    {
+      "name": "add-box",
+      "codepoint": 59919,
+      "overrides": {
+        "filled": 59918
+      }
+    },
+    {
+      "name": "add-circle",
+      "codepoint": 59921,
+      "overrides": {
+        "filled": 59920
+      }
+    },
+    {
+      "name": "add-large",
+      "codepoint": 62642,
+      "overrides": {
+        "filled": 62641
+      }
+    },
+    {
+      "name": "admin",
+      "codepoint": 59925,
+      "overrides": {
+        "filled": 59924
+      }
+    },
+    {
+      "name": "advertisement",
+      "codepoint": 59927,
+      "overrides": {
+        "filled": 59926
+      }
+    },
+    {
+      "name": "aed",
+      "codepoint": 62646,
+      "overrides": {
+        "filled": 62645
+      }
+    },
+    {
+      "name": "aed-electrodes",
+      "codepoint": 62644,
+      "overrides": {
+        "filled": 62643
+      }
+    },
+    {
+      "name": "ai-agent",
+      "codepoint": 62964,
+      "overrides": {
+        "filled": 62963
+      }
+    },
+    {
+      "name": "ai-generate-2",
+      "codepoint": 62966,
+      "overrides": {
+        "filled": 62965
+      }
+    },
+    {
+      "name": "ai-generate-3d",
+      "codepoint": 62968,
+      "overrides": {
+        "filled": 62967
+      }
+    },
+    {
+      "name": "airplay",
+      "codepoint": 59929,
+      "overrides": {
+        "filled": 59928
+      }
+    },
+    {
+      "name": "alarm",
+      "codepoint": 59931,
+      "overrides": {
+        "filled": 59930
+      }
+    },
+    {
+      "name": "alarm-add",
+      "codepoint": 62928,
+      "overrides": {
+        "filled": 62927
+      }
+    },
+    {
+      "name": "alarm-snooze",
+      "codepoint": 62802,
+      "overrides": {
+        "filled": 62801
+      }
+    },
+    {
+      "name": "alarm-warning",
+      "codepoint": 59933,
+      "overrides": {
+        "filled": 59932
+      }
+    },
+    {
+      "name": "album",
+      "codepoint": 59935,
+      "overrides": {
+        "filled": 59934
+      }
+    },
+    {
+      "name": "alert",
+      "codepoint": 59937,
+      "overrides": {
+        "filled": 59936
+      }
+    },
+    {
+      "name": "alibaba-cloud",
+      "codepoint": 62648,
+      "overrides": {
+        "filled": 62647
+      }
+    },
+    {
+      "name": "aliens",
+      "codepoint": 59939,
+      "overrides": {
+        "filled": 59938
+      }
+    },
+    {
+      "name": "align-item-bottom",
+      "codepoint": 62650,
+      "overrides": {
+        "filled": 62649
+      }
+    },
+    {
+      "name": "align-item-horizontal-center",
+      "codepoint": 62652,
+      "overrides": {
+        "filled": 62651
+      }
+    },
+    {
+      "name": "align-item-left",
+      "codepoint": 62654,
+      "overrides": {
+        "filled": 62653
+      }
+    },
+    {
+      "name": "align-item-right",
+      "codepoint": 62656,
+      "overrides": {
+        "filled": 62655
+      }
+    },
+    {
+      "name": "align-item-top",
+      "codepoint": 62658,
+      "overrides": {
+        "filled": 62657
+      }
+    },
+    {
+      "name": "align-item-vertical-center",
+      "codepoint": 62660,
+      "overrides": {
+        "filled": 62659
+      }
+    },
+    {
+      "name": "alipay",
+      "codepoint": 59948,
+      "overrides": {
+        "filled": 59947
+      }
+    },
+    {
+      "name": "amazon",
+      "codepoint": 59950,
+      "overrides": {
+        "filled": 59949
+      }
+    },
+    {
+      "name": "anchor",
+      "codepoint": 59952,
+      "overrides": {
+        "filled": 59951
+      }
+    },
+    {
+      "name": "ancient-gate",
+      "codepoint": 59954,
+      "overrides": {
+        "filled": 59953
+      }
+    },
+    {
+      "name": "ancient-pavilion",
+      "codepoint": 59956,
+      "overrides": {
+        "filled": 59955
+      }
+    },
+    {
+      "name": "android",
+      "codepoint": 59958,
+      "overrides": {
+        "filled": 59957
+      }
+    },
+    {
+      "name": "angularjs",
+      "codepoint": 59960,
+      "overrides": {
+        "filled": 59959
+      }
+    },
+    {
+      "name": "anthropic",
+      "codepoint": 62891,
+      "overrides": {
+        "filled": 62890
+      }
+    },
+    {
+      "name": "anticlockwise",
+      "codepoint": 59964,
+      "overrides": {
+        "filled": 59963
+      }
+    },
+    {
+      "name": "anticlockwise-2",
+      "codepoint": 59962,
+      "overrides": {
+        "filled": 59961
+      }
+    },
+    {
+      "name": "app-store",
+      "codepoint": 59966,
+      "overrides": {
+        "filled": 59965
+      }
+    },
+    {
+      "name": "apple",
+      "codepoint": 59968,
+      "overrides": {
+        "filled": 59967
+      }
+    },
+    {
+      "name": "apps",
+      "codepoint": 59972,
+      "overrides": {
+        "filled": 59971
+      }
+    },
+    {
+      "name": "apps-2",
+      "codepoint": 59970,
+      "overrides": {
+        "filled": 59969
+      }
+    },
+    {
+      "name": "apps-2-add",
+      "codepoint": 62662,
+      "overrides": {
+        "filled": 62661
+      }
+    },
+    {
+      "name": "apps-2-ai",
+      "codepoint": 62893,
+      "overrides": {
+        "filled": 62892
+      }
+    },
+    {
+      "name": "apps-ai",
+      "codepoint": 62971,
+      "overrides": {
+        "filled": 62970
+      }
+    },
+    {
+      "name": "archive",
+      "codepoint": 59976,
+      "overrides": {
+        "filled": 59975
+      }
+    },
+    {
+      "name": "archive-2",
+      "codepoint": 62375,
+      "overrides": {
+        "filled": 62374
+      }
+    },
+    {
+      "name": "archive-drawer",
+      "codepoint": 59974,
+      "overrides": {
+        "filled": 59973
+      }
+    },
+    {
+      "name": "archive-stack",
+      "codepoint": 62504,
+      "overrides": {
+        "filled": 62503
+      }
+    },
+    {
+      "name": "armchair",
+      "codepoint": 62443,
+      "overrides": {
+        "filled": 62442
+      }
+    },
+    {
+      "name": "arrow-down",
+      "codepoint": 59980,
+      "overrides": {
+        "filled": 59979
+      }
+    },
+    {
+      "name": "arrow-down-box",
+      "codepoint": 62804,
+      "overrides": {
+        "filled": 62803
+      }
+    },
+    {
+      "name": "arrow-down-circle",
+      "codepoint": 59978,
+      "overrides": {
+        "filled": 59977
+      }
+    },
+    {
+      "name": "arrow-down-double",
+      "codepoint": 62177,
+      "overrides": {
+        "filled": 62176
+      }
+    },
+    {
+      "name": "arrow-down-long",
+      "codepoint": 62930,
+      "overrides": {
+        "filled": 62929
+      }
+    },
+    {
+      "name": "arrow-down-s",
+      "codepoint": 59982,
+      "overrides": {
+        "filled": 59981
+      }
+    },
+    {
+      "name": "arrow-down-wide",
+      "codepoint": 62610,
+      "overrides": {
+        "filled": 62609
+      }
+    },
+    {
+      "name": "arrow-drop-down",
+      "codepoint": 59984,
+      "overrides": {
+        "filled": 59983
+      }
+    },
+    {
+      "name": "arrow-drop-left",
+      "codepoint": 59986,
+      "overrides": {
+        "filled": 59985
+      }
+    },
+    {
+      "name": "arrow-drop-right",
+      "codepoint": 59988,
+      "overrides": {
+        "filled": 59987
+      }
+    },
+    {
+      "name": "arrow-drop-up",
+      "codepoint": 59990,
+      "overrides": {
+        "filled": 59989
+      }
+    },
+    {
+      "name": "arrow-go-back",
+      "codepoint": 59992,
+      "overrides": {
+        "filled": 59991
+      }
+    },
+    {
+      "name": "arrow-go-forward",
+      "codepoint": 59994,
+      "overrides": {
+        "filled": 59993
+      }
+    },
+    {
+      "name": "arrow-left",
+      "codepoint": 60000,
+      "overrides": {
+        "filled": 59999
+      }
+    },
+    {
+      "name": "arrow-left-box",
+      "codepoint": 62806,
+      "overrides": {
+        "filled": 62805
+      }
+    },
+    {
+      "name": "arrow-left-circle",
+      "codepoint": 59996,
+      "overrides": {
+        "filled": 59995
+      }
+    },
+    {
+      "name": "arrow-left-double",
+      "codepoint": 62179,
+      "overrides": {
+        "filled": 62178
+      }
+    },
+    {
+      "name": "arrow-left-down",
+      "codepoint": 59998,
+      "overrides": {
+        "filled": 59997
+      }
+    },
+    {
+      "name": "arrow-left-down-box",
+      "codepoint": 62808,
+      "overrides": {
+        "filled": 62807
+      }
+    },
+    {
+      "name": "arrow-left-down-long",
+      "codepoint": 62932,
+      "overrides": {
+        "filled": 62931
+      }
+    },
+    {
+      "name": "arrow-left-long",
+      "codepoint": 62934,
+      "overrides": {
+        "filled": 62933
+      }
+    },
+    {
+      "name": "arrow-left-right",
+      "codepoint": 60002,
+      "overrides": {
+        "filled": 60001
+      }
+    },
+    {
+      "name": "arrow-left-s",
+      "codepoint": 60004,
+      "overrides": {
+        "filled": 60003
+      }
+    },
+    {
+      "name": "arrow-left-up",
+      "codepoint": 60006,
+      "overrides": {
+        "filled": 60005
+      }
+    },
+    {
+      "name": "arrow-left-up-box",
+      "codepoint": 62810,
+      "overrides": {
+        "filled": 62809
+      }
+    },
+    {
+      "name": "arrow-left-up-long",
+      "codepoint": 62936,
+      "overrides": {
+        "filled": 62935
+      }
+    },
+    {
+      "name": "arrow-left-wide",
+      "codepoint": 62612,
+      "overrides": {
+        "filled": 62611
+      }
+    },
+    {
+      "name": "arrow-right",
+      "codepoint": 60012,
+      "overrides": {
+        "filled": 60011
+      }
+    },
+    {
+      "name": "arrow-right-box",
+      "codepoint": 62812,
+      "overrides": {
+        "filled": 62811
+      }
+    },
+    {
+      "name": "arrow-right-circle",
+      "codepoint": 60008,
+      "overrides": {
+        "filled": 60007
+      }
+    },
+    {
+      "name": "arrow-right-double",
+      "codepoint": 62181,
+      "overrides": {
+        "filled": 62180
+      }
+    },
+    {
+      "name": "arrow-right-down",
+      "codepoint": 60010,
+      "overrides": {
+        "filled": 60009
+      }
+    },
+    {
+      "name": "arrow-right-down-box",
+      "codepoint": 62814,
+      "overrides": {
+        "filled": 62813
+      }
+    },
+    {
+      "name": "arrow-right-down-long",
+      "codepoint": 62938,
+      "overrides": {
+        "filled": 62937
+      }
+    },
+    {
+      "name": "arrow-right-long",
+      "codepoint": 62940,
+      "overrides": {
+        "filled": 62939
+      }
+    },
+    {
+      "name": "arrow-right-s",
+      "codepoint": 60014,
+      "overrides": {
+        "filled": 60013
+      }
+    },
+    {
+      "name": "arrow-right-up",
+      "codepoint": 60016,
+      "overrides": {
+        "filled": 60015
+      }
+    },
+    {
+      "name": "arrow-right-up-box",
+      "codepoint": 62816,
+      "overrides": {
+        "filled": 62815
+      }
+    },
+    {
+      "name": "arrow-right-up-long",
+      "codepoint": 62942,
+      "overrides": {
+        "filled": 62941
+      }
+    },
+    {
+      "name": "arrow-right-wide",
+      "codepoint": 62614,
+      "overrides": {
+        "filled": 62613
+      }
+    },
+    {
+      "name": "arrow-turn-back",
+      "codepoint": 62183,
+      "overrides": {
+        "filled": 62182
+      }
+    },
+    {
+      "name": "arrow-turn-forward",
+      "codepoint": 62185,
+      "overrides": {
+        "filled": 62184
+      }
+    },
+    {
+      "name": "arrow-up",
+      "codepoint": 60022,
+      "overrides": {
+        "filled": 60021
+      }
+    },
+    {
+      "name": "arrow-up-box",
+      "codepoint": 62818,
+      "overrides": {
+        "filled": 62817
+      }
+    },
+    {
+      "name": "arrow-up-circle",
+      "codepoint": 60018,
+      "overrides": {
+        "filled": 60017
+      }
+    },
+    {
+      "name": "arrow-up-double",
+      "codepoint": 62187,
+      "overrides": {
+        "filled": 62186
+      }
+    },
+    {
+      "name": "arrow-up-down",
+      "codepoint": 60020,
+      "overrides": {
+        "filled": 60019
+      }
+    },
+    {
+      "name": "arrow-up-long",
+      "codepoint": 62944,
+      "overrides": {
+        "filled": 62943
+      }
+    },
+    {
+      "name": "arrow-up-s",
+      "codepoint": 60024,
+      "overrides": {
+        "filled": 60023
+      }
+    },
+    {
+      "name": "arrow-up-wide",
+      "codepoint": 62616,
+      "overrides": {
+        "filled": 62615
+      }
+    },
+    {
+      "name": "artboard",
+      "codepoint": 60028,
+      "overrides": {
+        "filled": 60027
+      }
+    },
+    {
+      "name": "artboard-2",
+      "codepoint": 60026,
+      "overrides": {
+        "filled": 60025
+      }
+    },
+    {
+      "name": "article",
+      "codepoint": 60030,
+      "overrides": {
+        "filled": 60029
+      }
+    },
+    {
+      "name": "aspect-ratio",
+      "codepoint": 60032,
+      "overrides": {
+        "filled": 60031
+      }
+    },
+    {
+      "name": "at",
+      "codepoint": 60035,
+      "overrides": {
+        "filled": 60034
+      }
+    },
+    {
+      "name": "atom",
+      "codepoint": 62973,
+      "overrides": {
+        "filled": 62972
+      }
+    },
+    {
+      "name": "attachment",
+      "codepoint": 60038,
+      "overrides": {
+        "filled": 60037
+      }
+    },
+    {
+      "name": "auction",
+      "codepoint": 60040,
+      "overrides": {
+        "filled": 60039
+      }
+    },
+    {
+      "name": "award",
+      "codepoint": 60042,
+      "overrides": {
+        "filled": 60041
+      }
+    },
+    {
+      "name": "baidu",
+      "codepoint": 60044,
+      "overrides": {
+        "filled": 60043
+      }
+    },
+    {
+      "name": "ball-pen",
+      "codepoint": 60046,
+      "overrides": {
+        "filled": 60045
+      }
+    },
+    {
+      "name": "bank",
+      "codepoint": 60052,
+      "overrides": {
+        "filled": 60051
+      }
+    },
+    {
+      "name": "bank-card",
+      "codepoint": 60050,
+      "overrides": {
+        "filled": 60049
+      }
+    },
+    {
+      "name": "bank-card-2",
+      "codepoint": 60048,
+      "overrides": {
+        "filled": 60047
+      }
+    },
+    {
+      "name": "bar-chart",
+      "codepoint": 60062,
+      "overrides": {
+        "filled": 60057
+      }
+    },
+    {
+      "name": "bar-chart-2",
+      "codepoint": 60054,
+      "overrides": {
+        "filled": 60053
+      }
+    },
+    {
+      "name": "bar-chart-box",
+      "codepoint": 60056,
+      "overrides": {
+        "filled": 60055
+      }
+    },
+    {
+      "name": "bar-chart-box-ai",
+      "codepoint": 62820,
+      "overrides": {
+        "filled": 62819
+      }
+    },
+    {
+      "name": "bar-chart-grouped",
+      "codepoint": 60059,
+      "overrides": {
+        "filled": 60058
+      }
+    },
+    {
+      "name": "bar-chart-horizontal",
+      "codepoint": 60061,
+      "overrides": {
+        "filled": 60060
+      }
+    },
+    {
+      "name": "barcode",
+      "codepoint": 60066,
+      "overrides": {
+        "filled": 60065
+      }
+    },
+    {
+      "name": "barcode-box",
+      "codepoint": 60064,
+      "overrides": {
+        "filled": 60063
+      }
+    },
+    {
+      "name": "bard",
+      "codepoint": 62189,
+      "overrides": {
+        "filled": 62188
+      }
+    },
+    {
+      "name": "barricade",
+      "codepoint": 60068,
+      "overrides": {
+        "filled": 60067
+      }
+    },
+    {
+      "name": "base-station",
+      "codepoint": 60070,
+      "overrides": {
+        "filled": 60069
+      }
+    },
+    {
+      "name": "basketball",
+      "codepoint": 60072,
+      "overrides": {
+        "filled": 60071
+      }
+    },
+    {
+      "name": "battery",
+      "codepoint": 60080,
+      "overrides": {
+        "filled": 60079
+      }
+    },
+    {
+      "name": "battery-2",
+      "codepoint": 60076,
+      "overrides": {
+        "filled": 60075
+      }
+    },
+    {
+      "name": "battery-2-charge",
+      "codepoint": 60074,
+      "overrides": {
+        "filled": 60073
+      }
+    },
+    {
+      "name": "battery-charge",
+      "codepoint": 60078,
+      "overrides": {
+        "filled": 60077
+      }
+    },
+    {
+      "name": "battery-low",
+      "codepoint": 60082,
+      "overrides": {
+        "filled": 60081
+      }
+    },
+    {
+      "name": "battery-saver",
+      "codepoint": 60084,
+      "overrides": {
+        "filled": 60083
+      }
+    },
+    {
+      "name": "battery-share",
+      "codepoint": 60086,
+      "overrides": {
+        "filled": 60085
+      }
+    },
+    {
+      "name": "bear-smile",
+      "codepoint": 60088,
+      "overrides": {
+        "filled": 60087
+      }
+    },
+    {
+      "name": "beer",
+      "codepoint": 62400,
+      "overrides": {
+        "filled": 62399
+      }
+    },
+    {
+      "name": "behance",
+      "codepoint": 60090,
+      "overrides": {
+        "filled": 60089
+      }
+    },
+    {
+      "name": "bell",
+      "codepoint": 60092,
+      "overrides": {
+        "filled": 60091
+      }
+    },
+    {
+      "name": "bike",
+      "codepoint": 60094,
+      "overrides": {
+        "filled": 60093
+      }
+    },
+    {
+      "name": "bilibili",
+      "codepoint": 60096,
+      "overrides": {
+        "filled": 60095
+      }
+    },
+    {
+      "name": "bill",
+      "codepoint": 60098,
+      "overrides": {
+        "filled": 60097
+      }
+    },
+    {
+      "name": "billiards",
+      "codepoint": 60100,
+      "overrides": {
+        "filled": 60099
+      }
+    },
+    {
+      "name": "bit-coin",
+      "codepoint": 60102,
+      "overrides": {
+        "filled": 60101
+      }
+    },
+    {
+      "name": "blaze",
+      "codepoint": 60104,
+      "overrides": {
+        "filled": 60103
+      }
+    },
+    {
+      "name": "blender",
+      "codepoint": 62333,
+      "overrides": {
+        "filled": 62332
+      }
+    },
+    {
+      "name": "blogger",
+      "codepoint": 62577,
+      "overrides": {
+        "filled": 62576
+      }
+    },
+    {
+      "name": "bluesky",
+      "codepoint": 62618,
+      "overrides": {
+        "filled": 62617
+      }
+    },
+    {
+      "name": "bluetooth",
+      "codepoint": 60108,
+      "overrides": {
+        "filled": 60107
+      }
+    },
+    {
+      "name": "bluetooth-connect",
+      "codepoint": 60106,
+      "overrides": {
+        "filled": 60105
+      }
+    },
+    {
+      "name": "blur-off",
+      "codepoint": 60110,
+      "overrides": {
+        "filled": 60109
+      }
+    },
+    {
+      "name": "bnb",
+      "codepoint": 62445,
+      "overrides": {
+        "filled": 62444
+      }
+    },
+    {
+      "name": "body-scan",
+      "codepoint": 60112,
+      "overrides": {
+        "filled": 60111
+      }
+    },
+    {
+      "name": "book",
+      "codepoint": 60119,
+      "overrides": {
+        "filled": 60118
+      }
+    },
+    {
+      "name": "book-2",
+      "codepoint": 60115,
+      "overrides": {
+        "filled": 60114
+      }
+    },
+    {
+      "name": "book-3",
+      "codepoint": 60117,
+      "overrides": {
+        "filled": 60116
+      }
+    },
+    {
+      "name": "book-ai",
+      "codepoint": 62975,
+      "overrides": {
+        "filled": 62974
+      }
+    },
+    {
+      "name": "book-marked",
+      "codepoint": 60121,
+      "overrides": {
+        "filled": 60120
+      }
+    },
+    {
+      "name": "book-open",
+      "codepoint": 60123,
+      "overrides": {
+        "filled": 60122
+      }
+    },
+    {
+      "name": "book-read",
+      "codepoint": 60125,
+      "overrides": {
+        "filled": 60124
+      }
+    },
+    {
+      "name": "book-shelf",
+      "codepoint": 62756,
+      "overrides": {
+        "filled": 62755
+      }
+    },
+    {
+      "name": "booklet",
+      "codepoint": 60127,
+      "overrides": {
+        "filled": 60126
+      }
+    },
+    {
+      "name": "bookmark",
+      "codepoint": 60133,
+      "overrides": {
+        "filled": 60132
+      }
+    },
+    {
+      "name": "bookmark-2",
+      "codepoint": 60129,
+      "overrides": {
+        "filled": 60128
+      }
+    },
+    {
+      "name": "bookmark-3",
+      "codepoint": 60131,
+      "overrides": {
+        "filled": 60130
+      }
+    },
+    {
+      "name": "bootstrap",
+      "codepoint": 62191,
+      "overrides": {
+        "filled": 62190
+      }
+    },
+    {
+      "name": "bowl",
+      "codepoint": 62506,
+      "overrides": {
+        "filled": 62505
+      }
+    },
+    {
+      "name": "box-1",
+      "codepoint": 62193,
+      "overrides": {
+        "filled": 62192
+      }
+    },
+    {
+      "name": "box-2",
+      "codepoint": 62195,
+      "overrides": {
+        "filled": 62194
+      }
+    },
+    {
+      "name": "box-3",
+      "codepoint": 62197,
+      "overrides": {
+        "filled": 62196
+      }
+    },
+    {
+      "name": "boxing",
+      "codepoint": 60135,
+      "overrides": {
+        "filled": 60134
+      }
+    },
+    {
+      "name": "braces",
+      "codepoint": 60137,
+      "overrides": {
+        "filled": 60136
+      }
+    },
+    {
+      "name": "brackets",
+      "codepoint": 60139,
+      "overrides": {
+        "filled": 60138
+      }
+    },
+    {
+      "name": "brain",
+      "codepoint": 62199,
+      "overrides": {
+        "filled": 62198
+      }
+    },
+    {
+      "name": "brain-2",
+      "codepoint": 62758,
+      "overrides": {
+        "filled": 62757
+      }
+    },
+    {
+      "name": "brain-3",
+      "codepoint": 62977,
+      "overrides": {
+        "filled": 62976
+      }
+    },
+    {
+      "name": "brain-ai-3",
+      "codepoint": 62979,
+      "overrides": {
+        "filled": 62978
+      }
+    },
+    {
+      "name": "bread",
+      "codepoint": 62447,
+      "overrides": {
+        "filled": 62446
+      }
+    },
+    {
+      "name": "briefcase",
+      "codepoint": 60149,
+      "overrides": {
+        "filled": 60148
+      }
+    },
+    {
+      "name": "briefcase-2",
+      "codepoint": 60141,
+      "overrides": {
+        "filled": 60140
+      }
+    },
+    {
+      "name": "briefcase-3",
+      "codepoint": 60143,
+      "overrides": {
+        "filled": 60142
+      }
+    },
+    {
+      "name": "briefcase-4",
+      "codepoint": 60145,
+      "overrides": {
+        "filled": 60144
+      }
+    },
+    {
+      "name": "briefcase-5",
+      "codepoint": 60147,
+      "overrides": {
+        "filled": 60146
+      }
+    },
+    {
+      "name": "broadcast",
+      "codepoint": 60153,
+      "overrides": {
+        "filled": 60152
+      }
+    },
+    {
+      "name": "brush",
+      "codepoint": 60161,
+      "overrides": {
+        "filled": 60160
+      }
+    },
+    {
+      "name": "brush-2",
+      "codepoint": 60155,
+      "overrides": {
+        "filled": 60154
+      }
+    },
+    {
+      "name": "brush-3",
+      "codepoint": 60157,
+      "overrides": {
+        "filled": 60156
+      }
+    },
+    {
+      "name": "brush-4",
+      "codepoint": 60159,
+      "overrides": {
+        "filled": 60158
+      }
+    },
+    {
+      "name": "brush-ai",
+      "codepoint": 62822,
+      "overrides": {
+        "filled": 62821
+      }
+    },
+    {
+      "name": "brush-ai-3",
+      "codepoint": 62981,
+      "overrides": {
+        "filled": 62980
+      }
+    },
+    {
+      "name": "btc",
+      "codepoint": 62449,
+      "overrides": {
+        "filled": 62448
+      }
+    },
+    {
+      "name": "bubble-chart",
+      "codepoint": 60163,
+      "overrides": {
+        "filled": 60162
+      }
+    },
+    {
+      "name": "bug",
+      "codepoint": 60167,
+      "overrides": {
+        "filled": 60166
+      }
+    },
+    {
+      "name": "bug-2",
+      "codepoint": 60165,
+      "overrides": {
+        "filled": 60164
+      }
+    },
+    {
+      "name": "building",
+      "codepoint": 60175,
+      "overrides": {
+        "filled": 60174
+      }
+    },
+    {
+      "name": "building-2",
+      "codepoint": 60169,
+      "overrides": {
+        "filled": 60168
+      }
+    },
+    {
+      "name": "building-3",
+      "codepoint": 60171,
+      "overrides": {
+        "filled": 60170
+      }
+    },
+    {
+      "name": "building-4",
+      "codepoint": 60173,
+      "overrides": {
+        "filled": 60172
+      }
+    },
+    {
+      "name": "bus",
+      "codepoint": 60179,
+      "overrides": {
+        "filled": 60178
+      }
+    },
+    {
+      "name": "bus-2",
+      "codepoint": 60177,
+      "overrides": {
+        "filled": 60176
+      }
+    },
+    {
+      "name": "bus-wifi",
+      "codepoint": 60181,
+      "overrides": {
+        "filled": 60180
+      }
+    },
+    {
+      "name": "cactus",
+      "codepoint": 60183,
+      "overrides": {
+        "filled": 60182
+      }
+    },
+    {
+      "name": "cake",
+      "codepoint": 60189,
+      "overrides": {
+        "filled": 60188
+      }
+    },
+    {
+      "name": "cake-2",
+      "codepoint": 60185,
+      "overrides": {
+        "filled": 60184
+      }
+    },
+    {
+      "name": "cake-3",
+      "codepoint": 60187,
+      "overrides": {
+        "filled": 60186
+      }
+    },
+    {
+      "name": "calculator",
+      "codepoint": 60191,
+      "overrides": {
+        "filled": 60190
+      }
+    },
+    {
+      "name": "calendar",
+      "codepoint": 60199,
+      "overrides": {
+        "filled": 60198
+      }
+    },
+    {
+      "name": "calendar-2",
+      "codepoint": 60193,
+      "overrides": {
+        "filled": 60192
+      }
+    },
+    {
+      "name": "calendar-check",
+      "codepoint": 60195,
+      "overrides": {
+        "filled": 60194
+      }
+    },
+    {
+      "name": "calendar-close",
+      "codepoint": 62350,
+      "overrides": {
+        "filled": 62349
+      }
+    },
+    {
+      "name": "calendar-event",
+      "codepoint": 60197,
+      "overrides": {
+        "filled": 60196
+      }
+    },
+    {
+      "name": "calendar-schedule",
+      "codepoint": 62451,
+      "overrides": {
+        "filled": 62450
+      }
+    },
+    {
+      "name": "calendar-todo",
+      "codepoint": 60201,
+      "overrides": {
+        "filled": 60200
+      }
+    },
+    {
+      "name": "camera",
+      "codepoint": 60209,
+      "overrides": {
+        "filled": 60206
+      }
+    },
+    {
+      "name": "camera-2",
+      "codepoint": 60203,
+      "overrides": {
+        "filled": 60202
+      }
+    },
+    {
+      "name": "camera-3",
+      "codepoint": 60205,
+      "overrides": {
+        "filled": 60204
+      }
+    },
+    {
+      "name": "camera-4",
+      "codepoint": 62983,
+      "overrides": {
+        "filled": 62982
+      }
+    },
+    {
+      "name": "camera-ai",
+      "codepoint": 62824,
+      "overrides": {
+        "filled": 62823
+      }
+    },
+    {
+      "name": "camera-ai-2",
+      "codepoint": 62985,
+      "overrides": {
+        "filled": 62984
+      }
+    },
+    {
+      "name": "camera-lens",
+      "codepoint": 60208,
+      "overrides": {
+        "filled": 60207
+      }
+    },
+    {
+      "name": "camera-lens-ai",
+      "codepoint": 62895,
+      "overrides": {
+        "filled": 62894
+      }
+    },
+    {
+      "name": "camera-off",
+      "codepoint": 60211,
+      "overrides": {
+        "filled": 60210
+      }
+    },
+    {
+      "name": "camera-switch",
+      "codepoint": 60213,
+      "overrides": {
+        "filled": 60212
+      }
+    },
+    {
+      "name": "candle",
+      "codepoint": 62201,
+      "overrides": {
+        "filled": 62200
+      }
+    },
+    {
+      "name": "capsule",
+      "codepoint": 60215,
+      "overrides": {
+        "filled": 60214
+      }
+    },
+    {
+      "name": "car",
+      "codepoint": 60217,
+      "overrides": {
+        "filled": 60216
+      }
+    },
+    {
+      "name": "car-washing",
+      "codepoint": 60219,
+      "overrides": {
+        "filled": 60218
+      }
+    },
+    {
+      "name": "caravan",
+      "codepoint": 60221,
+      "overrides": {
+        "filled": 60220
+      }
+    },
+    {
+      "name": "cash",
+      "codepoint": 62203,
+      "overrides": {
+        "filled": 62202
+      }
+    },
+    {
+      "name": "cast",
+      "codepoint": 60223,
+      "overrides": {
+        "filled": 60222
+      }
+    },
+    {
+      "name": "cellphone",
+      "codepoint": 60225,
+      "overrides": {
+        "filled": 60224
+      }
+    },
+    {
+      "name": "celsius",
+      "codepoint": 60227,
+      "overrides": {
+        "filled": 60226
+      }
+    },
+    {
+      "name": "centos",
+      "codepoint": 60229,
+      "overrides": {
+        "filled": 60228
+      }
+    },
+    {
+      "name": "character-recognition",
+      "codepoint": 60231,
+      "overrides": {
+        "filled": 60230
+      }
+    },
+    {
+      "name": "charging-pile",
+      "codepoint": 60235,
+      "overrides": {
+        "filled": 60234
+      }
+    },
+    {
+      "name": "charging-pile-2",
+      "codepoint": 60233,
+      "overrides": {
+        "filled": 60232
+      }
+    },
+    {
+      "name": "chat-1",
+      "codepoint": 60237,
+      "overrides": {
+        "filled": 60236
+      }
+    },
+    {
+      "name": "chat-2",
+      "codepoint": 60239,
+      "overrides": {
+        "filled": 60238
+      }
+    },
+    {
+      "name": "chat-3",
+      "codepoint": 60241,
+      "overrides": {
+        "filled": 60240
+      }
+    },
+    {
+      "name": "chat-4",
+      "codepoint": 60243,
+      "overrides": {
+        "filled": 60242
+      }
+    },
+    {
+      "name": "chat-ai",
+      "codepoint": 62826,
+      "overrides": {
+        "filled": 62825
+      }
+    },
+    {
+      "name": "chat-ai-2",
+      "codepoint": 62987,
+      "overrides": {
+        "filled": 62986
+      }
+    },
+    {
+      "name": "chat-ai-3",
+      "codepoint": 62989,
+      "overrides": {
+        "filled": 62988
+      }
+    },
+    {
+      "name": "chat-ai-4",
+      "codepoint": 62991,
+      "overrides": {
+        "filled": 62990
+      }
+    },
+    {
+      "name": "chat-check",
+      "codepoint": 60245,
+      "overrides": {
+        "filled": 60244
+      }
+    },
+    {
+      "name": "chat-delete",
+      "codepoint": 60247,
+      "overrides": {
+        "filled": 60246
+      }
+    },
+    {
+      "name": "chat-download",
+      "codepoint": 60249,
+      "overrides": {
+        "filled": 60248
+      }
+    },
+    {
+      "name": "chat-follow-up",
+      "codepoint": 60251,
+      "overrides": {
+        "filled": 60250
+      }
+    },
+    {
+      "name": "chat-forward",
+      "codepoint": 60253,
+      "overrides": {
+        "filled": 60252
+      }
+    },
+    {
+      "name": "chat-heart",
+      "codepoint": 60255,
+      "overrides": {
+        "filled": 60254
+      }
+    },
+    {
+      "name": "chat-history",
+      "codepoint": 60257,
+      "overrides": {
+        "filled": 60256
+      }
+    },
+    {
+      "name": "chat-new",
+      "codepoint": 60259,
+      "overrides": {
+        "filled": 60258
+      }
+    },
+    {
+      "name": "chat-off",
+      "codepoint": 60261,
+      "overrides": {
+        "filled": 60260
+      }
+    },
+    {
+      "name": "chat-poll",
+      "codepoint": 60263,
+      "overrides": {
+        "filled": 60262
+      }
+    },
+    {
+      "name": "chat-private",
+      "codepoint": 60265,
+      "overrides": {
+        "filled": 60264
+      }
+    },
+    {
+      "name": "chat-quote",
+      "codepoint": 60267,
+      "overrides": {
+        "filled": 60266
+      }
+    },
+    {
+      "name": "chat-search",
+      "codepoint": 62760,
+      "overrides": {
+        "filled": 62759
+      }
+    },
+    {
+      "name": "chat-settings",
+      "codepoint": 60269,
+      "overrides": {
+        "filled": 60268
+      }
+    },
+    {
+      "name": "chat-smile",
+      "codepoint": 60275,
+      "overrides": {
+        "filled": 60274
+      }
+    },
+    {
+      "name": "chat-smile-2",
+      "codepoint": 60271,
+      "overrides": {
+        "filled": 60270
+      }
+    },
+    {
+      "name": "chat-smile-3",
+      "codepoint": 60273,
+      "overrides": {
+        "filled": 60272
+      }
+    },
+    {
+      "name": "chat-smile-ai",
+      "codepoint": 62828,
+      "overrides": {
+        "filled": 62827
+      }
+    },
+    {
+      "name": "chat-smile-ai-3",
+      "codepoint": 62993,
+      "overrides": {
+        "filled": 62992
+      }
+    },
+    {
+      "name": "chat-thread",
+      "codepoint": 62579,
+      "overrides": {
+        "filled": 62578
+      }
+    },
+    {
+      "name": "chat-unread",
+      "codepoint": 62762,
+      "overrides": {
+        "filled": 62761
+      }
+    },
+    {
+      "name": "chat-upload",
+      "codepoint": 60277,
+      "overrides": {
+        "filled": 60276
+      }
+    },
+    {
+      "name": "chat-voice",
+      "codepoint": 60279,
+      "overrides": {
+        "filled": 60278
+      }
+    },
+    {
+      "name": "chat-voice-ai",
+      "codepoint": 62830,
+      "overrides": {
+        "filled": 62829
+      }
+    },
+    {
+      "name": "check",
+      "codepoint": 60283,
+      "overrides": {
+        "filled": 60282
+      }
+    },
+    {
+      "name": "check-double",
+      "codepoint": 60281,
+      "overrides": {
+        "filled": 60280
+      }
+    },
+    {
+      "name": "checkbox",
+      "codepoint": 60293,
+      "overrides": {
+        "filled": 60290
+      }
+    },
+    {
+      "name": "checkbox-blank",
+      "codepoint": 60287,
+      "overrides": {
+        "filled": 60286
+      }
+    },
+    {
+      "name": "checkbox-blank-circle",
+      "codepoint": 60285,
+      "overrides": {
+        "filled": 60284
+      }
+    },
+    {
+      "name": "checkbox-circle",
+      "codepoint": 60289,
+      "overrides": {
+        "filled": 60288
+      }
+    },
+    {
+      "name": "checkbox-indeterminate",
+      "codepoint": 60292,
+      "overrides": {
+        "filled": 60291
+      }
+    },
+    {
+      "name": "checkbox-multiple",
+      "codepoint": 60297,
+      "overrides": {
+        "filled": 60296
+      }
+    },
+    {
+      "name": "checkbox-multiple-blank",
+      "codepoint": 60295,
+      "overrides": {
+        "filled": 60294
+      }
+    },
+    {
+      "name": "chess",
+      "codepoint": 62946,
+      "overrides": {
+        "filled": 62945
+      }
+    },
+    {
+      "name": "china-railway",
+      "codepoint": 60299,
+      "overrides": {
+        "filled": 60298
+      }
+    },
+    {
+      "name": "chrome",
+      "codepoint": 60301,
+      "overrides": {
+        "filled": 60300
+      }
+    },
+    {
+      "name": "circle",
+      "codepoint": 62402,
+      "overrides": {
+        "filled": 62401
+      }
+    },
+    {
+      "name": "clapperboard",
+      "codepoint": 60303,
+      "overrides": {
+        "filled": 60302
+      }
+    },
+    {
+      "name": "clapperboard-ai",
+      "codepoint": 62897,
+      "overrides": {
+        "filled": 62896
+      }
+    },
+    {
+      "name": "claude",
+      "codepoint": 62899,
+      "overrides": {
+        "filled": 62898
+      }
+    },
+    {
+      "name": "clipboard",
+      "codepoint": 60305,
+      "overrides": {
+        "filled": 60304
+      }
+    },
+    {
+      "name": "clockwise",
+      "codepoint": 60309,
+      "overrides": {
+        "filled": 60308
+      }
+    },
+    {
+      "name": "clockwise-2",
+      "codepoint": 60307,
+      "overrides": {
+        "filled": 60306
+      }
+    },
+    {
+      "name": "close",
+      "codepoint": 60313,
+      "overrides": {
+        "filled": 60312
+      }
+    },
+    {
+      "name": "close-circle",
+      "codepoint": 60311,
+      "overrides": {
+        "filled": 60310
+      }
+    },
+    {
+      "name": "close-large",
+      "codepoint": 62664,
+      "overrides": {
+        "filled": 62663
+      }
+    },
+    {
+      "name": "closed-captioning",
+      "codepoint": 60315,
+      "overrides": {
+        "filled": 60314
+      }
+    },
+    {
+      "name": "closed-captioning-ai",
+      "codepoint": 62901,
+      "overrides": {
+        "filled": 62900
+      }
+    },
+    {
+      "name": "cloud",
+      "codepoint": 60317,
+      "overrides": {
+        "filled": 60316
+      }
+    },
+    {
+      "name": "cloud-off",
+      "codepoint": 60319,
+      "overrides": {
+        "filled": 60318
+      }
+    },
+    {
+      "name": "cloud-windy",
+      "codepoint": 60321,
+      "overrides": {
+        "filled": 60320
+      }
+    },
+    {
+      "name": "cloudy",
+      "codepoint": 60325,
+      "overrides": {
+        "filled": 60324
+      }
+    },
+    {
+      "name": "cloudy-2",
+      "codepoint": 60323,
+      "overrides": {
+        "filled": 60322
+      }
+    },
+    {
+      "name": "code",
+      "codepoint": 60329,
+      "overrides": {
+        "filled": 60328
+      }
+    },
+    {
+      "name": "code-ai",
+      "codepoint": 62832,
+      "overrides": {
+        "filled": 62831
+      }
+    },
+    {
+      "name": "code-box",
+      "codepoint": 60327,
+      "overrides": {
+        "filled": 60326
+      }
+    },
+    {
+      "name": "code-s",
+      "codepoint": 60331,
+      "overrides": {
+        "filled": 60330
+      }
+    },
+    {
+      "name": "code-s-slash",
+      "codepoint": 60333,
+      "overrides": {
+        "filled": 60332
+      }
+    },
+    {
+      "name": "codepen",
+      "codepoint": 60336,
+      "overrides": {
+        "filled": 60335
+      }
+    },
+    {
+      "name": "coin",
+      "codepoint": 60338,
+      "overrides": {
+        "filled": 60337
+      }
+    },
+    {
+      "name": "coins",
+      "codepoint": 60340,
+      "overrides": {
+        "filled": 60339
+      }
+    },
+    {
+      "name": "collage",
+      "codepoint": 60342,
+      "overrides": {
+        "filled": 60341
+      }
+    },
+    {
+      "name": "collapse-diagonal",
+      "codepoint": 62668,
+      "overrides": {
+        "filled": 62667
+      }
+    },
+    {
+      "name": "collapse-diagonal-2",
+      "codepoint": 62666,
+      "overrides": {
+        "filled": 62665
+      }
+    },
+    {
+      "name": "collapse-horizontal",
+      "codepoint": 62764,
+      "overrides": {
+        "filled": 62763
+      }
+    },
+    {
+      "name": "collapse-vertical",
+      "codepoint": 62766,
+      "overrides": {
+        "filled": 62765
+      }
+    },
+    {
+      "name": "color-filter",
+      "codepoint": 62511,
+      "overrides": {
+        "filled": 62510
+      }
+    },
+    {
+      "name": "color-filter-ai",
+      "codepoint": 62834,
+      "overrides": {
+        "filled": 62833
+      }
+    },
+    {
+      "name": "command",
+      "codepoint": 60344,
+      "overrides": {
+        "filled": 60343
+      }
+    },
+    {
+      "name": "community",
+      "codepoint": 60346,
+      "overrides": {
+        "filled": 60345
+      }
+    },
+    {
+      "name": "compass",
+      "codepoint": 60356,
+      "overrides": {
+        "filled": 60355
+      }
+    },
+    {
+      "name": "compass-2",
+      "codepoint": 60348,
+      "overrides": {
+        "filled": 60347
+      }
+    },
+    {
+      "name": "compass-3",
+      "codepoint": 60350,
+      "overrides": {
+        "filled": 60349
+      }
+    },
+    {
+      "name": "compass-4",
+      "codepoint": 60352,
+      "overrides": {
+        "filled": 60351
+      }
+    },
+    {
+      "name": "compass-discover",
+      "codepoint": 60354,
+      "overrides": {
+        "filled": 60353
+      }
+    },
+    {
+      "name": "compasses",
+      "codepoint": 60360,
+      "overrides": {
+        "filled": 60359
+      }
+    },
+    {
+      "name": "compasses-2",
+      "codepoint": 60358,
+      "overrides": {
+        "filled": 60357
+      }
+    },
+    {
+      "name": "computer",
+      "codepoint": 60362,
+      "overrides": {
+        "filled": 60361
+      }
+    },
+    {
+      "name": "contacts",
+      "codepoint": 60370,
+      "overrides": {
+        "filled": 60369
+      }
+    },
+    {
+      "name": "contacts-book",
+      "codepoint": 60366,
+      "overrides": {
+        "filled": 60365
+      }
+    },
+    {
+      "name": "contacts-book-2",
+      "codepoint": 60364,
+      "overrides": {
+        "filled": 60363
+      }
+    },
+    {
+      "name": "contacts-book-3",
+      "codepoint": 62513,
+      "overrides": {
+        "filled": 62512
+      }
+    },
+    {
+      "name": "contacts-book-upload",
+      "codepoint": 60368,
+      "overrides": {
+        "filled": 60367
+      }
+    },
+    {
+      "name": "contract",
+      "codepoint": 62515,
+      "overrides": {
+        "filled": 62514
+      }
+    },
+    {
+      "name": "contract-left",
+      "codepoint": 62205,
+      "overrides": {
+        "filled": 62204
+      }
+    },
+    {
+      "name": "contract-left-right",
+      "codepoint": 62207,
+      "overrides": {
+        "filled": 62206
+      }
+    },
+    {
+      "name": "contract-right",
+      "codepoint": 62209,
+      "overrides": {
+        "filled": 62208
+      }
+    },
+    {
+      "name": "contract-up-down",
+      "codepoint": 62211,
+      "overrides": {
+        "filled": 62210
+      }
+    },
+    {
+      "name": "contrast",
+      "codepoint": 60378,
+      "overrides": {
+        "filled": 60377
+      }
+    },
+    {
+      "name": "contrast-2",
+      "codepoint": 60372,
+      "overrides": {
+        "filled": 60371
+      }
+    },
+    {
+      "name": "contrast-drop",
+      "codepoint": 60376,
+      "overrides": {
+        "filled": 60375
+      }
+    },
+    {
+      "name": "contrast-drop-2",
+      "codepoint": 60374,
+      "overrides": {
+        "filled": 60373
+      }
+    },
+    {
+      "name": "copilot",
+      "codepoint": 62213,
+      "overrides": {
+        "filled": 62212
+      }
+    },
+    {
+      "name": "copper-coin",
+      "codepoint": 60380,
+      "overrides": {
+        "filled": 60379
+      }
+    },
+    {
+      "name": "copper-diamond",
+      "codepoint": 60382,
+      "overrides": {
+        "filled": 60381
+      }
+    },
+    {
+      "name": "copyleft",
+      "codepoint": 60384,
+      "overrides": {
+        "filled": 60383
+      }
+    },
+    {
+      "name": "copyright",
+      "codepoint": 60386,
+      "overrides": {
+        "filled": 60385
+      }
+    },
+    {
+      "name": "coreos",
+      "codepoint": 60388,
+      "overrides": {
+        "filled": 60387
+      }
+    },
+    {
+      "name": "corner-down-left",
+      "codepoint": 62215,
+      "overrides": {
+        "filled": 62214
+      }
+    },
+    {
+      "name": "corner-down-right",
+      "codepoint": 62217,
+      "overrides": {
+        "filled": 62216
+      }
+    },
+    {
+      "name": "corner-left-down",
+      "codepoint": 62219,
+      "overrides": {
+        "filled": 62218
+      }
+    },
+    {
+      "name": "corner-left-up",
+      "codepoint": 62221,
+      "overrides": {
+        "filled": 62220
+      }
+    },
+    {
+      "name": "corner-right-down",
+      "codepoint": 62223,
+      "overrides": {
+        "filled": 62222
+      }
+    },
+    {
+      "name": "corner-right-up",
+      "codepoint": 62225,
+      "overrides": {
+        "filled": 62224
+      }
+    },
+    {
+      "name": "corner-up-left",
+      "codepoint": 62229,
+      "overrides": {
+        "filled": 62228
+      }
+    },
+    {
+      "name": "corner-up-left-double",
+      "codepoint": 62227,
+      "overrides": {
+        "filled": 62226
+      }
+    },
+    {
+      "name": "corner-up-right",
+      "codepoint": 62233,
+      "overrides": {
+        "filled": 62232
+      }
+    },
+    {
+      "name": "corner-up-right-double",
+      "codepoint": 62231,
+      "overrides": {
+        "filled": 62230
+      }
+    },
+    {
+      "name": "coupon",
+      "codepoint": 60398,
+      "overrides": {
+        "filled": 60397
+      }
+    },
+    {
+      "name": "coupon-2",
+      "codepoint": 60390,
+      "overrides": {
+        "filled": 60389
+      }
+    },
+    {
+      "name": "coupon-3",
+      "codepoint": 60392,
+      "overrides": {
+        "filled": 60391
+      }
+    },
+    {
+      "name": "coupon-4",
+      "codepoint": 60394,
+      "overrides": {
+        "filled": 60393
+      }
+    },
+    {
+      "name": "coupon-5",
+      "codepoint": 60396,
+      "overrides": {
+        "filled": 60395
+      }
+    },
+    {
+      "name": "cpu",
+      "codepoint": 60400,
+      "overrides": {
+        "filled": 60399
+      }
+    },
+    {
+      "name": "creative-commons",
+      "codepoint": 60404,
+      "overrides": {
+        "filled": 60403
+      }
+    },
+    {
+      "name": "creative-commons-by",
+      "codepoint": 60402,
+      "overrides": {
+        "filled": 60401
+      }
+    },
+    {
+      "name": "creative-commons-nc",
+      "codepoint": 60406,
+      "overrides": {
+        "filled": 60405
+      }
+    },
+    {
+      "name": "creative-commons-nd",
+      "codepoint": 60408,
+      "overrides": {
+        "filled": 60407
+      }
+    },
+    {
+      "name": "creative-commons-sa",
+      "codepoint": 60410,
+      "overrides": {
+        "filled": 60409
+      }
+    },
+    {
+      "name": "creative-commons-zero",
+      "codepoint": 60412,
+      "overrides": {
+        "filled": 60411
+      }
+    },
+    {
+      "name": "criminal",
+      "codepoint": 60414,
+      "overrides": {
+        "filled": 60413
+      }
+    },
+    {
+      "name": "crop",
+      "codepoint": 60418,
+      "overrides": {
+        "filled": 60417
+      }
+    },
+    {
+      "name": "crop-2",
+      "codepoint": 60416,
+      "overrides": {
+        "filled": 60415
+      }
+    },
+    {
+      "name": "cross",
+      "codepoint": 62235,
+      "overrides": {
+        "filled": 62234
+      }
+    },
+    {
+      "name": "crosshair",
+      "codepoint": 62389,
+      "overrides": {
+        "filled": 62388
+      }
+    },
+    {
+      "name": "crosshair-2",
+      "codepoint": 62387,
+      "overrides": {
+        "filled": 62386
+      }
+    },
+    {
+      "name": "css3",
+      "codepoint": 60420,
+      "overrides": {
+        "filled": 60419
+      }
+    },
+    {
+      "name": "cup",
+      "codepoint": 60422,
+      "overrides": {
+        "filled": 60421
+      }
+    },
+    {
+      "name": "currency",
+      "codepoint": 60424,
+      "overrides": {
+        "filled": 60423
+      }
+    },
+    {
+      "name": "cursor",
+      "codepoint": 60426,
+      "overrides": {
+        "filled": 60425
+      }
+    },
+    {
+      "name": "customer-service",
+      "codepoint": 60430,
+      "overrides": {
+        "filled": 60429
+      }
+    },
+    {
+      "name": "customer-service-2",
+      "codepoint": 60428,
+      "overrides": {
+        "filled": 60427
+      }
+    },
+    {
+      "name": "dashboard",
+      "codepoint": 60436,
+      "overrides": {
+        "filled": 60435
+      }
+    },
+    {
+      "name": "dashboard-2",
+      "codepoint": 60432,
+      "overrides": {
+        "filled": 60431
+      }
+    },
+    {
+      "name": "dashboard-3",
+      "codepoint": 60434,
+      "overrides": {
+        "filled": 60433
+      }
+    },
+    {
+      "name": "dashboard-horizontal",
+      "codepoint": 62670,
+      "overrides": {
+        "filled": 62669
+      }
+    },
+    {
+      "name": "database",
+      "codepoint": 60440,
+      "overrides": {
+        "filled": 60439
+      }
+    },
+    {
+      "name": "database-2",
+      "codepoint": 60438,
+      "overrides": {
+        "filled": 60437
+      }
+    },
+    {
+      "name": "deepseek",
+      "codepoint": 62995,
+      "overrides": {
+        "filled": 62994
+      }
+    },
+    {
+      "name": "delete-back",
+      "codepoint": 60444,
+      "overrides": {
+        "filled": 60443
+      }
+    },
+    {
+      "name": "delete-back-2",
+      "codepoint": 60442,
+      "overrides": {
+        "filled": 60441
+      }
+    },
+    {
+      "name": "delete-bin",
+      "codepoint": 60458,
+      "overrides": {
+        "filled": 60457
+      }
+    },
+    {
+      "name": "delete-bin-2",
+      "codepoint": 60446,
+      "overrides": {
+        "filled": 60445
+      }
+    },
+    {
+      "name": "delete-bin-3",
+      "codepoint": 60448,
+      "overrides": {
+        "filled": 60447
+      }
+    },
+    {
+      "name": "delete-bin-4",
+      "codepoint": 60450,
+      "overrides": {
+        "filled": 60449
+      }
+    },
+    {
+      "name": "delete-bin-5",
+      "codepoint": 60452,
+      "overrides": {
+        "filled": 60451
+      }
+    },
+    {
+      "name": "delete-bin-6",
+      "codepoint": 60454,
+      "overrides": {
+        "filled": 60453
+      }
+    },
+    {
+      "name": "delete-bin-7",
+      "codepoint": 60456,
+      "overrides": {
+        "filled": 60455
+      }
+    },
+    {
+      "name": "device",
+      "codepoint": 60462,
+      "overrides": {
+        "filled": 60461
+      }
+    },
+    {
+      "name": "device-recover",
+      "codepoint": 60464,
+      "overrides": {
+        "filled": 60463
+      }
+    },
+    {
+      "name": "diamond",
+      "codepoint": 62948,
+      "overrides": {
+        "filled": 62947
+      }
+    },
+    {
+      "name": "diamond-ring",
+      "codepoint": 62950,
+      "overrides": {
+        "filled": 62949
+      }
+    },
+    {
+      "name": "dice",
+      "codepoint": 62465,
+      "overrides": {
+        "filled": 62464
+      }
+    },
+    {
+      "name": "dice-1",
+      "codepoint": 62453,
+      "overrides": {
+        "filled": 62452
+      }
+    },
+    {
+      "name": "dice-2",
+      "codepoint": 62455,
+      "overrides": {
+        "filled": 62454
+      }
+    },
+    {
+      "name": "dice-3",
+      "codepoint": 62457,
+      "overrides": {
+        "filled": 62456
+      }
+    },
+    {
+      "name": "dice-4",
+      "codepoint": 62459,
+      "overrides": {
+        "filled": 62458
+      }
+    },
+    {
+      "name": "dice-5",
+      "codepoint": 62461,
+      "overrides": {
+        "filled": 62460
+      }
+    },
+    {
+      "name": "dice-6",
+      "codepoint": 62463,
+      "overrides": {
+        "filled": 62462
+      }
+    },
+    {
+      "name": "dingding",
+      "codepoint": 60466,
+      "overrides": {
+        "filled": 60465
+      }
+    },
+    {
+      "name": "direction",
+      "codepoint": 60468,
+      "overrides": {
+        "filled": 60467
+      }
+    },
+    {
+      "name": "disc",
+      "codepoint": 60470,
+      "overrides": {
+        "filled": 60469
+      }
+    },
+    {
+      "name": "discord",
+      "codepoint": 60472,
+      "overrides": {
+        "filled": 60471
+      }
+    },
+    {
+      "name": "discount-percent",
+      "codepoint": 62581,
+      "overrides": {
+        "filled": 62580
+      }
+    },
+    {
+      "name": "discuss",
+      "codepoint": 60474,
+      "overrides": {
+        "filled": 60473
+      }
+    },
+    {
+      "name": "dislike",
+      "codepoint": 60476,
+      "overrides": {
+        "filled": 60475
+      }
+    },
+    {
+      "name": "disqus",
+      "codepoint": 60478,
+      "overrides": {
+        "filled": 60477
+      }
+    },
+    {
+      "name": "divide",
+      "codepoint": 60480,
+      "overrides": {
+        "filled": 60479
+      }
+    },
+    {
+      "name": "dna",
+      "codepoint": 62768,
+      "overrides": {
+        "filled": 62767
+      }
+    },
+    {
+      "name": "donut-chart",
+      "codepoint": 60482,
+      "overrides": {
+        "filled": 60481
+      }
+    },
+    {
+      "name": "door",
+      "codepoint": 60486,
+      "overrides": {
+        "filled": 60485
+      }
+    },
+    {
+      "name": "door-closed",
+      "codepoint": 60484,
+      "overrides": {
+        "filled": 60483
+      }
+    },
+    {
+      "name": "door-lock",
+      "codepoint": 60490,
+      "overrides": {
+        "filled": 60489
+      }
+    },
+    {
+      "name": "door-lock-box",
+      "codepoint": 60488,
+      "overrides": {
+        "filled": 60487
+      }
+    },
+    {
+      "name": "door-open",
+      "codepoint": 60492,
+      "overrides": {
+        "filled": 60491
+      }
+    },
+    {
+      "name": "dossier",
+      "codepoint": 60494,
+      "overrides": {
+        "filled": 60493
+      }
+    },
+    {
+      "name": "douban",
+      "codepoint": 60496,
+      "overrides": {
+        "filled": 60495
+      }
+    },
+    {
+      "name": "download",
+      "codepoint": 60506,
+      "overrides": {
+        "filled": 60505
+      }
+    },
+    {
+      "name": "download-2",
+      "codepoint": 60500,
+      "overrides": {
+        "filled": 60499
+      }
+    },
+    {
+      "name": "download-cloud",
+      "codepoint": 60504,
+      "overrides": {
+        "filled": 60503
+      }
+    },
+    {
+      "name": "download-cloud-2",
+      "codepoint": 60502,
+      "overrides": {
+        "filled": 60501
+      }
+    },
+    {
+      "name": "draft",
+      "codepoint": 60508,
+      "overrides": {
+        "filled": 60507
+      }
+    },
+    {
+      "name": "drag-drop",
+      "codepoint": 60510,
+      "overrides": {
+        "filled": 60509
+      }
+    },
+    {
+      "name": "drag-move",
+      "codepoint": 60514,
+      "overrides": {
+        "filled": 60513
+      }
+    },
+    {
+      "name": "drag-move-2",
+      "codepoint": 60512,
+      "overrides": {
+        "filled": 60511
+      }
+    },
+    {
+      "name": "dribbble",
+      "codepoint": 60516,
+      "overrides": {
+        "filled": 60515
+      }
+    },
+    {
+      "name": "drinks",
+      "codepoint": 62467,
+      "overrides": {
+        "filled": 62466
+      }
+    },
+    {
+      "name": "drinks-2",
+      "codepoint": 62517,
+      "overrides": {
+        "filled": 62516
+      }
+    },
+    {
+      "name": "drive",
+      "codepoint": 60518,
+      "overrides": {
+        "filled": 60517
+      }
+    },
+    {
+      "name": "drizzle",
+      "codepoint": 60520,
+      "overrides": {
+        "filled": 60519
+      }
+    },
+    {
+      "name": "drop",
+      "codepoint": 60522,
+      "overrides": {
+        "filled": 60521
+      }
+    },
+    {
+      "name": "dropbox",
+      "codepoint": 60524,
+      "overrides": {
+        "filled": 60523
+      }
+    },
+    {
+      "name": "dropper",
+      "codepoint": 62770,
+      "overrides": {
+        "filled": 62769
+      }
+    },
+    {
+      "name": "dual-sim-1",
+      "codepoint": 60526,
+      "overrides": {
+        "filled": 60525
+      }
+    },
+    {
+      "name": "dual-sim-2",
+      "codepoint": 60528,
+      "overrides": {
+        "filled": 60527
+      }
+    },
+    {
+      "name": "dv",
+      "codepoint": 60530,
+      "overrides": {
+        "filled": 60529
+      }
+    },
+    {
+      "name": "dvd",
+      "codepoint": 60532,
+      "overrides": {
+        "filled": 60531
+      }
+    },
+    {
+      "name": "dvd-ai",
+      "codepoint": 62903,
+      "overrides": {
+        "filled": 62902
+      }
+    },
+    {
+      "name": "e-bike",
+      "codepoint": 60536,
+      "overrides": {
+        "filled": 60535
+      }
+    },
+    {
+      "name": "e-bike-2",
+      "codepoint": 60534,
+      "overrides": {
+        "filled": 60533
+      }
+    },
+    {
+      "name": "earth",
+      "codepoint": 60538,
+      "overrides": {
+        "filled": 60537
+      }
+    },
+    {
+      "name": "earthquake",
+      "codepoint": 60540,
+      "overrides": {
+        "filled": 60539
+      }
+    },
+    {
+      "name": "edge",
+      "codepoint": 60542,
+      "overrides": {
+        "filled": 60541
+      }
+    },
+    {
+      "name": "edge-new",
+      "codepoint": 62237,
+      "overrides": {
+        "filled": 62236
+      }
+    },
+    {
+      "name": "edit",
+      "codepoint": 60550,
+      "overrides": {
+        "filled": 60549
+      }
+    },
+    {
+      "name": "edit-2",
+      "codepoint": 60544,
+      "overrides": {
+        "filled": 60543
+      }
+    },
+    {
+      "name": "edit-box",
+      "codepoint": 60546,
+      "overrides": {
+        "filled": 60545
+      }
+    },
+    {
+      "name": "edit-circle",
+      "codepoint": 60548,
+      "overrides": {
+        "filled": 60547
+      }
+    },
+    {
+      "name": "eject",
+      "codepoint": 60552,
+      "overrides": {
+        "filled": 60551
+      }
+    },
+    {
+      "name": "emoji-sticker",
+      "codepoint": 62335,
+      "overrides": {
+        "filled": 62334
+      }
+    },
+    {
+      "name": "emotion",
+      "codepoint": 60560,
+      "overrides": {
+        "filled": 60555
+      }
+    },
+    {
+      "name": "emotion-2",
+      "codepoint": 60554,
+      "overrides": {
+        "filled": 60553
+      }
+    },
+    {
+      "name": "emotion-happy",
+      "codepoint": 60557,
+      "overrides": {
+        "filled": 60556
+      }
+    },
+    {
+      "name": "emotion-laugh",
+      "codepoint": 60559,
+      "overrides": {
+        "filled": 60558
+      }
+    },
+    {
+      "name": "emotion-normal",
+      "codepoint": 60562,
+      "overrides": {
+        "filled": 60561
+      }
+    },
+    {
+      "name": "emotion-sad",
+      "codepoint": 60564,
+      "overrides": {
+        "filled": 60563
+      }
+    },
+    {
+      "name": "emotion-unhappy",
+      "codepoint": 60566,
+      "overrides": {
+        "filled": 60565
+      }
+    },
+    {
+      "name": "empathize",
+      "codepoint": 60568,
+      "overrides": {
+        "filled": 60567
+      }
+    },
+    {
+      "name": "equal",
+      "codepoint": 62239,
+      "overrides": {
+        "filled": 62238
+      }
+    },
+    {
+      "name": "equalizer",
+      "codepoint": 60573,
+      "overrides": {
+        "filled": 60572
+      }
+    },
+    {
+      "name": "equalizer-2",
+      "codepoint": 62469,
+      "overrides": {
+        "filled": 62468
+      }
+    },
+    {
+      "name": "equalizer-3",
+      "codepoint": 62471,
+      "overrides": {
+        "filled": 62470
+      }
+    },
+    {
+      "name": "eraser",
+      "codepoint": 60575,
+      "overrides": {
+        "filled": 60574
+      }
+    },
+    {
+      "name": "error-warning",
+      "codepoint": 60577,
+      "overrides": {
+        "filled": 60576
+      }
+    },
+    {
+      "name": "eth",
+      "codepoint": 62473,
+      "overrides": {
+        "filled": 62472
+      }
+    },
+    {
+      "name": "evernote",
+      "codepoint": 60579,
+      "overrides": {
+        "filled": 60578
+      }
+    },
+    {
+      "name": "exchange",
+      "codepoint": 60589,
+      "overrides": {
+        "filled": 60586
+      }
+    },
+    {
+      "name": "exchange-2",
+      "codepoint": 62583,
+      "overrides": {
+        "filled": 62582
+      }
+    },
+    {
+      "name": "exchange-box",
+      "codepoint": 60581,
+      "overrides": {
+        "filled": 60580
+      }
+    },
+    {
+      "name": "exchange-cny",
+      "codepoint": 60583,
+      "overrides": {
+        "filled": 60582
+      }
+    },
+    {
+      "name": "exchange-dollar",
+      "codepoint": 60585,
+      "overrides": {
+        "filled": 60584
+      }
+    },
+    {
+      "name": "exchange-funds",
+      "codepoint": 60588,
+      "overrides": {
+        "filled": 60587
+      }
+    },
+    {
+      "name": "expand-diagonal",
+      "codepoint": 62674,
+      "overrides": {
+        "filled": 62673
+      }
+    },
+    {
+      "name": "expand-diagonal-2",
+      "codepoint": 62672,
+      "overrides": {
+        "filled": 62671
+      }
+    },
+    {
+      "name": "expand-diagonal-s",
+      "codepoint": 62774,
+      "overrides": {
+        "filled": 62773
+      }
+    },
+    {
+      "name": "expand-diagonal-s-2",
+      "codepoint": 62772,
+      "overrides": {
+        "filled": 62771
+      }
+    },
+    {
+      "name": "expand-height",
+      "codepoint": 62620,
+      "overrides": {
+        "filled": 62619
+      }
+    },
+    {
+      "name": "expand-horizontal",
+      "codepoint": 62776,
+      "overrides": {
+        "filled": 62775
+      }
+    },
+    {
+      "name": "expand-horizontal-s",
+      "codepoint": 62778,
+      "overrides": {
+        "filled": 62777
+      }
+    },
+    {
+      "name": "expand-left",
+      "codepoint": 62241,
+      "overrides": {
+        "filled": 62240
+      }
+    },
+    {
+      "name": "expand-left-right",
+      "codepoint": 62243,
+      "overrides": {
+        "filled": 62242
+      }
+    },
+    {
+      "name": "expand-right",
+      "codepoint": 62245,
+      "overrides": {
+        "filled": 62244
+      }
+    },
+    {
+      "name": "expand-up-down",
+      "codepoint": 62247,
+      "overrides": {
+        "filled": 62246
+      }
+    },
+    {
+      "name": "expand-vertical",
+      "codepoint": 62780,
+      "overrides": {
+        "filled": 62779
+      }
+    },
+    {
+      "name": "expand-vertical-s",
+      "codepoint": 62782,
+      "overrides": {
+        "filled": 62781
+      }
+    },
+    {
+      "name": "expand-width",
+      "codepoint": 62622,
+      "overrides": {
+        "filled": 62621
+      }
+    },
+    {
+      "name": "export",
+      "codepoint": 62519,
+      "overrides": {
+        "filled": 62518
+      }
+    },
+    {
+      "name": "external-link",
+      "codepoint": 60591,
+      "overrides": {
+        "filled": 60590
+      }
+    },
+    {
+      "name": "eye",
+      "codepoint": 60597,
+      "overrides": {
+        "filled": 60596
+      }
+    },
+    {
+      "name": "eye-2",
+      "codepoint": 60593,
+      "overrides": {
+        "filled": 60592
+      }
+    },
+    {
+      "name": "eye-close",
+      "codepoint": 60595,
+      "overrides": {
+        "filled": 60594
+      }
+    },
+    {
+      "name": "eye-off",
+      "codepoint": 60599,
+      "overrides": {
+        "filled": 60598
+      }
+    },
+    {
+      "name": "facebook",
+      "codepoint": 60605,
+      "overrides": {
+        "filled": 60604
+      }
+    },
+    {
+      "name": "facebook-box",
+      "codepoint": 60601,
+      "overrides": {
+        "filled": 60600
+      }
+    },
+    {
+      "name": "facebook-circle",
+      "codepoint": 60603,
+      "overrides": {
+        "filled": 60602
+      }
+    },
+    {
+      "name": "fahrenheit",
+      "codepoint": 60607,
+      "overrides": {
+        "filled": 60606
+      }
+    },
+    {
+      "name": "fediverse",
+      "codepoint": 62837,
+      "overrides": {
+        "filled": 62836
+      }
+    },
+    {
+      "name": "feedback",
+      "codepoint": 60609,
+      "overrides": {
+        "filled": 60608
+      }
+    },
+    {
+      "name": "figma",
+      "codepoint": 62952,
+      "overrides": {
+        "filled": 62951
+      }
+    },
+    {
+      "name": "file",
+      "codepoint": 60651,
+      "overrides": {
+        "filled": 60640
+      }
+    },
+    {
+      "name": "file-2",
+      "codepoint": 60611,
+      "overrides": {
+        "filled": 60610
+      }
+    },
+    {
+      "name": "file-3",
+      "codepoint": 60613,
+      "overrides": {
+        "filled": 60612
+      }
+    },
+    {
+      "name": "file-4",
+      "codepoint": 60615,
+      "overrides": {
+        "filled": 60614
+      }
+    },
+    {
+      "name": "file-add",
+      "codepoint": 60617,
+      "overrides": {
+        "filled": 60616
+      }
+    },
+    {
+      "name": "file-ai",
+      "codepoint": 62999,
+      "overrides": {
+        "filled": 62998
+      }
+    },
+    {
+      "name": "file-ai-2",
+      "codepoint": 62997,
+      "overrides": {
+        "filled": 62996
+      }
+    },
+    {
+      "name": "file-chart",
+      "codepoint": 60621,
+      "overrides": {
+        "filled": 60620
+      }
+    },
+    {
+      "name": "file-chart-2",
+      "codepoint": 60619,
+      "overrides": {
+        "filled": 60618
+      }
+    },
+    {
+      "name": "file-check",
+      "codepoint": 62521,
+      "overrides": {
+        "filled": 62520
+      }
+    },
+    {
+      "name": "file-close",
+      "codepoint": 62391,
+      "overrides": {
+        "filled": 62390
+      }
+    },
+    {
+      "name": "file-cloud",
+      "codepoint": 60623,
+      "overrides": {
+        "filled": 60622
+      }
+    },
+    {
+      "name": "file-code",
+      "codepoint": 60625,
+      "overrides": {
+        "filled": 60624
+      }
+    },
+    {
+      "name": "file-copy",
+      "codepoint": 60629,
+      "overrides": {
+        "filled": 60628
+      }
+    },
+    {
+      "name": "file-copy-2",
+      "codepoint": 60627,
+      "overrides": {
+        "filled": 60626
+      }
+    },
+    {
+      "name": "file-damage",
+      "codepoint": 60631,
+      "overrides": {
+        "filled": 60630
+      }
+    },
+    {
+      "name": "file-download",
+      "codepoint": 60633,
+      "overrides": {
+        "filled": 60632
+      }
+    },
+    {
+      "name": "file-edit",
+      "codepoint": 60635,
+      "overrides": {
+        "filled": 60634
+      }
+    },
+    {
+      "name": "file-excel",
+      "codepoint": 60639,
+      "overrides": {
+        "filled": 60638
+      }
+    },
+    {
+      "name": "file-excel-2",
+      "codepoint": 60637,
+      "overrides": {
+        "filled": 60636
+      }
+    },
+    {
+      "name": "file-forbid",
+      "codepoint": 60642,
+      "overrides": {
+        "filled": 60641
+      }
+    },
+    {
+      "name": "file-gif",
+      "codepoint": 60644,
+      "overrides": {
+        "filled": 60643
+      }
+    },
+    {
+      "name": "file-history",
+      "codepoint": 60646,
+      "overrides": {
+        "filled": 60645
+      }
+    },
+    {
+      "name": "file-hwp",
+      "codepoint": 60648,
+      "overrides": {
+        "filled": 60647
+      }
+    },
+    {
+      "name": "file-image",
+      "codepoint": 62405,
+      "overrides": {
+        "filled": 62404
+      }
+    },
+    {
+      "name": "file-info",
+      "codepoint": 60650,
+      "overrides": {
+        "filled": 60649
+      }
+    },
+    {
+      "name": "file-list",
+      "codepoint": 60657,
+      "overrides": {
+        "filled": 60656
+      }
+    },
+    {
+      "name": "file-list-2",
+      "codepoint": 60653,
+      "overrides": {
+        "filled": 60652
+      }
+    },
+    {
+      "name": "file-list-3",
+      "codepoint": 60655,
+      "overrides": {
+        "filled": 60654
+      }
+    },
+    {
+      "name": "file-lock",
+      "codepoint": 60659,
+      "overrides": {
+        "filled": 60658
+      }
+    },
+    {
+      "name": "file-marked",
+      "codepoint": 60661,
+      "overrides": {
+        "filled": 60660
+      }
+    },
+    {
+      "name": "file-music",
+      "codepoint": 60663,
+      "overrides": {
+        "filled": 60662
+      }
+    },
+    {
+      "name": "file-paper",
+      "codepoint": 60667,
+      "overrides": {
+        "filled": 60666
+      }
+    },
+    {
+      "name": "file-paper-2",
+      "codepoint": 60665,
+      "overrides": {
+        "filled": 60664
+      }
+    },
+    {
+      "name": "file-pdf",
+      "codepoint": 60669,
+      "overrides": {
+        "filled": 60668
+      }
+    },
+    {
+      "name": "file-pdf-2",
+      "codepoint": 62407,
+      "overrides": {
+        "filled": 62406
+      }
+    },
+    {
+      "name": "file-ppt",
+      "codepoint": 60673,
+      "overrides": {
+        "filled": 60672
+      }
+    },
+    {
+      "name": "file-ppt-2",
+      "codepoint": 60671,
+      "overrides": {
+        "filled": 60670
+      }
+    },
+    {
+      "name": "file-reduce",
+      "codepoint": 60675,
+      "overrides": {
+        "filled": 60674
+      }
+    },
+    {
+      "name": "file-search",
+      "codepoint": 60677,
+      "overrides": {
+        "filled": 60676
+      }
+    },
+    {
+      "name": "file-settings",
+      "codepoint": 60679,
+      "overrides": {
+        "filled": 60678
+      }
+    },
+    {
+      "name": "file-shield",
+      "codepoint": 60683,
+      "overrides": {
+        "filled": 60682
+      }
+    },
+    {
+      "name": "file-shield-2",
+      "codepoint": 60681,
+      "overrides": {
+        "filled": 60680
+      }
+    },
+    {
+      "name": "file-shred",
+      "codepoint": 60685,
+      "overrides": {
+        "filled": 60684
+      }
+    },
+    {
+      "name": "file-text",
+      "codepoint": 60687,
+      "overrides": {
+        "filled": 60686
+      }
+    },
+    {
+      "name": "file-transfer",
+      "codepoint": 60689,
+      "overrides": {
+        "filled": 60688
+      }
+    },
+    {
+      "name": "file-unknow",
+      "codepoint": 60691,
+      "overrides": {
+        "filled": 60690
+      }
+    },
+    {
+      "name": "file-upload",
+      "codepoint": 60693,
+      "overrides": {
+        "filled": 60692
+      }
+    },
+    {
+      "name": "file-user",
+      "codepoint": 60695,
+      "overrides": {
+        "filled": 60694
+      }
+    },
+    {
+      "name": "file-video",
+      "codepoint": 62409,
+      "overrides": {
+        "filled": 62408
+      }
+    },
+    {
+      "name": "file-warning",
+      "codepoint": 60697,
+      "overrides": {
+        "filled": 60696
+      }
+    },
+    {
+      "name": "file-word",
+      "codepoint": 60701,
+      "overrides": {
+        "filled": 60700
+      }
+    },
+    {
+      "name": "file-word-2",
+      "codepoint": 60699,
+      "overrides": {
+        "filled": 60698
+      }
+    },
+    {
+      "name": "file-zip",
+      "codepoint": 60703,
+      "overrides": {
+        "filled": 60702
+      }
+    },
+    {
+      "name": "film",
+      "codepoint": 60705,
+      "overrides": {
+        "filled": 60704
+      }
+    },
+    {
+      "name": "film-ai",
+      "codepoint": 62905,
+      "overrides": {
+        "filled": 62904
+      }
+    },
+    {
+      "name": "filter",
+      "codepoint": 60711,
+      "overrides": {
+        "filled": 60710
+      }
+    },
+    {
+      "name": "filter-2",
+      "codepoint": 60707,
+      "overrides": {
+        "filled": 60706
+      }
+    },
+    {
+      "name": "filter-3",
+      "codepoint": 60709,
+      "overrides": {
+        "filled": 60708
+      }
+    },
+    {
+      "name": "filter-off",
+      "codepoint": 60713,
+      "overrides": {
+        "filled": 60712
+      }
+    },
+    {
+      "name": "find-replace",
+      "codepoint": 60715,
+      "overrides": {
+        "filled": 60714
+      }
+    },
+    {
+      "name": "finder",
+      "codepoint": 60717,
+      "overrides": {
+        "filled": 60716
+      }
+    },
+    {
+      "name": "fingerprint",
+      "codepoint": 60721,
+      "overrides": {
+        "filled": 60720
+      }
+    },
+    {
+      "name": "fingerprint-2",
+      "codepoint": 60719,
+      "overrides": {
+        "filled": 60718
+      }
+    },
+    {
+      "name": "fire",
+      "codepoint": 60723,
+      "overrides": {
+        "filled": 60722
+      }
+    },
+    {
+      "name": "firebase",
+      "codepoint": 62676,
+      "overrides": {
+        "filled": 62675
+      }
+    },
+    {
+      "name": "firefox",
+      "codepoint": 60725,
+      "overrides": {
+        "filled": 60724
+      }
+    },
+    {
+      "name": "firefox-browser",
+      "codepoint": 62954,
+      "overrides": {
+        "filled": 62953
+      }
+    },
+    {
+      "name": "first-aid-kit",
+      "codepoint": 60727,
+      "overrides": {
+        "filled": 60726
+      }
+    },
+    {
+      "name": "flag",
+      "codepoint": 60731,
+      "overrides": {
+        "filled": 60730
+      }
+    },
+    {
+      "name": "flag-2",
+      "codepoint": 60729,
+      "overrides": {
+        "filled": 60728
+      }
+    },
+    {
+      "name": "flag-off",
+      "codepoint": 62839,
+      "overrides": {
+        "filled": 62838
+      }
+    },
+    {
+      "name": "flashlight",
+      "codepoint": 60733,
+      "overrides": {
+        "filled": 60732
+      }
+    },
+    {
+      "name": "flask",
+      "codepoint": 60735,
+      "overrides": {
+        "filled": 60734
+      }
+    },
+    {
+      "name": "flickr",
+      "codepoint": 62249,
+      "overrides": {
+        "filled": 62248
+      }
+    },
+    {
+      "name": "flight-land",
+      "codepoint": 60737,
+      "overrides": {
+        "filled": 60736
+      }
+    },
+    {
+      "name": "flight-takeoff",
+      "codepoint": 60739,
+      "overrides": {
+        "filled": 60738
+      }
+    },
+    {
+      "name": "flip-horizontal",
+      "codepoint": 62680,
+      "overrides": {
+        "filled": 62679
+      }
+    },
+    {
+      "name": "flip-horizontal-2",
+      "codepoint": 62678,
+      "overrides": {
+        "filled": 62677
+      }
+    },
+    {
+      "name": "flip-vertical",
+      "codepoint": 62684,
+      "overrides": {
+        "filled": 62683
+      }
+    },
+    {
+      "name": "flip-vertical-2",
+      "codepoint": 62682,
+      "overrides": {
+        "filled": 62681
+      }
+    },
+    {
+      "name": "flood",
+      "codepoint": 60741,
+      "overrides": {
+        "filled": 60740
+      }
+    },
+    {
+      "name": "flower",
+      "codepoint": 62475,
+      "overrides": {
+        "filled": 62474
+      }
+    },
+    {
+      "name": "flutter",
+      "codepoint": 60744,
+      "overrides": {
+        "filled": 60743
+      }
+    },
+    {
+      "name": "focus",
+      "codepoint": 60750,
+      "overrides": {
+        "filled": 60749
+      }
+    },
+    {
+      "name": "focus-2",
+      "codepoint": 60746,
+      "overrides": {
+        "filled": 60745
+      }
+    },
+    {
+      "name": "focus-3",
+      "codepoint": 60748,
+      "overrides": {
+        "filled": 60747
+      }
+    },
+    {
+      "name": "foggy",
+      "codepoint": 60752,
+      "overrides": {
+        "filled": 60751
+      }
+    },
+    {
+      "name": "folder",
+      "codepoint": 60778,
+      "overrides": {
+        "filled": 60769
+      }
+    },
+    {
+      "name": "folder-2",
+      "codepoint": 60754,
+      "overrides": {
+        "filled": 60753
+      }
+    },
+    {
+      "name": "folder-3",
+      "codepoint": 60756,
+      "overrides": {
+        "filled": 60755
+      }
+    },
+    {
+      "name": "folder-4",
+      "codepoint": 60758,
+      "overrides": {
+        "filled": 60757
+      }
+    },
+    {
+      "name": "folder-5",
+      "codepoint": 60760,
+      "overrides": {
+        "filled": 60759
+      }
+    },
+    {
+      "name": "folder-6",
+      "codepoint": 62524,
+      "overrides": {
+        "filled": 62523
+      }
+    },
+    {
+      "name": "folder-add",
+      "codepoint": 60762,
+      "overrides": {
+        "filled": 60761
+      }
+    },
+    {
+      "name": "folder-chart",
+      "codepoint": 60766,
+      "overrides": {
+        "filled": 60765
+      }
+    },
+    {
+      "name": "folder-chart-2",
+      "codepoint": 60764,
+      "overrides": {
+        "filled": 60763
+      }
+    },
+    {
+      "name": "folder-check",
+      "codepoint": 62526,
+      "overrides": {
+        "filled": 62525
+      }
+    },
+    {
+      "name": "folder-close",
+      "codepoint": 62528,
+      "overrides": {
+        "filled": 62527
+      }
+    },
+    {
+      "name": "folder-cloud",
+      "codepoint": 62530,
+      "overrides": {
+        "filled": 62529
+      }
+    },
+    {
+      "name": "folder-download",
+      "codepoint": 60768,
+      "overrides": {
+        "filled": 60767
+      }
+    },
+    {
+      "name": "folder-forbid",
+      "codepoint": 60771,
+      "overrides": {
+        "filled": 60770
+      }
+    },
+    {
+      "name": "folder-history",
+      "codepoint": 60773,
+      "overrides": {
+        "filled": 60772
+      }
+    },
+    {
+      "name": "folder-image",
+      "codepoint": 62411,
+      "overrides": {
+        "filled": 62410
+      }
+    },
+    {
+      "name": "folder-info",
+      "codepoint": 60775,
+      "overrides": {
+        "filled": 60774
+      }
+    },
+    {
+      "name": "folder-keyhole",
+      "codepoint": 60777,
+      "overrides": {
+        "filled": 60776
+      }
+    },
+    {
+      "name": "folder-lock",
+      "codepoint": 60780,
+      "overrides": {
+        "filled": 60779
+      }
+    },
+    {
+      "name": "folder-music",
+      "codepoint": 60782,
+      "overrides": {
+        "filled": 60781
+      }
+    },
+    {
+      "name": "folder-open",
+      "codepoint": 60784,
+      "overrides": {
+        "filled": 60783
+      }
+    },
+    {
+      "name": "folder-received",
+      "codepoint": 60786,
+      "overrides": {
+        "filled": 60785
+      }
+    },
+    {
+      "name": "folder-reduce",
+      "codepoint": 60788,
+      "overrides": {
+        "filled": 60787
+      }
+    },
+    {
+      "name": "folder-settings",
+      "codepoint": 60790,
+      "overrides": {
+        "filled": 60789
+      }
+    },
+    {
+      "name": "folder-shared",
+      "codepoint": 60792,
+      "overrides": {
+        "filled": 60791
+      }
+    },
+    {
+      "name": "folder-shield",
+      "codepoint": 60796,
+      "overrides": {
+        "filled": 60795
+      }
+    },
+    {
+      "name": "folder-shield-2",
+      "codepoint": 60794,
+      "overrides": {
+        "filled": 60793
+      }
+    },
+    {
+      "name": "folder-transfer",
+      "codepoint": 60798,
+      "overrides": {
+        "filled": 60797
+      }
+    },
+    {
+      "name": "folder-unknow",
+      "codepoint": 60800,
+      "overrides": {
+        "filled": 60799
+      }
+    },
+    {
+      "name": "folder-upload",
+      "codepoint": 60802,
+      "overrides": {
+        "filled": 60801
+      }
+    },
+    {
+      "name": "folder-user",
+      "codepoint": 60804,
+      "overrides": {
+        "filled": 60803
+      }
+    },
+    {
+      "name": "folder-video",
+      "codepoint": 62413,
+      "overrides": {
+        "filled": 62412
+      }
+    },
+    {
+      "name": "folder-warning",
+      "codepoint": 60806,
+      "overrides": {
+        "filled": 60805
+      }
+    },
+    {
+      "name": "folder-zip",
+      "codepoint": 60808,
+      "overrides": {
+        "filled": 60807
+      }
+    },
+    {
+      "name": "folders",
+      "codepoint": 60810,
+      "overrides": {
+        "filled": 60809
+      }
+    },
+    {
+      "name": "football",
+      "codepoint": 60815,
+      "overrides": {
+        "filled": 60814
+      }
+    },
+    {
+      "name": "footprint",
+      "codepoint": 60817,
+      "overrides": {
+        "filled": 60816
+      }
+    },
+    {
+      "name": "forbid",
+      "codepoint": 60821,
+      "overrides": {
+        "filled": 60820
+      }
+    },
+    {
+      "name": "forbid-2",
+      "codepoint": 60819,
+      "overrides": {
+        "filled": 60818
+      }
+    },
+    {
+      "name": "forward-10",
+      "codepoint": 62251,
+      "overrides": {
+        "filled": 62250
+      }
+    },
+    {
+      "name": "forward-15",
+      "codepoint": 62253,
+      "overrides": {
+        "filled": 62252
+      }
+    },
+    {
+      "name": "forward-30",
+      "codepoint": 62255,
+      "overrides": {
+        "filled": 62254
+      }
+    },
+    {
+      "name": "forward-5",
+      "codepoint": 62257,
+      "overrides": {
+        "filled": 62256
+      }
+    },
+    {
+      "name": "forward-end",
+      "codepoint": 62624,
+      "overrides": {
+        "filled": 62623
+      }
+    },
+    {
+      "name": "forward-end-mini",
+      "codepoint": 62626,
+      "overrides": {
+        "filled": 62625
+      }
+    },
+    {
+      "name": "fridge",
+      "codepoint": 60824,
+      "overrides": {
+        "filled": 60823
+      }
+    },
+    {
+      "name": "friendica",
+      "codepoint": 62628,
+      "overrides": {
+        "filled": 62627
+      }
+    },
+    {
+      "name": "fullscreen",
+      "codepoint": 60828,
+      "overrides": {
+        "filled": 60827
+      }
+    },
+    {
+      "name": "fullscreen-exit",
+      "codepoint": 60826,
+      "overrides": {
+        "filled": 60825
+      }
+    },
+    {
+      "name": "function",
+      "codepoint": 60830,
+      "overrides": {
+        "filled": 60829
+      }
+    },
+    {
+      "name": "function-add",
+      "codepoint": 62687,
+      "overrides": {
+        "filled": 62686
+      }
+    },
+    {
+      "name": "function-ai",
+      "codepoint": 63001,
+      "overrides": {
+        "filled": 63000
+      }
+    },
+    {
+      "name": "funds",
+      "codepoint": 60835,
+      "overrides": {
+        "filled": 60834
+      }
+    },
+    {
+      "name": "funds-box",
+      "codepoint": 60833,
+      "overrides": {
+        "filled": 60832
+      }
+    },
+    {
+      "name": "gallery",
+      "codepoint": 60837,
+      "overrides": {
+        "filled": 60836
+      }
+    },
+    {
+      "name": "gallery-upload",
+      "codepoint": 60839,
+      "overrides": {
+        "filled": 60838
+      }
+    },
+    {
+      "name": "game",
+      "codepoint": 60841,
+      "overrides": {
+        "filled": 60840
+      }
+    },
+    {
+      "name": "game-2",
+      "codepoint": 63003,
+      "overrides": {
+        "filled": 63002
+      }
+    },
+    {
+      "name": "gamepad",
+      "codepoint": 60843,
+      "overrides": {
+        "filled": 60842
+      }
+    },
+    {
+      "name": "gas-station",
+      "codepoint": 60845,
+      "overrides": {
+        "filled": 60844
+      }
+    },
+    {
+      "name": "gatsby",
+      "codepoint": 60847,
+      "overrides": {
+        "filled": 60846
+      }
+    },
+    {
+      "name": "gemini",
+      "codepoint": 62784,
+      "overrides": {
+        "filled": 62783
+      }
+    },
+    {
+      "name": "genderless",
+      "codepoint": 60849,
+      "overrides": {
+        "filled": 60848
+      }
+    },
+    {
+      "name": "ghost",
+      "codepoint": 60853,
+      "overrides": {
+        "filled": 60852
+      }
+    },
+    {
+      "name": "ghost-2",
+      "codepoint": 60851,
+      "overrides": {
+        "filled": 60850
+      }
+    },
+    {
+      "name": "ghost-smile",
+      "codepoint": 60855,
+      "overrides": {
+        "filled": 60854
+      }
+    },
+    {
+      "name": "gift",
+      "codepoint": 60859,
+      "overrides": {
+        "filled": 60858
+      }
+    },
+    {
+      "name": "gift-2",
+      "codepoint": 60857,
+      "overrides": {
+        "filled": 60856
+      }
+    },
+    {
+      "name": "git-branch",
+      "codepoint": 60861,
+      "overrides": {
+        "filled": 60860
+      }
+    },
+    {
+      "name": "git-close-pull-request",
+      "codepoint": 62337,
+      "overrides": {
+        "filled": 62336
+      }
+    },
+    {
+      "name": "git-commit",
+      "codepoint": 60863,
+      "overrides": {
+        "filled": 60862
+      }
+    },
+    {
+      "name": "git-fork",
+      "codepoint": 62585,
+      "overrides": {
+        "filled": 62584
+      }
+    },
+    {
+      "name": "git-merge",
+      "codepoint": 60865,
+      "overrides": {
+        "filled": 60864
+      }
+    },
+    {
+      "name": "git-pr-draft",
+      "codepoint": 62630,
+      "overrides": {
+        "filled": 62629
+      }
+    },
+    {
+      "name": "git-pull-request",
+      "codepoint": 60867,
+      "overrides": {
+        "filled": 60866
+      }
+    },
+    {
+      "name": "git-repository",
+      "codepoint": 60871,
+      "overrides": {
+        "filled": 60870
+      }
+    },
+    {
+      "name": "git-repository-commits",
+      "codepoint": 60869,
+      "overrides": {
+        "filled": 60868
+      }
+    },
+    {
+      "name": "git-repository-private",
+      "codepoint": 60873,
+      "overrides": {
+        "filled": 60872
+      }
+    },
+    {
+      "name": "github",
+      "codepoint": 60875,
+      "overrides": {
+        "filled": 60874
+      }
+    },
+    {
+      "name": "gitlab",
+      "codepoint": 60877,
+      "overrides": {
+        "filled": 60876
+      }
+    },
+    {
+      "name": "glasses",
+      "codepoint": 62479,
+      "overrides": {
+        "filled": 62478
+      }
+    },
+    {
+      "name": "glasses-2",
+      "codepoint": 62477,
+      "overrides": {
+        "filled": 62476
+      }
+    },
+    {
+      "name": "global",
+      "codepoint": 60879,
+      "overrides": {
+        "filled": 60878
+      }
+    },
+    {
+      "name": "globe",
+      "codepoint": 60881,
+      "overrides": {
+        "filled": 60880
+      }
+    },
+    {
+      "name": "goblet",
+      "codepoint": 60883,
+      "overrides": {
+        "filled": 60882
+      }
+    },
+    {
+      "name": "goblet-2",
+      "codepoint": 62689,
+      "overrides": {
+        "filled": 62688
+      }
+    },
+    {
+      "name": "goblet-broken",
+      "codepoint": 63005,
+      "overrides": {
+        "filled": 63004
+      }
+    },
+    {
+      "name": "goggles",
+      "codepoint": 62481,
+      "overrides": {
+        "filled": 62480
+      }
+    },
+    {
+      "name": "golf-ball",
+      "codepoint": 62691,
+      "overrides": {
+        "filled": 62690
+      }
+    },
+    {
+      "name": "google",
+      "codepoint": 60885,
+      "overrides": {
+        "filled": 60884
+      }
+    },
+    {
+      "name": "google-play",
+      "codepoint": 60887,
+      "overrides": {
+        "filled": 60886
+      }
+    },
+    {
+      "name": "government",
+      "codepoint": 60889,
+      "overrides": {
+        "filled": 60888
+      }
+    },
+    {
+      "name": "gps",
+      "codepoint": 60891,
+      "overrides": {
+        "filled": 60890
+      }
+    },
+    {
+      "name": "gradienter",
+      "codepoint": 60893,
+      "overrides": {
+        "filled": 60892
+      }
+    },
+    {
+      "name": "graduation-cap",
+      "codepoint": 62259,
+      "overrides": {
+        "filled": 62258
+      }
+    },
+    {
+      "name": "grid",
+      "codepoint": 60895,
+      "overrides": {
+        "filled": 60894
+      }
+    },
+    {
+      "name": "group",
+      "codepoint": 60899,
+      "overrides": {
+        "filled": 60898
+      }
+    },
+    {
+      "name": "group-2",
+      "codepoint": 60897,
+      "overrides": {
+        "filled": 60896
+      }
+    },
+    {
+      "name": "group-3",
+      "codepoint": 62693,
+      "overrides": {
+        "filled": 62692
+      }
+    },
+    {
+      "name": "guide",
+      "codepoint": 60901,
+      "overrides": {
+        "filled": 60900
+      }
+    },
+    {
+      "name": "hail",
+      "codepoint": 60909,
+      "overrides": {
+        "filled": 60908
+      }
+    },
+    {
+      "name": "hammer",
+      "codepoint": 60911,
+      "overrides": {
+        "filled": 60910
+      }
+    },
+    {
+      "name": "hand-coin",
+      "codepoint": 60913,
+      "overrides": {
+        "filled": 60912
+      }
+    },
+    {
+      "name": "hand-heart",
+      "codepoint": 60915,
+      "overrides": {
+        "filled": 60914
+      }
+    },
+    {
+      "name": "hand-sanitizer",
+      "codepoint": 60917,
+      "overrides": {
+        "filled": 60916
+      }
+    },
+    {
+      "name": "handbag",
+      "codepoint": 60919,
+      "overrides": {
+        "filled": 60918
+      }
+    },
+    {
+      "name": "hard-drive",
+      "codepoint": 60923,
+      "overrides": {
+        "filled": 60922
+      }
+    },
+    {
+      "name": "hard-drive-2",
+      "codepoint": 60921,
+      "overrides": {
+        "filled": 60920
+      }
+    },
+    {
+      "name": "hard-drive-3",
+      "codepoint": 62357,
+      "overrides": {
+        "filled": 62356
+      }
+    },
+    {
+      "name": "haze",
+      "codepoint": 60928,
+      "overrides": {
+        "filled": 60927
+      }
+    },
+    {
+      "name": "haze-2",
+      "codepoint": 60926,
+      "overrides": {
+        "filled": 60925
+      }
+    },
+    {
+      "name": "hd",
+      "codepoint": 60930,
+      "overrides": {
+        "filled": 60929
+      }
+    },
+    {
+      "name": "headphone",
+      "codepoint": 60933,
+      "overrides": {
+        "filled": 60932
+      }
+    },
+    {
+      "name": "health-book",
+      "codepoint": 60935,
+      "overrides": {
+        "filled": 60934
+      }
+    },
+    {
+      "name": "heart",
+      "codepoint": 60943,
+      "overrides": {
+        "filled": 60942
+      }
+    },
+    {
+      "name": "heart-2",
+      "codepoint": 60937,
+      "overrides": {
+        "filled": 60936
+      }
+    },
+    {
+      "name": "heart-3",
+      "codepoint": 60939,
+      "overrides": {
+        "filled": 60938
+      }
+    },
+    {
+      "name": "heart-add",
+      "codepoint": 60941,
+      "overrides": {
+        "filled": 60940
+      }
+    },
+    {
+      "name": "heart-add-2",
+      "codepoint": 62695,
+      "overrides": {
+        "filled": 62694
+      }
+    },
+    {
+      "name": "heart-pulse",
+      "codepoint": 60945,
+      "overrides": {
+        "filled": 60944
+      }
+    },
+    {
+      "name": "hearts",
+      "codepoint": 60947,
+      "overrides": {
+        "filled": 60946
+      }
+    },
+    {
+      "name": "heavy-showers",
+      "codepoint": 60949,
+      "overrides": {
+        "filled": 60948
+      }
+    },
+    {
+      "name": "hexagon",
+      "codepoint": 62415,
+      "overrides": {
+        "filled": 62414
+      }
+    },
+    {
+      "name": "history",
+      "codepoint": 60951,
+      "overrides": {
+        "filled": 60950
+      }
+    },
+    {
+      "name": "home",
+      "codepoint": 60971,
+      "overrides": {
+        "filled": 60966
+      }
+    },
+    {
+      "name": "home-2",
+      "codepoint": 60953,
+      "overrides": {
+        "filled": 60952
+      }
+    },
+    {
+      "name": "home-3",
+      "codepoint": 60955,
+      "overrides": {
+        "filled": 60954
+      }
+    },
+    {
+      "name": "home-4",
+      "codepoint": 60957,
+      "overrides": {
+        "filled": 60956
+      }
+    },
+    {
+      "name": "home-5",
+      "codepoint": 60959,
+      "overrides": {
+        "filled": 60958
+      }
+    },
+    {
+      "name": "home-6",
+      "codepoint": 60961,
+      "overrides": {
+        "filled": 60960
+      }
+    },
+    {
+      "name": "home-7",
+      "codepoint": 60963,
+      "overrides": {
+        "filled": 60962
+      }
+    },
+    {
+      "name": "home-8",
+      "codepoint": 60965,
+      "overrides": {
+        "filled": 60964
+      }
+    },
+    {
+      "name": "home-9",
+      "codepoint": 62841,
+      "overrides": {
+        "filled": 62840
+      }
+    },
+    {
+      "name": "home-gear",
+      "codepoint": 60968,
+      "overrides": {
+        "filled": 60967
+      }
+    },
+    {
+      "name": "home-heart",
+      "codepoint": 60970,
+      "overrides": {
+        "filled": 60969
+      }
+    },
+    {
+      "name": "home-office",
+      "codepoint": 62261,
+      "overrides": {
+        "filled": 62260
+      }
+    },
+    {
+      "name": "home-smile",
+      "codepoint": 60975,
+      "overrides": {
+        "filled": 60974
+      }
+    },
+    {
+      "name": "home-smile-2",
+      "codepoint": 60973,
+      "overrides": {
+        "filled": 60972
+      }
+    },
+    {
+      "name": "home-wifi",
+      "codepoint": 60977,
+      "overrides": {
+        "filled": 60976
+      }
+    },
+    {
+      "name": "honor-of-kings",
+      "codepoint": 60979,
+      "overrides": {
+        "filled": 60978
+      }
+    },
+    {
+      "name": "honour",
+      "codepoint": 60981,
+      "overrides": {
+        "filled": 60980
+      }
+    },
+    {
+      "name": "hospital",
+      "codepoint": 60983,
+      "overrides": {
+        "filled": 60982
+      }
+    },
+    {
+      "name": "hotel",
+      "codepoint": 60987,
+      "overrides": {
+        "filled": 60986
+      }
+    },
+    {
+      "name": "hotel-bed",
+      "codepoint": 60985,
+      "overrides": {
+        "filled": 60984
+      }
+    },
+    {
+      "name": "hotspot",
+      "codepoint": 60989,
+      "overrides": {
+        "filled": 60988
+      }
+    },
+    {
+      "name": "hourglass",
+      "codepoint": 62265,
+      "overrides": {
+        "filled": 62264
+      }
+    },
+    {
+      "name": "hourglass-2",
+      "codepoint": 62263,
+      "overrides": {
+        "filled": 62262
+      }
+    },
+    {
+      "name": "hq",
+      "codepoint": 60991,
+      "overrides": {
+        "filled": 60990
+      }
+    },
+    {
+      "name": "html5",
+      "codepoint": 60993,
+      "overrides": {
+        "filled": 60992
+      }
+    },
+    {
+      "name": "id-card",
+      "codepoint": 62697,
+      "overrides": {
+        "filled": 62696
+      }
+    },
+    {
+      "name": "ie",
+      "codepoint": 60995,
+      "overrides": {
+        "filled": 60994
+      }
+    },
+    {
+      "name": "image",
+      "codepoint": 61003,
+      "overrides": {
+        "filled": 61002
+      }
+    },
+    {
+      "name": "image-2",
+      "codepoint": 60997,
+      "overrides": {
+        "filled": 60996
+      }
+    },
+    {
+      "name": "image-add",
+      "codepoint": 60999,
+      "overrides": {
+        "filled": 60998
+      }
+    },
+    {
+      "name": "image-ai",
+      "codepoint": 62843,
+      "overrides": {
+        "filled": 62842
+      }
+    },
+    {
+      "name": "image-circle",
+      "codepoint": 62483,
+      "overrides": {
+        "filled": 62482
+      }
+    },
+    {
+      "name": "image-circle-ai",
+      "codepoint": 62845,
+      "overrides": {
+        "filled": 62844
+      }
+    },
+    {
+      "name": "image-edit",
+      "codepoint": 61001,
+      "overrides": {
+        "filled": 61000
+      }
+    },
+    {
+      "name": "import",
+      "codepoint": 62535,
+      "overrides": {
+        "filled": 62534
+      }
+    },
+    {
+      "name": "inbox",
+      "codepoint": 61007,
+      "overrides": {
+        "filled": 61006
+      }
+    },
+    {
+      "name": "inbox-2",
+      "codepoint": 62377,
+      "overrides": {
+        "filled": 62376
+      }
+    },
+    {
+      "name": "inbox-archive",
+      "codepoint": 61005,
+      "overrides": {
+        "filled": 61004
+      }
+    },
+    {
+      "name": "inbox-unarchive",
+      "codepoint": 61009,
+      "overrides": {
+        "filled": 61008
+      }
+    },
+    {
+      "name": "increase-decrease",
+      "codepoint": 61011,
+      "overrides": {
+        "filled": 61010
+      }
+    },
+    {
+      "name": "indeterminate-circle",
+      "codepoint": 61015,
+      "overrides": {
+        "filled": 61014
+      }
+    },
+    {
+      "name": "infinity",
+      "codepoint": 62393,
+      "overrides": {
+        "filled": 62392
+      }
+    },
+    {
+      "name": "info-card",
+      "codepoint": 62847,
+      "overrides": {
+        "filled": 62846
+      }
+    },
+    {
+      "name": "information",
+      "codepoint": 61017,
+      "overrides": {
+        "filled": 61016
+      }
+    },
+    {
+      "name": "information-2",
+      "codepoint": 62537,
+      "overrides": {
+        "filled": 62536
+      }
+    },
+    {
+      "name": "information-off",
+      "codepoint": 62699,
+      "overrides": {
+        "filled": 62698
+      }
+    },
+    {
+      "name": "infrared-thermometer",
+      "codepoint": 61019,
+      "overrides": {
+        "filled": 61018
+      }
+    },
+    {
+      "name": "ink-bottle",
+      "codepoint": 61021,
+      "overrides": {
+        "filled": 61020
+      }
+    },
+    {
+      "name": "input-method",
+      "codepoint": 61024,
+      "overrides": {
+        "filled": 61023
+      }
+    },
+    {
+      "name": "instagram",
+      "codepoint": 61030,
+      "overrides": {
+        "filled": 61029
+      }
+    },
+    {
+      "name": "install",
+      "codepoint": 61032,
+      "overrides": {
+        "filled": 61031
+      }
+    },
+    {
+      "name": "instance",
+      "codepoint": 62339,
+      "overrides": {
+        "filled": 62338
+      }
+    },
+    {
+      "name": "invision",
+      "codepoint": 61034,
+      "overrides": {
+        "filled": 61033
+      }
+    },
+    {
+      "name": "java",
+      "codepoint": 62701,
+      "overrides": {
+        "filled": 62700
+      }
+    },
+    {
+      "name": "javascript",
+      "codepoint": 62267,
+      "overrides": {
+        "filled": 62266
+      }
+    },
+    {
+      "name": "jewelry",
+      "codepoint": 62956,
+      "overrides": {
+        "filled": 62955
+      }
+    },
+    {
+      "name": "kakao-talk",
+      "codepoint": 61037,
+      "overrides": {
+        "filled": 61036
+      }
+    },
+    {
+      "name": "key",
+      "codepoint": 61041,
+      "overrides": {
+        "filled": 61040
+      }
+    },
+    {
+      "name": "key-2",
+      "codepoint": 61039,
+      "overrides": {
+        "filled": 61038
+      }
+    },
+    {
+      "name": "keyboard",
+      "codepoint": 61045,
+      "overrides": {
+        "filled": 61044
+      }
+    },
+    {
+      "name": "keyboard-box",
+      "codepoint": 61043,
+      "overrides": {
+        "filled": 61042
+      }
+    },
+    {
+      "name": "keynote",
+      "codepoint": 61047,
+      "overrides": {
+        "filled": 61046
+      }
+    },
+    {
+      "name": "kick",
+      "codepoint": 62359,
+      "overrides": {
+        "filled": 62358
+      }
+    },
+    {
+      "name": "knife",
+      "codepoint": 61051,
+      "overrides": {
+        "filled": 61050
+      }
+    },
+    {
+      "name": "knife-blood",
+      "codepoint": 61049,
+      "overrides": {
+        "filled": 61048
+      }
+    },
+    {
+      "name": "landscape",
+      "codepoint": 61053,
+      "overrides": {
+        "filled": 61052
+      }
+    },
+    {
+      "name": "landscape-ai",
+      "codepoint": 62849,
+      "overrides": {
+        "filled": 62848
+      }
+    },
+    {
+      "name": "layout",
+      "codepoint": 61077,
+      "overrides": {
+        "filled": 61070
+      }
+    },
+    {
+      "name": "layout-2",
+      "codepoint": 61055,
+      "overrides": {
+        "filled": 61054
+      }
+    },
+    {
+      "name": "layout-3",
+      "codepoint": 61057,
+      "overrides": {
+        "filled": 61056
+      }
+    },
+    {
+      "name": "layout-4",
+      "codepoint": 61059,
+      "overrides": {
+        "filled": 61058
+      }
+    },
+    {
+      "name": "layout-5",
+      "codepoint": 61061,
+      "overrides": {
+        "filled": 61060
+      }
+    },
+    {
+      "name": "layout-6",
+      "codepoint": 61063,
+      "overrides": {
+        "filled": 61062
+      }
+    },
+    {
+      "name": "layout-bottom",
+      "codepoint": 61067,
+      "overrides": {
+        "filled": 61066
+      }
+    },
+    {
+      "name": "layout-bottom-2",
+      "codepoint": 61065,
+      "overrides": {
+        "filled": 61064
+      }
+    },
+    {
+      "name": "layout-column",
+      "codepoint": 61069,
+      "overrides": {
+        "filled": 61068
+      }
+    },
+    {
+      "name": "layout-grid",
+      "codepoint": 61072,
+      "overrides": {
+        "filled": 61071
+      }
+    },
+    {
+      "name": "layout-grid-2",
+      "codepoint": 62703,
+      "overrides": {
+        "filled": 62702
+      }
+    },
+    {
+      "name": "layout-horizontal",
+      "codepoint": 62705,
+      "overrides": {
+        "filled": 62704
+      }
+    },
+    {
+      "name": "layout-left",
+      "codepoint": 61076,
+      "overrides": {
+        "filled": 61075
+      }
+    },
+    {
+      "name": "layout-left-2",
+      "codepoint": 61074,
+      "overrides": {
+        "filled": 61073
+      }
+    },
+    {
+      "name": "layout-masonry",
+      "codepoint": 61079,
+      "overrides": {
+        "filled": 61078
+      }
+    },
+    {
+      "name": "layout-right",
+      "codepoint": 61083,
+      "overrides": {
+        "filled": 61082
+      }
+    },
+    {
+      "name": "layout-right-2",
+      "codepoint": 61081,
+      "overrides": {
+        "filled": 61080
+      }
+    },
+    {
+      "name": "layout-row",
+      "codepoint": 61085,
+      "overrides": {
+        "filled": 61084
+      }
+    },
+    {
+      "name": "layout-top",
+      "codepoint": 61089,
+      "overrides": {
+        "filled": 61088
+      }
+    },
+    {
+      "name": "layout-top-2",
+      "codepoint": 61087,
+      "overrides": {
+        "filled": 61086
+      }
+    },
+    {
+      "name": "layout-vertical",
+      "codepoint": 62707,
+      "overrides": {
+        "filled": 62706
+      }
+    },
+    {
+      "name": "leaf",
+      "codepoint": 61091,
+      "overrides": {
+        "filled": 61090
+      }
+    },
+    {
+      "name": "lifebuoy",
+      "codepoint": 61093,
+      "overrides": {
+        "filled": 61092
+      }
+    },
+    {
+      "name": "lightbulb",
+      "codepoint": 61097,
+      "overrides": {
+        "filled": 61094
+      }
+    },
+    {
+      "name": "lightbulb-ai",
+      "codepoint": 63007,
+      "overrides": {
+        "filled": 63006
+      }
+    },
+    {
+      "name": "lightbulb-flash",
+      "codepoint": 61096,
+      "overrides": {
+        "filled": 61095
+      }
+    },
+    {
+      "name": "line",
+      "codepoint": 61102,
+      "overrides": {
+        "filled": 61100
+      }
+    },
+    {
+      "name": "line-chart",
+      "codepoint": 61099,
+      "overrides": {
+        "filled": 61098
+      }
+    },
+    {
+      "name": "linkedin",
+      "codepoint": 61110,
+      "overrides": {
+        "filled": 61109
+      }
+    },
+    {
+      "name": "linkedin-box",
+      "codepoint": 61108,
+      "overrides": {
+        "filled": 61107
+      }
+    },
+    {
+      "name": "links",
+      "codepoint": 61112,
+      "overrides": {
+        "filled": 61111
+      }
+    },
+    {
+      "name": "list-settings",
+      "codepoint": 61117,
+      "overrides": {
+        "filled": 61116
+      }
+    },
+    {
+      "name": "live",
+      "codepoint": 61120,
+      "overrides": {
+        "filled": 61119
+      }
+    },
+    {
+      "name": "loader",
+      "codepoint": 61130,
+      "overrides": {
+        "filled": 61129
+      }
+    },
+    {
+      "name": "loader-2",
+      "codepoint": 61122,
+      "overrides": {
+        "filled": 61121
+      }
+    },
+    {
+      "name": "loader-3",
+      "codepoint": 61124,
+      "overrides": {
+        "filled": 61123
+      }
+    },
+    {
+      "name": "loader-4",
+      "codepoint": 61126,
+      "overrides": {
+        "filled": 61125
+      }
+    },
+    {
+      "name": "loader-5",
+      "codepoint": 61128,
+      "overrides": {
+        "filled": 61127
+      }
+    },
+    {
+      "name": "lock",
+      "codepoint": 61134,
+      "overrides": {
+        "filled": 61133
+      }
+    },
+    {
+      "name": "lock-2",
+      "codepoint": 61132,
+      "overrides": {
+        "filled": 61131
+      }
+    },
+    {
+      "name": "lock-password",
+      "codepoint": 61136,
+      "overrides": {
+        "filled": 61135
+      }
+    },
+    {
+      "name": "lock-star",
+      "codepoint": 62542,
+      "overrides": {
+        "filled": 62541
+      }
+    },
+    {
+      "name": "lock-unlock",
+      "codepoint": 61138,
+      "overrides": {
+        "filled": 61137
+      }
+    },
+    {
+      "name": "login-box",
+      "codepoint": 61140,
+      "overrides": {
+        "filled": 61139
+      }
+    },
+    {
+      "name": "login-circle",
+      "codepoint": 61142,
+      "overrides": {
+        "filled": 61141
+      }
+    },
+    {
+      "name": "logout-box",
+      "codepoint": 61144,
+      "overrides": {
+        "filled": 61143
+      }
+    },
+    {
+      "name": "logout-box-r",
+      "codepoint": 61146,
+      "overrides": {
+        "filled": 61145
+      }
+    },
+    {
+      "name": "logout-circle",
+      "codepoint": 61148,
+      "overrides": {
+        "filled": 61147
+      }
+    },
+    {
+      "name": "logout-circle-r",
+      "codepoint": 61150,
+      "overrides": {
+        "filled": 61149
+      }
+    },
+    {
+      "name": "loop-left",
+      "codepoint": 62269,
+      "overrides": {
+        "filled": 62268
+      }
+    },
+    {
+      "name": "loop-left-ai",
+      "codepoint": 63009,
+      "overrides": {
+        "filled": 63008
+      }
+    },
+    {
+      "name": "loop-right",
+      "codepoint": 62271,
+      "overrides": {
+        "filled": 62270
+      }
+    },
+    {
+      "name": "loop-right-ai",
+      "codepoint": 63011,
+      "overrides": {
+        "filled": 63010
+      }
+    },
+    {
+      "name": "luggage-cart",
+      "codepoint": 61152,
+      "overrides": {
+        "filled": 61151
+      }
+    },
+    {
+      "name": "luggage-deposit",
+      "codepoint": 61154,
+      "overrides": {
+        "filled": 61153
+      }
+    },
+    {
+      "name": "lungs",
+      "codepoint": 61156,
+      "overrides": {
+        "filled": 61155
+      }
+    },
+    {
+      "name": "mac",
+      "codepoint": 61158,
+      "overrides": {
+        "filled": 61157
+      }
+    },
+    {
+      "name": "macbook",
+      "codepoint": 61160,
+      "overrides": {
+        "filled": 61159
+      }
+    },
+    {
+      "name": "magic",
+      "codepoint": 61162,
+      "overrides": {
+        "filled": 61161
+      }
+    },
+    {
+      "name": "mail",
+      "codepoint": 61174,
+      "overrides": {
+        "filled": 61171
+      }
+    },
+    {
+      "name": "mail-add",
+      "codepoint": 61164,
+      "overrides": {
+        "filled": 61163
+      }
+    },
+    {
+      "name": "mail-ai",
+      "codepoint": 62853,
+      "overrides": {
+        "filled": 62852
+      }
+    },
+    {
+      "name": "mail-check",
+      "codepoint": 61166,
+      "overrides": {
+        "filled": 61165
+      }
+    },
+    {
+      "name": "mail-close",
+      "codepoint": 61168,
+      "overrides": {
+        "filled": 61167
+      }
+    },
+    {
+      "name": "mail-download",
+      "codepoint": 61170,
+      "overrides": {
+        "filled": 61169
+      }
+    },
+    {
+      "name": "mail-forbid",
+      "codepoint": 61173,
+      "overrides": {
+        "filled": 61172
+      }
+    },
+    {
+      "name": "mail-lock",
+      "codepoint": 61176,
+      "overrides": {
+        "filled": 61175
+      }
+    },
+    {
+      "name": "mail-open",
+      "codepoint": 61178,
+      "overrides": {
+        "filled": 61177
+      }
+    },
+    {
+      "name": "mail-send",
+      "codepoint": 61180,
+      "overrides": {
+        "filled": 61179
+      }
+    },
+    {
+      "name": "mail-settings",
+      "codepoint": 61182,
+      "overrides": {
+        "filled": 61181
+      }
+    },
+    {
+      "name": "mail-star",
+      "codepoint": 61184,
+      "overrides": {
+        "filled": 61183
+      }
+    },
+    {
+      "name": "mail-unread",
+      "codepoint": 61186,
+      "overrides": {
+        "filled": 61185
+      }
+    },
+    {
+      "name": "mail-volume",
+      "codepoint": 61188,
+      "overrides": {
+        "filled": 61187
+      }
+    },
+    {
+      "name": "map",
+      "codepoint": 61192,
+      "overrides": {
+        "filled": 61191
+      }
+    },
+    {
+      "name": "map-2",
+      "codepoint": 61190,
+      "overrides": {
+        "filled": 61189
+      }
+    },
+    {
+      "name": "map-pin",
+      "codepoint": 61204,
+      "overrides": {
+        "filled": 61203
+      }
+    },
+    {
+      "name": "map-pin-2",
+      "codepoint": 61194,
+      "overrides": {
+        "filled": 61193
+      }
+    },
+    {
+      "name": "map-pin-3",
+      "codepoint": 61196,
+      "overrides": {
+        "filled": 61195
+      }
+    },
+    {
+      "name": "map-pin-4",
+      "codepoint": 61198,
+      "overrides": {
+        "filled": 61197
+      }
+    },
+    {
+      "name": "map-pin-5",
+      "codepoint": 61200,
+      "overrides": {
+        "filled": 61199
+      }
+    },
+    {
+      "name": "map-pin-add",
+      "codepoint": 61202,
+      "overrides": {
+        "filled": 61201
+      }
+    },
+    {
+      "name": "map-pin-range",
+      "codepoint": 61206,
+      "overrides": {
+        "filled": 61205
+      }
+    },
+    {
+      "name": "map-pin-time",
+      "codepoint": 61208,
+      "overrides": {
+        "filled": 61207
+      }
+    },
+    {
+      "name": "map-pin-user",
+      "codepoint": 61210,
+      "overrides": {
+        "filled": 61209
+      }
+    },
+    {
+      "name": "mark-pen",
+      "codepoint": 61212,
+      "overrides": {
+        "filled": 61211
+      }
+    },
+    {
+      "name": "markdown",
+      "codepoint": 61214,
+      "overrides": {
+        "filled": 61213
+      }
+    },
+    {
+      "name": "markup",
+      "codepoint": 61216,
+      "overrides": {
+        "filled": 61215
+      }
+    },
+    {
+      "name": "mastercard",
+      "codepoint": 61218,
+      "overrides": {
+        "filled": 61217
+      }
+    },
+    {
+      "name": "mastodon",
+      "codepoint": 61220,
+      "overrides": {
+        "filled": 61219
+      }
+    },
+    {
+      "name": "medal",
+      "codepoint": 61224,
+      "overrides": {
+        "filled": 61223
+      }
+    },
+    {
+      "name": "medal-2",
+      "codepoint": 61222,
+      "overrides": {
+        "filled": 61221
+      }
+    },
+    {
+      "name": "medicine-bottle",
+      "codepoint": 61226,
+      "overrides": {
+        "filled": 61225
+      }
+    },
+    {
+      "name": "medium",
+      "codepoint": 61228,
+      "overrides": {
+        "filled": 61227
+      }
+    },
+    {
+      "name": "megaphone",
+      "codepoint": 62341,
+      "overrides": {
+        "filled": 62340
+      }
+    },
+    {
+      "name": "memories",
+      "codepoint": 62273,
+      "overrides": {
+        "filled": 62272
+      }
+    },
+    {
+      "name": "men",
+      "codepoint": 61230,
+      "overrides": {
+        "filled": 61229
+      }
+    },
+    {
+      "name": "mental-health",
+      "codepoint": 61232,
+      "overrides": {
+        "filled": 61231
+      }
+    },
+    {
+      "name": "menu",
+      "codepoint": 61246,
+      "overrides": {
+        "filled": 61243
+      }
+    },
+    {
+      "name": "menu-2",
+      "codepoint": 61234,
+      "overrides": {
+        "filled": 61233
+      }
+    },
+    {
+      "name": "menu-3",
+      "codepoint": 61236,
+      "overrides": {
+        "filled": 61235
+      }
+    },
+    {
+      "name": "menu-4",
+      "codepoint": 61238,
+      "overrides": {
+        "filled": 61237
+      }
+    },
+    {
+      "name": "menu-5",
+      "codepoint": 61240,
+      "overrides": {
+        "filled": 61239
+      }
+    },
+    {
+      "name": "menu-add",
+      "codepoint": 61242,
+      "overrides": {
+        "filled": 61241
+      }
+    },
+    {
+      "name": "menu-fold",
+      "codepoint": 61245,
+      "overrides": {
+        "filled": 61244
+      }
+    },
+    {
+      "name": "menu-fold-2",
+      "codepoint": 62709,
+      "overrides": {
+        "filled": 62708
+      }
+    },
+    {
+      "name": "menu-fold-3",
+      "codepoint": 62711,
+      "overrides": {
+        "filled": 62710
+      }
+    },
+    {
+      "name": "menu-fold-4",
+      "codepoint": 62713,
+      "overrides": {
+        "filled": 62712
+      }
+    },
+    {
+      "name": "menu-search",
+      "codepoint": 62417,
+      "overrides": {
+        "filled": 62416
+      }
+    },
+    {
+      "name": "menu-unfold",
+      "codepoint": 61248,
+      "overrides": {
+        "filled": 61247
+      }
+    },
+    {
+      "name": "menu-unfold-2",
+      "codepoint": 62715,
+      "overrides": {
+        "filled": 62714
+      }
+    },
+    {
+      "name": "menu-unfold-3",
+      "codepoint": 62717,
+      "overrides": {
+        "filled": 62716
+      }
+    },
+    {
+      "name": "menu-unfold-4",
+      "codepoint": 62719,
+      "overrides": {
+        "filled": 62718
+      }
+    },
+    {
+      "name": "message",
+      "codepoint": 61256,
+      "overrides": {
+        "filled": 61255
+      }
+    },
+    {
+      "name": "message-2",
+      "codepoint": 61252,
+      "overrides": {
+        "filled": 61251
+      }
+    },
+    {
+      "name": "message-3",
+      "codepoint": 61254,
+      "overrides": {
+        "filled": 61253
+      }
+    },
+    {
+      "name": "message-ai-3",
+      "codepoint": 63013,
+      "overrides": {
+        "filled": 63012
+      }
+    },
+    {
+      "name": "messenger",
+      "codepoint": 61258,
+      "overrides": {
+        "filled": 61257
+      }
+    },
+    {
+      "name": "meta",
+      "codepoint": 62275,
+      "overrides": {
+        "filled": 62274
+      }
+    },
+    {
+      "name": "meteor",
+      "codepoint": 61260,
+      "overrides": {
+        "filled": 61259
+      }
+    },
+    {
+      "name": "mic",
+      "codepoint": 61264,
+      "overrides": {
+        "filled": 61263
+      }
+    },
+    {
+      "name": "mic-2",
+      "codepoint": 61262,
+      "overrides": {
+        "filled": 61261
+      }
+    },
+    {
+      "name": "mic-2-ai",
+      "codepoint": 62855,
+      "overrides": {
+        "filled": 62854
+      }
+    },
+    {
+      "name": "mic-ai",
+      "codepoint": 62857,
+      "overrides": {
+        "filled": 62856
+      }
+    },
+    {
+      "name": "mic-off",
+      "codepoint": 61266,
+      "overrides": {
+        "filled": 61265
+      }
+    },
+    {
+      "name": "mickey",
+      "codepoint": 61268,
+      "overrides": {
+        "filled": 61267
+      }
+    },
+    {
+      "name": "microscope",
+      "codepoint": 61270,
+      "overrides": {
+        "filled": 61269
+      }
+    },
+    {
+      "name": "microsoft",
+      "codepoint": 61272,
+      "overrides": {
+        "filled": 61271
+      }
+    },
+    {
+      "name": "microsoft-loop",
+      "codepoint": 62277,
+      "overrides": {
+        "filled": 62276
+      }
+    },
+    {
+      "name": "mini-program",
+      "codepoint": 61275,
+      "overrides": {
+        "filled": 61274
+      }
+    },
+    {
+      "name": "mist",
+      "codepoint": 61277,
+      "overrides": {
+        "filled": 61276
+      }
+    },
+    {
+      "name": "mixtral",
+      "codepoint": 62908,
+      "overrides": {
+        "filled": 62907
+      }
+    },
+    {
+      "name": "mobile-download",
+      "codepoint": 62721,
+      "overrides": {
+        "filled": 62720
+      }
+    },
+    {
+      "name": "money-cny-box",
+      "codepoint": 61279,
+      "overrides": {
+        "filled": 61278
+      }
+    },
+    {
+      "name": "money-cny-circle",
+      "codepoint": 61281,
+      "overrides": {
+        "filled": 61280
+      }
+    },
+    {
+      "name": "money-dollar-box",
+      "codepoint": 61283,
+      "overrides": {
+        "filled": 61282
+      }
+    },
+    {
+      "name": "money-dollar-circle",
+      "codepoint": 61285,
+      "overrides": {
+        "filled": 61284
+      }
+    },
+    {
+      "name": "money-euro-box",
+      "codepoint": 61287,
+      "overrides": {
+        "filled": 61286
+      }
+    },
+    {
+      "name": "money-euro-circle",
+      "codepoint": 61289,
+      "overrides": {
+        "filled": 61288
+      }
+    },
+    {
+      "name": "money-pound-box",
+      "codepoint": 61291,
+      "overrides": {
+        "filled": 61290
+      }
+    },
+    {
+      "name": "money-pound-circle",
+      "codepoint": 61293,
+      "overrides": {
+        "filled": 61292
+      }
+    },
+    {
+      "name": "money-rupee-circle",
+      "codepoint": 62486,
+      "overrides": {
+        "filled": 62485
+      }
+    },
+    {
+      "name": "moon",
+      "codepoint": 61301,
+      "overrides": {
+        "filled": 61298
+      }
+    },
+    {
+      "name": "moon-clear",
+      "codepoint": 61295,
+      "overrides": {
+        "filled": 61294
+      }
+    },
+    {
+      "name": "moon-cloudy",
+      "codepoint": 61297,
+      "overrides": {
+        "filled": 61296
+      }
+    },
+    {
+      "name": "moon-foggy",
+      "codepoint": 61300,
+      "overrides": {
+        "filled": 61299
+      }
+    },
+    {
+      "name": "more",
+      "codepoint": 61305,
+      "overrides": {
+        "filled": 61304
+      }
+    },
+    {
+      "name": "more-2",
+      "codepoint": 61303,
+      "overrides": {
+        "filled": 61302
+      }
+    },
+    {
+      "name": "motorbike",
+      "codepoint": 61307,
+      "overrides": {
+        "filled": 61306
+      }
+    },
+    {
+      "name": "mouse",
+      "codepoint": 61309,
+      "overrides": {
+        "filled": 61308
+      }
+    },
+    {
+      "name": "movie",
+      "codepoint": 61313,
+      "overrides": {
+        "filled": 61312
+      }
+    },
+    {
+      "name": "movie-2",
+      "codepoint": 61311,
+      "overrides": {
+        "filled": 61310
+      }
+    },
+    {
+      "name": "movie-2-ai",
+      "codepoint": 62910,
+      "overrides": {
+        "filled": 62909
+      }
+    },
+    {
+      "name": "movie-ai",
+      "codepoint": 62859,
+      "overrides": {
+        "filled": 62858
+      }
+    },
+    {
+      "name": "multi-image",
+      "codepoint": 62958,
+      "overrides": {
+        "filled": 62957
+      }
+    },
+    {
+      "name": "music",
+      "codepoint": 61317,
+      "overrides": {
+        "filled": 61316
+      }
+    },
+    {
+      "name": "music-2",
+      "codepoint": 61315,
+      "overrides": {
+        "filled": 61314
+      }
+    },
+    {
+      "name": "music-ai",
+      "codepoint": 62861,
+      "overrides": {
+        "filled": 62860
+      }
+    },
+    {
+      "name": "mv",
+      "codepoint": 61319,
+      "overrides": {
+        "filled": 61318
+      }
+    },
+    {
+      "name": "mv-ai",
+      "codepoint": 62912,
+      "overrides": {
+        "filled": 62911
+      }
+    },
+    {
+      "name": "navigation",
+      "codepoint": 61321,
+      "overrides": {
+        "filled": 61320
+      }
+    },
+    {
+      "name": "netease-cloud-music",
+      "codepoint": 61323,
+      "overrides": {
+        "filled": 61322
+      }
+    },
+    {
+      "name": "netflix",
+      "codepoint": 61325,
+      "overrides": {
+        "filled": 61324
+      }
+    },
+    {
+      "name": "news",
+      "codepoint": 62488,
+      "overrides": {
+        "filled": 62487
+      }
+    },
+    {
+      "name": "newspaper",
+      "codepoint": 61327,
+      "overrides": {
+        "filled": 61326
+      }
+    },
+    {
+      "name": "nextjs",
+      "codepoint": 62723,
+      "overrides": {
+        "filled": 62722
+      }
+    },
+    {
+      "name": "nft",
+      "codepoint": 62279,
+      "overrides": {
+        "filled": 62278
+      }
+    },
+    {
+      "name": "no-credit-card",
+      "codepoint": 62960,
+      "overrides": {
+        "filled": 62959
+      }
+    },
+    {
+      "name": "nodejs",
+      "codepoint": 62725,
+      "overrides": {
+        "filled": 62724
+      }
+    },
+    {
+      "name": "notification",
+      "codepoint": 61338,
+      "overrides": {
+        "filled": 61337
+      }
+    },
+    {
+      "name": "notification-2",
+      "codepoint": 61330,
+      "overrides": {
+        "filled": 61329
+      }
+    },
+    {
+      "name": "notification-3",
+      "codepoint": 61332,
+      "overrides": {
+        "filled": 61331
+      }
+    },
+    {
+      "name": "notification-4",
+      "codepoint": 61334,
+      "overrides": {
+        "filled": 61333
+      }
+    },
+    {
+      "name": "notification-badge",
+      "codepoint": 61336,
+      "overrides": {
+        "filled": 61335
+      }
+    },
+    {
+      "name": "notification-off",
+      "codepoint": 61340,
+      "overrides": {
+        "filled": 61339
+      }
+    },
+    {
+      "name": "notification-snooze",
+      "codepoint": 62863,
+      "overrides": {
+        "filled": 62862
+      }
+    },
+    {
+      "name": "notion",
+      "codepoint": 62281,
+      "overrides": {
+        "filled": 62280
+      }
+    },
+    {
+      "name": "npmjs",
+      "codepoint": 61342,
+      "overrides": {
+        "filled": 61341
+      }
+    },
+    {
+      "name": "numbers",
+      "codepoint": 61354,
+      "overrides": {
+        "filled": 61353
+      }
+    },
+    {
+      "name": "nurse",
+      "codepoint": 61356,
+      "overrides": {
+        "filled": 61355
+      }
+    },
+    {
+      "name": "octagon",
+      "codepoint": 62419,
+      "overrides": {
+        "filled": 62418
+      }
+    },
+    {
+      "name": "oil",
+      "codepoint": 61358,
+      "overrides": {
+        "filled": 61357
+      }
+    },
+    {
+      "name": "open-arm",
+      "codepoint": 61361,
+      "overrides": {
+        "filled": 61360
+      }
+    },
+    {
+      "name": "open-source",
+      "codepoint": 61363,
+      "overrides": {
+        "filled": 61362
+      }
+    },
+    {
+      "name": "openai",
+      "codepoint": 62283,
+      "overrides": {
+        "filled": 62282
+      }
+    },
+    {
+      "name": "openbase",
+      "codepoint": 62365,
+      "overrides": {
+        "filled": 62364
+      }
+    },
+    {
+      "name": "opera",
+      "codepoint": 61365,
+      "overrides": {
+        "filled": 61364
+      }
+    },
+    {
+      "name": "order-play",
+      "codepoint": 61367,
+      "overrides": {
+        "filled": 61366
+      }
+    },
+    {
+      "name": "outlet",
+      "codepoint": 61372,
+      "overrides": {
+        "filled": 61371
+      }
+    },
+    {
+      "name": "outlet-2",
+      "codepoint": 61370,
+      "overrides": {
+        "filled": 61369
+      }
+    },
+    {
+      "name": "p2p",
+      "codepoint": 62286,
+      "overrides": {
+        "filled": 62285
+      }
+    },
+    {
+      "name": "pages",
+      "codepoint": 61375,
+      "overrides": {
+        "filled": 61374
+      }
+    },
+    {
+      "name": "paint",
+      "codepoint": 61379,
+      "overrides": {
+        "filled": 61378
+      }
+    },
+    {
+      "name": "paint-brush",
+      "codepoint": 61377,
+      "overrides": {
+        "filled": 61376
+      }
+    },
+    {
+      "name": "painting",
+      "codepoint": 63017,
+      "overrides": {
+        "filled": 63016
+      }
+    },
+    {
+      "name": "painting-ai",
+      "codepoint": 63015,
+      "overrides": {
+        "filled": 63014
+      }
+    },
+    {
+      "name": "palette",
+      "codepoint": 61381,
+      "overrides": {
+        "filled": 61380
+      }
+    },
+    {
+      "name": "pantone",
+      "codepoint": 61383,
+      "overrides": {
+        "filled": 61382
+      }
+    },
+    {
+      "name": "parent",
+      "codepoint": 61386,
+      "overrides": {
+        "filled": 61385
+      }
+    },
+    {
+      "name": "parentheses",
+      "codepoint": 61388,
+      "overrides": {
+        "filled": 61387
+      }
+    },
+    {
+      "name": "parking",
+      "codepoint": 61392,
+      "overrides": {
+        "filled": 61391
+      }
+    },
+    {
+      "name": "parking-box",
+      "codepoint": 61390,
+      "overrides": {
+        "filled": 61389
+      }
+    },
+    {
+      "name": "pass-expired",
+      "codepoint": 62343,
+      "overrides": {
+        "filled": 62342
+      }
+    },
+    {
+      "name": "pass-pending",
+      "codepoint": 62345,
+      "overrides": {
+        "filled": 62344
+      }
+    },
+    {
+      "name": "pass-valid",
+      "codepoint": 62347,
+      "overrides": {
+        "filled": 62346
+      }
+    },
+    {
+      "name": "passport",
+      "codepoint": 61394,
+      "overrides": {
+        "filled": 61393
+      }
+    },
+    {
+      "name": "patreon",
+      "codepoint": 61396,
+      "overrides": {
+        "filled": 61395
+      }
+    },
+    {
+      "name": "pause",
+      "codepoint": 61400,
+      "overrides": {
+        "filled": 61399
+      }
+    },
+    {
+      "name": "pause-circle",
+      "codepoint": 61398,
+      "overrides": {
+        "filled": 61397
+      }
+    },
+    {
+      "name": "pause-large",
+      "codepoint": 62727,
+      "overrides": {
+        "filled": 62726
+      }
+    },
+    {
+      "name": "pause-mini",
+      "codepoint": 61402,
+      "overrides": {
+        "filled": 61401
+      }
+    },
+    {
+      "name": "paypal",
+      "codepoint": 61404,
+      "overrides": {
+        "filled": 61403
+      }
+    },
+    {
+      "name": "pen-nib",
+      "codepoint": 61406,
+      "overrides": {
+        "filled": 61405
+      }
+    },
+    {
+      "name": "pencil",
+      "codepoint": 61408,
+      "overrides": {
+        "filled": 61407
+      }
+    },
+    {
+      "name": "pencil-ai",
+      "codepoint": 63021,
+      "overrides": {
+        "filled": 63020
+      }
+    },
+    {
+      "name": "pencil-ai-2",
+      "codepoint": 63019,
+      "overrides": {
+        "filled": 63018
+      }
+    },
+    {
+      "name": "pencil-ruler",
+      "codepoint": 61412,
+      "overrides": {
+        "filled": 61411
+      }
+    },
+    {
+      "name": "pencil-ruler-2",
+      "codepoint": 61410,
+      "overrides": {
+        "filled": 61409
+      }
+    },
+    {
+      "name": "pentagon",
+      "codepoint": 62421,
+      "overrides": {
+        "filled": 62420
+      }
+    },
+    {
+      "name": "percent",
+      "codepoint": 61414,
+      "overrides": {
+        "filled": 61413
+      }
+    },
+    {
+      "name": "perplexity",
+      "codepoint": 62914,
+      "overrides": {
+        "filled": 62913
+      }
+    },
+    {
+      "name": "phone",
+      "codepoint": 61420,
+      "overrides": {
+        "filled": 61417
+      }
+    },
+    {
+      "name": "phone-camera",
+      "codepoint": 61416,
+      "overrides": {
+        "filled": 61415
+      }
+    },
+    {
+      "name": "phone-find",
+      "codepoint": 61419,
+      "overrides": {
+        "filled": 61418
+      }
+    },
+    {
+      "name": "phone-lock",
+      "codepoint": 61422,
+      "overrides": {
+        "filled": 61421
+      }
+    },
+    {
+      "name": "php",
+      "codepoint": 62865,
+      "overrides": {
+        "filled": 62864
+      }
+    },
+    {
+      "name": "picture-in-picture",
+      "codepoint": 61428,
+      "overrides": {
+        "filled": 61427
+      }
+    },
+    {
+      "name": "picture-in-picture-2",
+      "codepoint": 61424,
+      "overrides": {
+        "filled": 61423
+      }
+    },
+    {
+      "name": "picture-in-picture-exit",
+      "codepoint": 61426,
+      "overrides": {
+        "filled": 61425
+      }
+    },
+    {
+      "name": "pie-chart",
+      "codepoint": 61434,
+      "overrides": {
+        "filled": 61433
+      }
+    },
+    {
+      "name": "pie-chart-2",
+      "codepoint": 61430,
+      "overrides": {
+        "filled": 61429
+      }
+    },
+    {
+      "name": "pie-chart-box",
+      "codepoint": 61432,
+      "overrides": {
+        "filled": 61431
+      }
+    },
+    {
+      "name": "pin-distance",
+      "codepoint": 61436,
+      "overrides": {
+        "filled": 61435
+      }
+    },
+    {
+      "name": "ping-pong",
+      "codepoint": 61438,
+      "overrides": {
+        "filled": 61437
+      }
+    },
+    {
+      "name": "pinterest",
+      "codepoint": 61440,
+      "overrides": {
+        "filled": 61439
+      }
+    },
+    {
+      "name": "pix",
+      "codepoint": 62867,
+      "overrides": {
+        "filled": 62866
+      }
+    },
+    {
+      "name": "pixelfed",
+      "codepoint": 61443,
+      "overrides": {
+        "filled": 61442
+      }
+    },
+    {
+      "name": "plane",
+      "codepoint": 61445,
+      "overrides": {
+        "filled": 61444
+      }
+    },
+    {
+      "name": "planet",
+      "codepoint": 62367,
+      "overrides": {
+        "filled": 62366
+      }
+    },
+    {
+      "name": "plant",
+      "codepoint": 61447,
+      "overrides": {
+        "filled": 61446
+      }
+    },
+    {
+      "name": "play",
+      "codepoint": 61451,
+      "overrides": {
+        "filled": 61450
+      }
+    },
+    {
+      "name": "play-circle",
+      "codepoint": 61449,
+      "overrides": {
+        "filled": 61448
+      }
+    },
+    {
+      "name": "play-large",
+      "codepoint": 62729,
+      "overrides": {
+        "filled": 62728
+      }
+    },
+    {
+      "name": "play-list",
+      "codepoint": 61457,
+      "overrides": {
+        "filled": 61456
+      }
+    },
+    {
+      "name": "play-list-2",
+      "codepoint": 61453,
+      "overrides": {
+        "filled": 61452
+      }
+    },
+    {
+      "name": "play-list-add",
+      "codepoint": 61455,
+      "overrides": {
+        "filled": 61454
+      }
+    },
+    {
+      "name": "play-mini",
+      "codepoint": 61459,
+      "overrides": {
+        "filled": 61458
+      }
+    },
+    {
+      "name": "play-reverse",
+      "codepoint": 62632,
+      "overrides": {
+        "filled": 62631
+      }
+    },
+    {
+      "name": "play-reverse-large",
+      "codepoint": 62731,
+      "overrides": {
+        "filled": 62730
+      }
+    },
+    {
+      "name": "play-reverse-mini",
+      "codepoint": 62634,
+      "overrides": {
+        "filled": 62633
+      }
+    },
+    {
+      "name": "playstation",
+      "codepoint": 61461,
+      "overrides": {
+        "filled": 61460
+      }
+    },
+    {
+      "name": "plug",
+      "codepoint": 61465,
+      "overrides": {
+        "filled": 61464
+      }
+    },
+    {
+      "name": "plug-2",
+      "codepoint": 61463,
+      "overrides": {
+        "filled": 61462
+      }
+    },
+    {
+      "name": "poker-clubs",
+      "codepoint": 62916,
+      "overrides": {
+        "filled": 62915
+      }
+    },
+    {
+      "name": "poker-diamonds",
+      "codepoint": 62918,
+      "overrides": {
+        "filled": 62917
+      }
+    },
+    {
+      "name": "poker-hearts",
+      "codepoint": 62920,
+      "overrides": {
+        "filled": 62919
+      }
+    },
+    {
+      "name": "poker-spades",
+      "codepoint": 62922,
+      "overrides": {
+        "filled": 62921
+      }
+    },
+    {
+      "name": "polaroid",
+      "codepoint": 61469,
+      "overrides": {
+        "filled": 61468
+      }
+    },
+    {
+      "name": "polaroid-2",
+      "codepoint": 61467,
+      "overrides": {
+        "filled": 61466
+      }
+    },
+    {
+      "name": "police-badge",
+      "codepoint": 62733,
+      "overrides": {
+        "filled": 62732
+      }
+    },
+    {
+      "name": "police-car",
+      "codepoint": 61471,
+      "overrides": {
+        "filled": 61470
+      }
+    },
+    {
+      "name": "presentation",
+      "codepoint": 62288,
+      "overrides": {
+        "filled": 62287
+      }
+    },
+    {
+      "name": "price-tag",
+      "codepoint": 61477,
+      "overrides": {
+        "filled": 61476
+      }
+    },
+    {
+      "name": "price-tag-2",
+      "codepoint": 61473,
+      "overrides": {
+        "filled": 61472
+      }
+    },
+    {
+      "name": "price-tag-3",
+      "codepoint": 61475,
+      "overrides": {
+        "filled": 61474
+      }
+    },
+    {
+      "name": "printer",
+      "codepoint": 61481,
+      "overrides": {
+        "filled": 61480
+      }
+    },
+    {
+      "name": "printer-cloud",
+      "codepoint": 61479,
+      "overrides": {
+        "filled": 61478
+      }
+    },
+    {
+      "name": "product-hunt",
+      "codepoint": 61483,
+      "overrides": {
+        "filled": 61482
+      }
+    },
+    {
+      "name": "profile",
+      "codepoint": 61485,
+      "overrides": {
+        "filled": 61484
+      }
+    },
+    {
+      "name": "progress-1",
+      "codepoint": 62588,
+      "overrides": {
+        "filled": 62587
+      }
+    },
+    {
+      "name": "progress-2",
+      "codepoint": 62590,
+      "overrides": {
+        "filled": 62589
+      }
+    },
+    {
+      "name": "progress-3",
+      "codepoint": 62592,
+      "overrides": {
+        "filled": 62591
+      }
+    },
+    {
+      "name": "progress-4",
+      "codepoint": 62594,
+      "overrides": {
+        "filled": 62593
+      }
+    },
+    {
+      "name": "progress-5",
+      "codepoint": 62596,
+      "overrides": {
+        "filled": 62595
+      }
+    },
+    {
+      "name": "progress-6",
+      "codepoint": 62598,
+      "overrides": {
+        "filled": 62597
+      }
+    },
+    {
+      "name": "progress-7",
+      "codepoint": 62600,
+      "overrides": {
+        "filled": 62599
+      }
+    },
+    {
+      "name": "progress-8",
+      "codepoint": 62602,
+      "overrides": {
+        "filled": 62601
+      }
+    },
+    {
+      "name": "prohibited",
+      "codepoint": 62369,
+      "overrides": {
+        "filled": 62368
+      }
+    },
+    {
+      "name": "prohibited-2",
+      "codepoint": 62735,
+      "overrides": {
+        "filled": 62734
+      }
+    },
+    {
+      "name": "projector",
+      "codepoint": 61489,
+      "overrides": {
+        "filled": 61488
+      }
+    },
+    {
+      "name": "projector-2",
+      "codepoint": 61487,
+      "overrides": {
+        "filled": 61486
+      }
+    },
+    {
+      "name": "psychotherapy",
+      "codepoint": 61491,
+      "overrides": {
+        "filled": 61490
+      }
+    },
+    {
+      "name": "pulse",
+      "codepoint": 61493,
+      "overrides": {
+        "filled": 61492
+      }
+    },
+    {
+      "name": "pulse-ai",
+      "codepoint": 62869,
+      "overrides": {
+        "filled": 62868
+      }
+    },
+    {
+      "name": "pushpin",
+      "codepoint": 61497,
+      "overrides": {
+        "filled": 61496
+      }
+    },
+    {
+      "name": "pushpin-2",
+      "codepoint": 61495,
+      "overrides": {
+        "filled": 61494
+      }
+    },
+    {
+      "name": "puzzle",
+      "codepoint": 62546,
+      "overrides": {
+        "filled": 62545
+      }
+    },
+    {
+      "name": "puzzle-2",
+      "codepoint": 62544,
+      "overrides": {
+        "filled": 62543
+      }
+    },
+    {
+      "name": "qq",
+      "codepoint": 61499,
+      "overrides": {
+        "filled": 61498
+      }
+    },
+    {
+      "name": "qr-code",
+      "codepoint": 61501,
+      "overrides": {
+        "filled": 61500
+      }
+    },
+    {
+      "name": "qr-scan",
+      "codepoint": 61505,
+      "overrides": {
+        "filled": 61504
+      }
+    },
+    {
+      "name": "qr-scan-2",
+      "codepoint": 61503,
+      "overrides": {
+        "filled": 61502
+      }
+    },
+    {
+      "name": "question",
+      "codepoint": 61509,
+      "overrides": {
+        "filled": 61508
+      }
+    },
+    {
+      "name": "question-answer",
+      "codepoint": 61507,
+      "overrides": {
+        "filled": 61506
+      }
+    },
+    {
+      "name": "questionnaire",
+      "codepoint": 61512,
+      "overrides": {
+        "filled": 61511
+      }
+    },
+    {
+      "name": "quill-pen",
+      "codepoint": 61514,
+      "overrides": {
+        "filled": 61513
+      }
+    },
+    {
+      "name": "quill-pen-ai",
+      "codepoint": 62871,
+      "overrides": {
+        "filled": 62870
+      }
+    },
+    {
+      "name": "radar",
+      "codepoint": 61516,
+      "overrides": {
+        "filled": 61515
+      }
+    },
+    {
+      "name": "radio",
+      "codepoint": 61522,
+      "overrides": {
+        "filled": 61521
+      }
+    },
+    {
+      "name": "radio-2",
+      "codepoint": 61518,
+      "overrides": {
+        "filled": 61517
+      }
+    },
+    {
+      "name": "radio-button",
+      "codepoint": 61520,
+      "overrides": {
+        "filled": 61519
+      }
+    },
+    {
+      "name": "rainbow",
+      "codepoint": 61524,
+      "overrides": {
+        "filled": 61523
+      }
+    },
+    {
+      "name": "rainy",
+      "codepoint": 61526,
+      "overrides": {
+        "filled": 61525
+      }
+    },
+    {
+      "name": "ram",
+      "codepoint": 62550,
+      "overrides": {
+        "filled": 62549
+      }
+    },
+    {
+      "name": "ram-2",
+      "codepoint": 62548,
+      "overrides": {
+        "filled": 62547
+      }
+    },
+    {
+      "name": "reactjs",
+      "codepoint": 61528,
+      "overrides": {
+        "filled": 61527
+      }
+    },
+    {
+      "name": "receipt",
+      "codepoint": 62552,
+      "overrides": {
+        "filled": 62551
+      }
+    },
+    {
+      "name": "record-circle",
+      "codepoint": 61530,
+      "overrides": {
+        "filled": 61529
+      }
+    },
+    {
+      "name": "record-mail",
+      "codepoint": 61532,
+      "overrides": {
+        "filled": 61531
+      }
+    },
+    {
+      "name": "rectangle",
+      "codepoint": 62423,
+      "overrides": {
+        "filled": 62422
+      }
+    },
+    {
+      "name": "recycle",
+      "codepoint": 61534,
+      "overrides": {
+        "filled": 61533
+      }
+    },
+    {
+      "name": "red-packet",
+      "codepoint": 61536,
+      "overrides": {
+        "filled": 61535
+      }
+    },
+    {
+      "name": "reddit",
+      "codepoint": 61538,
+      "overrides": {
+        "filled": 61537
+      }
+    },
+    {
+      "name": "refresh",
+      "codepoint": 61540,
+      "overrides": {
+        "filled": 61539
+      }
+    },
+    {
+      "name": "refund",
+      "codepoint": 61544,
+      "overrides": {
+        "filled": 61543
+      }
+    },
+    {
+      "name": "refund-2",
+      "codepoint": 61542,
+      "overrides": {
+        "filled": 61541
+      }
+    },
+    {
+      "name": "registered",
+      "codepoint": 61546,
+      "overrides": {
+        "filled": 61545
+      }
+    },
+    {
+      "name": "remix",
+      "codepoint": 63023,
+      "overrides": {
+        "filled": 63022
+      }
+    },
+    {
+      "name": "remix-run",
+      "codepoint": 62604,
+      "overrides": {
+        "filled": 62603
+      }
+    },
+    {
+      "name": "remixicon",
+      "codepoint": 61548,
+      "overrides": {
+        "filled": 61547
+      }
+    },
+    {
+      "name": "remote-control",
+      "codepoint": 61552,
+      "overrides": {
+        "filled": 61551
+      }
+    },
+    {
+      "name": "remote-control-2",
+      "codepoint": 61550,
+      "overrides": {
+        "filled": 61549
+      }
+    },
+    {
+      "name": "repeat",
+      "codepoint": 61556,
+      "overrides": {
+        "filled": 61555
+      }
+    },
+    {
+      "name": "repeat-2",
+      "codepoint": 61554,
+      "overrides": {
+        "filled": 61553
+      }
+    },
+    {
+      "name": "repeat-one",
+      "codepoint": 61558,
+      "overrides": {
+        "filled": 61557
+      }
+    },
+    {
+      "name": "replay-10",
+      "codepoint": 62290,
+      "overrides": {
+        "filled": 62289
+      }
+    },
+    {
+      "name": "replay-15",
+      "codepoint": 62292,
+      "overrides": {
+        "filled": 62291
+      }
+    },
+    {
+      "name": "replay-30",
+      "codepoint": 62294,
+      "overrides": {
+        "filled": 62293
+      }
+    },
+    {
+      "name": "replay-5",
+      "codepoint": 62296,
+      "overrides": {
+        "filled": 62295
+      }
+    },
+    {
+      "name": "reply",
+      "codepoint": 61562,
+      "overrides": {
+        "filled": 61561
+      }
+    },
+    {
+      "name": "reply-all",
+      "codepoint": 61560,
+      "overrides": {
+        "filled": 61559
+      }
+    },
+    {
+      "name": "reserved",
+      "codepoint": 61564,
+      "overrides": {
+        "filled": 61563
+      }
+    },
+    {
+      "name": "reset-left",
+      "codepoint": 62786,
+      "overrides": {
+        "filled": 62785
+      }
+    },
+    {
+      "name": "reset-right",
+      "codepoint": 62788,
+      "overrides": {
+        "filled": 62787
+      }
+    },
+    {
+      "name": "rest-time",
+      "codepoint": 61566,
+      "overrides": {
+        "filled": 61565
+      }
+    },
+    {
+      "name": "restart",
+      "codepoint": 61568,
+      "overrides": {
+        "filled": 61567
+      }
+    },
+    {
+      "name": "restaurant",
+      "codepoint": 61572,
+      "overrides": {
+        "filled": 61571
+      }
+    },
+    {
+      "name": "restaurant-2",
+      "codepoint": 61570,
+      "overrides": {
+        "filled": 61569
+      }
+    },
+    {
+      "name": "rewind",
+      "codepoint": 61574,
+      "overrides": {
+        "filled": 61573
+      }
+    },
+    {
+      "name": "rewind-mini",
+      "codepoint": 61576,
+      "overrides": {
+        "filled": 61575
+      }
+    },
+    {
+      "name": "rewind-start",
+      "codepoint": 62636,
+      "overrides": {
+        "filled": 62635
+      }
+    },
+    {
+      "name": "rewind-start-mini",
+      "codepoint": 62638,
+      "overrides": {
+        "filled": 62637
+      }
+    },
+    {
+      "name": "rfid",
+      "codepoint": 62395,
+      "overrides": {
+        "filled": 62394
+      }
+    },
+    {
+      "name": "rhythm",
+      "codepoint": 61578,
+      "overrides": {
+        "filled": 61577
+      }
+    },
+    {
+      "name": "riding",
+      "codepoint": 61580,
+      "overrides": {
+        "filled": 61579
+      }
+    },
+    {
+      "name": "road-map",
+      "codepoint": 61582,
+      "overrides": {
+        "filled": 61581
+      }
+    },
+    {
+      "name": "roadster",
+      "codepoint": 61584,
+      "overrides": {
+        "filled": 61583
+      }
+    },
+    {
+      "name": "robot",
+      "codepoint": 61586,
+      "overrides": {
+        "filled": 61585
+      }
+    },
+    {
+      "name": "robot-2",
+      "codepoint": 62425,
+      "overrides": {
+        "filled": 62424
+      }
+    },
+    {
+      "name": "robot-3",
+      "codepoint": 62490,
+      "overrides": {
+        "filled": 62489
+      }
+    },
+    {
+      "name": "rocket",
+      "codepoint": 61590,
+      "overrides": {
+        "filled": 61589
+      }
+    },
+    {
+      "name": "rocket-2",
+      "codepoint": 61588,
+      "overrides": {
+        "filled": 61587
+      }
+    },
+    {
+      "name": "rotate-lock",
+      "codepoint": 61592,
+      "overrides": {
+        "filled": 61591
+      }
+    },
+    {
+      "name": "route",
+      "codepoint": 61595,
+      "overrides": {
+        "filled": 61594
+      }
+    },
+    {
+      "name": "router",
+      "codepoint": 61597,
+      "overrides": {
+        "filled": 61596
+      }
+    },
+    {
+      "name": "rss",
+      "codepoint": 61599,
+      "overrides": {
+        "filled": 61598
+      }
+    },
+    {
+      "name": "ruler",
+      "codepoint": 61603,
+      "overrides": {
+        "filled": 61602
+      }
+    },
+    {
+      "name": "ruler-2",
+      "codepoint": 61601,
+      "overrides": {
+        "filled": 61600
+      }
+    },
+    {
+      "name": "run",
+      "codepoint": 61605,
+      "overrides": {
+        "filled": 61604
+      }
+    },
+    {
+      "name": "safari",
+      "codepoint": 61607,
+      "overrides": {
+        "filled": 61606
+      }
+    },
+    {
+      "name": "safe",
+      "codepoint": 61611,
+      "overrides": {
+        "filled": 61610
+      }
+    },
+    {
+      "name": "safe-2",
+      "codepoint": 61609,
+      "overrides": {
+        "filled": 61608
+      }
+    },
+    {
+      "name": "safe-3",
+      "codepoint": 62924,
+      "overrides": {
+        "filled": 62923
+      }
+    },
+    {
+      "name": "sailboat",
+      "codepoint": 61613,
+      "overrides": {
+        "filled": 61612
+      }
+    },
+    {
+      "name": "save",
+      "codepoint": 61619,
+      "overrides": {
+        "filled": 61618
+      }
+    },
+    {
+      "name": "save-2",
+      "codepoint": 61615,
+      "overrides": {
+        "filled": 61614
+      }
+    },
+    {
+      "name": "save-3",
+      "codepoint": 61617,
+      "overrides": {
+        "filled": 61616
+      }
+    },
+    {
+      "name": "scales",
+      "codepoint": 61625,
+      "overrides": {
+        "filled": 61624
+      }
+    },
+    {
+      "name": "scales-2",
+      "codepoint": 61621,
+      "overrides": {
+        "filled": 61620
+      }
+    },
+    {
+      "name": "scales-3",
+      "codepoint": 61623,
+      "overrides": {
+        "filled": 61622
+      }
+    },
+    {
+      "name": "scan",
+      "codepoint": 61629,
+      "overrides": {
+        "filled": 61628
+      }
+    },
+    {
+      "name": "scan-2",
+      "codepoint": 61627,
+      "overrides": {
+        "filled": 61626
+      }
+    },
+    {
+      "name": "school",
+      "codepoint": 62298,
+      "overrides": {
+        "filled": 62297
+      }
+    },
+    {
+      "name": "scissors",
+      "codepoint": 61635,
+      "overrides": {
+        "filled": 61634
+      }
+    },
+    {
+      "name": "scissors-2",
+      "codepoint": 61631,
+      "overrides": {
+        "filled": 61630
+      }
+    },
+    {
+      "name": "scissors-cut",
+      "codepoint": 61633,
+      "overrides": {
+        "filled": 61632
+      }
+    },
+    {
+      "name": "screenshot",
+      "codepoint": 61639,
+      "overrides": {
+        "filled": 61638
+      }
+    },
+    {
+      "name": "screenshot-2",
+      "codepoint": 61637,
+      "overrides": {
+        "filled": 61636
+      }
+    },
+    {
+      "name": "scroll-to-bottom",
+      "codepoint": 62640,
+      "overrides": {
+        "filled": 62639
+      }
+    },
+    {
+      "name": "sd-card",
+      "codepoint": 61641,
+      "overrides": {
+        "filled": 61640
+      }
+    },
+    {
+      "name": "sd-card-mini",
+      "codepoint": 61643,
+      "overrides": {
+        "filled": 61642
+      }
+    },
+    {
+      "name": "search",
+      "codepoint": 61649,
+      "overrides": {
+        "filled": 61648
+      }
+    },
+    {
+      "name": "search-2",
+      "codepoint": 61645,
+      "overrides": {
+        "filled": 61644
+      }
+    },
+    {
+      "name": "search-ai",
+      "codepoint": 63031,
+      "overrides": {
+        "filled": 63030
+      }
+    },
+    {
+      "name": "search-ai-2",
+      "codepoint": 63025,
+      "overrides": {
+        "filled": 63024
+      }
+    },
+    {
+      "name": "search-ai-3",
+      "codepoint": 63027,
+      "overrides": {
+        "filled": 63026
+      }
+    },
+    {
+      "name": "search-ai-4",
+      "codepoint": 63029,
+      "overrides": {
+        "filled": 63028
+      }
+    },
+    {
+      "name": "search-eye",
+      "codepoint": 61647,
+      "overrides": {
+        "filled": 61646
+      }
+    },
+    {
+      "name": "secure-payment",
+      "codepoint": 61651,
+      "overrides": {
+        "filled": 61650
+      }
+    },
+    {
+      "name": "seedling",
+      "codepoint": 61653,
+      "overrides": {
+        "filled": 61652
+      }
+    },
+    {
+      "name": "send-plane",
+      "codepoint": 61658,
+      "overrides": {
+        "filled": 61657
+      }
+    },
+    {
+      "name": "send-plane-2",
+      "codepoint": 61656,
+      "overrides": {
+        "filled": 61655
+      }
+    },
+    {
+      "name": "sensor",
+      "codepoint": 61661,
+      "overrides": {
+        "filled": 61660
+      }
+    },
+    {
+      "name": "seo",
+      "codepoint": 62372,
+      "overrides": {
+        "filled": 62371
+      }
+    },
+    {
+      "name": "server",
+      "codepoint": 61664,
+      "overrides": {
+        "filled": 61663
+      }
+    },
+    {
+      "name": "service",
+      "codepoint": 61666,
+      "overrides": {
+        "filled": 61665
+      }
+    },
+    {
+      "name": "service-bell",
+      "codepoint": 62962,
+      "overrides": {
+        "filled": 62961
+      }
+    },
+    {
+      "name": "settings",
+      "codepoint": 61678,
+      "overrides": {
+        "filled": 61677
+      }
+    },
+    {
+      "name": "settings-2",
+      "codepoint": 61668,
+      "overrides": {
+        "filled": 61667
+      }
+    },
+    {
+      "name": "settings-3",
+      "codepoint": 61670,
+      "overrides": {
+        "filled": 61669
+      }
+    },
+    {
+      "name": "settings-4",
+      "codepoint": 61672,
+      "overrides": {
+        "filled": 61671
+      }
+    },
+    {
+      "name": "settings-5",
+      "codepoint": 61674,
+      "overrides": {
+        "filled": 61673
+      }
+    },
+    {
+      "name": "settings-6",
+      "codepoint": 61676,
+      "overrides": {
+        "filled": 61675
+      }
+    },
+    {
+      "name": "shadow",
+      "codepoint": 62554,
+      "overrides": {
+        "filled": 62553
+      }
+    },
+    {
+      "name": "shake-hands",
+      "codepoint": 62379,
+      "overrides": {
+        "filled": 62378
+      }
+    },
+    {
+      "name": "shape",
+      "codepoint": 61682,
+      "overrides": {
+        "filled": 61681
+      }
+    },
+    {
+      "name": "shape-2",
+      "codepoint": 61680,
+      "overrides": {
+        "filled": 61679
+      }
+    },
+    {
+      "name": "shapes",
+      "codepoint": 62427,
+      "overrides": {
+        "filled": 62426
+      }
+    },
+    {
+      "name": "share",
+      "codepoint": 61694,
+      "overrides": {
+        "filled": 61687
+      }
+    },
+    {
+      "name": "share-2",
+      "codepoint": 62492,
+      "overrides": {
+        "filled": 62491
+      }
+    },
+    {
+      "name": "share-box",
+      "codepoint": 61684,
+      "overrides": {
+        "filled": 61683
+      }
+    },
+    {
+      "name": "share-circle",
+      "codepoint": 61686,
+      "overrides": {
+        "filled": 61685
+      }
+    },
+    {
+      "name": "share-forward",
+      "codepoint": 61693,
+      "overrides": {
+        "filled": 61692
+      }
+    },
+    {
+      "name": "share-forward-2",
+      "codepoint": 61689,
+      "overrides": {
+        "filled": 61688
+      }
+    },
+    {
+      "name": "share-forward-box",
+      "codepoint": 61691,
+      "overrides": {
+        "filled": 61690
+      }
+    },
+    {
+      "name": "shield",
+      "codepoint": 61704,
+      "overrides": {
+        "filled": 61699
+      }
+    },
+    {
+      "name": "shield-check",
+      "codepoint": 61696,
+      "overrides": {
+        "filled": 61695
+      }
+    },
+    {
+      "name": "shield-cross",
+      "codepoint": 61698,
+      "overrides": {
+        "filled": 61697
+      }
+    },
+    {
+      "name": "shield-flash",
+      "codepoint": 61701,
+      "overrides": {
+        "filled": 61700
+      }
+    },
+    {
+      "name": "shield-keyhole",
+      "codepoint": 61703,
+      "overrides": {
+        "filled": 61702
+      }
+    },
+    {
+      "name": "shield-star",
+      "codepoint": 61706,
+      "overrides": {
+        "filled": 61705
+      }
+    },
+    {
+      "name": "shield-user",
+      "codepoint": 61708,
+      "overrides": {
+        "filled": 61707
+      }
+    },
+    {
+      "name": "shining",
+      "codepoint": 62302,
+      "overrides": {
+        "filled": 62301
+      }
+    },
+    {
+      "name": "shining-2",
+      "codepoint": 62300,
+      "overrides": {
+        "filled": 62299
+      }
+    },
+    {
+      "name": "ship",
+      "codepoint": 61712,
+      "overrides": {
+        "filled": 61711
+      }
+    },
+    {
+      "name": "ship-2",
+      "codepoint": 61710,
+      "overrides": {
+        "filled": 61709
+      }
+    },
+    {
+      "name": "shirt",
+      "codepoint": 61714,
+      "overrides": {
+        "filled": 61713
+      }
+    },
+    {
+      "name": "shopping-bag",
+      "codepoint": 61720,
+      "overrides": {
+        "filled": 61719
+      }
+    },
+    {
+      "name": "shopping-bag-2",
+      "codepoint": 61716,
+      "overrides": {
+        "filled": 61715
+      }
+    },
+    {
+      "name": "shopping-bag-3",
+      "codepoint": 61718,
+      "overrides": {
+        "filled": 61717
+      }
+    },
+    {
+      "name": "shopping-bag-4",
+      "codepoint": 62737,
+      "overrides": {
+        "filled": 62736
+      }
+    },
+    {
+      "name": "shopping-basket",
+      "codepoint": 61724,
+      "overrides": {
+        "filled": 61723
+      }
+    },
+    {
+      "name": "shopping-basket-2",
+      "codepoint": 61722,
+      "overrides": {
+        "filled": 61721
+      }
+    },
+    {
+      "name": "shopping-cart",
+      "codepoint": 61728,
+      "overrides": {
+        "filled": 61727
+      }
+    },
+    {
+      "name": "shopping-cart-2",
+      "codepoint": 61726,
+      "overrides": {
+        "filled": 61725
+      }
+    },
+    {
+      "name": "showers",
+      "codepoint": 61730,
+      "overrides": {
+        "filled": 61729
+      }
+    },
+    {
+      "name": "shuffle",
+      "codepoint": 61732,
+      "overrides": {
+        "filled": 61731
+      }
+    },
+    {
+      "name": "shut-down",
+      "codepoint": 61734,
+      "overrides": {
+        "filled": 61733
+      }
+    },
+    {
+      "name": "side-bar",
+      "codepoint": 61736,
+      "overrides": {
+        "filled": 61735
+      }
+    },
+    {
+      "name": "sidebar-fold",
+      "codepoint": 62556,
+      "overrides": {
+        "filled": 62555
+      }
+    },
+    {
+      "name": "sidebar-unfold",
+      "codepoint": 62558,
+      "overrides": {
+        "filled": 62557
+      }
+    },
+    {
+      "name": "signal-tower",
+      "codepoint": 61738,
+      "overrides": {
+        "filled": 61737
+      }
+    },
+    {
+      "name": "signal-wifi",
+      "codepoint": 61748,
+      "overrides": {
+        "filled": 61747
+      }
+    },
+    {
+      "name": "signal-wifi-1",
+      "codepoint": 61740,
+      "overrides": {
+        "filled": 61739
+      }
+    },
+    {
+      "name": "signal-wifi-2",
+      "codepoint": 61742,
+      "overrides": {
+        "filled": 61741
+      }
+    },
+    {
+      "name": "signal-wifi-3",
+      "codepoint": 61744,
+      "overrides": {
+        "filled": 61743
+      }
+    },
+    {
+      "name": "signal-wifi-error",
+      "codepoint": 61746,
+      "overrides": {
+        "filled": 61745
+      }
+    },
+    {
+      "name": "signal-wifi-off",
+      "codepoint": 61750,
+      "overrides": {
+        "filled": 61749
+      }
+    },
+    {
+      "name": "signpost",
+      "codepoint": 62606,
+      "overrides": {
+        "filled": 62605
+      }
+    },
+    {
+      "name": "sim-card",
+      "codepoint": 61754,
+      "overrides": {
+        "filled": 61753
+      }
+    },
+    {
+      "name": "sim-card-2",
+      "codepoint": 61752,
+      "overrides": {
+        "filled": 61751
+      }
+    },
+    {
+      "name": "sip",
+      "codepoint": 61758,
+      "overrides": {
+        "filled": 61757
+      }
+    },
+    {
+      "name": "skip-back",
+      "codepoint": 61760,
+      "overrides": {
+        "filled": 61759
+      }
+    },
+    {
+      "name": "skip-back-mini",
+      "codepoint": 61762,
+      "overrides": {
+        "filled": 61761
+      }
+    },
+    {
+      "name": "skip-down",
+      "codepoint": 62305,
+      "overrides": {
+        "filled": 62304
+      }
+    },
+    {
+      "name": "skip-forward",
+      "codepoint": 61764,
+      "overrides": {
+        "filled": 61763
+      }
+    },
+    {
+      "name": "skip-forward-mini",
+      "codepoint": 61766,
+      "overrides": {
+        "filled": 61765
+      }
+    },
+    {
+      "name": "skip-left",
+      "codepoint": 62307,
+      "overrides": {
+        "filled": 62306
+      }
+    },
+    {
+      "name": "skip-right",
+      "codepoint": 62309,
+      "overrides": {
+        "filled": 62308
+      }
+    },
+    {
+      "name": "skip-up",
+      "codepoint": 62311,
+      "overrides": {
+        "filled": 62310
+      }
+    },
+    {
+      "name": "skull",
+      "codepoint": 61770,
+      "overrides": {
+        "filled": 61769
+      }
+    },
+    {
+      "name": "skull-2",
+      "codepoint": 61768,
+      "overrides": {
+        "filled": 61767
+      }
+    },
+    {
+      "name": "skype",
+      "codepoint": 61772,
+      "overrides": {
+        "filled": 61771
+      }
+    },
+    {
+      "name": "slack",
+      "codepoint": 61774,
+      "overrides": {
+        "filled": 61773
+      }
+    },
+    {
+      "name": "slice",
+      "codepoint": 61776,
+      "overrides": {
+        "filled": 61775
+      }
+    },
+    {
+      "name": "slideshow",
+      "codepoint": 61784,
+      "overrides": {
+        "filled": 61783
+      }
+    },
+    {
+      "name": "slideshow-2",
+      "codepoint": 61778,
+      "overrides": {
+        "filled": 61777
+      }
+    },
+    {
+      "name": "slideshow-3",
+      "codepoint": 61780,
+      "overrides": {
+        "filled": 61779
+      }
+    },
+    {
+      "name": "slideshow-4",
+      "codepoint": 61782,
+      "overrides": {
+        "filled": 61781
+      }
+    },
+    {
+      "name": "slow-down",
+      "codepoint": 62313,
+      "overrides": {
+        "filled": 62312
+      }
+    },
+    {
+      "name": "smartphone",
+      "codepoint": 61786,
+      "overrides": {
+        "filled": 61785
+      }
+    },
+    {
+      "name": "snapchat",
+      "codepoint": 61788,
+      "overrides": {
+        "filled": 61787
+      }
+    },
+    {
+      "name": "snowflake",
+      "codepoint": 62739,
+      "overrides": {
+        "filled": 62738
+      }
+    },
+    {
+      "name": "snowy",
+      "codepoint": 61790,
+      "overrides": {
+        "filled": 61789
+      }
+    },
+    {
+      "name": "sofa",
+      "codepoint": 62494,
+      "overrides": {
+        "filled": 62493
+      }
+    },
+    {
+      "name": "sound-module",
+      "codepoint": 61794,
+      "overrides": {
+        "filled": 61793
+      }
+    },
+    {
+      "name": "soundcloud",
+      "codepoint": 61796,
+      "overrides": {
+        "filled": 61795
+      }
+    },
+    {
+      "name": "space-ship",
+      "codepoint": 61798,
+      "overrides": {
+        "filled": 61797
+      }
+    },
+    {
+      "name": "spam",
+      "codepoint": 61805,
+      "overrides": {
+        "filled": 61804
+      }
+    },
+    {
+      "name": "spam-2",
+      "codepoint": 61801,
+      "overrides": {
+        "filled": 61800
+      }
+    },
+    {
+      "name": "spam-3",
+      "codepoint": 61803,
+      "overrides": {
+        "filled": 61802
+      }
+    },
+    {
+      "name": "sparkling",
+      "codepoint": 62317,
+      "overrides": {
+        "filled": 62316
+      }
+    },
+    {
+      "name": "sparkling-2",
+      "codepoint": 62315,
+      "overrides": {
+        "filled": 62314
+      }
+    },
+    {
+      "name": "speak",
+      "codepoint": 62319,
+      "overrides": {
+        "filled": 62318
+      }
+    },
+    {
+      "name": "speak-ai",
+      "codepoint": 62873,
+      "overrides": {
+        "filled": 62872
+      }
+    },
+    {
+      "name": "speaker",
+      "codepoint": 61811,
+      "overrides": {
+        "filled": 61810
+      }
+    },
+    {
+      "name": "speaker-2",
+      "codepoint": 61807,
+      "overrides": {
+        "filled": 61806
+      }
+    },
+    {
+      "name": "speaker-3",
+      "codepoint": 61809,
+      "overrides": {
+        "filled": 61808
+      }
+    },
+    {
+      "name": "spectrum",
+      "codepoint": 61813,
+      "overrides": {
+        "filled": 61812
+      }
+    },
+    {
+      "name": "speech-to-text",
+      "codepoint": 63033,
+      "overrides": {
+        "filled": 63032
+      }
+    },
+    {
+      "name": "speed",
+      "codepoint": 61815,
+      "overrides": {
+        "filled": 61814
+      }
+    },
+    {
+      "name": "speed-mini",
+      "codepoint": 61817,
+      "overrides": {
+        "filled": 61816
+      }
+    },
+    {
+      "name": "speed-up",
+      "codepoint": 62321,
+      "overrides": {
+        "filled": 62320
+      }
+    },
+    {
+      "name": "spotify",
+      "codepoint": 61821,
+      "overrides": {
+        "filled": 61820
+      }
+    },
+    {
+      "name": "spy",
+      "codepoint": 61823,
+      "overrides": {
+        "filled": 61822
+      }
+    },
+    {
+      "name": "square",
+      "codepoint": 62429,
+      "overrides": {
+        "filled": 62428
+      }
+    },
+    {
+      "name": "stack",
+      "codepoint": 61825,
+      "overrides": {
+        "filled": 61824
+      }
+    },
+    {
+      "name": "stack-overflow",
+      "codepoint": 61827,
+      "overrides": {
+        "filled": 61826
+      }
+    },
+    {
+      "name": "stackshare",
+      "codepoint": 61829,
+      "overrides": {
+        "filled": 61828
+      }
+    },
+    {
+      "name": "stairs",
+      "codepoint": 62790,
+      "overrides": {
+        "filled": 62789
+      }
+    },
+    {
+      "name": "star",
+      "codepoint": 61835,
+      "overrides": {
+        "filled": 61830
+      }
+    },
+    {
+      "name": "star-half",
+      "codepoint": 61832,
+      "overrides": {
+        "filled": 61831
+      }
+    },
+    {
+      "name": "star-half-s",
+      "codepoint": 61834,
+      "overrides": {
+        "filled": 61833
+      }
+    },
+    {
+      "name": "star-off",
+      "codepoint": 62875,
+      "overrides": {
+        "filled": 62874
+      }
+    },
+    {
+      "name": "star-s",
+      "codepoint": 61837,
+      "overrides": {
+        "filled": 61836
+      }
+    },
+    {
+      "name": "star-smile",
+      "codepoint": 61839,
+      "overrides": {
+        "filled": 61838
+      }
+    },
+    {
+      "name": "steam",
+      "codepoint": 61841,
+      "overrides": {
+        "filled": 61840
+      }
+    },
+    {
+      "name": "steering",
+      "codepoint": 61845,
+      "overrides": {
+        "filled": 61844
+      }
+    },
+    {
+      "name": "steering-2",
+      "codepoint": 61843,
+      "overrides": {
+        "filled": 61842
+      }
+    },
+    {
+      "name": "stethoscope",
+      "codepoint": 61847,
+      "overrides": {
+        "filled": 61846
+      }
+    },
+    {
+      "name": "sticky-note",
+      "codepoint": 61851,
+      "overrides": {
+        "filled": 61850
+      }
+    },
+    {
+      "name": "sticky-note-2",
+      "codepoint": 61849,
+      "overrides": {
+        "filled": 61848
+      }
+    },
+    {
+      "name": "sticky-note-add",
+      "codepoint": 62566,
+      "overrides": {
+        "filled": 62565
+      }
+    },
+    {
+      "name": "stock",
+      "codepoint": 61853,
+      "overrides": {
+        "filled": 61852
+      }
+    },
+    {
+      "name": "stop",
+      "codepoint": 61857,
+      "overrides": {
+        "filled": 61856
+      }
+    },
+    {
+      "name": "stop-circle",
+      "codepoint": 61855,
+      "overrides": {
+        "filled": 61854
+      }
+    },
+    {
+      "name": "stop-large",
+      "codepoint": 62742,
+      "overrides": {
+        "filled": 62741
+      }
+    },
+    {
+      "name": "stop-mini",
+      "codepoint": 61859,
+      "overrides": {
+        "filled": 61858
+      }
+    },
+    {
+      "name": "store",
+      "codepoint": 61865,
+      "overrides": {
+        "filled": 61864
+      }
+    },
+    {
+      "name": "store-2",
+      "codepoint": 61861,
+      "overrides": {
+        "filled": 61860
+      }
+    },
+    {
+      "name": "store-3",
+      "codepoint": 61863,
+      "overrides": {
+        "filled": 61862
+      }
+    },
+    {
+      "name": "subtract",
+      "codepoint": 61871,
+      "overrides": {
+        "filled": 61870
+      }
+    },
+    {
+      "name": "subway",
+      "codepoint": 61873,
+      "overrides": {
+        "filled": 61872
+      }
+    },
+    {
+      "name": "subway-wifi",
+      "codepoint": 61875,
+      "overrides": {
+        "filled": 61874
+      }
+    },
+    {
+      "name": "suitcase",
+      "codepoint": 61881,
+      "overrides": {
+        "filled": 61880
+      }
+    },
+    {
+      "name": "suitcase-2",
+      "codepoint": 61877,
+      "overrides": {
+        "filled": 61876
+      }
+    },
+    {
+      "name": "suitcase-3",
+      "codepoint": 61879,
+      "overrides": {
+        "filled": 61878
+      }
+    },
+    {
+      "name": "sun",
+      "codepoint": 61887,
+      "overrides": {
+        "filled": 61884
+      }
+    },
+    {
+      "name": "sun-cloudy",
+      "codepoint": 61883,
+      "overrides": {
+        "filled": 61882
+      }
+    },
+    {
+      "name": "sun-foggy",
+      "codepoint": 61886,
+      "overrides": {
+        "filled": 61885
+      }
+    },
+    {
+      "name": "supabase",
+      "codepoint": 62381,
+      "overrides": {
+        "filled": 62380
+      }
+    },
+    {
+      "name": "surgical-mask",
+      "codepoint": 61891,
+      "overrides": {
+        "filled": 61890
+      }
+    },
+    {
+      "name": "surround-sound",
+      "codepoint": 61893,
+      "overrides": {
+        "filled": 61892
+      }
+    },
+    {
+      "name": "survey",
+      "codepoint": 61895,
+      "overrides": {
+        "filled": 61894
+      }
+    },
+    {
+      "name": "svelte",
+      "codepoint": 62496,
+      "overrides": {
+        "filled": 62495
+      }
+    },
+    {
+      "name": "swap",
+      "codepoint": 61899,
+      "overrides": {
+        "filled": 61898
+      }
+    },
+    {
+      "name": "swap-2",
+      "codepoint": 62568,
+      "overrides": {
+        "filled": 62567
+      }
+    },
+    {
+      "name": "swap-3",
+      "codepoint": 62570,
+      "overrides": {
+        "filled": 62569
+      }
+    },
+    {
+      "name": "swap-box",
+      "codepoint": 61897,
+      "overrides": {
+        "filled": 61896
+      }
+    },
+    {
+      "name": "switch",
+      "codepoint": 61901,
+      "overrides": {
+        "filled": 61900
+      }
+    },
+    {
+      "name": "sword",
+      "codepoint": 61903,
+      "overrides": {
+        "filled": 61902
+      }
+    },
+    {
+      "name": "syringe",
+      "codepoint": 61905,
+      "overrides": {
+        "filled": 61904
+      }
+    },
+    {
+      "name": "t-box",
+      "codepoint": 61907,
+      "overrides": {
+        "filled": 61906
+      }
+    },
+    {
+      "name": "t-shirt",
+      "codepoint": 61913,
+      "overrides": {
+        "filled": 61912
+      }
+    },
+    {
+      "name": "t-shirt-2",
+      "codepoint": 61909,
+      "overrides": {
+        "filled": 61908
+      }
+    },
+    {
+      "name": "t-shirt-air",
+      "codepoint": 61911,
+      "overrides": {
+        "filled": 61910
+      }
+    },
+    {
+      "name": "table",
+      "codepoint": 61918,
+      "overrides": {
+        "filled": 61917
+      }
+    },
+    {
+      "name": "table-alt",
+      "codepoint": 61916,
+      "overrides": {
+        "filled": 61915
+      }
+    },
+    {
+      "name": "tablet",
+      "codepoint": 61920,
+      "overrides": {
+        "filled": 61919
+      }
+    },
+    {
+      "name": "tailwind-css",
+      "codepoint": 62744,
+      "overrides": {
+        "filled": 62743
+      }
+    },
+    {
+      "name": "takeaway",
+      "codepoint": 61922,
+      "overrides": {
+        "filled": 61921
+      }
+    },
+    {
+      "name": "taobao",
+      "codepoint": 61924,
+      "overrides": {
+        "filled": 61923
+      }
+    },
+    {
+      "name": "tape",
+      "codepoint": 61926,
+      "overrides": {
+        "filled": 61925
+      }
+    },
+    {
+      "name": "target",
+      "codepoint": 63035,
+      "overrides": {
+        "filled": 63034
+      }
+    },
+    {
+      "name": "task",
+      "codepoint": 61928,
+      "overrides": {
+        "filled": 61927
+      }
+    },
+    {
+      "name": "taxi",
+      "codepoint": 61930,
+      "overrides": {
+        "filled": 61929
+      }
+    },
+    {
+      "name": "taxi-wifi",
+      "codepoint": 61932,
+      "overrides": {
+        "filled": 61931
+      }
+    },
+    {
+      "name": "team",
+      "codepoint": 61934,
+      "overrides": {
+        "filled": 61933
+      }
+    },
+    {
+      "name": "telegram",
+      "codepoint": 61936,
+      "overrides": {
+        "filled": 61935
+      }
+    },
+    {
+      "name": "telegram-2",
+      "codepoint": 62792,
+      "overrides": {
+        "filled": 62791
+      }
+    },
+    {
+      "name": "temp-cold",
+      "codepoint": 61938,
+      "overrides": {
+        "filled": 61937
+      }
+    },
+    {
+      "name": "temp-hot",
+      "codepoint": 61940,
+      "overrides": {
+        "filled": 61939
+      }
+    },
+    {
+      "name": "tent",
+      "codepoint": 62431,
+      "overrides": {
+        "filled": 62430
+      }
+    },
+    {
+      "name": "terminal",
+      "codepoint": 61944,
+      "overrides": {
+        "filled": 61943
+      }
+    },
+    {
+      "name": "terminal-box",
+      "codepoint": 61942,
+      "overrides": {
+        "filled": 61941
+      }
+    },
+    {
+      "name": "terminal-window",
+      "codepoint": 61946,
+      "overrides": {
+        "filled": 61945
+      }
+    },
+    {
+      "name": "test-tube",
+      "codepoint": 61948,
+      "overrides": {
+        "filled": 61947
+      }
+    },
+    {
+      "name": "text-to-speech",
+      "codepoint": 63037,
+      "overrides": {
+        "filled": 63036
+      }
+    },
+    {
+      "name": "thermometer",
+      "codepoint": 61955,
+      "overrides": {
+        "filled": 61954
+      }
+    },
+    {
+      "name": "threads",
+      "codepoint": 62433,
+      "overrides": {
+        "filled": 62432
+      }
+    },
+    {
+      "name": "thumb-down",
+      "codepoint": 61957,
+      "overrides": {
+        "filled": 61956
+      }
+    },
+    {
+      "name": "thumb-up",
+      "codepoint": 61959,
+      "overrides": {
+        "filled": 61958
+      }
+    },
+    {
+      "name": "thunderstorms",
+      "codepoint": 61961,
+      "overrides": {
+        "filled": 61960
+      }
+    },
+    {
+      "name": "ticket",
+      "codepoint": 61965,
+      "overrides": {
+        "filled": 61964
+      }
+    },
+    {
+      "name": "ticket-2",
+      "codepoint": 61963,
+      "overrides": {
+        "filled": 61962
+      }
+    },
+    {
+      "name": "tiktok",
+      "codepoint": 62323,
+      "overrides": {
+        "filled": 62322
+      }
+    },
+    {
+      "name": "time",
+      "codepoint": 61967,
+      "overrides": {
+        "filled": 61966
+      }
+    },
+    {
+      "name": "time-zone",
+      "codepoint": 62608,
+      "overrides": {
+        "filled": 62607
+      }
+    },
+    {
+      "name": "timer",
+      "codepoint": 61973,
+      "overrides": {
+        "filled": 61970
+      }
+    },
+    {
+      "name": "timer-2",
+      "codepoint": 61969,
+      "overrides": {
+        "filled": 61968
+      }
+    },
+    {
+      "name": "timer-flash",
+      "codepoint": 61972,
+      "overrides": {
+        "filled": 61971
+      }
+    },
+    {
+      "name": "todo",
+      "codepoint": 61975,
+      "overrides": {
+        "filled": 61974
+      }
+    },
+    {
+      "name": "toggle",
+      "codepoint": 61977,
+      "overrides": {
+        "filled": 61976
+      }
+    },
+    {
+      "name": "token-swap",
+      "codepoint": 62325,
+      "overrides": {
+        "filled": 62324
+      }
+    },
+    {
+      "name": "tools",
+      "codepoint": 61979,
+      "overrides": {
+        "filled": 61978
+      }
+    },
+    {
+      "name": "tooth",
+      "codepoint": 62746,
+      "overrides": {
+        "filled": 62745
+      }
+    },
+    {
+      "name": "tornado",
+      "codepoint": 61981,
+      "overrides": {
+        "filled": 61980
+      }
+    },
+    {
+      "name": "trademark",
+      "codepoint": 61983,
+      "overrides": {
+        "filled": 61982
+      }
+    },
+    {
+      "name": "traffic-light",
+      "codepoint": 61985,
+      "overrides": {
+        "filled": 61984
+      }
+    },
+    {
+      "name": "train",
+      "codepoint": 61987,
+      "overrides": {
+        "filled": 61986
+      }
+    },
+    {
+      "name": "train-wifi",
+      "codepoint": 61989,
+      "overrides": {
+        "filled": 61988
+      }
+    },
+    {
+      "name": "travesti",
+      "codepoint": 61993,
+      "overrides": {
+        "filled": 61992
+      }
+    },
+    {
+      "name": "treasure-map",
+      "codepoint": 61995,
+      "overrides": {
+        "filled": 61994
+      }
+    },
+    {
+      "name": "tree",
+      "codepoint": 62435,
+      "overrides": {
+        "filled": 62434
+      }
+    },
+    {
+      "name": "trello",
+      "codepoint": 61997,
+      "overrides": {
+        "filled": 61996
+      }
+    },
+    {
+      "name": "triangle",
+      "codepoint": 62437,
+      "overrides": {
+        "filled": 62436
+      }
+    },
+    {
+      "name": "triangular-flag",
+      "codepoint": 62794,
+      "overrides": {
+        "filled": 62793
+      }
+    },
+    {
+      "name": "trophy",
+      "codepoint": 61999,
+      "overrides": {
+        "filled": 61998
+      }
+    },
+    {
+      "name": "truck",
+      "codepoint": 62001,
+      "overrides": {
+        "filled": 62000
+      }
+    },
+    {
+      "name": "tumblr",
+      "codepoint": 62003,
+      "overrides": {
+        "filled": 62002
+      }
+    },
+    {
+      "name": "tv",
+      "codepoint": 62007,
+      "overrides": {
+        "filled": 62006
+      }
+    },
+    {
+      "name": "tv-2",
+      "codepoint": 62005,
+      "overrides": {
+        "filled": 62004
+      }
+    },
+    {
+      "name": "twitch",
+      "codepoint": 62009,
+      "overrides": {
+        "filled": 62008
+      }
+    },
+    {
+      "name": "twitter",
+      "codepoint": 62011,
+      "overrides": {
+        "filled": 62010
+      }
+    },
+    {
+      "name": "twitter-x",
+      "codepoint": 62439,
+      "overrides": {
+        "filled": 62438
+      }
+    },
+    {
+      "name": "typhoon",
+      "codepoint": 62013,
+      "overrides": {
+        "filled": 62012
+      }
+    },
+    {
+      "name": "u-disk",
+      "codepoint": 62015,
+      "overrides": {
+        "filled": 62014
+      }
+    },
+    {
+      "name": "ubuntu",
+      "codepoint": 62017,
+      "overrides": {
+        "filled": 62016
+      }
+    },
+    {
+      "name": "umbrella",
+      "codepoint": 62019,
+      "overrides": {
+        "filled": 62018
+      }
+    },
+    {
+      "name": "uninstall",
+      "codepoint": 62022,
+      "overrides": {
+        "filled": 62021
+      }
+    },
+    {
+      "name": "unpin",
+      "codepoint": 62327,
+      "overrides": {
+        "filled": 62326
+      }
+    },
+    {
+      "name": "unsplash",
+      "codepoint": 62024,
+      "overrides": {
+        "filled": 62023
+      }
+    },
+    {
+      "name": "upload",
+      "codepoint": 62032,
+      "overrides": {
+        "filled": 62031
+      }
+    },
+    {
+      "name": "upload-2",
+      "codepoint": 62026,
+      "overrides": {
+        "filled": 62025
+      }
+    },
+    {
+      "name": "upload-cloud",
+      "codepoint": 62030,
+      "overrides": {
+        "filled": 62029
+      }
+    },
+    {
+      "name": "upload-cloud-2",
+      "codepoint": 62028,
+      "overrides": {
+        "filled": 62027
+      }
+    },
+    {
+      "name": "usb",
+      "codepoint": 62034,
+      "overrides": {
+        "filled": 62033
+      }
+    },
+    {
+      "name": "user",
+      "codepoint": 62052,
+      "overrides": {
+        "filled": 62047
+      }
+    },
+    {
+      "name": "user-2",
+      "codepoint": 62036,
+      "overrides": {
+        "filled": 62035
+      }
+    },
+    {
+      "name": "user-3",
+      "codepoint": 62038,
+      "overrides": {
+        "filled": 62037
+      }
+    },
+    {
+      "name": "user-4",
+      "codepoint": 62040,
+      "overrides": {
+        "filled": 62039
+      }
+    },
+    {
+      "name": "user-5",
+      "codepoint": 62042,
+      "overrides": {
+        "filled": 62041
+      }
+    },
+    {
+      "name": "user-6",
+      "codepoint": 62044,
+      "overrides": {
+        "filled": 62043
+      }
+    },
+    {
+      "name": "user-add",
+      "codepoint": 62046,
+      "overrides": {
+        "filled": 62045
+      }
+    },
+    {
+      "name": "user-community",
+      "codepoint": 62879,
+      "overrides": {
+        "filled": 62878
+      }
+    },
+    {
+      "name": "user-follow",
+      "codepoint": 62049,
+      "overrides": {
+        "filled": 62048
+      }
+    },
+    {
+      "name": "user-forbid",
+      "codepoint": 62398,
+      "overrides": {
+        "filled": 62397
+      }
+    },
+    {
+      "name": "user-heart",
+      "codepoint": 62051,
+      "overrides": {
+        "filled": 62050
+      }
+    },
+    {
+      "name": "user-location",
+      "codepoint": 62054,
+      "overrides": {
+        "filled": 62053
+      }
+    },
+    {
+      "name": "user-minus",
+      "codepoint": 62796,
+      "overrides": {
+        "filled": 62795
+      }
+    },
+    {
+      "name": "user-received",
+      "codepoint": 62058,
+      "overrides": {
+        "filled": 62057
+      }
+    },
+    {
+      "name": "user-received-2",
+      "codepoint": 62056,
+      "overrides": {
+        "filled": 62055
+      }
+    },
+    {
+      "name": "user-search",
+      "codepoint": 62060,
+      "overrides": {
+        "filled": 62059
+      }
+    },
+    {
+      "name": "user-settings",
+      "codepoint": 62062,
+      "overrides": {
+        "filled": 62061
+      }
+    },
+    {
+      "name": "user-shared",
+      "codepoint": 62066,
+      "overrides": {
+        "filled": 62065
+      }
+    },
+    {
+      "name": "user-shared-2",
+      "codepoint": 62064,
+      "overrides": {
+        "filled": 62063
+      }
+    },
+    {
+      "name": "user-smile",
+      "codepoint": 62068,
+      "overrides": {
+        "filled": 62067
+      }
+    },
+    {
+      "name": "user-star",
+      "codepoint": 62070,
+      "overrides": {
+        "filled": 62069
+      }
+    },
+    {
+      "name": "user-unfollow",
+      "codepoint": 62072,
+      "overrides": {
+        "filled": 62071
+      }
+    },
+    {
+      "name": "user-voice",
+      "codepoint": 62074,
+      "overrides": {
+        "filled": 62073
+      }
+    },
+    {
+      "name": "vercel",
+      "codepoint": 62881,
+      "overrides": {
+        "filled": 62880
+      }
+    },
+    {
+      "name": "verified-badge",
+      "codepoint": 62441,
+      "overrides": {
+        "filled": 62440
+      }
+    },
+    {
+      "name": "video",
+      "codepoint": 62082,
+      "overrides": {
+        "filled": 62081
+      }
+    },
+    {
+      "name": "video-add",
+      "codepoint": 62076,
+      "overrides": {
+        "filled": 62075
+      }
+    },
+    {
+      "name": "video-ai",
+      "codepoint": 62883,
+      "overrides": {
+        "filled": 62882
+      }
+    },
+    {
+      "name": "video-chat",
+      "codepoint": 62078,
+      "overrides": {
+        "filled": 62077
+      }
+    },
+    {
+      "name": "video-download",
+      "codepoint": 62080,
+      "overrides": {
+        "filled": 62079
+      }
+    },
+    {
+      "name": "video-off",
+      "codepoint": 62748,
+      "overrides": {
+        "filled": 62747
+      }
+    },
+    {
+      "name": "video-on",
+      "codepoint": 62750,
+      "overrides": {
+        "filled": 62749
+      }
+    },
+    {
+      "name": "video-on-ai",
+      "codepoint": 62885,
+      "overrides": {
+        "filled": 62884
+      }
+    },
+    {
+      "name": "video-upload",
+      "codepoint": 62084,
+      "overrides": {
+        "filled": 62083
+      }
+    },
+    {
+      "name": "vidicon",
+      "codepoint": 62088,
+      "overrides": {
+        "filled": 62087
+      }
+    },
+    {
+      "name": "vidicon-2",
+      "codepoint": 62086,
+      "overrides": {
+        "filled": 62085
+      }
+    },
+    {
+      "name": "vimeo",
+      "codepoint": 62090,
+      "overrides": {
+        "filled": 62089
+      }
+    },
+    {
+      "name": "vip",
+      "codepoint": 62098,
+      "overrides": {
+        "filled": 62097
+      }
+    },
+    {
+      "name": "vip-crown",
+      "codepoint": 62094,
+      "overrides": {
+        "filled": 62093
+      }
+    },
+    {
+      "name": "vip-crown-2",
+      "codepoint": 62092,
+      "overrides": {
+        "filled": 62091
+      }
+    },
+    {
+      "name": "vip-diamond",
+      "codepoint": 62096,
+      "overrides": {
+        "filled": 62095
+      }
+    },
+    {
+      "name": "virus",
+      "codepoint": 62100,
+      "overrides": {
+        "filled": 62099
+      }
+    },
+    {
+      "name": "visa",
+      "codepoint": 62102,
+      "overrides": {
+        "filled": 62101
+      }
+    },
+    {
+      "name": "vk",
+      "codepoint": 62498,
+      "overrides": {
+        "filled": 62497
+      }
+    },
+    {
+      "name": "voice-ai",
+      "codepoint": 62887,
+      "overrides": {
+        "filled": 62886
+      }
+    },
+    {
+      "name": "voice-recognition",
+      "codepoint": 62104,
+      "overrides": {
+        "filled": 62103
+      }
+    },
+    {
+      "name": "voiceprint",
+      "codepoint": 62106,
+      "overrides": {
+        "filled": 62105
+      }
+    },
+    {
+      "name": "volume-down",
+      "codepoint": 62108,
+      "overrides": {
+        "filled": 62107
+      }
+    },
+    {
+      "name": "volume-mute",
+      "codepoint": 62110,
+      "overrides": {
+        "filled": 62109
+      }
+    },
+    {
+      "name": "volume-off-vibrate",
+      "codepoint": 62112,
+      "overrides": {
+        "filled": 62111
+      }
+    },
+    {
+      "name": "volume-up",
+      "codepoint": 62114,
+      "overrides": {
+        "filled": 62113
+      }
+    },
+    {
+      "name": "volume-vibrate",
+      "codepoint": 62116,
+      "overrides": {
+        "filled": 62115
+      }
+    },
+    {
+      "name": "vuejs",
+      "codepoint": 62118,
+      "overrides": {
+        "filled": 62117
+      }
+    },
+    {
+      "name": "walk",
+      "codepoint": 62120,
+      "overrides": {
+        "filled": 62119
+      }
+    },
+    {
+      "name": "wallet",
+      "codepoint": 62126,
+      "overrides": {
+        "filled": 62125
+      }
+    },
+    {
+      "name": "wallet-2",
+      "codepoint": 62122,
+      "overrides": {
+        "filled": 62121
+      }
+    },
+    {
+      "name": "wallet-3",
+      "codepoint": 62124,
+      "overrides": {
+        "filled": 62123
+      }
+    },
+    {
+      "name": "water-flash",
+      "codepoint": 62128,
+      "overrides": {
+        "filled": 62127
+      }
+    },
+    {
+      "name": "water-percent",
+      "codepoint": 62383,
+      "overrides": {
+        "filled": 62382
+      }
+    },
+    {
+      "name": "webcam",
+      "codepoint": 62130,
+      "overrides": {
+        "filled": 62129
+      }
+    },
+    {
+      "name": "webhook",
+      "codepoint": 62752,
+      "overrides": {
+        "filled": 62751
+      }
+    },
+    {
+      "name": "wechat",
+      "codepoint": 62134,
+      "overrides": {
+        "filled": 62133
+      }
+    },
+    {
+      "name": "wechat-2",
+      "codepoint": 62132,
+      "overrides": {
+        "filled": 62131
+      }
+    },
+    {
+      "name": "wechat-channels",
+      "codepoint": 62329,
+      "overrides": {
+        "filled": 62328
+      }
+    },
+    {
+      "name": "wechat-pay",
+      "codepoint": 62136,
+      "overrides": {
+        "filled": 62135
+      }
+    },
+    {
+      "name": "weibo",
+      "codepoint": 62138,
+      "overrides": {
+        "filled": 62137
+      }
+    },
+    {
+      "name": "weight",
+      "codepoint": 62754,
+      "overrides": {
+        "filled": 62753
+      }
+    },
+    {
+      "name": "whatsapp",
+      "codepoint": 62140,
+      "overrides": {
+        "filled": 62139
+      }
+    },
+    {
+      "name": "wheelchair",
+      "codepoint": 62142,
+      "overrides": {
+        "filled": 62141
+      }
+    },
+    {
+      "name": "wifi",
+      "codepoint": 62144,
+      "overrides": {
+        "filled": 62143
+      }
+    },
+    {
+      "name": "wifi-off",
+      "codepoint": 62146,
+      "overrides": {
+        "filled": 62145
+      }
+    },
+    {
+      "name": "window",
+      "codepoint": 62150,
+      "overrides": {
+        "filled": 62149
+      }
+    },
+    {
+      "name": "window-2",
+      "codepoint": 62148,
+      "overrides": {
+        "filled": 62147
+      }
+    },
+    {
+      "name": "windows",
+      "codepoint": 62152,
+      "overrides": {
+        "filled": 62151
+      }
+    },
+    {
+      "name": "windy",
+      "codepoint": 62154,
+      "overrides": {
+        "filled": 62153
+      }
+    },
+    {
+      "name": "wireless-charging",
+      "codepoint": 62156,
+      "overrides": {
+        "filled": 62155
+      }
+    },
+    {
+      "name": "women",
+      "codepoint": 62158,
+      "overrides": {
+        "filled": 62157
+      }
+    },
+    {
+      "name": "wordpress",
+      "codepoint": 62331,
+      "overrides": {
+        "filled": 62330
+      }
+    },
+    {
+      "name": "wrench",
+      "codepoint": 63039,
+      "overrides": {
+        "filled": 63038
+      }
+    },
+    {
+      "name": "xbox",
+      "codepoint": 62161,
+      "overrides": {
+        "filled": 62160
+      }
+    },
+    {
+      "name": "xing",
+      "codepoint": 62163,
+      "overrides": {
+        "filled": 62162
+      }
+    },
+    {
+      "name": "xrp",
+      "codepoint": 62500,
+      "overrides": {
+        "filled": 62499
+      }
+    },
+    {
+      "name": "xtz",
+      "codepoint": 62502,
+      "overrides": {
+        "filled": 62501
+      }
+    },
+    {
+      "name": "youtube",
+      "codepoint": 62165,
+      "overrides": {
+        "filled": 62164
+      }
+    },
+    {
+      "name": "yuque",
+      "codepoint": 62385,
+      "overrides": {
+        "filled": 62384
+      }
+    },
+    {
+      "name": "zcool",
+      "codepoint": 62167,
+      "overrides": {
+        "filled": 62166
+      }
+    },
+    {
+      "name": "zhihu",
+      "codepoint": 62169,
+      "overrides": {
+        "filled": 62168
+      }
+    },
+    {
+      "name": "zoom-in",
+      "codepoint": 62171,
+      "overrides": {
+        "filled": 62170
+      }
+    },
+    {
+      "name": "zoom-out",
+      "codepoint": 62173,
+      "overrides": {
+        "filled": 62172
+      }
+    },
+    {
+      "name": "zzz",
+      "codepoint": 62175,
+      "overrides": {
+        "filled": 62174
+      }
+    }
+  ]
+}

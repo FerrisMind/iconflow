@@ -1,0 +1,68 @@
+[package]
+name = "iconflow"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.92"
+
+[dependencies]
+
+[dev-dependencies]
+eframe = "0.27"
+iced = { version = "0.14", features = ["advanced"] }
+
+[features]
+default = []
+pack-bootstrap = []
+pack-carbon = []
+pack-devicon = []
+pack-feather = []
+pack-fluentui = []
+pack-heroicons = []
+pack-iconoir = []
+pack-ionicons = []
+pack-lobe = []
+pack-lucide = []
+pack-octicons = []
+pack-phosphor = []
+pack-remixicon = []
+pack-tabler = []
+heroicons-tiny = ["pack-heroicons"]
+heroicons-mini = ["pack-heroicons"]
+heroicons-regular = ["pack-heroicons"]
+octicons-tiny = ["pack-octicons"]
+octicons-regular = ["pack-octicons"]
+all-packs = [
+  "pack-bootstrap",
+  "pack-carbon",
+  "pack-devicon",
+  "pack-feather",
+  "pack-fluentui",
+  "pack-heroicons",
+  "pack-iconoir",
+  "pack-ionicons",
+  "pack-lobe",
+  "pack-lucide",
+  "pack-octicons",
+  "pack-phosphor",
+  "pack-remixicon",
+  "pack-tabler",
+  "heroicons-tiny",
+  "heroicons-mini",
+  "heroicons-regular",
+  "octicons-tiny",
+  "octicons-regular",
+]
+
+[workspace]
+members = ["xtask"]
+resolver = "3"
+
+[[example]]
+name = "egui_demo"
+path = "examples/egui_demo.rs"
+required-features = ["all-packs"]
+
+[[example]]
+name = "iced_demo"
+path = "examples/iced_demo.rs"
+required-features = ["all-packs"]

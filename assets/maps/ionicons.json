@@ -1,0 +1,11204 @@
+{
+  "pack_id": "ionicons",
+  "variants": [
+    {
+      "id": "outline",
+      "style": "Outline",
+      "size": "Regular",
+      "family": "Ionicons Outline",
+      "ttf_asset_path": "assets/fonts/ionicons/ionicons-outline.ttf"
+    },
+    {
+      "id": "regular",
+      "style": "Regular",
+      "size": "Regular",
+      "family": "Ionicons Regular",
+      "ttf_asset_path": "assets/fonts/ionicons/ionicons-regular.ttf"
+    },
+    {
+      "id": "sharp",
+      "style": "Sharp",
+      "size": "Regular",
+      "family": "Ionicons Sharp",
+      "ttf_asset_path": "assets/fonts/ionicons/ionicons-sharp.ttf"
+    }
+  ],
+  "icons": [
+    {
+      "name": "accessibility",
+      "codepoint": 57344,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "accessibility-outline",
+      "overrides": {
+        "outline": 57344
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "accessibility-sharp",
+      "overrides": {
+        "sharp": 57344
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "add",
+      "codepoint": 57346,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "add-circle",
+      "codepoint": 57345,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "add-circle-outline",
+      "overrides": {
+        "outline": 57345
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "add-circle-sharp",
+      "overrides": {
+        "sharp": 57345
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "add-outline",
+      "overrides": {
+        "outline": 57346
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "add-sharp",
+      "overrides": {
+        "sharp": 57346
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "airplane",
+      "codepoint": 57347,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "airplane-outline",
+      "overrides": {
+        "outline": 57347
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "airplane-sharp",
+      "overrides": {
+        "sharp": 57347
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "alarm",
+      "codepoint": 57348,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "alarm-outline",
+      "overrides": {
+        "outline": 57348
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "alarm-sharp",
+      "overrides": {
+        "sharp": 57348
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "albums",
+      "codepoint": 57349,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "albums-outline",
+      "overrides": {
+        "outline": 57349
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "albums-sharp",
+      "overrides": {
+        "sharp": 57349
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "alert",
+      "codepoint": 57351,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "alert-circle",
+      "codepoint": 57350,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "alert-circle-outline",
+      "overrides": {
+        "outline": 57350
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "alert-circle-sharp",
+      "overrides": {
+        "sharp": 57350
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "alert-outline",
+      "overrides": {
+        "outline": 57351
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "alert-sharp",
+      "overrides": {
+        "sharp": 57351
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "american-football",
+      "codepoint": 57352,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "american-football-outline",
+      "overrides": {
+        "outline": 57352
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "american-football-sharp",
+      "overrides": {
+        "sharp": 57352
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "analytics",
+      "codepoint": 57353,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "analytics-outline",
+      "overrides": {
+        "outline": 57353
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "analytics-sharp",
+      "overrides": {
+        "sharp": 57353
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "aperture",
+      "codepoint": 57354,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "aperture-outline",
+      "overrides": {
+        "outline": 57354
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "aperture-sharp",
+      "overrides": {
+        "sharp": 57354
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "apps",
+      "codepoint": 57355,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "apps-outline",
+      "overrides": {
+        "outline": 57355
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "apps-sharp",
+      "overrides": {
+        "sharp": 57355
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "archive",
+      "codepoint": 57356,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "archive-outline",
+      "overrides": {
+        "outline": 57356
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "archive-sharp",
+      "overrides": {
+        "sharp": 57356
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-back",
+      "codepoint": 57358,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-back-circle",
+      "codepoint": 57357,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-back-circle-outline",
+      "overrides": {
+        "outline": 57357
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-back-circle-sharp",
+      "overrides": {
+        "sharp": 57357
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-back-outline",
+      "overrides": {
+        "outline": 57358
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-back-sharp",
+      "overrides": {
+        "sharp": 57358
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "codepoint": 57362,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down-circle",
+      "codepoint": 57359,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down-circle-outline",
+      "overrides": {
+        "outline": 57359
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-down-circle-sharp",
+      "overrides": {
+        "sharp": 57359
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-down-left-box",
+      "codepoint": 57360,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down-left-box-outline",
+      "overrides": {
+        "outline": 57360
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-down-left-box-sharp",
+      "overrides": {
+        "sharp": 57360
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-down-outline",
+      "overrides": {
+        "outline": 57361
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-down-right-box",
+      "codepoint": 57361,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down-right-box-outline",
+      "overrides": {
+        "outline": 57362
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-down-right-box-sharp",
+      "overrides": {
+        "sharp": 57361
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-down-sharp",
+      "overrides": {
+        "sharp": 57362
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-forward",
+      "codepoint": 57364,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-forward-circle",
+      "codepoint": 57363,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-forward-circle-outline",
+      "overrides": {
+        "outline": 57363
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-forward-circle-sharp",
+      "overrides": {
+        "sharp": 57363
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-forward-outline",
+      "overrides": {
+        "outline": 57364
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-forward-sharp",
+      "overrides": {
+        "sharp": 57364
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-redo",
+      "codepoint": 57366,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-redo-circle",
+      "codepoint": 57365,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-redo-circle-outline",
+      "overrides": {
+        "outline": 57365
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-redo-circle-sharp",
+      "overrides": {
+        "sharp": 57365
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-redo-outline",
+      "overrides": {
+        "outline": 57366
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-redo-sharp",
+      "overrides": {
+        "sharp": 57366
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-undo",
+      "codepoint": 57368,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-undo-circle",
+      "codepoint": 57367,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-undo-circle-outline",
+      "overrides": {
+        "outline": 57367
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-undo-circle-sharp",
+      "overrides": {
+        "sharp": 57367
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-undo-outline",
+      "overrides": {
+        "outline": 57368
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-undo-sharp",
+      "overrides": {
+        "sharp": 57368
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "codepoint": 57372,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up-circle",
+      "codepoint": 57369,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up-circle-outline",
+      "overrides": {
+        "outline": 57369
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-up-circle-sharp",
+      "overrides": {
+        "sharp": 57369
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-up-left-box",
+      "codepoint": 57370,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up-left-box-outline",
+      "overrides": {
+        "outline": 57370
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-up-left-box-sharp",
+      "overrides": {
+        "sharp": 57370
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-up-outline",
+      "overrides": {
+        "outline": 57371
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-up-right-box",
+      "codepoint": 57371,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up-right-box-outline",
+      "overrides": {
+        "outline": 57372
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "arrow-up-right-box-sharp",
+      "overrides": {
+        "sharp": 57371
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "arrow-up-sharp",
+      "overrides": {
+        "sharp": 57372
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "at",
+      "codepoint": 57374,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "at-circle",
+      "codepoint": 57373,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "at-circle-outline",
+      "overrides": {
+        "outline": 57373
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "at-circle-sharp",
+      "overrides": {
+        "sharp": 57373
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "at-outline",
+      "overrides": {
+        "outline": 57374
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "at-sharp",
+      "overrides": {
+        "sharp": 57374
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "attach",
+      "codepoint": 57375,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "attach-outline",
+      "overrides": {
+        "outline": 57375
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "attach-sharp",
+      "overrides": {
+        "sharp": 57375
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "backspace",
+      "codepoint": 57376,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "backspace-outline",
+      "overrides": {
+        "outline": 57376
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "backspace-sharp",
+      "overrides": {
+        "sharp": 57376
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag",
+      "codepoint": 57381,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bag-add",
+      "codepoint": 57377,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bag-add-outline",
+      "overrides": {
+        "outline": 57377
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-add-sharp",
+      "overrides": {
+        "sharp": 57377
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag-check",
+      "codepoint": 57378,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bag-check-outline",
+      "overrides": {
+        "outline": 57378
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-check-sharp",
+      "overrides": {
+        "sharp": 57378
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag-handle",
+      "codepoint": 57379,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bag-handle-outline",
+      "overrides": {
+        "outline": 57379
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-handle-sharp",
+      "overrides": {
+        "sharp": 57379
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag-outline",
+      "overrides": {
+        "outline": 57380
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-remove",
+      "codepoint": 57380,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bag-remove-outline",
+      "overrides": {
+        "outline": 57381
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-remove-sharp",
+      "overrides": {
+        "sharp": 57380
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag-sharp",
+      "overrides": {
+        "sharp": 57381
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "balloon",
+      "codepoint": 57382,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "balloon-outline",
+      "overrides": {
+        "outline": 57382
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "balloon-sharp",
+      "overrides": {
+        "sharp": 57382
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ban",
+      "codepoint": 57383,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ban-outline",
+      "overrides": {
+        "outline": 57383
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ban-sharp",
+      "overrides": {
+        "sharp": 57383
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bandage",
+      "codepoint": 57384,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bandage-outline",
+      "overrides": {
+        "outline": 57384
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bandage-sharp",
+      "overrides": {
+        "sharp": 57384
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bar-chart",
+      "codepoint": 57385,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bar-chart-outline",
+      "overrides": {
+        "outline": 57385
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bar-chart-sharp",
+      "overrides": {
+        "sharp": 57385
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "barbell",
+      "codepoint": 57386,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "barbell-outline",
+      "overrides": {
+        "outline": 57386
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "barbell-sharp",
+      "overrides": {
+        "sharp": 57386
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "barcode",
+      "codepoint": 57387,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "barcode-outline",
+      "overrides": {
+        "outline": 57387
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "barcode-sharp",
+      "overrides": {
+        "sharp": 57387
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "baseball",
+      "codepoint": 57388,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "baseball-outline",
+      "overrides": {
+        "outline": 57388
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "baseball-sharp",
+      "overrides": {
+        "sharp": 57388
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "basket",
+      "codepoint": 57389,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "basket-outline",
+      "overrides": {
+        "outline": 57389
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "basket-sharp",
+      "overrides": {
+        "sharp": 57389
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "basketball",
+      "codepoint": 57390,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "basketball-outline",
+      "overrides": {
+        "outline": 57390
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "basketball-sharp",
+      "overrides": {
+        "sharp": 57390
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "battery-charging",
+      "codepoint": 57391,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "battery-charging-outline",
+      "overrides": {
+        "outline": 57391
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "battery-charging-sharp",
+      "overrides": {
+        "sharp": 57391
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "battery-dead",
+      "codepoint": 57392,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "battery-dead-outline",
+      "overrides": {
+        "outline": 57392
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "battery-dead-sharp",
+      "overrides": {
+        "sharp": 57392
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "battery-full",
+      "codepoint": 57393,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "battery-full-outline",
+      "overrides": {
+        "outline": 57393
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "battery-full-sharp",
+      "overrides": {
+        "sharp": 57393
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "battery-half",
+      "codepoint": 57394,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "battery-half-outline",
+      "overrides": {
+        "outline": 57394
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "battery-half-sharp",
+      "overrides": {
+        "sharp": 57394
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "beaker",
+      "codepoint": 57395,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "beaker-outline",
+      "overrides": {
+        "outline": 57395
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "beaker-sharp",
+      "overrides": {
+        "sharp": 57395
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bed",
+      "codepoint": 57396,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bed-outline",
+      "overrides": {
+        "outline": 57396
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bed-sharp",
+      "overrides": {
+        "sharp": 57396
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "beer",
+      "codepoint": 57397,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "beer-outline",
+      "overrides": {
+        "outline": 57397
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "beer-sharp",
+      "overrides": {
+        "sharp": 57397
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bicycle",
+      "codepoint": 57398,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bicycle-outline",
+      "overrides": {
+        "outline": 57398
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bicycle-sharp",
+      "overrides": {
+        "sharp": 57398
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "binoculars",
+      "codepoint": 57399,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "binoculars-outline",
+      "overrides": {
+        "outline": 57399
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "binoculars-sharp",
+      "overrides": {
+        "sharp": 57399
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bluetooth",
+      "codepoint": 57400,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bluetooth-outline",
+      "overrides": {
+        "outline": 57400
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bluetooth-sharp",
+      "overrides": {
+        "sharp": 57400
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "boat",
+      "codepoint": 57401,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "boat-outline",
+      "overrides": {
+        "outline": 57401
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "boat-sharp",
+      "overrides": {
+        "sharp": 57401
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "body",
+      "codepoint": 57402,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "body-outline",
+      "overrides": {
+        "outline": 57402
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "body-sharp",
+      "overrides": {
+        "sharp": 57402
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bonfire",
+      "codepoint": 57403,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bonfire-outline",
+      "overrides": {
+        "outline": 57403
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bonfire-sharp",
+      "overrides": {
+        "sharp": 57403
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "book",
+      "codepoint": 57404,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "book-outline",
+      "overrides": {
+        "outline": 57404
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "book-sharp",
+      "overrides": {
+        "sharp": 57404
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bookmark",
+      "codepoint": 57405,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bookmark-outline",
+      "overrides": {
+        "outline": 57405
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bookmark-sharp",
+      "overrides": {
+        "sharp": 57405
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bookmarks",
+      "codepoint": 57406,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bookmarks-outline",
+      "overrides": {
+        "outline": 57406
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bookmarks-sharp",
+      "overrides": {
+        "sharp": 57406
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bowling-ball",
+      "codepoint": 57407,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bowling-ball-outline",
+      "overrides": {
+        "outline": 57407
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bowling-ball-sharp",
+      "overrides": {
+        "sharp": 57407
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "briefcase",
+      "codepoint": 57408,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "briefcase-outline",
+      "overrides": {
+        "outline": 57408
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "briefcase-sharp",
+      "overrides": {
+        "sharp": 57408
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "browsers",
+      "codepoint": 57409,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "browsers-outline",
+      "overrides": {
+        "outline": 57409
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "browsers-sharp",
+      "overrides": {
+        "sharp": 57409
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "brush",
+      "codepoint": 57410,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "brush-outline",
+      "overrides": {
+        "outline": 57410
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "brush-sharp",
+      "overrides": {
+        "sharp": 57410
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bug",
+      "codepoint": 57411,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bug-outline",
+      "overrides": {
+        "outline": 57411
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bug-sharp",
+      "overrides": {
+        "sharp": 57411
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "build",
+      "codepoint": 57412,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "build-outline",
+      "overrides": {
+        "outline": 57412
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "build-sharp",
+      "overrides": {
+        "sharp": 57412
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bulb",
+      "codepoint": 57413,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bulb-outline",
+      "overrides": {
+        "outline": 57413
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bulb-sharp",
+      "overrides": {
+        "sharp": 57413
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "bus",
+      "codepoint": 57414,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "bus-outline",
+      "overrides": {
+        "outline": 57414
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "bus-sharp",
+      "overrides": {
+        "sharp": 57414
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "business",
+      "codepoint": 57415,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "business-outline",
+      "overrides": {
+        "outline": 57415
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "business-sharp",
+      "overrides": {
+        "sharp": 57415
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cafe",
+      "codepoint": 57416,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cafe-outline",
+      "overrides": {
+        "outline": 57416
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cafe-sharp",
+      "overrides": {
+        "sharp": 57416
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "calculator",
+      "codepoint": 57417,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "calculator-outline",
+      "overrides": {
+        "outline": 57417
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "calculator-sharp",
+      "overrides": {
+        "sharp": 57417
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "calendar",
+      "codepoint": 57420,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "calendar-clear",
+      "codepoint": 57418,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "calendar-clear-outline",
+      "overrides": {
+        "outline": 57418
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "calendar-clear-sharp",
+      "overrides": {
+        "sharp": 57418
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "calendar-number",
+      "codepoint": 57419,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "calendar-number-outline",
+      "overrides": {
+        "outline": 57419
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "calendar-number-sharp",
+      "overrides": {
+        "sharp": 57419
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "calendar-outline",
+      "overrides": {
+        "outline": 57420
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "calendar-sharp",
+      "overrides": {
+        "sharp": 57420
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "call",
+      "codepoint": 57421,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "call-outline",
+      "overrides": {
+        "outline": 57421
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "call-sharp",
+      "overrides": {
+        "sharp": 57421
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "camera",
+      "codepoint": 57423,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "camera-outline",
+      "overrides": {
+        "outline": 57422
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "camera-reverse",
+      "codepoint": 57422,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "camera-reverse-outline",
+      "overrides": {
+        "outline": 57423
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "camera-reverse-sharp",
+      "overrides": {
+        "sharp": 57422
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "camera-sharp",
+      "overrides": {
+        "sharp": 57423
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "car",
+      "codepoint": 57425,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "car-outline",
+      "overrides": {
+        "outline": 57424
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "car-sharp",
+      "overrides": {
+        "sharp": 57424
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "car-sport",
+      "codepoint": 57424,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "car-sport-outline",
+      "overrides": {
+        "outline": 57425
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "car-sport-sharp",
+      "overrides": {
+        "sharp": 57425
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "card",
+      "codepoint": 57426,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "card-outline",
+      "overrides": {
+        "outline": 57426
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "card-sharp",
+      "overrides": {
+        "sharp": 57426
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "caret-back",
+      "codepoint": 57428,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-back-circle",
+      "codepoint": 57427,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-back-circle-outline",
+      "overrides": {
+        "outline": 57427
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "caret-back-circle-sharp",
+      "overrides": {
+        "sharp": 57427
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "caret-back-outline",
+      "overrides": {
+        "outline": 57428
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "caret-back-sharp",
+      "overrides": {
+        "sharp": 57428
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "caret-down",
+      "codepoint": 57430,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-down-circle",
+      "codepoint": 57429,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-down-circle-outline",
+      "overrides": {
+        "outline": 57429
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "caret-down-circle-sharp",
+      "overrides": {
+        "sharp": 57429
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "caret-down-outline",
+      "overrides": {
+        "outline": 57430
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "caret-down-sharp",
+      "overrides": {
+        "sharp": 57430
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "caret-forward",
+      "codepoint": 57432,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-forward-circle",
+      "codepoint": 57431,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-forward-circle-outline",
+      "overrides": {
+        "outline": 57431
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "caret-forward-circle-sharp",
+      "overrides": {
+        "sharp": 57431
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "caret-forward-outline",
+      "overrides": {
+        "outline": 57432
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "caret-forward-sharp",
+      "overrides": {
+        "sharp": 57432
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "caret-up",
+      "codepoint": 57434,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-up-circle",
+      "codepoint": 57433,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-up-circle-outline",
+      "overrides": {
+        "outline": 57433
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "caret-up-circle-sharp",
+      "overrides": {
+        "sharp": 57433
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "caret-up-outline",
+      "overrides": {
+        "outline": 57434
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "caret-up-sharp",
+      "overrides": {
+        "sharp": 57434
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cart",
+      "codepoint": 57435,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cart-outline",
+      "overrides": {
+        "outline": 57435
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cart-sharp",
+      "overrides": {
+        "sharp": 57435
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cash",
+      "codepoint": 57436,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cash-outline",
+      "overrides": {
+        "outline": 57436
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cash-sharp",
+      "overrides": {
+        "sharp": 57436
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cellular",
+      "codepoint": 57437,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cellular-outline",
+      "overrides": {
+        "outline": 57437
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cellular-sharp",
+      "overrides": {
+        "sharp": 57437
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chatbox",
+      "codepoint": 57439,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chatbox-ellipses",
+      "codepoint": 57438,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chatbox-ellipses-outline",
+      "overrides": {
+        "outline": 57438
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chatbox-ellipses-sharp",
+      "overrides": {
+        "sharp": 57438
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chatbox-outline",
+      "overrides": {
+        "outline": 57439
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chatbox-sharp",
+      "overrides": {
+        "sharp": 57439
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chatbubble",
+      "codepoint": 57441,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chatbubble-ellipses",
+      "codepoint": 57440,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chatbubble-ellipses-outline",
+      "overrides": {
+        "outline": 57440
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chatbubble-ellipses-sharp",
+      "overrides": {
+        "sharp": 57440
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chatbubble-outline",
+      "overrides": {
+        "outline": 57441
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chatbubble-sharp",
+      "overrides": {
+        "sharp": 57441
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chatbubbles",
+      "codepoint": 57442,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chatbubbles-outline",
+      "overrides": {
+        "outline": 57442
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chatbubbles-sharp",
+      "overrides": {
+        "sharp": 57442
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "checkbox",
+      "codepoint": 57443,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "checkbox-outline",
+      "overrides": {
+        "outline": 57443
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "checkbox-sharp",
+      "overrides": {
+        "sharp": 57443
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "checkmark",
+      "codepoint": 57447,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "checkmark-circle",
+      "codepoint": 57444,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "checkmark-circle-outline",
+      "overrides": {
+        "outline": 57444
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "checkmark-circle-sharp",
+      "overrides": {
+        "sharp": 57444
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "checkmark-done",
+      "codepoint": 57446,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "checkmark-done-circle",
+      "codepoint": 57445,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "checkmark-done-circle-outline",
+      "overrides": {
+        "outline": 57445
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "checkmark-done-circle-sharp",
+      "overrides": {
+        "sharp": 57445
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "checkmark-done-outline",
+      "overrides": {
+        "outline": 57446
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "checkmark-done-sharp",
+      "overrides": {
+        "sharp": 57446
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "checkmark-outline",
+      "overrides": {
+        "outline": 57447
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "checkmark-sharp",
+      "overrides": {
+        "sharp": 57447
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-back",
+      "codepoint": 57449,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-back-circle",
+      "codepoint": 57448,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-back-circle-outline",
+      "overrides": {
+        "outline": 57448
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-back-circle-sharp",
+      "overrides": {
+        "sharp": 57448
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-back-outline",
+      "overrides": {
+        "outline": 57449
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-back-sharp",
+      "overrides": {
+        "sharp": 57449
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-collapse",
+      "codepoint": 57450,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-collapse-outline",
+      "overrides": {
+        "outline": 57450
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-collapse-sharp",
+      "overrides": {
+        "sharp": 57450
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "codepoint": 57452,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-down-circle",
+      "codepoint": 57451,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-down-circle-outline",
+      "overrides": {
+        "outline": 57451
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-down-circle-sharp",
+      "overrides": {
+        "sharp": 57451
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-down-outline",
+      "overrides": {
+        "outline": 57452
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-down-sharp",
+      "overrides": {
+        "sharp": 57452
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-expand",
+      "codepoint": 57453,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-expand-outline",
+      "overrides": {
+        "outline": 57453
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-expand-sharp",
+      "overrides": {
+        "sharp": 57453
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-forward",
+      "codepoint": 57455,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-forward-circle",
+      "codepoint": 57454,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-forward-circle-outline",
+      "overrides": {
+        "outline": 57454
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-forward-circle-sharp",
+      "overrides": {
+        "sharp": 57454
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-forward-outline",
+      "overrides": {
+        "outline": 57455
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-forward-sharp",
+      "overrides": {
+        "sharp": 57455
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-up",
+      "codepoint": 57457,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-up-circle",
+      "codepoint": 57456,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-up-circle-outline",
+      "overrides": {
+        "outline": 57456
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-up-circle-sharp",
+      "overrides": {
+        "sharp": 57456
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "chevron-up-outline",
+      "overrides": {
+        "outline": 57457
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "chevron-up-sharp",
+      "overrides": {
+        "sharp": 57457
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "clipboard",
+      "codepoint": 57458,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "clipboard-outline",
+      "overrides": {
+        "outline": 57458
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "clipboard-sharp",
+      "overrides": {
+        "sharp": 57458
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "close",
+      "codepoint": 57460,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "close-circle",
+      "codepoint": 57459,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "close-circle-outline",
+      "overrides": {
+        "outline": 57459
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "close-circle-sharp",
+      "overrides": {
+        "sharp": 57459
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "close-outline",
+      "overrides": {
+        "outline": 57460
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "close-sharp",
+      "overrides": {
+        "sharp": 57460
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cloud",
+      "codepoint": 57466,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloud-circle",
+      "codepoint": 57461,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloud-circle-outline",
+      "overrides": {
+        "outline": 57461
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cloud-circle-sharp",
+      "overrides": {
+        "sharp": 57461
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cloud-done",
+      "codepoint": 57462,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloud-done-outline",
+      "overrides": {
+        "outline": 57462
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cloud-done-sharp",
+      "overrides": {
+        "sharp": 57462
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cloud-download",
+      "codepoint": 57463,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloud-download-outline",
+      "overrides": {
+        "outline": 57463
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cloud-download-sharp",
+      "overrides": {
+        "sharp": 57463
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cloud-offline",
+      "codepoint": 57464,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloud-offline-outline",
+      "overrides": {
+        "outline": 57464
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cloud-offline-sharp",
+      "overrides": {
+        "sharp": 57464
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cloud-outline",
+      "overrides": {
+        "outline": 57465
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cloud-sharp",
+      "overrides": {
+        "sharp": 57465
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cloud-upload",
+      "codepoint": 57465,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloud-upload-outline",
+      "overrides": {
+        "outline": 57466
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cloud-upload-sharp",
+      "overrides": {
+        "sharp": 57466
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cloudy",
+      "codepoint": 57468,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloudy-night",
+      "codepoint": 57467,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cloudy-night-outline",
+      "overrides": {
+        "outline": 57467
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cloudy-night-sharp",
+      "overrides": {
+        "sharp": 57467
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cloudy-outline",
+      "overrides": {
+        "outline": 57468
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cloudy-sharp",
+      "overrides": {
+        "sharp": 57468
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "code",
+      "codepoint": 57472,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "code-download",
+      "codepoint": 57469,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "code-download-outline",
+      "overrides": {
+        "outline": 57469
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "code-download-sharp",
+      "overrides": {
+        "sharp": 57469
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "code-outline",
+      "overrides": {
+        "outline": 57470
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "code-sharp",
+      "overrides": {
+        "sharp": 57470
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "code-slash",
+      "codepoint": 57470,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "code-slash-outline",
+      "overrides": {
+        "outline": 57471
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "code-slash-sharp",
+      "overrides": {
+        "sharp": 57471
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "code-working",
+      "codepoint": 57471,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "code-working-outline",
+      "overrides": {
+        "outline": 57472
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "code-working-sharp",
+      "overrides": {
+        "sharp": 57472
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cog",
+      "codepoint": 57473,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cog-outline",
+      "overrides": {
+        "outline": 57473
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cog-sharp",
+      "overrides": {
+        "sharp": 57473
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "color-fill",
+      "codepoint": 57474,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "color-fill-outline",
+      "overrides": {
+        "outline": 57474
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "color-fill-sharp",
+      "overrides": {
+        "sharp": 57474
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "color-filter",
+      "codepoint": 57475,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "color-filter-outline",
+      "overrides": {
+        "outline": 57475
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "color-filter-sharp",
+      "overrides": {
+        "sharp": 57475
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "color-palette",
+      "codepoint": 57476,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "color-palette-outline",
+      "overrides": {
+        "outline": 57476
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "color-palette-sharp",
+      "overrides": {
+        "sharp": 57476
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "color-wand",
+      "codepoint": 57477,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "color-wand-outline",
+      "overrides": {
+        "outline": 57477
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "color-wand-sharp",
+      "overrides": {
+        "sharp": 57477
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "compass",
+      "codepoint": 57478,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "compass-outline",
+      "overrides": {
+        "outline": 57478
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "compass-sharp",
+      "overrides": {
+        "sharp": 57478
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "construct",
+      "codepoint": 57479,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "construct-outline",
+      "overrides": {
+        "outline": 57479
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "construct-sharp",
+      "overrides": {
+        "sharp": 57479
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "contract",
+      "codepoint": 57480,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "contract-outline",
+      "overrides": {
+        "outline": 57480
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "contract-sharp",
+      "overrides": {
+        "sharp": 57480
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "contrast",
+      "codepoint": 57481,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "contrast-outline",
+      "overrides": {
+        "outline": 57481
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "contrast-sharp",
+      "overrides": {
+        "sharp": 57481
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "copy",
+      "codepoint": 57482,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "copy-outline",
+      "overrides": {
+        "outline": 57482
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "copy-sharp",
+      "overrides": {
+        "sharp": 57482
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "create",
+      "codepoint": 57483,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "create-outline",
+      "overrides": {
+        "outline": 57483
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "create-sharp",
+      "overrides": {
+        "sharp": 57483
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "crop",
+      "codepoint": 57484,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "crop-outline",
+      "overrides": {
+        "outline": 57484
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "crop-sharp",
+      "overrides": {
+        "sharp": 57484
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cube",
+      "codepoint": 57485,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cube-outline",
+      "overrides": {
+        "outline": 57485
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cube-sharp",
+      "overrides": {
+        "sharp": 57485
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "cut",
+      "codepoint": 57486,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cut-outline",
+      "overrides": {
+        "outline": 57486
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "cut-sharp",
+      "overrides": {
+        "sharp": 57486
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "desktop",
+      "codepoint": 57487,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "desktop-outline",
+      "overrides": {
+        "outline": 57487
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "desktop-sharp",
+      "overrides": {
+        "sharp": 57487
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "diamond",
+      "codepoint": 57488,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "diamond-outline",
+      "overrides": {
+        "outline": 57488
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "diamond-sharp",
+      "overrides": {
+        "sharp": 57488
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "dice",
+      "codepoint": 57489,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dice-outline",
+      "overrides": {
+        "outline": 57489
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "dice-sharp",
+      "overrides": {
+        "sharp": 57489
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "disc",
+      "codepoint": 57490,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "disc-outline",
+      "overrides": {
+        "outline": 57490
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "disc-sharp",
+      "overrides": {
+        "sharp": 57490
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "document",
+      "codepoint": 57494,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "document-attach",
+      "codepoint": 57491,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "document-attach-outline",
+      "overrides": {
+        "outline": 57491
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "document-attach-sharp",
+      "overrides": {
+        "sharp": 57491
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "document-lock",
+      "codepoint": 57492,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "document-lock-outline",
+      "overrides": {
+        "outline": 57492
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "document-lock-sharp",
+      "overrides": {
+        "sharp": 57492
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "document-outline",
+      "overrides": {
+        "outline": 57493
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "document-sharp",
+      "overrides": {
+        "sharp": 57493
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "document-text",
+      "codepoint": 57493,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "document-text-outline",
+      "overrides": {
+        "outline": 57494
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "document-text-sharp",
+      "overrides": {
+        "sharp": 57494
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "documents",
+      "codepoint": 57495,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "documents-outline",
+      "overrides": {
+        "outline": 57495
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "documents-sharp",
+      "overrides": {
+        "sharp": 57495
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "download",
+      "codepoint": 57496,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "download-outline",
+      "overrides": {
+        "outline": 57496
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "download-sharp",
+      "overrides": {
+        "sharp": 57496
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "duplicate",
+      "codepoint": 57497,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "duplicate-outline",
+      "overrides": {
+        "outline": 57497
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "duplicate-sharp",
+      "overrides": {
+        "sharp": 57497
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ear",
+      "codepoint": 57498,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ear-outline",
+      "overrides": {
+        "outline": 57498
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ear-sharp",
+      "overrides": {
+        "sharp": 57498
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "earth",
+      "codepoint": 57499,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "earth-outline",
+      "overrides": {
+        "outline": 57499
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "earth-sharp",
+      "overrides": {
+        "sharp": 57499
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "easel",
+      "codepoint": 57500,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "easel-outline",
+      "overrides": {
+        "outline": 57500
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "easel-sharp",
+      "overrides": {
+        "sharp": 57500
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "egg",
+      "codepoint": 57501,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "egg-outline",
+      "overrides": {
+        "outline": 57501
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "egg-sharp",
+      "overrides": {
+        "sharp": 57501
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ellipse",
+      "codepoint": 57502,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ellipse-outline",
+      "overrides": {
+        "outline": 57502
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ellipse-sharp",
+      "overrides": {
+        "sharp": 57502
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ellipsis-horizontal",
+      "codepoint": 57504,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ellipsis-horizontal-circle",
+      "codepoint": 57503,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ellipsis-horizontal-circle-outline",
+      "overrides": {
+        "outline": 57503
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ellipsis-horizontal-circle-sharp",
+      "overrides": {
+        "sharp": 57503
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ellipsis-horizontal-outline",
+      "overrides": {
+        "outline": 57504
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ellipsis-horizontal-sharp",
+      "overrides": {
+        "sharp": 57504
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ellipsis-vertical",
+      "codepoint": 57506,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ellipsis-vertical-circle",
+      "codepoint": 57505,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ellipsis-vertical-circle-outline",
+      "overrides": {
+        "outline": 57505
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ellipsis-vertical-circle-sharp",
+      "overrides": {
+        "sharp": 57505
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ellipsis-vertical-outline",
+      "overrides": {
+        "outline": 57506
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ellipsis-vertical-sharp",
+      "overrides": {
+        "sharp": 57506
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "enter",
+      "codepoint": 57507,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "enter-outline",
+      "overrides": {
+        "outline": 57507
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "enter-sharp",
+      "overrides": {
+        "sharp": 57507
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "exit",
+      "codepoint": 57508,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "exit-outline",
+      "overrides": {
+        "outline": 57508
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "exit-sharp",
+      "overrides": {
+        "sharp": 57508
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "expand",
+      "codepoint": 57509,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "expand-outline",
+      "overrides": {
+        "outline": 57509
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "expand-sharp",
+      "overrides": {
+        "sharp": 57509
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "extension-puzzle",
+      "codepoint": 57510,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "extension-puzzle-outline",
+      "overrides": {
+        "outline": 57510
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "extension-puzzle-sharp",
+      "overrides": {
+        "sharp": 57510
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "eye",
+      "codepoint": 57512,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "eye-off",
+      "codepoint": 57511,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "eye-off-outline",
+      "overrides": {
+        "outline": 57511
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "eye-off-sharp",
+      "overrides": {
+        "sharp": 57511
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "eye-outline",
+      "overrides": {
+        "outline": 57512
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "eye-sharp",
+      "overrides": {
+        "sharp": 57512
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "eyedrop",
+      "codepoint": 57513,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "eyedrop-outline",
+      "overrides": {
+        "outline": 57513
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "eyedrop-sharp",
+      "overrides": {
+        "sharp": 57513
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "fast-food",
+      "codepoint": 57514,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fast-food-outline",
+      "overrides": {
+        "outline": 57514
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "fast-food-sharp",
+      "overrides": {
+        "sharp": 57514
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "female",
+      "codepoint": 57515,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "female-outline",
+      "overrides": {
+        "outline": 57515
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "female-sharp",
+      "overrides": {
+        "sharp": 57515
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "file-tray",
+      "codepoint": 57518,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "file-tray-full",
+      "codepoint": 57516,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "file-tray-full-outline",
+      "overrides": {
+        "outline": 57516
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "file-tray-full-sharp",
+      "overrides": {
+        "sharp": 57516
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "file-tray-outline",
+      "overrides": {
+        "outline": 57517
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "file-tray-sharp",
+      "overrides": {
+        "sharp": 57517
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "file-tray-stacked",
+      "codepoint": 57517,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "file-tray-stacked-outline",
+      "overrides": {
+        "outline": 57518
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "file-tray-stacked-sharp",
+      "overrides": {
+        "sharp": 57518
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "film",
+      "codepoint": 57519,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "film-outline",
+      "overrides": {
+        "outline": 57519
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "film-sharp",
+      "overrides": {
+        "sharp": 57519
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "filter",
+      "codepoint": 57521,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filter-circle",
+      "codepoint": 57520,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "filter-circle-outline",
+      "overrides": {
+        "outline": 57520
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "filter-circle-sharp",
+      "overrides": {
+        "sharp": 57520
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "filter-outline",
+      "overrides": {
+        "outline": 57521
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "filter-sharp",
+      "overrides": {
+        "sharp": 57521
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "finger-print",
+      "codepoint": 57522,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "finger-print-outline",
+      "overrides": {
+        "outline": 57522
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "finger-print-sharp",
+      "overrides": {
+        "sharp": 57522
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "fish",
+      "codepoint": 57523,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fish-outline",
+      "overrides": {
+        "outline": 57523
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "fish-sharp",
+      "overrides": {
+        "sharp": 57523
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "fitness",
+      "codepoint": 57524,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "fitness-outline",
+      "overrides": {
+        "outline": 57524
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "fitness-sharp",
+      "overrides": {
+        "sharp": 57524
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "flag",
+      "codepoint": 57525,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flag-outline",
+      "overrides": {
+        "outline": 57525
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "flag-sharp",
+      "overrides": {
+        "sharp": 57525
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "flame",
+      "codepoint": 57526,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flame-outline",
+      "overrides": {
+        "outline": 57526
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "flame-sharp",
+      "overrides": {
+        "sharp": 57526
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "flash",
+      "codepoint": 57528,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flash-off",
+      "codepoint": 57527,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flash-off-outline",
+      "overrides": {
+        "outline": 57527
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "flash-off-sharp",
+      "overrides": {
+        "sharp": 57527
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "flash-outline",
+      "overrides": {
+        "outline": 57528
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "flash-sharp",
+      "overrides": {
+        "sharp": 57528
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "flashlight",
+      "codepoint": 57529,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flashlight-outline",
+      "overrides": {
+        "outline": 57529
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "flashlight-sharp",
+      "overrides": {
+        "sharp": 57529
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "flask",
+      "codepoint": 57530,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flask-outline",
+      "overrides": {
+        "outline": 57530
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "flask-sharp",
+      "overrides": {
+        "sharp": 57530
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "flower",
+      "codepoint": 57531,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "flower-outline",
+      "overrides": {
+        "outline": 57531
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "flower-sharp",
+      "overrides": {
+        "sharp": 57531
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "folder",
+      "codepoint": 57533,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder-open",
+      "codepoint": 57532,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder-open-outline",
+      "overrides": {
+        "outline": 57532
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "folder-open-sharp",
+      "overrides": {
+        "sharp": 57532
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "folder-outline",
+      "overrides": {
+        "outline": 57533
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "folder-sharp",
+      "overrides": {
+        "sharp": 57533
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "football",
+      "codepoint": 57534,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "football-outline",
+      "overrides": {
+        "outline": 57534
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "football-sharp",
+      "overrides": {
+        "sharp": 57534
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "footsteps",
+      "codepoint": 57535,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "footsteps-outline",
+      "overrides": {
+        "outline": 57535
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "footsteps-sharp",
+      "overrides": {
+        "sharp": 57535
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "funnel",
+      "codepoint": 57536,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "funnel-outline",
+      "overrides": {
+        "outline": 57536
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "funnel-sharp",
+      "overrides": {
+        "sharp": 57536
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "game-controller",
+      "codepoint": 57537,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "game-controller-outline",
+      "overrides": {
+        "outline": 57537
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "game-controller-sharp",
+      "overrides": {
+        "sharp": 57537
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "gift",
+      "codepoint": 57538,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "gift-outline",
+      "overrides": {
+        "outline": 57538
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "gift-sharp",
+      "overrides": {
+        "sharp": 57538
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "git-branch",
+      "codepoint": 57539,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "git-branch-outline",
+      "overrides": {
+        "outline": 57539
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "git-branch-sharp",
+      "overrides": {
+        "sharp": 57539
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "git-commit",
+      "codepoint": 57540,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "git-commit-outline",
+      "overrides": {
+        "outline": 57540
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "git-commit-sharp",
+      "overrides": {
+        "sharp": 57540
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "git-compare",
+      "codepoint": 57541,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "git-compare-outline",
+      "overrides": {
+        "outline": 57541
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "git-compare-sharp",
+      "overrides": {
+        "sharp": 57541
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "git-merge",
+      "codepoint": 57542,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "git-merge-outline",
+      "overrides": {
+        "outline": 57542
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "git-merge-sharp",
+      "overrides": {
+        "sharp": 57542
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "git-network",
+      "codepoint": 57543,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "git-network-outline",
+      "overrides": {
+        "outline": 57543
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "git-network-sharp",
+      "overrides": {
+        "sharp": 57543
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "git-pull-request",
+      "codepoint": 57544,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "git-pull-request-outline",
+      "overrides": {
+        "outline": 57544
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "git-pull-request-sharp",
+      "overrides": {
+        "sharp": 57544
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "glasses",
+      "codepoint": 57545,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "glasses-outline",
+      "overrides": {
+        "outline": 57545
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "glasses-sharp",
+      "overrides": {
+        "sharp": 57545
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "globe",
+      "codepoint": 57546,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "globe-outline",
+      "overrides": {
+        "outline": 57546
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "globe-sharp",
+      "overrides": {
+        "sharp": 57546
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "golf",
+      "codepoint": 57547,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "golf-outline",
+      "overrides": {
+        "outline": 57547
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "golf-sharp",
+      "overrides": {
+        "sharp": 57547
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "grid",
+      "codepoint": 57548,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "grid-outline",
+      "overrides": {
+        "outline": 57548
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "grid-sharp",
+      "overrides": {
+        "sharp": 57548
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "hammer",
+      "codepoint": 57549,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hammer-outline",
+      "overrides": {
+        "outline": 57549
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "hammer-sharp",
+      "overrides": {
+        "sharp": 57549
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "hand-left",
+      "codepoint": 57550,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hand-left-outline",
+      "overrides": {
+        "outline": 57550
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "hand-left-sharp",
+      "overrides": {
+        "sharp": 57550
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "hand-right",
+      "codepoint": 57551,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hand-right-outline",
+      "overrides": {
+        "outline": 57551
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "hand-right-sharp",
+      "overrides": {
+        "sharp": 57551
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "happy",
+      "codepoint": 57552,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "happy-outline",
+      "overrides": {
+        "outline": 57552
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "happy-sharp",
+      "overrides": {
+        "sharp": 57552
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "hardware-chip",
+      "codepoint": 57553,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hardware-chip-outline",
+      "overrides": {
+        "outline": 57553
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "hardware-chip-sharp",
+      "overrides": {
+        "sharp": 57553
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "headset",
+      "codepoint": 57554,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "headset-outline",
+      "overrides": {
+        "outline": 57554
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "headset-sharp",
+      "overrides": {
+        "sharp": 57554
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "heart",
+      "codepoint": 57559,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heart-circle",
+      "codepoint": 57555,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heart-circle-outline",
+      "overrides": {
+        "outline": 57555
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "heart-circle-sharp",
+      "overrides": {
+        "sharp": 57555
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "heart-dislike",
+      "codepoint": 57557,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heart-dislike-circle",
+      "codepoint": 57556,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heart-dislike-circle-outline",
+      "overrides": {
+        "outline": 57556
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "heart-dislike-circle-sharp",
+      "overrides": {
+        "sharp": 57556
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "heart-dislike-outline",
+      "overrides": {
+        "outline": 57557
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "heart-dislike-sharp",
+      "overrides": {
+        "sharp": 57557
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "heart-half",
+      "codepoint": 57558,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "heart-half-outline",
+      "overrides": {
+        "outline": 57558
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "heart-half-sharp",
+      "overrides": {
+        "sharp": 57558
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "heart-outline",
+      "overrides": {
+        "outline": 57559
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "heart-sharp",
+      "overrides": {
+        "sharp": 57559
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "help",
+      "codepoint": 57562,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "help-buoy",
+      "codepoint": 57560,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "help-buoy-outline",
+      "overrides": {
+        "outline": 57560
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "help-buoy-sharp",
+      "overrides": {
+        "sharp": 57560
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "help-circle",
+      "codepoint": 57561,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "help-circle-outline",
+      "overrides": {
+        "outline": 57561
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "help-circle-sharp",
+      "overrides": {
+        "sharp": 57561
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "help-outline",
+      "overrides": {
+        "outline": 57562
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "help-sharp",
+      "overrides": {
+        "sharp": 57562
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "home",
+      "codepoint": 57563,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "home-outline",
+      "overrides": {
+        "outline": 57563
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "home-sharp",
+      "overrides": {
+        "sharp": 57563
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "hourglass",
+      "codepoint": 57564,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hourglass-outline",
+      "overrides": {
+        "outline": 57564
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "hourglass-sharp",
+      "overrides": {
+        "sharp": 57564
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ice-cream",
+      "codepoint": 57565,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ice-cream-outline",
+      "overrides": {
+        "outline": 57565
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ice-cream-sharp",
+      "overrides": {
+        "sharp": 57565
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "id-card",
+      "codepoint": 57566,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "id-card-outline",
+      "overrides": {
+        "outline": 57566
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "id-card-sharp",
+      "overrides": {
+        "sharp": 57566
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "image",
+      "codepoint": 57567,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "image-outline",
+      "overrides": {
+        "outline": 57567
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "image-sharp",
+      "overrides": {
+        "sharp": 57567
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "images",
+      "codepoint": 57568,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "images-outline",
+      "overrides": {
+        "outline": 57568
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "images-sharp",
+      "overrides": {
+        "sharp": 57568
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "infinite",
+      "codepoint": 57569,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "infinite-outline",
+      "overrides": {
+        "outline": 57569
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "infinite-sharp",
+      "overrides": {
+        "sharp": 57569
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "information",
+      "codepoint": 57571,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "information-circle",
+      "codepoint": 57570,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "information-circle-outline",
+      "overrides": {
+        "outline": 57570
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "information-circle-sharp",
+      "overrides": {
+        "sharp": 57570
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "information-outline",
+      "overrides": {
+        "outline": 57571
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "information-sharp",
+      "overrides": {
+        "sharp": 57571
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "invert-mode",
+      "codepoint": 57572,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "invert-mode-outline",
+      "overrides": {
+        "outline": 57572
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "invert-mode-sharp",
+      "overrides": {
+        "sharp": 57572
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "journal",
+      "codepoint": 57573,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "journal-outline",
+      "overrides": {
+        "outline": 57573
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "journal-sharp",
+      "overrides": {
+        "sharp": 57573
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "key",
+      "codepoint": 57574,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "key-outline",
+      "overrides": {
+        "outline": 57574
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "key-sharp",
+      "overrides": {
+        "sharp": 57574
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "keypad",
+      "codepoint": 57575,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "keypad-outline",
+      "overrides": {
+        "outline": 57575
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "keypad-sharp",
+      "overrides": {
+        "sharp": 57575
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "language",
+      "codepoint": 57576,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "language-outline",
+      "overrides": {
+        "outline": 57576
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "language-sharp",
+      "overrides": {
+        "sharp": 57576
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "laptop",
+      "codepoint": 57577,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "laptop-outline",
+      "overrides": {
+        "outline": 57577
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "laptop-sharp",
+      "overrides": {
+        "sharp": 57577
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "layers",
+      "codepoint": 57578,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "layers-outline",
+      "overrides": {
+        "outline": 57578
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "layers-sharp",
+      "overrides": {
+        "sharp": 57578
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "leaf",
+      "codepoint": 57579,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "leaf-outline",
+      "overrides": {
+        "outline": 57579
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "leaf-sharp",
+      "overrides": {
+        "sharp": 57579
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "library",
+      "codepoint": 57580,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "library-outline",
+      "overrides": {
+        "outline": 57580
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "library-sharp",
+      "overrides": {
+        "sharp": 57580
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "link",
+      "codepoint": 57581,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "link-outline",
+      "overrides": {
+        "outline": 57581
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "link-sharp",
+      "overrides": {
+        "sharp": 57581
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "list",
+      "codepoint": 57583,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-circle",
+      "codepoint": 57582,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list-circle-outline",
+      "overrides": {
+        "outline": 57582
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "list-circle-sharp",
+      "overrides": {
+        "sharp": 57582
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "list-outline",
+      "overrides": {
+        "outline": 57583
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "list-sharp",
+      "overrides": {
+        "sharp": 57583
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "locate",
+      "codepoint": 57584,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "locate-outline",
+      "overrides": {
+        "outline": 57584
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "locate-sharp",
+      "overrides": {
+        "sharp": 57584
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "location",
+      "codepoint": 57585,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "location-outline",
+      "overrides": {
+        "outline": 57585
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "location-sharp",
+      "overrides": {
+        "sharp": 57585
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "lock-closed",
+      "codepoint": 57586,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "lock-closed-outline",
+      "overrides": {
+        "outline": 57586
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "lock-closed-sharp",
+      "overrides": {
+        "sharp": 57586
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "lock-open",
+      "codepoint": 57587,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "lock-open-outline",
+      "overrides": {
+        "outline": 57587
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "lock-open-sharp",
+      "overrides": {
+        "sharp": 57587
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "log-in",
+      "codepoint": 57588,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "log-in-outline",
+      "overrides": {
+        "outline": 57588
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "log-in-sharp",
+      "overrides": {
+        "sharp": 57588
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "log-out",
+      "codepoint": 57589,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "log-out-outline",
+      "overrides": {
+        "outline": 57589
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "log-out-sharp",
+      "overrides": {
+        "sharp": 57589
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "logo-alipay",
+      "codepoint": 57590,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-amazon",
+      "codepoint": 57591,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-amplify",
+      "codepoint": 57592,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-android",
+      "codepoint": 57593,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-angular",
+      "codepoint": 57594,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-appflow",
+      "codepoint": 57595,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-apple",
+      "codepoint": 57598,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-apple-appstore",
+      "codepoint": 57596,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-apple-ar",
+      "codepoint": 57597,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-behance",
+      "codepoint": 57599,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-bitbucket",
+      "codepoint": 57600,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-bitcoin",
+      "codepoint": 57601,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-buffer",
+      "codepoint": 57602,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-capacitor",
+      "codepoint": 57603,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-chrome",
+      "codepoint": 57604,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-closed-captioning",
+      "codepoint": 57605,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-codepen",
+      "codepoint": 57606,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-css3",
+      "codepoint": 57607,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-designernews",
+      "codepoint": 57608,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-deviantart",
+      "codepoint": 57609,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-discord",
+      "codepoint": 57610,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-docker",
+      "codepoint": 57611,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-dribbble",
+      "codepoint": 57612,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-dropbox",
+      "codepoint": 57613,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-edge",
+      "codepoint": 57614,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-electron",
+      "codepoint": 57615,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-euro",
+      "codepoint": 57616,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-facebook",
+      "codepoint": 57617,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-figma",
+      "codepoint": 57618,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-firebase",
+      "codepoint": 57619,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-firefox",
+      "codepoint": 57620,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-flickr",
+      "codepoint": 57621,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-foursquare",
+      "codepoint": 57622,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-github",
+      "codepoint": 57623,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-gitlab",
+      "codepoint": 57624,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-google",
+      "codepoint": 57626,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-google-playstore",
+      "codepoint": 57625,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-hackernews",
+      "codepoint": 57627,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-html5",
+      "codepoint": 57628,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-instagram",
+      "codepoint": 57629,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-ionic",
+      "codepoint": 57630,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-ionitron",
+      "codepoint": 57631,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-javascript",
+      "codepoint": 57632,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-laravel",
+      "codepoint": 57633,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-linkedin",
+      "codepoint": 57634,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-markdown",
+      "codepoint": 57635,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-mastodon",
+      "codepoint": 57636,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-medium",
+      "codepoint": 57637,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-microsoft",
+      "codepoint": 57638,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-no-smoking",
+      "codepoint": 57639,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-nodejs",
+      "codepoint": 57640,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-npm",
+      "codepoint": 57641,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-octocat",
+      "codepoint": 57642,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-paypal",
+      "codepoint": 57643,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-pinterest",
+      "codepoint": 57644,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-playstation",
+      "codepoint": 57645,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-pwa",
+      "codepoint": 57646,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-python",
+      "codepoint": 57647,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-react",
+      "codepoint": 57648,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-reddit",
+      "codepoint": 57649,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-rss",
+      "codepoint": 57650,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-sass",
+      "codepoint": 57651,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-skype",
+      "codepoint": 57652,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-slack",
+      "codepoint": 57653,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-snapchat",
+      "codepoint": 57654,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-soundcloud",
+      "codepoint": 57655,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-stackoverflow",
+      "codepoint": 57656,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-steam",
+      "codepoint": 57657,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-stencil",
+      "codepoint": 57658,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-tableau",
+      "codepoint": 57659,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-tiktok",
+      "codepoint": 57660,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-trapeze",
+      "codepoint": 57661,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-tumblr",
+      "codepoint": 57662,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-tux",
+      "codepoint": 57663,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-twitch",
+      "codepoint": 57664,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-twitter",
+      "codepoint": 57665,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-usd",
+      "codepoint": 57666,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-venmo",
+      "codepoint": 57667,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-vercel",
+      "codepoint": 57668,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-vimeo",
+      "codepoint": 57669,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-vk",
+      "codepoint": 57670,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-vue",
+      "codepoint": 57671,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-web-component",
+      "codepoint": 57672,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-wechat",
+      "codepoint": 57673,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-whatsapp",
+      "codepoint": 57674,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-windows",
+      "codepoint": 57675,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-wordpress",
+      "codepoint": 57676,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-x",
+      "codepoint": 57677,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-xbox",
+      "codepoint": 57678,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-xing",
+      "codepoint": 57679,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-yahoo",
+      "codepoint": 57680,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-yen",
+      "codepoint": 57681,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "logo-youtube",
+      "codepoint": 57682,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "magnet",
+      "codepoint": 57683,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "magnet-outline",
+      "overrides": {
+        "outline": 57590
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "magnet-sharp",
+      "overrides": {
+        "sharp": 57590
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "mail",
+      "codepoint": 57686,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mail-open",
+      "codepoint": 57684,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mail-open-outline",
+      "overrides": {
+        "outline": 57591
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "mail-open-sharp",
+      "overrides": {
+        "sharp": 57591
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "mail-outline",
+      "overrides": {
+        "outline": 57592
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "mail-sharp",
+      "overrides": {
+        "sharp": 57592
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "mail-unread",
+      "codepoint": 57685,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mail-unread-outline",
+      "overrides": {
+        "outline": 57593
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "mail-unread-sharp",
+      "overrides": {
+        "sharp": 57593
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "male",
+      "codepoint": 57688,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "male-female",
+      "codepoint": 57687,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "male-female-outline",
+      "overrides": {
+        "outline": 57594
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "male-female-sharp",
+      "overrides": {
+        "sharp": 57594
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "male-outline",
+      "overrides": {
+        "outline": 57595
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "male-sharp",
+      "overrides": {
+        "sharp": 57595
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "man",
+      "codepoint": 57689,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "man-outline",
+      "overrides": {
+        "outline": 57596
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "man-sharp",
+      "overrides": {
+        "sharp": 57596
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "map",
+      "codepoint": 57690,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "map-outline",
+      "overrides": {
+        "outline": 57597
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "map-sharp",
+      "overrides": {
+        "sharp": 57597
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "medal",
+      "codepoint": 57691,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "medal-outline",
+      "overrides": {
+        "outline": 57598
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "medal-sharp",
+      "overrides": {
+        "sharp": 57598
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "medical",
+      "codepoint": 57692,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "medical-outline",
+      "overrides": {
+        "outline": 57599
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "medical-sharp",
+      "overrides": {
+        "sharp": 57599
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "medkit",
+      "codepoint": 57693,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "medkit-outline",
+      "overrides": {
+        "outline": 57600
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "medkit-sharp",
+      "overrides": {
+        "sharp": 57600
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "megaphone",
+      "codepoint": 57694,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "megaphone-outline",
+      "overrides": {
+        "outline": 57601
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "megaphone-sharp",
+      "overrides": {
+        "sharp": 57601
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "menu",
+      "codepoint": 57695,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "menu-outline",
+      "overrides": {
+        "outline": 57602
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "menu-sharp",
+      "overrides": {
+        "sharp": 57602
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "mic",
+      "codepoint": 57699,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mic-circle",
+      "codepoint": 57696,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mic-circle-outline",
+      "overrides": {
+        "outline": 57603
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "mic-circle-sharp",
+      "overrides": {
+        "sharp": 57603
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "mic-off",
+      "codepoint": 57698,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mic-off-circle",
+      "codepoint": 57697,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mic-off-circle-outline",
+      "overrides": {
+        "outline": 57604
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "mic-off-circle-sharp",
+      "overrides": {
+        "sharp": 57604
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "mic-off-outline",
+      "overrides": {
+        "outline": 57605
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "mic-off-sharp",
+      "overrides": {
+        "sharp": 57605
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "mic-outline",
+      "overrides": {
+        "outline": 57606
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "mic-sharp",
+      "overrides": {
+        "sharp": 57606
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "moon",
+      "codepoint": 57700,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "moon-outline",
+      "overrides": {
+        "outline": 57607
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "moon-sharp",
+      "overrides": {
+        "sharp": 57607
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "move",
+      "codepoint": 57701,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "move-outline",
+      "overrides": {
+        "outline": 57608
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "move-sharp",
+      "overrides": {
+        "sharp": 57608
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "musical-note",
+      "codepoint": 57702,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "musical-note-outline",
+      "overrides": {
+        "outline": 57609
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "musical-note-sharp",
+      "overrides": {
+        "sharp": 57609
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "musical-notes",
+      "codepoint": 57703,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "musical-notes-outline",
+      "overrides": {
+        "outline": 57610
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "musical-notes-sharp",
+      "overrides": {
+        "sharp": 57610
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "navigate",
+      "codepoint": 57705,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "navigate-circle",
+      "codepoint": 57704,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "navigate-circle-outline",
+      "overrides": {
+        "outline": 57611
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "navigate-circle-sharp",
+      "overrides": {
+        "sharp": 57611
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "navigate-outline",
+      "overrides": {
+        "outline": 57612
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "navigate-sharp",
+      "overrides": {
+        "sharp": 57612
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "newspaper",
+      "codepoint": 57706,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "newspaper-outline",
+      "overrides": {
+        "outline": 57613
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "newspaper-sharp",
+      "overrides": {
+        "sharp": 57613
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "notifications",
+      "codepoint": 57710,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "notifications-circle",
+      "codepoint": 57707,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "notifications-circle-outline",
+      "overrides": {
+        "outline": 57614
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "notifications-circle-sharp",
+      "overrides": {
+        "sharp": 57614
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "notifications-off",
+      "codepoint": 57709,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "notifications-off-circle",
+      "codepoint": 57708,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "notifications-off-circle-outline",
+      "overrides": {
+        "outline": 57615
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "notifications-off-circle-sharp",
+      "overrides": {
+        "sharp": 57615
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "notifications-off-outline",
+      "overrides": {
+        "outline": 57616
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "notifications-off-sharp",
+      "overrides": {
+        "sharp": 57616
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "notifications-outline",
+      "overrides": {
+        "outline": 57617
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "notifications-sharp",
+      "overrides": {
+        "sharp": 57617
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "nuclear",
+      "codepoint": 57711,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "nuclear-outline",
+      "overrides": {
+        "outline": 57618
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "nuclear-sharp",
+      "overrides": {
+        "sharp": 57618
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "nutrition",
+      "codepoint": 57712,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "nutrition-outline",
+      "overrides": {
+        "outline": 57619
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "nutrition-sharp",
+      "overrides": {
+        "sharp": 57619
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "open",
+      "codepoint": 57713,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "open-outline",
+      "overrides": {
+        "outline": 57620
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "open-sharp",
+      "overrides": {
+        "sharp": 57620
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "options",
+      "codepoint": 57714,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "options-outline",
+      "overrides": {
+        "outline": 57621
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "options-sharp",
+      "overrides": {
+        "sharp": 57621
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "paper-plane",
+      "codepoint": 57715,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "paper-plane-outline",
+      "overrides": {
+        "outline": 57622
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "paper-plane-sharp",
+      "overrides": {
+        "sharp": 57622
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "partly-sunny",
+      "codepoint": 57716,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "partly-sunny-outline",
+      "overrides": {
+        "outline": 57623
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "partly-sunny-sharp",
+      "overrides": {
+        "sharp": 57623
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pause",
+      "codepoint": 57718,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pause-circle",
+      "codepoint": 57717,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pause-circle-outline",
+      "overrides": {
+        "outline": 57624
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pause-circle-sharp",
+      "overrides": {
+        "sharp": 57624
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pause-outline",
+      "overrides": {
+        "outline": 57625
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pause-sharp",
+      "overrides": {
+        "sharp": 57625
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "paw",
+      "codepoint": 57719,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "paw-outline",
+      "overrides": {
+        "outline": 57626
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "paw-sharp",
+      "overrides": {
+        "sharp": 57626
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pencil",
+      "codepoint": 57720,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pencil-outline",
+      "overrides": {
+        "outline": 57627
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pencil-sharp",
+      "overrides": {
+        "sharp": 57627
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "people",
+      "codepoint": 57722,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "people-circle",
+      "codepoint": 57721,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "people-circle-outline",
+      "overrides": {
+        "outline": 57628
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "people-circle-sharp",
+      "overrides": {
+        "sharp": 57628
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "people-outline",
+      "overrides": {
+        "outline": 57629
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "people-sharp",
+      "overrides": {
+        "sharp": 57629
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "person",
+      "codepoint": 57726,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-add",
+      "codepoint": 57723,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-add-outline",
+      "overrides": {
+        "outline": 57630
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "person-add-sharp",
+      "overrides": {
+        "sharp": 57630
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "person-circle",
+      "codepoint": 57724,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-circle-outline",
+      "overrides": {
+        "outline": 57631
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "person-circle-sharp",
+      "overrides": {
+        "sharp": 57631
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "person-outline",
+      "overrides": {
+        "outline": 57632
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "person-remove",
+      "codepoint": 57725,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "person-remove-outline",
+      "overrides": {
+        "outline": 57633
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "person-remove-sharp",
+      "overrides": {
+        "sharp": 57632
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "person-sharp",
+      "overrides": {
+        "sharp": 57633
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "phone-landscape",
+      "codepoint": 57727,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "phone-landscape-outline",
+      "overrides": {
+        "outline": 57634
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "phone-landscape-sharp",
+      "overrides": {
+        "sharp": 57634
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "phone-portrait",
+      "codepoint": 57728,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "phone-portrait-outline",
+      "overrides": {
+        "outline": 57635
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "phone-portrait-sharp",
+      "overrides": {
+        "sharp": 57635
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pie-chart",
+      "codepoint": 57729,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pie-chart-outline",
+      "overrides": {
+        "outline": 57636
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pie-chart-sharp",
+      "overrides": {
+        "sharp": 57636
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pin",
+      "codepoint": 57730,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pin-outline",
+      "overrides": {
+        "outline": 57637
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pin-sharp",
+      "overrides": {
+        "sharp": 57637
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pint",
+      "codepoint": 57731,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pint-outline",
+      "overrides": {
+        "outline": 57638
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pint-sharp",
+      "overrides": {
+        "sharp": 57638
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pizza",
+      "codepoint": 57732,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pizza-outline",
+      "overrides": {
+        "outline": 57639
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pizza-sharp",
+      "overrides": {
+        "sharp": 57639
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "planet",
+      "codepoint": 57733,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "planet-outline",
+      "overrides": {
+        "outline": 57640
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "planet-sharp",
+      "overrides": {
+        "sharp": 57640
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play",
+      "codepoint": 57743,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-back",
+      "codepoint": 57735,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-back-circle",
+      "codepoint": 57734,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-back-circle-outline",
+      "overrides": {
+        "outline": 57641
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-back-circle-sharp",
+      "overrides": {
+        "sharp": 57641
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-back-outline",
+      "overrides": {
+        "outline": 57642
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-back-sharp",
+      "overrides": {
+        "sharp": 57642
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-circle",
+      "codepoint": 57736,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-circle-outline",
+      "overrides": {
+        "outline": 57643
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-circle-sharp",
+      "overrides": {
+        "sharp": 57643
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-forward",
+      "codepoint": 57738,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-forward-circle",
+      "codepoint": 57737,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-forward-circle-outline",
+      "overrides": {
+        "outline": 57644
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-forward-circle-sharp",
+      "overrides": {
+        "sharp": 57644
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-forward-outline",
+      "overrides": {
+        "outline": 57645
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-forward-sharp",
+      "overrides": {
+        "sharp": 57645
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-outline",
+      "overrides": {
+        "outline": 57646
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-sharp",
+      "overrides": {
+        "sharp": 57646
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-skip-back",
+      "codepoint": 57740,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-skip-back-circle",
+      "codepoint": 57739,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-skip-back-circle-outline",
+      "overrides": {
+        "outline": 57647
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-skip-back-circle-sharp",
+      "overrides": {
+        "sharp": 57647
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-skip-back-outline",
+      "overrides": {
+        "outline": 57648
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-skip-back-sharp",
+      "overrides": {
+        "sharp": 57648
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-skip-forward",
+      "codepoint": 57742,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-skip-forward-circle",
+      "codepoint": 57741,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "play-skip-forward-circle-outline",
+      "overrides": {
+        "outline": 57649
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-skip-forward-circle-sharp",
+      "overrides": {
+        "sharp": 57649
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "play-skip-forward-outline",
+      "overrides": {
+        "outline": 57650
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-skip-forward-sharp",
+      "overrides": {
+        "sharp": 57650
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "podium",
+      "codepoint": 57744,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "podium-outline",
+      "overrides": {
+        "outline": 57651
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "podium-sharp",
+      "overrides": {
+        "sharp": 57651
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "power",
+      "codepoint": 57745,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "power-outline",
+      "overrides": {
+        "outline": 57652
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "power-sharp",
+      "overrides": {
+        "sharp": 57652
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pricetag",
+      "codepoint": 57746,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pricetag-outline",
+      "overrides": {
+        "outline": 57653
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pricetag-sharp",
+      "overrides": {
+        "sharp": 57653
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pricetags",
+      "codepoint": 57747,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pricetags-outline",
+      "overrides": {
+        "outline": 57654
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pricetags-sharp",
+      "overrides": {
+        "sharp": 57654
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "print",
+      "codepoint": 57748,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "print-outline",
+      "overrides": {
+        "outline": 57655
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "print-sharp",
+      "overrides": {
+        "sharp": 57655
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "prism",
+      "codepoint": 57749,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "prism-outline",
+      "overrides": {
+        "outline": 57656
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "prism-sharp",
+      "overrides": {
+        "sharp": 57656
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "pulse",
+      "codepoint": 57750,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pulse-outline",
+      "overrides": {
+        "outline": 57657
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pulse-sharp",
+      "overrides": {
+        "sharp": 57657
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "push",
+      "codepoint": 57751,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "push-outline",
+      "overrides": {
+        "outline": 57658
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "push-sharp",
+      "overrides": {
+        "sharp": 57658
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "qr-code",
+      "codepoint": 57752,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "qr-code-outline",
+      "overrides": {
+        "outline": 57659
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "qr-code-sharp",
+      "overrides": {
+        "sharp": 57659
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "radio",
+      "codepoint": 57755,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "radio-button-off",
+      "codepoint": 57753,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "radio-button-off-outline",
+      "overrides": {
+        "outline": 57660
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "radio-button-off-sharp",
+      "overrides": {
+        "sharp": 57660
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "radio-button-on",
+      "codepoint": 57754,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "radio-button-on-outline",
+      "overrides": {
+        "outline": 57661
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "radio-button-on-sharp",
+      "overrides": {
+        "sharp": 57661
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "radio-outline",
+      "overrides": {
+        "outline": 57662
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "radio-sharp",
+      "overrides": {
+        "sharp": 57662
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "rainy",
+      "codepoint": 57756,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "rainy-outline",
+      "overrides": {
+        "outline": 57663
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "rainy-sharp",
+      "overrides": {
+        "sharp": 57663
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "reader",
+      "codepoint": 57757,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reader-outline",
+      "overrides": {
+        "outline": 57664
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "reader-sharp",
+      "overrides": {
+        "sharp": 57664
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "receipt",
+      "codepoint": 57758,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "receipt-outline",
+      "overrides": {
+        "outline": 57665
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "receipt-sharp",
+      "overrides": {
+        "sharp": 57665
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "recording",
+      "codepoint": 57759,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "recording-outline",
+      "overrides": {
+        "outline": 57666
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "recording-sharp",
+      "overrides": {
+        "sharp": 57666
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "refresh",
+      "codepoint": 57761,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "refresh-circle",
+      "codepoint": 57760,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "refresh-circle-outline",
+      "overrides": {
+        "outline": 57667
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "refresh-circle-sharp",
+      "overrides": {
+        "sharp": 57667
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "refresh-outline",
+      "overrides": {
+        "outline": 57668
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "refresh-sharp",
+      "overrides": {
+        "sharp": 57668
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "reload",
+      "codepoint": 57763,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reload-circle",
+      "codepoint": 57762,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reload-circle-outline",
+      "overrides": {
+        "outline": 57669
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "reload-circle-sharp",
+      "overrides": {
+        "sharp": 57669
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "reload-outline",
+      "overrides": {
+        "outline": 57670
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "reload-sharp",
+      "overrides": {
+        "sharp": 57670
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "remove",
+      "codepoint": 57765,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "remove-circle",
+      "codepoint": 57764,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "remove-circle-outline",
+      "overrides": {
+        "outline": 57671
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "remove-circle-sharp",
+      "overrides": {
+        "sharp": 57671
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "remove-outline",
+      "overrides": {
+        "outline": 57672
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "remove-sharp",
+      "overrides": {
+        "sharp": 57672
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "reorder-four",
+      "codepoint": 57766,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reorder-four-outline",
+      "overrides": {
+        "outline": 57673
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "reorder-four-sharp",
+      "overrides": {
+        "sharp": 57673
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "reorder-three",
+      "codepoint": 57767,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reorder-three-outline",
+      "overrides": {
+        "outline": 57674
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "reorder-three-sharp",
+      "overrides": {
+        "sharp": 57674
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "reorder-two",
+      "codepoint": 57768,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "reorder-two-outline",
+      "overrides": {
+        "outline": 57675
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "reorder-two-sharp",
+      "overrides": {
+        "sharp": 57675
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "repeat",
+      "codepoint": 57769,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "repeat-outline",
+      "overrides": {
+        "outline": 57676
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "repeat-sharp",
+      "overrides": {
+        "sharp": 57676
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "resize",
+      "codepoint": 57770,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "resize-outline",
+      "overrides": {
+        "outline": 57677
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "resize-sharp",
+      "overrides": {
+        "sharp": 57677
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "codepoint": 57771,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "restaurant-outline",
+      "overrides": {
+        "outline": 57678
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "restaurant-sharp",
+      "overrides": {
+        "sharp": 57678
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "return-down-back",
+      "codepoint": 57772,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "return-down-back-outline",
+      "overrides": {
+        "outline": 57679
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "return-down-back-sharp",
+      "overrides": {
+        "sharp": 57679
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "return-down-forward",
+      "codepoint": 57773,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "return-down-forward-outline",
+      "overrides": {
+        "outline": 57680
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "return-down-forward-sharp",
+      "overrides": {
+        "sharp": 57680
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "return-up-back",
+      "codepoint": 57774,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "return-up-back-outline",
+      "overrides": {
+        "outline": 57681
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "return-up-back-sharp",
+      "overrides": {
+        "sharp": 57681
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "return-up-forward",
+      "codepoint": 57775,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "return-up-forward-outline",
+      "overrides": {
+        "outline": 57682
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "return-up-forward-sharp",
+      "overrides": {
+        "sharp": 57682
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ribbon",
+      "codepoint": 57776,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ribbon-outline",
+      "overrides": {
+        "outline": 57683
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ribbon-sharp",
+      "overrides": {
+        "sharp": 57683
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "rocket",
+      "codepoint": 57777,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "rocket-outline",
+      "overrides": {
+        "outline": 57684
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "rocket-sharp",
+      "overrides": {
+        "sharp": 57684
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "rose",
+      "codepoint": 57778,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "rose-outline",
+      "overrides": {
+        "outline": 57685
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "rose-sharp",
+      "overrides": {
+        "sharp": 57685
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "sad",
+      "codepoint": 57779,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sad-outline",
+      "overrides": {
+        "outline": 57686
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "sad-sharp",
+      "overrides": {
+        "sharp": 57686
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "save",
+      "codepoint": 57780,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "save-outline",
+      "overrides": {
+        "outline": 57687
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "save-sharp",
+      "overrides": {
+        "sharp": 57687
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "scale",
+      "codepoint": 57781,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "scale-outline",
+      "overrides": {
+        "outline": 57688
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "scale-sharp",
+      "overrides": {
+        "sharp": 57688
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "scan",
+      "codepoint": 57783,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "scan-circle",
+      "codepoint": 57782,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "scan-circle-outline",
+      "overrides": {
+        "outline": 57689
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "scan-circle-sharp",
+      "overrides": {
+        "sharp": 57689
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "scan-outline",
+      "overrides": {
+        "outline": 57690
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "scan-sharp",
+      "overrides": {
+        "sharp": 57690
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "school",
+      "codepoint": 57784,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "school-outline",
+      "overrides": {
+        "outline": 57691
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "school-sharp",
+      "overrides": {
+        "sharp": 57691
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "search",
+      "codepoint": 57786,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "search-circle",
+      "codepoint": 57785,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "search-circle-outline",
+      "overrides": {
+        "outline": 57692
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "search-circle-sharp",
+      "overrides": {
+        "sharp": 57692
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "search-outline",
+      "overrides": {
+        "outline": 57693
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "search-sharp",
+      "overrides": {
+        "sharp": 57693
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "send",
+      "codepoint": 57787,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "send-outline",
+      "overrides": {
+        "outline": 57694
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "send-sharp",
+      "overrides": {
+        "sharp": 57694
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "server",
+      "codepoint": 57788,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "server-outline",
+      "overrides": {
+        "outline": 57695
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "server-sharp",
+      "overrides": {
+        "sharp": 57695
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "settings",
+      "codepoint": 57789,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "settings-outline",
+      "overrides": {
+        "outline": 57696
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "settings-sharp",
+      "overrides": {
+        "sharp": 57696
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "shapes",
+      "codepoint": 57790,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shapes-outline",
+      "overrides": {
+        "outline": 57697
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "shapes-sharp",
+      "overrides": {
+        "sharp": 57697
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "share",
+      "codepoint": 57792,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "share-outline",
+      "overrides": {
+        "outline": 57698
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "share-sharp",
+      "overrides": {
+        "sharp": 57698
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "share-social",
+      "codepoint": 57791,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "share-social-outline",
+      "overrides": {
+        "outline": 57699
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "share-social-sharp",
+      "overrides": {
+        "sharp": 57699
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "shield",
+      "codepoint": 57795,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-checkmark",
+      "codepoint": 57793,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-checkmark-outline",
+      "overrides": {
+        "outline": 57700
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "shield-checkmark-sharp",
+      "overrides": {
+        "sharp": 57700
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "shield-half",
+      "codepoint": 57794,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shield-half-outline",
+      "overrides": {
+        "outline": 57701
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "shield-half-sharp",
+      "overrides": {
+        "sharp": 57701
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "shield-outline",
+      "overrides": {
+        "outline": 57702
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "shield-sharp",
+      "overrides": {
+        "sharp": 57702
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "shirt",
+      "codepoint": 57796,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shirt-outline",
+      "overrides": {
+        "outline": 57703
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "shirt-sharp",
+      "overrides": {
+        "sharp": 57703
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "shuffle",
+      "codepoint": 57797,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "shuffle-outline",
+      "overrides": {
+        "outline": 57704
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "shuffle-sharp",
+      "overrides": {
+        "sharp": 57704
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "skull",
+      "codepoint": 57798,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "skull-outline",
+      "overrides": {
+        "outline": 57705
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "skull-sharp",
+      "overrides": {
+        "sharp": 57705
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "snow",
+      "codepoint": 57799,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "snow-outline",
+      "overrides": {
+        "outline": 57706
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "snow-sharp",
+      "overrides": {
+        "sharp": 57706
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "sparkles",
+      "codepoint": 57800,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sparkles-outline",
+      "overrides": {
+        "outline": 57707
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "sparkles-sharp",
+      "overrides": {
+        "sharp": 57707
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "speedometer",
+      "codepoint": 57801,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "speedometer-outline",
+      "overrides": {
+        "outline": 57708
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "speedometer-sharp",
+      "overrides": {
+        "sharp": 57708
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "square",
+      "codepoint": 57802,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "square-outline",
+      "overrides": {
+        "outline": 57709
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "square-sharp",
+      "overrides": {
+        "sharp": 57709
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "star",
+      "codepoint": 57804,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "star-half",
+      "codepoint": 57803,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "star-half-outline",
+      "overrides": {
+        "outline": 57710
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "star-half-sharp",
+      "overrides": {
+        "sharp": 57710
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "star-outline",
+      "overrides": {
+        "outline": 57711
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "star-sharp",
+      "overrides": {
+        "sharp": 57711
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "stats-chart",
+      "codepoint": 57805,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stats-chart-outline",
+      "overrides": {
+        "outline": 57712
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "stats-chart-sharp",
+      "overrides": {
+        "sharp": 57712
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "stop",
+      "codepoint": 57807,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stop-circle",
+      "codepoint": 57806,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stop-circle-outline",
+      "overrides": {
+        "outline": 57713
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "stop-circle-sharp",
+      "overrides": {
+        "sharp": 57713
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "stop-outline",
+      "overrides": {
+        "outline": 57714
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "stop-sharp",
+      "overrides": {
+        "sharp": 57714
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "stopwatch",
+      "codepoint": 57808,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "stopwatch-outline",
+      "overrides": {
+        "outline": 57715
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "stopwatch-sharp",
+      "overrides": {
+        "sharp": 57715
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "storefront",
+      "codepoint": 57809,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "storefront-outline",
+      "overrides": {
+        "outline": 57716
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "storefront-sharp",
+      "overrides": {
+        "sharp": 57716
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "subway",
+      "codepoint": 57810,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "subway-outline",
+      "overrides": {
+        "outline": 57717
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "subway-sharp",
+      "overrides": {
+        "sharp": 57717
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "sunny",
+      "codepoint": 57811,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sunny-outline",
+      "overrides": {
+        "outline": 57718
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "sunny-sharp",
+      "overrides": {
+        "sharp": 57718
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "swap-horizontal",
+      "codepoint": 57812,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "swap-horizontal-outline",
+      "overrides": {
+        "outline": 57719
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "swap-horizontal-sharp",
+      "overrides": {
+        "sharp": 57719
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "swap-vertical",
+      "codepoint": 57813,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "swap-vertical-outline",
+      "overrides": {
+        "outline": 57720
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "swap-vertical-sharp",
+      "overrides": {
+        "sharp": 57720
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "sync",
+      "codepoint": 57815,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sync-circle",
+      "codepoint": 57814,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "sync-circle-outline",
+      "overrides": {
+        "outline": 57721
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "sync-circle-sharp",
+      "overrides": {
+        "sharp": 57721
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "sync-outline",
+      "overrides": {
+        "outline": 57722
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "sync-sharp",
+      "overrides": {
+        "sharp": 57722
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "tablet-landscape",
+      "codepoint": 57816,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tablet-landscape-outline",
+      "overrides": {
+        "outline": 57723
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "tablet-landscape-sharp",
+      "overrides": {
+        "sharp": 57723
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "tablet-portrait",
+      "codepoint": 57817,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tablet-portrait-outline",
+      "overrides": {
+        "outline": 57724
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "tablet-portrait-sharp",
+      "overrides": {
+        "sharp": 57724
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "telescope",
+      "codepoint": 57818,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "telescope-outline",
+      "overrides": {
+        "outline": 57725
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "telescope-sharp",
+      "overrides": {
+        "sharp": 57725
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "tennisball",
+      "codepoint": 57819,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tennisball-outline",
+      "overrides": {
+        "outline": 57726
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "tennisball-sharp",
+      "overrides": {
+        "sharp": 57726
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "terminal",
+      "codepoint": 57820,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "terminal-outline",
+      "overrides": {
+        "outline": 57727
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "terminal-sharp",
+      "overrides": {
+        "sharp": 57727
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "text",
+      "codepoint": 57821,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "text-outline",
+      "overrides": {
+        "outline": 57728
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "text-sharp",
+      "overrides": {
+        "sharp": 57728
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "thermometer",
+      "codepoint": 57822,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thermometer-outline",
+      "overrides": {
+        "outline": 57729
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "thermometer-sharp",
+      "overrides": {
+        "sharp": 57729
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "thumbs-down",
+      "codepoint": 57823,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thumbs-down-outline",
+      "overrides": {
+        "outline": 57730
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "thumbs-down-sharp",
+      "overrides": {
+        "sharp": 57730
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "thumbs-up",
+      "codepoint": 57824,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thumbs-up-outline",
+      "overrides": {
+        "outline": 57731
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "thumbs-up-sharp",
+      "overrides": {
+        "sharp": 57731
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "thunderstorm",
+      "codepoint": 57825,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "thunderstorm-outline",
+      "overrides": {
+        "outline": 57732
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "thunderstorm-sharp",
+      "overrides": {
+        "sharp": 57732
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "ticket",
+      "codepoint": 57826,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "ticket-outline",
+      "overrides": {
+        "outline": 57733
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "ticket-sharp",
+      "overrides": {
+        "sharp": 57733
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "time",
+      "codepoint": 57827,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "time-outline",
+      "overrides": {
+        "outline": 57734
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "time-sharp",
+      "overrides": {
+        "sharp": 57734
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "timer",
+      "codepoint": 57828,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "timer-outline",
+      "overrides": {
+        "outline": 57735
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "timer-sharp",
+      "overrides": {
+        "sharp": 57735
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "today",
+      "codepoint": 57829,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "today-outline",
+      "overrides": {
+        "outline": 57736
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "today-sharp",
+      "overrides": {
+        "sharp": 57736
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "toggle",
+      "codepoint": 57830,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "toggle-outline",
+      "overrides": {
+        "outline": 57737
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "toggle-sharp",
+      "overrides": {
+        "sharp": 57737
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "trail-sign",
+      "codepoint": 57831,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "trail-sign-outline",
+      "overrides": {
+        "outline": 57738
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "trail-sign-sharp",
+      "overrides": {
+        "sharp": 57738
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "train",
+      "codepoint": 57832,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "train-outline",
+      "overrides": {
+        "outline": 57739
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "train-sharp",
+      "overrides": {
+        "sharp": 57739
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "transgender",
+      "codepoint": 57833,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "transgender-outline",
+      "overrides": {
+        "outline": 57740
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "transgender-sharp",
+      "overrides": {
+        "sharp": 57740
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "trash",
+      "codepoint": 57835,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "trash-bin",
+      "codepoint": 57834,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "trash-bin-outline",
+      "overrides": {
+        "outline": 57741
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "trash-bin-sharp",
+      "overrides": {
+        "sharp": 57741
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "trash-outline",
+      "overrides": {
+        "outline": 57742
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "trash-sharp",
+      "overrides": {
+        "sharp": 57742
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "trending-down",
+      "codepoint": 57836,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "trending-down-outline",
+      "overrides": {
+        "outline": 57743
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "trending-down-sharp",
+      "overrides": {
+        "sharp": 57743
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "trending-up",
+      "codepoint": 57837,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "trending-up-outline",
+      "overrides": {
+        "outline": 57744
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "trending-up-sharp",
+      "overrides": {
+        "sharp": 57744
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "triangle",
+      "codepoint": 57838,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "triangle-outline",
+      "overrides": {
+        "outline": 57745
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "triangle-sharp",
+      "overrides": {
+        "sharp": 57745
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "trophy",
+      "codepoint": 57839,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "trophy-outline",
+      "overrides": {
+        "outline": 57746
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "trophy-sharp",
+      "overrides": {
+        "sharp": 57746
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "tv",
+      "codepoint": 57840,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "tv-outline",
+      "overrides": {
+        "outline": 57747
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "tv-sharp",
+      "overrides": {
+        "sharp": 57747
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "umbrella",
+      "codepoint": 57841,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "umbrella-outline",
+      "overrides": {
+        "outline": 57748
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "umbrella-sharp",
+      "overrides": {
+        "sharp": 57748
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "unlink",
+      "codepoint": 57842,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "unlink-outline",
+      "overrides": {
+        "outline": 57749
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "unlink-sharp",
+      "overrides": {
+        "sharp": 57749
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "videocam",
+      "codepoint": 57844,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "videocam-off",
+      "codepoint": 57843,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "videocam-off-outline",
+      "overrides": {
+        "outline": 57750
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "videocam-off-sharp",
+      "overrides": {
+        "sharp": 57750
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "videocam-outline",
+      "overrides": {
+        "outline": 57751
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "videocam-sharp",
+      "overrides": {
+        "sharp": 57751
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "volume-high",
+      "codepoint": 57845,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "volume-high-outline",
+      "overrides": {
+        "outline": 57752
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "volume-high-sharp",
+      "overrides": {
+        "sharp": 57752
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "volume-low",
+      "codepoint": 57846,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "volume-low-outline",
+      "overrides": {
+        "outline": 57753
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "volume-low-sharp",
+      "overrides": {
+        "sharp": 57753
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "volume-medium",
+      "codepoint": 57847,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "volume-medium-outline",
+      "overrides": {
+        "outline": 57754
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "volume-medium-sharp",
+      "overrides": {
+        "sharp": 57754
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "volume-mute",
+      "codepoint": 57848,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "volume-mute-outline",
+      "overrides": {
+        "outline": 57755
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "volume-mute-sharp",
+      "overrides": {
+        "sharp": 57755
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "volume-off",
+      "codepoint": 57849,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "volume-off-outline",
+      "overrides": {
+        "outline": 57756
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "volume-off-sharp",
+      "overrides": {
+        "sharp": 57756
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "walk",
+      "codepoint": 57850,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "walk-outline",
+      "overrides": {
+        "outline": 57757
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "walk-sharp",
+      "overrides": {
+        "sharp": 57757
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "wallet",
+      "codepoint": 57851,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wallet-outline",
+      "overrides": {
+        "outline": 57758
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "wallet-sharp",
+      "overrides": {
+        "sharp": 57758
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "warning",
+      "codepoint": 57852,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "warning-outline",
+      "overrides": {
+        "outline": 57759
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "warning-sharp",
+      "overrides": {
+        "sharp": 57759
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "watch",
+      "codepoint": 57853,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "watch-outline",
+      "overrides": {
+        "outline": 57760
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "watch-sharp",
+      "overrides": {
+        "sharp": 57760
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "water",
+      "codepoint": 57854,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "water-outline",
+      "overrides": {
+        "outline": 57761
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "water-sharp",
+      "overrides": {
+        "sharp": 57761
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "wifi",
+      "codepoint": 57855,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wifi-outline",
+      "overrides": {
+        "outline": 57762
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "wifi-sharp",
+      "overrides": {
+        "sharp": 57762
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "wine",
+      "codepoint": 57856,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "wine-outline",
+      "overrides": {
+        "outline": 57763
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "wine-sharp",
+      "overrides": {
+        "sharp": 57763
+      },
+      "availability": [
+        "sharp"
+      ]
+    },
+    {
+      "name": "woman",
+      "codepoint": 57857,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "woman-outline",
+      "overrides": {
+        "outline": 57764
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "woman-sharp",
+      "overrides": {
+        "sharp": 57764
+      },
+      "availability": [
+        "sharp"
+      ]
+    }
+  ]
+}

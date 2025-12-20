@@ -1,0 +1,4818 @@
+{
+  "pack_id": "devicon",
+  "variants": [
+    {
+      "id": "regular",
+      "style": "Regular",
+      "size": "Regular",
+      "family": "Devicon Regular",
+      "ttf_asset_path": "assets/fonts/devicon/devicon-regular.ttf"
+    }
+  ],
+  "icons": [
+    {
+      "name": "aarch64-line",
+      "codepoint": 59648
+    },
+    {
+      "name": "aarch64-plain",
+      "codepoint": 59649
+    },
+    {
+      "name": "adonisjs-original",
+      "codepoint": 59650
+    },
+    {
+      "name": "adonisjs-original-wordmark",
+      "codepoint": 59651
+    },
+    {
+      "name": "aerospike-original",
+      "codepoint": 60709
+    },
+    {
+      "name": "aerospike-original-wordmark",
+      "codepoint": 60708
+    },
+    {
+      "name": "aframe-original-wordmark",
+      "codepoint": 60834
+    },
+    {
+      "name": "aframe-plain",
+      "codepoint": 60833
+    },
+    {
+      "name": "aftereffects-plain",
+      "codepoint": 59652
+    },
+    {
+      "name": "akka-plain",
+      "codepoint": 59653
+    },
+    {
+      "name": "akka-plain-wordmark",
+      "codepoint": 59654
+    },
+    {
+      "name": "algolia-original",
+      "codepoint": 59655
+    },
+    {
+      "name": "algolia-original-wordmark",
+      "codepoint": 59656
+    },
+    {
+      "name": "almalinux-plain",
+      "codepoint": 60707
+    },
+    {
+      "name": "almalinux-plain-wordmark",
+      "codepoint": 60706
+    },
+    {
+      "name": "alpinejs-original",
+      "codepoint": 59657
+    },
+    {
+      "name": "alpinejs-original-wordmark",
+      "codepoint": 59658
+    },
+    {
+      "name": "amazonwebservices-line-wordmark",
+      "codepoint": 59659
+    },
+    {
+      "name": "amazonwebservices-plain-wordmark",
+      "codepoint": 59660
+    },
+    {
+      "name": "anaconda-original",
+      "codepoint": 59661
+    },
+    {
+      "name": "anaconda-original-wordmark",
+      "codepoint": 59662
+    },
+    {
+      "name": "android-plain",
+      "codepoint": 59663
+    },
+    {
+      "name": "android-plain-wordmark",
+      "codepoint": 59664
+    },
+    {
+      "name": "androidstudio-plain",
+      "codepoint": 59665
+    },
+    {
+      "name": "androidstudio-plain-wordmark",
+      "codepoint": 59666
+    },
+    {
+      "name": "angular-plain",
+      "codepoint": 59671
+    },
+    {
+      "name": "angular-plain-wordmark",
+      "codepoint": 59670
+    },
+    {
+      "name": "angularjs-plain",
+      "codepoint": 60756
+    },
+    {
+      "name": "angularjs-plain-wordmark",
+      "codepoint": 60755
+    },
+    {
+      "name": "angularmaterial-plain",
+      "codepoint": 59669
+    },
+    {
+      "name": "ansible-plain",
+      "codepoint": 59672
+    },
+    {
+      "name": "ansible-plain-wordmark",
+      "codepoint": 59673
+    },
+    {
+      "name": "ansys-plain",
+      "codepoint": 60812
+    },
+    {
+      "name": "ansys-plain-wordmark",
+      "codepoint": 60811
+    },
+    {
+      "name": "antdesign-plain",
+      "codepoint": 59674
+    },
+    {
+      "name": "antdesign-plain-wordmark",
+      "codepoint": 59675
+    },
+    {
+      "name": "apache-line",
+      "codepoint": 59680
+    },
+    {
+      "name": "apache-line-wordmark",
+      "codepoint": 59681
+    },
+    {
+      "name": "apache-plain",
+      "codepoint": 59682
+    },
+    {
+      "name": "apache-plain-wordmark",
+      "codepoint": 59683
+    },
+    {
+      "name": "apacheairflow-plain",
+      "codepoint": 59676
+    },
+    {
+      "name": "apacheairflow-plain-wordmark",
+      "codepoint": 59677
+    },
+    {
+      "name": "apachekafka-original",
+      "codepoint": 59678
+    },
+    {
+      "name": "apachekafka-original-wordmark",
+      "codepoint": 59679
+    },
+    {
+      "name": "apachespark-original",
+      "codepoint": 59684
+    },
+    {
+      "name": "apachespark-plain-wordmark",
+      "codepoint": 59685
+    },
+    {
+      "name": "apex-original",
+      "codepoint": 60793
+    },
+    {
+      "name": "apl-plain",
+      "codepoint": 59686
+    },
+    {
+      "name": "apollographql-line",
+      "codepoint": 60703
+    },
+    {
+      "name": "apollographql-line-wordmark",
+      "codepoint": 60702
+    },
+    {
+      "name": "apollographql-original",
+      "codepoint": 60705
+    },
+    {
+      "name": "apollographql-original-wordmark",
+      "codepoint": 60704
+    },
+    {
+      "name": "appcelerator-original",
+      "codepoint": 59687
+    },
+    {
+      "name": "appcelerator-plain-wordmark",
+      "codepoint": 59688
+    },
+    {
+      "name": "apple-original",
+      "codepoint": 59689
+    },
+    {
+      "name": "appwrite-original",
+      "codepoint": 60718
+    },
+    {
+      "name": "appwrite-plain-wordmark",
+      "codepoint": 60717
+    },
+    {
+      "name": "archlinux-plain",
+      "codepoint": 59692
+    },
+    {
+      "name": "archlinux-plain-wordmark",
+      "codepoint": 59693
+    },
+    {
+      "name": "arduino-plain",
+      "codepoint": 59694
+    },
+    {
+      "name": "arduino-plain-wordmark",
+      "codepoint": 59695
+    },
+    {
+      "name": "argocd-plain",
+      "codepoint": 59696
+    },
+    {
+      "name": "argocd-plain-wordmark",
+      "codepoint": 59697
+    },
+    {
+      "name": "artixlinux-plain",
+      "codepoint": 60701
+    },
+    {
+      "name": "artixlinux-plain-wordmark",
+      "codepoint": 60700
+    },
+    {
+      "name": "astro-plain",
+      "codepoint": 59698
+    },
+    {
+      "name": "astro-plain-wordmark",
+      "codepoint": 59699
+    },
+    {
+      "name": "atom-original",
+      "codepoint": 59700
+    },
+    {
+      "name": "atom-original-wordmark",
+      "codepoint": 59701
+    },
+    {
+      "name": "awk-plain-wordmark",
+      "codepoint": 59702
+    },
+    {
+      "name": "axios-plain",
+      "codepoint": 59703
+    },
+    {
+      "name": "axios-plain-wordmark",
+      "codepoint": 59704
+    },
+    {
+      "name": "azure-plain",
+      "codepoint": 59706
+    },
+    {
+      "name": "azure-plain-wordmark",
+      "codepoint": 59707
+    },
+    {
+      "name": "azuredevops-plain",
+      "codepoint": 59705
+    },
+    {
+      "name": "azuresqldatabase-plain",
+      "codepoint": 59708
+    },
+    {
+      "name": "babel-plain",
+      "codepoint": 59709
+    },
+    {
+      "name": "babylonjs-plain",
+      "codepoint": 60836
+    },
+    {
+      "name": "babylonjs-plain-wordmark",
+      "codepoint": 60835
+    },
+    {
+      "name": "backbonejs-plain",
+      "codepoint": 59710
+    },
+    {
+      "name": "backbonejs-plain-wordmark",
+      "codepoint": 59711
+    },
+    {
+      "name": "ballerina-line",
+      "codepoint": 59712
+    },
+    {
+      "name": "ballerina-line-wordmark",
+      "codepoint": 59713
+    },
+    {
+      "name": "ballerina-original",
+      "codepoint": 59714
+    },
+    {
+      "name": "ballerina-original-wordmark",
+      "codepoint": 59715
+    },
+    {
+      "name": "bamboo-original",
+      "codepoint": 59716
+    },
+    {
+      "name": "bamboo-original-wordmark",
+      "codepoint": 59717
+    },
+    {
+      "name": "bash-plain",
+      "codepoint": 60757
+    },
+    {
+      "name": "bazel-plain",
+      "codepoint": 60781
+    },
+    {
+      "name": "bazel-plain-wordmark",
+      "codepoint": 60780
+    },
+    {
+      "name": "beats-plain",
+      "codepoint": 59719
+    },
+    {
+      "name": "behance-plain",
+      "codepoint": 59720
+    },
+    {
+      "name": "behance-plain-wordmark",
+      "codepoint": 59721
+    },
+    {
+      "name": "bevyengine-line",
+      "codepoint": 60686
+    },
+    {
+      "name": "bevyengine-line-wordmark",
+      "codepoint": 60685
+    },
+    {
+      "name": "bevyengine-plain",
+      "codepoint": 60711
+    },
+    {
+      "name": "bevyengine-plain-wordmark",
+      "codepoint": 60710
+    },
+    {
+      "name": "biome-line",
+      "codepoint": 60697
+    },
+    {
+      "name": "biome-line-wordmark",
+      "codepoint": 60696
+    },
+    {
+      "name": "biome-original",
+      "codepoint": 60699
+    },
+    {
+      "name": "biome-plain-wordmark",
+      "codepoint": 60698
+    },
+    {
+      "name": "bitbucket-original",
+      "codepoint": 59722
+    },
+    {
+      "name": "bitbucket-original-wordmark",
+      "codepoint": 59723
+    },
+    {
+      "name": "blazor-line",
+      "codepoint": 59724
+    },
+    {
+      "name": "blazor-original",
+      "codepoint": 59725
+    },
+    {
+      "name": "blender-original",
+      "codepoint": 59726
+    },
+    {
+      "name": "blender-original-wordmark",
+      "codepoint": 59727
+    },
+    {
+      "name": "bootstrap-plain",
+      "codepoint": 59728
+    },
+    {
+      "name": "bootstrap-plain-wordmark",
+      "codepoint": 59729
+    },
+    {
+      "name": "bower-line",
+      "codepoint": 59730
+    },
+    {
+      "name": "bower-line-wordmark",
+      "codepoint": 59731
+    },
+    {
+      "name": "bower-plain",
+      "codepoint": 59732
+    },
+    {
+      "name": "bower-plain-wordmark",
+      "codepoint": 59733
+    },
+    {
+      "name": "browserstack-line",
+      "codepoint": 59734
+    },
+    {
+      "name": "browserstack-line-wordmark",
+      "codepoint": 59735
+    },
+    {
+      "name": "browserstack-plain",
+      "codepoint": 59736
+    },
+    {
+      "name": "browserstack-plain-wordmark",
+      "codepoint": 59737
+    },
+    {
+      "name": "bulma-plain",
+      "codepoint": 59738
+    },
+    {
+      "name": "bun-line",
+      "codepoint": 59739
+    },
+    {
+      "name": "bun-plain",
+      "codepoint": 59740
+    },
+    {
+      "name": "c-line",
+      "codepoint": 60845
+    },
+    {
+      "name": "c-original",
+      "codepoint": 60846
+    },
+    {
+      "name": "cairo-plain",
+      "codepoint": 59741
+    },
+    {
+      "name": "cairo-plain-wordmark",
+      "codepoint": 59742
+    },
+    {
+      "name": "cakephp-plain",
+      "codepoint": 59743
+    },
+    {
+      "name": "cakephp-plain-wordmark",
+      "codepoint": 59744
+    },
+    {
+      "name": "canva-original",
+      "codepoint": 59745
+    },
+    {
+      "name": "capacitor-plain",
+      "codepoint": 59746
+    },
+    {
+      "name": "capacitor-plain-wordmark",
+      "codepoint": 59747
+    },
+    {
+      "name": "carbon-original",
+      "codepoint": 59748
+    },
+    {
+      "name": "cassandra-plain",
+      "codepoint": 59749
+    },
+    {
+      "name": "cassandra-plain-wordmark",
+      "codepoint": 59750
+    },
+    {
+      "name": "centos-plain",
+      "codepoint": 59751
+    },
+    {
+      "name": "centos-plain-wordmark",
+      "codepoint": 59752
+    },
+    {
+      "name": "ceylon-plain",
+      "codepoint": 59753
+    },
+    {
+      "name": "ceylon-plain-wordmark",
+      "codepoint": 59754
+    },
+    {
+      "name": "chakraui-plain",
+      "codepoint": 60695
+    },
+    {
+      "name": "chakraui-plain-wordmark",
+      "codepoint": 60694
+    },
+    {
+      "name": "chartjs-plain",
+      "codepoint": 60693
+    },
+    {
+      "name": "chartjs-plain-wordmark",
+      "codepoint": 60692
+    },
+    {
+      "name": "chrome-plain",
+      "codepoint": 59755
+    },
+    {
+      "name": "chrome-plain-wordmark",
+      "codepoint": 59756
+    },
+    {
+      "name": "circleci-plain",
+      "codepoint": 59757
+    },
+    {
+      "name": "circleci-plain-wordmark",
+      "codepoint": 59758
+    },
+    {
+      "name": "clarity-plain",
+      "codepoint": 59759
+    },
+    {
+      "name": "clarity-plain-wordmark",
+      "codepoint": 59760
+    },
+    {
+      "name": "clickhouse-plain",
+      "codepoint": 60787
+    },
+    {
+      "name": "clion-plain",
+      "codepoint": 59762
+    },
+    {
+      "name": "clion-plain-wordmark",
+      "codepoint": 59763
+    },
+    {
+      "name": "clojure-line",
+      "codepoint": 59764
+    },
+    {
+      "name": "clojurescript-plain",
+      "codepoint": 59765
+    },
+    {
+      "name": "cloudflare-plain",
+      "codepoint": 59766
+    },
+    {
+      "name": "cloudflare-plain-wordmark",
+      "codepoint": 59767
+    },
+    {
+      "name": "cloudflareworkers-plain",
+      "codepoint": 59768
+    },
+    {
+      "name": "cloudflareworkers-plain-wordmark",
+      "codepoint": 59769
+    },
+    {
+      "name": "cloudrun-line",
+      "codepoint": 60712
+    },
+    {
+      "name": "cloudrun-plain",
+      "codepoint": 60713
+    },
+    {
+      "name": "cmake-plain",
+      "codepoint": 59770
+    },
+    {
+      "name": "cmake-plain-wordmark",
+      "codepoint": 59771
+    },
+    {
+      "name": "cobol-original",
+      "codepoint": 60784
+    },
+    {
+      "name": "codeac-original",
+      "codepoint": 59772
+    },
+    {
+      "name": "codecov-plain",
+      "codepoint": 59773
+    },
+    {
+      "name": "codeigniter-plain",
+      "codepoint": 59774
+    },
+    {
+      "name": "codeigniter-plain-wordmark",
+      "codepoint": 59775
+    },
+    {
+      "name": "codepen-line",
+      "codepoint": 59776
+    },
+    {
+      "name": "codepen-line-wordmark",
+      "codepoint": 59777
+    },
+    {
+      "name": "codepen-original",
+      "codepoint": 59778
+    },
+    {
+      "name": "codepen-original-wordmark",
+      "codepoint": 59779
+    },
+    {
+      "name": "coffeescript-original",
+      "codepoint": 59780
+    },
+    {
+      "name": "coffeescript-original-wordmark",
+      "codepoint": 59781
+    },
+    {
+      "name": "composer-line",
+      "codepoint": 59782
+    },
+    {
+      "name": "composer-line-wordmark",
+      "codepoint": 59783
+    },
+    {
+      "name": "confluence-line",
+      "codepoint": 59784
+    },
+    {
+      "name": "confluence-line-wordmark",
+      "codepoint": 59785
+    },
+    {
+      "name": "confluence-plain",
+      "codepoint": 59786
+    },
+    {
+      "name": "confluence-plain-wordmark",
+      "codepoint": 59787
+    },
+    {
+      "name": "consul-original",
+      "codepoint": 59788
+    },
+    {
+      "name": "consul-plain-wordmark",
+      "codepoint": 59789
+    },
+    {
+      "name": "contao-original",
+      "codepoint": 59790
+    },
+    {
+      "name": "contao-original-wordmark",
+      "codepoint": 59791
+    },
+    {
+      "name": "corejs-original",
+      "codepoint": 59792
+    },
+    {
+      "name": "corejs-original-wordmark",
+      "codepoint": 59793
+    },
+    {
+      "name": "cosmosdb-plain",
+      "codepoint": 59943
+    },
+    {
+      "name": "cosmosdb-plain-wordmark",
+      "codepoint": 59800
+    },
+    {
+      "name": "couchbase-original",
+      "codepoint": 59796
+    },
+    {
+      "name": "couchbase-plain-wordmark",
+      "codepoint": 59797
+    },
+    {
+      "name": "couchdb-plain",
+      "codepoint": 59798
+    },
+    {
+      "name": "couchdb-plain-wordmark",
+      "codepoint": 59799
+    },
+    {
+      "name": "cpanel-original",
+      "codepoint": 60826
+    },
+    {
+      "name": "cpanel-original-wordmark",
+      "codepoint": 60825
+    },
+    {
+      "name": "cplusplus-line",
+      "codepoint": 59801
+    },
+    {
+      "name": "cplusplus-plain",
+      "codepoint": 59802
+    },
+    {
+      "name": "crystal-line",
+      "codepoint": 59803
+    },
+    {
+      "name": "crystal-line-wordmark",
+      "codepoint": 59804
+    },
+    {
+      "name": "crystal-original",
+      "codepoint": 59805
+    },
+    {
+      "name": "crystal-original-wordmark",
+      "codepoint": 59806
+    },
+    {
+      "name": "csharp-line",
+      "codepoint": 59807
+    },
+    {
+      "name": "csharp-plain",
+      "codepoint": 59808
+    },
+    {
+      "name": "css3-plain",
+      "codepoint": 59809
+    },
+    {
+      "name": "css3-plain-wordmark",
+      "codepoint": 59810
+    },
+    {
+      "name": "cucumber-plain",
+      "codepoint": 59811
+    },
+    {
+      "name": "cucumber-plain-wordmark",
+      "codepoint": 59812
+    },
+    {
+      "name": "cypressio-line",
+      "codepoint": 59813
+    },
+    {
+      "name": "cypressio-line-wordmark",
+      "codepoint": 59814
+    },
+    {
+      "name": "cypressio-plain",
+      "codepoint": 59815
+    },
+    {
+      "name": "cypressio-plain-wordmark",
+      "codepoint": 59816
+    },
+    {
+      "name": "d3js-plain",
+      "codepoint": 59817
+    },
+    {
+      "name": "dart-plain",
+      "codepoint": 59818
+    },
+    {
+      "name": "dart-plain-wordmark",
+      "codepoint": 59819
+    },
+    {
+      "name": "datadog-original",
+      "codepoint": 60743
+    },
+    {
+      "name": "datadog-original-wordmark",
+      "codepoint": 60742
+    },
+    {
+      "name": "datagrip-plain",
+      "codepoint": 59820
+    },
+    {
+      "name": "datagrip-plain-wordmark",
+      "codepoint": 59821
+    },
+    {
+      "name": "dataspell-plain",
+      "codepoint": 59822
+    },
+    {
+      "name": "dataspell-plain-wordmark",
+      "codepoint": 59823
+    },
+    {
+      "name": "datatables-original",
+      "codepoint": 60691
+    },
+    {
+      "name": "dbeaver-plain",
+      "codepoint": 59824
+    },
+    {
+      "name": "debian-plain",
+      "codepoint": 59825
+    },
+    {
+      "name": "debian-plain-wordmark",
+      "codepoint": 59826
+    },
+    {
+      "name": "delphi-plain",
+      "codepoint": 60837
+    },
+    {
+      "name": "denojs-original",
+      "codepoint": 59827
+    },
+    {
+      "name": "denojs-original-wordmark",
+      "codepoint": 59828
+    },
+    {
+      "name": "detaspace-line",
+      "codepoint": 60690
+    },
+    {
+      "name": "detaspace-line-wordmark",
+      "codepoint": 60689
+    },
+    {
+      "name": "devicon-line",
+      "codepoint": 59829
+    },
+    {
+      "name": "devicon-line-wordmark",
+      "codepoint": 59830
+    },
+    {
+      "name": "devicon-plain",
+      "codepoint": 59831
+    },
+    {
+      "name": "devicon-plain-wordmark",
+      "codepoint": 59832
+    },
+    {
+      "name": "digitalocean-original",
+      "codepoint": 59833
+    },
+    {
+      "name": "digitalocean-original-wordmark",
+      "codepoint": 59834
+    },
+    {
+      "name": "discloud-original",
+      "codepoint": 60720
+    },
+    {
+      "name": "discloud-plain-wordmark",
+      "codepoint": 60719
+    },
+    {
+      "name": "discordjs-plain",
+      "codepoint": 59835
+    },
+    {
+      "name": "discordjs-plain-wordmark",
+      "codepoint": 59836
+    },
+    {
+      "name": "django-plain",
+      "codepoint": 59837
+    },
+    {
+      "name": "django-plain-wordmark",
+      "codepoint": 59838
+    },
+    {
+      "name": "djangorest-line",
+      "codepoint": 59839
+    },
+    {
+      "name": "djangorest-line-wordmark",
+      "codepoint": 59840
+    },
+    {
+      "name": "djangorest-plain",
+      "codepoint": 59841
+    },
+    {
+      "name": "djangorest-plain-wordmark",
+      "codepoint": 59842
+    },
+    {
+      "name": "docker-plain",
+      "codepoint": 59843
+    },
+    {
+      "name": "docker-plain-wordmark",
+      "codepoint": 59844
+    },
+    {
+      "name": "doctrine-line",
+      "codepoint": 59845
+    },
+    {
+      "name": "doctrine-line-wordmark",
+      "codepoint": 59846
+    },
+    {
+      "name": "doctrine-plain",
+      "codepoint": 59847
+    },
+    {
+      "name": "doctrine-plain-wordmark",
+      "codepoint": 59848
+    },
+    {
+      "name": "dot-net-plain",
+      "codepoint": 59850
+    },
+    {
+      "name": "dot-net-plain-wordmark",
+      "codepoint": 59851
+    },
+    {
+      "name": "dotnetcore-plain",
+      "codepoint": 59849
+    },
+    {
+      "name": "dovecot-line",
+      "codepoint": 60687
+    },
+    {
+      "name": "dovecot-plain",
+      "codepoint": 60688
+    },
+    {
+      "name": "dreamweaver-line",
+      "codepoint": 59852
+    },
+    {
+      "name": "dreamweaver-plain",
+      "codepoint": 59853
+    },
+    {
+      "name": "dropwizard-plain",
+      "codepoint": 59854
+    },
+    {
+      "name": "drupal-plain",
+      "codepoint": 59855
+    },
+    {
+      "name": "drupal-plain-wordmark",
+      "codepoint": 59856
+    },
+    {
+      "name": "duckdb-plain",
+      "codepoint": 60801
+    },
+    {
+      "name": "dyalog-plain",
+      "codepoint": 60842
+    },
+    {
+      "name": "dynamodb-plain",
+      "codepoint": 59857
+    },
+    {
+      "name": "dynatrace-line",
+      "codepoint": 60725
+    },
+    {
+      "name": "dynatrace-line-wordmark",
+      "codepoint": 60724
+    },
+    {
+      "name": "dynatrace-plain",
+      "codepoint": 60727
+    },
+    {
+      "name": "dynatrace-plain-wordmark",
+      "codepoint": 60726
+    },
+    {
+      "name": "eclipse-plain",
+      "codepoint": 59858
+    },
+    {
+      "name": "eclipse-plain-wordmark",
+      "codepoint": 59859
+    },
+    {
+      "name": "ecto-original",
+      "codepoint": 59860
+    },
+    {
+      "name": "ecto-plain-wordmark",
+      "codepoint": 59861
+    },
+    {
+      "name": "elasticsearch-plain",
+      "codepoint": 59862
+    },
+    {
+      "name": "elasticsearch-plain-wordmark",
+      "codepoint": 59863
+    },
+    {
+      "name": "electron-original",
+      "codepoint": 59864
+    },
+    {
+      "name": "electron-original-wordmark",
+      "codepoint": 59865
+    },
+    {
+      "name": "eleventy-plain",
+      "codepoint": 59866
+    },
+    {
+      "name": "elixir-plain",
+      "codepoint": 59867
+    },
+    {
+      "name": "elixir-plain-wordmark",
+      "codepoint": 59868
+    },
+    {
+      "name": "elm-plain",
+      "codepoint": 59869
+    },
+    {
+      "name": "elm-plain-wordmark",
+      "codepoint": 59870
+    },
+    {
+      "name": "emacs-original",
+      "codepoint": 59871
+    },
+    {
+      "name": "embeddedc-plain",
+      "codepoint": 59872
+    },
+    {
+      "name": "embeddedc-plain-wordmark",
+      "codepoint": 59873
+    },
+    {
+      "name": "ember-original-wordmark",
+      "codepoint": 59874
+    },
+    {
+      "name": "ember-plain",
+      "codepoint": 59875
+    },
+    {
+      "name": "entityframeworkcore-line",
+      "codepoint": 60821
+    },
+    {
+      "name": "entityframeworkcore-plain",
+      "codepoint": 60822
+    },
+    {
+      "name": "envoy-plain",
+      "codepoint": 59876
+    },
+    {
+      "name": "envoy-plain-wordmark",
+      "codepoint": 59877
+    },
+    {
+      "name": "erlang-plain",
+      "codepoint": 59878
+    },
+    {
+      "name": "erlang-plain-wordmark",
+      "codepoint": 59879
+    },
+    {
+      "name": "eslint-line",
+      "codepoint": 59880
+    },
+    {
+      "name": "eslint-line-wordmark",
+      "codepoint": 59881
+    },
+    {
+      "name": "eslint-plain",
+      "codepoint": 59882
+    },
+    {
+      "name": "eslint-plain-wordmark",
+      "codepoint": 59883
+    },
+    {
+      "name": "expo-line",
+      "codepoint": 60729
+    },
+    {
+      "name": "expo-line-wordmark",
+      "codepoint": 60728
+    },
+    {
+      "name": "expo-original",
+      "codepoint": 60731
+    },
+    {
+      "name": "expo-original-wordmark",
+      "codepoint": 60730
+    },
+    {
+      "name": "express-original",
+      "codepoint": 59884
+    },
+    {
+      "name": "express-original-wordmark",
+      "codepoint": 59885
+    },
+    {
+      "name": "facebook-plain",
+      "codepoint": 59886
+    },
+    {
+      "name": "fastapi-plain",
+      "codepoint": 59887
+    },
+    {
+      "name": "fastapi-plain-wordmark",
+      "codepoint": 59888
+    },
+    {
+      "name": "fastify-plain",
+      "codepoint": 59889
+    },
+    {
+      "name": "fastify-plain-wordmark",
+      "codepoint": 59890
+    },
+    {
+      "name": "faunadb-line",
+      "codepoint": 59891
+    },
+    {
+      "name": "faunadb-line-wordmark",
+      "codepoint": 59892
+    },
+    {
+      "name": "faunadb-original",
+      "codepoint": 59893
+    },
+    {
+      "name": "faunadb-original-wordmark",
+      "codepoint": 59894
+    },
+    {
+      "name": "feathersjs-original",
+      "codepoint": 59895
+    },
+    {
+      "name": "fedora-plain",
+      "codepoint": 59896
+    },
+    {
+      "name": "fiber-line",
+      "codepoint": 60680
+    },
+    {
+      "name": "fiber-plain",
+      "codepoint": 60681
+    },
+    {
+      "name": "figma-plain",
+      "codepoint": 59897
+    },
+    {
+      "name": "filamentphp-original",
+      "codepoint": 60679
+    },
+    {
+      "name": "filezilla-line",
+      "codepoint": 59898
+    },
+    {
+      "name": "filezilla-line-wordmark",
+      "codepoint": 59899
+    },
+    {
+      "name": "filezilla-plain",
+      "codepoint": 59900
+    },
+    {
+      "name": "filezilla-plain-wordmark",
+      "codepoint": 59901
+    },
+    {
+      "name": "firebase-line",
+      "codepoint": 59902
+    },
+    {
+      "name": "firebase-line-wordmark",
+      "codepoint": 59903
+    },
+    {
+      "name": "firebase-plain",
+      "codepoint": 59904
+    },
+    {
+      "name": "firebase-plain-wordmark",
+      "codepoint": 59905
+    },
+    {
+      "name": "firebird-plain",
+      "codepoint": 60776
+    },
+    {
+      "name": "firefox-plain",
+      "codepoint": 59906
+    },
+    {
+      "name": "firefox-plain-wordmark",
+      "codepoint": 59907
+    },
+    {
+      "name": "flask-original",
+      "codepoint": 59908
+    },
+    {
+      "name": "flask-original-wordmark",
+      "codepoint": 59909
+    },
+    {
+      "name": "flutter-plain",
+      "codepoint": 59910
+    },
+    {
+      "name": "forgejo-line",
+      "codepoint": 60110
+    },
+    {
+      "name": "forgejo-line-wordmark",
+      "codepoint": 60013
+    },
+    {
+      "name": "forgejo-plain",
+      "codepoint": 60197
+    },
+    {
+      "name": "forgejo-plain-wordmark",
+      "codepoint": 60182
+    },
+    {
+      "name": "fortran-original",
+      "codepoint": 59911
+    },
+    {
+      "name": "foundation-plain",
+      "codepoint": 59912
+    },
+    {
+      "name": "foundation-plain-wordmark",
+      "codepoint": 59913
+    },
+    {
+      "name": "framermotion-original",
+      "codepoint": 59914
+    },
+    {
+      "name": "framermotion-original-wordmark",
+      "codepoint": 59915
+    },
+    {
+      "name": "framework7-original",
+      "codepoint": 59916
+    },
+    {
+      "name": "framework7-original-wordmark",
+      "codepoint": 59917
+    },
+    {
+      "name": "fsharp-plain",
+      "codepoint": 59918
+    },
+    {
+      "name": "fusion-plain",
+      "codepoint": 60815
+    },
+    {
+      "name": "gardener-line",
+      "codepoint": 60740
+    },
+    {
+      "name": "gardener-plain",
+      "codepoint": 60741
+    },
+    {
+      "name": "gatling-line",
+      "codepoint": 59919
+    },
+    {
+      "name": "gatling-line-wordmark",
+      "codepoint": 59920
+    },
+    {
+      "name": "gatling-original",
+      "codepoint": 59921
+    },
+    {
+      "name": "gatling-plain-wordmark",
+      "codepoint": 59922
+    },
+    {
+      "name": "gatsby-original",
+      "codepoint": 59923
+    },
+    {
+      "name": "gatsby-plain-wordmark",
+      "codepoint": 59924
+    },
+    {
+      "name": "gazebo-plain",
+      "codepoint": 59925
+    },
+    {
+      "name": "gazebo-plain-wordmark",
+      "codepoint": 59926
+    },
+    {
+      "name": "gcc-line",
+      "codepoint": 59927
+    },
+    {
+      "name": "gcc-plain",
+      "codepoint": 59928
+    },
+    {
+      "name": "gentoo-line",
+      "codepoint": 59929
+    },
+    {
+      "name": "gentoo-line-wordmark",
+      "codepoint": 59930
+    },
+    {
+      "name": "gentoo-plain",
+      "codepoint": 59931
+    },
+    {
+      "name": "gentoo-plain-wordmark",
+      "codepoint": 59932
+    },
+    {
+      "name": "ghost-original",
+      "codepoint": 59933
+    },
+    {
+      "name": "ghost-original-wordmark",
+      "codepoint": 59934
+    },
+    {
+      "name": "gimp-line",
+      "codepoint": 59935
+    },
+    {
+      "name": "gimp-line-wordmark",
+      "codepoint": 59936
+    },
+    {
+      "name": "gimp-plain",
+      "codepoint": 59937
+    },
+    {
+      "name": "gimp-plain-wordmark",
+      "codepoint": 59938
+    },
+    {
+      "name": "git-plain",
+      "codepoint": 59949
+    },
+    {
+      "name": "git-plain-wordmark",
+      "codepoint": 59950
+    },
+    {
+      "name": "gitbook-line",
+      "codepoint": 59939
+    },
+    {
+      "name": "gitbook-line-wordmark",
+      "codepoint": 59940
+    },
+    {
+      "name": "gitbook-original",
+      "codepoint": 59941
+    },
+    {
+      "name": "gitbook-original-wordmark",
+      "codepoint": 59942
+    },
+    {
+      "name": "github-original",
+      "codepoint": 59945
+    },
+    {
+      "name": "github-original-wordmark",
+      "codepoint": 59946
+    },
+    {
+      "name": "githubactions-plain",
+      "codepoint": 60779
+    },
+    {
+      "name": "githubactions-plain-wordmark",
+      "codepoint": 60778
+    },
+    {
+      "name": "githubcodespaces-plain",
+      "codepoint": 59944
+    },
+    {
+      "name": "gitkraken-original",
+      "codepoint": 60770
+    },
+    {
+      "name": "gitkraken-plain-wordmark",
+      "codepoint": 60769
+    },
+    {
+      "name": "gitlab-plain",
+      "codepoint": 59947
+    },
+    {
+      "name": "gitlab-plain-wordmark",
+      "codepoint": 59948
+    },
+    {
+      "name": "gitpod-plain",
+      "codepoint": 59951
+    },
+    {
+      "name": "gitpod-plain-wordmark",
+      "codepoint": 59952
+    },
+    {
+      "name": "gitter-plain",
+      "codepoint": 59953
+    },
+    {
+      "name": "gitter-plain-wordmark",
+      "codepoint": 59954
+    },
+    {
+      "name": "gleam-plain",
+      "codepoint": 60777
+    },
+    {
+      "name": "glitch-plain",
+      "codepoint": 60637
+    },
+    {
+      "name": "go-line",
+      "codepoint": 59959
+    },
+    {
+      "name": "go-original-wordmark",
+      "codepoint": 59964
+    },
+    {
+      "name": "go-plain",
+      "codepoint": 59965
+    },
+    {
+      "name": "godot-plain",
+      "codepoint": 59955
+    },
+    {
+      "name": "godot-plain-wordmark",
+      "codepoint": 59956
+    },
+    {
+      "name": "goland-plain",
+      "codepoint": 59957
+    },
+    {
+      "name": "goland-plain-wordmark",
+      "codepoint": 59958
+    },
+    {
+      "name": "google-plain",
+      "codepoint": 59962
+    },
+    {
+      "name": "google-plain-wordmark",
+      "codepoint": 59963
+    },
+    {
+      "name": "googlecloud-plain",
+      "codepoint": 59960
+    },
+    {
+      "name": "googlecloud-plain-wordmark",
+      "codepoint": 59961
+    },
+    {
+      "name": "googlecolab-plain",
+      "codepoint": 60678
+    },
+    {
+      "name": "gradle-original",
+      "codepoint": 59966
+    },
+    {
+      "name": "gradle-original-wordmark",
+      "codepoint": 59967
+    },
+    {
+      "name": "grafana-line",
+      "codepoint": 59968
+    },
+    {
+      "name": "grafana-line-wordmark",
+      "codepoint": 59969
+    },
+    {
+      "name": "grafana-plain",
+      "codepoint": 59970
+    },
+    {
+      "name": "grafana-plain-wordmark",
+      "codepoint": 59971
+    },
+    {
+      "name": "grails-plain",
+      "codepoint": 59972
+    },
+    {
+      "name": "graphql-plain",
+      "codepoint": 59973
+    },
+    {
+      "name": "graphql-plain-wordmark",
+      "codepoint": 59974
+    },
+    {
+      "name": "groovy-plain",
+      "codepoint": 59975
+    },
+    {
+      "name": "grpc-plain",
+      "codepoint": 59976
+    },
+    {
+      "name": "grunt-line",
+      "codepoint": 59977
+    },
+    {
+      "name": "grunt-line-wordmark",
+      "codepoint": 59978
+    },
+    {
+      "name": "grunt-plain",
+      "codepoint": 59979
+    },
+    {
+      "name": "grunt-plain-wordmark",
+      "codepoint": 59980
+    },
+    {
+      "name": "gulp-plain",
+      "codepoint": 59981
+    },
+    {
+      "name": "hadoop-plain",
+      "codepoint": 59982
+    },
+    {
+      "name": "hadoop-plain-wordmark",
+      "codepoint": 59983
+    },
+    {
+      "name": "handlebars-line",
+      "codepoint": 59984
+    },
+    {
+      "name": "handlebars-line-wordmark",
+      "codepoint": 59985
+    },
+    {
+      "name": "handlebars-original",
+      "codepoint": 59986
+    },
+    {
+      "name": "handlebars-original-wordmark",
+      "codepoint": 59987
+    },
+    {
+      "name": "harbor-line",
+      "codepoint": 60805
+    },
+    {
+      "name": "harbor-line-wordmark",
+      "codepoint": 60804
+    },
+    {
+      "name": "harbor-plain",
+      "codepoint": 60807
+    },
+    {
+      "name": "harbor-plain-wordmark",
+      "codepoint": 60806
+    },
+    {
+      "name": "hardhat-plain",
+      "codepoint": 59988
+    },
+    {
+      "name": "hardhat-plain-wordmark",
+      "codepoint": 59989
+    },
+    {
+      "name": "harvester-original",
+      "codepoint": 59990
+    },
+    {
+      "name": "harvester-plain-wordmark",
+      "codepoint": 59991
+    },
+    {
+      "name": "haskell-plain",
+      "codepoint": 59992
+    },
+    {
+      "name": "haskell-plain-wordmark",
+      "codepoint": 59993
+    },
+    {
+      "name": "haxe-plain",
+      "codepoint": 59994
+    },
+    {
+      "name": "helm-line",
+      "codepoint": 59995
+    },
+    {
+      "name": "helm-original",
+      "codepoint": 59996
+    },
+    {
+      "name": "heroku-original",
+      "codepoint": 59997
+    },
+    {
+      "name": "heroku-original-wordmark",
+      "codepoint": 59998
+    },
+    {
+      "name": "heroku-plain",
+      "codepoint": 59999
+    },
+    {
+      "name": "heroku-plain-wordmark",
+      "codepoint": 60000
+    },
+    {
+      "name": "hibernate-plain",
+      "codepoint": 60001
+    },
+    {
+      "name": "hibernate-plain-wordmark",
+      "codepoint": 60002
+    },
+    {
+      "name": "homebrew-line",
+      "codepoint": 60003
+    },
+    {
+      "name": "homebrew-line-wordmark",
+      "codepoint": 60004
+    },
+    {
+      "name": "homebrew-plain",
+      "codepoint": 60005
+    },
+    {
+      "name": "homebrew-plain-wordmark",
+      "codepoint": 60006
+    },
+    {
+      "name": "hoppscotch-plain",
+      "codepoint": 60771
+    },
+    {
+      "name": "html5-plain",
+      "codepoint": 60007
+    },
+    {
+      "name": "html5-plain-wordmark",
+      "codepoint": 60008
+    },
+    {
+      "name": "htmx-line",
+      "codepoint": 60675
+    },
+    {
+      "name": "htmx-line-wordmark",
+      "codepoint": 60674
+    },
+    {
+      "name": "htmx-plain",
+      "codepoint": 60677
+    },
+    {
+      "name": "htmx-plain-wordmark",
+      "codepoint": 60676
+    },
+    {
+      "name": "hugo-plain",
+      "codepoint": 60009
+    },
+    {
+      "name": "hugo-plain-wordmark",
+      "codepoint": 60010
+    },
+    {
+      "name": "hyperv-original-wordmark",
+      "codepoint": 60809
+    },
+    {
+      "name": "hyperv-plain",
+      "codepoint": 60808
+    },
+    {
+      "name": "ie10-original",
+      "codepoint": 60011
+    },
+    {
+      "name": "ifttt-original",
+      "codepoint": 60012
+    },
+    {
+      "name": "illustrator-line",
+      "codepoint": 60774
+    },
+    {
+      "name": "illustrator-plain",
+      "codepoint": 60775
+    },
+    {
+      "name": "inertiajs-plain",
+      "codepoint": 60814
+    },
+    {
+      "name": "inertiajs-plain-wordmark",
+      "codepoint": 60813
+    },
+    {
+      "name": "influxdb-original",
+      "codepoint": 60015
+    },
+    {
+      "name": "influxdb-original-wordmark",
+      "codepoint": 60016
+    },
+    {
+      "name": "inkscape-plain",
+      "codepoint": 60017
+    },
+    {
+      "name": "inkscape-plain-wordmark",
+      "codepoint": 60018
+    },
+    {
+      "name": "insomnia-plain",
+      "codepoint": 60019
+    },
+    {
+      "name": "insomnia-plain-wordmark",
+      "codepoint": 60020
+    },
+    {
+      "name": "intellij-plain",
+      "codepoint": 60021
+    },
+    {
+      "name": "intellij-plain-wordmark",
+      "codepoint": 60022
+    },
+    {
+      "name": "ionic-original",
+      "codepoint": 60023
+    },
+    {
+      "name": "ionic-original-wordmark",
+      "codepoint": 60024
+    },
+    {
+      "name": "jaegertracing-plain",
+      "codepoint": 60025
+    },
+    {
+      "name": "jaegertracing-plain-wordmark",
+      "codepoint": 60026
+    },
+    {
+      "name": "jamstack-original",
+      "codepoint": 60027
+    },
+    {
+      "name": "jamstack-plain-wordmark",
+      "codepoint": 60028
+    },
+    {
+      "name": "jasmine-original",
+      "codepoint": 60029
+    },
+    {
+      "name": "jasmine-original-wordmark",
+      "codepoint": 60030
+    },
+    {
+      "name": "java-plain",
+      "codepoint": 60031
+    },
+    {
+      "name": "java-plain-wordmark",
+      "codepoint": 60032
+    },
+    {
+      "name": "javascript-plain",
+      "codepoint": 60033
+    },
+    {
+      "name": "jeet-plain",
+      "codepoint": 60034
+    },
+    {
+      "name": "jeet-plain-wordmark",
+      "codepoint": 60035
+    },
+    {
+      "name": "jekyll-plain",
+      "codepoint": 60036
+    },
+    {
+      "name": "jekyll-plain-wordmark",
+      "codepoint": 60037
+    },
+    {
+      "name": "jenkins-line",
+      "codepoint": 60038
+    },
+    {
+      "name": "jenkins-plain",
+      "codepoint": 60039
+    },
+    {
+      "name": "jest-plain",
+      "codepoint": 60040
+    },
+    {
+      "name": "jetbrains-plain",
+      "codepoint": 60041
+    },
+    {
+      "name": "jetpackcompose-line",
+      "codepoint": 60042
+    },
+    {
+      "name": "jetpackcompose-line-wordmark",
+      "codepoint": 60043
+    },
+    {
+      "name": "jetpackcompose-plain",
+      "codepoint": 60044
+    },
+    {
+      "name": "jetpackcompose-plain-wordmark",
+      "codepoint": 60045
+    },
+    {
+      "name": "jhipster-plain",
+      "codepoint": 60800
+    },
+    {
+      "name": "jhipster-plain-wordmark",
+      "codepoint": 60799
+    },
+    {
+      "name": "jira-plain",
+      "codepoint": 60048
+    },
+    {
+      "name": "jira-plain-wordmark",
+      "codepoint": 60049
+    },
+    {
+      "name": "jiraalign-plain",
+      "codepoint": 60046
+    },
+    {
+      "name": "jiraalign-plain-wordmark",
+      "codepoint": 60047
+    },
+    {
+      "name": "jquery-plain",
+      "codepoint": 60050
+    },
+    {
+      "name": "jquery-plain-wordmark",
+      "codepoint": 60051
+    },
+    {
+      "name": "json-plain",
+      "codepoint": 60052
+    },
+    {
+      "name": "jule-original",
+      "codepoint": 60053
+    },
+    {
+      "name": "jule-original-wordmark",
+      "codepoint": 60054
+    },
+    {
+      "name": "julia-plain",
+      "codepoint": 60055
+    },
+    {
+      "name": "julia-plain-wordmark",
+      "codepoint": 60056
+    },
+    {
+      "name": "junit-line",
+      "codepoint": 60057
+    },
+    {
+      "name": "junit-line-wordmark",
+      "codepoint": 60058
+    },
+    {
+      "name": "junit-plain",
+      "codepoint": 60059
+    },
+    {
+      "name": "junit-plain-wordmark",
+      "codepoint": 60060
+    },
+    {
+      "name": "jupyter-plain",
+      "codepoint": 60061
+    },
+    {
+      "name": "jupyter-plain-wordmark",
+      "codepoint": 60062
+    },
+    {
+      "name": "k3os-line",
+      "codepoint": 60063
+    },
+    {
+      "name": "k3os-line-wordmark",
+      "codepoint": 60064
+    },
+    {
+      "name": "k3os-original",
+      "codepoint": 60065
+    },
+    {
+      "name": "k3os-plain-wordmark",
+      "codepoint": 60066
+    },
+    {
+      "name": "k3s-original",
+      "codepoint": 60067
+    },
+    {
+      "name": "k3s-plain-wordmark",
+      "codepoint": 60068
+    },
+    {
+      "name": "k6-original",
+      "codepoint": 60069
+    },
+    {
+      "name": "kaggle-original",
+      "codepoint": 60070
+    },
+    {
+      "name": "kaggle-original-wordmark",
+      "codepoint": 60071
+    },
+    {
+      "name": "kaldi-line",
+      "codepoint": 60667
+    },
+    {
+      "name": "kaldi-line-wordmark",
+      "codepoint": 60666
+    },
+    {
+      "name": "kaldi-plain",
+      "codepoint": 60669
+    },
+    {
+      "name": "kaldi-plain-wordmark",
+      "codepoint": 60668
+    },
+    {
+      "name": "kalilinux-line",
+      "codepoint": 60656
+    },
+    {
+      "name": "kalilinux-line-wordmark",
+      "codepoint": 60652
+    },
+    {
+      "name": "kalilinux-original",
+      "codepoint": 60670
+    },
+    {
+      "name": "kalilinux-plain-wordmark",
+      "codepoint": 60657
+    },
+    {
+      "name": "karatelabs-plain",
+      "codepoint": 60072
+    },
+    {
+      "name": "karatelabs-plain-wordmark",
+      "codepoint": 60073
+    },
+    {
+      "name": "karma-plain",
+      "codepoint": 60074
+    },
+    {
+      "name": "kdeneon-plain",
+      "codepoint": 60075
+    },
+    {
+      "name": "keras-line",
+      "codepoint": 60076
+    },
+    {
+      "name": "keras-line-wordmark",
+      "codepoint": 60077
+    },
+    {
+      "name": "keras-plain",
+      "codepoint": 60078
+    },
+    {
+      "name": "keras-plain-wordmark",
+      "codepoint": 60079
+    },
+    {
+      "name": "kibana-plain",
+      "codepoint": 60080
+    },
+    {
+      "name": "kibana-plain-wordmark",
+      "codepoint": 60081
+    },
+    {
+      "name": "knexjs-original",
+      "codepoint": 60082
+    },
+    {
+      "name": "knexjs-plain-wordmark",
+      "codepoint": 60083
+    },
+    {
+      "name": "knockout-plain-wordmark",
+      "codepoint": 60084
+    },
+    {
+      "name": "kotlin-plain",
+      "codepoint": 60085
+    },
+    {
+      "name": "kotlin-plain-wordmark",
+      "codepoint": 60086
+    },
+    {
+      "name": "krakenjs-plain",
+      "codepoint": 60087
+    },
+    {
+      "name": "krakenjs-plain-wordmark",
+      "codepoint": 60088
+    },
+    {
+      "name": "ktor-plain",
+      "codepoint": 60089
+    },
+    {
+      "name": "ktor-plain-wordmark",
+      "codepoint": 60090
+    },
+    {
+      "name": "kubeflow-line",
+      "codepoint": 60663
+    },
+    {
+      "name": "kubeflow-line-wordmark",
+      "codepoint": 60662
+    },
+    {
+      "name": "kubeflow-plain",
+      "codepoint": 60665
+    },
+    {
+      "name": "kubeflow-plain-wordmark",
+      "codepoint": 60664
+    },
+    {
+      "name": "kubernetes-line",
+      "codepoint": 60091
+    },
+    {
+      "name": "kubernetes-line-wordmark",
+      "codepoint": 60092
+    },
+    {
+      "name": "kubernetes-plain",
+      "codepoint": 60093
+    },
+    {
+      "name": "kubernetes-plain-wordmark",
+      "codepoint": 60094
+    },
+    {
+      "name": "labview-plain",
+      "codepoint": 60095
+    },
+    {
+      "name": "labview-plain-wordmark",
+      "codepoint": 60096
+    },
+    {
+      "name": "laminas-line",
+      "codepoint": 60748
+    },
+    {
+      "name": "laminas-line-wordmark",
+      "codepoint": 60747
+    },
+    {
+      "name": "laminas-original",
+      "codepoint": 60750
+    },
+    {
+      "name": "laminas-original-wordmark",
+      "codepoint": 60749
+    },
+    {
+      "name": "laravel-line",
+      "codepoint": 60097
+    },
+    {
+      "name": "laravel-line-wordmark",
+      "codepoint": 60098
+    },
+    {
+      "name": "laravel-original",
+      "codepoint": 60099
+    },
+    {
+      "name": "laravel-original-wordmark",
+      "codepoint": 60100
+    },
+    {
+      "name": "laraveljetstream-original",
+      "codepoint": 60783
+    },
+    {
+      "name": "laraveljetstream-plain-wordmark",
+      "codepoint": 60782
+    },
+    {
+      "name": "latex-original",
+      "codepoint": 60101
+    },
+    {
+      "name": "leetcode-line",
+      "codepoint": 60633
+    },
+    {
+      "name": "leetcode-line-wordmark",
+      "codepoint": 60627
+    },
+    {
+      "name": "leetcode-plain",
+      "codepoint": 60634
+    },
+    {
+      "name": "leetcode-plain-wordmark",
+      "codepoint": 60632
+    },
+    {
+      "name": "less-plain-wordmark",
+      "codepoint": 60102
+    },
+    {
+      "name": "libgdx-line",
+      "codepoint": 60660
+    },
+    {
+      "name": "libgdx-plain",
+      "codepoint": 60661
+    },
+    {
+      "name": "linkedin-plain",
+      "codepoint": 60103
+    },
+    {
+      "name": "linkedin-plain-wordmark",
+      "codepoint": 60104
+    },
+    {
+      "name": "linux-plain",
+      "codepoint": 60105
+    },
+    {
+      "name": "linuxmint-plain",
+      "codepoint": 60735
+    },
+    {
+      "name": "linuxmint-plain-wordmark",
+      "codepoint": 60734
+    },
+    {
+      "name": "liquibase-original",
+      "codepoint": 60106
+    },
+    {
+      "name": "liquibase-original-wordmark",
+      "codepoint": 60107
+    },
+    {
+      "name": "livewire-plain",
+      "codepoint": 60108
+    },
+    {
+      "name": "livewire-plain-wordmark",
+      "codepoint": 60109
+    },
+    {
+      "name": "llvm-line",
+      "codepoint": 60758
+    },
+    {
+      "name": "llvm-plain",
+      "codepoint": 60759
+    },
+    {
+      "name": "lodash-plain",
+      "codepoint": 60111
+    },
+    {
+      "name": "logstash-plain",
+      "codepoint": 60112
+    },
+    {
+      "name": "logstash-plain-wordmark",
+      "codepoint": 60113
+    },
+    {
+      "name": "love2d-line",
+      "codepoint": 60788
+    },
+    {
+      "name": "love2d-plain",
+      "codepoint": 60789
+    },
+    {
+      "name": "lua-line",
+      "codepoint": 60114
+    },
+    {
+      "name": "lua-plain",
+      "codepoint": 60115
+    },
+    {
+      "name": "lumen-original",
+      "codepoint": 60116
+    },
+    {
+      "name": "magento-line",
+      "codepoint": 60117
+    },
+    {
+      "name": "magento-line-wordmark",
+      "codepoint": 60118
+    },
+    {
+      "name": "magento-original",
+      "codepoint": 60119
+    },
+    {
+      "name": "magento-plain-wordmark",
+      "codepoint": 60120
+    },
+    {
+      "name": "mapbox-original",
+      "codepoint": 60791
+    },
+    {
+      "name": "mariadb-original",
+      "codepoint": 60121
+    },
+    {
+      "name": "mariadb-original-wordmark",
+      "codepoint": 60122
+    },
+    {
+      "name": "markdown-original",
+      "codepoint": 60123
+    },
+    {
+      "name": "materializecss-plain",
+      "codepoint": 60124
+    },
+    {
+      "name": "materialui-plain",
+      "codepoint": 60125
+    },
+    {
+      "name": "matlab-line",
+      "codepoint": 60126
+    },
+    {
+      "name": "matlab-plain",
+      "codepoint": 60127
+    },
+    {
+      "name": "matplotlib-plain",
+      "codepoint": 60128
+    },
+    {
+      "name": "matplotlib-plain-wordmark",
+      "codepoint": 60129
+    },
+    {
+      "name": "mattermost-original",
+      "codepoint": 60659
+    },
+    {
+      "name": "mattermost-original-wordmark",
+      "codepoint": 60658
+    },
+    {
+      "name": "maven-plain",
+      "codepoint": 60130
+    },
+    {
+      "name": "maven-plain-wordmark",
+      "codepoint": 60131
+    },
+    {
+      "name": "maya-plain",
+      "codepoint": 60132
+    },
+    {
+      "name": "maya-plain-wordmark",
+      "codepoint": 60133
+    },
+    {
+      "name": "memcached-line",
+      "codepoint": 60762
+    },
+    {
+      "name": "memcached-line-wordmark",
+      "codepoint": 60761
+    },
+    {
+      "name": "memcached-plain",
+      "codepoint": 60764
+    },
+    {
+      "name": "memcached-plain-wordmark",
+      "codepoint": 60763
+    },
+    {
+      "name": "mercurial-plain",
+      "codepoint": 60818
+    },
+    {
+      "name": "mercurial-plain-wordmark",
+      "codepoint": 60817
+    },
+    {
+      "name": "meteor-plain",
+      "codepoint": 60134
+    },
+    {
+      "name": "meteor-plain-wordmark",
+      "codepoint": 60135
+    },
+    {
+      "name": "microsoftsqlserver-line",
+      "codepoint": 60136
+    },
+    {
+      "name": "microsoftsqlserver-line-wordmark",
+      "codepoint": 60137
+    },
+    {
+      "name": "microsoftsqlserver-plain",
+      "codepoint": 60138
+    },
+    {
+      "name": "microsoftsqlserver-plain-wordmark",
+      "codepoint": 60139
+    },
+    {
+      "name": "minitab-plain",
+      "codepoint": 60140
+    },
+    {
+      "name": "mithril-line",
+      "codepoint": 60141
+    },
+    {
+      "name": "mithril-original",
+      "codepoint": 60142
+    },
+    {
+      "name": "mobx-plain",
+      "codepoint": 60143
+    },
+    {
+      "name": "mocha-plain",
+      "codepoint": 60144
+    },
+    {
+      "name": "modx-plain",
+      "codepoint": 60145
+    },
+    {
+      "name": "modx-plain-wordmark",
+      "codepoint": 60146
+    },
+    {
+      "name": "moleculer-original",
+      "codepoint": 60147
+    },
+    {
+      "name": "moleculer-original-wordmark",
+      "codepoint": 60148
+    },
+    {
+      "name": "mongodb-plain",
+      "codepoint": 60149
+    },
+    {
+      "name": "mongodb-plain-wordmark",
+      "codepoint": 60150
+    },
+    {
+      "name": "mongoose-original",
+      "codepoint": 60151
+    },
+    {
+      "name": "mongoose-original-wordmark",
+      "codepoint": 60152
+    },
+    {
+      "name": "monogame-line",
+      "codepoint": 60654
+    },
+    {
+      "name": "monogame-line-wordmark",
+      "codepoint": 60653
+    },
+    {
+      "name": "monogame-original",
+      "codepoint": 60655
+    },
+    {
+      "name": "moodle-plain",
+      "codepoint": 60153
+    },
+    {
+      "name": "moodle-plain-wordmark",
+      "codepoint": 60154
+    },
+    {
+      "name": "msdos-line",
+      "codepoint": 60155
+    },
+    {
+      "name": "msdos-plain",
+      "codepoint": 60156
+    },
+    {
+      "name": "mysql-original",
+      "codepoint": 60157
+    },
+    {
+      "name": "mysql-plain-wordmark",
+      "codepoint": 60158
+    },
+    {
+      "name": "nano-plain",
+      "codepoint": 60159
+    },
+    {
+      "name": "nano-plain-wordmark",
+      "codepoint": 60160
+    },
+    {
+      "name": "nats-plain",
+      "codepoint": 60792
+    },
+    {
+      "name": "neo4j-plain",
+      "codepoint": 60161
+    },
+    {
+      "name": "neo4j-plain-wordmark",
+      "codepoint": 60162
+    },
+    {
+      "name": "neovim-line",
+      "codepoint": 60163
+    },
+    {
+      "name": "neovim-line-wordmark",
+      "codepoint": 60164
+    },
+    {
+      "name": "neovim-plain",
+      "codepoint": 60165
+    },
+    {
+      "name": "neovim-plain-wordmark",
+      "codepoint": 60166
+    },
+    {
+      "name": "nestjs-line",
+      "codepoint": 60167
+    },
+    {
+      "name": "nestjs-line-wordmark",
+      "codepoint": 60168
+    },
+    {
+      "name": "nestjs-original",
+      "codepoint": 60169
+    },
+    {
+      "name": "nestjs-original-wordmark",
+      "codepoint": 60170
+    },
+    {
+      "name": "netbeans-plain",
+      "codepoint": 60722
+    },
+    {
+      "name": "netbeans-plain-wordmark",
+      "codepoint": 60721
+    },
+    {
+      "name": "netbox-line",
+      "codepoint": 60839
+    },
+    {
+      "name": "netbox-line-wordmark",
+      "codepoint": 60838
+    },
+    {
+      "name": "netbox-plain",
+      "codepoint": 60841
+    },
+    {
+      "name": "netbox-plain-wordmark",
+      "codepoint": 60840
+    },
+    {
+      "name": "netlify-plain",
+      "codepoint": 60171
+    },
+    {
+      "name": "netlify-plain-wordmark",
+      "codepoint": 60172
+    },
+    {
+      "name": "networkx-line",
+      "codepoint": 60173
+    },
+    {
+      "name": "networkx-line-wordmark",
+      "codepoint": 60174
+    },
+    {
+      "name": "networkx-plain",
+      "codepoint": 60175
+    },
+    {
+      "name": "networkx-plain-wordmark",
+      "codepoint": 60176
+    },
+    {
+      "name": "newrelic-line",
+      "codepoint": 60673
+    },
+    {
+      "name": "newrelic-plain",
+      "codepoint": 60682
+    },
+    {
+      "name": "nextjs-line",
+      "codepoint": 60177
+    },
+    {
+      "name": "nextjs-line-wordmark",
+      "codepoint": 60178
+    },
+    {
+      "name": "nextjs-original-wordmark",
+      "codepoint": 60179
+    },
+    {
+      "name": "nextjs-plain",
+      "codepoint": 60180
+    },
+    {
+      "name": "nginx-original",
+      "codepoint": 60181
+    },
+    {
+      "name": "ngrok-line",
+      "codepoint": 60650
+    },
+    {
+      "name": "ngrok-original",
+      "codepoint": 60651
+    },
+    {
+      "name": "ngrx-plain",
+      "codepoint": 60760
+    },
+    {
+      "name": "nhibernate-line",
+      "codepoint": 60183
+    },
+    {
+      "name": "nhibernate-line-wordmark",
+      "codepoint": 60184
+    },
+    {
+      "name": "nhibernate-plain",
+      "codepoint": 60185
+    },
+    {
+      "name": "nhibernate-plain-wordmark",
+      "codepoint": 60186
+    },
+    {
+      "name": "nim-line",
+      "codepoint": 60188
+    },
+    {
+      "name": "nim-line-wordmark",
+      "codepoint": 60189
+    },
+    {
+      "name": "nim-plain",
+      "codepoint": 60190
+    },
+    {
+      "name": "nim-plain-wordmark",
+      "codepoint": 60191
+    },
+    {
+      "name": "nimble-plain",
+      "codepoint": 60187
+    },
+    {
+      "name": "nixos-plain",
+      "codepoint": 60192
+    },
+    {
+      "name": "nixos-plain-wordmark",
+      "codepoint": 60193
+    },
+    {
+      "name": "nodejs-line",
+      "codepoint": 60828
+    },
+    {
+      "name": "nodejs-line-wordmark",
+      "codepoint": 60827
+    },
+    {
+      "name": "nodejs-plain",
+      "codepoint": 60830
+    },
+    {
+      "name": "nodejs-plain-wordmark",
+      "codepoint": 60829
+    },
+    {
+      "name": "nodemon-line",
+      "codepoint": 60198
+    },
+    {
+      "name": "nodemon-plain",
+      "codepoint": 60199
+    },
+    {
+      "name": "nodered-line",
+      "codepoint": 60648
+    },
+    {
+      "name": "nodered-plain",
+      "codepoint": 60649
+    },
+    {
+      "name": "nodewebkit-line",
+      "codepoint": 60200
+    },
+    {
+      "name": "nodewebkit-line-wordmark",
+      "codepoint": 60201
+    },
+    {
+      "name": "nodewebkit-plain",
+      "codepoint": 60202
+    },
+    {
+      "name": "nodewebkit-plain-wordmark",
+      "codepoint": 60203
+    },
+    {
+      "name": "nomad-original",
+      "codepoint": 60204
+    },
+    {
+      "name": "nomad-plain-wordmark",
+      "codepoint": 60205
+    },
+    {
+      "name": "norg-plain",
+      "codepoint": 60206
+    },
+    {
+      "name": "notion-line",
+      "codepoint": 60207
+    },
+    {
+      "name": "notion-plain",
+      "codepoint": 60208
+    },
+    {
+      "name": "npm-original-wordmark",
+      "codepoint": 60848
+    },
+    {
+      "name": "npm-plain",
+      "codepoint": 60847
+    },
+    {
+      "name": "npss-plain",
+      "codepoint": 60810
+    },
+    {
+      "name": "nuget-original",
+      "codepoint": 60210
+    },
+    {
+      "name": "nuget-original-wordmark",
+      "codepoint": 60211
+    },
+    {
+      "name": "numpy-line",
+      "codepoint": 60212
+    },
+    {
+      "name": "numpy-line-wordmark",
+      "codepoint": 60213
+    },
+    {
+      "name": "numpy-plain",
+      "codepoint": 60214
+    },
+    {
+      "name": "numpy-plain-wordmark",
+      "codepoint": 60215
+    },
+    {
+      "name": "nuxt-original",
+      "codepoint": 60639
+    },
+    {
+      "name": "nuxt-plain-wordmark",
+      "codepoint": 60638
+    },
+    {
+      "name": "nuxtjs-plain",
+      "codepoint": 60216
+    },
+    {
+      "name": "nuxtjs-plain-wordmark",
+      "codepoint": 60217
+    },
+    {
+      "name": "oauth-plain",
+      "codepoint": 60218
+    },
+    {
+      "name": "objectivec-plain",
+      "codepoint": 60219
+    },
+    {
+      "name": "ocaml-plain",
+      "codepoint": 60220
+    },
+    {
+      "name": "ocaml-plain-wordmark",
+      "codepoint": 60221
+    },
+    {
+      "name": "ohmyzsh-plain",
+      "codepoint": 60222
+    },
+    {
+      "name": "okta-plain",
+      "codepoint": 60223
+    },
+    {
+      "name": "okta-plain-wordmark",
+      "codepoint": 60224
+    },
+    {
+      "name": "openal-plain",
+      "codepoint": 60225
+    },
+    {
+      "name": "openapi-line",
+      "codepoint": 60226
+    },
+    {
+      "name": "openapi-line-wordmark",
+      "codepoint": 60227
+    },
+    {
+      "name": "openapi-plain",
+      "codepoint": 60228
+    },
+    {
+      "name": "openapi-plain-wordmark",
+      "codepoint": 60229
+    },
+    {
+      "name": "opencl-line",
+      "codepoint": 60230
+    },
+    {
+      "name": "opencl-plain",
+      "codepoint": 60231
+    },
+    {
+      "name": "opencv-plain",
+      "codepoint": 60232
+    },
+    {
+      "name": "opencv-plain-wordmark",
+      "codepoint": 60233
+    },
+    {
+      "name": "opengl-plain",
+      "codepoint": 60234
+    },
+    {
+      "name": "openstack-original",
+      "codepoint": 60235
+    },
+    {
+      "name": "openstack-plain-wordmark",
+      "codepoint": 60236
+    },
+    {
+      "name": "opensuse-original",
+      "codepoint": 60237
+    },
+    {
+      "name": "opensuse-original-wordmark",
+      "codepoint": 60238
+    },
+    {
+      "name": "opentelemetry-plain",
+      "codepoint": 60239
+    },
+    {
+      "name": "opentelemetry-plain-wordmark",
+      "codepoint": 60240
+    },
+    {
+      "name": "opera-plain",
+      "codepoint": 60241
+    },
+    {
+      "name": "opera-plain-wordmark",
+      "codepoint": 60242
+    },
+    {
+      "name": "oracle-original",
+      "codepoint": 60243
+    },
+    {
+      "name": "ory-original",
+      "codepoint": 60244
+    },
+    {
+      "name": "ory-original-wordmark",
+      "codepoint": 60245
+    },
+    {
+      "name": "p5js-original",
+      "codepoint": 60246
+    },
+    {
+      "name": "packer-line",
+      "codepoint": 60247
+    },
+    {
+      "name": "packer-line-wordmark",
+      "codepoint": 60248
+    },
+    {
+      "name": "packer-plain",
+      "codepoint": 60249
+    },
+    {
+      "name": "packer-plain-wordmark",
+      "codepoint": 60250
+    },
+    {
+      "name": "pandas-line",
+      "codepoint": 60251
+    },
+    {
+      "name": "pandas-line-wordmark",
+      "codepoint": 60252
+    },
+    {
+      "name": "pandas-plain",
+      "codepoint": 60253
+    },
+    {
+      "name": "pandas-plain-wordmark",
+      "codepoint": 60254
+    },
+    {
+      "name": "passport-original-wordmark",
+      "codepoint": 60751
+    },
+    {
+      "name": "passport-plain",
+      "codepoint": 60752
+    },
+    {
+      "name": "perl-plain",
+      "codepoint": 60255
+    },
+    {
+      "name": "pfsense-original",
+      "codepoint": 60256
+    },
+    {
+      "name": "pfsense-original-wordmark",
+      "codepoint": 60257
+    },
+    {
+      "name": "phalcon-plain",
+      "codepoint": 60258
+    },
+    {
+      "name": "phoenix-original",
+      "codepoint": 60259
+    },
+    {
+      "name": "phoenix-plain-wordmark",
+      "codepoint": 60260
+    },
+    {
+      "name": "photonengine-plain",
+      "codepoint": 60261
+    },
+    {
+      "name": "photoshop-line",
+      "codepoint": 60262
+    },
+    {
+      "name": "photoshop-plain",
+      "codepoint": 60263
+    },
+    {
+      "name": "php-plain",
+      "codepoint": 60264
+    },
+    {
+      "name": "phpstorm-plain",
+      "codepoint": 60265
+    },
+    {
+      "name": "phpstorm-plain-wordmark",
+      "codepoint": 60266
+    },
+    {
+      "name": "pixijs-plain",
+      "codepoint": 60647
+    },
+    {
+      "name": "pixijs-plain-wordmark",
+      "codepoint": 60646
+    },
+    {
+      "name": "playwright-plain",
+      "codepoint": 60267
+    },
+    {
+      "name": "plotly-plain",
+      "codepoint": 60268
+    },
+    {
+      "name": "plotly-plain-wordmark",
+      "codepoint": 60269
+    },
+    {
+      "name": "pm2-line",
+      "codepoint": 60643
+    },
+    {
+      "name": "pm2-line-wordmark",
+      "codepoint": 60642
+    },
+    {
+      "name": "pm2-plain",
+      "codepoint": 60645
+    },
+    {
+      "name": "pm2-plain-wordmark",
+      "codepoint": 60644
+    },
+    {
+      "name": "pnpm-plain",
+      "codepoint": 60270
+    },
+    {
+      "name": "pnpm-plain-wordmark",
+      "codepoint": 60271
+    },
+    {
+      "name": "podman-plain",
+      "codepoint": 60272
+    },
+    {
+      "name": "podman-plain-wordmark",
+      "codepoint": 60273
+    },
+    {
+      "name": "poetry-plain",
+      "codepoint": 60274
+    },
+    {
+      "name": "polygon-plain",
+      "codepoint": 60275
+    },
+    {
+      "name": "polygon-plain-wordmark",
+      "codepoint": 60276
+    },
+    {
+      "name": "portainer-original",
+      "codepoint": 60277
+    },
+    {
+      "name": "portainer-original-wordmark",
+      "codepoint": 60278
+    },
+    {
+      "name": "postcss-original",
+      "codepoint": 60279
+    },
+    {
+      "name": "postcss-plain-wordmark",
+      "codepoint": 60280
+    },
+    {
+      "name": "postgresql-plain",
+      "codepoint": 60281
+    },
+    {
+      "name": "postgresql-plain-wordmark",
+      "codepoint": 60282
+    },
+    {
+      "name": "postman-plain",
+      "codepoint": 60283
+    },
+    {
+      "name": "postman-plain-wordmark",
+      "codepoint": 60284
+    },
+    {
+      "name": "powershell-plain",
+      "codepoint": 60285
+    },
+    {
+      "name": "premierepro-plain",
+      "codepoint": 60286
+    },
+    {
+      "name": "primeng-plain",
+      "codepoint": 60723
+    },
+    {
+      "name": "prisma-original",
+      "codepoint": 60287
+    },
+    {
+      "name": "prisma-original-wordmark",
+      "codepoint": 60288
+    },
+    {
+      "name": "processing-line",
+      "codepoint": 60714
+    },
+    {
+      "name": "processing-plain",
+      "codepoint": 60715
+    },
+    {
+      "name": "processwire-original",
+      "codepoint": 60641
+    },
+    {
+      "name": "processwire-plain-wordmark",
+      "codepoint": 60640
+    },
+    {
+      "name": "prolog-plain",
+      "codepoint": 60291
+    },
+    {
+      "name": "prolog-plain-wordmark",
+      "codepoint": 60292
+    },
+    {
+      "name": "prometheus-line",
+      "codepoint": 60293
+    },
+    {
+      "name": "prometheus-line-wordmark",
+      "codepoint": 60294
+    },
+    {
+      "name": "prometheus-original",
+      "codepoint": 60295
+    },
+    {
+      "name": "prometheus-plain-wordmark",
+      "codepoint": 60296
+    },
+    {
+      "name": "protractor-line",
+      "codepoint": 60297
+    },
+    {
+      "name": "protractor-line-wordmark",
+      "codepoint": 60298
+    },
+    {
+      "name": "protractor-plain",
+      "codepoint": 60299
+    },
+    {
+      "name": "protractor-plain-wordmark",
+      "codepoint": 60300
+    },
+    {
+      "name": "proxmox-plain",
+      "codepoint": 60795
+    },
+    {
+      "name": "proxmox-plain-wordmark",
+      "codepoint": 60794
+    },
+    {
+      "name": "pug-line",
+      "codepoint": 60819
+    },
+    {
+      "name": "pug-plain",
+      "codepoint": 60820
+    },
+    {
+      "name": "pulsar-original",
+      "codepoint": 60301
+    },
+    {
+      "name": "pulsar-original-wordmark",
+      "codepoint": 60302
+    },
+    {
+      "name": "pulumi-plain",
+      "codepoint": 60303
+    },
+    {
+      "name": "pulumi-plain-wordmark",
+      "codepoint": 60304
+    },
+    {
+      "name": "puppeteer-plain",
+      "codepoint": 60305
+    },
+    {
+      "name": "purescript-original",
+      "codepoint": 60306
+    },
+    {
+      "name": "purescript-original-wordmark",
+      "codepoint": 60307
+    },
+    {
+      "name": "putty-plain",
+      "codepoint": 60308
+    },
+    {
+      "name": "pycharm-plain",
+      "codepoint": 60309
+    },
+    {
+      "name": "pycharm-plain-wordmark",
+      "codepoint": 60310
+    },
+    {
+      "name": "pypi-plain",
+      "codepoint": 60311
+    },
+    {
+      "name": "pypi-plain-wordmark",
+      "codepoint": 60312
+    },
+    {
+      "name": "pyscript-plain-wordmark",
+      "codepoint": 60313
+    },
+    {
+      "name": "pytest-plain",
+      "codepoint": 60314
+    },
+    {
+      "name": "pytest-plain-wordmark",
+      "codepoint": 60315
+    },
+    {
+      "name": "python-plain",
+      "codepoint": 60316
+    },
+    {
+      "name": "python-plain-wordmark",
+      "codepoint": 60317
+    },
+    {
+      "name": "pytorch-original",
+      "codepoint": 60318
+    },
+    {
+      "name": "pytorch-plain-wordmark",
+      "codepoint": 60319
+    },
+    {
+      "name": "qodana-plain",
+      "codepoint": 60320
+    },
+    {
+      "name": "qodana-plain-wordmark",
+      "codepoint": 60321
+    },
+    {
+      "name": "qt-original",
+      "codepoint": 60322
+    },
+    {
+      "name": "qtest-original",
+      "codepoint": 60832
+    },
+    {
+      "name": "qtest-original-wordmark",
+      "codepoint": 60831
+    },
+    {
+      "name": "quarkus-plain",
+      "codepoint": 60323
+    },
+    {
+      "name": "quarkus-plain-wordmark",
+      "codepoint": 60324
+    },
+    {
+      "name": "quasar-plain",
+      "codepoint": 60325
+    },
+    {
+      "name": "quasar-plain-wordmark",
+      "codepoint": 60326
+    },
+    {
+      "name": "qwik-plain",
+      "codepoint": 60327
+    },
+    {
+      "name": "qwik-plain-wordmark",
+      "codepoint": 60328
+    },
+    {
+      "name": "r-line",
+      "codepoint": 60368
+    },
+    {
+      "name": "r-plain",
+      "codepoint": 60379
+    },
+    {
+      "name": "rabbitmq-original",
+      "codepoint": 60329
+    },
+    {
+      "name": "rabbitmq-plain-wordmark",
+      "codepoint": 60330
+    },
+    {
+      "name": "racket-line",
+      "codepoint": 60683
+    },
+    {
+      "name": "racket-plain",
+      "codepoint": 60684
+    },
+    {
+      "name": "radstudio-plain",
+      "codepoint": 60816
+    },
+    {
+      "name": "rails-plain",
+      "codepoint": 60331
+    },
+    {
+      "name": "rails-plain-wordmark",
+      "codepoint": 60332
+    },
+    {
+      "name": "railway-line",
+      "codepoint": 60333
+    },
+    {
+      "name": "railway-line-wordmark",
+      "codepoint": 60334
+    },
+    {
+      "name": "railway-original",
+      "codepoint": 60335
+    },
+    {
+      "name": "railway-original-wordmark",
+      "codepoint": 60336
+    },
+    {
+      "name": "rancher-line",
+      "codepoint": 60337
+    },
+    {
+      "name": "rancher-line-wordmark",
+      "codepoint": 60338
+    },
+    {
+      "name": "rancher-original",
+      "codepoint": 60339
+    },
+    {
+      "name": "rancher-plain-wordmark",
+      "codepoint": 60340
+    },
+    {
+      "name": "raspberrypi-line",
+      "codepoint": 60341
+    },
+    {
+      "name": "raspberrypi-line-wordmark",
+      "codepoint": 60342
+    },
+    {
+      "name": "raspberrypi-plain",
+      "codepoint": 60343
+    },
+    {
+      "name": "raspberrypi-plain-wordmark",
+      "codepoint": 60344
+    },
+    {
+      "name": "reach-plain",
+      "codepoint": 60345
+    },
+    {
+      "name": "react-original",
+      "codepoint": 60348
+    },
+    {
+      "name": "react-original-wordmark",
+      "codepoint": 60349
+    },
+    {
+      "name": "reactbootstrap-original",
+      "codepoint": 60346
+    },
+    {
+      "name": "reactnative-original",
+      "codepoint": 60773
+    },
+    {
+      "name": "reactnative-original-wordmark",
+      "codepoint": 60772
+    },
+    {
+      "name": "reactnavigation-original",
+      "codepoint": 60347
+    },
+    {
+      "name": "reactrouter-plain",
+      "codepoint": 60350
+    },
+    {
+      "name": "reactrouter-plain-wordmark",
+      "codepoint": 60351
+    },
+    {
+      "name": "readthedocs-line",
+      "codepoint": 60352
+    },
+    {
+      "name": "readthedocs-original",
+      "codepoint": 60353
+    },
+    {
+      "name": "readthedocs-original-wordmark",
+      "codepoint": 60354
+    },
+    {
+      "name": "realm-plain",
+      "codepoint": 60355
+    },
+    {
+      "name": "realm-plain-wordmark",
+      "codepoint": 60356
+    },
+    {
+      "name": "rect-plain",
+      "codepoint": 60357
+    },
+    {
+      "name": "redhat-plain",
+      "codepoint": 60358
+    },
+    {
+      "name": "redhat-plain-wordmark",
+      "codepoint": 60359
+    },
+    {
+      "name": "redis-plain",
+      "codepoint": 60360
+    },
+    {
+      "name": "redis-plain-wordmark",
+      "codepoint": 60361
+    },
+    {
+      "name": "redux-original",
+      "codepoint": 60362
+    },
+    {
+      "name": "reflex-plain",
+      "codepoint": 60766
+    },
+    {
+      "name": "reflex-plain-wordmark",
+      "codepoint": 60765
+    },
+    {
+      "name": "remix-line",
+      "codepoint": 60618
+    },
+    {
+      "name": "remix-line-wordmark",
+      "codepoint": 60209
+    },
+    {
+      "name": "remix-original",
+      "codepoint": 60626
+    },
+    {
+      "name": "remix-original-wordmark",
+      "codepoint": 60619
+    },
+    {
+      "name": "renpy-plain",
+      "codepoint": 60363
+    },
+    {
+      "name": "replit-original",
+      "codepoint": 60364
+    },
+    {
+      "name": "replit-plain-wordmark",
+      "codepoint": 60365
+    },
+    {
+      "name": "rexx-plain",
+      "codepoint": 60786
+    },
+    {
+      "name": "rexx-plain-wordmark",
+      "codepoint": 60785
+    },
+    {
+      "name": "rider-plain",
+      "codepoint": 60366
+    },
+    {
+      "name": "rider-plain-wordmark",
+      "codepoint": 60367
+    },
+    {
+      "name": "rocksdb-line",
+      "codepoint": 60369
+    },
+    {
+      "name": "rocksdb-plain",
+      "codepoint": 60370
+    },
+    {
+      "name": "rockylinux-original",
+      "codepoint": 60371
+    },
+    {
+      "name": "rockylinux-plain-wordmark",
+      "codepoint": 60372
+    },
+    {
+      "name": "rollup-line",
+      "codepoint": 60373
+    },
+    {
+      "name": "rollup-line-wordmark",
+      "codepoint": 60374
+    },
+    {
+      "name": "rollup-plain",
+      "codepoint": 60375
+    },
+    {
+      "name": "rollup-plain-wordmark",
+      "codepoint": 60376
+    },
+    {
+      "name": "ros-original",
+      "codepoint": 60377
+    },
+    {
+      "name": "ros-original-wordmark",
+      "codepoint": 60378
+    },
+    {
+      "name": "rspec-line",
+      "codepoint": 60380
+    },
+    {
+      "name": "rspec-line-wordmark",
+      "codepoint": 60381
+    },
+    {
+      "name": "rspec-plain",
+      "codepoint": 60382
+    },
+    {
+      "name": "rspec-plain-wordmark",
+      "codepoint": 60383
+    },
+    {
+      "name": "rstudio-plain",
+      "codepoint": 60384
+    },
+    {
+      "name": "ruby-plain",
+      "codepoint": 60387
+    },
+    {
+      "name": "ruby-plain-wordmark",
+      "codepoint": 60388
+    },
+    {
+      "name": "rubymine-plain",
+      "codepoint": 60385
+    },
+    {
+      "name": "rubymine-plain-wordmark",
+      "codepoint": 60386
+    },
+    {
+      "name": "rust-line",
+      "codepoint": 60389
+    },
+    {
+      "name": "rust-original",
+      "codepoint": 60390
+    },
+    {
+      "name": "rxjs-plain",
+      "codepoint": 60391
+    },
+    {
+      "name": "safari-line",
+      "codepoint": 60392
+    },
+    {
+      "name": "safari-line-wordmark",
+      "codepoint": 60393
+    },
+    {
+      "name": "safari-plain",
+      "codepoint": 60394
+    },
+    {
+      "name": "safari-plain-wordmark",
+      "codepoint": 60395
+    },
+    {
+      "name": "salesforce-plain",
+      "codepoint": 60396
+    },
+    {
+      "name": "sanity-plain",
+      "codepoint": 60397
+    },
+    {
+      "name": "sass-original",
+      "codepoint": 60398
+    },
+    {
+      "name": "scala-plain",
+      "codepoint": 60399
+    },
+    {
+      "name": "scala-plain-wordmark",
+      "codepoint": 60400
+    },
+    {
+      "name": "scalingo-line",
+      "codepoint": 60401
+    },
+    {
+      "name": "scalingo-line-wordmark",
+      "codepoint": 60402
+    },
+    {
+      "name": "scalingo-plain",
+      "codepoint": 60403
+    },
+    {
+      "name": "scalingo-plain-wordmark",
+      "codepoint": 60404
+    },
+    {
+      "name": "scikitlearn-line",
+      "codepoint": 60405
+    },
+    {
+      "name": "scikitlearn-plain",
+      "codepoint": 60406
+    },
+    {
+      "name": "sdl-plain",
+      "codepoint": 60407
+    },
+    {
+      "name": "selenium-original",
+      "codepoint": 60408
+    },
+    {
+      "name": "sema-original",
+      "codepoint": 60409
+    },
+    {
+      "name": "sema-original-wordmark",
+      "codepoint": 60410
+    },
+    {
+      "name": "sentry-original",
+      "codepoint": 60411
+    },
+    {
+      "name": "sentry-original-wordmark",
+      "codepoint": 60412
+    },
+    {
+      "name": "sequelize-plain",
+      "codepoint": 60413
+    },
+    {
+      "name": "sequelize-plain-wordmark",
+      "codepoint": 60414
+    },
+    {
+      "name": "shopware-original",
+      "codepoint": 60415
+    },
+    {
+      "name": "shopware-original-wordmark",
+      "codepoint": 60416
+    },
+    {
+      "name": "shotgrid-original-wordmark",
+      "codepoint": 60417
+    },
+    {
+      "name": "shotgrid-plain",
+      "codepoint": 60418
+    },
+    {
+      "name": "sketch-line",
+      "codepoint": 60419
+    },
+    {
+      "name": "sketch-line-wordmark",
+      "codepoint": 60420
+    },
+    {
+      "name": "sketch-plain",
+      "codepoint": 60421
+    },
+    {
+      "name": "sketch-plain-wordmark",
+      "codepoint": 60422
+    },
+    {
+      "name": "slack-plain",
+      "codepoint": 60423
+    },
+    {
+      "name": "slack-plain-wordmark",
+      "codepoint": 60424
+    },
+    {
+      "name": "socketio-original",
+      "codepoint": 60425
+    },
+    {
+      "name": "socketio-original-wordmark",
+      "codepoint": 60426
+    },
+    {
+      "name": "solidity-plain",
+      "codepoint": 60427
+    },
+    {
+      "name": "solidjs-plain",
+      "codepoint": 60428
+    },
+    {
+      "name": "solidjs-plain-wordmark",
+      "codepoint": 60429
+    },
+    {
+      "name": "sonarqube-line",
+      "codepoint": 60430
+    },
+    {
+      "name": "sonarqube-line-wordmark",
+      "codepoint": 60431
+    },
+    {
+      "name": "sonarqube-original",
+      "codepoint": 60432
+    },
+    {
+      "name": "sonarqube-plain-wordmark",
+      "codepoint": 60433
+    },
+    {
+      "name": "sourceengine-plain",
+      "codepoint": 60733
+    },
+    {
+      "name": "sourceengine-plain-wordmark",
+      "codepoint": 60732
+    },
+    {
+      "name": "sourcetree-original",
+      "codepoint": 60434
+    },
+    {
+      "name": "sourcetree-original-wordmark",
+      "codepoint": 60435
+    },
+    {
+      "name": "spack-plain",
+      "codepoint": 60436
+    },
+    {
+      "name": "spicedb-line",
+      "codepoint": 60802
+    },
+    {
+      "name": "spicedb-plain",
+      "codepoint": 60803
+    },
+    {
+      "name": "splunk-original-wordmark",
+      "codepoint": 60437
+    },
+    {
+      "name": "spring-original",
+      "codepoint": 60438
+    },
+    {
+      "name": "spring-original-wordmark",
+      "codepoint": 60439
+    },
+    {
+      "name": "spss-plain",
+      "codepoint": 60440
+    },
+    {
+      "name": "spyder-plain",
+      "codepoint": 60441
+    },
+    {
+      "name": "spyder-plain-wordmark",
+      "codepoint": 60442
+    },
+    {
+      "name": "sqlalchemy-plain",
+      "codepoint": 60443
+    },
+    {
+      "name": "sqlalchemy-plain-wordmark",
+      "codepoint": 60444
+    },
+    {
+      "name": "sqldeveloper-plain",
+      "codepoint": 60445
+    },
+    {
+      "name": "sqlite-plain",
+      "codepoint": 60446
+    },
+    {
+      "name": "sqlite-plain-wordmark",
+      "codepoint": 60447
+    },
+    {
+      "name": "ssh-original",
+      "codepoint": 60448
+    },
+    {
+      "name": "ssh-original-wordmark",
+      "codepoint": 60449
+    },
+    {
+      "name": "stackblitz-line",
+      "codepoint": 60629
+    },
+    {
+      "name": "stackblitz-line-wordmark",
+      "codepoint": 60628
+    },
+    {
+      "name": "stackblitz-original",
+      "codepoint": 60631
+    },
+    {
+      "name": "stackblitz-plain-wordmark",
+      "codepoint": 60630
+    },
+    {
+      "name": "stackoverflow-line",
+      "codepoint": 60450
+    },
+    {
+      "name": "stackoverflow-line-wordmark",
+      "codepoint": 60451
+    },
+    {
+      "name": "stackoverflow-plain",
+      "codepoint": 60452
+    },
+    {
+      "name": "stackoverflow-plain-wordmark",
+      "codepoint": 60453
+    },
+    {
+      "name": "stata-original-wordmark",
+      "codepoint": 60454
+    },
+    {
+      "name": "stenciljs-plain",
+      "codepoint": 60636
+    },
+    {
+      "name": "stenciljs-plain-wordmark",
+      "codepoint": 60635
+    },
+    {
+      "name": "storybook-plain",
+      "codepoint": 60455
+    },
+    {
+      "name": "storybook-plain-wordmark",
+      "codepoint": 60456
+    },
+    {
+      "name": "streamlit-plain",
+      "codepoint": 60457
+    },
+    {
+      "name": "streamlit-plain-wordmark",
+      "codepoint": 60458
+    },
+    {
+      "name": "styledcomponents-plain",
+      "codepoint": 60625
+    },
+    {
+      "name": "styledcomponents-plain-wordmark",
+      "codepoint": 60624
+    },
+    {
+      "name": "stylus-original",
+      "codepoint": 60459
+    },
+    {
+      "name": "subversion-original",
+      "codepoint": 60460
+    },
+    {
+      "name": "subversion-plain-wordmark",
+      "codepoint": 60461
+    },
+    {
+      "name": "sulu-line",
+      "codepoint": 60737
+    },
+    {
+      "name": "sulu-line-wordmark",
+      "codepoint": 60736
+    },
+    {
+      "name": "sulu-original",
+      "codepoint": 60739
+    },
+    {
+      "name": "sulu-original-wordmark",
+      "codepoint": 60738
+    },
+    {
+      "name": "supabase-plain",
+      "codepoint": 60462
+    },
+    {
+      "name": "supabase-plain-wordmark",
+      "codepoint": 60463
+    },
+    {
+      "name": "surrealdb-plain",
+      "codepoint": 60754
+    },
+    {
+      "name": "surrealdb-plain-wordmark",
+      "codepoint": 60753
+    },
+    {
+      "name": "svelte-plain",
+      "codepoint": 60464
+    },
+    {
+      "name": "svelte-plain-wordmark",
+      "codepoint": 60465
+    },
+    {
+      "name": "svgo-line",
+      "codepoint": 60621
+    },
+    {
+      "name": "svgo-line-wordmark",
+      "codepoint": 60620
+    },
+    {
+      "name": "svgo-plain",
+      "codepoint": 60623
+    },
+    {
+      "name": "svgo-plain-wordmark",
+      "codepoint": 60622
+    },
+    {
+      "name": "swagger-plain",
+      "codepoint": 60466
+    },
+    {
+      "name": "swagger-plain-wordmark",
+      "codepoint": 60467
+    },
+    {
+      "name": "swift-plain",
+      "codepoint": 60468
+    },
+    {
+      "name": "swift-plain-wordmark",
+      "codepoint": 60469
+    },
+    {
+      "name": "swiper-original",
+      "codepoint": 60470
+    },
+    {
+      "name": "symfony-original",
+      "codepoint": 60471
+    },
+    {
+      "name": "symfony-original-wordmark",
+      "codepoint": 60472
+    },
+    {
+      "name": "tailwindcss-original",
+      "codepoint": 60473
+    },
+    {
+      "name": "tailwindcss-plain-wordmark",
+      "codepoint": 60474
+    },
+    {
+      "name": "talos-plain",
+      "codepoint": 60790
+    },
+    {
+      "name": "tauri-plain",
+      "codepoint": 60475
+    },
+    {
+      "name": "tauri-plain-wordmark",
+      "codepoint": 60476
+    },
+    {
+      "name": "teleport-line",
+      "codepoint": 59668
+    },
+    {
+      "name": "teleport-line-wordmark",
+      "codepoint": 59667
+    },
+    {
+      "name": "teleport-original",
+      "codepoint": 59795
+    },
+    {
+      "name": "teleport-original-wordmark",
+      "codepoint": 59761
+    },
+    {
+      "name": "tensorflow-line",
+      "codepoint": 60477
+    },
+    {
+      "name": "tensorflow-line-wordmark",
+      "codepoint": 60478
+    },
+    {
+      "name": "tensorflow-original",
+      "codepoint": 60479
+    },
+    {
+      "name": "tensorflow-original-wordmark",
+      "codepoint": 60480
+    },
+    {
+      "name": "terraform-plain",
+      "codepoint": 60481
+    },
+    {
+      "name": "terraform-plain-wordmark",
+      "codepoint": 60482
+    },
+    {
+      "name": "terramate-original",
+      "codepoint": 60768
+    },
+    {
+      "name": "terramate-original-wordmark",
+      "codepoint": 60767
+    },
+    {
+      "name": "tex-original",
+      "codepoint": 60483
+    },
+    {
+      "name": "thealgorithms-plain",
+      "codepoint": 60484
+    },
+    {
+      "name": "thealgorithms-plain-wordmark",
+      "codepoint": 60485
+    },
+    {
+      "name": "threedsmax-plain",
+      "codepoint": 60486
+    },
+    {
+      "name": "threejs-original",
+      "codepoint": 60487
+    },
+    {
+      "name": "threejs-original-wordmark",
+      "codepoint": 60488
+    },
+    {
+      "name": "thymeleaf-plain",
+      "codepoint": 60617
+    },
+    {
+      "name": "thymeleaf-plain-wordmark",
+      "codepoint": 60616
+    },
+    {
+      "name": "titaniumsdk-original",
+      "codepoint": 60489
+    },
+    {
+      "name": "tmux-plain",
+      "codepoint": 60844
+    },
+    {
+      "name": "tmux-plain-wordmark",
+      "codepoint": 60843
+    },
+    {
+      "name": "tomcat-line",
+      "codepoint": 60490
+    },
+    {
+      "name": "tomcat-line-wordmark",
+      "codepoint": 60491
+    },
+    {
+      "name": "tortoisegit-line",
+      "codepoint": 60492
+    },
+    {
+      "name": "tortoisegit-plain",
+      "codepoint": 60493
+    },
+    {
+      "name": "towergit-plain",
+      "codepoint": 60494
+    },
+    {
+      "name": "towergit-plain-wordmark",
+      "codepoint": 60495
+    },
+    {
+      "name": "traefikmesh-line",
+      "codepoint": 60496
+    },
+    {
+      "name": "traefikmesh-line-wordmark",
+      "codepoint": 60497
+    },
+    {
+      "name": "traefikmesh-original",
+      "codepoint": 60498
+    },
+    {
+      "name": "traefikmesh-plain-wordmark",
+      "codepoint": 60499
+    },
+    {
+      "name": "traefikproxy-line",
+      "codepoint": 60500
+    },
+    {
+      "name": "traefikproxy-line-wordmark",
+      "codepoint": 60501
+    },
+    {
+      "name": "traefikproxy-original",
+      "codepoint": 60502
+    },
+    {
+      "name": "traefikproxy-plain-wordmark",
+      "codepoint": 60503
+    },
+    {
+      "name": "travis-line",
+      "codepoint": 60504
+    },
+    {
+      "name": "travis-line-wordmark",
+      "codepoint": 60505
+    },
+    {
+      "name": "travis-plain",
+      "codepoint": 60506
+    },
+    {
+      "name": "travis-plain-wordmark",
+      "codepoint": 60507
+    },
+    {
+      "name": "trello-line",
+      "codepoint": 60508
+    },
+    {
+      "name": "trello-line-wordmark",
+      "codepoint": 60509
+    },
+    {
+      "name": "trello-plain",
+      "codepoint": 60510
+    },
+    {
+      "name": "trello-plain-wordmark",
+      "codepoint": 60511
+    },
+    {
+      "name": "trpc-plain",
+      "codepoint": 60512
+    },
+    {
+      "name": "trpc-plain-wordmark",
+      "codepoint": 60513
+    },
+    {
+      "name": "turbo-original",
+      "codepoint": 60798
+    },
+    {
+      "name": "turbo-plain-wordmark",
+      "codepoint": 60797
+    },
+    {
+      "name": "twilio-original",
+      "codepoint": 60615
+    },
+    {
+      "name": "twilio-original-wordmark",
+      "codepoint": 60614
+    },
+    {
+      "name": "twitter-original",
+      "codepoint": 60514
+    },
+    {
+      "name": "typescript-plain",
+      "codepoint": 60515
+    },
+    {
+      "name": "typo3-line",
+      "codepoint": 60516
+    },
+    {
+      "name": "typo3-line-wordmark",
+      "codepoint": 60517
+    },
+    {
+      "name": "typo3-original",
+      "codepoint": 60518
+    },
+    {
+      "name": "typo3-plain-wordmark",
+      "codepoint": 60519
+    },
+    {
+      "name": "ubuntu-plain",
+      "codepoint": 60520
+    },
+    {
+      "name": "ubuntu-plain-wordmark",
+      "codepoint": 60521
+    },
+    {
+      "name": "unifiedmodelinglanguage-plain",
+      "codepoint": 60522
+    },
+    {
+      "name": "unifiedmodelinglanguage-plain-wordmark",
+      "codepoint": 60523
+    },
+    {
+      "name": "unity-line",
+      "codepoint": 60524
+    },
+    {
+      "name": "unity-line-wordmark",
+      "codepoint": 60525
+    },
+    {
+      "name": "unity-plain",
+      "codepoint": 60526
+    },
+    {
+      "name": "unity-plain-wordmark",
+      "codepoint": 60527
+    },
+    {
+      "name": "unix-original",
+      "codepoint": 60528
+    },
+    {
+      "name": "unrealengine-original",
+      "codepoint": 60529
+    },
+    {
+      "name": "unrealengine-original-wordmark",
+      "codepoint": 60530
+    },
+    {
+      "name": "uwsgi-plain",
+      "codepoint": 60531
+    },
+    {
+      "name": "v8-plain",
+      "codepoint": 60532
+    },
+    {
+      "name": "vaadin-original",
+      "codepoint": 60716
+    },
+    {
+      "name": "vagrant-plain",
+      "codepoint": 60533
+    },
+    {
+      "name": "vagrant-plain-wordmark",
+      "codepoint": 60534
+    },
+    {
+      "name": "vala-plain",
+      "codepoint": 60535
+    },
+    {
+      "name": "vala-plain-wordmark",
+      "codepoint": 60536
+    },
+    {
+      "name": "vault-original",
+      "codepoint": 60537
+    },
+    {
+      "name": "vault-plain-wordmark",
+      "codepoint": 60538
+    },
+    {
+      "name": "veevalidate-line",
+      "codepoint": 60572
+    },
+    {
+      "name": "veevalidate-original",
+      "codepoint": 60613
+    },
+    {
+      "name": "vercel-line",
+      "codepoint": 60539
+    },
+    {
+      "name": "vercel-line-wordmark",
+      "codepoint": 60540
+    },
+    {
+      "name": "vercel-original",
+      "codepoint": 60541
+    },
+    {
+      "name": "vercel-original-wordmark",
+      "codepoint": 60542
+    },
+    {
+      "name": "vertx-line",
+      "codepoint": 60543
+    },
+    {
+      "name": "vertx-line-wordmark",
+      "codepoint": 60544
+    },
+    {
+      "name": "vertx-plain",
+      "codepoint": 60545
+    },
+    {
+      "name": "vertx-plain-wordmark",
+      "codepoint": 60546
+    },
+    {
+      "name": "vim-plain",
+      "codepoint": 60547
+    },
+    {
+      "name": "visualbasic-line",
+      "codepoint": 60548
+    },
+    {
+      "name": "visualbasic-plain",
+      "codepoint": 60549
+    },
+    {
+      "name": "visualstudio-line",
+      "codepoint": 60550
+    },
+    {
+      "name": "visualstudio-plain",
+      "codepoint": 60551
+    },
+    {
+      "name": "vite-original",
+      "codepoint": 60553
+    },
+    {
+      "name": "vite-original-wordmark",
+      "codepoint": 60554
+    },
+    {
+      "name": "vitejs-plain",
+      "codepoint": 60552
+    },
+    {
+      "name": "vitess-plain",
+      "codepoint": 60555
+    },
+    {
+      "name": "vitess-plain-wordmark",
+      "codepoint": 60556
+    },
+    {
+      "name": "vitest-plain",
+      "codepoint": 60557
+    },
+    {
+      "name": "vscode-plain",
+      "codepoint": 60558
+    },
+    {
+      "name": "vscode-plain-wordmark",
+      "codepoint": 60559
+    },
+    {
+      "name": "vscodium-plain",
+      "codepoint": 60571
+    },
+    {
+      "name": "vsphere-line",
+      "codepoint": 60560
+    },
+    {
+      "name": "vsphere-line-wordmark",
+      "codepoint": 60561
+    },
+    {
+      "name": "vsphere-plain",
+      "codepoint": 60562
+    },
+    {
+      "name": "vsphere-plain-wordmark",
+      "codepoint": 60563
+    },
+    {
+      "name": "vuejs-line",
+      "codepoint": 60564
+    },
+    {
+      "name": "vuejs-line-wordmark",
+      "codepoint": 60565
+    },
+    {
+      "name": "vuejs-plain",
+      "codepoint": 60566
+    },
+    {
+      "name": "vuejs-plain-wordmark",
+      "codepoint": 60567
+    },
+    {
+      "name": "vuestorefront-plain",
+      "codepoint": 60568
+    },
+    {
+      "name": "vuetify-line",
+      "codepoint": 60569
+    },
+    {
+      "name": "vuetify-plain",
+      "codepoint": 60570
+    },
+    {
+      "name": "vulkan-line",
+      "codepoint": 60289
+    },
+    {
+      "name": "vulkan-original",
+      "codepoint": 60290
+    },
+    {
+      "name": "vyper-original",
+      "codepoint": 60745
+    },
+    {
+      "name": "vyper-original-wordmark",
+      "codepoint": 60744
+    },
+    {
+      "name": "waku-line",
+      "codepoint": 60671
+    },
+    {
+      "name": "waku-plain",
+      "codepoint": 60672
+    },
+    {
+      "name": "wasm-original",
+      "codepoint": 60573
+    },
+    {
+      "name": "wasm-plain-wordmark",
+      "codepoint": 60574
+    },
+    {
+      "name": "web3js-plain",
+      "codepoint": 60746
+    },
+    {
+      "name": "webflow-original",
+      "codepoint": 60575
+    },
+    {
+      "name": "webgpu-line",
+      "codepoint": 60194
+    },
+    {
+      "name": "webgpu-line-wordmark",
+      "codepoint": 60014
+    },
+    {
+      "name": "webgpu-plain",
+      "codepoint": 60196
+    },
+    {
+      "name": "webgpu-plain-wordmark",
+      "codepoint": 60195
+    },
+    {
+      "name": "weblate-plain",
+      "codepoint": 60576
+    },
+    {
+      "name": "weblate-plain-wordmark",
+      "codepoint": 60577
+    },
+    {
+      "name": "webpack-plain",
+      "codepoint": 60578
+    },
+    {
+      "name": "webpack-plain-wordmark",
+      "codepoint": 60579
+    },
+    {
+      "name": "webstorm-plain",
+      "codepoint": 60580
+    },
+    {
+      "name": "webstorm-plain-wordmark",
+      "codepoint": 60581
+    },
+    {
+      "name": "windows11-original",
+      "codepoint": 60584
+    },
+    {
+      "name": "windows11-original-wordmark",
+      "codepoint": 60585
+    },
+    {
+      "name": "windows8-original",
+      "codepoint": 60582
+    },
+    {
+      "name": "windows8-original-wordmark",
+      "codepoint": 60583
+    },
+    {
+      "name": "wolfram-plain",
+      "codepoint": 60824
+    },
+    {
+      "name": "wolfram-plain-wordmark",
+      "codepoint": 60823
+    },
+    {
+      "name": "woocommerce-plain",
+      "codepoint": 60586
+    },
+    {
+      "name": "woocommerce-plain-wordmark",
+      "codepoint": 60587
+    },
+    {
+      "name": "wordpress-plain",
+      "codepoint": 60588
+    },
+    {
+      "name": "wordpress-plain-wordmark",
+      "codepoint": 60589
+    },
+    {
+      "name": "xamarin-original",
+      "codepoint": 60590
+    },
+    {
+      "name": "xamarin-original-wordmark",
+      "codepoint": 60591
+    },
+    {
+      "name": "xcode-plain",
+      "codepoint": 60592
+    },
+    {
+      "name": "xd-line",
+      "codepoint": 60593
+    },
+    {
+      "name": "xd-plain",
+      "codepoint": 60594
+    },
+    {
+      "name": "xml-line",
+      "codepoint": 60595
+    },
+    {
+      "name": "xml-plain",
+      "codepoint": 60596
+    },
+    {
+      "name": "yaml-plain",
+      "codepoint": 60597
+    },
+    {
+      "name": "yarn-line",
+      "codepoint": 60598
+    },
+    {
+      "name": "yarn-line-wordmark",
+      "codepoint": 60599
+    },
+    {
+      "name": "yarn-original",
+      "codepoint": 60600
+    },
+    {
+      "name": "yarn-original-wordmark",
+      "codepoint": 60601
+    },
+    {
+      "name": "yii-plain",
+      "codepoint": 60602
+    },
+    {
+      "name": "yii-plain-wordmark",
+      "codepoint": 60603
+    },
+    {
+      "name": "yugabytedb-plain",
+      "codepoint": 60604
+    },
+    {
+      "name": "yugabytedb-plain-wordmark",
+      "codepoint": 60605
+    },
+    {
+      "name": "yunohost-plain",
+      "codepoint": 60606
+    },
+    {
+      "name": "zend-line",
+      "codepoint": 60607
+    },
+    {
+      "name": "zend-line-wordmark",
+      "codepoint": 60608
+    },
+    {
+      "name": "zend-original",
+      "codepoint": 60609
+    },
+    {
+      "name": "zend-original-wordmark",
+      "codepoint": 60610
+    },
+    {
+      "name": "zig-original",
+      "codepoint": 60611
+    },
+    {
+      "name": "zig-plain-wordmark",
+      "codepoint": 60612
+    },
+    {
+      "name": "zsh-line",
+      "codepoint": 59691
+    },
+    {
+      "name": "zsh-line-wordmark",
+      "codepoint": 59690
+    },
+    {
+      "name": "zsh-plain",
+      "codepoint": 59794
+    },
+    {
+      "name": "zsh-plain-wordmark",
+      "codepoint": 59718
+    },
+    {
+      "name": "zustand-plain",
+      "codepoint": 60796
+    }
+  ]
+}

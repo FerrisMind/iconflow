@@ -1,0 +1,1199 @@
+{
+  "pack_id": "carbon",
+  "variants": [
+    {
+      "id": "filled",
+      "style": "Filled",
+      "size": "Regular",
+      "family": "Carbon Filled",
+      "ttf_asset_path": "assets/fonts/carbon/carbon-filled.ttf"
+    },
+    {
+      "id": "glyph",
+      "style": "Glyph",
+      "size": "Regular",
+      "family": "Carbon Glyph",
+      "ttf_asset_path": "assets/fonts/carbon/carbon-glyph.ttf"
+    },
+    {
+      "id": "outline",
+      "style": "Outline",
+      "size": "Regular",
+      "family": "Carbon Outline",
+      "ttf_asset_path": "assets/fonts/carbon/carbon-outline.ttf"
+    },
+    {
+      "id": "regular",
+      "style": "Regular",
+      "size": "Regular",
+      "family": "Carbon Regular",
+      "ttf_asset_path": "assets/fonts/carbon/carbon-regular.ttf"
+    }
+  ],
+  "icons": [
+    {
+      "name": "add",
+      "codepoint": 57344,
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "add-outline",
+      "overrides": {
+        "outline": 57344
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "add-solid",
+      "overrides": {
+        "filled": 57344
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "api",
+      "codepoint": 57345,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "apis",
+      "codepoint": 57346,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "app-services",
+      "codepoint": 57347,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "applications",
+      "codepoint": 57348,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "apps",
+      "codepoint": 57349,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "codepoint": 57350,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "codepoint": 57351,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "codepoint": 57352,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "codepoint": 57353,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "arrows",
+      "codepoint": 57354,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "asleep",
+      "codepoint": 57355,
+      "overrides": {
+        "glyph": 57345
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "attachment",
+      "codepoint": 57356,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "awake",
+      "codepoint": 57357,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "back-to-top",
+      "codepoint": 57358,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "block-chain",
+      "codepoint": 57359,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "calendar",
+      "codepoint": 57360,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-down",
+      "codepoint": 57361,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-left",
+      "codepoint": 57362,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-right",
+      "codepoint": 57363,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "caret-up",
+      "codepoint": 57364,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "cf-apps",
+      "codepoint": 57365,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chat",
+      "codepoint": 57366,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "checkmark",
+      "codepoint": 57367,
+      "overrides": {
+        "glyph": 57346
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "checkmark-outline",
+      "overrides": {
+        "outline": 57345
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "checkmark-solid",
+      "overrides": {
+        "filled": 57345
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "codepoint": 57368,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "codepoint": 57369,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "codepoint": 57370,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "chevron-up",
+      "codepoint": 57371,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "close",
+      "codepoint": 57372,
+      "overrides": {
+        "glyph": 57347
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "close-outline",
+      "overrides": {
+        "outline": 57346
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "close-solid",
+      "overrides": {
+        "filled": 57346
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "cloud-foundry",
+      "codepoint": 57373,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "code",
+      "codepoint": 57374,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "console",
+      "codepoint": 57375,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "containers",
+      "codepoint": 57376,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "copy",
+      "codepoint": 57377,
+      "overrides": {
+        "glyph": 57348
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "crash",
+      "codepoint": 57378,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dashboard",
+      "codepoint": 57379,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "data",
+      "codepoint": 57380,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "delete",
+      "codepoint": 57381,
+      "overrides": {
+        "glyph": 57349
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "devices",
+      "codepoint": 57382,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "devops",
+      "codepoint": 57383,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "document",
+      "codepoint": 57384,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "dollars",
+      "codepoint": 57385,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "download",
+      "codepoint": 57386,
+      "overrides": {
+        "glyph": 57350
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "draggable",
+      "codepoint": 57387,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "edit",
+      "codepoint": 57388,
+      "overrides": {
+        "glyph": 57351
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "email",
+      "codepoint": 57389,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "error",
+      "codepoint": 57390,
+      "overrides": {
+        "glyph": 57352
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "error-outline",
+      "overrides": {
+        "outline": 57347
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "error-solid",
+      "overrides": {
+        "filled": 57347
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "favorite",
+      "codepoint": 57391,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "favorite-outline",
+      "overrides": {
+        "outline": 57348
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "favorite-solid",
+      "overrides": {
+        "filled": 57348
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "filter",
+      "codepoint": 57392,
+      "overrides": {
+        "glyph": 57353
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "finance",
+      "codepoint": 57393,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "financial",
+      "codepoint": 57394,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "folder",
+      "codepoint": 57396,
+      "overrides": {
+        "glyph": 57354
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "folder-add",
+      "codepoint": 57395,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "forum",
+      "codepoint": 57397,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "functions",
+      "codepoint": 57398,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "grid",
+      "codepoint": 57399,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-avatar",
+      "codepoint": 57400,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-chevron",
+      "codepoint": 57401,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-close",
+      "codepoint": 57402,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-contact",
+      "codepoint": 57403,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-docs",
+      "codepoint": 57404,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-hamburger",
+      "codepoint": 57405,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-help",
+      "codepoint": 57406,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-notification",
+      "codepoint": 57407,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-search",
+      "codepoint": 57408,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-ticket",
+      "codepoint": 57409,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "header-user",
+      "codepoint": 57410,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "help",
+      "codepoint": 57411,
+      "overrides": {
+        "glyph": 57355
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "help-outline",
+      "overrides": {
+        "outline": 57349
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "help-solid",
+      "overrides": {
+        "filled": 57349
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "hpa",
+      "codepoint": 57413,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "hpa-stress",
+      "codepoint": 57412,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "info",
+      "codepoint": 57414,
+      "overrides": {
+        "glyph": 57356
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "info-outline",
+      "overrides": {
+        "outline": 57350
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "info-solid",
+      "overrides": {
+        "filled": 57350
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "infrastructure",
+      "codepoint": 57415,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "integration",
+      "codepoint": 57416,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "iot",
+      "codepoint": 57417,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "launch",
+      "codepoint": 57418,
+      "overrides": {
+        "glyph": 57357
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "light",
+      "codepoint": 57419,
+      "overrides": {
+        "glyph": 57358
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "link",
+      "codepoint": 57420,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "list",
+      "codepoint": 57421,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "locked",
+      "codepoint": 57422,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "maximize",
+      "codepoint": 57423,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "menu",
+      "codepoint": 57424,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "minimize",
+      "codepoint": 57425,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "mobile",
+      "codepoint": 57426,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "network",
+      "codepoint": 57427,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "new-tab",
+      "codepoint": 57428,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "notification-off",
+      "codepoint": 57429,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "notification-on",
+      "codepoint": 57430,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "open-whisk",
+      "codepoint": 57431,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "overflow-menu",
+      "codepoint": 57432,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pa",
+      "codepoint": 57434,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pa-stress",
+      "codepoint": 57433,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "pause",
+      "codepoint": 57435,
+      "overrides": {
+        "glyph": 57359
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "pause-outline",
+      "overrides": {
+        "outline": 57351
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "pause-solid",
+      "overrides": {
+        "filled": 57351
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "play",
+      "codepoint": 57436,
+      "overrides": {
+        "glyph": 57360
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "play-outline",
+      "overrides": {
+        "outline": 57352
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "play-solid",
+      "overrides": {
+        "filled": 57352
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "portfolio",
+      "codepoint": 57437,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "power",
+      "codepoint": 57438,
+      "overrides": {
+        "glyph": 57361
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "predictive",
+      "codepoint": 57439,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "purchase",
+      "codepoint": 57440,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "restart",
+      "codepoint": 57441,
+      "overrides": {
+        "glyph": 57362
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "save",
+      "codepoint": 57442,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "schematics",
+      "codepoint": 57443,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "search",
+      "codepoint": 57444,
+      "overrides": {
+        "glyph": 57363
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "security",
+      "codepoint": 57445,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "services",
+      "codepoint": 57446,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "settings",
+      "codepoint": 57447,
+      "overrides": {
+        "glyph": 57364
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "star-outline",
+      "overrides": {
+        "outline": 57353
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "star-solid",
+      "overrides": {
+        "filled": 57353
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "start",
+      "codepoint": 57448,
+      "overrides": {
+        "glyph": 57365
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "start-outline",
+      "overrides": {
+        "outline": 57354
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "stop",
+      "codepoint": 57449,
+      "overrides": {
+        "glyph": 57366
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "stop-outline",
+      "overrides": {
+        "outline": 57355
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "stop-solid",
+      "overrides": {
+        "filled": 57354
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "storage",
+      "codepoint": 57450,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "subtract",
+      "overrides": {
+        "glyph": 57367
+      },
+      "availability": [
+        "glyph"
+      ]
+    },
+    {
+      "name": "subtract-outline",
+      "overrides": {
+        "outline": 57356
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "subtract-solid",
+      "overrides": {
+        "filled": 57355
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "terminal",
+      "codepoint": 57451,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "unlock",
+      "codepoint": 57452,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "unlocked",
+      "codepoint": 57453,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "upload",
+      "codepoint": 57454,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "user",
+      "codepoint": 57455,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "visibility-off",
+      "codepoint": 57456,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "visibility-on",
+      "codepoint": 57457,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "warning",
+      "codepoint": 57458,
+      "overrides": {
+        "glyph": 57368
+      },
+      "availability": [
+        "regular",
+        "glyph"
+      ]
+    },
+    {
+      "name": "warning-outline",
+      "overrides": {
+        "outline": 57357
+      },
+      "availability": [
+        "outline"
+      ]
+    },
+    {
+      "name": "warning-solid",
+      "overrides": {
+        "filled": 57356
+      },
+      "availability": [
+        "filled"
+      ]
+    },
+    {
+      "name": "watson",
+      "codepoint": 57459,
+      "availability": [
+        "regular"
+      ]
+    },
+    {
+      "name": "whisk",
+      "codepoint": 57460,
+      "availability": [
+        "regular"
+      ]
+    }
+  ]
+}
