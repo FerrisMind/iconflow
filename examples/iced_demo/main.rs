@@ -1,6 +1,6 @@
 use iced::widget::{column, container, row, text};
-use iced::{font, Element, Length, Task, Theme};
-use iconflow::{list, try_icon, IconError, Pack, Size, Style};
+use iced::{Element, Length, Task, Theme, font};
+use iconflow::{IconError, Pack, Size, Style, list, try_icon};
 
 fn main() -> iced::Result {
     iced::application(IconDemo::new, IconDemo::update, IconDemo::view)
@@ -23,9 +23,9 @@ enum Message {
 impl IconDemo {
     fn new() -> (Self, Task<Message>) {
         let fonts_total = iconflow::fonts().len();
-        let tasks = iconflow::fonts().iter().map(|font| {
-            font::load(font.bytes).map(Message::FontLoaded)
-        });
+        let tasks = iconflow::fonts()
+            .iter()
+            .map(|font| font::load(font.bytes).map(Message::FontLoaded));
 
         (
             Self {

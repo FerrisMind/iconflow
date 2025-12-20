@@ -1,5 +1,5 @@
 use eframe::egui::{self, FontData, FontDefinitions, FontFamily, FontId, RichText};
-use iconflow::{fonts, list, try_icon, IconError, Pack, Size, Style};
+use iconflow::{IconError, Pack, Size, Style, fonts, list, try_icon};
 
 fn main() -> eframe::Result<()> {
     let options = eframe::NativeOptions::default();
@@ -85,9 +85,7 @@ impl eframe::App for IconDemo {
                                         FontFamily::Name(sample.icon.family.into()),
                                     );
                                     ui.vertical_centered(|ui| {
-                                        ui.label(
-                                            RichText::new(glyph.to_string()).font(font_id),
-                                        );
+                                        ui.label(RichText::new(glyph.to_string()).font(font_id));
                                         ui.label(sample.label);
                                     });
                                 }

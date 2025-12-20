@@ -45,8 +45,7 @@ mod tests_bootstrap {
 
     #[test]
     fn try_icon_reports_unavailable_variant() {
-        let err =
-            try_icon(Pack::Bootstrap, "123", Style::Filled, Size::Regular).unwrap_err();
+        let err = try_icon(Pack::Bootstrap, "123", Style::Filled, Size::Regular).unwrap_err();
         match err {
             IconError::VariantUnavailable {
                 pack,
@@ -79,8 +78,13 @@ mod tests_heroicons {
 
     #[test]
     fn try_icon_resolves_filled_variant() {
-        let icon =
-            try_icon(Pack::Heroicons, "academic-cap", Style::Filled, Size::Regular).unwrap();
+        let icon = try_icon(
+            Pack::Heroicons,
+            "academic-cap",
+            Style::Filled,
+            Size::Regular,
+        )
+        .unwrap();
         assert_eq!(icon.family, "Heroicons Filled");
     }
 

@@ -84,7 +84,10 @@ impl<'de> Deserialize<'de> for Size {
                     "Mini" => Ok(Size::Mini),
                     "Regular" => Ok(Size::Regular),
                     "Large" => Ok(Size::Large),
-                    _ => Err(E::unknown_variant(value, &["Tiny", "Mini", "Regular", "Large"])),
+                    _ => Err(E::unknown_variant(
+                        value,
+                        &["Tiny", "Mini", "Regular", "Large"],
+                    )),
                 }
             }
 
@@ -504,10 +507,7 @@ fn collect_font_assets(pack: &NormalizedPack) -> Result<FontAssetCollection> {
     let mut asset_const_by_path = BTreeMap::new();
     for (path, family) in asset_families {
         let const_ident = font_asset_const_ident_from_path(&pack.pack_id, &path)?;
-        let feature_set = asset_feature_sets
-            .get(&path)
-            .cloned()
-            .unwrap_or_default();
+        let feature_set = asset_feature_sets.get(&path).cloned().unwrap_or_default();
         let feature = if feature_set.len() == 1 {
             feature_set.into_iter().next().unwrap_or(None)
         } else {
@@ -550,7 +550,10 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
     for pack in packs {
         let pack_id = &pack.pack_id;
         let ident = pack_enum_ident(pack_id)?;
-        push_line(&mut out, &format!("    #[cfg(feature = \"pack-{pack_id}\")]"));
+        push_line(
+            &mut out,
+            &format!("    #[cfg(feature = \"pack-{pack_id}\")]"),
+        );
         push_line(&mut out, &format!("    {ident},"));
     }
     push_line(&mut out, "}");
@@ -566,7 +569,10 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
                 &mut out,
                 &cfg_pack_feature_line(pack_id, asset.feature.as_deref(), 8),
             );
-            push_line(&mut out, &format!("        {pack_id}::{},", asset.const_ident));
+            push_line(
+                &mut out,
+                &format!("        {pack_id}::{},", asset.const_ident),
+            );
         }
     }
     push_line(&mut out, "    ]");
@@ -580,7 +586,10 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
     let any_packs_cfg = pack_feature_list.join(", ");
 
     push_line(&mut out, &format!("#[cfg(any({any_packs_cfg}))]"));
-    push_line(&mut out, "pub fn list(pack: Pack) -> &'static [&'static str] {");
+    push_line(
+        &mut out,
+        "pub fn list(pack: Pack) -> &'static [&'static str] {",
+    );
     push_line(&mut out, "    match pack {");
     for pack in packs {
         let pack_id = &pack.pack_id;
@@ -599,7 +608,10 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
     push_line(&mut out, "");
 
     push_line(&mut out, &format!("#[cfg(not(any({any_packs_cfg})))]"));
-    push_line(&mut out, "pub fn list(_pack: Pack) -> &'static [&'static str] {");
+    push_line(
+        &mut out,
+        "pub fn list(_pack: Pack) -> &'static [&'static str] {",
+    );
     push_line(&mut out, "    &[]");
     push_line(&mut out, "}");
     push_line(&mut out, "");
@@ -632,7 +644,9 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
         );
         push_line(
             &mut out,
-            &format!("            {pack_id}::icon_codepoint(name, crate::core::VariantKey {{ style, size }}),"),
+            &format!(
+                "            {pack_id}::icon_codepoint(name, crate::core::VariantKey {{ style, size }}),"
+            ),
         );
         push_line(&mut out, "        ),");
     }
@@ -645,7 +659,10 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
         &mut out,
         "pub fn try_icon(_pack: Pack, _name: &str, _style: Style, _size: Size) -> Result<IconRef, IconError> {",
     );
-    push_line(&mut out, "    Err(IconError::PackDisabled { pack: \"none\" })");
+    push_line(
+        &mut out,
+        "    Err(IconError::PackDisabled { pack: \"none\" })",
+    );
     push_line(&mut out, "}");
     push_line(&mut out, "");
 
@@ -697,8 +714,7 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     );
     push_line(&mut out, "");
 
-    let (assets, asset_const_by_path, variant_feature_by_key) =
-        collect_font_assets(pack)?;
+    let (assets, asset_const_by_path, variant_feature_by_key) = collect_font_assets(pack)?;
 
     for asset in &assets {
         if let Some(feature) = &asset.feature {
@@ -737,11 +753,7 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
             .ok_or_else(|| anyhow::anyhow!("Missing asset const for {}", variant.ttf_asset_path))?;
         push_line(
             &mut out,
-            &format!(
-                "    ({}, {}),",
-                variant_key_expr(variant.key),
-                const_ident
-            ),
+            &format!("    ({}, {}),", variant_key_expr(variant.key), const_ident),
         );
     }
     push_line(&mut out, "];");
@@ -774,11 +786,11 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
         &mut out,
         "    pub fn icon(self, style: Style, size: Size) -> IconRef {",
     );
+    push_line(&mut out, "        let name = self.name();");
     push_line(
         &mut out,
-        "        let name = self.name();",
+        "        let available = icon_available(name).unwrap_or(&[]);",
     );
-    push_line(&mut out, "        let available = icon_available(name).unwrap_or(&[]);");
     push_line(&mut out, "        if !available.contains(&(style, size)) {");
     push_line(
         &mut out,
@@ -872,7 +884,11 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
             }
             push_line(
                 &mut out,
-                &format!("    (Style::{}, {}),", key.style.as_rust(), key.size.rust_expr()),
+                &format!(
+                    "    (Style::{}, {}),",
+                    key.style.as_rust(),
+                    key.size.rust_expr()
+                ),
             );
         }
         push_line(&mut out, "];");
@@ -975,7 +991,11 @@ fn variant_key_expr(key: VariantKey) -> String {
 }
 
 fn cfg_attr_line(feature: &str, indent: usize) -> String {
-    format!("{:indent$}#[cfg(feature = \"{feature}\")]", "", indent = indent)
+    format!(
+        "{:indent$}#[cfg(feature = \"{feature}\")]",
+        "",
+        indent = indent
+    )
 }
 
 fn cfg_pack_feature_line(pack_id: &str, feature: Option<&str>, indent: usize) -> String {

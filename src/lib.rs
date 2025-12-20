@@ -4,5 +4,5 @@ pub mod core;
 pub mod generated;
 pub mod packs;
 
-pub use crate::core::{fonts, list, try_icon, FontAsset, IconError, IconRef, Size, Style};
+pub use crate::core::{FontAsset, IconError, IconRef, Size, Style, fonts, list, try_icon};
 pub use crate::generated::Pack;
