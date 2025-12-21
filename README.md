@@ -30,6 +30,8 @@ See `docs/quickstart.md` for a fast end-to-end setup guide and API overview.
 
 ## egui quickstart
 
+![egui_demo](https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/egui_demo/egui_demo.png)
+
 Register every `FontAsset` in `egui::FontDefinitions`, then render `IconRef.codepoint` with
 `FontFamily::Name(icon.family)`:
 
@@ -80,6 +82,8 @@ fn icon_label(ui: &mut egui::Ui) {
 Runnable example: `cargo run --example egui_demo --features all-packs`
 
 ## iced 0.14 quickstart
+
+![iced_demo](https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/iced_demo/iced_demo.png)
 
 In iced 0.14, fonts are loaded asynchronously via `Task`. Load the bytes from `fonts()` and
 render a glyph with `Font::with_name` once loading completes.

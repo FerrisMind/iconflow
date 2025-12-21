@@ -41,7 +41,9 @@ impl IconDemo {
 impl eframe::App for IconDemo {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         egui::CentralPanel::default().show(ctx, |ui| {
+            // Заголовок вверху слева
             ui.heading("iconflow egui demo");
+            ui.add_space(20.0);
 
             let packs = [
                 Pack::Bootstrap,
@@ -70,7 +72,23 @@ impl eframe::App for IconDemo {
             }
 
             const COLUMNS: usize = 4;
-            ui.vertical_centered(|ui| {
+            let available_rect = ui.available_rect_before_wrap();
+            let available_width = available_rect.width();
+            let grid_width = (COLUMNS as f32 * 150.0).min(available_width * 0.8);
+            
+            // Оцениваем высоту сетки
+            let rows = (items.len() + COLUMNS - 1) / COLUMNS;
+            let grid_height = rows as f32 * 80.0; // Примерная высота строки
+            
+            // Центрируем сетку по горизонтали
+            let grid_center_x = available_rect.center().x;
+            let grid_top = ui.cursor().top() + 10.0;
+            let grid_rect = egui::Rect::from_min_size(
+                egui::Pos2::new(grid_center_x - grid_width / 2.0, grid_top),
+                egui::Vec2::new(grid_width, grid_height),
+            );
+            
+            ui.allocate_ui_at_rect(grid_rect, |ui| {
                 egui::Grid::new("icon_grid")
                     .num_columns(COLUMNS)
                     .spacing([24.0, 16.0])
@@ -99,6 +117,12 @@ impl eframe::App for IconDemo {
                             }
                         }
                     });
+            });
+
+            // Текст о количестве шрифтов внизу
+            ui.with_layout(egui::Layout::bottom_up(egui::Align::Min), |ui| {
+                let fonts_count = fonts().len();
+                ui.label(format!("Fonts loaded: {fonts_count}/{fonts_count}"));
             });
         });
     }
