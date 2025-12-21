@@ -4,6 +4,15 @@
   <img src="https://raw.githubusercontent.com/FerrisMind/iconflow/main/assets/icons/iconflow-color.png" alt="iconflow" width="200" />
 </p>
 
+<p align="center">
+  <a href="https://crates.io/crates/iconflow">
+    <img src="https://img.shields.io/crates/v/iconflow.svg" alt="crates.io version" />
+  </a>
+  <a href="https://github.com/FerrisMind/iconflow/blob/main/LICENSE">
+    <img src="https://img.shields.io/crates/l/iconflow.svg" alt="license" />
+  </a>
+</p>
+
 ## Install
 
 Enable at least one pack feature so the fonts and icon data are included.
