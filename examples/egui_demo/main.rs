@@ -19,9 +19,10 @@ impl IconDemo {
         let fallback_fonts: Vec<String> = definitions.font_data.keys().cloned().collect();
 
         for font in fonts() {
-            definitions
-                .font_data
-                .insert(font.family.to_string(), Arc::new(FontData::from_static(font.bytes)));
+            definitions.font_data.insert(
+                font.family.to_string(),
+                Arc::new(FontData::from_static(font.bytes)),
+            );
             let family = definitions
                 .families
                 .entry(FontFamily::Name(font.family.into()))
@@ -76,21 +77,21 @@ impl eframe::App for IconDemo {
             let available_rect = ui.available_rect_before_wrap();
             let available_width = available_rect.width();
             let grid_width = (COLUMNS as f32 * 150.0).min(available_width * 0.8);
-            
+
             // Вычисляем отступы для центрирования
             let horizontal_padding = (available_width - grid_width) / 2.0;
-            
+
             ui.add_space(10.0);
             ui.horizontal(|ui| {
                 // Добавляем отступ слева для центрирования
                 ui.add_space(horizontal_padding);
-                
+
                 // Ограничиваем ширину Grid через max_rect
                 let grid_rect = egui::Rect::from_min_size(
                     ui.cursor().min,
                     egui::Vec2::new(grid_width, f32::INFINITY),
                 );
-                
+
                 ui.scope_builder(
                     egui::UiBuilder::new()
                         .max_rect(grid_rect)
@@ -103,14 +104,16 @@ impl eframe::App for IconDemo {
                                 for (index, item) in items.into_iter().enumerate() {
                                     match item {
                                         Ok(sample) => {
-                                            let glyph =
-                                                char::from_u32(sample.icon.codepoint).unwrap_or('?');
+                                            let glyph = char::from_u32(sample.icon.codepoint)
+                                                .unwrap_or('?');
                                             let font_id = FontId::new(
                                                 32.0,
                                                 FontFamily::Name(sample.icon.family.into()),
                                             );
                                             ui.vertical_centered(|ui| {
-                                                ui.label(RichText::new(glyph.to_string()).font(font_id));
+                                                ui.label(
+                                                    RichText::new(glyph.to_string()).font(font_id),
+                                                );
                                                 ui.label(sample.label);
                                             });
                                         }
