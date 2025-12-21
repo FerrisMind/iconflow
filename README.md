@@ -176,4 +176,8 @@ All icon fonts are converted from their original SVG sources and embedded as TTF
 
 ## License
 
-MIT
+This project is licensed under MIT License.
+
+Third-party dependencies and fonts have their own licenses. See:
+- [THIRD_PARTY_LICENSES_CRATES.html](https://raw.githubusercontent.com/FerrisMind/iconflow/main/THIRD_PARTY_LICENSES_CRATES.html) for Rust crate licenses
+- [THIRD_PARTY_LICENSES_FONTS.md](https://raw.githubusercontent.com/FerrisMind/iconflow/main/THIRD_PARTY_LICENSES_FONTS.md) for font licenses

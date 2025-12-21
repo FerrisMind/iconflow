@@ -25,6 +25,7 @@ include = [
     "/README.md",
     "/Cargo.toml",
     "/rust-toolchain.toml",
+    "/THIRD_PARTY_LICENSES_FONTS.md",
 ]
 
 [dependencies]

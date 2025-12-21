@@ -1,16 +1,10 @@
-# Third-Party Licenses
+===============================================================================
 
-This file contains the licenses for all third-party icon fonts used in iconflow.
+Font: Bootstrap Icons
+Designer: Bootstrap team
+Copyright: Copyright (c) 2019-2024 The Bootstrap Authors
+License: MIT
 
----
-
-## Bootstrap Icons
-
-**Source:** https://github.com/twbs/icons
-
-**License:** MIT
-
-```
 The MIT License (MIT)
 
 Copyright (c) 2019-2024 The Bootstrap Authors
@@ -32,17 +26,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-```
 
----
+===============================================================================
 
-## Carbon Icons
+Font: Carbon Icons
+Designer: IBM Carbon Design System
+Copyright: Copyright (c) IBM Corporation
+License: Apache-2.0
 
-**Source:** https://github.com/carbon-design-system/carbon-icons
-
-**License:** Apache-2.0
-
-```
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -219,17 +210,14 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     of your accepting any such warranty or additional liability.
 
 END OF TERMS AND CONDITIONS
-```
 
----
+===============================================================================
 
-## Devicon
+Font: Devicon
+Designer: Devicon contributors
+Copyright: Copyright (c) 2015 konpa
+License: MIT
 
-**Source:** https://github.com/devicons/devicon
-
-**License:** MIT
-
-```
 The MIT License (MIT)
 
 Copyright (c) 2015 konpa
@@ -250,17 +238,14 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
 
----
+===============================================================================
 
-## Feather Icons
+Font: Feather Icons
+Designer: Cole Bemis
+Copyright: Copyright (c) 2013-2023 Cole Bemis
+License: MIT
 
-**Source:** https://github.com/feathericons/feather
-
-**License:** MIT
-
-```
 The MIT License (MIT)
 
 Copyright (c) 2013-2023 Cole Bemis
@@ -282,17 +267,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Fluent UI System Icons
+Font: Fluent UI System Icons
+Designer: Microsoft Corporation
+Copyright: Copyright (c) 2020 Microsoft Corporation
+License: MIT
 
-**Source:** https://github.com/microsoft/fluentui-system-icons
-
-**License:** MIT
-
-```
 MIT License
 
 Copyright (c) 2020 Microsoft Corporation
@@ -314,17 +296,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Heroicons
+Font: Heroicons
+Designer: Tailwind Labs
+Copyright: Copyright (c) Tailwind Labs, Inc.
+License: MIT
 
-**Source:** https://github.com/tailwindlabs/heroicons
-
-**License:** MIT
-
-```
 MIT License
 
 Copyright (c) Tailwind Labs, Inc.
@@ -346,17 +325,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Iconoir
+Font: Iconoir
+Designer: Luca Burgio
+Copyright: Copyright (c) 2021 Luca Burgio
+License: MIT
 
-**Source:** https://github.com/iconoir-icons/iconoir
-
-**License:** MIT
-
-```
 MIT License
 
 Copyright (c) 2021 Luca Burgio
@@ -378,17 +354,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Ionicons
+Font: Ionicons
+Designer: Ionic team
+Copyright: Copyright (c) 2015-present Ionic (http://ionic.io/)
+License: MIT
 
-**Source:** https://github.com/ionic-team/ionicons
-
-**License:** MIT
-
-```
 The MIT License (MIT)
 
 Copyright (c) 2015-present Ionic (http://ionic.io/)
@@ -410,17 +383,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Lobe Icons
+Font: Lobe Icons
+Designer: LobeHub
+Copyright: Copyright (c) 2023 LobeHub
+License: MIT
 
-**Source:** https://github.com/lobehub/lobe-icons
-
-**License:** MIT
-
-```
 MIT License
 
 Copyright (c) 2023 LobeHub
@@ -442,17 +412,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Lucide
+Font: Lucide
+Designer: Lucide contributors
+Copyright: Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2023 as part of Feather (MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2025.
+License: ISC (with portions under MIT from Feather)
 
-**Source:** https://github.com/lucide-icons/lucide
-
-**License:** ISC (with portions under MIT from Feather)
-
-```
 ISC License
 
 Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2023 as part of Feather (MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2025.
@@ -492,17 +459,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Octicons
+Font: Octicons
+Designer: GitHub (Primer)
+Copyright: Copyright (c) 2025 GitHub Inc.
+License: MIT
 
-**Source:** https://github.com/primer/octicons
-
-**License:** MIT
-
-```
 MIT License
 
 Copyright (c) 2025 GitHub Inc.
@@ -524,17 +488,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Phosphor Icons
+Font: Phosphor Icons
+Designer: Phosphor Icons team
+Copyright: Copyright (c) 2020-2021 Phosphor Icons
+License: MIT
 
-**Source:** https://github.com/phosphor-icons/web
-
-**License:** MIT
-
-```
 MIT License
 
 Copyright (c) 2020-2021 Phosphor Icons
@@ -556,17 +517,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
+===============================================================================
 
-## Remix Icon
+Font: Remix Icon
+Designer: Remix Design
+Copyright: Copyright (c) Remix Design
+License: Apache-2.0
 
-**Source:** https://github.com/Remix-Design/remixicon
-
-**License:** Apache-2.0
-
-```
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -743,17 +701,14 @@ SOFTWARE.
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS
-```
 
----
+===============================================================================
 
-## Tabler Icons
+Font: Tabler Icons
+Designer: Paweł Kuna
+Copyright: Copyright (c) 2020-2025 Paweł Kuna
+License: MIT
 
-**Source:** https://github.com/tabler/tabler-icons
-
-**License:** MIT
-
-```
 MIT License
 
 Copyright (c) 2020-2025 Paweł Kuna
@@ -775,19 +730,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
----
-
-## Summary
-
-This project uses icon fonts from 14 open-source icon packs:
-
-- **12 packs** licensed under **MIT License**
-- **2 packs** licensed under **Apache License 2.0** (Carbon Icons, Remix Icon)
-- **1 pack** licensed under **ISC License** (Lucide, with portions under MIT from Feather)
-
-All icon fonts are converted from their original SVG sources and embedded as TTF files in this project. The fonts are included in the crate binary when corresponding feature flags are enabled.
-
-All licenses are permissive and allow commercial use, modification, and distribution.
-
+===============================================================================
