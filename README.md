@@ -30,13 +30,15 @@ See `docs/quickstart.md` for a fast end-to-end setup guide and API overview.
 
 ## egui quickstart
 
-![egui_demo](https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/egui_demo/egui_demo.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/egui_demo/egui_demo.png" alt="egui_demo" width="900" />
+</p>
 
 Register every `FontAsset` in `egui::FontDefinitions`, then render `IconRef.codepoint` with
 `FontFamily::Name(icon.family)`:
 
 ```rust
-use egui::{FontData, FontDefinitions, FontFamily, FontId, RichText};
+use eframe::egui::{self, FontData, FontDefinitions, FontFamily, FontId, RichText};
 use iconflow::{fonts, try_icon, Pack, Size, Style};
 
 fn install_icon_fonts(ctx: &egui::Context) {
@@ -83,7 +85,9 @@ Runnable example: `cargo run --example egui_demo --features all-packs`
 
 ## iced 0.14 quickstart
 
-![iced_demo](https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/iced_demo/iced_demo.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/iced_demo/iced_demo.png" alt="iced_demo" width="900" />
+</p>
 
 In iced 0.14, fonts are loaded asynchronously via `Task`. Load the bytes from `fonts()` and
 render a glyph with `Font::with_name` once loading completes.
