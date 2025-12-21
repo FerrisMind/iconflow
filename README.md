@@ -121,7 +121,7 @@ Example READMEs: `examples/egui_demo/README.md`, `examples/iced_demo/README.md`.
 
 ## FAQ
 
-See `docs/faq.md`.
+See [docs/faq.md](https://raw.githubusercontent.com/FerrisMind/iconflow/main/docs/faq.md).
 
 ## Development
 
