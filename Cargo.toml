@@ -1,13 +1,36 @@
 [package]
 name = "iconflow"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2024"
 rust-version = "1.92"
+description = "A unified icon library for Rust GUI applications supporting multiple icon packs"
+license = "MIT"
+repository = "https://github.com/FerrisMind/iconflow"
+authors = ["FerrisMind"]
+readme = "README.md"
+keywords = ["icons", "gui", "egui", "iced", "fonts"]
+categories = ["gui", "graphics", "rendering"]
+homepage = "https://github.com/FerrisMind/iconflow"
+documentation = "https://docs.rs/iconflow"
+
+include = [
+    "/src/**/*",
+    "/assets/fonts/**/*.ttf",
+    "/assets/maps/*.json",
+    "/assets/schema/*.json",
+    "/assets/icons/*.png",
+    "/assets/icons/*.svg",
+    "/ASSETS_MANIFEST.json",
+    "/LICENSE",
+    "/README.md",
+    "/Cargo.toml",
+    "/rust-toolchain.toml",
+]
 
 [dependencies]
 
 [dev-dependencies]
-eframe = "0.27"
+eframe = "0.33"
 iced = { version = "0.14", features = ["advanced"] }
 
 [features]

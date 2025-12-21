@@ -1,12 +1,13 @@
 use eframe::egui::{self, FontData, FontDefinitions, FontFamily, FontId, RichText};
 use iconflow::{IconError, Pack, Size, Style, fonts, list, try_icon};
+use std::sync::Arc;
 
 fn main() -> eframe::Result<()> {
     let options = eframe::NativeOptions::default();
     eframe::run_native(
         "iconflow egui demo",
         options,
-        Box::new(|cc| Box::new(IconDemo::new(cc))),
+        Box::new(|cc| Ok(Box::new(IconDemo::new(cc)))),
     )
 }
 
@@ -20,7 +21,7 @@ impl IconDemo {
         for font in fonts() {
             definitions
                 .font_data
-                .insert(font.family.to_string(), FontData::from_static(font.bytes));
+                .insert(font.family.to_string(), Arc::new(FontData::from_static(font.bytes)));
             let family = definitions
                 .families
                 .entry(FontFamily::Name(font.family.into()))
@@ -76,47 +77,55 @@ impl eframe::App for IconDemo {
             let available_width = available_rect.width();
             let grid_width = (COLUMNS as f32 * 150.0).min(available_width * 0.8);
             
-            // Оцениваем высоту сетки
-            let rows = (items.len() + COLUMNS - 1) / COLUMNS;
-            let grid_height = rows as f32 * 80.0; // Примерная высота строки
+            // Вычисляем отступы для центрирования
+            let horizontal_padding = (available_width - grid_width) / 2.0;
             
-            // Центрируем сетку по горизонтали
-            let grid_center_x = available_rect.center().x;
-            let grid_top = ui.cursor().top() + 10.0;
-            let grid_rect = egui::Rect::from_min_size(
-                egui::Pos2::new(grid_center_x - grid_width / 2.0, grid_top),
-                egui::Vec2::new(grid_width, grid_height),
-            );
-            
-            ui.allocate_ui_at_rect(grid_rect, |ui| {
-                egui::Grid::new("icon_grid")
-                    .num_columns(COLUMNS)
-                    .spacing([24.0, 16.0])
-                    .show(ui, |ui| {
-                        for (index, item) in items.into_iter().enumerate() {
-                            match item {
-                                Ok(sample) => {
-                                    let glyph =
-                                        char::from_u32(sample.icon.codepoint).unwrap_or('?');
-                                    let font_id = FontId::new(
-                                        32.0,
-                                        FontFamily::Name(sample.icon.family.into()),
-                                    );
-                                    ui.vertical_centered(|ui| {
-                                        ui.label(RichText::new(glyph.to_string()).font(font_id));
-                                        ui.label(sample.label);
-                                    });
-                                }
-                                Err(message) => {
-                                    ui.label(message);
-                                }
-                            }
+            ui.add_space(10.0);
+            ui.horizontal(|ui| {
+                // Добавляем отступ слева для центрирования
+                ui.add_space(horizontal_padding);
+                
+                // Ограничиваем ширину Grid через max_rect
+                let grid_rect = egui::Rect::from_min_size(
+                    ui.cursor().min,
+                    egui::Vec2::new(grid_width, f32::INFINITY),
+                );
+                
+                ui.scope_builder(
+                    egui::UiBuilder::new()
+                        .max_rect(grid_rect)
+                        .layout(egui::Layout::top_down(egui::Align::Min)),
+                    |ui| {
+                        egui::Grid::new("icon_grid")
+                            .num_columns(COLUMNS)
+                            .spacing([24.0, 16.0])
+                            .show(ui, |ui| {
+                                for (index, item) in items.into_iter().enumerate() {
+                                    match item {
+                                        Ok(sample) => {
+                                            let glyph =
+                                                char::from_u32(sample.icon.codepoint).unwrap_or('?');
+                                            let font_id = FontId::new(
+                                                32.0,
+                                                FontFamily::Name(sample.icon.family.into()),
+                                            );
+                                            ui.vertical_centered(|ui| {
+                                                ui.label(RichText::new(glyph.to_string()).font(font_id));
+                                                ui.label(sample.label);
+                                            });
+                                        }
+                                        Err(message) => {
+                                            ui.label(message);
+                                        }
+                                    }
 
-                            if (index + 1) % COLUMNS == 0 {
-                                ui.end_row();
-                            }
-                        }
-                    });
+                                    if (index + 1) % COLUMNS == 0 {
+                                        ui.end_row();
+                                    }
+                                }
+                            });
+                    },
+                );
             });
 
             // Текст о количестве шрифтов внизу

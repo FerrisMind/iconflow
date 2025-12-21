@@ -1,13 +1,8 @@
 # iconflow
 
-<table>
-<tr>
-<td width="200" valign="top">
-
-![iconflow](https://raw.githubusercontent.com/FerrisMind/iconflow/main/assets/icons/iconflow-color.png)
-
-</td>
-<td valign="top">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FerrisMind/iconflow/main/assets/icons/iconflow-color.png" alt="iconflow" width="200" />
+</p>
 
 ## Install
 
@@ -15,7 +10,7 @@ Enable at least one pack feature so the fonts and icon data are included.
 
 ```toml
 [dependencies]
-iconflow = { version = "0.1", features = ["all-packs"] }
+iconflow = { version = "1.0", features = ["all-packs"] }
 ```
 
 ## Quickstart guide
@@ -40,6 +35,7 @@ Register every `FontAsset` in `egui::FontDefinitions`, then render `IconRef.code
 ```rust
 use eframe::egui::{self, FontData, FontDefinitions, FontFamily, FontId, RichText};
 use iconflow::{fonts, try_icon, Pack, Size, Style};
+use std::sync::Arc;
 
 fn install_icon_fonts(ctx: &egui::Context) {
     let mut definitions = FontDefinitions::default();
@@ -48,7 +44,7 @@ fn install_icon_fonts(ctx: &egui::Context) {
     for font in fonts() {
         definitions
             .font_data
-            .insert(font.family.to_string(), FontData::from_static(font.bytes));
+            .insert(font.family.to_string(), Arc::new(FontData::from_static(font.bytes)));
         let family = definitions
             .families
             .entry(FontFamily::Name(font.family.into()))
@@ -131,6 +127,6 @@ See `docs/faq.md`.
 - `cargo xtask gen` regenerates `src/generated/**` from `assets/maps/*.json`.
 - `cargo xtask gen --check` verifies generated output without writing files.
 
-</td>
-</tr>
-</table>
+## License
+
+MIT
