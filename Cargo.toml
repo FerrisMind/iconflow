@@ -3,13 +3,13 @@ name = "iconflow"
 version = "1.0.0"
 edition = "2024"
 rust-version = "1.92"
-description = "A unified icon library for Rust GUI applications supporting multiple icon packs"
+description = "Unified icon library for Rust GUI apps with 10+ embedded icon packs (Bootstrap, Heroicons, Phosphor, Lucide, Tabler). Type-safe API for egui, iced and more"
 license = "MIT"
 repository = "https://github.com/FerrisMind/iconflow"
 authors = ["FerrisMind"]
 readme = "README.md"
 keywords = ["icons", "gui", "egui", "iced", "fonts"]
-categories = ["gui", "graphics", "rendering"]
+categories = ["gui", "graphics", "rendering", "visualization", "embedded"]
 homepage = "https://github.com/FerrisMind/iconflow"
 documentation = "https://docs.rs/iconflow"
 
