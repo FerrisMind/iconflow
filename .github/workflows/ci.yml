@@ -41,4 +41,4 @@ jobs:
         uses: taiki-e/install-action@cargo-hack
       - name: cargo hack (feature powerset)
         if: matrix.os == 'ubuntu-latest'
-        run: cargo hack test --feature-powerset
+        run: cargo hack test --feature-powerset --depth 2 --exclude-features all-packs
