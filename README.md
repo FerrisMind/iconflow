@@ -42,9 +42,10 @@ fn install_icon_fonts(ctx: &egui::Context) {
     let fallback_fonts: Vec<String> = definitions.font_data.keys().cloned().collect();
 
     for font in fonts() {
-        definitions
-            .font_data
-            .insert(font.family.to_string(), Arc::new(FontData::from_static(font.bytes)));
+        definitions.font_data.insert(
+            font.family.to_string(),
+            Arc::new(FontData::from_static(font.bytes)),
+        );
         let family = definitions
             .families
             .entry(FontFamily::Name(font.family.into()))
@@ -126,6 +127,52 @@ See `docs/faq.md`.
 
 - `cargo xtask gen` regenerates `src/generated/**` from `assets/maps/*.json`.
 - `cargo xtask gen --check` verifies generated output without writing files.
+
+## Icon Fonts and Licenses
+
+iconflow includes icon fonts from 14 open-source icon packs. All fonts are distributed under permissive licenses (MIT, Apache-2.0, or ISC).
+
+### Included Icon Packs
+
+| Icon Pack | License | Source |
+|-----------|---------|--------|
+| [Bootstrap Icons](https://github.com/twbs/icons) | MIT | [twbs/icons](https://github.com/twbs/icons) |
+| [Carbon Icons](https://github.com/carbon-design-system/carbon-icons) | Apache-2.0 | [carbon-design-system/carbon-icons](https://github.com/carbon-design-system/carbon-icons) |
+| [Devicon](https://github.com/devicons/devicon) | MIT | [devicons/devicon](https://github.com/devicons/devicon) |
+| [Feather Icons](https://github.com/feathericons/feather) | MIT | [feathericons/feather](https://github.com/feathericons/feather) |
+| [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) | MIT | [microsoft/fluentui-system-icons](https://github.com/microsoft/fluentui-system-icons) |
+| [Heroicons](https://github.com/tailwindlabs/heroicons) | MIT | [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) |
+| [Iconoir](https://github.com/iconoir-icons/iconoir) | MIT | [iconoir-icons/iconoir](https://github.com/iconoir-icons/iconoir) |
+| [Ionicons](https://github.com/ionic-team/ionicons) | MIT | [ionic-team/ionicons](https://github.com/ionic-team/ionicons) |
+| [Lobe Icons](https://github.com/lobehub/lobe-icons) | MIT | [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) |
+| [Lucide](https://github.com/lucide-icons/lucide) | ISC | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) |
+| [Octicons](https://github.com/primer/octicons) | MIT | [primer/octicons](https://github.com/primer/octicons) |
+| [Phosphor Icons](https://github.com/phosphor-icons/web) | MIT | [phosphor-icons/web](https://github.com/phosphor-icons/web) |
+| [Remix Icon](https://github.com/Remix-Design/remixicon) | Apache-2.0 | [Remix-Design/remixicon](https://github.com/Remix-Design/remixicon) |
+| [Tabler Icons](https://github.com/tabler/tabler-icons) | MIT | [tabler/tabler-icons](https://github.com/tabler/tabler-icons) |
+
+**Total:** 34 TTF font files across 14 icon packs.
+
+### Acknowledgments
+
+iconflow is built on top of these excellent open-source icon libraries. We are grateful to all the contributors and maintainers of these projects:
+
+- **Bootstrap Icons** by Bootstrap team
+- **Carbon Icons** by IBM Carbon Design System
+- **Devicon** by Devicon and contributors
+- **Feather Icons** by Cole Bemis and contributors
+- **Fluent UI System Icons** by Microsoft
+- **Heroicons** by Tailwind Labs
+- **Iconoir** by Luca Burgio and contributors
+- **Ionicons** by Ionic team
+- **Lobe Icons** by LobeHub
+- **Lucide** by Lucide contributors
+- **Octicons** by GitHub (Primer)
+- **Phosphor Icons** by Phosphor Icons team
+- **Remix Icon** by Remix Design
+- **Tabler Icons** by codecalm and contributors
+
+All icon fonts are converted from their original SVG sources and embedded as TTF files in this project. The fonts are included in the crate binary when corresponding feature flags are enabled.
 
 ## License
 
