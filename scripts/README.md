@@ -84,6 +84,40 @@ python scripts/map_gen.py
 
 ---
 
+### `svg_to_rust.py`
+**Purpose:** Generates Rust code from SVG icon files, creating constants with SVG path data instead of binary font files.
+
+**What it does:**
+- Reads SVG files from a specified directory
+- Extracts path data from SVG elements (path, polyline, polygon, circle, rect, line)
+- Converts icon names to Rust identifiers (PascalCase)
+- Generates Rust file with constants for each icon
+- Creates helper functions to access icons by name
+
+**Usage:**
+```bash
+# Basic usage
+python scripts/svg_to_rust.py path/to/svg/icons -n "PackName" -o output.rs
+
+# With custom pattern
+python scripts/svg_to_rust.py path/to/svg/icons -n "PackName" -o output.rs -p "*.svg"
+```
+
+**Example:**
+```bash
+python scripts/svg_to_rust.py tp/feather/icons -n "Feather" -o src/generated/feather_svg.rs
+```
+
+**Output format:**
+- Each icon becomes a Rust constant: `pub const IconName: &str = "path data";`
+- Icons with multiple paths become arrays: `pub const IconName: &[&str] = &[...];`
+- Helper function `get_icon_path(name)` to lookup icons by kebab-case name
+- Constant `ICON_NAMES` with list of all available icon names
+
+**Dependencies:** Python standard library (`xml.etree.ElementTree`)
+
+---
+
 ## Font processing scripts
 
 ### `patch_names.py`
