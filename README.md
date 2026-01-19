@@ -35,7 +35,7 @@ See `docs/quickstart.md` for a fast end-to-end setup guide and API overview.
 ## egui quickstart
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/egui_demo/egui_demo.png" alt="egui_demo" width="900" />
+  <img src="https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/v1.0/egui_demo/egui_demo.png" alt="egui_demo" width="900" />
 </p>
 
 Register every `FontAsset` in `egui::FontDefinitions`, then render `IconRef.codepoint` with
@@ -92,7 +92,7 @@ Runnable example: `cargo run --example egui_demo --features all-packs`
 ## iced 0.14 quickstart
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/iced_demo/iced_demo.png" alt="iced_demo" width="900" />
+  <img src="https://raw.githubusercontent.com/FerrisMind/iconflow/main/examples/v1.0/iced_demo/iced_demo.png" alt="iced_demo" width="900" />
 </p>
 
 In iced 0.14, fonts are loaded asynchronously via `Task`. Load the bytes from `fonts()` and
