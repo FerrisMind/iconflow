@@ -146,6 +146,7 @@ def load_icomoon_selection(path: Path) -> Dict[str, int]:
         code = props.get("code")
         if not isinstance(name, str) or not isinstance(code, int):
             raise ValueError(f"Invalid icon entry in {path}")
+        name = name.split(",")[0].strip()
         normalized = normalize_kebab(name)
         if normalized in name_to_cp and name_to_cp[normalized] != code:
             raise ValueError(f"Duplicate icon name '{normalized}' in {path}")
