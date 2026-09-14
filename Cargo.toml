@@ -1,6 +1,6 @@
 [package]
 name = "iconflow"
-version = "1.0.0"
+version = "2.0.0"
 edition = "2024"
 rust-version = "1.92"
 description = "Unified icon library for Rust GUI apps with 10+ embedded icon packs (Bootstrap, Heroicons, Phosphor, Lucide, Tabler). Type-safe API for egui, iced and more"
@@ -16,13 +16,12 @@ documentation = "https://docs.rs/iconflow"
 include = [
     "/src/**/*",
     "/assets/fonts/**/*.ttf",
-    "/assets/maps/*.json",
-    "/assets/schema/*.json",
     "/assets/icons/*.png",
     "/assets/icons/*.svg",
     "/ASSETS_MANIFEST.json",
     "/LICENSE",
     "/README.md",
+    "/CHANGELOG.md",
     "/Cargo.toml",
     "/rust-toolchain.toml",
     "/THIRD_PARTY_LICENSES_FONTS.md",
@@ -53,9 +52,7 @@ pack-remixicon = []
 pack-tabler = []
 heroicons-tiny = ["pack-heroicons"]
 heroicons-mini = ["pack-heroicons"]
-heroicons-regular = ["pack-heroicons"]
 octicons-tiny = ["pack-octicons"]
-octicons-regular = ["pack-octicons"]
 all-packs = [
   "pack-bootstrap",
   "pack-carbon",
@@ -73,9 +70,7 @@ all-packs = [
   "pack-tabler",
   "heroicons-tiny",
   "heroicons-mini",
-  "heroicons-regular",
   "octicons-tiny",
-  "octicons-regular",
 ]
 
 [workspace]
@@ -95,13 +90,17 @@ required-features = ["all-packs"]
 [[bench]]
 name = "lookup"
 harness = false
-required-features = ["pack-phosphor", "pack-tabler", "pack-fluentui"]
+required-features = ["pack-phosphor", "pack-tabler", "pack-fluentui", "pack-feather"]
 
 [profile.release]
 codegen-units = 1
 lto = "fat"
 panic = "abort"
 strip = "symbols"
+
+[profile.bench]
+strip = "none"
+panic = "unwind"
 
 [lints.clippy]
 all = { level = "warn", priority = -1 }
