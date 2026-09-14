@@ -17,6 +17,16 @@
 # Contains mutation testing data
 **/mutants.out*/
 
+# Agent swarm / local scratch (leaf reports, plans)
+.swarm/
+
+# Profiling / benches output
+flamegraph.svg
+perf.data*
+*.profraw
+*.profdata
+criterion/
+
 # Python artifacts
 __pycache__/
 *.py[cod]
@@ -34,10 +44,13 @@ env/
 # Editor/IDE
 .idea/
 .vscode/
+.cursor/
 *.swp
 *.swo
 *.tmp
+*~
 
 # OS junk
 .DS_Store
 Thumbs.db
+desktop.ini
