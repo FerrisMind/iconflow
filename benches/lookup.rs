@@ -5,8 +5,8 @@
 //! [`IconError::VariantUnavailable`] for `(Style::Regular, Size::Tiny)` on a
 //! known-existing icon name.
 
-use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use iconflow::{list, try_icon, IconError, Pack, Size, Style};
+use criterion::{Criterion, black_box, criterion_group, criterion_main};
+use iconflow::{IconError, Pack, Size, Style, list, try_icon};
 
 const MISSING_NAME: &str = "__iconflow_missing__";
 
