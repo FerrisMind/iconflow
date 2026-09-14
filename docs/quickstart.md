@@ -9,7 +9,7 @@ Enable at least one pack feature so font assets and icon data are included.
 
 ```toml
 [dependencies]
-iconflow = { version = "0.1", features = ["all-packs"] }
+iconflow = { version = "1.0", features = ["all-packs"] }
 ```
 
 ## Core API at a glance
@@ -21,9 +21,12 @@ iconflow = { version = "0.1", features = ["all-packs"] }
 ```rust
 use iconflow::{fonts, list, try_icon, Pack, Size, Style};
 
-let _fonts = fonts();
-let names = list(Pack::Bootstrap);
-let icon = try_icon(Pack::Bootstrap, "alarm", Style::Regular, Size::Regular)?;
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let _fonts = fonts();
+    let names = list(Pack::Bootstrap);
+    let icon = try_icon(Pack::Bootstrap, "alarm", Style::Regular, Size::Regular)?;
+    Ok(())
+}
 ```
 
 ## egui integration (minimal)

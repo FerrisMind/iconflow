@@ -63,17 +63,7 @@ pub fn list(pack: Pack) -> &'static [&'static str];
 ```
 
 ### Typed API (по каждому pack, за feature)
-Генерируется модуль вида:
-```rust
-pub mod packs {
-  pub mod lucide {
-    pub enum Icon { /* ... */ }
-    impl Icon {
-      pub fn icon(self, style: Style, size: Size) -> IconRef { /* infallible */ }
-    }
-  }
-}
-```
+**Removed / crate-private (F-007 Option A).** Public `packs::…::Icon` infallible API is no longer part of the crate surface. Generated pack modules live under `crate::generated` (`pub(crate)` only). Consumers use the string API: `try_icon` / `list` / `fonts` and the root-reexported `Pack` enum.
 
 ### Интеграция в GUI (ответственность пользователя)
 - **egui**: шрифт регистрируется через `FontDefinitions`, а байты удобно передавать через `FontData::from_static`.   

@@ -16,5 +16,5 @@ TTF, not the file name. Passing the file name will not match in iced/egui.
 If `Pack::Bootstrap` (or another pack) is missing, enable the feature in `Cargo.toml`:
 
 ```toml
-iconflow = { version = "0.1", features = ["pack-bootstrap"] }
+iconflow = { version = "1.0", features = ["pack-bootstrap"] }
 ```
