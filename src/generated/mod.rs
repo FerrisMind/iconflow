@@ -3,46 +3,46 @@
 use crate::core::{FontAsset, IconError, IconRef, Size, Style};
 
 #[cfg(feature = "pack-bootstrap")]
-pub mod bootstrap;
+pub(crate) mod bootstrap;
 
 #[cfg(feature = "pack-carbon")]
-pub mod carbon;
+pub(crate) mod carbon;
 
 #[cfg(feature = "pack-devicon")]
-pub mod devicon;
+pub(crate) mod devicon;
 
 #[cfg(feature = "pack-feather")]
-pub mod feather;
+pub(crate) mod feather;
 
 #[cfg(feature = "pack-fluentui")]
-pub mod fluentui;
+pub(crate) mod fluentui;
 
 #[cfg(feature = "pack-heroicons")]
-pub mod heroicons;
+pub(crate) mod heroicons;
 
 #[cfg(feature = "pack-iconoir")]
-pub mod iconoir;
+pub(crate) mod iconoir;
 
 #[cfg(feature = "pack-ionicons")]
-pub mod ionicons;
+pub(crate) mod ionicons;
 
 #[cfg(feature = "pack-lobe")]
-pub mod lobe;
+pub(crate) mod lobe;
 
 #[cfg(feature = "pack-lucide")]
-pub mod lucide;
+pub(crate) mod lucide;
 
 #[cfg(feature = "pack-octicons")]
-pub mod octicons;
+pub(crate) mod octicons;
 
 #[cfg(feature = "pack-phosphor")]
-pub mod phosphor;
+pub(crate) mod phosphor;
 
 #[cfg(feature = "pack-remixicon")]
-pub mod remixicon;
+pub(crate) mod remixicon;
 
 #[cfg(feature = "pack-tabler")]
-pub mod tabler;
+pub(crate) mod tabler;
 
 #[derive(Clone, Copy, Debug, Eq, PartialEq, Hash)]
 pub enum Pack {
