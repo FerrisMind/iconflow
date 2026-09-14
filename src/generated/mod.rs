@@ -44,34 +44,51 @@ pub(crate) mod remixicon;
 #[cfg(feature = "pack-tabler")]
 pub(crate) mod tabler;
 
+/// Icon pack selectable via [`crate::try_icon`] / [`crate::list`].
+///
+/// Variants exist only when the corresponding `pack-*` Cargo feature is enabled.
 #[derive(Clone, Copy, Debug, Eq, PartialEq, Hash)]
 pub enum Pack {
+    /// Bootstrap Icons (`pack-bootstrap`).
     #[cfg(feature = "pack-bootstrap")]
     Bootstrap,
+    /// Carbon Icons (`pack-carbon`).
     #[cfg(feature = "pack-carbon")]
     Carbon,
+    /// Devicon (`pack-devicon`).
     #[cfg(feature = "pack-devicon")]
     Devicon,
+    /// Feather Icons (`pack-feather`).
     #[cfg(feature = "pack-feather")]
     Feather,
+    /// Fluent UI System Icons (`pack-fluentui`).
     #[cfg(feature = "pack-fluentui")]
     Fluentui,
+    /// Heroicons (`pack-heroicons`).
     #[cfg(feature = "pack-heroicons")]
     Heroicons,
+    /// Iconoir (`pack-iconoir`).
     #[cfg(feature = "pack-iconoir")]
     Iconoir,
+    /// Ionicons (`pack-ionicons`).
     #[cfg(feature = "pack-ionicons")]
     Ionicons,
+    /// Lobe icons (`pack-lobe`).
     #[cfg(feature = "pack-lobe")]
     Lobe,
+    /// Lucide (`pack-lucide`).
     #[cfg(feature = "pack-lucide")]
     Lucide,
+    /// Octicons (`pack-octicons`).
     #[cfg(feature = "pack-octicons")]
     Octicons,
+    /// Phosphor Icons (`pack-phosphor`).
     #[cfg(feature = "pack-phosphor")]
     Phosphor,
+    /// Remix Icon (`pack-remixicon`).
     #[cfg(feature = "pack-remixicon")]
     Remixicon,
+    /// Tabler Icons (`pack-tabler`).
     #[cfg(feature = "pack-tabler")]
     Tabler,
 }
@@ -237,145 +254,201 @@ pub fn list(_pack: Pack) -> &'static [&'static str] {
 pub fn try_icon(pack: Pack, name: &str, style: Style, size: Size) -> Result<IconRef, IconError> {
     match pack {
         #[cfg(feature = "pack-bootstrap")]
-        Pack::Bootstrap => resolve_icon(
-            bootstrap::PACK_ID,
-            name,
-            style,
-            size,
-            bootstrap::icon_available(name),
-            bootstrap::variant_info(style, size).map(|info| info.family),
-            bootstrap::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Bootstrap => match bootstrap::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: bootstrap::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                bootstrap::PACK_ID,
+                entry,
+                style,
+                size,
+                bootstrap::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-carbon")]
-        Pack::Carbon => resolve_icon(
-            carbon::PACK_ID,
-            name,
-            style,
-            size,
-            carbon::icon_available(name),
-            carbon::variant_info(style, size).map(|info| info.family),
-            carbon::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Carbon => match carbon::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: carbon::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                carbon::PACK_ID,
+                entry,
+                style,
+                size,
+                carbon::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-devicon")]
-        Pack::Devicon => resolve_icon(
-            devicon::PACK_ID,
-            name,
-            style,
-            size,
-            devicon::icon_available(name),
-            devicon::variant_info(style, size).map(|info| info.family),
-            devicon::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Devicon => match devicon::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: devicon::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                devicon::PACK_ID,
+                entry,
+                style,
+                size,
+                devicon::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-feather")]
-        Pack::Feather => resolve_icon(
-            feather::PACK_ID,
-            name,
-            style,
-            size,
-            feather::icon_available(name),
-            feather::variant_info(style, size).map(|info| info.family),
-            feather::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Feather => match feather::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: feather::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                feather::PACK_ID,
+                entry,
+                style,
+                size,
+                feather::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-fluentui")]
-        Pack::Fluentui => resolve_icon(
-            fluentui::PACK_ID,
-            name,
-            style,
-            size,
-            fluentui::icon_available(name),
-            fluentui::variant_info(style, size).map(|info| info.family),
-            fluentui::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Fluentui => match fluentui::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: fluentui::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                fluentui::PACK_ID,
+                entry,
+                style,
+                size,
+                fluentui::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-heroicons")]
-        Pack::Heroicons => resolve_icon(
-            heroicons::PACK_ID,
-            name,
-            style,
-            size,
-            heroicons::icon_available(name),
-            heroicons::variant_info(style, size).map(|info| info.family),
-            heroicons::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Heroicons => match heroicons::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: heroicons::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                heroicons::PACK_ID,
+                entry,
+                style,
+                size,
+                heroicons::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-iconoir")]
-        Pack::Iconoir => resolve_icon(
-            iconoir::PACK_ID,
-            name,
-            style,
-            size,
-            iconoir::icon_available(name),
-            iconoir::variant_info(style, size).map(|info| info.family),
-            iconoir::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Iconoir => match iconoir::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: iconoir::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                iconoir::PACK_ID,
+                entry,
+                style,
+                size,
+                iconoir::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-ionicons")]
-        Pack::Ionicons => resolve_icon(
-            ionicons::PACK_ID,
-            name,
-            style,
-            size,
-            ionicons::icon_available(name),
-            ionicons::variant_info(style, size).map(|info| info.family),
-            ionicons::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Ionicons => match ionicons::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: ionicons::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                ionicons::PACK_ID,
+                entry,
+                style,
+                size,
+                ionicons::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-lobe")]
-        Pack::Lobe => resolve_icon(
-            lobe::PACK_ID,
-            name,
-            style,
-            size,
-            lobe::icon_available(name),
-            lobe::variant_info(style, size).map(|info| info.family),
-            lobe::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Lobe => match lobe::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: lobe::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                lobe::PACK_ID,
+                entry,
+                style,
+                size,
+                lobe::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-lucide")]
-        Pack::Lucide => resolve_icon(
-            lucide::PACK_ID,
-            name,
-            style,
-            size,
-            lucide::icon_available(name),
-            lucide::variant_info(style, size).map(|info| info.family),
-            lucide::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Lucide => match lucide::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: lucide::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                lucide::PACK_ID,
+                entry,
+                style,
+                size,
+                lucide::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-octicons")]
-        Pack::Octicons => resolve_icon(
-            octicons::PACK_ID,
-            name,
-            style,
-            size,
-            octicons::icon_available(name),
-            octicons::variant_info(style, size).map(|info| info.family),
-            octicons::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Octicons => match octicons::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: octicons::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                octicons::PACK_ID,
+                entry,
+                style,
+                size,
+                octicons::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-phosphor")]
-        Pack::Phosphor => resolve_icon(
-            phosphor::PACK_ID,
-            name,
-            style,
-            size,
-            phosphor::icon_available(name),
-            phosphor::variant_info(style, size).map(|info| info.family),
-            phosphor::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Phosphor => match phosphor::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: phosphor::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                phosphor::PACK_ID,
+                entry,
+                style,
+                size,
+                phosphor::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-remixicon")]
-        Pack::Remixicon => resolve_icon(
-            remixicon::PACK_ID,
-            name,
-            style,
-            size,
-            remixicon::icon_available(name),
-            remixicon::variant_info(style, size).map(|info| info.family),
-            remixicon::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Remixicon => match remixicon::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: remixicon::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                remixicon::PACK_ID,
+                entry,
+                style,
+                size,
+                remixicon::variant_info(style, size).map(|info| info.family),
+            ),
+        },
         #[cfg(feature = "pack-tabler")]
-        Pack::Tabler => resolve_icon(
-            tabler::PACK_ID,
-            name,
-            style,
-            size,
-            tabler::icon_available(name),
-            tabler::variant_info(style, size).map(|info| info.family),
-            tabler::icon_codepoint(name, crate::core::VariantKey { style, size }),
-        ),
+        Pack::Tabler => match tabler::icon_entry(name) {
+            None => Err(IconError::IconNotFound {
+                pack: tabler::PACK_ID,
+                name: ::std::borrow::Cow::Owned(name.to_owned()),
+            }),
+            Some(entry) => resolve_found(
+                tabler::PACK_ID,
+                entry,
+                style,
+                size,
+                tabler::variant_info(style, size).map(|info| info.family),
+            ),
+        },
     }
 }
 
@@ -420,35 +493,28 @@ pub fn try_icon(
     feature = "pack-remixicon",
     feature = "pack-tabler"
 ))]
-fn resolve_icon(
+fn resolve_found(
     pack: &'static str,
-    name: &str,
+    entry: &'static crate::core::IconEntry,
     style: Style,
     size: Size,
-    available: Option<&'static [(Style, Size)]>,
     family: Option<&'static str>,
-    codepoint: Option<u32>,
 ) -> Result<IconRef, IconError> {
-    let available = match available {
-        Some(available) => available,
-        None => {
-            return Err(IconError::IconNotFound {
-                pack,
-                name: name.to_string(),
-            });
-        }
-    };
-
-    if !available.contains(&(style, size)) {
+    if !entry.available.contains(&(style, size)) {
         return Err(IconError::VariantUnavailable {
             pack,
-            name: name.to_string(),
+            name: ::std::borrow::Cow::Borrowed(entry.name),
             requested: (style, size),
-            available,
+            available: entry.available,
         });
     }
-
     let family = family.expect("Icon variant should have a font family");
-    let codepoint = codepoint.expect("Icon variant should have a codepoint");
+    let key = crate::core::VariantKey { style, size };
+    let codepoint = entry
+        .variants
+        .iter()
+        .find(|(k, _)| *k == key)
+        .map(|(_, cp)| *cp)
+        .expect("Icon variant should have a codepoint");
     Ok(IconRef { family, codepoint })
 }
