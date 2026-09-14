@@ -84,28 +84,38 @@ python scripts/map_gen.py
 
 ---
 
-### `svg_to_rust.py`
-**Purpose:** Generates Rust code from SVG icon files, creating constants with SVG path data instead of binary font files.
+### `svg_to_rust.py` (asset-prep / historical)
+
+**Status:** Asset-prep helper only — not part of the live pack pipeline. Do **not** write its output into `src/generated/`. Live generation is `cargo xtask gen` from `assets/maps/*.json`.
+
+**Purpose:** Historically generated Rust constants with SVG path data from SVG icon files (offline / one-off experiments).
 
 **What it does:**
 - Reads SVG files from a specified directory
 - Extracts path data from SVG elements (path, polyline, polygon, circle, rect, line)
 - Converts icon names to Rust identifiers (PascalCase)
-- Generates Rust file with constants for each icon
+- Generates a Rust file with constants for each icon
 - Creates helper functions to access icons by name
 
 **Usage:**
 ```bash
-# Basic usage
-python scripts/svg_to_rust.py path/to/svg/icons -n "PackName" -o output.rs
+# Basic usage (write outside src/generated/)
+python scripts/svg_to_rust.py path/to/svg/icons -n "PackName" -o /tmp/pack_svg_preview.rs
 
 # With custom pattern
-python scripts/svg_to_rust.py path/to/svg/icons -n "PackName" -o output.rs -p "*.svg"
+python scripts/svg_to_rust.py path/to/svg/icons -n "PackName" -o /tmp/pack_svg_preview.rs -p "*.svg"
 ```
 
-**Example:**
+**Example (preview only — not packaged):**
 ```bash
-python scripts/svg_to_rust.py tp/feather/icons -n "Feather" -o src/generated/feather_svg.rs
+python scripts/svg_to_rust.py tp/feather/icons -n "Feather" -o /tmp/feather_svg_preview.rs
+```
+
+For packaged icon Rust under `src/generated/`, use maps and xtask:
+
+```bash
+cargo xtask gen          # regenerate from assets/maps/*.json
+cargo xtask gen --check  # verify without writing
 ```
 
 **Output format:**
