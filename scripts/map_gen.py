@@ -146,7 +146,21 @@ def load_icomoon_selection(path: Path) -> Dict[str, int]:
         code = props.get("code")
         if not isinstance(name, str) or not isinstance(code, int):
             raise ValueError(f"Invalid icon entry in {path}")
+        raw_name = name
+        # IcoMoon stores aliases comma-separated in the primary name field
+        # (e.g. "folder-open, folder-notch-open"); register only the primary
+        # name, never the glued concatenation of primary + aliases.
+        name = name.split(",")[0].strip()
         normalized = normalize_kebab(name)
+        # Regression guard: if the alias split above is ever removed, the raw
+        # name would normalize to a glued form distinct from the primary one.
+        # If they are equal while a comma is present, the split is not running.
+        if "," in raw_name and normalize_kebab(raw_name) == normalized:
+            raise ValueError(
+                f"IcoMoon alias-split regression in {path}: "
+                f"raw name '{raw_name}' was not split before normalizing "
+                f"(registered as '{normalized}')"
+            )
         if normalized in name_to_cp and name_to_cp[normalized] != code:
             raise ValueError(f"Duplicate icon name '{normalized}' in {path}")
         name_to_cp[normalized] = code

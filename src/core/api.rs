@@ -364,3 +364,116 @@ mod tests_heroicons {
         }
     }
 }
+
+#[cfg(all(test, feature = "pack-phosphor"))]
+mod tests_phosphor {
+    use super::{list, try_icon};
+    use crate::core::{IconError, Size, Style};
+    use crate::generated::Pack;
+
+    /// Canonical names of the 18 base icons that IcoMoon alias concatenation
+    /// previously mangled (PR #2): aliases stored as `"primary, alias"` in
+    /// `selection.json` were glued into a single kebab name, so these
+    /// canonical names could not resolve.
+    const ALIAS_FIX_NAMES: &[&str] = &[
+        "asclepius",
+        "box-arrow-down",
+        "file-dashed",
+        "file-magnifying-glass",
+        "folder",
+        "folder-dashed",
+        "folder-minus",
+        "folder-open",
+        "folder-plus",
+        "folder-simple-dashed",
+        "infinity",
+        "pulse",
+        "seal",
+        "seal-check",
+        "seal-question",
+        "seal-warning",
+        "text-b",
+        "tray-arrow-down",
+    ];
+
+    /// All 6 phosphor styles, matching the map's `variants[].style` values
+    /// (`bold`/`duotone`/`fill`/`light`/`regular`/`thin`) to `Style`.
+    const PHOSPHOR_STYLES: &[Style] = &[
+        Style::Bold,
+        Style::Duotone,
+        Style::Filled,
+        Style::Light,
+        Style::Regular,
+        Style::Thin,
+    ];
+
+    /// Canonical registered name for `(name, style)`: phosphor maps expose the
+    /// base name for `regular` and a per-style name (`folder-open-bold`,
+    /// `asclepius-fill`, ...) for every other style.
+    fn phosphor_icon_name(name: &str, style: Style) -> String {
+        match style {
+            Style::Regular => name.to_owned(),
+            Style::Bold => format!("{name}-bold"),
+            Style::Duotone => format!("{name}-duotone"),
+            Style::Filled => format!("{name}-fill"),
+            Style::Light => format!("{name}-light"),
+            Style::Thin => format!("{name}-thin"),
+            other => panic!("Unexpected phosphor style {other:?}"),
+        }
+    }
+
+    fn phosphor_family(style: Style) -> &'static str {
+        match style {
+            Style::Bold => "Phosphor Bold",
+            Style::Duotone => "Phosphor Duotone",
+            Style::Filled => "Phosphor Filled",
+            Style::Light => "Phosphor Light",
+            Style::Regular => "Phosphor Regular",
+            Style::Thin => "Phosphor Thin",
+            other => panic!("Unexpected phosphor style {other:?}"),
+        }
+    }
+
+    #[test]
+    fn list_exposes_icon_names() {
+        let names = list(Pack::Phosphor);
+        assert!(names.contains(&"acorn"));
+        assert!(names.contains(&"folder-open"));
+    }
+
+    #[test]
+    fn try_icon_resolves_alias_fix_names_in_all_styles() {
+        for name in ALIAS_FIX_NAMES {
+            for style in PHOSPHOR_STYLES {
+                let icon_name = phosphor_icon_name(name, *style);
+                let icon = try_icon(Pack::Phosphor, &icon_name, *style, Size::Regular)
+                    .unwrap_or_else(|err| {
+                        panic!("Expected {icon_name:?} in {style:?} to resolve, got {err:?}")
+                    });
+                assert_eq!(icon.family, phosphor_family(*style));
+            }
+        }
+    }
+
+    #[test]
+    fn try_icon_reports_glued_alias_names_missing() {
+        for name in [
+            "folder-open-folder-notch-open",
+            "pulse-activity",
+            "infinity-lemniscate",
+            "seal-check-circle-wavy-check",
+        ] {
+            let err = try_icon(Pack::Phosphor, name, Style::Regular, Size::Regular).unwrap_err();
+            match err {
+                IconError::IconNotFound {
+                    pack,
+                    name: missing,
+                } => {
+                    assert_eq!(pack, "phosphor");
+                    assert_eq!(missing, name);
+                }
+                other => panic!("Expected IconNotFound, got {other:?}"),
+            }
+        }
+    }
+}

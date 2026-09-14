@@ -45,6 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Docs: install pins and quickstart/FAQ snippets aligned with the public API; buildable demos under `examples/v2.0/` (1.0 snapshots retained under `examples/v1.0/`)
+- Phosphor: icon names with IcoMoon aliases were mangled by comma-glue — `selection.json` stores aliases comma-separated (`"folder-open, folder-notch-open"`) and the loader normalized the raw string, registering 108 names (18 base icons × 6 styles) under glued names like `folder-open-folder-notch-open`; they now resolve under their canonical names (`folder-open`, `pulse`, …) and the mangled names no longer resolve (#2 by @NicolasDrapier)
 
 ## [1.0.0] - 2025-12-21
 

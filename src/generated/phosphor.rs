@@ -881,12 +881,12 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "article-ny-times-light",
     "article-ny-times-thin",
     "article-thin",
-    "asclepius-bold-caduceus-bold",
-    "asclepius-caduceus",
-    "asclepius-duotone-caduceus-duotone",
-    "asclepius-fill-caduceus-fill",
-    "asclepius-light-caduceus-light",
-    "asclepius-thin-caduceus-thin",
+    "asclepius",
+    "asclepius-bold",
+    "asclepius-duotone",
+    "asclepius-fill",
+    "asclepius-light",
+    "asclepius-thin",
     "asterisk",
     "asterisk-bold",
     "asterisk-duotone",
@@ -1403,12 +1403,12 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "bowling-ball-fill",
     "bowling-ball-light",
     "bowling-ball-thin",
-    "box-arrow-down-archive-box",
-    "box-arrow-down-bold-archive-box-bold",
-    "box-arrow-down-duotone-archive-box-duotone",
-    "box-arrow-down-fill-archive-box-fill",
-    "box-arrow-down-light-archive-box-light",
-    "box-arrow-down-thin-archive-box-thin",
+    "box-arrow-down",
+    "box-arrow-down-bold",
+    "box-arrow-down-duotone",
+    "box-arrow-down-fill",
+    "box-arrow-down-light",
+    "box-arrow-down-thin",
     "box-arrow-up",
     "box-arrow-up-bold",
     "box-arrow-up-duotone",
@@ -3505,12 +3505,12 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "file-csv-fill",
     "file-csv-light",
     "file-csv-thin",
-    "file-dashed-bold-file-dotted-bold",
-    "file-dashed-duotone-file-dotted-duotone",
-    "file-dashed-file-dotted",
-    "file-dashed-fill-file-dotted-fill",
-    "file-dashed-light-file-dotted-light",
-    "file-dashed-thin-file-dotted-thin",
+    "file-dashed",
+    "file-dashed-bold",
+    "file-dashed-duotone",
+    "file-dashed-fill",
+    "file-dashed-light",
+    "file-dashed-thin",
     "file-doc",
     "file-doc-bold",
     "file-doc-duotone",
@@ -3562,12 +3562,12 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "file-lock-fill",
     "file-lock-light",
     "file-lock-thin",
-    "file-magnifying-glass-bold-file-search-bold",
-    "file-magnifying-glass-duotone-file-search-duotone",
-    "file-magnifying-glass-file-search",
-    "file-magnifying-glass-fill-file-search-fill",
-    "file-magnifying-glass-light-file-search-light",
-    "file-magnifying-glass-thin-file-search-thin",
+    "file-magnifying-glass",
+    "file-magnifying-glass-bold",
+    "file-magnifying-glass-duotone",
+    "file-magnifying-glass-fill",
+    "file-magnifying-glass-light",
+    "file-magnifying-glass-thin",
     "file-md",
     "file-md-bold",
     "file-md-duotone",
@@ -3881,49 +3881,49 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "flying-saucer-fill",
     "flying-saucer-light",
     "flying-saucer-thin",
-    "folder-bold-folder-notch-bold",
-    "folder-dashed-bold-folder-dotted-bold",
-    "folder-dashed-duotone-folder-dotted-duotone",
-    "folder-dashed-fill-folder-dotted-fill",
-    "folder-dashed-folder-dotted",
-    "folder-dashed-light-folder-dotted-light",
-    "folder-dashed-thin-folder-dotted-thin",
-    "folder-duotone-folder-notch-duotone",
-    "folder-fill-folder-notch-fill",
-    "folder-folder-notch",
-    "folder-light-folder-notch-light",
+    "folder",
+    "folder-bold",
+    "folder-dashed",
+    "folder-dashed-bold",
+    "folder-dashed-duotone",
+    "folder-dashed-fill",
+    "folder-dashed-light",
+    "folder-dashed-thin",
+    "folder-duotone",
+    "folder-fill",
+    "folder-light",
     "folder-lock",
     "folder-lock-bold",
     "folder-lock-duotone",
     "folder-lock-fill",
     "folder-lock-light",
     "folder-lock-thin",
-    "folder-minus-bold-folder-notch-minus-bold",
-    "folder-minus-duotone-folder-notch-minus-duotone",
-    "folder-minus-fill-folder-notch-minus-fill",
-    "folder-minus-folder-notch-minus",
-    "folder-minus-light-folder-notch-minus-light",
-    "folder-minus-thin-folder-notch-minus-thin",
-    "folder-open-bold-folder-notch-open-bold",
-    "folder-open-duotone-folder-notch-open-duotone",
-    "folder-open-fill-folder-notch-open-fill",
-    "folder-open-folder-notch-open",
-    "folder-open-light-folder-notch-open-light",
-    "folder-open-thin-folder-notch-open-thin",
-    "folder-plus-bold-folder-notch-plus-bold",
-    "folder-plus-duotone-folder-notch-plus-duotone",
-    "folder-plus-fill-folder-notch-plus-fill",
-    "folder-plus-folder-notch-plus",
-    "folder-plus-light-folder-notch-plus-light",
-    "folder-plus-thin-folder-notch-plus-thin",
+    "folder-minus",
+    "folder-minus-bold",
+    "folder-minus-duotone",
+    "folder-minus-fill",
+    "folder-minus-light",
+    "folder-minus-thin",
+    "folder-open",
+    "folder-open-bold",
+    "folder-open-duotone",
+    "folder-open-fill",
+    "folder-open-light",
+    "folder-open-thin",
+    "folder-plus",
+    "folder-plus-bold",
+    "folder-plus-duotone",
+    "folder-plus-fill",
+    "folder-plus-light",
+    "folder-plus-thin",
     "folder-simple",
     "folder-simple-bold",
-    "folder-simple-dashed-bold-folder-simple-dotted-bold",
-    "folder-simple-dashed-duotone-folder-simple-dotted-duotone",
-    "folder-simple-dashed-fill-folder-simple-dotted-fill",
-    "folder-simple-dashed-folder-simple-dotted",
-    "folder-simple-dashed-light-folder-simple-dotted-light",
-    "folder-simple-dashed-thin-folder-simple-dotted-thin",
+    "folder-simple-dashed",
+    "folder-simple-dashed-bold",
+    "folder-simple-dashed-duotone",
+    "folder-simple-dashed-fill",
+    "folder-simple-dashed-light",
+    "folder-simple-dashed-thin",
     "folder-simple-duotone",
     "folder-simple-fill",
     "folder-simple-light",
@@ -3964,7 +3964,7 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "folder-star-fill",
     "folder-star-light",
     "folder-star-thin",
-    "folder-thin-folder-notch-thin",
+    "folder-thin",
     "folder-user",
     "folder-user-bold",
     "folder-user-duotone",
@@ -4817,12 +4817,12 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "images-square-light",
     "images-square-thin",
     "images-thin",
-    "infinity-bold-lemniscate-bold",
-    "infinity-duotone-lemniscate-duotone",
-    "infinity-fill-lemniscate-fill",
-    "infinity-lemniscate",
-    "infinity-light-lemniscate-light",
-    "infinity-thin-lemniscate-thin",
+    "infinity",
+    "infinity-bold",
+    "infinity-duotone",
+    "infinity-fill",
+    "infinity-light",
+    "infinity-thin",
     "info",
     "info-bold",
     "info-duotone",
@@ -6713,12 +6713,12 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "projector-screen-fill",
     "projector-screen-light",
     "projector-screen-thin",
-    "pulse-activity",
-    "pulse-bold-activity-bold",
-    "pulse-duotone-activity-duotone",
-    "pulse-fill-activity-fill",
-    "pulse-light-activity-light",
-    "pulse-thin-activity-thin",
+    "pulse",
+    "pulse-bold",
+    "pulse-duotone",
+    "pulse-fill",
+    "pulse-light",
+    "pulse-thin",
     "push-pin",
     "push-pin-bold",
     "push-pin-duotone",
@@ -7049,36 +7049,36 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "scroll-fill",
     "scroll-light",
     "scroll-thin",
-    "seal-bold-circle-wavy-bold",
-    "seal-check-bold-circle-wavy-check-bold",
-    "seal-check-circle-wavy-check",
-    "seal-check-duotone-circle-wavy-check-duotone",
-    "seal-check-fill-circle-wavy-check-fill",
-    "seal-check-light-circle-wavy-check-light",
-    "seal-check-thin-circle-wavy-check-thin",
-    "seal-circle-wavy",
-    "seal-duotone-circle-wavy-duotone",
-    "seal-fill-circle-wavy-fill",
-    "seal-light-circle-wavy-light",
+    "seal",
+    "seal-bold",
+    "seal-check",
+    "seal-check-bold",
+    "seal-check-duotone",
+    "seal-check-fill",
+    "seal-check-light",
+    "seal-check-thin",
+    "seal-duotone",
+    "seal-fill",
+    "seal-light",
     "seal-percent",
     "seal-percent-bold",
     "seal-percent-duotone",
     "seal-percent-fill",
     "seal-percent-light",
     "seal-percent-thin",
-    "seal-question-bold-circle-wavy-question-bold",
-    "seal-question-circle-wavy-question",
-    "seal-question-duotone-circle-wavy-question-duotone",
-    "seal-question-fill-circle-wavy-question-fill",
-    "seal-question-light-circle-wavy-question-light",
-    "seal-question-thin-circle-wavy-question-thin",
-    "seal-thin-circle-wavy-thin",
-    "seal-warning-bold-circle-wavy-warning-bold",
-    "seal-warning-circle-wavy-warning",
-    "seal-warning-duotone-circle-wavy-warning-duotone",
-    "seal-warning-fill-circle-wavy-warning-fill",
-    "seal-warning-light-circle-wavy-warning-light",
-    "seal-warning-thin-circle-wavy-warning-thin",
+    "seal-question",
+    "seal-question-bold",
+    "seal-question-duotone",
+    "seal-question-fill",
+    "seal-question-light",
+    "seal-question-thin",
+    "seal-thin",
+    "seal-warning",
+    "seal-warning-bold",
+    "seal-warning-duotone",
+    "seal-warning-fill",
+    "seal-warning-light",
+    "seal-warning-thin",
     "seat",
     "seat-bold",
     "seat-duotone",
@@ -8135,12 +8135,12 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "text-align-right-fill",
     "text-align-right-light",
     "text-align-right-thin",
-    "text-b-bold-text-bolder-bold",
-    "text-b-duotone-text-bolder-duotone",
-    "text-b-fill-text-bolder-fill",
-    "text-b-light-text-bolder-light",
-    "text-b-text-bolder",
-    "text-b-thin-text-bolder-thin",
+    "text-b",
+    "text-b-bold",
+    "text-b-duotone",
+    "text-b-fill",
+    "text-b-light",
+    "text-b-thin",
     "text-columns",
     "text-columns-bold",
     "text-columns-duotone",
@@ -8484,12 +8484,12 @@ pub(crate) const ICON_NAMES: &[&str] = &[
     "trash-simple-thin",
     "trash-thin",
     "tray",
-    "tray-arrow-down-archive-tray",
-    "tray-arrow-down-bold-archive-tray-bold",
-    "tray-arrow-down-duotone-archive-tray-duotone",
-    "tray-arrow-down-fill-archive-tray-fill",
-    "tray-arrow-down-light-archive-tray-light",
-    "tray-arrow-down-thin-archive-tray-thin",
+    "tray-arrow-down",
+    "tray-arrow-down-bold",
+    "tray-arrow-down-duotone",
+    "tray-arrow-down-fill",
+    "tray-arrow-down-light",
+    "tray-arrow-down-thin",
     "tray-arrow-up",
     "tray-arrow-up-bold",
     "tray-arrow-up-duotone",
@@ -15844,15 +15844,7 @@ const ICON_ARTICLE_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57512,
 )];
 
-const ICON_ASCLEPIUS_BOLD_CADUCEUS_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    60980,
-)];
-
-const ICON_ASCLEPIUS_CADUCEUS_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_ASCLEPIUS_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -15860,7 +15852,15 @@ const ICON_ASCLEPIUS_CADUCEUS_CODEPOINTS: &[(VariantKey, u32)] = &[(
     60980,
 )];
 
-const ICON_ASCLEPIUS_DUOTONE_CADUCEUS_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_ASCLEPIUS_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    60980,
+)];
+
+const ICON_ASCLEPIUS_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Duotone,
         size: Size::Regular,
@@ -15868,7 +15868,7 @@ const ICON_ASCLEPIUS_DUOTONE_CADUCEUS_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] =
     60980,
 )];
 
-const ICON_ASCLEPIUS_FILL_CADUCEUS_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_ASCLEPIUS_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -15876,7 +15876,7 @@ const ICON_ASCLEPIUS_FILL_CADUCEUS_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     60980,
 )];
 
-const ICON_ASCLEPIUS_LIGHT_CADUCEUS_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_ASCLEPIUS_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -15884,7 +15884,7 @@ const ICON_ASCLEPIUS_LIGHT_CADUCEUS_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     60980,
 )];
 
-const ICON_ASCLEPIUS_THIN_CADUCEUS_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_ASCLEPIUS_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -20020,7 +20020,7 @@ const ICON_BOWLING_BALL_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     59956,
 )];
 
-const ICON_BOX_ARROW_DOWN_ARCHIVE_BOX_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_BOX_ARROW_DOWN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -20028,7 +20028,7 @@ const ICON_BOX_ARROW_DOWN_ARCHIVE_BOX_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57358,
 )];
 
-const ICON_BOX_ARROW_DOWN_BOLD_ARCHIVE_BOX_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_BOX_ARROW_DOWN_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Bold,
         size: Size::Regular,
@@ -20036,7 +20036,7 @@ const ICON_BOX_ARROW_DOWN_BOLD_ARCHIVE_BOX_BOLD_CODEPOINTS: &[(VariantKey, u32)]
     57358,
 )];
 
-const ICON_BOX_ARROW_DOWN_DUOTONE_ARCHIVE_BOX_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_BOX_ARROW_DOWN_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Duotone,
         size: Size::Regular,
@@ -20044,7 +20044,7 @@ const ICON_BOX_ARROW_DOWN_DUOTONE_ARCHIVE_BOX_DUOTONE_CODEPOINTS: &[(VariantKey,
     57358,
 )];
 
-const ICON_BOX_ARROW_DOWN_FILL_ARCHIVE_BOX_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_BOX_ARROW_DOWN_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -20052,7 +20052,7 @@ const ICON_BOX_ARROW_DOWN_FILL_ARCHIVE_BOX_FILL_CODEPOINTS: &[(VariantKey, u32)]
     57358,
 )];
 
-const ICON_BOX_ARROW_DOWN_LIGHT_ARCHIVE_BOX_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_BOX_ARROW_DOWN_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -20060,7 +20060,7 @@ const ICON_BOX_ARROW_DOWN_LIGHT_ARCHIVE_BOX_LIGHT_CODEPOINTS: &[(VariantKey, u32
     57358,
 )];
 
-const ICON_BOX_ARROW_DOWN_THIN_ARCHIVE_BOX_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_BOX_ARROW_DOWN_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -36836,23 +36836,7 @@ const ICON_FILE_CSV_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     60188,
 )];
 
-const ICON_FILE_DASHED_BOLD_FILE_DOTTED_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    59140,
-)];
-
-const ICON_FILE_DASHED_DUOTONE_FILE_DOTTED_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Duotone,
-        size: Size::Regular,
-    },
-    59140,
-)];
-
-const ICON_FILE_DASHED_FILE_DOTTED_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FILE_DASHED_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -36860,7 +36844,23 @@ const ICON_FILE_DASHED_FILE_DOTTED_CODEPOINTS: &[(VariantKey, u32)] = &[(
     59140,
 )];
 
-const ICON_FILE_DASHED_FILL_FILE_DOTTED_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FILE_DASHED_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    59140,
+)];
+
+const ICON_FILE_DASHED_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    59140,
+)];
+
+const ICON_FILE_DASHED_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -36868,7 +36868,7 @@ const ICON_FILE_DASHED_FILL_FILE_DOTTED_FILL_CODEPOINTS: &[(VariantKey, u32)] = 
     59140,
 )];
 
-const ICON_FILE_DASHED_LIGHT_FILE_DOTTED_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FILE_DASHED_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -36876,7 +36876,7 @@ const ICON_FILE_DASHED_LIGHT_FILE_DOTTED_LIGHT_CODEPOINTS: &[(VariantKey, u32)] 
     59140,
 )];
 
-const ICON_FILE_DASHED_THIN_FILE_DOTTED_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FILE_DASHED_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -37292,24 +37292,7 @@ const ICON_FILE_LOCK_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     59740,
 )];
 
-const ICON_FILE_MAGNIFYING_GLASS_BOLD_FILE_SEARCH_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    57912,
-)];
-
-const ICON_FILE_MAGNIFYING_GLASS_DUOTONE_FILE_SEARCH_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] =
-    &[(
-        VariantKey {
-            style: Style::Duotone,
-            size: Size::Regular,
-        },
-        57912,
-    )];
-
-const ICON_FILE_MAGNIFYING_GLASS_FILE_SEARCH_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FILE_MAGNIFYING_GLASS_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -37317,7 +37300,23 @@ const ICON_FILE_MAGNIFYING_GLASS_FILE_SEARCH_CODEPOINTS: &[(VariantKey, u32)] = 
     57912,
 )];
 
-const ICON_FILE_MAGNIFYING_GLASS_FILL_FILE_SEARCH_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FILE_MAGNIFYING_GLASS_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    57912,
+)];
+
+const ICON_FILE_MAGNIFYING_GLASS_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    57912,
+)];
+
+const ICON_FILE_MAGNIFYING_GLASS_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -37325,7 +37324,7 @@ const ICON_FILE_MAGNIFYING_GLASS_FILL_FILE_SEARCH_FILL_CODEPOINTS: &[(VariantKey
     57912,
 )];
 
-const ICON_FILE_MAGNIFYING_GLASS_LIGHT_FILE_SEARCH_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FILE_MAGNIFYING_GLASS_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -37333,7 +37332,7 @@ const ICON_FILE_MAGNIFYING_GLASS_LIGHT_FILE_SEARCH_LIGHT_CODEPOINTS: &[(VariantK
     57912,
 )];
 
-const ICON_FILE_MAGNIFYING_GLASS_THIN_FILE_SEARCH_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FILE_MAGNIFYING_GLASS_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -39845,7 +39844,15 @@ const ICON_FLYING_SAUCER_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     60234,
 )];
 
-const ICON_FOLDER_BOLD_FOLDER_NOTCH_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Regular,
+        size: Size::Regular,
+    },
+    57930,
+)];
+
+const ICON_FOLDER_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Bold,
         size: Size::Regular,
@@ -39853,31 +39860,7 @@ const ICON_FOLDER_BOLD_FOLDER_NOTCH_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57930,
 )];
 
-const ICON_FOLDER_DASHED_BOLD_FOLDER_DOTTED_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    59640,
-)];
-
-const ICON_FOLDER_DASHED_DUOTONE_FOLDER_DOTTED_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Duotone,
-        size: Size::Regular,
-    },
-    59640,
-)];
-
-const ICON_FOLDER_DASHED_FILL_FOLDER_DOTTED_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Filled,
-        size: Size::Regular,
-    },
-    59640,
-)];
-
-const ICON_FOLDER_DASHED_FOLDER_DOTTED_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_DASHED_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -39885,7 +39868,31 @@ const ICON_FOLDER_DASHED_FOLDER_DOTTED_CODEPOINTS: &[(VariantKey, u32)] = &[(
     59640,
 )];
 
-const ICON_FOLDER_DASHED_LIGHT_FOLDER_DOTTED_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_DASHED_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    59640,
+)];
+
+const ICON_FOLDER_DASHED_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    59640,
+)];
+
+const ICON_FOLDER_DASHED_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Filled,
+        size: Size::Regular,
+    },
+    59640,
+)];
+
+const ICON_FOLDER_DASHED_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -39893,7 +39900,7 @@ const ICON_FOLDER_DASHED_LIGHT_FOLDER_DOTTED_LIGHT_CODEPOINTS: &[(VariantKey, u3
     59640,
 )];
 
-const ICON_FOLDER_DASHED_THIN_FOLDER_DOTTED_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_DASHED_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -39901,7 +39908,7 @@ const ICON_FOLDER_DASHED_THIN_FOLDER_DOTTED_THIN_CODEPOINTS: &[(VariantKey, u32)
     59640,
 )];
 
-const ICON_FOLDER_DUOTONE_FOLDER_NOTCH_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Duotone,
         size: Size::Regular,
@@ -39909,7 +39916,7 @@ const ICON_FOLDER_DUOTONE_FOLDER_NOTCH_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] 
     57930,
 )];
 
-const ICON_FOLDER_FILL_FOLDER_NOTCH_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -39917,15 +39924,7 @@ const ICON_FOLDER_FILL_FOLDER_NOTCH_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57930,
 )];
 
-const ICON_FOLDER_FOLDER_NOTCH_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Regular,
-        size: Size::Regular,
-    },
-    57930,
-)];
-
-const ICON_FOLDER_LIGHT_FOLDER_NOTCH_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -39981,31 +39980,7 @@ const ICON_FOLDER_LOCK_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     59964,
 )];
 
-const ICON_FOLDER_MINUS_BOLD_FOLDER_NOTCH_MINUS_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    57940,
-)];
-
-const ICON_FOLDER_MINUS_DUOTONE_FOLDER_NOTCH_MINUS_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Duotone,
-        size: Size::Regular,
-    },
-    57940,
-)];
-
-const ICON_FOLDER_MINUS_FILL_FOLDER_NOTCH_MINUS_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Filled,
-        size: Size::Regular,
-    },
-    57940,
-)];
-
-const ICON_FOLDER_MINUS_FOLDER_NOTCH_MINUS_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_MINUS_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -40013,7 +39988,31 @@ const ICON_FOLDER_MINUS_FOLDER_NOTCH_MINUS_CODEPOINTS: &[(VariantKey, u32)] = &[
     57940,
 )];
 
-const ICON_FOLDER_MINUS_LIGHT_FOLDER_NOTCH_MINUS_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_MINUS_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    57940,
+)];
+
+const ICON_FOLDER_MINUS_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    57940,
+)];
+
+const ICON_FOLDER_MINUS_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Filled,
+        size: Size::Regular,
+    },
+    57940,
+)];
+
+const ICON_FOLDER_MINUS_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -40021,7 +40020,7 @@ const ICON_FOLDER_MINUS_LIGHT_FOLDER_NOTCH_MINUS_LIGHT_CODEPOINTS: &[(VariantKey
     57940,
 )];
 
-const ICON_FOLDER_MINUS_THIN_FOLDER_NOTCH_MINUS_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_MINUS_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -40029,31 +40028,7 @@ const ICON_FOLDER_MINUS_THIN_FOLDER_NOTCH_MINUS_THIN_CODEPOINTS: &[(VariantKey, 
     57940,
 )];
 
-const ICON_FOLDER_OPEN_BOLD_FOLDER_NOTCH_OPEN_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    57942,
-)];
-
-const ICON_FOLDER_OPEN_DUOTONE_FOLDER_NOTCH_OPEN_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Duotone,
-        size: Size::Regular,
-    },
-    57942,
-)];
-
-const ICON_FOLDER_OPEN_FILL_FOLDER_NOTCH_OPEN_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Filled,
-        size: Size::Regular,
-    },
-    57942,
-)];
-
-const ICON_FOLDER_OPEN_FOLDER_NOTCH_OPEN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_OPEN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -40061,7 +40036,31 @@ const ICON_FOLDER_OPEN_FOLDER_NOTCH_OPEN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57942,
 )];
 
-const ICON_FOLDER_OPEN_LIGHT_FOLDER_NOTCH_OPEN_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_OPEN_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    57942,
+)];
+
+const ICON_FOLDER_OPEN_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    57942,
+)];
+
+const ICON_FOLDER_OPEN_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Filled,
+        size: Size::Regular,
+    },
+    57942,
+)];
+
+const ICON_FOLDER_OPEN_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -40069,7 +40068,7 @@ const ICON_FOLDER_OPEN_LIGHT_FOLDER_NOTCH_OPEN_LIGHT_CODEPOINTS: &[(VariantKey, 
     57942,
 )];
 
-const ICON_FOLDER_OPEN_THIN_FOLDER_NOTCH_OPEN_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_OPEN_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -40077,31 +40076,7 @@ const ICON_FOLDER_OPEN_THIN_FOLDER_NOTCH_OPEN_THIN_CODEPOINTS: &[(VariantKey, u3
     57942,
 )];
 
-const ICON_FOLDER_PLUS_BOLD_FOLDER_NOTCH_PLUS_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    57944,
-)];
-
-const ICON_FOLDER_PLUS_DUOTONE_FOLDER_NOTCH_PLUS_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Duotone,
-        size: Size::Regular,
-    },
-    57944,
-)];
-
-const ICON_FOLDER_PLUS_FILL_FOLDER_NOTCH_PLUS_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Filled,
-        size: Size::Regular,
-    },
-    57944,
-)];
-
-const ICON_FOLDER_PLUS_FOLDER_NOTCH_PLUS_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_PLUS_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -40109,7 +40084,31 @@ const ICON_FOLDER_PLUS_FOLDER_NOTCH_PLUS_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57944,
 )];
 
-const ICON_FOLDER_PLUS_LIGHT_FOLDER_NOTCH_PLUS_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_PLUS_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    57944,
+)];
+
+const ICON_FOLDER_PLUS_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    57944,
+)];
+
+const ICON_FOLDER_PLUS_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Filled,
+        size: Size::Regular,
+    },
+    57944,
+)];
+
+const ICON_FOLDER_PLUS_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -40117,7 +40116,7 @@ const ICON_FOLDER_PLUS_LIGHT_FOLDER_NOTCH_PLUS_LIGHT_CODEPOINTS: &[(VariantKey, 
     57944,
 )];
 
-const ICON_FOLDER_PLUS_THIN_FOLDER_NOTCH_PLUS_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_PLUS_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -40141,36 +40140,7 @@ const ICON_FOLDER_SIMPLE_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57946,
 )];
 
-const ICON_FOLDER_SIMPLE_DASHED_BOLD_FOLDER_SIMPLE_DOTTED_BOLD_CODEPOINTS: &[(VariantKey, u32)] =
-    &[(
-        VariantKey {
-            style: Style::Bold,
-            size: Size::Regular,
-        },
-        60458,
-    )];
-
-const ICON_FOLDER_SIMPLE_DASHED_DUOTONE_FOLDER_SIMPLE_DOTTED_DUOTONE_CODEPOINTS: &[(
-    VariantKey,
-    u32,
-)] = &[(
-    VariantKey {
-        style: Style::Duotone,
-        size: Size::Regular,
-    },
-    60458,
-)];
-
-const ICON_FOLDER_SIMPLE_DASHED_FILL_FOLDER_SIMPLE_DOTTED_FILL_CODEPOINTS: &[(VariantKey, u32)] =
-    &[(
-        VariantKey {
-            style: Style::Filled,
-            size: Size::Regular,
-        },
-        60458,
-    )];
-
-const ICON_FOLDER_SIMPLE_DASHED_FOLDER_SIMPLE_DOTTED_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_SIMPLE_DASHED_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -40178,10 +40148,31 @@ const ICON_FOLDER_SIMPLE_DASHED_FOLDER_SIMPLE_DOTTED_CODEPOINTS: &[(VariantKey, 
     60458,
 )];
 
-const ICON_FOLDER_SIMPLE_DASHED_LIGHT_FOLDER_SIMPLE_DOTTED_LIGHT_CODEPOINTS: &[(
-    VariantKey,
-    u32,
-)] = &[(
+const ICON_FOLDER_SIMPLE_DASHED_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    60458,
+)];
+
+const ICON_FOLDER_SIMPLE_DASHED_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    60458,
+)];
+
+const ICON_FOLDER_SIMPLE_DASHED_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Filled,
+        size: Size::Regular,
+    },
+    60458,
+)];
+
+const ICON_FOLDER_SIMPLE_DASHED_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -40189,14 +40180,13 @@ const ICON_FOLDER_SIMPLE_DASHED_LIGHT_FOLDER_SIMPLE_DOTTED_LIGHT_CODEPOINTS: &[(
     60458,
 )];
 
-const ICON_FOLDER_SIMPLE_DASHED_THIN_FOLDER_SIMPLE_DOTTED_THIN_CODEPOINTS: &[(VariantKey, u32)] =
-    &[(
-        VariantKey {
-            style: Style::Thin,
-            size: Size::Regular,
-        },
-        60458,
-    )];
+const ICON_FOLDER_SIMPLE_DASHED_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Thin,
+        size: Size::Regular,
+    },
+    60458,
+)];
 
 const ICON_FOLDER_SIMPLE_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
@@ -40518,7 +40508,7 @@ const ICON_FOLDER_STAR_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     60038,
 )];
 
-const ICON_FOLDER_THIN_FOLDER_NOTCH_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_FOLDER_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -47342,31 +47332,7 @@ const ICON_IMAGES_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     59446,
 )];
 
-const ICON_INFINITY_BOLD_LEMNISCATE_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    58932,
-)];
-
-const ICON_INFINITY_DUOTONE_LEMNISCATE_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Duotone,
-        size: Size::Regular,
-    },
-    58932,
-)];
-
-const ICON_INFINITY_FILL_LEMNISCATE_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Filled,
-        size: Size::Regular,
-    },
-    58932,
-)];
-
-const ICON_INFINITY_LEMNISCATE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_INFINITY_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -47374,7 +47340,31 @@ const ICON_INFINITY_LEMNISCATE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58932,
 )];
 
-const ICON_INFINITY_LIGHT_LEMNISCATE_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_INFINITY_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    58932,
+)];
+
+const ICON_INFINITY_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    58932,
+)];
+
+const ICON_INFINITY_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Filled,
+        size: Size::Regular,
+    },
+    58932,
+)];
+
+const ICON_INFINITY_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -47382,7 +47372,7 @@ const ICON_INFINITY_LIGHT_LEMNISCATE_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[
     58932,
 )];
 
-const ICON_INFINITY_THIN_LEMNISCATE_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_INFINITY_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -62510,7 +62500,7 @@ const ICON_PROJECTOR_SCREEN_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58968,
 )];
 
-const ICON_PULSE_ACTIVITY_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_PULSE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -62518,7 +62508,7 @@ const ICON_PULSE_ACTIVITY_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57344,
 )];
 
-const ICON_PULSE_BOLD_ACTIVITY_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_PULSE_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Bold,
         size: Size::Regular,
@@ -62526,7 +62516,7 @@ const ICON_PULSE_BOLD_ACTIVITY_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57344,
 )];
 
-const ICON_PULSE_DUOTONE_ACTIVITY_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_PULSE_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Duotone,
         size: Size::Regular,
@@ -62534,7 +62524,7 @@ const ICON_PULSE_DUOTONE_ACTIVITY_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57344,
 )];
 
-const ICON_PULSE_FILL_ACTIVITY_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_PULSE_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -62542,7 +62532,7 @@ const ICON_PULSE_FILL_ACTIVITY_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57344,
 )];
 
-const ICON_PULSE_LIGHT_ACTIVITY_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_PULSE_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -62550,7 +62540,7 @@ const ICON_PULSE_LIGHT_ACTIVITY_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57344,
 )];
 
-const ICON_PULSE_THIN_ACTIVITY_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_PULSE_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -65198,7 +65188,15 @@ const ICON_SCROLL_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     60282,
 )];
 
-const ICON_SEAL_BOLD_CIRCLE_WAVY_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Regular,
+        size: Size::Regular,
+    },
+    58884,
+)];
+
+const ICON_SEAL_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Bold,
         size: Size::Regular,
@@ -65206,15 +65204,7 @@ const ICON_SEAL_BOLD_CIRCLE_WAVY_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58884,
 )];
 
-const ICON_SEAL_CHECK_BOLD_CIRCLE_WAVY_CHECK_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    58886,
-)];
-
-const ICON_SEAL_CHECK_CIRCLE_WAVY_CHECK_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_CHECK_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -65222,7 +65212,15 @@ const ICON_SEAL_CHECK_CIRCLE_WAVY_CHECK_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58886,
 )];
 
-const ICON_SEAL_CHECK_DUOTONE_CIRCLE_WAVY_CHECK_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_CHECK_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    58886,
+)];
+
+const ICON_SEAL_CHECK_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Duotone,
         size: Size::Regular,
@@ -65230,7 +65228,7 @@ const ICON_SEAL_CHECK_DUOTONE_CIRCLE_WAVY_CHECK_DUOTONE_CODEPOINTS: &[(VariantKe
     58886,
 )];
 
-const ICON_SEAL_CHECK_FILL_CIRCLE_WAVY_CHECK_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_CHECK_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -65238,7 +65236,7 @@ const ICON_SEAL_CHECK_FILL_CIRCLE_WAVY_CHECK_FILL_CODEPOINTS: &[(VariantKey, u32
     58886,
 )];
 
-const ICON_SEAL_CHECK_LIGHT_CIRCLE_WAVY_CHECK_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_CHECK_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -65246,7 +65244,7 @@ const ICON_SEAL_CHECK_LIGHT_CIRCLE_WAVY_CHECK_LIGHT_CODEPOINTS: &[(VariantKey, u
     58886,
 )];
 
-const ICON_SEAL_CHECK_THIN_CIRCLE_WAVY_CHECK_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_CHECK_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -65254,15 +65252,7 @@ const ICON_SEAL_CHECK_THIN_CIRCLE_WAVY_CHECK_THIN_CODEPOINTS: &[(VariantKey, u32
     58886,
 )];
 
-const ICON_SEAL_CIRCLE_WAVY_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Regular,
-        size: Size::Regular,
-    },
-    58884,
-)];
-
-const ICON_SEAL_DUOTONE_CIRCLE_WAVY_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Duotone,
         size: Size::Regular,
@@ -65270,7 +65260,7 @@ const ICON_SEAL_DUOTONE_CIRCLE_WAVY_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &
     58884,
 )];
 
-const ICON_SEAL_FILL_CIRCLE_WAVY_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -65278,7 +65268,7 @@ const ICON_SEAL_FILL_CIRCLE_WAVY_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58884,
 )];
 
-const ICON_SEAL_LIGHT_CIRCLE_WAVY_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -65334,15 +65324,7 @@ const ICON_SEAL_PERCENT_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58890,
 )];
 
-const ICON_SEAL_QUESTION_BOLD_CIRCLE_WAVY_QUESTION_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    58888,
-)];
-
-const ICON_SEAL_QUESTION_CIRCLE_WAVY_QUESTION_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_QUESTION_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -65350,16 +65332,23 @@ const ICON_SEAL_QUESTION_CIRCLE_WAVY_QUESTION_CODEPOINTS: &[(VariantKey, u32)] =
     58888,
 )];
 
-const ICON_SEAL_QUESTION_DUOTONE_CIRCLE_WAVY_QUESTION_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] =
-    &[(
-        VariantKey {
-            style: Style::Duotone,
-            size: Size::Regular,
-        },
-        58888,
-    )];
+const ICON_SEAL_QUESTION_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    58888,
+)];
 
-const ICON_SEAL_QUESTION_FILL_CIRCLE_WAVY_QUESTION_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_QUESTION_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    58888,
+)];
+
+const ICON_SEAL_QUESTION_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -65367,7 +65356,7 @@ const ICON_SEAL_QUESTION_FILL_CIRCLE_WAVY_QUESTION_FILL_CODEPOINTS: &[(VariantKe
     58888,
 )];
 
-const ICON_SEAL_QUESTION_LIGHT_CIRCLE_WAVY_QUESTION_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_QUESTION_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -65375,7 +65364,7 @@ const ICON_SEAL_QUESTION_LIGHT_CIRCLE_WAVY_QUESTION_LIGHT_CODEPOINTS: &[(Variant
     58888,
 )];
 
-const ICON_SEAL_QUESTION_THIN_CIRCLE_WAVY_QUESTION_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_QUESTION_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -65383,7 +65372,7 @@ const ICON_SEAL_QUESTION_THIN_CIRCLE_WAVY_QUESTION_THIN_CODEPOINTS: &[(VariantKe
     58888,
 )];
 
-const ICON_SEAL_THIN_CIRCLE_WAVY_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -65391,15 +65380,7 @@ const ICON_SEAL_THIN_CIRCLE_WAVY_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58884,
 )];
 
-const ICON_SEAL_WARNING_BOLD_CIRCLE_WAVY_WARNING_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    58892,
-)];
-
-const ICON_SEAL_WARNING_CIRCLE_WAVY_WARNING_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_WARNING_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -65407,7 +65388,15 @@ const ICON_SEAL_WARNING_CIRCLE_WAVY_WARNING_CODEPOINTS: &[(VariantKey, u32)] = &
     58892,
 )];
 
-const ICON_SEAL_WARNING_DUOTONE_CIRCLE_WAVY_WARNING_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_WARNING_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    58892,
+)];
+
+const ICON_SEAL_WARNING_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Duotone,
         size: Size::Regular,
@@ -65415,7 +65404,7 @@ const ICON_SEAL_WARNING_DUOTONE_CIRCLE_WAVY_WARNING_DUOTONE_CODEPOINTS: &[(Varia
     58892,
 )];
 
-const ICON_SEAL_WARNING_FILL_CIRCLE_WAVY_WARNING_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_WARNING_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -65423,7 +65412,7 @@ const ICON_SEAL_WARNING_FILL_CIRCLE_WAVY_WARNING_FILL_CODEPOINTS: &[(VariantKey,
     58892,
 )];
 
-const ICON_SEAL_WARNING_LIGHT_CIRCLE_WAVY_WARNING_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_WARNING_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -65431,7 +65420,7 @@ const ICON_SEAL_WARNING_LIGHT_CIRCLE_WAVY_WARNING_LIGHT_CODEPOINTS: &[(VariantKe
     58892,
 )];
 
-const ICON_SEAL_WARNING_THIN_CIRCLE_WAVY_WARNING_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_SEAL_WARNING_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -73887,39 +73876,7 @@ const ICON_TEXT_ALIGN_RIGHT_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58502,
 )];
 
-const ICON_TEXT_B_BOLD_TEXT_BOLDER_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Bold,
-        size: Size::Regular,
-    },
-    58814,
-)];
-
-const ICON_TEXT_B_DUOTONE_TEXT_BOLDER_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Duotone,
-        size: Size::Regular,
-    },
-    58814,
-)];
-
-const ICON_TEXT_B_FILL_TEXT_BOLDER_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Filled,
-        size: Size::Regular,
-    },
-    58814,
-)];
-
-const ICON_TEXT_B_LIGHT_TEXT_BOLDER_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
-    VariantKey {
-        style: Style::Light,
-        size: Size::Regular,
-    },
-    58814,
-)];
-
-const ICON_TEXT_B_TEXT_BOLDER_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_TEXT_B_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -73927,7 +73884,39 @@ const ICON_TEXT_B_TEXT_BOLDER_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58814,
 )];
 
-const ICON_TEXT_B_THIN_TEXT_BOLDER_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_TEXT_B_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Bold,
+        size: Size::Regular,
+    },
+    58814,
+)];
+
+const ICON_TEXT_B_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Duotone,
+        size: Size::Regular,
+    },
+    58814,
+)];
+
+const ICON_TEXT_B_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Filled,
+        size: Size::Regular,
+    },
+    58814,
+)];
+
+const ICON_TEXT_B_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+    VariantKey {
+        style: Style::Light,
+        size: Size::Regular,
+    },
+    58814,
+)];
+
+const ICON_TEXT_B_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -76679,7 +76668,7 @@ const ICON_TRAY_CODEPOINTS: &[(VariantKey, u32)] = &[(
     58538,
 )];
 
-const ICON_TRAY_ARROW_DOWN_ARCHIVE_TRAY_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_TRAY_ARROW_DOWN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Regular,
         size: Size::Regular,
@@ -76687,7 +76676,7 @@ const ICON_TRAY_ARROW_DOWN_ARCHIVE_TRAY_CODEPOINTS: &[(VariantKey, u32)] = &[(
     57360,
 )];
 
-const ICON_TRAY_ARROW_DOWN_BOLD_ARCHIVE_TRAY_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_TRAY_ARROW_DOWN_BOLD_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Bold,
         size: Size::Regular,
@@ -76695,7 +76684,7 @@ const ICON_TRAY_ARROW_DOWN_BOLD_ARCHIVE_TRAY_BOLD_CODEPOINTS: &[(VariantKey, u32
     57360,
 )];
 
-const ICON_TRAY_ARROW_DOWN_DUOTONE_ARCHIVE_TRAY_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_TRAY_ARROW_DOWN_DUOTONE_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Duotone,
         size: Size::Regular,
@@ -76703,7 +76692,7 @@ const ICON_TRAY_ARROW_DOWN_DUOTONE_ARCHIVE_TRAY_DUOTONE_CODEPOINTS: &[(VariantKe
     57360,
 )];
 
-const ICON_TRAY_ARROW_DOWN_FILL_ARCHIVE_TRAY_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_TRAY_ARROW_DOWN_FILL_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Filled,
         size: Size::Regular,
@@ -76711,7 +76700,7 @@ const ICON_TRAY_ARROW_DOWN_FILL_ARCHIVE_TRAY_FILL_CODEPOINTS: &[(VariantKey, u32
     57360,
 )];
 
-const ICON_TRAY_ARROW_DOWN_LIGHT_ARCHIVE_TRAY_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_TRAY_ARROW_DOWN_LIGHT_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Light,
         size: Size::Regular,
@@ -76719,7 +76708,7 @@ const ICON_TRAY_ARROW_DOWN_LIGHT_ARCHIVE_TRAY_LIGHT_CODEPOINTS: &[(VariantKey, u
     57360,
 )];
 
-const ICON_TRAY_ARROW_DOWN_THIN_ARCHIVE_TRAY_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
+const ICON_TRAY_ARROW_DOWN_THIN_CODEPOINTS: &[(VariantKey, u32)] = &[(
     VariantKey {
         style: Style::Thin,
         size: Size::Regular,
@@ -83626,22 +83615,17 @@ const ICON_ARTICLE_NY_TIMES_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, S
 
 const ICON_ARTICLE_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_ASCLEPIUS_BOLD_CADUCEUS_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_ASCLEPIUS_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_ASCLEPIUS_CADUCEUS_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
+const ICON_ASCLEPIUS_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_ASCLEPIUS_DUOTONE_CADUCEUS_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_ASCLEPIUS_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_ASCLEPIUS_FILL_CADUCEUS_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_ASCLEPIUS_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_ASCLEPIUS_LIGHT_CADUCEUS_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_ASCLEPIUS_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_ASCLEPIUS_THIN_CADUCEUS_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_ASCLEPIUS_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_ASTERISK_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -84714,23 +84698,17 @@ const ICON_BOWLING_BALL_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Siz
 
 const ICON_BOWLING_BALL_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_BOX_ARROW_DOWN_ARCHIVE_BOX_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_BOX_ARROW_DOWN_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_BOX_ARROW_DOWN_BOLD_ARCHIVE_BOX_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_BOX_ARROW_DOWN_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_BOX_ARROW_DOWN_DUOTONE_ARCHIVE_BOX_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_BOX_ARROW_DOWN_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_BOX_ARROW_DOWN_FILL_ARCHIVE_BOX_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_BOX_ARROW_DOWN_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_BOX_ARROW_DOWN_LIGHT_ARCHIVE_BOX_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_BOX_ARROW_DOWN_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_BOX_ARROW_DOWN_THIN_ARCHIVE_BOX_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_BOX_ARROW_DOWN_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_BOX_ARROW_UP_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -89042,22 +89020,17 @@ const ICON_FILE_CSV_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::R
 
 const ICON_FILE_CSV_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_FILE_DASHED_BOLD_FILE_DOTTED_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_FILE_DASHED_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_FILE_DASHED_DUOTONE_FILE_DOTTED_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_FILE_DASHED_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_FILE_DASHED_FILE_DOTTED_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
+const ICON_FILE_DASHED_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_FILE_DASHED_FILL_FILE_DOTTED_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_FILE_DASHED_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_FILE_DASHED_LIGHT_FILE_DOTTED_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_FILE_DASHED_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_FILE_DASHED_THIN_FILE_DOTTED_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_FILE_DASHED_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_FILE_DOC_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -89161,23 +89134,20 @@ const ICON_FILE_LOCK_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::
 
 const ICON_FILE_LOCK_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_FILE_MAGNIFYING_GLASS_BOLD_FILE_SEARCH_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_FILE_MAGNIFYING_GLASS_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_FILE_MAGNIFYING_GLASS_DUOTONE_FILE_SEARCH_DUOTONE_AVAILABLE: &[(Style, Size)] =
+const ICON_FILE_MAGNIFYING_GLASS_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
+
+const ICON_FILE_MAGNIFYING_GLASS_DUOTONE_AVAILABLE: &[(Style, Size)] =
     &[(Style::Duotone, Size::Regular)];
 
-const ICON_FILE_MAGNIFYING_GLASS_FILE_SEARCH_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
-
-const ICON_FILE_MAGNIFYING_GLASS_FILL_FILE_SEARCH_FILL_AVAILABLE: &[(Style, Size)] =
+const ICON_FILE_MAGNIFYING_GLASS_FILL_AVAILABLE: &[(Style, Size)] =
     &[(Style::Filled, Size::Regular)];
 
-const ICON_FILE_MAGNIFYING_GLASS_LIGHT_FILE_SEARCH_LIGHT_AVAILABLE: &[(Style, Size)] =
+const ICON_FILE_MAGNIFYING_GLASS_LIGHT_AVAILABLE: &[(Style, Size)] =
     &[(Style::Light, Size::Regular)];
 
-const ICON_FILE_MAGNIFYING_GLASS_THIN_FILE_SEARCH_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_FILE_MAGNIFYING_GLASS_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_FILE_MD_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -89809,37 +89779,27 @@ const ICON_FLYING_SAUCER_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Si
 
 const ICON_FLYING_SAUCER_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_FOLDER_BOLD_FOLDER_NOTCH_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_FOLDER_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_FOLDER_DASHED_BOLD_FOLDER_DOTTED_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_FOLDER_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_FOLDER_DASHED_DUOTONE_FOLDER_DOTTED_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_FOLDER_DASHED_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_FOLDER_DASHED_FILL_FOLDER_DOTTED_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_FOLDER_DASHED_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_FOLDER_DASHED_FOLDER_DOTTED_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_FOLDER_DASHED_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_FOLDER_DASHED_LIGHT_FOLDER_DOTTED_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_FOLDER_DASHED_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_FOLDER_DASHED_THIN_FOLDER_DOTTED_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_FOLDER_DASHED_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_FOLDER_DUOTONE_FOLDER_NOTCH_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_FOLDER_DASHED_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_FOLDER_FILL_FOLDER_NOTCH_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_FOLDER_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_FOLDER_FOLDER_NOTCH_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
+const ICON_FOLDER_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_FOLDER_LIGHT_FOLDER_NOTCH_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_FOLDER_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
 const ICON_FOLDER_LOCK_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -89853,81 +89813,60 @@ const ICON_FOLDER_LOCK_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size
 
 const ICON_FOLDER_LOCK_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_FOLDER_MINUS_BOLD_FOLDER_NOTCH_MINUS_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_FOLDER_MINUS_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_FOLDER_MINUS_DUOTONE_FOLDER_NOTCH_MINUS_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_FOLDER_MINUS_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_FOLDER_MINUS_FILL_FOLDER_NOTCH_MINUS_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_FOLDER_MINUS_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_FOLDER_MINUS_FOLDER_NOTCH_MINUS_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_FOLDER_MINUS_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_FOLDER_MINUS_LIGHT_FOLDER_NOTCH_MINUS_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_FOLDER_MINUS_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_FOLDER_MINUS_THIN_FOLDER_NOTCH_MINUS_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_FOLDER_MINUS_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_FOLDER_OPEN_BOLD_FOLDER_NOTCH_OPEN_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_FOLDER_OPEN_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_FOLDER_OPEN_DUOTONE_FOLDER_NOTCH_OPEN_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_FOLDER_OPEN_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_FOLDER_OPEN_FILL_FOLDER_NOTCH_OPEN_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_FOLDER_OPEN_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_FOLDER_OPEN_FOLDER_NOTCH_OPEN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_FOLDER_OPEN_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_FOLDER_OPEN_LIGHT_FOLDER_NOTCH_OPEN_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_FOLDER_OPEN_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_FOLDER_OPEN_THIN_FOLDER_NOTCH_OPEN_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_FOLDER_OPEN_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_FOLDER_PLUS_BOLD_FOLDER_NOTCH_PLUS_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_FOLDER_PLUS_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_FOLDER_PLUS_DUOTONE_FOLDER_NOTCH_PLUS_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_FOLDER_PLUS_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_FOLDER_PLUS_FILL_FOLDER_NOTCH_PLUS_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_FOLDER_PLUS_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_FOLDER_PLUS_FOLDER_NOTCH_PLUS_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_FOLDER_PLUS_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_FOLDER_PLUS_LIGHT_FOLDER_NOTCH_PLUS_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_FOLDER_PLUS_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_FOLDER_PLUS_THIN_FOLDER_NOTCH_PLUS_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_FOLDER_PLUS_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_FOLDER_SIMPLE_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
 const ICON_FOLDER_SIMPLE_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_FOLDER_SIMPLE_DASHED_BOLD_FOLDER_SIMPLE_DOTTED_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_FOLDER_SIMPLE_DASHED_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_FOLDER_SIMPLE_DASHED_DUOTONE_FOLDER_SIMPLE_DOTTED_DUOTONE_AVAILABLE: &[(Style, Size)] =
+const ICON_FOLDER_SIMPLE_DASHED_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
+
+const ICON_FOLDER_SIMPLE_DASHED_DUOTONE_AVAILABLE: &[(Style, Size)] =
     &[(Style::Duotone, Size::Regular)];
 
-const ICON_FOLDER_SIMPLE_DASHED_FILL_FOLDER_SIMPLE_DOTTED_FILL_AVAILABLE: &[(Style, Size)] =
+const ICON_FOLDER_SIMPLE_DASHED_FILL_AVAILABLE: &[(Style, Size)] =
     &[(Style::Filled, Size::Regular)];
 
-const ICON_FOLDER_SIMPLE_DASHED_FOLDER_SIMPLE_DOTTED_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
-
-const ICON_FOLDER_SIMPLE_DASHED_LIGHT_FOLDER_SIMPLE_DOTTED_LIGHT_AVAILABLE: &[(Style, Size)] =
+const ICON_FOLDER_SIMPLE_DASHED_LIGHT_AVAILABLE: &[(Style, Size)] =
     &[(Style::Light, Size::Regular)];
 
-const ICON_FOLDER_SIMPLE_DASHED_THIN_FOLDER_SIMPLE_DOTTED_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_FOLDER_SIMPLE_DASHED_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_FOLDER_SIMPLE_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
@@ -90014,8 +89953,7 @@ const ICON_FOLDER_STAR_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size
 
 const ICON_FOLDER_STAR_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_FOLDER_THIN_FOLDER_NOTCH_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_FOLDER_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_FOLDER_USER_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -91766,22 +91704,17 @@ const ICON_IMAGES_SQUARE_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size
 
 const ICON_IMAGES_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_INFINITY_BOLD_LEMNISCATE_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_INFINITY_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_INFINITY_DUOTONE_LEMNISCATE_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_INFINITY_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_INFINITY_FILL_LEMNISCATE_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_INFINITY_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_INFINITY_LEMNISCATE_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
+const ICON_INFINITY_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_INFINITY_LIGHT_LEMNISCATE_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_INFINITY_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_INFINITY_THIN_LEMNISCATE_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_INFINITY_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_INFO_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -95685,19 +95618,17 @@ const ICON_PROJECTOR_SCREEN_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light,
 
 const ICON_PROJECTOR_SCREEN_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_PULSE_ACTIVITY_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
+const ICON_PULSE_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_PULSE_BOLD_ACTIVITY_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
+const ICON_PULSE_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_PULSE_DUOTONE_ACTIVITY_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_PULSE_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_PULSE_FILL_ACTIVITY_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
+const ICON_PULSE_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_PULSE_LIGHT_ACTIVITY_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_PULSE_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_PULSE_THIN_ACTIVITY_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
+const ICON_PULSE_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_PUSH_PIN_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -96364,36 +96295,27 @@ const ICON_SCROLL_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Reg
 
 const ICON_SCROLL_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_SEAL_BOLD_CIRCLE_WAVY_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
+const ICON_SEAL_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_SEAL_CHECK_BOLD_CIRCLE_WAVY_CHECK_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_SEAL_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_SEAL_CHECK_CIRCLE_WAVY_CHECK_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_SEAL_CHECK_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_SEAL_CHECK_DUOTONE_CIRCLE_WAVY_CHECK_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_SEAL_CHECK_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_SEAL_CHECK_FILL_CIRCLE_WAVY_CHECK_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_SEAL_CHECK_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_SEAL_CHECK_LIGHT_CIRCLE_WAVY_CHECK_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_SEAL_CHECK_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_SEAL_CHECK_THIN_CIRCLE_WAVY_CHECK_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_SEAL_CHECK_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_SEAL_CIRCLE_WAVY_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
+const ICON_SEAL_CHECK_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_SEAL_DUOTONE_CIRCLE_WAVY_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_SEAL_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_SEAL_FILL_CIRCLE_WAVY_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_SEAL_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_SEAL_LIGHT_CIRCLE_WAVY_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_SEAL_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
 const ICON_SEAL_PERCENT_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -96407,43 +96329,31 @@ const ICON_SEAL_PERCENT_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Siz
 
 const ICON_SEAL_PERCENT_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_SEAL_QUESTION_BOLD_CIRCLE_WAVY_QUESTION_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_SEAL_QUESTION_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_SEAL_QUESTION_CIRCLE_WAVY_QUESTION_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_SEAL_QUESTION_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_SEAL_QUESTION_DUOTONE_CIRCLE_WAVY_QUESTION_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_SEAL_QUESTION_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_SEAL_QUESTION_FILL_CIRCLE_WAVY_QUESTION_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_SEAL_QUESTION_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_SEAL_QUESTION_LIGHT_CIRCLE_WAVY_QUESTION_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_SEAL_QUESTION_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_SEAL_QUESTION_THIN_CIRCLE_WAVY_QUESTION_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_SEAL_QUESTION_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_SEAL_THIN_CIRCLE_WAVY_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
+const ICON_SEAL_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_SEAL_WARNING_BOLD_CIRCLE_WAVY_WARNING_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_SEAL_WARNING_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_SEAL_WARNING_CIRCLE_WAVY_WARNING_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_SEAL_WARNING_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_SEAL_WARNING_DUOTONE_CIRCLE_WAVY_WARNING_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_SEAL_WARNING_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_SEAL_WARNING_FILL_CIRCLE_WAVY_WARNING_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_SEAL_WARNING_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_SEAL_WARNING_LIGHT_CIRCLE_WAVY_WARNING_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_SEAL_WARNING_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_SEAL_WARNING_THIN_CIRCLE_WAVY_WARNING_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_SEAL_WARNING_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_SEAT_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -98601,22 +98511,17 @@ const ICON_TEXT_ALIGN_RIGHT_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light,
 
 const ICON_TEXT_ALIGN_RIGHT_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
-const ICON_TEXT_B_BOLD_TEXT_BOLDER_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_TEXT_B_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_TEXT_B_DUOTONE_TEXT_BOLDER_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_TEXT_B_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_TEXT_B_FILL_TEXT_BOLDER_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_TEXT_B_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_TEXT_B_LIGHT_TEXT_BOLDER_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_TEXT_B_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_TEXT_B_TEXT_BOLDER_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
+const ICON_TEXT_B_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_TEXT_B_THIN_TEXT_BOLDER_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_TEXT_B_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_TEXT_COLUMNS_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -99311,23 +99216,17 @@ const ICON_TRASH_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regula
 
 const ICON_TRAY_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_TRAY_ARROW_DOWN_ARCHIVE_TRAY_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Regular, Size::Regular)];
+const ICON_TRAY_ARROW_DOWN_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
-const ICON_TRAY_ARROW_DOWN_BOLD_ARCHIVE_TRAY_BOLD_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Bold, Size::Regular)];
+const ICON_TRAY_ARROW_DOWN_BOLD_AVAILABLE: &[(Style, Size)] = &[(Style::Bold, Size::Regular)];
 
-const ICON_TRAY_ARROW_DOWN_DUOTONE_ARCHIVE_TRAY_DUOTONE_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Duotone, Size::Regular)];
+const ICON_TRAY_ARROW_DOWN_DUOTONE_AVAILABLE: &[(Style, Size)] = &[(Style::Duotone, Size::Regular)];
 
-const ICON_TRAY_ARROW_DOWN_FILL_ARCHIVE_TRAY_FILL_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Filled, Size::Regular)];
+const ICON_TRAY_ARROW_DOWN_FILL_AVAILABLE: &[(Style, Size)] = &[(Style::Filled, Size::Regular)];
 
-const ICON_TRAY_ARROW_DOWN_LIGHT_ARCHIVE_TRAY_LIGHT_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Light, Size::Regular)];
+const ICON_TRAY_ARROW_DOWN_LIGHT_AVAILABLE: &[(Style, Size)] = &[(Style::Light, Size::Regular)];
 
-const ICON_TRAY_ARROW_DOWN_THIN_ARCHIVE_TRAY_THIN_AVAILABLE: &[(Style, Size)] =
-    &[(Style::Thin, Size::Regular)];
+const ICON_TRAY_ARROW_DOWN_THIN_AVAILABLE: &[(Style, Size)] = &[(Style::Thin, Size::Regular)];
 
 const ICON_TRAY_ARROW_UP_AVAILABLE: &[(Style, Size)] = &[(Style::Regular, Size::Regular)];
 
@@ -104768,34 +104667,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_ARTICLE_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "asclepius-bold-caduceus-bold",
-        variants: ICON_ASCLEPIUS_BOLD_CADUCEUS_BOLD_CODEPOINTS,
-        available: ICON_ASCLEPIUS_BOLD_CADUCEUS_BOLD_AVAILABLE,
+        name: "asclepius",
+        variants: ICON_ASCLEPIUS_CODEPOINTS,
+        available: ICON_ASCLEPIUS_AVAILABLE,
     },
     IconEntry {
-        name: "asclepius-caduceus",
-        variants: ICON_ASCLEPIUS_CADUCEUS_CODEPOINTS,
-        available: ICON_ASCLEPIUS_CADUCEUS_AVAILABLE,
+        name: "asclepius-bold",
+        variants: ICON_ASCLEPIUS_BOLD_CODEPOINTS,
+        available: ICON_ASCLEPIUS_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "asclepius-duotone-caduceus-duotone",
-        variants: ICON_ASCLEPIUS_DUOTONE_CADUCEUS_DUOTONE_CODEPOINTS,
-        available: ICON_ASCLEPIUS_DUOTONE_CADUCEUS_DUOTONE_AVAILABLE,
+        name: "asclepius-duotone",
+        variants: ICON_ASCLEPIUS_DUOTONE_CODEPOINTS,
+        available: ICON_ASCLEPIUS_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "asclepius-fill-caduceus-fill",
-        variants: ICON_ASCLEPIUS_FILL_CADUCEUS_FILL_CODEPOINTS,
-        available: ICON_ASCLEPIUS_FILL_CADUCEUS_FILL_AVAILABLE,
+        name: "asclepius-fill",
+        variants: ICON_ASCLEPIUS_FILL_CODEPOINTS,
+        available: ICON_ASCLEPIUS_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "asclepius-light-caduceus-light",
-        variants: ICON_ASCLEPIUS_LIGHT_CADUCEUS_LIGHT_CODEPOINTS,
-        available: ICON_ASCLEPIUS_LIGHT_CADUCEUS_LIGHT_AVAILABLE,
+        name: "asclepius-light",
+        variants: ICON_ASCLEPIUS_LIGHT_CODEPOINTS,
+        available: ICON_ASCLEPIUS_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "asclepius-thin-caduceus-thin",
-        variants: ICON_ASCLEPIUS_THIN_CADUCEUS_THIN_CODEPOINTS,
-        available: ICON_ASCLEPIUS_THIN_CADUCEUS_THIN_AVAILABLE,
+        name: "asclepius-thin",
+        variants: ICON_ASCLEPIUS_THIN_CODEPOINTS,
+        available: ICON_ASCLEPIUS_THIN_AVAILABLE,
     },
     IconEntry {
         name: "asterisk",
@@ -107378,34 +107277,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_BOWLING_BALL_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "box-arrow-down-archive-box",
-        variants: ICON_BOX_ARROW_DOWN_ARCHIVE_BOX_CODEPOINTS,
-        available: ICON_BOX_ARROW_DOWN_ARCHIVE_BOX_AVAILABLE,
+        name: "box-arrow-down",
+        variants: ICON_BOX_ARROW_DOWN_CODEPOINTS,
+        available: ICON_BOX_ARROW_DOWN_AVAILABLE,
     },
     IconEntry {
-        name: "box-arrow-down-bold-archive-box-bold",
-        variants: ICON_BOX_ARROW_DOWN_BOLD_ARCHIVE_BOX_BOLD_CODEPOINTS,
-        available: ICON_BOX_ARROW_DOWN_BOLD_ARCHIVE_BOX_BOLD_AVAILABLE,
+        name: "box-arrow-down-bold",
+        variants: ICON_BOX_ARROW_DOWN_BOLD_CODEPOINTS,
+        available: ICON_BOX_ARROW_DOWN_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "box-arrow-down-duotone-archive-box-duotone",
-        variants: ICON_BOX_ARROW_DOWN_DUOTONE_ARCHIVE_BOX_DUOTONE_CODEPOINTS,
-        available: ICON_BOX_ARROW_DOWN_DUOTONE_ARCHIVE_BOX_DUOTONE_AVAILABLE,
+        name: "box-arrow-down-duotone",
+        variants: ICON_BOX_ARROW_DOWN_DUOTONE_CODEPOINTS,
+        available: ICON_BOX_ARROW_DOWN_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "box-arrow-down-fill-archive-box-fill",
-        variants: ICON_BOX_ARROW_DOWN_FILL_ARCHIVE_BOX_FILL_CODEPOINTS,
-        available: ICON_BOX_ARROW_DOWN_FILL_ARCHIVE_BOX_FILL_AVAILABLE,
+        name: "box-arrow-down-fill",
+        variants: ICON_BOX_ARROW_DOWN_FILL_CODEPOINTS,
+        available: ICON_BOX_ARROW_DOWN_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "box-arrow-down-light-archive-box-light",
-        variants: ICON_BOX_ARROW_DOWN_LIGHT_ARCHIVE_BOX_LIGHT_CODEPOINTS,
-        available: ICON_BOX_ARROW_DOWN_LIGHT_ARCHIVE_BOX_LIGHT_AVAILABLE,
+        name: "box-arrow-down-light",
+        variants: ICON_BOX_ARROW_DOWN_LIGHT_CODEPOINTS,
+        available: ICON_BOX_ARROW_DOWN_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "box-arrow-down-thin-archive-box-thin",
-        variants: ICON_BOX_ARROW_DOWN_THIN_ARCHIVE_BOX_THIN_CODEPOINTS,
-        available: ICON_BOX_ARROW_DOWN_THIN_ARCHIVE_BOX_THIN_AVAILABLE,
+        name: "box-arrow-down-thin",
+        variants: ICON_BOX_ARROW_DOWN_THIN_CODEPOINTS,
+        available: ICON_BOX_ARROW_DOWN_THIN_AVAILABLE,
     },
     IconEntry {
         name: "box-arrow-up",
@@ -117888,34 +117787,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_FILE_CSV_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "file-dashed-bold-file-dotted-bold",
-        variants: ICON_FILE_DASHED_BOLD_FILE_DOTTED_BOLD_CODEPOINTS,
-        available: ICON_FILE_DASHED_BOLD_FILE_DOTTED_BOLD_AVAILABLE,
+        name: "file-dashed",
+        variants: ICON_FILE_DASHED_CODEPOINTS,
+        available: ICON_FILE_DASHED_AVAILABLE,
     },
     IconEntry {
-        name: "file-dashed-duotone-file-dotted-duotone",
-        variants: ICON_FILE_DASHED_DUOTONE_FILE_DOTTED_DUOTONE_CODEPOINTS,
-        available: ICON_FILE_DASHED_DUOTONE_FILE_DOTTED_DUOTONE_AVAILABLE,
+        name: "file-dashed-bold",
+        variants: ICON_FILE_DASHED_BOLD_CODEPOINTS,
+        available: ICON_FILE_DASHED_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "file-dashed-file-dotted",
-        variants: ICON_FILE_DASHED_FILE_DOTTED_CODEPOINTS,
-        available: ICON_FILE_DASHED_FILE_DOTTED_AVAILABLE,
+        name: "file-dashed-duotone",
+        variants: ICON_FILE_DASHED_DUOTONE_CODEPOINTS,
+        available: ICON_FILE_DASHED_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "file-dashed-fill-file-dotted-fill",
-        variants: ICON_FILE_DASHED_FILL_FILE_DOTTED_FILL_CODEPOINTS,
-        available: ICON_FILE_DASHED_FILL_FILE_DOTTED_FILL_AVAILABLE,
+        name: "file-dashed-fill",
+        variants: ICON_FILE_DASHED_FILL_CODEPOINTS,
+        available: ICON_FILE_DASHED_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "file-dashed-light-file-dotted-light",
-        variants: ICON_FILE_DASHED_LIGHT_FILE_DOTTED_LIGHT_CODEPOINTS,
-        available: ICON_FILE_DASHED_LIGHT_FILE_DOTTED_LIGHT_AVAILABLE,
+        name: "file-dashed-light",
+        variants: ICON_FILE_DASHED_LIGHT_CODEPOINTS,
+        available: ICON_FILE_DASHED_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "file-dashed-thin-file-dotted-thin",
-        variants: ICON_FILE_DASHED_THIN_FILE_DOTTED_THIN_CODEPOINTS,
-        available: ICON_FILE_DASHED_THIN_FILE_DOTTED_THIN_AVAILABLE,
+        name: "file-dashed-thin",
+        variants: ICON_FILE_DASHED_THIN_CODEPOINTS,
+        available: ICON_FILE_DASHED_THIN_AVAILABLE,
     },
     IconEntry {
         name: "file-doc",
@@ -118173,34 +118072,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_FILE_LOCK_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "file-magnifying-glass-bold-file-search-bold",
-        variants: ICON_FILE_MAGNIFYING_GLASS_BOLD_FILE_SEARCH_BOLD_CODEPOINTS,
-        available: ICON_FILE_MAGNIFYING_GLASS_BOLD_FILE_SEARCH_BOLD_AVAILABLE,
+        name: "file-magnifying-glass",
+        variants: ICON_FILE_MAGNIFYING_GLASS_CODEPOINTS,
+        available: ICON_FILE_MAGNIFYING_GLASS_AVAILABLE,
     },
     IconEntry {
-        name: "file-magnifying-glass-duotone-file-search-duotone",
-        variants: ICON_FILE_MAGNIFYING_GLASS_DUOTONE_FILE_SEARCH_DUOTONE_CODEPOINTS,
-        available: ICON_FILE_MAGNIFYING_GLASS_DUOTONE_FILE_SEARCH_DUOTONE_AVAILABLE,
+        name: "file-magnifying-glass-bold",
+        variants: ICON_FILE_MAGNIFYING_GLASS_BOLD_CODEPOINTS,
+        available: ICON_FILE_MAGNIFYING_GLASS_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "file-magnifying-glass-file-search",
-        variants: ICON_FILE_MAGNIFYING_GLASS_FILE_SEARCH_CODEPOINTS,
-        available: ICON_FILE_MAGNIFYING_GLASS_FILE_SEARCH_AVAILABLE,
+        name: "file-magnifying-glass-duotone",
+        variants: ICON_FILE_MAGNIFYING_GLASS_DUOTONE_CODEPOINTS,
+        available: ICON_FILE_MAGNIFYING_GLASS_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "file-magnifying-glass-fill-file-search-fill",
-        variants: ICON_FILE_MAGNIFYING_GLASS_FILL_FILE_SEARCH_FILL_CODEPOINTS,
-        available: ICON_FILE_MAGNIFYING_GLASS_FILL_FILE_SEARCH_FILL_AVAILABLE,
+        name: "file-magnifying-glass-fill",
+        variants: ICON_FILE_MAGNIFYING_GLASS_FILL_CODEPOINTS,
+        available: ICON_FILE_MAGNIFYING_GLASS_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "file-magnifying-glass-light-file-search-light",
-        variants: ICON_FILE_MAGNIFYING_GLASS_LIGHT_FILE_SEARCH_LIGHT_CODEPOINTS,
-        available: ICON_FILE_MAGNIFYING_GLASS_LIGHT_FILE_SEARCH_LIGHT_AVAILABLE,
+        name: "file-magnifying-glass-light",
+        variants: ICON_FILE_MAGNIFYING_GLASS_LIGHT_CODEPOINTS,
+        available: ICON_FILE_MAGNIFYING_GLASS_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "file-magnifying-glass-thin-file-search-thin",
-        variants: ICON_FILE_MAGNIFYING_GLASS_THIN_FILE_SEARCH_THIN_CODEPOINTS,
-        available: ICON_FILE_MAGNIFYING_GLASS_THIN_FILE_SEARCH_THIN_AVAILABLE,
+        name: "file-magnifying-glass-thin",
+        variants: ICON_FILE_MAGNIFYING_GLASS_THIN_CODEPOINTS,
+        available: ICON_FILE_MAGNIFYING_GLASS_THIN_AVAILABLE,
     },
     IconEntry {
         name: "file-md",
@@ -119768,59 +119667,59 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_FLYING_SAUCER_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "folder-bold-folder-notch-bold",
-        variants: ICON_FOLDER_BOLD_FOLDER_NOTCH_BOLD_CODEPOINTS,
-        available: ICON_FOLDER_BOLD_FOLDER_NOTCH_BOLD_AVAILABLE,
+        name: "folder",
+        variants: ICON_FOLDER_CODEPOINTS,
+        available: ICON_FOLDER_AVAILABLE,
     },
     IconEntry {
-        name: "folder-dashed-bold-folder-dotted-bold",
-        variants: ICON_FOLDER_DASHED_BOLD_FOLDER_DOTTED_BOLD_CODEPOINTS,
-        available: ICON_FOLDER_DASHED_BOLD_FOLDER_DOTTED_BOLD_AVAILABLE,
+        name: "folder-bold",
+        variants: ICON_FOLDER_BOLD_CODEPOINTS,
+        available: ICON_FOLDER_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "folder-dashed-duotone-folder-dotted-duotone",
-        variants: ICON_FOLDER_DASHED_DUOTONE_FOLDER_DOTTED_DUOTONE_CODEPOINTS,
-        available: ICON_FOLDER_DASHED_DUOTONE_FOLDER_DOTTED_DUOTONE_AVAILABLE,
+        name: "folder-dashed",
+        variants: ICON_FOLDER_DASHED_CODEPOINTS,
+        available: ICON_FOLDER_DASHED_AVAILABLE,
     },
     IconEntry {
-        name: "folder-dashed-fill-folder-dotted-fill",
-        variants: ICON_FOLDER_DASHED_FILL_FOLDER_DOTTED_FILL_CODEPOINTS,
-        available: ICON_FOLDER_DASHED_FILL_FOLDER_DOTTED_FILL_AVAILABLE,
+        name: "folder-dashed-bold",
+        variants: ICON_FOLDER_DASHED_BOLD_CODEPOINTS,
+        available: ICON_FOLDER_DASHED_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "folder-dashed-folder-dotted",
-        variants: ICON_FOLDER_DASHED_FOLDER_DOTTED_CODEPOINTS,
-        available: ICON_FOLDER_DASHED_FOLDER_DOTTED_AVAILABLE,
+        name: "folder-dashed-duotone",
+        variants: ICON_FOLDER_DASHED_DUOTONE_CODEPOINTS,
+        available: ICON_FOLDER_DASHED_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "folder-dashed-light-folder-dotted-light",
-        variants: ICON_FOLDER_DASHED_LIGHT_FOLDER_DOTTED_LIGHT_CODEPOINTS,
-        available: ICON_FOLDER_DASHED_LIGHT_FOLDER_DOTTED_LIGHT_AVAILABLE,
+        name: "folder-dashed-fill",
+        variants: ICON_FOLDER_DASHED_FILL_CODEPOINTS,
+        available: ICON_FOLDER_DASHED_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "folder-dashed-thin-folder-dotted-thin",
-        variants: ICON_FOLDER_DASHED_THIN_FOLDER_DOTTED_THIN_CODEPOINTS,
-        available: ICON_FOLDER_DASHED_THIN_FOLDER_DOTTED_THIN_AVAILABLE,
+        name: "folder-dashed-light",
+        variants: ICON_FOLDER_DASHED_LIGHT_CODEPOINTS,
+        available: ICON_FOLDER_DASHED_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "folder-duotone-folder-notch-duotone",
-        variants: ICON_FOLDER_DUOTONE_FOLDER_NOTCH_DUOTONE_CODEPOINTS,
-        available: ICON_FOLDER_DUOTONE_FOLDER_NOTCH_DUOTONE_AVAILABLE,
+        name: "folder-dashed-thin",
+        variants: ICON_FOLDER_DASHED_THIN_CODEPOINTS,
+        available: ICON_FOLDER_DASHED_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "folder-fill-folder-notch-fill",
-        variants: ICON_FOLDER_FILL_FOLDER_NOTCH_FILL_CODEPOINTS,
-        available: ICON_FOLDER_FILL_FOLDER_NOTCH_FILL_AVAILABLE,
+        name: "folder-duotone",
+        variants: ICON_FOLDER_DUOTONE_CODEPOINTS,
+        available: ICON_FOLDER_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "folder-folder-notch",
-        variants: ICON_FOLDER_FOLDER_NOTCH_CODEPOINTS,
-        available: ICON_FOLDER_FOLDER_NOTCH_AVAILABLE,
+        name: "folder-fill",
+        variants: ICON_FOLDER_FILL_CODEPOINTS,
+        available: ICON_FOLDER_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "folder-light-folder-notch-light",
-        variants: ICON_FOLDER_LIGHT_FOLDER_NOTCH_LIGHT_CODEPOINTS,
-        available: ICON_FOLDER_LIGHT_FOLDER_NOTCH_LIGHT_AVAILABLE,
+        name: "folder-light",
+        variants: ICON_FOLDER_LIGHT_CODEPOINTS,
+        available: ICON_FOLDER_LIGHT_AVAILABLE,
     },
     IconEntry {
         name: "folder-lock",
@@ -119853,94 +119752,94 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_FOLDER_LOCK_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "folder-minus-bold-folder-notch-minus-bold",
-        variants: ICON_FOLDER_MINUS_BOLD_FOLDER_NOTCH_MINUS_BOLD_CODEPOINTS,
-        available: ICON_FOLDER_MINUS_BOLD_FOLDER_NOTCH_MINUS_BOLD_AVAILABLE,
+        name: "folder-minus",
+        variants: ICON_FOLDER_MINUS_CODEPOINTS,
+        available: ICON_FOLDER_MINUS_AVAILABLE,
     },
     IconEntry {
-        name: "folder-minus-duotone-folder-notch-minus-duotone",
-        variants: ICON_FOLDER_MINUS_DUOTONE_FOLDER_NOTCH_MINUS_DUOTONE_CODEPOINTS,
-        available: ICON_FOLDER_MINUS_DUOTONE_FOLDER_NOTCH_MINUS_DUOTONE_AVAILABLE,
+        name: "folder-minus-bold",
+        variants: ICON_FOLDER_MINUS_BOLD_CODEPOINTS,
+        available: ICON_FOLDER_MINUS_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "folder-minus-fill-folder-notch-minus-fill",
-        variants: ICON_FOLDER_MINUS_FILL_FOLDER_NOTCH_MINUS_FILL_CODEPOINTS,
-        available: ICON_FOLDER_MINUS_FILL_FOLDER_NOTCH_MINUS_FILL_AVAILABLE,
+        name: "folder-minus-duotone",
+        variants: ICON_FOLDER_MINUS_DUOTONE_CODEPOINTS,
+        available: ICON_FOLDER_MINUS_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "folder-minus-folder-notch-minus",
-        variants: ICON_FOLDER_MINUS_FOLDER_NOTCH_MINUS_CODEPOINTS,
-        available: ICON_FOLDER_MINUS_FOLDER_NOTCH_MINUS_AVAILABLE,
+        name: "folder-minus-fill",
+        variants: ICON_FOLDER_MINUS_FILL_CODEPOINTS,
+        available: ICON_FOLDER_MINUS_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "folder-minus-light-folder-notch-minus-light",
-        variants: ICON_FOLDER_MINUS_LIGHT_FOLDER_NOTCH_MINUS_LIGHT_CODEPOINTS,
-        available: ICON_FOLDER_MINUS_LIGHT_FOLDER_NOTCH_MINUS_LIGHT_AVAILABLE,
+        name: "folder-minus-light",
+        variants: ICON_FOLDER_MINUS_LIGHT_CODEPOINTS,
+        available: ICON_FOLDER_MINUS_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "folder-minus-thin-folder-notch-minus-thin",
-        variants: ICON_FOLDER_MINUS_THIN_FOLDER_NOTCH_MINUS_THIN_CODEPOINTS,
-        available: ICON_FOLDER_MINUS_THIN_FOLDER_NOTCH_MINUS_THIN_AVAILABLE,
+        name: "folder-minus-thin",
+        variants: ICON_FOLDER_MINUS_THIN_CODEPOINTS,
+        available: ICON_FOLDER_MINUS_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "folder-open-bold-folder-notch-open-bold",
-        variants: ICON_FOLDER_OPEN_BOLD_FOLDER_NOTCH_OPEN_BOLD_CODEPOINTS,
-        available: ICON_FOLDER_OPEN_BOLD_FOLDER_NOTCH_OPEN_BOLD_AVAILABLE,
+        name: "folder-open",
+        variants: ICON_FOLDER_OPEN_CODEPOINTS,
+        available: ICON_FOLDER_OPEN_AVAILABLE,
     },
     IconEntry {
-        name: "folder-open-duotone-folder-notch-open-duotone",
-        variants: ICON_FOLDER_OPEN_DUOTONE_FOLDER_NOTCH_OPEN_DUOTONE_CODEPOINTS,
-        available: ICON_FOLDER_OPEN_DUOTONE_FOLDER_NOTCH_OPEN_DUOTONE_AVAILABLE,
+        name: "folder-open-bold",
+        variants: ICON_FOLDER_OPEN_BOLD_CODEPOINTS,
+        available: ICON_FOLDER_OPEN_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "folder-open-fill-folder-notch-open-fill",
-        variants: ICON_FOLDER_OPEN_FILL_FOLDER_NOTCH_OPEN_FILL_CODEPOINTS,
-        available: ICON_FOLDER_OPEN_FILL_FOLDER_NOTCH_OPEN_FILL_AVAILABLE,
+        name: "folder-open-duotone",
+        variants: ICON_FOLDER_OPEN_DUOTONE_CODEPOINTS,
+        available: ICON_FOLDER_OPEN_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "folder-open-folder-notch-open",
-        variants: ICON_FOLDER_OPEN_FOLDER_NOTCH_OPEN_CODEPOINTS,
-        available: ICON_FOLDER_OPEN_FOLDER_NOTCH_OPEN_AVAILABLE,
+        name: "folder-open-fill",
+        variants: ICON_FOLDER_OPEN_FILL_CODEPOINTS,
+        available: ICON_FOLDER_OPEN_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "folder-open-light-folder-notch-open-light",
-        variants: ICON_FOLDER_OPEN_LIGHT_FOLDER_NOTCH_OPEN_LIGHT_CODEPOINTS,
-        available: ICON_FOLDER_OPEN_LIGHT_FOLDER_NOTCH_OPEN_LIGHT_AVAILABLE,
+        name: "folder-open-light",
+        variants: ICON_FOLDER_OPEN_LIGHT_CODEPOINTS,
+        available: ICON_FOLDER_OPEN_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "folder-open-thin-folder-notch-open-thin",
-        variants: ICON_FOLDER_OPEN_THIN_FOLDER_NOTCH_OPEN_THIN_CODEPOINTS,
-        available: ICON_FOLDER_OPEN_THIN_FOLDER_NOTCH_OPEN_THIN_AVAILABLE,
+        name: "folder-open-thin",
+        variants: ICON_FOLDER_OPEN_THIN_CODEPOINTS,
+        available: ICON_FOLDER_OPEN_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "folder-plus-bold-folder-notch-plus-bold",
-        variants: ICON_FOLDER_PLUS_BOLD_FOLDER_NOTCH_PLUS_BOLD_CODEPOINTS,
-        available: ICON_FOLDER_PLUS_BOLD_FOLDER_NOTCH_PLUS_BOLD_AVAILABLE,
+        name: "folder-plus",
+        variants: ICON_FOLDER_PLUS_CODEPOINTS,
+        available: ICON_FOLDER_PLUS_AVAILABLE,
     },
     IconEntry {
-        name: "folder-plus-duotone-folder-notch-plus-duotone",
-        variants: ICON_FOLDER_PLUS_DUOTONE_FOLDER_NOTCH_PLUS_DUOTONE_CODEPOINTS,
-        available: ICON_FOLDER_PLUS_DUOTONE_FOLDER_NOTCH_PLUS_DUOTONE_AVAILABLE,
+        name: "folder-plus-bold",
+        variants: ICON_FOLDER_PLUS_BOLD_CODEPOINTS,
+        available: ICON_FOLDER_PLUS_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "folder-plus-fill-folder-notch-plus-fill",
-        variants: ICON_FOLDER_PLUS_FILL_FOLDER_NOTCH_PLUS_FILL_CODEPOINTS,
-        available: ICON_FOLDER_PLUS_FILL_FOLDER_NOTCH_PLUS_FILL_AVAILABLE,
+        name: "folder-plus-duotone",
+        variants: ICON_FOLDER_PLUS_DUOTONE_CODEPOINTS,
+        available: ICON_FOLDER_PLUS_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "folder-plus-folder-notch-plus",
-        variants: ICON_FOLDER_PLUS_FOLDER_NOTCH_PLUS_CODEPOINTS,
-        available: ICON_FOLDER_PLUS_FOLDER_NOTCH_PLUS_AVAILABLE,
+        name: "folder-plus-fill",
+        variants: ICON_FOLDER_PLUS_FILL_CODEPOINTS,
+        available: ICON_FOLDER_PLUS_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "folder-plus-light-folder-notch-plus-light",
-        variants: ICON_FOLDER_PLUS_LIGHT_FOLDER_NOTCH_PLUS_LIGHT_CODEPOINTS,
-        available: ICON_FOLDER_PLUS_LIGHT_FOLDER_NOTCH_PLUS_LIGHT_AVAILABLE,
+        name: "folder-plus-light",
+        variants: ICON_FOLDER_PLUS_LIGHT_CODEPOINTS,
+        available: ICON_FOLDER_PLUS_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "folder-plus-thin-folder-notch-plus-thin",
-        variants: ICON_FOLDER_PLUS_THIN_FOLDER_NOTCH_PLUS_THIN_CODEPOINTS,
-        available: ICON_FOLDER_PLUS_THIN_FOLDER_NOTCH_PLUS_THIN_AVAILABLE,
+        name: "folder-plus-thin",
+        variants: ICON_FOLDER_PLUS_THIN_CODEPOINTS,
+        available: ICON_FOLDER_PLUS_THIN_AVAILABLE,
     },
     IconEntry {
         name: "folder-simple",
@@ -119953,34 +119852,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_FOLDER_SIMPLE_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "folder-simple-dashed-bold-folder-simple-dotted-bold",
-        variants: ICON_FOLDER_SIMPLE_DASHED_BOLD_FOLDER_SIMPLE_DOTTED_BOLD_CODEPOINTS,
-        available: ICON_FOLDER_SIMPLE_DASHED_BOLD_FOLDER_SIMPLE_DOTTED_BOLD_AVAILABLE,
+        name: "folder-simple-dashed",
+        variants: ICON_FOLDER_SIMPLE_DASHED_CODEPOINTS,
+        available: ICON_FOLDER_SIMPLE_DASHED_AVAILABLE,
     },
     IconEntry {
-        name: "folder-simple-dashed-duotone-folder-simple-dotted-duotone",
-        variants: ICON_FOLDER_SIMPLE_DASHED_DUOTONE_FOLDER_SIMPLE_DOTTED_DUOTONE_CODEPOINTS,
-        available: ICON_FOLDER_SIMPLE_DASHED_DUOTONE_FOLDER_SIMPLE_DOTTED_DUOTONE_AVAILABLE,
+        name: "folder-simple-dashed-bold",
+        variants: ICON_FOLDER_SIMPLE_DASHED_BOLD_CODEPOINTS,
+        available: ICON_FOLDER_SIMPLE_DASHED_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "folder-simple-dashed-fill-folder-simple-dotted-fill",
-        variants: ICON_FOLDER_SIMPLE_DASHED_FILL_FOLDER_SIMPLE_DOTTED_FILL_CODEPOINTS,
-        available: ICON_FOLDER_SIMPLE_DASHED_FILL_FOLDER_SIMPLE_DOTTED_FILL_AVAILABLE,
+        name: "folder-simple-dashed-duotone",
+        variants: ICON_FOLDER_SIMPLE_DASHED_DUOTONE_CODEPOINTS,
+        available: ICON_FOLDER_SIMPLE_DASHED_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "folder-simple-dashed-folder-simple-dotted",
-        variants: ICON_FOLDER_SIMPLE_DASHED_FOLDER_SIMPLE_DOTTED_CODEPOINTS,
-        available: ICON_FOLDER_SIMPLE_DASHED_FOLDER_SIMPLE_DOTTED_AVAILABLE,
+        name: "folder-simple-dashed-fill",
+        variants: ICON_FOLDER_SIMPLE_DASHED_FILL_CODEPOINTS,
+        available: ICON_FOLDER_SIMPLE_DASHED_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "folder-simple-dashed-light-folder-simple-dotted-light",
-        variants: ICON_FOLDER_SIMPLE_DASHED_LIGHT_FOLDER_SIMPLE_DOTTED_LIGHT_CODEPOINTS,
-        available: ICON_FOLDER_SIMPLE_DASHED_LIGHT_FOLDER_SIMPLE_DOTTED_LIGHT_AVAILABLE,
+        name: "folder-simple-dashed-light",
+        variants: ICON_FOLDER_SIMPLE_DASHED_LIGHT_CODEPOINTS,
+        available: ICON_FOLDER_SIMPLE_DASHED_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "folder-simple-dashed-thin-folder-simple-dotted-thin",
-        variants: ICON_FOLDER_SIMPLE_DASHED_THIN_FOLDER_SIMPLE_DOTTED_THIN_CODEPOINTS,
-        available: ICON_FOLDER_SIMPLE_DASHED_THIN_FOLDER_SIMPLE_DOTTED_THIN_AVAILABLE,
+        name: "folder-simple-dashed-thin",
+        variants: ICON_FOLDER_SIMPLE_DASHED_THIN_CODEPOINTS,
+        available: ICON_FOLDER_SIMPLE_DASHED_THIN_AVAILABLE,
     },
     IconEntry {
         name: "folder-simple-duotone",
@@ -120183,9 +120082,9 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_FOLDER_STAR_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "folder-thin-folder-notch-thin",
-        variants: ICON_FOLDER_THIN_FOLDER_NOTCH_THIN_CODEPOINTS,
-        available: ICON_FOLDER_THIN_FOLDER_NOTCH_THIN_AVAILABLE,
+        name: "folder-thin",
+        variants: ICON_FOLDER_THIN_CODEPOINTS,
+        available: ICON_FOLDER_THIN_AVAILABLE,
     },
     IconEntry {
         name: "folder-user",
@@ -124448,34 +124347,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_IMAGES_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "infinity-bold-lemniscate-bold",
-        variants: ICON_INFINITY_BOLD_LEMNISCATE_BOLD_CODEPOINTS,
-        available: ICON_INFINITY_BOLD_LEMNISCATE_BOLD_AVAILABLE,
+        name: "infinity",
+        variants: ICON_INFINITY_CODEPOINTS,
+        available: ICON_INFINITY_AVAILABLE,
     },
     IconEntry {
-        name: "infinity-duotone-lemniscate-duotone",
-        variants: ICON_INFINITY_DUOTONE_LEMNISCATE_DUOTONE_CODEPOINTS,
-        available: ICON_INFINITY_DUOTONE_LEMNISCATE_DUOTONE_AVAILABLE,
+        name: "infinity-bold",
+        variants: ICON_INFINITY_BOLD_CODEPOINTS,
+        available: ICON_INFINITY_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "infinity-fill-lemniscate-fill",
-        variants: ICON_INFINITY_FILL_LEMNISCATE_FILL_CODEPOINTS,
-        available: ICON_INFINITY_FILL_LEMNISCATE_FILL_AVAILABLE,
+        name: "infinity-duotone",
+        variants: ICON_INFINITY_DUOTONE_CODEPOINTS,
+        available: ICON_INFINITY_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "infinity-lemniscate",
-        variants: ICON_INFINITY_LEMNISCATE_CODEPOINTS,
-        available: ICON_INFINITY_LEMNISCATE_AVAILABLE,
+        name: "infinity-fill",
+        variants: ICON_INFINITY_FILL_CODEPOINTS,
+        available: ICON_INFINITY_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "infinity-light-lemniscate-light",
-        variants: ICON_INFINITY_LIGHT_LEMNISCATE_LIGHT_CODEPOINTS,
-        available: ICON_INFINITY_LIGHT_LEMNISCATE_LIGHT_AVAILABLE,
+        name: "infinity-light",
+        variants: ICON_INFINITY_LIGHT_CODEPOINTS,
+        available: ICON_INFINITY_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "infinity-thin-lemniscate-thin",
-        variants: ICON_INFINITY_THIN_LEMNISCATE_THIN_CODEPOINTS,
-        available: ICON_INFINITY_THIN_LEMNISCATE_THIN_AVAILABLE,
+        name: "infinity-thin",
+        variants: ICON_INFINITY_THIN_CODEPOINTS,
+        available: ICON_INFINITY_THIN_AVAILABLE,
     },
     IconEntry {
         name: "info",
@@ -133928,34 +133827,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_PROJECTOR_SCREEN_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "pulse-activity",
-        variants: ICON_PULSE_ACTIVITY_CODEPOINTS,
-        available: ICON_PULSE_ACTIVITY_AVAILABLE,
+        name: "pulse",
+        variants: ICON_PULSE_CODEPOINTS,
+        available: ICON_PULSE_AVAILABLE,
     },
     IconEntry {
-        name: "pulse-bold-activity-bold",
-        variants: ICON_PULSE_BOLD_ACTIVITY_BOLD_CODEPOINTS,
-        available: ICON_PULSE_BOLD_ACTIVITY_BOLD_AVAILABLE,
+        name: "pulse-bold",
+        variants: ICON_PULSE_BOLD_CODEPOINTS,
+        available: ICON_PULSE_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "pulse-duotone-activity-duotone",
-        variants: ICON_PULSE_DUOTONE_ACTIVITY_DUOTONE_CODEPOINTS,
-        available: ICON_PULSE_DUOTONE_ACTIVITY_DUOTONE_AVAILABLE,
+        name: "pulse-duotone",
+        variants: ICON_PULSE_DUOTONE_CODEPOINTS,
+        available: ICON_PULSE_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "pulse-fill-activity-fill",
-        variants: ICON_PULSE_FILL_ACTIVITY_FILL_CODEPOINTS,
-        available: ICON_PULSE_FILL_ACTIVITY_FILL_AVAILABLE,
+        name: "pulse-fill",
+        variants: ICON_PULSE_FILL_CODEPOINTS,
+        available: ICON_PULSE_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "pulse-light-activity-light",
-        variants: ICON_PULSE_LIGHT_ACTIVITY_LIGHT_CODEPOINTS,
-        available: ICON_PULSE_LIGHT_ACTIVITY_LIGHT_AVAILABLE,
+        name: "pulse-light",
+        variants: ICON_PULSE_LIGHT_CODEPOINTS,
+        available: ICON_PULSE_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "pulse-thin-activity-thin",
-        variants: ICON_PULSE_THIN_ACTIVITY_THIN_CODEPOINTS,
-        available: ICON_PULSE_THIN_ACTIVITY_THIN_AVAILABLE,
+        name: "pulse-thin",
+        variants: ICON_PULSE_THIN_CODEPOINTS,
+        available: ICON_PULSE_THIN_AVAILABLE,
     },
     IconEntry {
         name: "push-pin",
@@ -135608,59 +135507,59 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_SCROLL_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "seal-bold-circle-wavy-bold",
-        variants: ICON_SEAL_BOLD_CIRCLE_WAVY_BOLD_CODEPOINTS,
-        available: ICON_SEAL_BOLD_CIRCLE_WAVY_BOLD_AVAILABLE,
+        name: "seal",
+        variants: ICON_SEAL_CODEPOINTS,
+        available: ICON_SEAL_AVAILABLE,
     },
     IconEntry {
-        name: "seal-check-bold-circle-wavy-check-bold",
-        variants: ICON_SEAL_CHECK_BOLD_CIRCLE_WAVY_CHECK_BOLD_CODEPOINTS,
-        available: ICON_SEAL_CHECK_BOLD_CIRCLE_WAVY_CHECK_BOLD_AVAILABLE,
+        name: "seal-bold",
+        variants: ICON_SEAL_BOLD_CODEPOINTS,
+        available: ICON_SEAL_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "seal-check-circle-wavy-check",
-        variants: ICON_SEAL_CHECK_CIRCLE_WAVY_CHECK_CODEPOINTS,
-        available: ICON_SEAL_CHECK_CIRCLE_WAVY_CHECK_AVAILABLE,
+        name: "seal-check",
+        variants: ICON_SEAL_CHECK_CODEPOINTS,
+        available: ICON_SEAL_CHECK_AVAILABLE,
     },
     IconEntry {
-        name: "seal-check-duotone-circle-wavy-check-duotone",
-        variants: ICON_SEAL_CHECK_DUOTONE_CIRCLE_WAVY_CHECK_DUOTONE_CODEPOINTS,
-        available: ICON_SEAL_CHECK_DUOTONE_CIRCLE_WAVY_CHECK_DUOTONE_AVAILABLE,
+        name: "seal-check-bold",
+        variants: ICON_SEAL_CHECK_BOLD_CODEPOINTS,
+        available: ICON_SEAL_CHECK_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "seal-check-fill-circle-wavy-check-fill",
-        variants: ICON_SEAL_CHECK_FILL_CIRCLE_WAVY_CHECK_FILL_CODEPOINTS,
-        available: ICON_SEAL_CHECK_FILL_CIRCLE_WAVY_CHECK_FILL_AVAILABLE,
+        name: "seal-check-duotone",
+        variants: ICON_SEAL_CHECK_DUOTONE_CODEPOINTS,
+        available: ICON_SEAL_CHECK_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "seal-check-light-circle-wavy-check-light",
-        variants: ICON_SEAL_CHECK_LIGHT_CIRCLE_WAVY_CHECK_LIGHT_CODEPOINTS,
-        available: ICON_SEAL_CHECK_LIGHT_CIRCLE_WAVY_CHECK_LIGHT_AVAILABLE,
+        name: "seal-check-fill",
+        variants: ICON_SEAL_CHECK_FILL_CODEPOINTS,
+        available: ICON_SEAL_CHECK_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "seal-check-thin-circle-wavy-check-thin",
-        variants: ICON_SEAL_CHECK_THIN_CIRCLE_WAVY_CHECK_THIN_CODEPOINTS,
-        available: ICON_SEAL_CHECK_THIN_CIRCLE_WAVY_CHECK_THIN_AVAILABLE,
+        name: "seal-check-light",
+        variants: ICON_SEAL_CHECK_LIGHT_CODEPOINTS,
+        available: ICON_SEAL_CHECK_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "seal-circle-wavy",
-        variants: ICON_SEAL_CIRCLE_WAVY_CODEPOINTS,
-        available: ICON_SEAL_CIRCLE_WAVY_AVAILABLE,
+        name: "seal-check-thin",
+        variants: ICON_SEAL_CHECK_THIN_CODEPOINTS,
+        available: ICON_SEAL_CHECK_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "seal-duotone-circle-wavy-duotone",
-        variants: ICON_SEAL_DUOTONE_CIRCLE_WAVY_DUOTONE_CODEPOINTS,
-        available: ICON_SEAL_DUOTONE_CIRCLE_WAVY_DUOTONE_AVAILABLE,
+        name: "seal-duotone",
+        variants: ICON_SEAL_DUOTONE_CODEPOINTS,
+        available: ICON_SEAL_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "seal-fill-circle-wavy-fill",
-        variants: ICON_SEAL_FILL_CIRCLE_WAVY_FILL_CODEPOINTS,
-        available: ICON_SEAL_FILL_CIRCLE_WAVY_FILL_AVAILABLE,
+        name: "seal-fill",
+        variants: ICON_SEAL_FILL_CODEPOINTS,
+        available: ICON_SEAL_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "seal-light-circle-wavy-light",
-        variants: ICON_SEAL_LIGHT_CIRCLE_WAVY_LIGHT_CODEPOINTS,
-        available: ICON_SEAL_LIGHT_CIRCLE_WAVY_LIGHT_AVAILABLE,
+        name: "seal-light",
+        variants: ICON_SEAL_LIGHT_CODEPOINTS,
+        available: ICON_SEAL_LIGHT_AVAILABLE,
     },
     IconEntry {
         name: "seal-percent",
@@ -135693,69 +135592,69 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_SEAL_PERCENT_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "seal-question-bold-circle-wavy-question-bold",
-        variants: ICON_SEAL_QUESTION_BOLD_CIRCLE_WAVY_QUESTION_BOLD_CODEPOINTS,
-        available: ICON_SEAL_QUESTION_BOLD_CIRCLE_WAVY_QUESTION_BOLD_AVAILABLE,
+        name: "seal-question",
+        variants: ICON_SEAL_QUESTION_CODEPOINTS,
+        available: ICON_SEAL_QUESTION_AVAILABLE,
     },
     IconEntry {
-        name: "seal-question-circle-wavy-question",
-        variants: ICON_SEAL_QUESTION_CIRCLE_WAVY_QUESTION_CODEPOINTS,
-        available: ICON_SEAL_QUESTION_CIRCLE_WAVY_QUESTION_AVAILABLE,
+        name: "seal-question-bold",
+        variants: ICON_SEAL_QUESTION_BOLD_CODEPOINTS,
+        available: ICON_SEAL_QUESTION_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "seal-question-duotone-circle-wavy-question-duotone",
-        variants: ICON_SEAL_QUESTION_DUOTONE_CIRCLE_WAVY_QUESTION_DUOTONE_CODEPOINTS,
-        available: ICON_SEAL_QUESTION_DUOTONE_CIRCLE_WAVY_QUESTION_DUOTONE_AVAILABLE,
+        name: "seal-question-duotone",
+        variants: ICON_SEAL_QUESTION_DUOTONE_CODEPOINTS,
+        available: ICON_SEAL_QUESTION_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "seal-question-fill-circle-wavy-question-fill",
-        variants: ICON_SEAL_QUESTION_FILL_CIRCLE_WAVY_QUESTION_FILL_CODEPOINTS,
-        available: ICON_SEAL_QUESTION_FILL_CIRCLE_WAVY_QUESTION_FILL_AVAILABLE,
+        name: "seal-question-fill",
+        variants: ICON_SEAL_QUESTION_FILL_CODEPOINTS,
+        available: ICON_SEAL_QUESTION_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "seal-question-light-circle-wavy-question-light",
-        variants: ICON_SEAL_QUESTION_LIGHT_CIRCLE_WAVY_QUESTION_LIGHT_CODEPOINTS,
-        available: ICON_SEAL_QUESTION_LIGHT_CIRCLE_WAVY_QUESTION_LIGHT_AVAILABLE,
+        name: "seal-question-light",
+        variants: ICON_SEAL_QUESTION_LIGHT_CODEPOINTS,
+        available: ICON_SEAL_QUESTION_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "seal-question-thin-circle-wavy-question-thin",
-        variants: ICON_SEAL_QUESTION_THIN_CIRCLE_WAVY_QUESTION_THIN_CODEPOINTS,
-        available: ICON_SEAL_QUESTION_THIN_CIRCLE_WAVY_QUESTION_THIN_AVAILABLE,
+        name: "seal-question-thin",
+        variants: ICON_SEAL_QUESTION_THIN_CODEPOINTS,
+        available: ICON_SEAL_QUESTION_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "seal-thin-circle-wavy-thin",
-        variants: ICON_SEAL_THIN_CIRCLE_WAVY_THIN_CODEPOINTS,
-        available: ICON_SEAL_THIN_CIRCLE_WAVY_THIN_AVAILABLE,
+        name: "seal-thin",
+        variants: ICON_SEAL_THIN_CODEPOINTS,
+        available: ICON_SEAL_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "seal-warning-bold-circle-wavy-warning-bold",
-        variants: ICON_SEAL_WARNING_BOLD_CIRCLE_WAVY_WARNING_BOLD_CODEPOINTS,
-        available: ICON_SEAL_WARNING_BOLD_CIRCLE_WAVY_WARNING_BOLD_AVAILABLE,
+        name: "seal-warning",
+        variants: ICON_SEAL_WARNING_CODEPOINTS,
+        available: ICON_SEAL_WARNING_AVAILABLE,
     },
     IconEntry {
-        name: "seal-warning-circle-wavy-warning",
-        variants: ICON_SEAL_WARNING_CIRCLE_WAVY_WARNING_CODEPOINTS,
-        available: ICON_SEAL_WARNING_CIRCLE_WAVY_WARNING_AVAILABLE,
+        name: "seal-warning-bold",
+        variants: ICON_SEAL_WARNING_BOLD_CODEPOINTS,
+        available: ICON_SEAL_WARNING_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "seal-warning-duotone-circle-wavy-warning-duotone",
-        variants: ICON_SEAL_WARNING_DUOTONE_CIRCLE_WAVY_WARNING_DUOTONE_CODEPOINTS,
-        available: ICON_SEAL_WARNING_DUOTONE_CIRCLE_WAVY_WARNING_DUOTONE_AVAILABLE,
+        name: "seal-warning-duotone",
+        variants: ICON_SEAL_WARNING_DUOTONE_CODEPOINTS,
+        available: ICON_SEAL_WARNING_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "seal-warning-fill-circle-wavy-warning-fill",
-        variants: ICON_SEAL_WARNING_FILL_CIRCLE_WAVY_WARNING_FILL_CODEPOINTS,
-        available: ICON_SEAL_WARNING_FILL_CIRCLE_WAVY_WARNING_FILL_AVAILABLE,
+        name: "seal-warning-fill",
+        variants: ICON_SEAL_WARNING_FILL_CODEPOINTS,
+        available: ICON_SEAL_WARNING_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "seal-warning-light-circle-wavy-warning-light",
-        variants: ICON_SEAL_WARNING_LIGHT_CIRCLE_WAVY_WARNING_LIGHT_CODEPOINTS,
-        available: ICON_SEAL_WARNING_LIGHT_CIRCLE_WAVY_WARNING_LIGHT_AVAILABLE,
+        name: "seal-warning-light",
+        variants: ICON_SEAL_WARNING_LIGHT_CODEPOINTS,
+        available: ICON_SEAL_WARNING_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "seal-warning-thin-circle-wavy-warning-thin",
-        variants: ICON_SEAL_WARNING_THIN_CIRCLE_WAVY_WARNING_THIN_CODEPOINTS,
-        available: ICON_SEAL_WARNING_THIN_CIRCLE_WAVY_WARNING_THIN_AVAILABLE,
+        name: "seal-warning-thin",
+        variants: ICON_SEAL_WARNING_THIN_CODEPOINTS,
+        available: ICON_SEAL_WARNING_THIN_AVAILABLE,
     },
     IconEntry {
         name: "seat",
@@ -141038,34 +140937,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_TEXT_ALIGN_RIGHT_THIN_AVAILABLE,
     },
     IconEntry {
-        name: "text-b-bold-text-bolder-bold",
-        variants: ICON_TEXT_B_BOLD_TEXT_BOLDER_BOLD_CODEPOINTS,
-        available: ICON_TEXT_B_BOLD_TEXT_BOLDER_BOLD_AVAILABLE,
+        name: "text-b",
+        variants: ICON_TEXT_B_CODEPOINTS,
+        available: ICON_TEXT_B_AVAILABLE,
     },
     IconEntry {
-        name: "text-b-duotone-text-bolder-duotone",
-        variants: ICON_TEXT_B_DUOTONE_TEXT_BOLDER_DUOTONE_CODEPOINTS,
-        available: ICON_TEXT_B_DUOTONE_TEXT_BOLDER_DUOTONE_AVAILABLE,
+        name: "text-b-bold",
+        variants: ICON_TEXT_B_BOLD_CODEPOINTS,
+        available: ICON_TEXT_B_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "text-b-fill-text-bolder-fill",
-        variants: ICON_TEXT_B_FILL_TEXT_BOLDER_FILL_CODEPOINTS,
-        available: ICON_TEXT_B_FILL_TEXT_BOLDER_FILL_AVAILABLE,
+        name: "text-b-duotone",
+        variants: ICON_TEXT_B_DUOTONE_CODEPOINTS,
+        available: ICON_TEXT_B_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "text-b-light-text-bolder-light",
-        variants: ICON_TEXT_B_LIGHT_TEXT_BOLDER_LIGHT_CODEPOINTS,
-        available: ICON_TEXT_B_LIGHT_TEXT_BOLDER_LIGHT_AVAILABLE,
+        name: "text-b-fill",
+        variants: ICON_TEXT_B_FILL_CODEPOINTS,
+        available: ICON_TEXT_B_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "text-b-text-bolder",
-        variants: ICON_TEXT_B_TEXT_BOLDER_CODEPOINTS,
-        available: ICON_TEXT_B_TEXT_BOLDER_AVAILABLE,
+        name: "text-b-light",
+        variants: ICON_TEXT_B_LIGHT_CODEPOINTS,
+        available: ICON_TEXT_B_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "text-b-thin-text-bolder-thin",
-        variants: ICON_TEXT_B_THIN_TEXT_BOLDER_THIN_CODEPOINTS,
-        available: ICON_TEXT_B_THIN_TEXT_BOLDER_THIN_AVAILABLE,
+        name: "text-b-thin",
+        variants: ICON_TEXT_B_THIN_CODEPOINTS,
+        available: ICON_TEXT_B_THIN_AVAILABLE,
     },
     IconEntry {
         name: "text-columns",
@@ -142783,34 +142682,34 @@ pub(crate) const ICON_ENTRIES: &[IconEntry] = &[
         available: ICON_TRAY_AVAILABLE,
     },
     IconEntry {
-        name: "tray-arrow-down-archive-tray",
-        variants: ICON_TRAY_ARROW_DOWN_ARCHIVE_TRAY_CODEPOINTS,
-        available: ICON_TRAY_ARROW_DOWN_ARCHIVE_TRAY_AVAILABLE,
+        name: "tray-arrow-down",
+        variants: ICON_TRAY_ARROW_DOWN_CODEPOINTS,
+        available: ICON_TRAY_ARROW_DOWN_AVAILABLE,
     },
     IconEntry {
-        name: "tray-arrow-down-bold-archive-tray-bold",
-        variants: ICON_TRAY_ARROW_DOWN_BOLD_ARCHIVE_TRAY_BOLD_CODEPOINTS,
-        available: ICON_TRAY_ARROW_DOWN_BOLD_ARCHIVE_TRAY_BOLD_AVAILABLE,
+        name: "tray-arrow-down-bold",
+        variants: ICON_TRAY_ARROW_DOWN_BOLD_CODEPOINTS,
+        available: ICON_TRAY_ARROW_DOWN_BOLD_AVAILABLE,
     },
     IconEntry {
-        name: "tray-arrow-down-duotone-archive-tray-duotone",
-        variants: ICON_TRAY_ARROW_DOWN_DUOTONE_ARCHIVE_TRAY_DUOTONE_CODEPOINTS,
-        available: ICON_TRAY_ARROW_DOWN_DUOTONE_ARCHIVE_TRAY_DUOTONE_AVAILABLE,
+        name: "tray-arrow-down-duotone",
+        variants: ICON_TRAY_ARROW_DOWN_DUOTONE_CODEPOINTS,
+        available: ICON_TRAY_ARROW_DOWN_DUOTONE_AVAILABLE,
     },
     IconEntry {
-        name: "tray-arrow-down-fill-archive-tray-fill",
-        variants: ICON_TRAY_ARROW_DOWN_FILL_ARCHIVE_TRAY_FILL_CODEPOINTS,
-        available: ICON_TRAY_ARROW_DOWN_FILL_ARCHIVE_TRAY_FILL_AVAILABLE,
+        name: "tray-arrow-down-fill",
+        variants: ICON_TRAY_ARROW_DOWN_FILL_CODEPOINTS,
+        available: ICON_TRAY_ARROW_DOWN_FILL_AVAILABLE,
     },
     IconEntry {
-        name: "tray-arrow-down-light-archive-tray-light",
-        variants: ICON_TRAY_ARROW_DOWN_LIGHT_ARCHIVE_TRAY_LIGHT_CODEPOINTS,
-        available: ICON_TRAY_ARROW_DOWN_LIGHT_ARCHIVE_TRAY_LIGHT_AVAILABLE,
+        name: "tray-arrow-down-light",
+        variants: ICON_TRAY_ARROW_DOWN_LIGHT_CODEPOINTS,
+        available: ICON_TRAY_ARROW_DOWN_LIGHT_AVAILABLE,
     },
     IconEntry {
-        name: "tray-arrow-down-thin-archive-tray-thin",
-        variants: ICON_TRAY_ARROW_DOWN_THIN_ARCHIVE_TRAY_THIN_CODEPOINTS,
-        available: ICON_TRAY_ARROW_DOWN_THIN_ARCHIVE_TRAY_THIN_AVAILABLE,
+        name: "tray-arrow-down-thin",
+        variants: ICON_TRAY_ARROW_DOWN_THIN_CODEPOINTS,
+        available: ICON_TRAY_ARROW_DOWN_THIN_AVAILABLE,
     },
     IconEntry {
         name: "tray-arrow-up",

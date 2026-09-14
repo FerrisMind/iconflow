@@ -7274,7 +7274,7 @@
       ]
     },
     {
-      "name": "asclepius-bold-caduceus-bold",
+      "name": "asclepius-bold",
       "overrides": {
         "bold": 60980
       },
@@ -7283,14 +7283,14 @@
       ]
     },
     {
-      "name": "asclepius-caduceus",
+      "name": "asclepius",
       "codepoint": 60980,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "asclepius-duotone-caduceus-duotone",
+      "name": "asclepius-duotone",
       "overrides": {
         "duotone": 60980
       },
@@ -7299,7 +7299,7 @@
       ]
     },
     {
-      "name": "asclepius-fill-caduceus-fill",
+      "name": "asclepius-fill",
       "overrides": {
         "fill": 60980
       },
@@ -7308,7 +7308,7 @@
       ]
     },
     {
-      "name": "asclepius-light-caduceus-light",
+      "name": "asclepius-light",
       "overrides": {
         "light": 60980
       },
@@ -7317,7 +7317,7 @@
       ]
     },
     {
-      "name": "asclepius-thin-caduceus-thin",
+      "name": "asclepius-thin",
       "overrides": {
         "thin": 60980
       },
@@ -11798,14 +11798,14 @@
       ]
     },
     {
-      "name": "box-arrow-down-archive-box",
+      "name": "box-arrow-down",
       "codepoint": 57358,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "box-arrow-down-bold-archive-box-bold",
+      "name": "box-arrow-down-bold",
       "overrides": {
         "bold": 57358
       },
@@ -11814,7 +11814,7 @@
       ]
     },
     {
-      "name": "box-arrow-down-duotone-archive-box-duotone",
+      "name": "box-arrow-down-duotone",
       "overrides": {
         "duotone": 57358
       },
@@ -11823,7 +11823,7 @@
       ]
     },
     {
-      "name": "box-arrow-down-fill-archive-box-fill",
+      "name": "box-arrow-down-fill",
       "overrides": {
         "fill": 57358
       },
@@ -11832,7 +11832,7 @@
       ]
     },
     {
-      "name": "box-arrow-down-light-archive-box-light",
+      "name": "box-arrow-down-light",
       "overrides": {
         "light": 57358
       },
@@ -11841,7 +11841,7 @@
       ]
     },
     {
-      "name": "box-arrow-down-thin-archive-box-thin",
+      "name": "box-arrow-down-thin",
       "overrides": {
         "thin": 57358
       },
@@ -30014,7 +30014,7 @@
       ]
     },
     {
-      "name": "file-dashed-bold-file-dotted-bold",
+      "name": "file-dashed-bold",
       "overrides": {
         "bold": 59140
       },
@@ -30023,7 +30023,7 @@
       ]
     },
     {
-      "name": "file-dashed-duotone-file-dotted-duotone",
+      "name": "file-dashed-duotone",
       "overrides": {
         "duotone": 59140
       },
@@ -30032,14 +30032,14 @@
       ]
     },
     {
-      "name": "file-dashed-file-dotted",
+      "name": "file-dashed",
       "codepoint": 59140,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "file-dashed-fill-file-dotted-fill",
+      "name": "file-dashed-fill",
       "overrides": {
         "fill": 59140
       },
@@ -30048,7 +30048,7 @@
       ]
     },
     {
-      "name": "file-dashed-light-file-dotted-light",
+      "name": "file-dashed-light",
       "overrides": {
         "light": 59140
       },
@@ -30057,7 +30057,7 @@
       ]
     },
     {
-      "name": "file-dashed-thin-file-dotted-thin",
+      "name": "file-dashed-thin",
       "overrides": {
         "thin": 59140
       },
@@ -30509,7 +30509,7 @@
       ]
     },
     {
-      "name": "file-magnifying-glass-bold-file-search-bold",
+      "name": "file-magnifying-glass-bold",
       "overrides": {
         "bold": 57912
       },
@@ -30518,7 +30518,7 @@
       ]
     },
     {
-      "name": "file-magnifying-glass-duotone-file-search-duotone",
+      "name": "file-magnifying-glass-duotone",
       "overrides": {
         "duotone": 57912
       },
@@ -30527,14 +30527,14 @@
       ]
     },
     {
-      "name": "file-magnifying-glass-file-search",
+      "name": "file-magnifying-glass",
       "codepoint": 57912,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "file-magnifying-glass-fill-file-search-fill",
+      "name": "file-magnifying-glass-fill",
       "overrides": {
         "fill": 57912
       },
@@ -30543,7 +30543,7 @@
       ]
     },
     {
-      "name": "file-magnifying-glass-light-file-search-light",
+      "name": "file-magnifying-glass-light",
       "overrides": {
         "light": 57912
       },
@@ -30552,7 +30552,7 @@
       ]
     },
     {
-      "name": "file-magnifying-glass-thin-file-search-thin",
+      "name": "file-magnifying-glass-thin",
       "overrides": {
         "thin": 57912
       },
@@ -33274,7 +33274,7 @@
       ]
     },
     {
-      "name": "folder-bold-folder-notch-bold",
+      "name": "folder-bold",
       "overrides": {
         "bold": 57930
       },
@@ -33283,7 +33283,7 @@
       ]
     },
     {
-      "name": "folder-dashed-bold-folder-dotted-bold",
+      "name": "folder-dashed-bold",
       "overrides": {
         "bold": 59640
       },
@@ -33292,7 +33292,7 @@
       ]
     },
     {
-      "name": "folder-dashed-duotone-folder-dotted-duotone",
+      "name": "folder-dashed-duotone",
       "overrides": {
         "duotone": 59640
       },
@@ -33301,7 +33301,7 @@
       ]
     },
     {
-      "name": "folder-dashed-fill-folder-dotted-fill",
+      "name": "folder-dashed-fill",
       "overrides": {
         "fill": 59640
       },
@@ -33310,14 +33310,14 @@
       ]
     },
     {
-      "name": "folder-dashed-folder-dotted",
+      "name": "folder-dashed",
       "codepoint": 59640,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "folder-dashed-light-folder-dotted-light",
+      "name": "folder-dashed-light",
       "overrides": {
         "light": 59640
       },
@@ -33326,7 +33326,7 @@
       ]
     },
     {
-      "name": "folder-dashed-thin-folder-dotted-thin",
+      "name": "folder-dashed-thin",
       "overrides": {
         "thin": 59640
       },
@@ -33335,7 +33335,7 @@
       ]
     },
     {
-      "name": "folder-duotone-folder-notch-duotone",
+      "name": "folder-duotone",
       "overrides": {
         "duotone": 57930
       },
@@ -33344,7 +33344,7 @@
       ]
     },
     {
-      "name": "folder-fill-folder-notch-fill",
+      "name": "folder-fill",
       "overrides": {
         "fill": 57930
       },
@@ -33353,14 +33353,14 @@
       ]
     },
     {
-      "name": "folder-folder-notch",
+      "name": "folder",
       "codepoint": 57930,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "folder-light-folder-notch-light",
+      "name": "folder-light",
       "overrides": {
         "light": 57930
       },
@@ -33421,7 +33421,7 @@
       ]
     },
     {
-      "name": "folder-minus-bold-folder-notch-minus-bold",
+      "name": "folder-minus-bold",
       "overrides": {
         "bold": 57940
       },
@@ -33430,7 +33430,7 @@
       ]
     },
     {
-      "name": "folder-minus-duotone-folder-notch-minus-duotone",
+      "name": "folder-minus-duotone",
       "overrides": {
         "duotone": 57940
       },
@@ -33439,7 +33439,7 @@
       ]
     },
     {
-      "name": "folder-minus-fill-folder-notch-minus-fill",
+      "name": "folder-minus-fill",
       "overrides": {
         "fill": 57940
       },
@@ -33448,14 +33448,14 @@
       ]
     },
     {
-      "name": "folder-minus-folder-notch-minus",
+      "name": "folder-minus",
       "codepoint": 57940,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "folder-minus-light-folder-notch-minus-light",
+      "name": "folder-minus-light",
       "overrides": {
         "light": 57940
       },
@@ -33464,7 +33464,7 @@
       ]
     },
     {
-      "name": "folder-minus-thin-folder-notch-minus-thin",
+      "name": "folder-minus-thin",
       "overrides": {
         "thin": 57940
       },
@@ -33473,7 +33473,7 @@
       ]
     },
     {
-      "name": "folder-open-bold-folder-notch-open-bold",
+      "name": "folder-open-bold",
       "overrides": {
         "bold": 57942
       },
@@ -33482,7 +33482,7 @@
       ]
     },
     {
-      "name": "folder-open-duotone-folder-notch-open-duotone",
+      "name": "folder-open-duotone",
       "overrides": {
         "duotone": 57942
       },
@@ -33491,7 +33491,7 @@
       ]
     },
     {
-      "name": "folder-open-fill-folder-notch-open-fill",
+      "name": "folder-open-fill",
       "overrides": {
         "fill": 57942
       },
@@ -33500,14 +33500,14 @@
       ]
     },
     {
-      "name": "folder-open-folder-notch-open",
+      "name": "folder-open",
       "codepoint": 57942,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "folder-open-light-folder-notch-open-light",
+      "name": "folder-open-light",
       "overrides": {
         "light": 57942
       },
@@ -33516,7 +33516,7 @@
       ]
     },
     {
-      "name": "folder-open-thin-folder-notch-open-thin",
+      "name": "folder-open-thin",
       "overrides": {
         "thin": 57942
       },
@@ -33525,7 +33525,7 @@
       ]
     },
     {
-      "name": "folder-plus-bold-folder-notch-plus-bold",
+      "name": "folder-plus-bold",
       "overrides": {
         "bold": 57944
       },
@@ -33534,7 +33534,7 @@
       ]
     },
     {
-      "name": "folder-plus-duotone-folder-notch-plus-duotone",
+      "name": "folder-plus-duotone",
       "overrides": {
         "duotone": 57944
       },
@@ -33543,7 +33543,7 @@
       ]
     },
     {
-      "name": "folder-plus-fill-folder-notch-plus-fill",
+      "name": "folder-plus-fill",
       "overrides": {
         "fill": 57944
       },
@@ -33552,14 +33552,14 @@
       ]
     },
     {
-      "name": "folder-plus-folder-notch-plus",
+      "name": "folder-plus",
       "codepoint": 57944,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "folder-plus-light-folder-notch-plus-light",
+      "name": "folder-plus-light",
       "overrides": {
         "light": 57944
       },
@@ -33568,7 +33568,7 @@
       ]
     },
     {
-      "name": "folder-plus-thin-folder-notch-plus-thin",
+      "name": "folder-plus-thin",
       "overrides": {
         "thin": 57944
       },
@@ -33593,7 +33593,7 @@
       ]
     },
     {
-      "name": "folder-simple-dashed-bold-folder-simple-dotted-bold",
+      "name": "folder-simple-dashed-bold",
       "overrides": {
         "bold": 60458
       },
@@ -33602,7 +33602,7 @@
       ]
     },
     {
-      "name": "folder-simple-dashed-duotone-folder-simple-dotted-duotone",
+      "name": "folder-simple-dashed-duotone",
       "overrides": {
         "duotone": 60458
       },
@@ -33611,7 +33611,7 @@
       ]
     },
     {
-      "name": "folder-simple-dashed-fill-folder-simple-dotted-fill",
+      "name": "folder-simple-dashed-fill",
       "overrides": {
         "fill": 60458
       },
@@ -33620,14 +33620,14 @@
       ]
     },
     {
-      "name": "folder-simple-dashed-folder-simple-dotted",
+      "name": "folder-simple-dashed",
       "codepoint": 60458,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "folder-simple-dashed-light-folder-simple-dotted-light",
+      "name": "folder-simple-dashed-light",
       "overrides": {
         "light": 60458
       },
@@ -33636,7 +33636,7 @@
       ]
     },
     {
-      "name": "folder-simple-dashed-thin-folder-simple-dotted-thin",
+      "name": "folder-simple-dashed-thin",
       "overrides": {
         "thin": 60458
       },
@@ -33993,7 +33993,7 @@
       ]
     },
     {
-      "name": "folder-thin-folder-notch-thin",
+      "name": "folder-thin",
       "overrides": {
         "thin": 57930
       },
@@ -41386,7 +41386,7 @@
       ]
     },
     {
-      "name": "infinity-bold-lemniscate-bold",
+      "name": "infinity-bold",
       "overrides": {
         "bold": 58932
       },
@@ -41395,7 +41395,7 @@
       ]
     },
     {
-      "name": "infinity-duotone-lemniscate-duotone",
+      "name": "infinity-duotone",
       "overrides": {
         "duotone": 58932
       },
@@ -41404,7 +41404,7 @@
       ]
     },
     {
-      "name": "infinity-fill-lemniscate-fill",
+      "name": "infinity-fill",
       "overrides": {
         "fill": 58932
       },
@@ -41413,14 +41413,14 @@
       ]
     },
     {
-      "name": "infinity-lemniscate",
+      "name": "infinity",
       "codepoint": 58932,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "infinity-light-lemniscate-light",
+      "name": "infinity-light",
       "overrides": {
         "light": 58932
       },
@@ -41429,7 +41429,7 @@
       ]
     },
     {
-      "name": "infinity-thin-lemniscate-thin",
+      "name": "infinity-thin",
       "overrides": {
         "thin": 58932
       },
@@ -57818,14 +57818,14 @@
       ]
     },
     {
-      "name": "pulse-activity",
+      "name": "pulse",
       "codepoint": 57344,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "pulse-bold-activity-bold",
+      "name": "pulse-bold",
       "overrides": {
         "bold": 57344
       },
@@ -57834,7 +57834,7 @@
       ]
     },
     {
-      "name": "pulse-duotone-activity-duotone",
+      "name": "pulse-duotone",
       "overrides": {
         "duotone": 57344
       },
@@ -57843,7 +57843,7 @@
       ]
     },
     {
-      "name": "pulse-fill-activity-fill",
+      "name": "pulse-fill",
       "overrides": {
         "fill": 57344
       },
@@ -57852,7 +57852,7 @@
       ]
     },
     {
-      "name": "pulse-light-activity-light",
+      "name": "pulse-light",
       "overrides": {
         "light": 57344
       },
@@ -57861,7 +57861,7 @@
       ]
     },
     {
-      "name": "pulse-thin-activity-thin",
+      "name": "pulse-thin",
       "overrides": {
         "thin": 57344
       },
@@ -60730,7 +60730,7 @@
       ]
     },
     {
-      "name": "seal-bold-circle-wavy-bold",
+      "name": "seal-bold",
       "overrides": {
         "bold": 58884
       },
@@ -60739,7 +60739,7 @@
       ]
     },
     {
-      "name": "seal-check-bold-circle-wavy-check-bold",
+      "name": "seal-check-bold",
       "overrides": {
         "bold": 58886
       },
@@ -60748,14 +60748,14 @@
       ]
     },
     {
-      "name": "seal-check-circle-wavy-check",
+      "name": "seal-check",
       "codepoint": 58886,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "seal-check-duotone-circle-wavy-check-duotone",
+      "name": "seal-check-duotone",
       "overrides": {
         "duotone": 58886
       },
@@ -60764,7 +60764,7 @@
       ]
     },
     {
-      "name": "seal-check-fill-circle-wavy-check-fill",
+      "name": "seal-check-fill",
       "overrides": {
         "fill": 58886
       },
@@ -60773,7 +60773,7 @@
       ]
     },
     {
-      "name": "seal-check-light-circle-wavy-check-light",
+      "name": "seal-check-light",
       "overrides": {
         "light": 58886
       },
@@ -60782,7 +60782,7 @@
       ]
     },
     {
-      "name": "seal-check-thin-circle-wavy-check-thin",
+      "name": "seal-check-thin",
       "overrides": {
         "thin": 58886
       },
@@ -60791,14 +60791,14 @@
       ]
     },
     {
-      "name": "seal-circle-wavy",
+      "name": "seal",
       "codepoint": 58884,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "seal-duotone-circle-wavy-duotone",
+      "name": "seal-duotone",
       "overrides": {
         "duotone": 58884
       },
@@ -60807,7 +60807,7 @@
       ]
     },
     {
-      "name": "seal-fill-circle-wavy-fill",
+      "name": "seal-fill",
       "overrides": {
         "fill": 58884
       },
@@ -60816,7 +60816,7 @@
       ]
     },
     {
-      "name": "seal-light-circle-wavy-light",
+      "name": "seal-light",
       "overrides": {
         "light": 58884
       },
@@ -60877,7 +60877,7 @@
       ]
     },
     {
-      "name": "seal-question-bold-circle-wavy-question-bold",
+      "name": "seal-question-bold",
       "overrides": {
         "bold": 58888
       },
@@ -60886,14 +60886,14 @@
       ]
     },
     {
-      "name": "seal-question-circle-wavy-question",
+      "name": "seal-question",
       "codepoint": 58888,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "seal-question-duotone-circle-wavy-question-duotone",
+      "name": "seal-question-duotone",
       "overrides": {
         "duotone": 58888
       },
@@ -60902,7 +60902,7 @@
       ]
     },
     {
-      "name": "seal-question-fill-circle-wavy-question-fill",
+      "name": "seal-question-fill",
       "overrides": {
         "fill": 58888
       },
@@ -60911,7 +60911,7 @@
       ]
     },
     {
-      "name": "seal-question-light-circle-wavy-question-light",
+      "name": "seal-question-light",
       "overrides": {
         "light": 58888
       },
@@ -60920,7 +60920,7 @@
       ]
     },
     {
-      "name": "seal-question-thin-circle-wavy-question-thin",
+      "name": "seal-question-thin",
       "overrides": {
         "thin": 58888
       },
@@ -60929,7 +60929,7 @@
       ]
     },
     {
-      "name": "seal-thin-circle-wavy-thin",
+      "name": "seal-thin",
       "overrides": {
         "thin": 58884
       },
@@ -60938,7 +60938,7 @@
       ]
     },
     {
-      "name": "seal-warning-bold-circle-wavy-warning-bold",
+      "name": "seal-warning-bold",
       "overrides": {
         "bold": 58892
       },
@@ -60947,14 +60947,14 @@
       ]
     },
     {
-      "name": "seal-warning-circle-wavy-warning",
+      "name": "seal-warning",
       "codepoint": 58892,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "seal-warning-duotone-circle-wavy-warning-duotone",
+      "name": "seal-warning-duotone",
       "overrides": {
         "duotone": 58892
       },
@@ -60963,7 +60963,7 @@
       ]
     },
     {
-      "name": "seal-warning-fill-circle-wavy-warning-fill",
+      "name": "seal-warning-fill",
       "overrides": {
         "fill": 58892
       },
@@ -60972,7 +60972,7 @@
       ]
     },
     {
-      "name": "seal-warning-light-circle-wavy-warning-light",
+      "name": "seal-warning-light",
       "overrides": {
         "light": 58892
       },
@@ -60981,7 +60981,7 @@
       ]
     },
     {
-      "name": "seal-warning-thin-circle-wavy-warning-thin",
+      "name": "seal-warning-thin",
       "overrides": {
         "thin": 58892
       },
@@ -70142,7 +70142,7 @@
       ]
     },
     {
-      "name": "text-b-bold-text-bolder-bold",
+      "name": "text-b-bold",
       "overrides": {
         "bold": 58814
       },
@@ -70151,7 +70151,7 @@
       ]
     },
     {
-      "name": "text-b-duotone-text-bolder-duotone",
+      "name": "text-b-duotone",
       "overrides": {
         "duotone": 58814
       },
@@ -70160,7 +70160,7 @@
       ]
     },
     {
-      "name": "text-b-fill-text-bolder-fill",
+      "name": "text-b-fill",
       "overrides": {
         "fill": 58814
       },
@@ -70169,7 +70169,7 @@
       ]
     },
     {
-      "name": "text-b-light-text-bolder-light",
+      "name": "text-b-light",
       "overrides": {
         "light": 58814
       },
@@ -70178,14 +70178,14 @@
       ]
     },
     {
-      "name": "text-b-text-bolder",
+      "name": "text-b",
       "codepoint": 58814,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "text-b-thin-text-bolder-thin",
+      "name": "text-b-thin",
       "overrides": {
         "thin": 58814
       },
@@ -73165,14 +73165,14 @@
       ]
     },
     {
-      "name": "tray-arrow-down-archive-tray",
+      "name": "tray-arrow-down",
       "codepoint": 57360,
       "availability": [
         "regular"
       ]
     },
     {
-      "name": "tray-arrow-down-bold-archive-tray-bold",
+      "name": "tray-arrow-down-bold",
       "overrides": {
         "bold": 57360
       },
@@ -73181,7 +73181,7 @@
       ]
     },
     {
-      "name": "tray-arrow-down-duotone-archive-tray-duotone",
+      "name": "tray-arrow-down-duotone",
       "overrides": {
         "duotone": 57360
       },
@@ -73190,7 +73190,7 @@
       ]
     },
     {
-      "name": "tray-arrow-down-fill-archive-tray-fill",
+      "name": "tray-arrow-down-fill",
       "overrides": {
         "fill": 57360
       },
@@ -73199,7 +73199,7 @@
       ]
     },
     {
-      "name": "tray-arrow-down-light-archive-tray-light",
+      "name": "tray-arrow-down-light",
       "overrides": {
         "light": 57360
       },
@@ -73208,7 +73208,7 @@
       ]
     },
     {
-      "name": "tray-arrow-down-thin-archive-tray-thin",
+      "name": "tray-arrow-down-thin",
       "overrides": {
         "thin": 57360
       },
