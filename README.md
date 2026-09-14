@@ -19,7 +19,7 @@ Enable at least one pack feature so the fonts and icon data are included.
 
 ```toml
 [dependencies]
-iconflow = { version = "1.0", features = ["all-packs"] }
+iconflow = { version = "2.0", features = ["all-packs"] }
 ```
 
 ## Quickstart guide

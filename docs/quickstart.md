@@ -9,7 +9,13 @@ Enable at least one pack feature so font assets and icon data are included.
 
 ```toml
 [dependencies]
-iconflow = { version = "1.0", features = ["all-packs"] }
+iconflow = { version = "2.0", features = ["all-packs"] }
+```
+
+For egui, also depend on `eframe` (iconflow itself has no GUI dependencies):
+
+```toml
+eframe = "0.33"
 ```
 
 ## Core API at a glance
@@ -25,24 +31,28 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let _fonts = fonts();
     let names = list(Pack::Bootstrap);
     let icon = try_icon(Pack::Bootstrap, "alarm", Style::Regular, Size::Regular)?;
+    let _ = (names, icon);
     Ok(())
 }
 ```
 
 ## egui integration (minimal)
 
-Register fonts and render the icon glyph with `FontFamily::Name`.
+Register fonts and render the icon glyph with `FontFamily::Name`. Use `eframe::egui`
+(matching the demo) and wrap font data in `Arc` — egui 0.33 expects `Arc<FontData>`.
 
 ```rust
-use egui::{FontData, FontDefinitions, FontFamily, FontId, RichText};
+use eframe::egui::{self, FontData, FontDefinitions, FontFamily, FontId, RichText};
 use iconflow::{fonts, try_icon, Pack, Size, Style};
+use std::sync::Arc;
 
 fn install_icon_fonts(ctx: &egui::Context) {
     let mut definitions = FontDefinitions::default();
     for font in fonts() {
-        definitions
-            .font_data
-            .insert(font.family.to_string(), FontData::from_static(font.bytes));
+        definitions.font_data.insert(
+            font.family.to_string(),
+            Arc::new(FontData::from_static(font.bytes)),
+        );
         let family = definitions
             .families
             .entry(FontFamily::Name(font.family.into()))

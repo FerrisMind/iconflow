@@ -1,24 +1,34 @@
-### Vision Statement
-*"For Rust GUI application developers who need professional icons without bloating the binary, iconflow is a universal library that provides 10,000+ icons through a simple API, unlike separate crates with vendor lock-in"*
+# Roadmap
 
-### Roadmap
+iconflow is a **GUI-agnostic** icon font crate: pack data and lookup only. Consumers
+register fonts and draw glyphs in their own toolkit (egui, iced, or anything else).
+There are **no** `egui` or `iced` Cargo features and **no** public per-pack icon enums
+(`LucideIcon`, `PhosphorIcon`, etc.). The public lookup surface is `fonts` / `list` /
+`try_icon` plus the `Pack` enum (including `Pack::FluentUi`).
 
-| Stage | Deliverables | Owner |
-|---|---|---|---|
-| **Sprint 1: MVP** | `core` + `egui` feature + example | Dev |
-| **Sprint 2: Beta** |  `phosphor` + `iced` + CI/CD | Dev |
-| **Sprint 3: Polish** |  Docs, benchmarks, crates.io | Dev + Writer |
-| **Maintenance** |  Bug fixes, updates | Community |
+## Current (2.0)
 
-***
+- 14 icon packs behind `pack-*` features (`all-packs` for demos/CI)
+- Optional size gates: `heroicons-tiny`, `heroicons-mini`, `octicons-tiny`
+- Committed `src/generated/**` from `cargo xtask gen`
+- Examples under `examples/v1.0/` (egui + iced demos; toolkit is a **dev-dependency**, not a crate feature)
+- CI: fmt, clippy, tests, docs, package list, licenses, bench compile smoke
 
-### Risks and Mitigation
+## Near term
 
-| Risk | Probability | Impact | Mitigation |
-|---|---|---|---|
-| Breaking changes in iced 0.14 | Medium | High | CI matrix for iced 0.13-0.14 [4] |
-| Icon name conflicts | Low | Medium | Separate enums `LucideIcon`/`PhosphorIcon` |
-| Phosphor size exceeds 500 KB | Low | Medium | Feature flags for styles [3] |
-| Lack of adoption | Medium | Critical | Marketing: Reddit r/rust, HN Show HN |
+| Focus | Notes |
+|---|---|
+| Pack / font updates | Refresh TTFs and maps; keep generator deterministic |
+| Docs & examples | Keep install pins and toolkit snippets in sync with egui/iced releases |
+| Performance | Maintain binary-search lookup benches; no public typed-icon hot path |
+| Packaging | Keep `CHANGELOG.md` in the crate package; lean `include` |
 
-***
+## Explicit non-goals
+
+- Bundling egui/iced as optional crate features
+- Public infallible typed icon enums per pack
+- An iced (or egui) **version** CI matrix inside this repo — examples track one pinned toolkit version in `Cargo.toml` `[dev-dependencies]`
+
+## Maintenance
+
+Bug fixes, dependency bumps, and pack refreshes land as needed. Breaking API changes follow SemVer (see `CHANGELOG.md`).

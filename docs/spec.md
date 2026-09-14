@@ -1,4 +1,4 @@
-📊 РЕШЕНИЕ: **iconflow** (финальная документация для handoff) | ✅Выбор: 1 crate + Cargo feature-флаги, GUI-agnostic API “иконка = (Font Family + Unicode codepoint)”, typed-enum (infallible) + `&str` API (`Result`), генерация кода *предварительно* и коммит в репозиторий | 🔍Источники (3-5): Cargo features [1] · Conditional compilation (`cfg`) [2] · iced `Font` API [3] · egui `FontData::from_static`  · JSON Schema Draft 2020-12 [4] · OWASP A08 integrity failures [5] | 💡Обоснование: разработчики GUI получают “как обычные иконки” через механизм шрифтов в GUI, а размер/состав паков контролируется feature-флагами. [1][2]
+📊 РЕШЕНИЕ: **iconflow** (финальная документация для handoff) | ✅Выбор: 1 crate + Cargo feature-флаги, GUI-agnostic API “иконка = (Font Family + Unicode codepoint)”, **единый fallible string API** (`try_icon` → `Result`), генерация кода *предварительно* и коммит в репозиторий | 🔍Источники (3-5): Cargo features [1] · Conditional compilation (`cfg`) [2] · iced `Font` API [3] · egui `FontData::from_static` · JSON Schema Draft 2020-12 [4] · OWASP A08 integrity failures [5] | 💡Обоснование: разработчики GUI получают “как обычные иконки” через механизм шрифтов в GUI, а размер/состав паков контролируется feature-флагами. [1][2]
 
 ## Executive Summary
 `iconflow` — Rust-crate, который поставляет наборы иконок в формате TTF и даёт единый способ получить **FontAsset** (байты шрифта) и **IconRef** (family+codepoint) для рендера в любых GUI (приоритет: iced/egui).[3]
@@ -17,9 +17,7 @@
 
 ### Правила удобства (решения)
 - Имена иконок **pack-local** (без глобальных “канонических” алиасов), чтобы избежать конфликтов и спорной семантики между наборами.  
-- Два режима API:
-  - Typed enum: **infallible**, для автокомплита и безопасного использования.
-  - Dynamic `&str`: всегда `Result`, для случаев “имя пришло из конфига/плагина”.
+- **Один публичный режим API:** строковый lookup через `try_icon(pack, name, style, size) -> Result<IconRef, IconError>`. Неизвестное имя или недоступный вариант → `Err` (не panic). Автокомплит по именам — через `list(pack)` и IDE/`&str`, не через публичные per-pack enum’ы.
 
 ## Технический дизайн
 ### Публичные типы (контракт)
@@ -42,15 +40,19 @@ pub struct IconRef {
 
 pub enum IconError {
     PackDisabled { pack: &'static str },
-    IconNotFound { pack: &'static str, name: String },
+    IconNotFound { pack: &'static str, name: Cow<'static, str> },
     VariantUnavailable {
         pack: &'static str,
-        name: String,
+        name: Cow<'static, str>,
         requested: (Style, Size),
         available: &'static [(Style, Size)],
     },
 }
 ```
+
+`IconError` is `#[non_exhaustive]`. Fields named `name` use `std::borrow::Cow<'static, str>` (borrowed from pack tables on variant miss; owned when the lookup string was not found).
+
+`Pack` is re-exported at the crate root (variants gated by `pack-*` features). The Fluent UI variant is **`Pack::FluentUi`** (feature `pack-fluentui`).
 
 ### Публичные функции (core)
 ```rust
@@ -62,11 +64,11 @@ pub fn try_icon(pack: Pack, name: &str, style: Style, size: Size)
 pub fn list(pack: Pack) -> &'static [&'static str];
 ```
 
-### Typed API (по каждому pack, за feature)
-**Removed / crate-private (F-007 Option A).** Public `packs::…::Icon` infallible API is no longer part of the crate surface. Generated pack modules live under `crate::generated` (`pub(crate)` only). Consumers use the string API: `try_icon` / `list` / `fonts` and the root-reexported `Pack` enum.
+### Typed pack enums
+**Not part of the public surface.** Generated pack modules live under `crate::generated` (`pub(crate)` only). There is no public infallible `Icon` / `LucideIcon` / `PhosphorIcon` API. Consumers use `try_icon` / `list` / `fonts` and the root-reexported `Pack` enum.
 
 ### Интеграция в GUI (ответственность пользователя)
-- **egui**: шрифт регистрируется через `FontDefinitions`, а байты удобно передавать через `FontData::from_static`.   
+- **egui**: шрифт регистрируется через `FontDefinitions`; байты передаются как `Arc::new(FontData::from_static(...))` (см. `docs/quickstart.md` / demo на `eframe::egui`).   
 - **iced**: при выборе шрифта используется структура `Font` (в т.ч. семейство/стиль/вес), поэтому `FontAsset.family` должен быть корректным и стабильным для конкретного TTF.[3]
 - Важно (iced): `family` в iconflow — это **Font Family внутри TTF**, а не имя файла (иначе пользователи будут получать “шрифт не применяется”).[6]
 
@@ -75,19 +77,21 @@ Feature-флаги — основной механизм контроля раз
 
 | Категория | Пример фич | Что включает |
 |---|---|---|
-| Пакеты | `pack-lucide`, `pack-phosphor`, `pack-heroicons` | Иконки + варианты пакета |
-| Размерные наборы | `heroicons-tiny/mini/regular`, `octicons-tiny/regular` | Отдельные TTF под размеры |
+| Пакеты | `pack-lucide`, `pack-phosphor`, `pack-heroicons`, `pack-fluentui` | Иконки + варианты пакета |
+| Размерные наборы | `heroicons-tiny/mini`, `octicons-tiny` | Доп. TTF под размеры (regular идёт с `pack-*`) |
 | Convenience | `all-packs` (не default) | Для demo/внутренней проверки |
 
 Рекомендация: `default = []`, чтобы по умолчанию ничего не тянуть.[1]
+
+GUI toolkits (egui/iced) — только `[dev-dependencies]` для примеров; **не** crate features.
 
 ## Данные и генерация
 ### Репозиторий (ожидаемая структура)
 - `assets/fonts/<pack>/<variant>.ttf` — ваши TTF (лицензии MIT/Apache-2.0).  
 - `assets/maps/<pack>.json` — pack-local список иконок + варианты.  
 - `assets/schema/iconflow-pack.schema.json` — единая JSON-schema.[4]
-- `src/generated/**` — сгенерированные модули (enums/таблицы), **закоммичены**.  
-- `xtask/` (или `tools/`) — генератор `gen`.
+- `src/generated/**` — сгенерированные модули (таблицы lookup), **закоммичены**.  
+- `xtask/` — генератор `gen`.
 
 Почему генерация коммитится: чтобы потребитель крейта не зависел от build-скриптов и внешних тулов, а сборка была воспроизводимой (генерация — задача разработчиков iconflow, не пользователей).  
 
@@ -137,16 +141,17 @@ Feature-флаги — основной механизм контроля раз
 ### Генератор (поведение)
 - Валидирует JSON по schema.[4]
 - Генерирует:
-  - enum `Icon` с Rust-идентификаторами (паскаль-кейс), с маппингом на `name` (оригинал).
+  - sorted `IconEntry` / `ICON_NAMES` таблицы для binary-search lookup по `name`.
   - таблицы `name -> codepoint` с учётом `overrides` по variant.
   - таблицу `VariantKey(style,size) -> FontAsset`.
-- Гарантия typed API: для каждого enum-варианта есть `codepoint` в доступных вариантах и хотя бы 1 валидный `VariantKey` (иначе генерация падает).
+- Инварианты (в тестах генерации): имена отсортированы, `ICON_NAMES.len() == ICON_ENTRIES.len()`, каждый entry имеет хотя бы один валидный `VariantKey` (иначе генерация падает).
+- Публичный `enum Icon` / infallible typed API **не** эмитится.
 
 ## План, качество, риски
 ### MVP / Beta / Release
 - MVP: 3–5 паков, `fonts()/try_icon()/list()`, генератор, README с iced+egui рецептом.[3]
 - Beta: все паки из `fonts/`, строгая диагностика `VariantUnavailable { available }`.  
-- Release: semver-стабилизация, CI матрица фич, контроль целостности ассетов (см. ниже).[1]
+- Release: semver-стабилизация, CI по фичам паков, контроль целостности ассетов (см. ниже).[1]
 
 ### DoD (Definition of Done)
 - ✅ `cargo test` проходит при `--no-default-features` и для каждого `--features pack-*`.[1]
