@@ -1,11 +1,225 @@
+use std::cmp::Ordering;
+use std::fmt;
+
 use crate::core::{FontAsset, IconError, IconRef, Size, Style};
 use crate::generated::Pack;
+
+#[cfg(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+))]
+impl fmt::Display for Pack {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match *self {
+            #[cfg(feature = "pack-bootstrap")]
+            Pack::Bootstrap => f.write_str("bootstrap"),
+            #[cfg(feature = "pack-carbon")]
+            Pack::Carbon => f.write_str("carbon"),
+            #[cfg(feature = "pack-devicon")]
+            Pack::Devicon => f.write_str("devicon"),
+            #[cfg(feature = "pack-feather")]
+            Pack::Feather => f.write_str("feather"),
+            #[cfg(feature = "pack-fluentui")]
+            Pack::FluentUi => f.write_str("fluentui"),
+            #[cfg(feature = "pack-heroicons")]
+            Pack::Heroicons => f.write_str("heroicons"),
+            #[cfg(feature = "pack-iconoir")]
+            Pack::Iconoir => f.write_str("iconoir"),
+            #[cfg(feature = "pack-ionicons")]
+            Pack::Ionicons => f.write_str("ionicons"),
+            #[cfg(feature = "pack-lobe")]
+            Pack::Lobe => f.write_str("lobe"),
+            #[cfg(feature = "pack-lucide")]
+            Pack::Lucide => f.write_str("lucide"),
+            #[cfg(feature = "pack-octicons")]
+            Pack::Octicons => f.write_str("octicons"),
+            #[cfg(feature = "pack-phosphor")]
+            Pack::Phosphor => f.write_str("phosphor"),
+            #[cfg(feature = "pack-remixicon")]
+            Pack::Remixicon => f.write_str("remixicon"),
+            #[cfg(feature = "pack-tabler")]
+            Pack::Tabler => f.write_str("tabler"),
+        }
+    }
+}
+
+#[cfg(not(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+)))]
+impl fmt::Display for Pack {
+    fn fmt(&self, _f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match *self {}
+    }
+}
+
+#[cfg(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+))]
+impl PartialOrd for Pack {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
+
+#[cfg(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+))]
+impl Ord for Pack {
+    fn cmp(&self, other: &Self) -> Ordering {
+        pack_ord_key(*self).cmp(&pack_ord_key(*other))
+    }
+}
+
+#[cfg(not(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+)))]
+impl PartialOrd for Pack {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
+
+#[cfg(not(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+)))]
+impl Ord for Pack {
+    fn cmp(&self, _other: &Self) -> Ordering {
+        match *self {}
+    }
+}
+
+#[cfg(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+))]
+const fn pack_ord_key(pack: Pack) -> u8 {
+    match pack {
+        #[cfg(feature = "pack-bootstrap")]
+        Pack::Bootstrap => 0,
+        #[cfg(feature = "pack-carbon")]
+        Pack::Carbon => 1,
+        #[cfg(feature = "pack-devicon")]
+        Pack::Devicon => 2,
+        #[cfg(feature = "pack-feather")]
+        Pack::Feather => 3,
+        #[cfg(feature = "pack-fluentui")]
+        Pack::FluentUi => 4,
+        #[cfg(feature = "pack-heroicons")]
+        Pack::Heroicons => 5,
+        #[cfg(feature = "pack-iconoir")]
+        Pack::Iconoir => 6,
+        #[cfg(feature = "pack-ionicons")]
+        Pack::Ionicons => 7,
+        #[cfg(feature = "pack-lobe")]
+        Pack::Lobe => 8,
+        #[cfg(feature = "pack-lucide")]
+        Pack::Lucide => 9,
+        #[cfg(feature = "pack-octicons")]
+        Pack::Octicons => 10,
+        #[cfg(feature = "pack-phosphor")]
+        Pack::Phosphor => 11,
+        #[cfg(feature = "pack-remixicon")]
+        Pack::Remixicon => 12,
+        #[cfg(feature = "pack-tabler")]
+        Pack::Tabler => 13,
+    }
+}
 
 /// Returns every embedded [`FontAsset`] from enabled packs.
 ///
 /// Register these fonts with your GUI toolkit (for example egui `FontDefinitions`
 /// or iced `Font`) before drawing glyphs from [`try_icon`].
 #[must_use]
+#[inline]
 pub fn fonts() -> &'static [FontAsset] {
     crate::generated::fonts()
 }
@@ -14,6 +228,7 @@ pub fn fonts() -> &'static [FontAsset] {
 ///
 /// Names match the string keys accepted by [`try_icon`].
 #[must_use]
+#[inline]
 pub fn list(pack: Pack) -> &'static [&'static str] {
     crate::generated::list(pack)
 }
@@ -44,6 +259,7 @@ pub fn list(pack: Pack) -> &'static [&'static str] {
 /// codepoint for that `(style, size)`. Valid committed maps do not hit these
 /// branches.
 #[must_use = "icon resolution result should be used"]
+#[inline]
 pub fn try_icon(pack: Pack, name: &str, style: Style, size: Size) -> Result<IconRef, IconError> {
     crate::generated::try_icon(pack, name, style, size)
 }
