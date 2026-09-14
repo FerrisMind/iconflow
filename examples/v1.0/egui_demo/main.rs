@@ -11,7 +11,11 @@ fn main() -> eframe::Result<()> {
     )
 }
 
-struct IconDemo;
+struct IconDemo {
+    /// Pre-resolved grid samples (F-018: no per-frame list/try_icon).
+    items: Vec<Result<Sample, String>>,
+    fonts_count: usize,
+}
 
 impl IconDemo {
     fn new(cc: &eframe::CreationContext<'_>) -> Self {
@@ -36,7 +40,10 @@ impl IconDemo {
         }
 
         cc.egui_ctx.set_fonts(definitions);
-        Self
+        Self {
+            items: build_grid_items(),
+            fonts_count: fonts().len(),
+        }
     }
 }
 
@@ -46,32 +53,6 @@ impl eframe::App for IconDemo {
             // Заголовок вверху слева
             ui.heading("iconflow egui demo");
             ui.add_space(20.0);
-
-            let packs = [
-                Pack::Bootstrap,
-                Pack::Carbon,
-                Pack::Devicon,
-                Pack::Feather,
-                Pack::Fluentui,
-                Pack::Heroicons,
-                Pack::Iconoir,
-                Pack::Ionicons,
-                Pack::Lobe,
-                Pack::Lucide,
-                Pack::Octicons,
-                Pack::Phosphor,
-                Pack::Remixicon,
-                Pack::Tabler,
-            ];
-            let mut items = Vec::new();
-
-            for pack in packs {
-                if let Some(name) = list(pack).first().copied() {
-                    items.push(resolve_icon(pack, name));
-                } else {
-                    items.push(Err(format!("{pack:?}: no icons")));
-                }
-            }
 
             const COLUMNS: usize = 4;
             let available_rect = ui.available_rect_before_wrap();
@@ -101,7 +82,7 @@ impl eframe::App for IconDemo {
                             .num_columns(COLUMNS)
                             .spacing([24.0, 16.0])
                             .show(ui, |ui| {
-                                for (index, item) in items.into_iter().enumerate() {
+                                for (index, item) in self.items.iter().enumerate() {
                                     match item {
                                         Ok(sample) => {
                                             let glyph = char::from_u32(sample.icon.codepoint)
@@ -114,7 +95,7 @@ impl eframe::App for IconDemo {
                                                 ui.label(
                                                     RichText::new(glyph.to_string()).font(font_id),
                                                 );
-                                                ui.label(sample.label);
+                                                ui.label(&sample.label);
                                             });
                                         }
                                         Err(message) => {
@@ -133,8 +114,10 @@ impl eframe::App for IconDemo {
 
             // Текст о количестве шрифтов внизу
             ui.with_layout(egui::Layout::bottom_up(egui::Align::Min), |ui| {
-                let fonts_count = fonts().len();
-                ui.label(format!("Fonts loaded: {fonts_count}/{fonts_count}"));
+                ui.label(format!(
+                    "Fonts loaded: {}/{}",
+                    self.fonts_count, self.fonts_count
+                ));
             });
         });
     }
@@ -143,6 +126,34 @@ impl eframe::App for IconDemo {
 struct Sample {
     icon: iconflow::IconRef,
     label: String,
+}
+
+fn build_grid_items() -> Vec<Result<Sample, String>> {
+    let packs = [
+        Pack::Bootstrap,
+        Pack::Carbon,
+        Pack::Devicon,
+        Pack::Feather,
+        Pack::FluentUi,
+        Pack::Heroicons,
+        Pack::Iconoir,
+        Pack::Ionicons,
+        Pack::Lobe,
+        Pack::Lucide,
+        Pack::Octicons,
+        Pack::Phosphor,
+        Pack::Remixicon,
+        Pack::Tabler,
+    ];
+    let mut items = Vec::with_capacity(packs.len());
+    for pack in packs {
+        if let Some(name) = list(pack).first().copied() {
+            items.push(resolve_icon(pack, name));
+        } else {
+            items.push(Err(format!("{pack:?}: no icons")));
+        }
+    }
+    items
 }
 
 fn resolve_icon(pack: Pack, name: &'static str) -> Result<Sample, String> {
