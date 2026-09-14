@@ -33,6 +33,7 @@ include = [
 [dev-dependencies]
 eframe = "0.33"
 iced = { version = "0.14", features = ["advanced"] }
+criterion = "0.5"
 
 [features]
 default = []
@@ -90,3 +91,17 @@ required-features = ["all-packs"]
 name = "iced_demo"
 path = "examples/v1.0/iced_demo/main.rs"
 required-features = ["all-packs"]
+
+[[bench]]
+name = "lookup"
+harness = false
+required-features = ["pack-phosphor", "pack-tabler", "pack-fluentui"]
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+panic = "abort"
+strip = "symbols"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }

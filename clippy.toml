@@ -1,0 +1,4 @@
+disallowed-types = [
+    "std::collections::LinkedList",
+    "std::sync::Mutex",
+]

@@ -126,7 +126,7 @@ fn icon_text() -> iced::widget::Text<'static> {
 
 Runnable example: `cargo run --example iced_demo --features all-packs`
 
-Example READMEs: `examples/egui_demo/README.md`, `examples/iced_demo/README.md`.
+Example READMEs: `examples/v1.0/egui_demo/README.md`, `examples/v1.0/iced_demo/README.md`.
 
 ## FAQ
 

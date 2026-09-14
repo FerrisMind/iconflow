@@ -299,15 +299,11 @@ fn check_pack_features(repo_root: &Path, packs: &[NormalizedPack]) -> Result<()>
 
     if !map_packs.is_subset(&feature_packs) {
         let missing: Vec<&String> = map_packs.difference(&feature_packs).collect();
-        bail!(
-            "pack maps not subset of Cargo.toml pack-* features; missing features: {missing:?}"
-        );
+        bail!("pack maps not subset of Cargo.toml pack-* features; missing features: {missing:?}");
     }
     if !feature_packs.is_subset(&map_packs) {
         let extra: Vec<&String> = feature_packs.difference(&map_packs).collect();
-        bail!(
-            "Cargo.toml pack-* features not subset of pack maps; extra features: {extra:?}"
-        );
+        bail!("Cargo.toml pack-* features not subset of pack maps; extra features: {extra:?}");
     }
 
     Ok(())
@@ -612,7 +608,10 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
         let ident = pack_enum_ident(pack_id)?;
         push_line(
             &mut out,
-            &format!("    /// {} (`pack-{pack_id}`).", pack_enum_doc_label(pack_id)),
+            &format!(
+                "    /// {} (`pack-{pack_id}`).",
+                pack_enum_doc_label(pack_id)
+            ),
         );
         push_line(
             &mut out,
@@ -697,8 +696,14 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
             &mut out,
             &format!("        Pack::{ident} => match {pack_id}::icon_entry(name) {{"),
         );
-        push_line(&mut out, "            None => Err(IconError::IconNotFound {");
-        push_line(&mut out, &format!("                pack: {pack_id}::PACK_ID,"));
+        push_line(
+            &mut out,
+            "            None => Err(IconError::IconNotFound {",
+        );
+        push_line(
+            &mut out,
+            &format!("                pack: {pack_id}::PACK_ID,"),
+        );
         push_line(
             &mut out,
             "                name: ::std::borrow::Cow::Owned(name.to_owned()),",
@@ -735,17 +740,17 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
     push_line(&mut out, "");
 
     push_line(&mut out, &format!("#[cfg(any({any_packs_cfg}))]"));
-    push_line(
-        &mut out,
-        "fn resolve_found(",
-    );
+    push_line(&mut out, "fn resolve_found(");
     push_line(&mut out, "    pack: &'static str,");
     push_line(&mut out, "    entry: &'static crate::core::IconEntry,");
     push_line(&mut out, "    style: Style,");
     push_line(&mut out, "    size: Size,");
     push_line(&mut out, "    family: Option<&'static str>,");
     push_line(&mut out, ") -> Result<IconRef, IconError> {");
-    push_line(&mut out, "    if !entry.available.contains(&(style, size)) {");
+    push_line(
+        &mut out,
+        "    if !entry.available.contains(&(style, size)) {",
+    );
     push_line(
         &mut out,
         "        return Err(IconError::VariantUnavailable {",
@@ -1008,10 +1013,7 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
         push_line(&mut out, "");
     }
 
-    push_line(
-        &mut out,
-        "pub(crate) const ICON_ENTRIES: &[IconEntry] = &[",
-    );
+    push_line(&mut out, "pub(crate) const ICON_ENTRIES: &[IconEntry] = &[");
     for icon in &pack.icons {
         let codepoints_const = icon_codepoints_const_ident(&icon.ident)?;
         let available_const = icon_available_const_ident(&icon.ident)?;
