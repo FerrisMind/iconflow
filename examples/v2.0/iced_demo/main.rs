@@ -13,6 +13,8 @@ struct IconDemo {
     fonts_total: usize,
     fonts_loaded: usize,
     font_error: Option<String>,
+    /// Pre-resolved grid samples (F-018: no per-frame list/try_icon).
+    items: Vec<Result<Sample, String>>,
 }
 
 #[derive(Debug, Clone)]
@@ -32,6 +34,7 @@ impl IconDemo {
                 fonts_total,
                 fonts_loaded: 0,
                 font_error: None,
+                items: build_grid_items(),
             },
             Task::batch(tasks),
         )
@@ -65,51 +68,27 @@ impl IconDemo {
                 .into();
         }
 
-        let packs = [
-            Pack::Bootstrap,
-            Pack::Carbon,
-            Pack::Devicon,
-            Pack::Feather,
-            Pack::Fluentui,
-            Pack::Heroicons,
-            Pack::Iconoir,
-            Pack::Ionicons,
-            Pack::Lobe,
-            Pack::Lucide,
-            Pack::Octicons,
-            Pack::Phosphor,
-            Pack::Remixicon,
-            Pack::Tabler,
-        ];
-        let mut cells = Vec::new();
-
-        for pack in packs {
-            if let Some(name) = list(pack).first().copied() {
-                cells.push(resolve_icon(pack, name));
-            } else {
-                cells.push(Err(format!("{pack:?}: no icons")));
-            }
-        }
-
         const COLUMNS: usize = 4;
         let mut grid = column![text("iconflow iced demo").size(24)].spacing(16);
         let mut current_row = row![].spacing(24);
         let mut row_len = 0usize;
 
-        for (index, cell) in cells.into_iter().enumerate() {
+        for (index, cell) in self.items.iter().enumerate() {
             let item: Element<'_, Message> = match cell {
                 Ok(sample) => {
                     let glyph = char::from_u32(sample.icon.codepoint).unwrap_or('?');
                     let icon_text = text::<Theme, iced::Renderer>(glyph.to_string())
                         .size(48)
                         .font(iced::font::Font::with_name(sample.icon.family));
-                    let label = text::<Theme, iced::Renderer>(sample.label);
+                    let label = text::<Theme, iced::Renderer>(sample.label.as_str());
                     column![icon_text, label]
                         .spacing(6)
                         .align_x(iced::alignment::Horizontal::Center)
                         .into()
                 }
-                Err(message) => text::<Theme, iced::Renderer>(message).size(14).into(),
+                Err(message) => text::<Theme, iced::Renderer>(message.as_str())
+                    .size(14)
+                    .into(),
             };
 
             current_row = current_row.push(item);
@@ -145,6 +124,34 @@ impl IconDemo {
 struct Sample {
     icon: iconflow::IconRef,
     label: String,
+}
+
+fn build_grid_items() -> Vec<Result<Sample, String>> {
+    let packs = [
+        Pack::Bootstrap,
+        Pack::Carbon,
+        Pack::Devicon,
+        Pack::Feather,
+        Pack::FluentUi,
+        Pack::Heroicons,
+        Pack::Iconoir,
+        Pack::Ionicons,
+        Pack::Lobe,
+        Pack::Lucide,
+        Pack::Octicons,
+        Pack::Phosphor,
+        Pack::Remixicon,
+        Pack::Tabler,
+    ];
+    let mut items = Vec::with_capacity(packs.len());
+    for pack in packs {
+        if let Some(name) = list(pack).first().copied() {
+            items.push(resolve_icon(pack, name));
+        } else {
+            items.push(Err(format!("{pack:?}: no icons")));
+        }
+    }
+    items
 }
 
 fn resolve_icon(pack: Pack, name: &'static str) -> Result<Sample, String> {

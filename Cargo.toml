@@ -79,12 +79,12 @@ resolver = "3"
 
 [[example]]
 name = "egui_demo"
-path = "examples/v1.0/egui_demo/main.rs"
+path = "examples/v2.0/egui_demo/main.rs"
 required-features = ["all-packs"]
 
 [[example]]
 name = "iced_demo"
-path = "examples/v1.0/iced_demo/main.rs"
+path = "examples/v2.0/iced_demo/main.rs"
 required-features = ["all-packs"]
 
 [[bench]]

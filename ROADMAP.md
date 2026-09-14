@@ -11,7 +11,7 @@ There are **no** `egui` or `iced` Cargo features and **no** public per-pack icon
 - 14 icon packs behind `pack-*` features (`all-packs` for demos/CI)
 - Optional size gates: `heroicons-tiny`, `heroicons-mini`, `octicons-tiny`
 - Committed `src/generated/**` from `cargo xtask gen`
-- Examples under `examples/v1.0/` (egui + iced demos; toolkit is a **dev-dependency**, not a crate feature)
+- Examples under `examples/v2.0/` (egui + iced; toolkit is a **dev-dependency**, not a crate feature); `examples/v1.0/` kept as a 1.0.0 API snapshot
 - CI: fmt, clippy, tests, docs, package list, licenses, bench compile smoke
 
 ## Near term
