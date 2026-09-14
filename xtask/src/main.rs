@@ -784,19 +784,31 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     );
     push_line(&mut out, "        let idx = self as usize;");
     push_line(&mut out, "        let name = ICON_NAMES[idx];");
-    push_line(&mut out, "        let available = ICON_AVAILABILITY[idx].available;");
+    push_line(
+        &mut out,
+        "        let available = ICON_AVAILABILITY[idx].available;",
+    );
     push_line(&mut out, "        if !available.contains(&(style, size)) {");
-    push_line(&mut out, "            return Err(IconError::VariantUnavailable {");
+    push_line(
+        &mut out,
+        "            return Err(IconError::VariantUnavailable {",
+    );
     push_line(&mut out, "                pack: PACK_ID,");
     push_line(&mut out, "                name: name.to_string(),");
     push_line(&mut out, "                requested: (style, size),");
     push_line(&mut out, "                available,");
     push_line(&mut out, "            });");
     push_line(&mut out, "        }");
-    push_line(&mut out, "        let variant = match variant_info(style, size) {");
+    push_line(
+        &mut out,
+        "        let variant = match variant_info(style, size) {",
+    );
     push_line(&mut out, "            Some(v) => v,");
     push_line(&mut out, "            None => {");
-    push_line(&mut out, "                return Err(IconError::VariantUnavailable {");
+    push_line(
+        &mut out,
+        "                return Err(IconError::VariantUnavailable {",
+    );
     push_line(&mut out, "                    pack: PACK_ID,");
     push_line(&mut out, "                    name: name.to_string(),");
     push_line(&mut out, "                    requested: (style, size),");
@@ -804,7 +816,10 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     push_line(&mut out, "                });");
     push_line(&mut out, "            }");
     push_line(&mut out, "        };");
-    push_line(&mut out, "        let codepoint = match ICON_CODEPOINTS[idx]");
+    push_line(
+        &mut out,
+        "        let codepoint = match ICON_CODEPOINTS[idx]",
+    );
     push_line(&mut out, "            .codepoints");
     push_line(&mut out, "            .iter()");
     push_line(&mut out, "            .find(|(k, _)| *k == variant.key)");
@@ -812,7 +827,10 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     push_line(&mut out, "        {");
     push_line(&mut out, "            Some(cp) => cp,");
     push_line(&mut out, "            None => {");
-    push_line(&mut out, "                return Err(IconError::VariantUnavailable {");
+    push_line(
+        &mut out,
+        "                return Err(IconError::VariantUnavailable {",
+    );
     push_line(&mut out, "                    pack: PACK_ID,");
     push_line(&mut out, "                    name: name.to_string(),");
     push_line(&mut out, "                    requested: (style, size),");
