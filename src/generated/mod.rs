@@ -63,7 +63,7 @@ pub enum Pack {
     Feather,
     /// Fluent UI System Icons (`pack-fluentui`).
     #[cfg(feature = "pack-fluentui")]
-    Fluentui,
+    FluentUi,
     /// Heroicons (`pack-heroicons`).
     #[cfg(feature = "pack-heroicons")]
     Heroicons,
@@ -193,7 +193,7 @@ pub fn list(pack: Pack) -> &'static [&'static str] {
         #[cfg(feature = "pack-feather")]
         Pack::Feather => feather::ICON_NAMES,
         #[cfg(feature = "pack-fluentui")]
-        Pack::Fluentui => fluentui::ICON_NAMES,
+        Pack::FluentUi => fluentui::ICON_NAMES,
         #[cfg(feature = "pack-heroicons")]
         Pack::Heroicons => heroicons::ICON_NAMES,
         #[cfg(feature = "pack-iconoir")]
@@ -310,7 +310,7 @@ pub fn try_icon(pack: Pack, name: &str, style: Style, size: Size) -> Result<Icon
             ),
         },
         #[cfg(feature = "pack-fluentui")]
-        Pack::Fluentui => match fluentui::icon_entry(name) {
+        Pack::FluentUi => match fluentui::icon_entry(name) {
             None => Err(IconError::IconNotFound {
                 pack: fluentui::PACK_ID,
                 name: ::std::borrow::Cow::Owned(name.to_owned()),
@@ -508,13 +508,58 @@ fn resolve_found(
             available: entry.available,
         });
     }
-    let family = family.expect("Icon variant should have a font family");
+    let family = resolve_invariant_family(family);
     let key = crate::core::VariantKey { style, size };
-    let codepoint = entry
-        .variants
-        .iter()
-        .find(|(k, _)| *k == key)
-        .map(|(_, cp)| *cp)
-        .expect("Icon variant should have a codepoint");
+    let codepoint = resolve_invariant_codepoint(
+        entry
+            .variants
+            .iter()
+            .find(|(k, _)| *k == key)
+            .map(|(_, cp)| *cp),
+    );
     Ok(IconRef { family, codepoint })
+}
+
+#[cfg(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+))]
+#[cold]
+#[inline(never)]
+fn resolve_invariant_family(family: Option<&'static str>) -> &'static str {
+    family.expect("Icon variant should have a font family")
+}
+
+#[cfg(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+))]
+#[cold]
+#[inline(never)]
+fn resolve_invariant_codepoint(codepoint: Option<u32>) -> u32 {
+    codepoint.expect("Icon variant should have a codepoint")
 }
