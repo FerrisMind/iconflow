@@ -1,3 +1,4 @@
+use std::borrow::Cow;
 use std::fmt;
 
 use crate::core::{Size, Style};
@@ -9,11 +10,11 @@ pub enum IconError {
     },
     IconNotFound {
         pack: &'static str,
-        name: String,
+        name: Cow<'static, str>,
     },
     VariantUnavailable {
         pack: &'static str,
-        name: String,
+        name: Cow<'static, str>,
         requested: (Style, Size),
         available: &'static [(Style, Size)],
     },

@@ -1,14 +1,49 @@
 use crate::core::{FontAsset, IconError, IconRef, Size, Style};
 use crate::generated::Pack;
 
+/// Returns every embedded [`FontAsset`] from enabled packs.
+///
+/// Register these fonts with your GUI toolkit (for example egui `FontDefinitions`
+/// or iced `Font`) before drawing glyphs from [`try_icon`].
+#[must_use]
 pub fn fonts() -> &'static [FontAsset] {
     crate::generated::fonts()
 }
 
+/// Returns the sorted list of icon names available in `pack`.
+///
+/// Names match the string keys accepted by [`try_icon`].
+#[must_use]
 pub fn list(pack: Pack) -> &'static [&'static str] {
     crate::generated::list(pack)
 }
 
+/// Resolves an icon in `pack` by string `name`, `style`, and `size`.
+///
+/// On success, returns an [`IconRef`] with the font family and glyph codepoint.
+/// Pair the family with bytes from [`fonts`] when configuring your renderer.
+///
+/// # Errors
+///
+/// Returns [`IconError`] in these cases:
+///
+/// - [`IconError::PackDisabled`] — the requested pack feature is not enabled
+///   (or no packs are enabled).
+/// - [`IconError::IconNotFound`] — `name` is not present in `pack`. The `name`
+///   field is a [`std::borrow::Cow`]`<'static, str>` (typically owned for the
+///   looked-up string).
+/// - [`IconError::VariantUnavailable`] — the icon exists, but `(style, size)`
+///   is not among `available`. The `name` field is a
+///   [`std::borrow::Cow`]`<'static, str>` (typically borrowed from the pack
+///   table).
+///
+/// # Panics
+///
+/// Panics only if generated pack tables violate generator invariants: after a
+/// variant is confirmed available, the resolve path `expect`s a font family and
+/// codepoint for that `(style, size)`. Valid committed maps do not hit these
+/// branches.
+#[must_use = "icon resolution result should be used"]
 pub fn try_icon(pack: Pack, name: &str, style: Style, size: Size) -> Result<IconRef, IconError> {
     crate::generated::try_icon(pack, name, style, size)
 }

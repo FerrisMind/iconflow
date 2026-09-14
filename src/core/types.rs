@@ -53,6 +53,14 @@ pub struct VariantKey {
     pub size: Size,
 }
 
+/// Crate-private descriptor for one icon in a generated pack table.
+#[derive(Clone, Copy, Debug)]
+pub(crate) struct IconEntry {
+    pub name: &'static str,
+    pub variants: &'static [(VariantKey, u32)],
+    pub available: &'static [(Style, Size)],
+}
+
 #[cfg(test)]
 mod tests {
     use super::{Size, Style, VariantKey};
