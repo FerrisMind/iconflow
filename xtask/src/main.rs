@@ -236,6 +236,17 @@ fn run_gen(check: bool) -> Result<()> {
     }
     normalized.sort_by(|a, b| a.pack_id.cmp(&b.pack_id));
 
+    // F-016: uniqueness after normalize+sort
+    let mut seen = BTreeSet::new();
+    for p in &normalized {
+        if !seen.insert(p.pack_id.clone()) {
+            bail!("duplicate pack_id '{}'", p.pack_id);
+        }
+    }
+
+    // F-017: bidirectional pack-* feature check against repo-root Cargo.toml
+    check_pack_features(&repo_root, &normalized)?;
+
     let mut outputs = Vec::new();
     outputs.push((
         generated_dir.join("mod.rs"),
@@ -260,6 +271,46 @@ fn repo_root() -> Result<PathBuf> {
         .parent()
         .context("xtask is expected to live one level below repo root")
         .map(Path::to_path_buf)
+}
+
+fn check_pack_features(repo_root: &Path, packs: &[NormalizedPack]) -> Result<()> {
+    let cargo_toml_path = repo_root.join("Cargo.toml");
+    let raw = fs::read_to_string(&cargo_toml_path)
+        .with_context(|| format!("Reading {}", cargo_toml_path.display()))?;
+    let manifest: toml::Value = raw
+        .parse()
+        .with_context(|| format!("Parsing {}", cargo_toml_path.display()))?;
+
+    let features = manifest
+        .get("features")
+        .and_then(|v| v.as_table())
+        .context("Cargo.toml missing [features] table")?;
+
+    let feature_packs: BTreeSet<String> = features
+        .keys()
+        .filter(|k| k.starts_with("pack-"))
+        .cloned()
+        .collect();
+
+    let map_packs: BTreeSet<String> = packs
+        .iter()
+        .map(|p| format!("pack-{}", p.pack_id))
+        .collect();
+
+    if !map_packs.is_subset(&feature_packs) {
+        let missing: Vec<&String> = map_packs.difference(&feature_packs).collect();
+        bail!(
+            "pack maps not subset of Cargo.toml pack-* features; missing features: {missing:?}"
+        );
+    }
+    if !feature_packs.is_subset(&map_packs) {
+        let extra: Vec<&String> = feature_packs.difference(&map_packs).collect();
+        bail!(
+            "Cargo.toml pack-* features not subset of pack maps; extra features: {extra:?}"
+        );
+    }
+
+    Ok(())
 }
 
 fn load_pack_map(path: &Path) -> Result<PackMap> {
@@ -544,12 +595,25 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
 
     push_line(
         &mut out,
+        "/// Icon pack selectable via [`crate::try_icon`] / [`crate::list`].",
+    );
+    push_line(&mut out, "///");
+    push_line(
+        &mut out,
+        "/// Variants exist only when the corresponding `pack-*` Cargo feature is enabled.",
+    );
+    push_line(
+        &mut out,
         "#[derive(Clone, Copy, Debug, Eq, PartialEq, Hash)]",
     );
     push_line(&mut out, "pub enum Pack {");
     for pack in packs {
         let pack_id = &pack.pack_id;
         let ident = pack_enum_ident(pack_id)?;
+        push_line(
+            &mut out,
+            &format!("    /// {} (`pack-{pack_id}`).", pack_enum_doc_label(pack_id)),
+        );
         push_line(
             &mut out,
             &format!("    #[cfg(feature = \"pack-{pack_id}\")]"),
@@ -629,26 +693,30 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
             &mut out,
             &format!("        #[cfg(feature = \"pack-{pack_id}\")]"),
         );
-        push_line(&mut out, &format!("        Pack::{ident} => resolve_icon("));
-        push_line(&mut out, &format!("            {pack_id}::PACK_ID,"));
-        push_line(&mut out, "            name,");
-        push_line(&mut out, "            style,");
-        push_line(&mut out, "            size,");
         push_line(
             &mut out,
-            &format!("            {pack_id}::icon_available(name),"),
+            &format!("        Pack::{ident} => match {pack_id}::icon_entry(name) {{"),
         );
+        push_line(&mut out, "            None => Err(IconError::IconNotFound {");
+        push_line(&mut out, &format!("                pack: {pack_id}::PACK_ID,"));
         push_line(
             &mut out,
-            &format!("            {pack_id}::variant_info(style, size).map(|info| info.family),"),
+            "                name: ::std::borrow::Cow::Owned(name.to_owned()),",
         );
+        push_line(&mut out, "            }),");
+        push_line(&mut out, "            Some(entry) => resolve_found(");
+        push_line(&mut out, &format!("                {pack_id}::PACK_ID,"));
+        push_line(&mut out, "                entry,");
+        push_line(&mut out, "                style,");
+        push_line(&mut out, "                size,");
         push_line(
             &mut out,
             &format!(
-                "            {pack_id}::icon_codepoint(name, crate::core::VariantKey {{ style, size }}),"
+                "                {pack_id}::variant_info(style, size).map(|info| info.family),"
             ),
         );
-        push_line(&mut out, "        ),");
+        push_line(&mut out, "            ),");
+        push_line(&mut out, "        },");
     }
     push_line(&mut out, "    }");
     push_line(&mut out, "}");
@@ -669,30 +737,44 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
     push_line(&mut out, &format!("#[cfg(any({any_packs_cfg}))]"));
     push_line(
         &mut out,
-        "fn resolve_icon(pack: &'static str, name: &str, style: Style, size: Size, available: Option<&'static [(Style, Size)]>, family: Option<&'static str>, codepoint: Option<u32>) -> Result<IconRef, IconError> {",
+        "fn resolve_found(",
     );
-    push_line(&mut out, "    let available = match available {");
-    push_line(&mut out, "        Some(available) => available,");
+    push_line(&mut out, "    pack: &'static str,");
+    push_line(&mut out, "    entry: &'static crate::core::IconEntry,");
+    push_line(&mut out, "    style: Style,");
+    push_line(&mut out, "    size: Size,");
+    push_line(&mut out, "    family: Option<&'static str>,");
+    push_line(&mut out, ") -> Result<IconRef, IconError> {");
+    push_line(&mut out, "    if !entry.available.contains(&(style, size)) {");
     push_line(
         &mut out,
-        "        None => return Err(IconError::IconNotFound { pack, name: name.to_string() }),",
+        "        return Err(IconError::VariantUnavailable {",
     );
-    push_line(&mut out, "    };");
-    push_line(&mut out, "");
-    push_line(&mut out, "    if !available.contains(&(style, size)) {");
+    push_line(&mut out, "            pack,");
     push_line(
         &mut out,
-        "        return Err(IconError::VariantUnavailable { pack, name: name.to_string(), requested: (style, size), available });",
+        "            name: ::std::borrow::Cow::Borrowed(entry.name),",
     );
+    push_line(&mut out, "            requested: (style, size),");
+    push_line(&mut out, "            available: entry.available,");
+    push_line(&mut out, "        });");
     push_line(&mut out, "    }");
-    push_line(&mut out, "");
     push_line(
         &mut out,
         "    let family = family.expect(\"Icon variant should have a font family\");",
     );
     push_line(
         &mut out,
-        "    let codepoint = codepoint.expect(\"Icon variant should have a codepoint\");",
+        "    let key = crate::core::VariantKey { style, size };",
+    );
+    push_line(&mut out, "    let codepoint = entry");
+    push_line(&mut out, "        .variants");
+    push_line(&mut out, "        .iter()");
+    push_line(&mut out, "        .find(|(k, _)| *k == key)");
+    push_line(&mut out, "        .map(|(_, cp)| *cp)");
+    push_line(
+        &mut out,
+        "        .expect(\"Icon variant should have a codepoint\");",
     );
     push_line(&mut out, "    Ok(IconRef { family, codepoint })");
     push_line(&mut out, "}");
@@ -708,7 +790,7 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     push_line(&mut out, "#![allow(clippy::enum_variant_names)]");
     push_line(
         &mut out,
-        "use crate::core::{FontAsset, IconError, IconRef, Size, Style, VariantKey};",
+        "use crate::core::{FontAsset, IconEntry, IconError, IconRef, Size, Style, VariantKey};",
     );
     push_line(&mut out, "");
     push_line(
@@ -774,27 +856,32 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     push_line(&mut out, "");
 
     push_line(&mut out, "impl Icon {");
+    push_line(&mut out, "    #[must_use]");
     push_line(&mut out, "    pub(crate) fn name(self) -> &'static str {");
     push_line(&mut out, "        ICON_NAMES[self as usize]");
     push_line(&mut out, "    }");
     push_line(&mut out, "");
     push_line(
         &mut out,
+        "    #[must_use = \"icon resolution result should be used\"]",
+    );
+    push_line(
+        &mut out,
         "    pub(crate) fn icon(self, style: Style, size: Size) -> Result<IconRef, IconError> {",
     );
     push_line(&mut out, "        let idx = self as usize;");
-    push_line(&mut out, "        let name = ICON_NAMES[idx];");
-    push_line(
-        &mut out,
-        "        let available = ICON_AVAILABILITY[idx].available;",
-    );
+    push_line(&mut out, "        let entry = &ICON_ENTRIES[idx];");
+    push_line(&mut out, "        let available = entry.available;");
     push_line(&mut out, "        if !available.contains(&(style, size)) {");
     push_line(
         &mut out,
         "            return Err(IconError::VariantUnavailable {",
     );
     push_line(&mut out, "                pack: PACK_ID,");
-    push_line(&mut out, "                name: name.to_string(),");
+    push_line(
+        &mut out,
+        "                name: ::std::borrow::Cow::Borrowed(entry.name),",
+    );
     push_line(&mut out, "                requested: (style, size),");
     push_line(&mut out, "                available,");
     push_line(&mut out, "            });");
@@ -810,17 +897,17 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
         "                return Err(IconError::VariantUnavailable {",
     );
     push_line(&mut out, "                    pack: PACK_ID,");
-    push_line(&mut out, "                    name: name.to_string(),");
+    push_line(
+        &mut out,
+        "                    name: ::std::borrow::Cow::Borrowed(entry.name),",
+    );
     push_line(&mut out, "                    requested: (style, size),");
     push_line(&mut out, "                    available,");
     push_line(&mut out, "                });");
     push_line(&mut out, "            }");
     push_line(&mut out, "        };");
-    push_line(
-        &mut out,
-        "        let codepoint = match ICON_CODEPOINTS[idx]",
-    );
-    push_line(&mut out, "            .codepoints");
+    push_line(&mut out, "        let codepoint = match entry");
+    push_line(&mut out, "            .variants");
     push_line(&mut out, "            .iter()");
     push_line(&mut out, "            .find(|(k, _)| *k == variant.key)");
     push_line(&mut out, "            .map(|(_, cp)| *cp)");
@@ -832,7 +919,10 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
         "                return Err(IconError::VariantUnavailable {",
     );
     push_line(&mut out, "                    pack: PACK_ID,");
-    push_line(&mut out, "                    name: name.to_string(),");
+    push_line(
+        &mut out,
+        "                    name: ::std::borrow::Cow::Borrowed(entry.name),",
+    );
     push_line(&mut out, "                    requested: (style, size),");
     push_line(&mut out, "                    available,");
     push_line(&mut out, "                });");
@@ -918,49 +1008,18 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
         push_line(&mut out, "");
     }
 
-    push_line(&mut out, "#[derive(Clone, Copy, Debug)]");
-    push_line(&mut out, "pub(crate) struct IconCodepoints {");
-    push_line(&mut out, "    pub name: &'static str,");
     push_line(
         &mut out,
-        "    pub codepoints: &'static [(VariantKey, u32)],",
-    );
-    push_line(&mut out, "}");
-    push_line(&mut out, "");
-    push_line(
-        &mut out,
-        "pub(crate) const ICON_CODEPOINTS: &[IconCodepoints] = &[",
+        "pub(crate) const ICON_ENTRIES: &[IconEntry] = &[",
     );
     for icon in &pack.icons {
-        let const_name = icon_codepoints_const_ident(&icon.ident)?;
+        let codepoints_const = icon_codepoints_const_ident(&icon.ident)?;
+        let available_const = icon_available_const_ident(&icon.ident)?;
         push_line(
             &mut out,
             &format!(
-                "    IconCodepoints {{ name: \"{}\", codepoints: {} }},",
-                icon.name, const_name
-            ),
-        );
-    }
-    push_line(&mut out, "];");
-    push_line(&mut out, "");
-
-    push_line(&mut out, "#[derive(Clone, Copy, Debug)]");
-    push_line(&mut out, "pub(crate) struct IconAvailability {");
-    push_line(&mut out, "    pub name: &'static str,");
-    push_line(&mut out, "    pub available: &'static [(Style, Size)],");
-    push_line(&mut out, "}");
-    push_line(&mut out, "");
-    push_line(
-        &mut out,
-        "pub(crate) const ICON_AVAILABILITY: &[IconAvailability] = &[",
-    );
-    for icon in &pack.icons {
-        let const_name = icon_available_const_ident(&icon.ident)?;
-        push_line(
-            &mut out,
-            &format!(
-                "    IconAvailability {{ name: \"{}\", available: {} }},",
-                icon.name, const_name
+                "    IconEntry {{ name: \"{}\", variants: {codepoints_const}, available: {available_const} }},",
+                icon.name
             ),
         );
     }
@@ -979,27 +1038,13 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     push_line(&mut out, "");
     push_line(
         &mut out,
-        "pub(crate) fn icon_codepoint(name: &str, key: VariantKey) -> Option<u32> {",
+        "pub(crate) fn icon_entry(name: &str) -> Option<&'static IconEntry> {",
     );
     push_line(
         &mut out,
-        "    let idx = ICON_CODEPOINTS.binary_search_by(|e| e.name.as_bytes().cmp(name.as_bytes())).ok()?;",
+        "    let idx = ICON_ENTRIES.binary_search_by(|e| e.name.as_bytes().cmp(name.as_bytes())).ok()?;",
     );
-    push_line(
-        &mut out,
-        "    ICON_CODEPOINTS[idx].codepoints.iter().find(|(k, _)| *k == key).map(|(_, cp)| *cp)",
-    );
-    push_line(&mut out, "}");
-    push_line(&mut out, "");
-    push_line(
-        &mut out,
-        "pub(crate) fn icon_available(name: &str) -> Option<&'static [(Style, Size)]> {",
-    );
-    push_line(
-        &mut out,
-        "    let idx = ICON_AVAILABILITY.binary_search_by(|e| e.name.as_bytes().cmp(name.as_bytes())).ok()?;",
-    );
-    push_line(&mut out, "    Some(ICON_AVAILABILITY[idx].available)");
+    push_line(&mut out, "    Some(&ICON_ENTRIES[idx])");
     push_line(&mut out, "}");
 
     Ok(out)
@@ -1182,6 +1227,26 @@ fn pack_enum_ident(pack_id: &str) -> Result<String> {
     Ok(ident)
 }
 
+fn pack_enum_doc_label(pack_id: &str) -> &'static str {
+    match pack_id {
+        "bootstrap" => "Bootstrap Icons",
+        "carbon" => "Carbon Icons",
+        "devicon" => "Devicon",
+        "feather" => "Feather Icons",
+        "fluentui" => "Fluent UI System Icons",
+        "heroicons" => "Heroicons",
+        "iconoir" => "Iconoir",
+        "ionicons" => "Ionicons",
+        "lobe" => "Lobe icons",
+        "lucide" => "Lucide",
+        "octicons" => "Octicons",
+        "phosphor" => "Phosphor Icons",
+        "remixicon" => "Remix Icon",
+        "tabler" => "Tabler Icons",
+        _ => "Icon pack",
+    }
+}
+
 fn rustfmt(code: &str) -> Result<String> {
     let mut child = Command::new("rustfmt")
         .args(["--emit", "stdout", "--edition", "2024"])
@@ -1259,6 +1324,7 @@ mod tests {
                 size: Size::Regular,
                 family: "Demo Regular".to_string(),
                 ttf_asset_path: "assets/fonts/demo.ttf".to_string(),
+                feature: None,
             }],
             icons: vec![Icon {
                 name: "missing".to_string(),
@@ -1286,6 +1352,7 @@ mod tests {
                 size: Size::Regular,
                 family: "Demo Regular".to_string(),
                 ttf_asset_path: "assets/fonts/demo.ttf".to_string(),
+                feature: None,
             }],
             icons: vec![Icon {
                 name: "icon".to_string(),
