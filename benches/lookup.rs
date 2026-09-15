@@ -10,7 +10,7 @@
 //! known-existing icon name.
 
 use criterion::{Criterion, black_box, criterion_group, criterion_main};
-use iconflow::{IconError, Pack, Size, Style, list, try_icon};
+use iconflow::{IconError, Pack, Size, Style, resolve_all, try_icon};
 
 const MISSING_NAME: &str = "__iconflow_missing__";
 
@@ -152,15 +152,22 @@ fn variant_miss(c: &mut Criterion) {
 fn picker_frame(c: &mut Criterion) {
     let mut group = c.benchmark_group("picker_frame");
     for (pack, _) in packs() {
-        group.bench_function(format!("{pack:?}"), |b| {
+        // Cold: linear table walk (resolve_all) — preferred over n× try_icon.
+        group.bench_function(format!("{pack:?}/cold_resolve_all"), |b| {
             b.iter(|| {
-                for name in list(black_box(pack)) {
-                    let _ = try_icon(
-                        black_box(pack),
-                        black_box(*name),
-                        black_box(Style::Regular),
-                        black_box(Size::Regular),
-                    );
+                resolve_all(
+                    black_box(pack),
+                    black_box(Style::Regular),
+                    black_box(Size::Regular),
+                )
+            })
+        });
+        // Warm: dense Vec index (R3-N-09) — not HashMap<&str, IconRef>.
+        let warm = resolve_all(pack, Style::Regular, Size::Regular);
+        group.bench_function(format!("{pack:?}/warm_vec"), |b| {
+            b.iter(|| {
+                for icon in black_box(&warm) {
+                    black_box(icon.as_ref().ok());
                 }
             })
         });

@@ -54,6 +54,13 @@ tables) and pick a listed `(style, size)` — no runtime default remapping is ap
 The pack enum variant is `Pack::FluentUi` (feature `pack-fluentui`). There is no
 `Pack::Fluentui` spelling.
 
+## Icon pickers (cold + warm frames)
+
+For a full-pack grid, prefer [`resolve_all`](https://docs.rs/iconflow/*/iconflow/fn.resolve_all.html)
+once (linear table walk; order matches `list`) instead of `n × try_icon` or a
+`HashMap<&str, IconRef>` memo. Keep the `Vec` and index it on warm frames — name-keyed
+hash maps are slower and are not part of the crate’s hot path.
+
 ## Known limitations
 
 Dual static name storage (`ICON_NAMES` plus each `ICON_ENTRIES[].name`) is intentional so

@@ -687,7 +687,7 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
 
     push_line(
         &mut out,
-        "/// Icon pack selectable via [`crate::try_icon`] / [`crate::list`].",
+        "/// Icon pack selectable via [`crate::try_icon`] / [`crate::list`] / [`crate::resolve_all`].",
     );
     push_line(&mut out, "///");
     push_line(
@@ -832,6 +832,61 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
         &mut out,
         "    Err(IconError::PackDisabled { pack: \"none\" })",
     );
+    push_line(&mut out, "}");
+    push_line(&mut out, "");
+
+    // R3-N-09: linear table walk for picker cold / dense warm caches (no per-name binary search).
+    push_line(&mut out, &format!("#[cfg(any({any_packs_cfg}))]"));
+    push_line(
+        &mut out,
+        "pub fn resolve_all(pack: Pack, style: Style, size: Size) -> Vec<Result<IconRef, IconError>> {",
+    );
+    push_line(&mut out, "    match pack {");
+    for pack in packs {
+        let pack_id = &pack.pack_id;
+        let ident = pack_enum_ident(pack_id)?;
+        push_line(
+            &mut out,
+            &format!("        #[cfg(feature = \"pack-{pack_id}\")]"),
+        );
+        push_line(&mut out, &format!("        Pack::{ident} => {{"));
+        push_line(
+            &mut out,
+            &format!(
+                "            let family = {pack_id}::variant_info(style, size).map(|info| info.family);"
+            ),
+        );
+        push_line(
+            &mut out,
+            &format!(
+                "            let mut out = Vec::with_capacity({pack_id}::ICON_ENTRIES.len());"
+            ),
+        );
+        push_line(
+            &mut out,
+            &format!("            for entry in {pack_id}::ICON_ENTRIES {{"),
+        );
+        push_line(&mut out, "                out.push(resolve_found(");
+        push_line(&mut out, &format!("                    {pack_id}::PACK_ID,"));
+        push_line(&mut out, "                    entry,");
+        push_line(&mut out, "                    style,");
+        push_line(&mut out, "                    size,");
+        push_line(&mut out, "                    family,");
+        push_line(&mut out, "                ));");
+        push_line(&mut out, "            }");
+        push_line(&mut out, "            out");
+        push_line(&mut out, "        }");
+    }
+    push_line(&mut out, "    }");
+    push_line(&mut out, "}");
+    push_line(&mut out, "");
+
+    push_line(&mut out, &format!("#[cfg(not(any({any_packs_cfg})))]"));
+    push_line(
+        &mut out,
+        "pub fn resolve_all(_pack: Pack, _style: Style, _size: Size) -> Vec<Result<IconRef, IconError>> {",
+    );
+    push_line(&mut out, "    Vec::new()");
     push_line(&mut out, "}");
     push_line(&mut out, "");
 
@@ -1731,6 +1786,9 @@ mod tests {
         assert!(rendered.contains("fn resolve_invariant_family"));
         assert!(rendered.contains("fn resolve_invariant_codepoint"));
         assert!(rendered.contains("resolve_invariant_family(family)"));
+        assert!(rendered.contains("pub fn resolve_all"));
+        assert!(rendered.contains("ICON_ENTRIES.len()"));
+        assert!(rendered.contains("for entry in demo::ICON_ENTRIES"));
     }
 
     #[test]
