@@ -258,10 +258,84 @@ fn run_gen(check: bool) -> Result<()> {
         outputs.push((path, rustfmt(&render_pack(pack)?)?));
     }
 
+    // R3-N-03: fail on unexpected src/generated/*.rs (check and write modes).
+    let expected_names = expected_generated_rs_names(&normalized);
+    check_no_orphan_generated(&generated_dir, &expected_names)?;
+
     for (path, content) in &outputs {
         write_output(path, content, check)?;
     }
 
+    Ok(())
+}
+
+/// Filenames that `gen` is allowed to emit under `src/generated/`.
+fn expected_generated_rs_names(packs: &[NormalizedPack]) -> BTreeSet<String> {
+    let mut expected = BTreeSet::new();
+    expected.insert("mod.rs".to_string());
+    for pack in packs {
+        expected.insert(format!("{}.rs", pack.pack_id));
+    }
+    expected
+}
+
+/// Return sorted orphan basenames: on-disk `.rs` names not in `expected`.
+fn orphan_generated_rs_names(
+    expected: &BTreeSet<String>,
+    on_disk_names: impl IntoIterator<Item = String>,
+) -> Vec<String> {
+    let mut orphans: Vec<String> = on_disk_names
+        .into_iter()
+        .filter(|name| !expected.contains(name))
+        .collect();
+    orphans.sort();
+    orphans
+}
+
+fn check_no_orphan_generated(generated_dir: &Path, expected: &BTreeSet<String>) -> Result<()> {
+    let entries = match fs::read_dir(generated_dir) {
+        Ok(entries) => entries,
+        Err(err) if err.kind() == std::io::ErrorKind::NotFound => {
+            // Write mode creates the dir later; nothing on disk means no orphans.
+            return Ok(());
+        }
+        Err(err) => {
+            return Err(err).with_context(|| {
+                format!("Reading generated directory {}", generated_dir.display())
+            });
+        }
+    };
+
+    let mut on_disk = Vec::new();
+    for entry in entries {
+        let entry = entry.with_context(|| {
+            format!(
+                "Reading entry in generated directory {}",
+                generated_dir.display()
+            )
+        })?;
+        let path = entry.path();
+        if path.extension().and_then(|ext| ext.to_str()) != Some("rs") {
+            continue;
+        }
+        let Some(name) = path.file_name().and_then(|n| n.to_str()) else {
+            bail!(
+                "Non-UTF-8 generated filename under {}: {}",
+                generated_dir.display(),
+                path.display()
+            );
+        };
+        on_disk.push(name.to_string());
+    }
+
+    let orphans = orphan_generated_rs_names(expected, on_disk);
+    if !orphans.is_empty() {
+        bail!(
+            "Unexpected generated .rs files (orphans) in {}: {orphans:?}. \
+             Remove them manually or update pack maps; gen does not auto-delete.",
+            generated_dir.display()
+        );
+    }
     Ok(())
 }
 
@@ -1004,6 +1078,36 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     );
     push_line(&mut out, "        }");
     push_line(&mut out, "    }");
+    push_line(&mut out, "");
+    push_line(&mut out, "    #[test]");
+    push_line(&mut out, "    fn every_entry_name_resolves() {");
+    push_line(&mut out, "        for entry in ICON_ENTRIES {");
+    push_line(
+        &mut out,
+        "            let resolved = icon_entry(entry.name);",
+    );
+    push_line(
+        &mut out,
+        "            assert!(resolved.is_some(), \"missing entry for {}\", entry.name);",
+    );
+    push_line(
+        &mut out,
+        "            assert_eq!(resolved.unwrap().name, entry.name);",
+    );
+    push_line(&mut out, "        }");
+    push_line(&mut out, "    }");
+    push_line(&mut out, "");
+    push_line(&mut out, "    #[test]");
+    push_line(&mut out, "    fn name_cmp_matches_bytes_cmp() {");
+    push_line(&mut out, "        for window in ICON_ENTRIES.windows(2) {");
+    push_line(&mut out, "            let a = window[0].name;");
+    push_line(&mut out, "            let b = window[1].name;");
+    push_line(
+        &mut out,
+        "            assert_eq!(a.cmp(b), a.as_bytes().cmp(b.as_bytes()));",
+    );
+    push_line(&mut out, "        }");
+    push_line(&mut out, "    }");
     push_line(&mut out, "}");
 
     Ok(out)
@@ -1333,7 +1437,10 @@ fn write_output(path: &Path, content: &str, check: bool) -> Result<()> {
     Ok(())
 }
 
-/// F-033: same-dir `path.tmp` then rename (Windows-safe replace).
+/// F-033: same-dir `path.tmp` then `fs::rename` for atomic replace.
+///
+/// Destination may already exist; `fs::rename` replaces it on supported
+/// platforms (including current Windows). Do not pre-delete the target.
 fn write_atomic(path: &Path, content: &str) -> Result<()> {
     let mut tmp_os = path.as_os_str().to_owned();
     tmp_os.push(".tmp");
@@ -1341,17 +1448,6 @@ fn write_atomic(path: &Path, content: &str) -> Result<()> {
 
     fs::write(&tmp_path, content)
         .with_context(|| format!("Writing temporary {}", tmp_path.display()))?;
-
-    // Windows `rename` fails if the destination exists; remove first.
-    if path.exists() {
-        fs::remove_file(path).with_context(|| {
-            format!(
-                "Removing {} before atomic rename from {}",
-                path.display(),
-                tmp_path.display()
-            )
-        })?;
-    }
 
     fs::rename(&tmp_path, path).with_context(|| {
         format!(
@@ -1570,6 +1666,48 @@ mod tests {
         assert!(rendered.contains("mod gen_invariants"));
         assert!(rendered.contains("icon_entries_sorted_by_name"));
         assert!(rendered.contains("icon_names_match_entries"));
+        assert!(rendered.contains("every_entry_name_resolves"));
+        assert!(rendered.contains("name_cmp_matches_bytes_cmp"));
+    }
+
+    #[test]
+    fn expected_generated_rs_names_are_mod_plus_packs() {
+        let packs = [
+            NormalizedPack {
+                pack_id: "alpha".to_string(),
+                variants: Vec::new(),
+                icons: Vec::new(),
+            },
+            NormalizedPack {
+                pack_id: "beta".to_string(),
+                variants: Vec::new(),
+                icons: Vec::new(),
+            },
+        ];
+        let expected = expected_generated_rs_names(&packs);
+        assert_eq!(
+            expected,
+            BTreeSet::from([
+                "mod.rs".to_string(),
+                "alpha.rs".to_string(),
+                "beta.rs".to_string(),
+            ])
+        );
+    }
+
+    #[test]
+    fn orphan_generated_rs_names_lists_unexpected_only() {
+        let expected = BTreeSet::from(["mod.rs".to_string(), "demo.rs".to_string()]);
+        let on_disk = vec![
+            "demo.rs".to_string(),
+            "stale.rs".to_string(),
+            "mod.rs".to_string(),
+            "extra.rs".to_string(),
+        ];
+        assert_eq!(
+            orphan_generated_rs_names(&expected, on_disk),
+            vec!["extra.rs".to_string(), "stale.rs".to_string()]
+        );
     }
 
     #[test]
