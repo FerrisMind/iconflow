@@ -1,7 +1,8 @@
 //! Criterion harness for icon lookup (F-040 / N-G-009).
 //!
 //! Workload variety (perf-book benchmarking): first / mid-table / last-alphabet
-//! hits per pack, plus miss, variant_miss, and picker_frame stress.
+//! hits per pack, plus Phosphor Thin last-name probe, miss, variant_miss, and
+//! picker_frame stress.
 //!
 //! Packs under test: Phosphor, Tabler, FluentUi, Feather (small-pack control).
 //! Variant-miss (probed once): all four packs return
@@ -17,6 +18,8 @@ const MISSING_NAME: &str = "__iconflow_missing__";
 const HIT_PHOSPHOR_FIRST: &str = "acorn";
 const HIT_PHOSPHOR_MID: &str = "head-circuit";
 const HIT_PHOSPHOR_LAST: &str = "youtube-logo";
+/// Phosphor encodes Thin as a distinct last-table name (maps require `-thin`).
+const HIT_PHOSPHOR_LAST_THIN: &str = "youtube-logo-thin";
 
 const HIT_TABLER_FIRST: &str = "a-b";
 const HIT_TABLER_MID: &str = "git-pull-request";
@@ -79,6 +82,29 @@ fn hit(c: &mut Criterion) {
             })
         });
     }
+
+    // D-R3-09 / R3-N-08: Phosphor Thin last-name worst-case (maps use `-thin`).
+    assert!(
+        try_icon(
+            Pack::Phosphor,
+            HIT_PHOSPHOR_LAST_THIN,
+            Style::Thin,
+            Size::Regular
+        )
+        .is_ok(),
+        "Thin last probe `{HIT_PHOSPHOR_LAST_THIN}` must resolve for Phosphor"
+    );
+    group.bench_function("Phosphor/last_thin", |b| {
+        b.iter(|| {
+            try_icon(
+                black_box(Pack::Phosphor),
+                black_box(HIT_PHOSPHOR_LAST_THIN),
+                black_box(Style::Thin),
+                black_box(Size::Regular),
+            )
+        })
+    });
+
     group.finish();
 }
 
