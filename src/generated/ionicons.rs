@@ -21848,4 +21848,22 @@ mod gen_invariants {
             assert_eq!(ICON_NAMES[i], entry.name);
         }
     }
+
+    #[test]
+    fn every_entry_name_resolves() {
+        for entry in ICON_ENTRIES {
+            let resolved = icon_entry(entry.name);
+            assert!(resolved.is_some(), "missing entry for {}", entry.name);
+            assert_eq!(resolved.unwrap().name, entry.name);
+        }
+    }
+
+    #[test]
+    fn name_cmp_matches_bytes_cmp() {
+        for window in ICON_ENTRIES.windows(2) {
+            let a = window[0].name;
+            let b = window[1].name;
+            assert_eq!(a.cmp(b), a.as_bytes().cmp(b.as_bytes()));
+        }
+    }
 }
