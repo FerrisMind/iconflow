@@ -9,7 +9,7 @@ Enable at least one pack feature so font assets and icon data are included.
 
 ```toml
 [dependencies]
-iconflow = { version = "2.0", features = ["all-packs"] }
+iconflow = { version = "2.1", features = ["all-packs"] }
 ```
 
 For egui, also depend on `eframe` (iconflow itself has no GUI dependencies):
@@ -23,6 +23,7 @@ eframe = "0.33"
 - `fonts()` returns `FontAsset` entries for enabled packs.
 - `try_icon(pack, name, style, size)` returns an `IconRef` or `IconError`.
 - `list(pack)` returns all icon names for a pack.
+- `resolve_all(pack, style, size)` returns a full-pack `Vec` of `Result<IconRef, IconError>` in `list` order.
 
 ```rust
 use iconflow::{fonts, list, try_icon, Pack, Size, Style};
@@ -35,6 +36,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 ```
+
+For icon pickers, call `resolve_all` once as the cold path (linear table walk; same order as
+`list`) instead of `n × try_icon`. Keep that `Vec` and index it on warm frames. See
+[faq.md](faq.md#icon-pickers-cold--warm-frames).
 
 ### Packs without `(Style::Regular, Size::Regular)`
 

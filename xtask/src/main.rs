@@ -258,7 +258,7 @@ fn run_gen(check: bool) -> Result<()> {
         outputs.push((path, rustfmt(&render_pack(pack)?)?));
     }
 
-    // R3-N-03: fail on unexpected src/generated/*.rs (check and write modes).
+    // R4-N-04: recursive scan — fail on any unexpected file or directory.
     let expected_names = expected_generated_rs_names(&normalized);
     check_no_orphan_generated(&generated_dir, &expected_names)?;
 
@@ -269,7 +269,7 @@ fn run_gen(check: bool) -> Result<()> {
     Ok(())
 }
 
-/// Filenames that `gen` is allowed to emit under `src/generated/`.
+/// Top-level filenames that `gen` is allowed under `src/generated/`.
 fn expected_generated_rs_names(packs: &[NormalizedPack]) -> BTreeSet<String> {
     let mut expected = BTreeSet::new();
     expected.insert("mod.rs".to_string());
@@ -279,59 +279,94 @@ fn expected_generated_rs_names(packs: &[NormalizedPack]) -> BTreeSet<String> {
     expected
 }
 
-/// Return sorted orphan basenames: on-disk `.rs` names not in `expected`.
-fn orphan_generated_rs_names(
-    expected: &BTreeSet<String>,
-    on_disk_names: impl IntoIterator<Item = String>,
-) -> Vec<String> {
-    let mut orphans: Vec<String> = on_disk_names
-        .into_iter()
-        .filter(|name| !expected.contains(name))
-        .collect();
-    orphans.sort();
-    orphans
+/// True only for a top-level basename present in `expected` (no nested paths).
+fn is_expected_generated_rel_path(expected: &BTreeSet<String>, rel: &str) -> bool {
+    !rel.contains('/') && !rel.contains('\\') && expected.contains(rel)
 }
 
-fn check_no_orphan_generated(generated_dir: &Path, expected: &BTreeSet<String>) -> Result<()> {
-    let entries = match fs::read_dir(generated_dir) {
-        Ok(entries) => entries,
-        Err(err) if err.kind() == std::io::ErrorKind::NotFound => {
-            // Write mode creates the dir later; nothing on disk means no orphans.
-            return Ok(());
-        }
-        Err(err) => {
-            return Err(err).with_context(|| {
-                format!("Reading generated directory {}", generated_dir.display())
-            });
-        }
-    };
+/// Sorted unexpected relative paths (files and dirs) not in the expected top-level set.
+fn unexpected_generated_paths(
+    expected: &BTreeSet<String>,
+    found: impl IntoIterator<Item = String>,
+) -> Vec<String> {
+    let mut unexpected: Vec<String> = found
+        .into_iter()
+        .filter(|path| !is_expected_generated_rel_path(expected, path))
+        .collect();
+    unexpected.sort();
+    unexpected
+}
 
-    let mut on_disk = Vec::new();
-    for entry in entries {
-        let entry = entry.with_context(|| {
-            format!(
-                "Reading entry in generated directory {}",
-                generated_dir.display()
-            )
-        })?;
-        let path = entry.path();
-        if path.extension().and_then(|ext| ext.to_str()) != Some("rs") {
-            continue;
-        }
-        let Some(name) = path.file_name().and_then(|n| n.to_str()) else {
+fn rel_path_utf8(root: &Path, path: &Path) -> Result<String> {
+    let rel = path
+        .strip_prefix(root)
+        .with_context(|| format!("Path {} is not under {}", path.display(), root.display()))?;
+    let mut out = String::new();
+    for (i, comp) in rel.components().enumerate() {
+        let std::path::Component::Normal(os) = comp else {
             bail!(
-                "Non-UTF-8 generated filename under {}: {}",
-                generated_dir.display(),
+                "Unexpected path component under {}: {}",
+                root.display(),
                 path.display()
             );
         };
-        on_disk.push(name.to_string());
+        let Some(s) = os.to_str() else {
+            bail!(
+                "Non-UTF-8 path under {}: {}",
+                root.display(),
+                path.display()
+            );
+        };
+        if i > 0 {
+            out.push('/');
+        }
+        out.push_str(s);
+    }
+    Ok(out)
+}
+
+fn collect_generated_tree_paths(generated_dir: &Path, out: &mut Vec<String>) -> Result<()> {
+    fn walk(root: &Path, dir: &Path, out: &mut Vec<String>) -> Result<()> {
+        let entries = fs::read_dir(dir)
+            .with_context(|| format!("Reading generated directory {}", dir.display()))?;
+        for entry in entries {
+            let entry = entry.with_context(|| {
+                format!("Reading entry in generated directory {}", dir.display())
+            })?;
+            let path = entry.path();
+            let file_type = entry
+                .file_type()
+                .with_context(|| format!("Reading file type for {}", path.display()))?;
+            let mut rel = rel_path_utf8(root, &path)?;
+            if file_type.is_dir() {
+                rel.push('/');
+                out.push(rel);
+                walk(root, &path, out)?;
+            } else if file_type.is_file() {
+                out.push(rel);
+            } else {
+                // Symlinks / special nodes are unexpected in generated/.
+                out.push(rel);
+            }
+        }
+        Ok(())
     }
 
-    let orphans = orphan_generated_rs_names(expected, on_disk);
-    if !orphans.is_empty() {
+    walk(generated_dir, generated_dir, out)
+}
+
+fn check_no_orphan_generated(generated_dir: &Path, expected: &BTreeSet<String>) -> Result<()> {
+    if !generated_dir.exists() {
+        // Write mode creates the dir later; nothing on disk means no orphans.
+        return Ok(());
+    }
+
+    let mut found = Vec::new();
+    collect_generated_tree_paths(generated_dir, &mut found)?;
+    let unexpected = unexpected_generated_paths(expected, found);
+    if !unexpected.is_empty() {
         bail!(
-            "Unexpected generated .rs files (orphans) in {}: {orphans:?}. \
+            "Unexpected files under generated/ {}: {unexpected:?}. \
              Remove them manually or update pack maps; gen does not auto-delete.",
             generated_dir.display()
         );
@@ -867,7 +902,10 @@ fn render_mod(packs: &[NormalizedPack]) -> Result<String> {
             &format!("            for entry in {pack_id}::ICON_ENTRIES {{"),
         );
         push_line(&mut out, "                out.push(resolve_found(");
-        push_line(&mut out, &format!("                    {pack_id}::PACK_ID,"));
+        push_line(
+            &mut out,
+            &format!("                    {pack_id}::PACK_ID,"),
+        );
         push_line(&mut out, "                    entry,");
         push_line(&mut out, "                    style,");
         push_line(&mut out, "                    size,");
@@ -1153,19 +1191,92 @@ fn render_pack(pack: &NormalizedPack) -> Result<String> {
     push_line(&mut out, "    }");
     push_line(&mut out, "");
     push_line(&mut out, "    #[test]");
-    push_line(&mut out, "    fn name_cmp_matches_bytes_cmp() {");
-    push_line(&mut out, "        for window in ICON_ENTRIES.windows(2) {");
-    push_line(&mut out, "            let a = window[0].name;");
-    push_line(&mut out, "            let b = window[1].name;");
     push_line(
         &mut out,
-        "            assert_eq!(a.cmp(b), a.as_bytes().cmp(b.as_bytes()));",
+        "    fn binary_search_cmp_matches_icon_names_order() {",
     );
+    push_line(
+        &mut out,
+        "        for (i, name) in ICON_NAMES.iter().enumerate() {",
+    );
+    push_line(
+        &mut out,
+        "            let found = ICON_ENTRIES.binary_search_by(|e| e.name.as_bytes().cmp(name.as_bytes()));",
+    );
+    push_line(&mut out, "            assert_eq!(found, Ok(i));");
+    push_line(&mut out, "        }");
+    push_line(&mut out, "    }");
+    push_line(&mut out, "");
+
+    let (inv_style, inv_size) = preferred_invariant_style_size(pack)?;
+    let pack_ident = pack_enum_ident(&pack.pack_id)?;
+    push_line(&mut out, "    #[test]");
+    push_line(
+        &mut out,
+        "    fn resolve_all_matches_names_and_try_icon() {",
+    );
+    push_line(
+        &mut out,
+        &format!("        let style = crate::Style::{};", inv_style.as_rust()),
+    );
+    push_line(
+        &mut out,
+        &format!("        let size = crate::{};", inv_size.rust_expr()),
+    );
+    push_line(
+        &mut out,
+        &format!("        let pack = crate::Pack::{pack_ident};"),
+    );
+    push_line(
+        &mut out,
+        "        let grid = crate::resolve_all(pack, style, size);",
+    );
+    push_line(
+        &mut out,
+        "        assert_eq!(grid.len(), ICON_NAMES.len());",
+    );
+    push_line(
+        &mut out,
+        "        assert_eq!(crate::list(pack), ICON_NAMES);",
+    );
+    push_line(&mut out, "        if !ICON_NAMES.is_empty() {");
+    push_line(
+        &mut out,
+        "            let samples = [0, ICON_NAMES.len() / 2, ICON_NAMES.len() - 1];",
+    );
+    push_line(&mut out, "            for i in samples {");
+    push_line(&mut out, "                assert_eq!(");
+    push_line(&mut out, "                    grid[i],");
+    push_line(
+        &mut out,
+        "                    crate::try_icon(pack, ICON_NAMES[i], style, size)",
+    );
+    push_line(&mut out, "                );");
+    push_line(&mut out, "            }");
     push_line(&mut out, "        }");
     push_line(&mut out, "    }");
     push_line(&mut out, "}");
 
     Ok(out)
+}
+
+/// Prefer Regular/Regular; otherwise first feature-free variant (heroicons/remixicon).
+fn preferred_invariant_style_size(pack: &NormalizedPack) -> Result<(Style, Size)> {
+    let regular = VariantKey {
+        style: Style::Regular,
+        size: Size::Regular,
+    };
+    if pack.variants.iter().any(|v| v.key == regular) {
+        return Ok((Style::Regular, Size::Regular));
+    }
+    let key = pack
+        .variants
+        .iter()
+        .find(|v| v.feature.is_none())
+        .or_else(|| pack.variants.first())
+        .map(|v| v.key)
+        .with_context(|| format!("pack `{}` has no variants for gen_invariants", pack.pack_id))?;
+    Ok((key.style, key.size))
 }
 
 fn variant_key_expr(key: VariantKey) -> String {
@@ -1492,25 +1603,31 @@ fn write_output(path: &Path, content: &str, check: bool) -> Result<()> {
     Ok(())
 }
 
-/// F-033: same-dir `path.tmp` then `fs::rename` for atomic replace.
+/// F-033 / R4-N-04: same-dir `path.tmp` then `fs::rename` for atomic replace.
 ///
 /// Destination may already exist; `fs::rename` replaces it on supported
 /// platforms (including current Windows). Do not pre-delete the target.
+/// On write or rename failure, best-effort remove the `.tmp` (never the dest).
 fn write_atomic(path: &Path, content: &str) -> Result<()> {
     let mut tmp_os = path.as_os_str().to_owned();
     tmp_os.push(".tmp");
     let tmp_path = PathBuf::from(tmp_os);
 
-    fs::write(&tmp_path, content)
-        .with_context(|| format!("Writing temporary {}", tmp_path.display()))?;
+    if let Err(err) = fs::write(&tmp_path, content) {
+        let _ = fs::remove_file(&tmp_path);
+        return Err(err).with_context(|| format!("Writing temporary {}", tmp_path.display()));
+    }
 
-    fs::rename(&tmp_path, path).with_context(|| {
-        format!(
-            "Renaming {} -> {} (atomic replace)",
-            tmp_path.display(),
-            path.display()
-        )
-    })?;
+    if let Err(err) = fs::rename(&tmp_path, path) {
+        let _ = fs::remove_file(&tmp_path);
+        return Err(err).with_context(|| {
+            format!(
+                "Renaming {} -> {} (atomic replace)",
+                tmp_path.display(),
+                path.display()
+            )
+        });
+    }
     Ok(())
 }
 
@@ -1722,7 +1839,50 @@ mod tests {
         assert!(rendered.contains("icon_entries_sorted_by_name"));
         assert!(rendered.contains("icon_names_match_entries"));
         assert!(rendered.contains("every_entry_name_resolves"));
-        assert!(rendered.contains("name_cmp_matches_bytes_cmp"));
+        assert!(rendered.contains("binary_search_cmp_matches_icon_names_order"));
+        assert!(rendered.contains("resolve_all_matches_names_and_try_icon"));
+        assert!(rendered.contains("crate::resolve_all(pack, style, size)"));
+        assert!(rendered.contains("crate::try_icon(pack, ICON_NAMES[i], style, size)"));
+        assert!(!rendered.contains("name_cmp_matches_bytes_cmp"));
+        assert!(rendered.contains("crate::Style::Regular"));
+        assert!(rendered.contains("crate::Size::Regular"));
+        assert!(rendered.contains("crate::Pack::Demo"));
+    }
+
+    #[test]
+    fn preferred_invariant_falls_back_when_no_regular_regular() {
+        let pack = NormalizedPack {
+            pack_id: "heroicons".to_string(),
+            variants: vec![
+                VariantInfo {
+                    id: "filled".to_string(),
+                    key: VariantKey {
+                        style: Style::Filled,
+                        size: Size::Regular,
+                    },
+                    family: "Heroicons Solid".to_string(),
+                    ttf_asset_path: "assets/fonts/heroicons/filled.ttf".to_string(),
+                    feature: None,
+                },
+                VariantInfo {
+                    id: "mini".to_string(),
+                    key: VariantKey {
+                        style: Style::Filled,
+                        size: Size::Mini,
+                    },
+                    family: "Heroicons Mini".to_string(),
+                    ttf_asset_path: "assets/fonts/heroicons/mini.ttf".to_string(),
+                    feature: Some("heroicons-mini".to_string()),
+                },
+            ],
+            icons: Vec::new(),
+        };
+        let (style, size) = preferred_invariant_style_size(&pack).unwrap();
+        assert_eq!(style, Style::Filled);
+        assert_eq!(size, Size::Regular);
+        let rendered = render_pack(&pack).unwrap();
+        assert!(rendered.contains("crate::Style::Filled"));
+        assert!(rendered.contains("crate::Pack::Heroicons"));
     }
 
     #[test]
@@ -1751,18 +1911,47 @@ mod tests {
     }
 
     #[test]
-    fn orphan_generated_rs_names_lists_unexpected_only() {
+    fn unexpected_generated_paths_lists_unexpected_only() {
         let expected = BTreeSet::from(["mod.rs".to_string(), "demo.rs".to_string()]);
-        let on_disk = vec![
+        let found = vec![
             "demo.rs".to_string(),
             "stale.rs".to_string(),
             "mod.rs".to_string(),
+            "junk.txt".to_string(),
+            "nested/x.rs".to_string(),
+            "subdir/".to_string(),
             "extra.rs".to_string(),
         ];
         assert_eq!(
-            orphan_generated_rs_names(&expected, on_disk),
-            vec!["extra.rs".to_string(), "stale.rs".to_string()]
+            unexpected_generated_paths(&expected, found),
+            vec![
+                "extra.rs".to_string(),
+                "junk.txt".to_string(),
+                "nested/x.rs".to_string(),
+                "stale.rs".to_string(),
+                "subdir/".to_string(),
+            ]
         );
+    }
+
+    #[test]
+    fn check_no_orphan_generated_rejects_non_rs_and_nested() {
+        let dir = tempfile_dir();
+        let generated = dir.join("generated");
+        fs::create_dir_all(generated.join("nested")).unwrap();
+        fs::write(generated.join("mod.rs"), "// ok\n").unwrap();
+        fs::write(generated.join("demo.rs"), "// ok\n").unwrap();
+        fs::write(generated.join("junk.txt"), "nope\n").unwrap();
+        fs::write(generated.join("nested").join("x.rs"), "nope\n").unwrap();
+
+        let expected = BTreeSet::from(["mod.rs".to_string(), "demo.rs".to_string()]);
+        let err = check_no_orphan_generated(&generated, &expected).unwrap_err();
+        let msg = err.to_string();
+        assert!(msg.contains("Unexpected files under generated/"));
+        assert!(msg.contains("junk.txt"));
+        assert!(msg.contains("nested/"));
+        assert!(msg.contains("nested/x.rs"));
+        assert!(msg.contains("does not auto-delete"));
     }
 
     #[test]

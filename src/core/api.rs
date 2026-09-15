@@ -268,13 +268,60 @@ pub fn try_icon(pack: Pack, name: &str, style: Style, size: Size) -> Result<Icon
 ///
 /// Order matches [`list`]: `resolve_all(pack, …)[i]` corresponds to `list(pack)[i]`.
 /// This walks the pack’s entry table once (no per-name binary search), which is the
-/// right cold path for icon pickers. For warm frames, keep the returned `Vec` and
-/// index it — do **not** rebuild a `HashMap<&str, IconRef>` keyed by name (that path
-/// is slower and outside the crate).
+/// right cold path for icon pickers — one pass beats N× [`try_icon`].
 ///
-/// Entries whose `(style, size)` is unavailable yield
-/// [`IconError::VariantUnavailable`] in-place; missing packs / empty feature sets
-/// behave like [`try_icon`].
+/// For warm **positional** frames (picker grids indexed by row/column), keep the
+/// returned dense `Vec` and index by position; that is the fastest hot path.
+/// Building a `HashMap<&str, IconRef>` from the grid (or via repeated inserts) is
+/// expensive relative to one `resolve_all` pass (~order-of-magnitude slower to
+/// *build*). Once built, **name lookup** in that map is cheaper than binary search
+/// via [`list`] + [`try_icon`] (~5× in R4 measurements). Prefer a HashMap only when
+/// the UI’s hot path is name-keyed and the map is built once — not unconditionally.
+///
+/// # Errors
+///
+/// This function returns a [`Vec`], not [`Result`]: failures are stored **in-place**
+/// as `Err` elements. Typical per-element errors:
+///
+/// - [`IconError::VariantUnavailable`] — the icon exists in `pack`, but `(style, size)`
+///   is not among `available`. The `name` field is a
+///   [`std::borrow::Cow`]`<'static, str>` (typically borrowed from the pack table).
+///
+/// [`IconError::IconNotFound`] does not appear here (every table entry is visited).
+/// [`IconError::PackDisabled`] is not produced on this path when pack features are
+/// enabled (`Pack` only exposes enabled variants).
+///
+/// # Panics
+///
+/// Panics only if generated pack tables violate generator invariants: after a
+/// variant is confirmed available, the resolve path `expect`s a font family and
+/// codepoint for that `(style, size)`. Valid committed maps do not hit these
+/// branches. Same `expect` class as [`try_icon`].
+///
+/// # Examples
+///
+/// Resolve a full Bootstrap grid for a picker (requires `pack-bootstrap`):
+///
+/// ```
+/// # #[cfg(feature = "pack-bootstrap")]
+/// # fn example() {
+/// use iconflow::{list, resolve_all, Pack, Size, Style};
+///
+/// let names = list(Pack::Bootstrap);
+/// let grid = resolve_all(Pack::Bootstrap, Style::Regular, Size::Regular);
+/// assert_eq!(grid.len(), names.len());
+///
+/// let alarm = grid
+///     .iter()
+///     .zip(names)
+///     .find(|(_, name)| **name == "alarm")
+///     .and_then(|(slot, _)| slot.as_ref().ok())
+///     .expect("alarm Regular/Regular");
+/// assert_eq!(alarm.family, "Bootstrap Regular");
+/// # }
+/// # #[cfg(feature = "pack-bootstrap")]
+/// # example();
+/// ```
 #[must_use = "resolved icon grid should be used"]
 pub fn resolve_all(pack: Pack, style: Style, size: Size) -> Vec<Result<IconRef, IconError>> {
     crate::generated::resolve_all(pack, style, size)

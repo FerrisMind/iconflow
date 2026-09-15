@@ -57,7 +57,9 @@
 pub(crate) mod core;
 pub(crate) mod generated;
 
-pub use crate::core::{FontAsset, IconError, IconRef, Size, Style, fonts, list, resolve_all, try_icon};
+pub use crate::core::{
+    FontAsset, IconError, IconRef, Size, Style, fonts, list, resolve_all, try_icon,
+};
 pub use crate::generated::Pack;
 
 #[cfg(test)]

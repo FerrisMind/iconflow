@@ -7,15 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-09-15
+
 ### Added
 
 - `resolve_all(pack, style, size)` — linear full-pack resolve for picker grids (order matches `list`); Criterion `picker_frame` now measures cold `resolve_all` + warm dense `Vec` (not `HashMap`)
 
 ### Changed
 
-### Fixed
-
-- R3-N-09: documented/recommended warm picker path avoids consumer `HashMap<&str, IconRef>` memo inflation; provide dense `Vec` cache via `resolve_all`
+- R3-N-09: docs/benches now recommend cold `resolve_all` + warm dense `Vec` for picker grids (avoid consumer `HashMap<&str, IconRef>` memo) — methodology / recommended path note, not a crate bug fix
 
 ## [2.0.0] - 2026-09-14
 
@@ -48,7 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Docs: install pins and quickstart/FAQ snippets aligned with the public API; buildable demos under `examples/v2.0/` (1.0 snapshots retained under `examples/v1.0/`)
+- Docs: install pins and quickstart/FAQ snippets aligned with the public API; buildable demos under `examples/v2.0/` (1.0 snapshots retained under `docs/historical/v1.0/`)
 - Phosphor: icon names with IcoMoon aliases were mangled by comma-glue — `selection.json` stores aliases comma-separated (`"folder-open, folder-notch-open"`) and the loader normalized the raw string, registering 108 names (18 base icons × 6 styles) under glued names like `folder-open-folder-notch-open`; they now resolve under their canonical names (`folder-open`, `pulse`, …) and the mangled names no longer resolve (#2 by @NicolasDrapier)
 
 ## [1.0.0] - 2025-12-21

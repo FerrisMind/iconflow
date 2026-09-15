@@ -3,6 +3,7 @@ name: ci
 on:
   push:
     branches: ["main"]
+    tags: ["v*"]
   pull_request:
 
 jobs:
@@ -86,7 +87,9 @@ jobs:
       - uses: dtolnay/rust-toolchain@v1
         with:
           toolchain: 1.92.0
-      - uses: taiki-e/install-action@cargo-about
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-about@0.9.2
       # CI adapts to project (N-C-1 / D5 / D-R3-04): committed HTML is authoritative.
       # Generate into RUNNER_TEMP so Ubuntu cargo-about never overwrites the committed file.
       # Policy hard-fail remains cargo-about's about.toml `accepted` list (generate exits non-zero).

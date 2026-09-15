@@ -1,6 +1,6 @@
 [package]
 name = "iconflow"
-version = "2.0.0"
+version = "2.1.0"
 edition = "2024"
 rust-version = "1.92"
 description = "Unified icon library for Rust GUI apps with 10+ embedded icon packs (Bootstrap, Heroicons, Phosphor, Lucide, Tabler). Type-safe API for egui, iced and more"

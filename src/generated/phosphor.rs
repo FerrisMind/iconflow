@@ -145898,11 +145898,26 @@ mod gen_invariants {
     }
 
     #[test]
-    fn name_cmp_matches_bytes_cmp() {
-        for window in ICON_ENTRIES.windows(2) {
-            let a = window[0].name;
-            let b = window[1].name;
-            assert_eq!(a.cmp(b), a.as_bytes().cmp(b.as_bytes()));
+    fn binary_search_cmp_matches_icon_names_order() {
+        for (i, name) in ICON_NAMES.iter().enumerate() {
+            let found = ICON_ENTRIES.binary_search_by(|e| e.name.as_bytes().cmp(name.as_bytes()));
+            assert_eq!(found, Ok(i));
+        }
+    }
+
+    #[test]
+    fn resolve_all_matches_names_and_try_icon() {
+        let style = crate::Style::Regular;
+        let size = crate::Size::Regular;
+        let pack = crate::Pack::Phosphor;
+        let grid = crate::resolve_all(pack, style, size);
+        assert_eq!(grid.len(), ICON_NAMES.len());
+        assert_eq!(crate::list(pack), ICON_NAMES);
+        if !ICON_NAMES.is_empty() {
+            let samples = [0, ICON_NAMES.len() / 2, ICON_NAMES.len() - 1];
+            for i in samples {
+                assert_eq!(grid[i], crate::try_icon(pack, ICON_NAMES[i], style, size));
+            }
         }
     }
 }
