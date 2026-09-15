@@ -264,9 +264,25 @@ pub fn try_icon(pack: Pack, name: &str, style: Style, size: Size) -> Result<Icon
     crate::generated::try_icon(pack, name, style, size)
 }
 
+/// Resolves **every** icon in `pack` for `(style, size)` in table order.
+///
+/// Order matches [`list`]: `resolve_all(pack, …)[i]` corresponds to `list(pack)[i]`.
+/// This walks the pack’s entry table once (no per-name binary search), which is the
+/// right cold path for icon pickers. For warm frames, keep the returned `Vec` and
+/// index it — do **not** rebuild a `HashMap<&str, IconRef>` keyed by name (that path
+/// is slower and outside the crate).
+///
+/// Entries whose `(style, size)` is unavailable yield
+/// [`IconError::VariantUnavailable`] in-place; missing packs / empty feature sets
+/// behave like [`try_icon`].
+#[must_use = "resolved icon grid should be used"]
+pub fn resolve_all(pack: Pack, style: Style, size: Size) -> Vec<Result<IconRef, IconError>> {
+    crate::generated::resolve_all(pack, style, size)
+}
+
 #[cfg(all(test, feature = "pack-bootstrap"))]
 mod tests_bootstrap {
-    use super::{list, try_icon};
+    use super::{list, resolve_all, try_icon};
     use crate::core::{IconError, Size, Style};
     use crate::generated::Pack;
 
@@ -274,6 +290,16 @@ mod tests_bootstrap {
     fn list_exposes_icon_names() {
         let names = list(Pack::Bootstrap);
         assert!(names.contains(&"alarm"));
+    }
+
+    #[test]
+    fn resolve_all_matches_list_order_and_try_icon() {
+        let names = list(Pack::Bootstrap);
+        let grid = resolve_all(Pack::Bootstrap, Style::Regular, Size::Regular);
+        assert_eq!(grid.len(), names.len());
+        let alarm = try_icon(Pack::Bootstrap, "alarm", Style::Regular, Size::Regular).unwrap();
+        let idx = names.iter().position(|n| *n == "alarm").unwrap();
+        assert_eq!(grid[idx].as_ref().unwrap(), &alarm);
     }
 
     #[test]
