@@ -9,9 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `resolve_all(pack, style, size)` — linear full-pack resolve for picker grids (order matches `list`); Criterion `picker_frame` now measures cold `resolve_all` + warm dense `Vec` (not `HashMap`)
+
 ### Changed
 
 ### Fixed
+
+- R3-N-09: documented/recommended warm picker path avoids consumer `HashMap<&str, IconRef>` memo inflation; provide dense `Vec` cache via `resolve_all`
 
 ## [2.0.0] - 2026-09-14
 
