@@ -87,14 +87,25 @@ jobs:
         with:
           toolchain: 1.92.0
       - uses: taiki-e/install-action@cargo-about
-      # CI adapts to project (N-C-1 / D5): Windows-authored committed HTML is authoritative.
+      # CI adapts to project (N-C-1 / D5 / D-R3-04): committed HTML is authoritative.
       # Generate into RUNNER_TEMP so Ubuntu cargo-about never overwrites the committed file.
       # Policy hard-fail remains cargo-about's about.toml `accepted` list (generate exits non-zero).
-      # Do not byte-gate via git diff — MIT-block order can differ across OS/cargo-about versions.
+      # Freshness: CR-stripped + trailing-whitespace-trimmed text compare (not git diff / raw bytes).
+      # Fonts MD is hand-maintained (not cargo-about); presence-only via test -s.
       - name: verify dependency licenses against about.toml
         run: cargo about generate about.hbs -o "${RUNNER_TEMP}/THIRD_PARTY_LICENSES_CRATES.html"
       - name: committed third-party license HTML present
         run: test -s THIRD_PARTY_LICENSES_CRATES.html
+      - name: committed crates HTML matches TEMP (normalized)
+        run: |
+          normalize() {
+            tr -d '\r' < "$1" | sed 's/[[:space:]]*$//'
+          }
+          diff -u \
+            <(normalize THIRD_PARTY_LICENSES_CRATES.html) \
+            <(normalize "${RUNNER_TEMP}/THIRD_PARTY_LICENSES_CRATES.html")
+      - name: committed fonts license markdown present
+        run: test -s THIRD_PARTY_LICENSES_FONTS.md
 
   bench:
     runs-on: ubuntu-latest
@@ -103,4 +114,4 @@ jobs:
       - uses: dtolnay/rust-toolchain@v1
         with:
           toolchain: 1.92.0
-      - run: cargo bench --bench lookup --no-run --features "pack-phosphor,pack-tabler,pack-fluentui"
+      - run: cargo bench --bench lookup --no-run --features "pack-phosphor,pack-tabler,pack-fluentui,pack-feather"
