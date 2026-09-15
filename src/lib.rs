@@ -3,6 +3,16 @@
 //! Enable the pack features you need (for example `pack-bootstrap`), register
 //! fonts from [`fonts`], then resolve glyphs with [`try_icon`].
 //!
+//! # Feature gating and [`Pack`]
+//!
+//! With **no** `pack-*` features, [`Pack`] is an empty enum: there are no variants to
+//! construct, so [`list`] / [`try_icon`] are not callable and fail at **compile time**.
+//! That empty-feature case does **not** surface as [`IconError::PackDisabled`].
+//!
+//! When other packs are enabled, a pack you did not enable simply has no `Pack::…`
+//! variant (compile error if named). [`IconError::PackDisabled`] remains the runtime
+//! error for a disabled/absent pack on the lookup path (for example `pack: "none"`).
+//!
 //! # Examples
 //!
 //! Default features (no packs enabled) still exercise the public types:
@@ -34,6 +44,12 @@
 //! # #[cfg(feature = "pack-bootstrap")]
 //! # example().unwrap();
 //! ```
+//!
+//! # Known limitations
+//!
+//! Dual static name storage (`ICON_NAMES` plus each entry’s `name`) is intentional so
+//! [`list`] can return `&'static [&str]` while the entry table keeps per-icon metadata.
+//!
 
 #![warn(missing_docs)]
 

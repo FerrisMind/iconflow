@@ -19,13 +19,42 @@ If `Pack::Bootstrap` (or another pack) is missing, enable the feature in `Cargo.
 iconflow = { version = "2.0", features = ["pack-bootstrap"] }
 ```
 
+### Zero pack features vs a disabled pack (R3-N-06)
+
+With **no** `pack-*` features enabled, `Pack` is an empty enum: there are no variants to
+construct, so `list` / `try_icon` are not callable and fail at **compile time** (they do
+**not** return `IconError::PackDisabled`).
+
+When at least one pack feature is enabled, a pack you did not enable simply has no
+`Pack::…` variant (again a compile error if you name it). `IconError::PackDisabled` is the
+runtime error used when a lookup path reports a disabled/absent pack (for example the
+no-pack stub with `pack: "none"`); it is not a substitute for constructing an empty `Pack`.
+
 ## Unknown icon name or variant
 
 `try_icon` is fallible. An unknown name yields `IconError::IconNotFound`; a known name with
 an unsupported `(style, size)` yields `IconError::VariantUnavailable` (with `available`).
 Neither case panics. The `name` field on those variants is `Cow<'static, str>`.
 
+## Default `(Style::Regular, Size::Regular)` is not universal (R3-N-07)
+
+Do not assume every pack ships a Regular/Regular glyph. At minimum:
+
+| Pack | Feature | Typical styles at `Size::Regular` |
+|------|---------|-----------------------------------|
+| Heroicons | `pack-heroicons` | `Filled`, `Outline` (not `Style::Regular`) |
+| Remix Icon | `pack-remixicon` | `Filled`, `Outline` (not `Style::Regular`) |
+
+A request for `(Style::Regular, Size::Regular)` on those packs returns
+`IconError::VariantUnavailable`. Inspect `available` on that error (or the pack’s variant
+tables) and pick a listed `(style, size)` — no runtime default remapping is applied.
+
 ## Fluent UI pack variant
 
 The pack enum variant is `Pack::FluentUi` (feature `pack-fluentui`). There is no
 `Pack::Fluentui` spelling.
+
+## Known limitations
+
+Dual static name storage (`ICON_NAMES` plus each `ICON_ENTRIES[].name`) is intentional so
+`list` can return `&'static [&str]` while the entry table keeps per-icon metadata.
