@@ -1,7 +1,8 @@
 //! Unified icon packs for Rust GUI apps (egui, iced, and similar).
 //!
 //! Enable the pack features you need (for example `pack-bootstrap`), register
-//! fonts from [`fonts`], then resolve glyphs with [`try_icon`].
+//! fonts from [`fonts`], then resolve glyphs with [`try_icon`] (or [`resolve_all`]
+//! for full-pack picker grids).
 //!
 //! # Feature gating and [`Pack`]
 //!
@@ -56,7 +57,7 @@
 pub(crate) mod core;
 pub(crate) mod generated;
 
-pub use crate::core::{FontAsset, IconError, IconRef, Size, Style, fonts, list, try_icon};
+pub use crate::core::{FontAsset, IconError, IconRef, Size, Style, fonts, list, resolve_all, try_icon};
 pub use crate::generated::Pack;
 
 #[cfg(test)]

@@ -44,7 +44,7 @@ pub(crate) mod remixicon;
 #[cfg(feature = "pack-tabler")]
 pub(crate) mod tabler;
 
-/// Icon pack selectable via [`crate::try_icon`] / [`crate::list`].
+/// Icon pack selectable via [`crate::try_icon`] / [`crate::list`] / [`crate::resolve_all`].
 ///
 /// Variants exist only when the corresponding `pack-*` Cargo feature is enabled.
 #[derive(Clone, Copy, Debug, Eq, PartialEq, Hash)]
@@ -475,6 +475,191 @@ pub fn try_icon(
     _size: Size,
 ) -> Result<IconRef, IconError> {
     Err(IconError::PackDisabled { pack: "none" })
+}
+
+#[cfg(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+))]
+pub fn resolve_all(pack: Pack, style: Style, size: Size) -> Vec<Result<IconRef, IconError>> {
+    match pack {
+        #[cfg(feature = "pack-bootstrap")]
+        Pack::Bootstrap => {
+            let family = bootstrap::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(bootstrap::ICON_ENTRIES.len());
+            for entry in bootstrap::ICON_ENTRIES {
+                out.push(resolve_found(
+                    bootstrap::PACK_ID,
+                    entry,
+                    style,
+                    size,
+                    family,
+                ));
+            }
+            out
+        }
+        #[cfg(feature = "pack-carbon")]
+        Pack::Carbon => {
+            let family = carbon::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(carbon::ICON_ENTRIES.len());
+            for entry in carbon::ICON_ENTRIES {
+                out.push(resolve_found(carbon::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-devicon")]
+        Pack::Devicon => {
+            let family = devicon::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(devicon::ICON_ENTRIES.len());
+            for entry in devicon::ICON_ENTRIES {
+                out.push(resolve_found(devicon::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-feather")]
+        Pack::Feather => {
+            let family = feather::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(feather::ICON_ENTRIES.len());
+            for entry in feather::ICON_ENTRIES {
+                out.push(resolve_found(feather::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-fluentui")]
+        Pack::FluentUi => {
+            let family = fluentui::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(fluentui::ICON_ENTRIES.len());
+            for entry in fluentui::ICON_ENTRIES {
+                out.push(resolve_found(fluentui::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-heroicons")]
+        Pack::Heroicons => {
+            let family = heroicons::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(heroicons::ICON_ENTRIES.len());
+            for entry in heroicons::ICON_ENTRIES {
+                out.push(resolve_found(
+                    heroicons::PACK_ID,
+                    entry,
+                    style,
+                    size,
+                    family,
+                ));
+            }
+            out
+        }
+        #[cfg(feature = "pack-iconoir")]
+        Pack::Iconoir => {
+            let family = iconoir::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(iconoir::ICON_ENTRIES.len());
+            for entry in iconoir::ICON_ENTRIES {
+                out.push(resolve_found(iconoir::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-ionicons")]
+        Pack::Ionicons => {
+            let family = ionicons::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(ionicons::ICON_ENTRIES.len());
+            for entry in ionicons::ICON_ENTRIES {
+                out.push(resolve_found(ionicons::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-lobe")]
+        Pack::Lobe => {
+            let family = lobe::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(lobe::ICON_ENTRIES.len());
+            for entry in lobe::ICON_ENTRIES {
+                out.push(resolve_found(lobe::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-lucide")]
+        Pack::Lucide => {
+            let family = lucide::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(lucide::ICON_ENTRIES.len());
+            for entry in lucide::ICON_ENTRIES {
+                out.push(resolve_found(lucide::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-octicons")]
+        Pack::Octicons => {
+            let family = octicons::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(octicons::ICON_ENTRIES.len());
+            for entry in octicons::ICON_ENTRIES {
+                out.push(resolve_found(octicons::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-phosphor")]
+        Pack::Phosphor => {
+            let family = phosphor::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(phosphor::ICON_ENTRIES.len());
+            for entry in phosphor::ICON_ENTRIES {
+                out.push(resolve_found(phosphor::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+        #[cfg(feature = "pack-remixicon")]
+        Pack::Remixicon => {
+            let family = remixicon::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(remixicon::ICON_ENTRIES.len());
+            for entry in remixicon::ICON_ENTRIES {
+                out.push(resolve_found(
+                    remixicon::PACK_ID,
+                    entry,
+                    style,
+                    size,
+                    family,
+                ));
+            }
+            out
+        }
+        #[cfg(feature = "pack-tabler")]
+        Pack::Tabler => {
+            let family = tabler::variant_info(style, size).map(|info| info.family);
+            let mut out = Vec::with_capacity(tabler::ICON_ENTRIES.len());
+            for entry in tabler::ICON_ENTRIES {
+                out.push(resolve_found(tabler::PACK_ID, entry, style, size, family));
+            }
+            out
+        }
+    }
+}
+
+#[cfg(not(any(
+    feature = "pack-bootstrap",
+    feature = "pack-carbon",
+    feature = "pack-devicon",
+    feature = "pack-feather",
+    feature = "pack-fluentui",
+    feature = "pack-heroicons",
+    feature = "pack-iconoir",
+    feature = "pack-ionicons",
+    feature = "pack-lobe",
+    feature = "pack-lucide",
+    feature = "pack-octicons",
+    feature = "pack-phosphor",
+    feature = "pack-remixicon",
+    feature = "pack-tabler"
+)))]
+pub fn resolve_all(_pack: Pack, _style: Style, _size: Size) -> Vec<Result<IconRef, IconError>> {
+    Vec::new()
 }
 
 #[cfg(any(
