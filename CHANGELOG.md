@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- README: pack table sorted by font weight (icons + MiB + feature); trademark note for brand glyphs (Devicon / Lobe)
+- Docs: `IconError::PackDisabled` documented as unused on normal `Pack` paths (kept for stable `#[non_exhaustive]` surface)
+
 ## [2.1.0] - 2026-09-15
 
 ### Added

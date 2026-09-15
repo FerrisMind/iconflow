@@ -11,8 +11,9 @@
 //! That empty-feature case does **not** surface as [`IconError::PackDisabled`].
 //!
 //! When other packs are enabled, a pack you did not enable simply has no `Pack::…`
-//! variant (compile error if named). [`IconError::PackDisabled`] remains the runtime
-//! error for a disabled/absent pack on the lookup path (for example `pack: "none"`).
+//! variant (compile error if named). [`IconError::PackDisabled`] is retained for a
+//! stable error surface; the only in-tree constructor is the zero-feature stub
+//! (`pack: "none"`), unreachable via a constructible [`Pack`].
 //!
 //! # Examples
 //!

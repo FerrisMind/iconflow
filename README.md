@@ -30,6 +30,7 @@ See `docs/quickstart.md` for a fast end-to-end setup guide and API overview.
 
 - `fonts()` returns the enabled font assets for registered packs.
 - `try_icon(pack, name, style, size)` resolves an icon reference or returns `IconError`.
+- `resolve_all(pack, style, size)` resolves every icon in a pack in `list` order (picker cold path).
 - `list(pack)` returns the icon names for a pack.
 
 ## egui quickstart
@@ -142,26 +143,37 @@ See [docs/faq.md](https://raw.githubusercontent.com/FerrisMind/iconflow/main/doc
 
 iconflow includes icon fonts from 14 open-source icon packs. All fonts are distributed under permissive licenses (MIT, Apache-2.0, or ISC).
 
-### Included Icon Packs
+Granularity is **per pack**: enabling a feature embeds that pack’s TTF(s). There is no per-icon subsetting yet — enable only the packs you need. Unused `include_bytes!` fonts can still be dropped by the linker if nothing calls `fonts()` / resolve paths that reference them; worst case is the full enabled set below.
 
-| Icon Pack | License | Source |
-|-----------|---------|--------|
-| [Bootstrap Icons](https://github.com/twbs/icons) | MIT | [twbs/icons](https://github.com/twbs/icons) |
-| [Carbon Icons](https://github.com/carbon-design-system/carbon-icons) | Apache-2.0 | [carbon-design-system/carbon-icons](https://github.com/carbon-design-system/carbon-icons) |
-| [Devicon](https://github.com/devicons/devicon) | MIT | [devicons/devicon](https://github.com/devicons/devicon) |
-| [Feather Icons](https://github.com/feathericons/feather) | MIT | [feathericons/feather](https://github.com/feathericons/feather) |
-| [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) | MIT | [microsoft/fluentui-system-icons](https://github.com/microsoft/fluentui-system-icons) |
-| [Heroicons](https://github.com/tailwindlabs/heroicons) | MIT | [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) |
-| [Iconoir](https://github.com/iconoir-icons/iconoir) | MIT | [iconoir-icons/iconoir](https://github.com/iconoir-icons/iconoir) |
-| [Ionicons](https://github.com/ionic-team/ionicons) | MIT | [ionic-team/ionicons](https://github.com/ionic-team/ionicons) |
-| [Lobe Icons](https://github.com/lobehub/lobe-icons) | MIT | [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) |
-| [Lucide](https://github.com/lucide-icons/lucide) | ISC | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) |
-| [Octicons](https://github.com/primer/octicons) | MIT | [primer/octicons](https://github.com/primer/octicons) |
-| [Phosphor Icons](https://github.com/phosphor-icons/web) | MIT | [phosphor-icons/web](https://github.com/phosphor-icons/web) |
-| [Remix Icon](https://github.com/Remix-Design/remixicon) | Apache-2.0 | [Remix-Design/remixicon](https://github.com/Remix-Design/remixicon) |
-| [Tabler Icons](https://github.com/tabler/tabler-icons) | MIT | [tabler/tabler-icons](https://github.com/tabler/tabler-icons) |
+### Included Icon Packs (by font weight)
 
-**Total:** 34 TTF font files across 14 icon packs.
+Font MiB = sum of TTFs under `assets/fonts/<pack>/` (measured on disk). Icon counts are generated `ICON_NAMES` lengths.
+
+| Icon Pack | Feature | Icons | Fonts (MiB) | License | Source |
+|-----------|---------|------:|------------:|---------|--------|
+| [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) | `pack-fluentui` | 2 839 | 6.30 | MIT | [microsoft/fluentui-system-icons](https://github.com/microsoft/fluentui-system-icons) |
+| [Phosphor Icons](https://github.com/phosphor-icons/web) | `pack-phosphor` | 9 072 | 2.93 | MIT | [phosphor-icons/web](https://github.com/phosphor-icons/web) |
+| [Tabler Icons](https://github.com/tabler/tabler-icons) | `pack-tabler` | 4 964 | 1.47 | MIT | [tabler/tabler-icons](https://github.com/tabler/tabler-icons) |
+| [Devicon](https://github.com/devicons/devicon) | `pack-devicon` | 1 201 | 1.43 | MIT | [devicons/devicon](https://github.com/devicons/devicon) |
+| [Remix Icon](https://github.com/Remix-Design/remixicon) | `pack-remixicon` | 1 493 | 0.56 | Apache-2.0 | [Remix-Design/remixicon](https://github.com/Remix-Design/remixicon) |
+| [Bootstrap Icons](https://github.com/twbs/icons) | `pack-bootstrap` | 1 409 | 0.46 | MIT | [twbs/icons](https://github.com/twbs/icons) |
+| [Lucide](https://github.com/lucide-icons/lucide) | `pack-lucide` | 1 665 | 0.41 | ISC | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) |
+| [Iconoir](https://github.com/iconoir-icons/iconoir) | `pack-iconoir` | 1 383 | 0.41 | MIT | [iconoir-icons/iconoir](https://github.com/iconoir-icons/iconoir) |
+| [Lobe Icons](https://github.com/lobehub/lobe-icons) | `pack-lobe` | 538 | 0.29 | MIT | [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) |
+| [Ionicons](https://github.com/ionic-team/ionicons) | `pack-ionicons` | 1 356 | 0.28 | MIT | [ionic-team/ionicons](https://github.com/ionic-team/ionicons) |
+| [Heroicons](https://github.com/tailwindlabs/heroicons) | `pack-heroicons` | 324 | 0.26 | MIT | [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) |
+| [Octicons](https://github.com/primer/octicons) | `pack-octicons` | 348 | 0.15 | MIT | [primer/octicons](https://github.com/primer/octicons) |
+| [Feather Icons](https://github.com/feathericons/feather) | `pack-feather` | 287 | 0.06 | MIT | [feathericons/feather](https://github.com/feathericons/feather) |
+| [Carbon Icons](https://github.com/carbon-design-system/carbon-icons) | `pack-carbon` | 145 | 0.03 | Apache-2.0 | [carbon-design-system/carbon-icons](https://github.com/carbon-design-system/carbon-icons) |
+
+**Total:** 34 TTF files · ~15.0 MiB fonts on disk · 27 024 icon names across 14 packs (`all-packs`).
+
+### Trademarks
+
+Some packs (notably **Devicon** and **Lobe Icons**) include glyphs that depict third-party brand marks.
+Upstream licenses cover the font/SVG artwork; they do **not** grant trademark rights to those brands.
+Using a logo glyph in a product UI may still require permission from the mark owner — treat brand
+icons as a separate compliance question from MIT/Apache/ISC.
 
 ### Acknowledgments
 

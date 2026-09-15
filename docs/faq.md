@@ -26,9 +26,12 @@ construct, so `list` / `try_icon` are not callable and fail at **compile time** 
 **not** return `IconError::PackDisabled`).
 
 When at least one pack feature is enabled, a pack you did not enable simply has no
-`Pack::…` variant (again a compile error if you name it). `IconError::PackDisabled` is the
-runtime error used when a lookup path reports a disabled/absent pack (for example the
-no-pack stub with `pack: "none"`); it is not a substitute for constructing an empty `Pack`.
+`Pack::…` variant (again a compile error if you name it).
+
+`IconError::PackDisabled` is kept for a stable `#[non_exhaustive]` error surface. The only
+in-tree constructor is the zero-feature stub (`pack: "none"`), which you cannot hit through
+a constructible `Pack`. Prefer enabling the right `pack-*` feature; do not write application
+logic that expects `PackDisabled` for “forgot a feature”.
 
 ## Unknown icon name or variant
 

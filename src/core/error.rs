@@ -7,7 +7,15 @@ use crate::core::{Size, Style};
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Ord, PartialOrd)]
 #[non_exhaustive]
 pub enum IconError {
-    /// The requested pack feature is not enabled (or no packs are enabled).
+    /// Pack feature absent / lookup path reports a disabled pack.
+    ///
+    /// **Normal feature use does not return this.** Missing `pack-*` features make
+    /// [`crate::Pack`] an empty enum (or omit the variant), so [`crate::list`] /
+    /// [`crate::try_icon`] / [`crate::resolve_all`] fail at **compile time**, not with
+    /// `PackDisabled`. The only in-tree constructor is the zero-feature stub in
+    /// `src/generated` (`pack: "none"`), which is unreachable via a constructible
+    /// `Pack` value. Kept for a stable, `#[non_exhaustive]` error surface and
+    /// match exhaustiveness — not as the “forgot to enable a pack” signal.
     PackDisabled {
         /// Pack identifier (stable string key).
         pack: &'static str,
