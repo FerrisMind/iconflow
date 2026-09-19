@@ -24,7 +24,7 @@ iconflow = { version = "2.1", features = ["all-packs"] }
 
 ## Quickstart guide
 
-See `docs/quickstart.md` for a fast end-to-end setup guide and API overview.
+See [docs/quickstart.md](https://raw.githubusercontent.com/FerrisMind/iconflow/main/docs/quickstart.md) for a fast end-to-end setup guide and API overview.
 
 ## Core API
 

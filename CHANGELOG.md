@@ -11,10 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - README: pack table sorted by font weight (icons + MiB + feature); trademark note for brand glyphs (Devicon / Lobe)
 - Docs: `IconError::PackDisabled` documented as unused on normal `Pack` paths (kept for stable `#[non_exhaustive]` surface)
+- Docs sync for 2.1: ROADMAP current section, FAQ/quickstart anchors, crates.io README quickstart link, Cargo.toml pack count
 
 ### Removed
 
 - CI `licenses` job (`cargo-about` HTML drift compare)
+- Internal handoff docs `docs/spec.md`, `docs/plan.md`
+- Unused `about.toml` / `about.hbs` (cargo-about inputs after licenses CI removal)
 
 ## [2.1.0] - 2026-09-15
 
@@ -24,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- R3-N-09: docs/benches now recommend cold `resolve_all` + warm dense `Vec` for picker grids (avoid consumer `HashMap<&str, IconRef>` memo) — methodology / recommended path note, not a crate bug fix
+- Docs/benches recommend cold `resolve_all` + warm dense `Vec` for picker grids (avoid consumer `HashMap<&str, IconRef>` memo) — methodology / recommended path note, not a crate bug fix
 
 ## [2.0.0] - 2026-09-14
 

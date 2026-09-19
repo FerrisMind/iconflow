@@ -4,15 +4,16 @@ iconflow is a **GUI-agnostic** icon font crate: pack data and lookup only. Consu
 register fonts and draw glyphs in their own toolkit (egui, iced, or anything else).
 There are **no** `egui` or `iced` Cargo features and **no** public per-pack icon enums
 (`LucideIcon`, `PhosphorIcon`, etc.). The public lookup surface is `fonts` / `list` /
-`try_icon` plus the `Pack` enum (including `Pack::FluentUi`).
+`try_icon` / `list` / `resolve_all` plus the `Pack` enum (including `Pack::FluentUi`).
 
-## Current (2.0)
+## Current (2.1)
 
 - 14 icon packs behind `pack-*` features (`all-packs` for demos/CI)
 - Optional size gates: `heroicons-tiny`, `heroicons-mini`, `octicons-tiny`
 - Committed `src/generated/**` from `cargo xtask gen`
+- Public bulk resolve: `resolve_all` for picker cold paths (order matches `list`)
 - Examples under `examples/v2.0/` (egui + iced; toolkit is a **dev-dependency**, not a crate feature); `docs/historical/v1.0/` kept as a 1.0.0 API snapshot
-- CI: fmt, clippy, tests, docs, package list, licenses, bench compile smoke
+- CI: fmt, clippy, tests, docs, package list, bench compile smoke
 
 ## Near term
 

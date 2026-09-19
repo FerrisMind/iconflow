@@ -19,7 +19,7 @@ If `Pack::Bootstrap` (or another pack) is missing, enable the feature in `Cargo.
 iconflow = { version = "2.1", features = ["pack-bootstrap"] }
 ```
 
-### Zero pack features vs a disabled pack (R3-N-06)
+### Zero pack features vs a disabled pack
 
 With **no** `pack-*` features enabled, `Pack` is an empty enum: there are no variants to
 construct, so `list` / `try_icon` are not callable and fail at **compile time** (they do
@@ -39,7 +39,7 @@ logic that expects `PackDisabled` for “forgot a feature”.
 an unsupported `(style, size)` yields `IconError::VariantUnavailable` (with `available`).
 Neither case panics. The `name` field on those variants is `Cow<'static, str>`.
 
-## Default `(Style::Regular, Size::Regular)` is not universal (R3-N-07)
+## Default `(Style::Regular, Size::Regular)` is not universal
 
 Do not assume every pack ships a Regular/Regular glyph. At minimum:
 
@@ -60,9 +60,11 @@ The pack enum variant is `Pack::FluentUi` (feature `pack-fluentui`). There is no
 ## Icon pickers (cold + warm frames)
 
 For a full-pack grid, prefer [`resolve_all`](https://docs.rs/iconflow/*/iconflow/fn.resolve_all.html)
-once (linear table walk; order matches `list`) instead of `n × try_icon` or a
-`HashMap<&str, IconRef>` memo. Keep the `Vec` and index it on warm frames — name-keyed
-hash maps are slower and are not part of the crate’s hot path.
+once (linear table walk; order matches `list`) instead of `n × try_icon`. Keep the returned
+dense `Vec` and index by position on warm frames. Building a `HashMap<&str, IconRef>` is
+expensive relative to one `resolve_all` pass; once built, name lookup can be faster than
+`list` + `try_icon` binary search — use a map only if the hot path is name-keyed and the map
+is built once.
 
 ## Known limitations
 

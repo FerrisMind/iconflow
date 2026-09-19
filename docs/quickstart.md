@@ -47,7 +47,7 @@ Bootstrap (and several other packs) accept Regular/Regular, but **heroicons** an
 **remixicon** do not — they expose `Filled` / `Outline` at `Size::Regular` instead.
 Calling `try_icon(..., Style::Regular, Size::Regular)` on those packs yields
 `IconError::VariantUnavailable`; use the `available` field on the error to choose a
-valid pair. See [faq.md](faq.md#default-styleregular-sizeregular-is-not-universal-r3-n-07).
+valid pair. See [faq.md](faq.md#default-styleregular-sizeregular-is-not-universal).
 
 ## egui integration (minimal)
 
